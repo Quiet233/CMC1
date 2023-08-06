@@ -1,0 +1,424 @@
+903df1c6920db792b4249a2f9e3e130fef8bcc20,/,/,    patches for Groovy-748 (ensure files are closed)  Groovy-1125 (intersect on Collection)  Groovy-1141 (conversion from int to BigInteger)  Groovy-1236 (unique on Collection)  Groovy-1262 (NPE in MetaClassHelper)  Groovy-1439 (use closure as for interface implementation)  Groovy-1529 (use map of closures for interface implementation),/,/,0
+76f48d963ad1f0242fc10bb2d74081eb37d97055,/,/,    testcase changes (mostly because of the addition of iterator() and the reduced functionality of Invoker) to the commit earlier today,/,/,0
+2024298f6abce3ecb48c7b5172780bfdcbab8b61,/,/,    MOP preparations: a new typehandling package contains now the number math classes and many methods from Invoker. ScriptBytecodeAdapter and InvokerHelper do now use these functions. The bytecode is changed to provide an additional "sender class" that can be used later for handling visibility. As part of the clean up AsmClassGenerator has been changed and got a unified way for method calling Object gained a iterator() method  that was before implicitly handled by Invoker.,/,/,0
+0fb96cd1aab742ca7395b613203b01f5d31ccc7e,/,/,    makes an AttributeExpression to a child of PropertyExpression and completes the dynamic member selection. It is then possible to not only do "$name"() but also this."$name"()  or this.@"$name" or this."$name". Now even this is possible: this.("foo"+bar)()  building a method name through an Expession  where bar is a local variable. Of course that is just another variant of the GStTring way. the Expression is always(!) casted to String at the end ,/,/,0
+c265d3c3d913b37b17870f1203bd130099bfdd2a,/,/,    class for extended code visiting support,/,/,0
+7b3da89aa7961b6b574ac759ee5442838a972fbc,/,/,    this commit contains the reimplementation of the scoping. The complete scoping is removed from the ACG. Additionally some code from the ACG is transfered in a Helper that manges labels  scopes and variable creation in a stack. All checks from JSRVariableScopeCodeVisitor are transfered into the ClassCompletion verifier or the new VariableScopeVisitor. Additionally some checks for labels were added with the LabelVerifier. ACG was changed so a DeclarationExpression will no longer create a local variable and if a variable is a filed or protperty accessed from inside a closure ACG will no longer try to access that field directly. Instead the closure has to resolve these cases at runtime.,/,/,0
+b76479e58bc1b59d9dd15d3e69f5233e914ed590,GROOVY-1202,Improvement,provide a feature to declare TestCases as &apos;notYetImplemented&apos; and thus expected to fail,None,Minor,1
+508014648861e06c54f5e9da6fc31d9074ab8426,GROOVY-472,Bug,interactive shell can&apos;t handle strings which span multiple lines,None,Major,2
+ ,GROOVY-1021,Bug,Can&apos;t do multi-line input with groovysh since JSR-02,None,Minor
+6c3182f6fc7becd9aebc7c1b64d9005cba17eb39,/,/,    this committ removes the class org.codehaus.groovy.ast.Type completely and transferes its functuanality to ClassNode and ClassHelper. A ClassNode can now be a primitive type or any other type created with an class file available. ClassNodes can now be primary  which means they are the a result of a class definiton in a file - unlike a ClassNode created from a Class. All phases till actual class creation should work on ClassNode instead of Class. So all Class handling code in ACG is transformed to ahndle ClassNode instead. A ClassNode can contain a redirect now. This is used when multiple names point to the same ClassNode. This mechanism was used instead of a replacing like with the Type class. This was needed because all class resolving code is transfered into a single phase right after creation of the groovy ast and to avoid creation of huge amounts of code to replace a ClassNode in statements and expressions.,/,/,0
+3daf75868570f29f7e6bd3cfc1f700c979f5493b,/,/,    Move XmlSlurper and the Streaming Builders out of the sandbox,/,/,0
+0e621fdecf3e8ab9db2fe9eea10bae5d2dc4b695,/,/,    This patch removes many string descriptons of types from the class generator and enfocres the usage of the class Type instead. A new interface is introduced for nodes which are possible variables,/,/,0
+b25c8875f0b3052d0ab1af49faf5cbb131d7e98c,/,/,    a first try to implement some simple scope checks and some modified tests,/,/,0
+ebeff74b1830d3da8abdcbd688aeb736f9a07fce,/,/,    Moved the classic parser out into a separate module (groovy/modules/classic) to avoid distributing code with folks using the JSR. Moved the old classic test cases over too to avoid us getting mixed up.,/,/,0
+dc80e0d9207a4f40a69f62a7e6e126b62775ad96,/,/,    at the moment we don't support the CompilationFailedException exception,/,/,0
+8d097a9a382f79219b91bdbf5f5a66f832e3e369,/,/,    delete the old test cases which we used to use while the JSR parser was outside of the core,/,/,0
+21434767b3271ae5e976bccb869feaa61389ae3f,/,/,    * Commented out tests in UberTestCase*   this is not because it is the easy,/,/,0
+35b7f77eb1069b120879e7a3a794cf84e9554971,/,/,    moved over the new test cases,/,/,0
+1da3d2addb61ec6d56e4fcf6f520b22072098c42,/,/,    moved the old classic tests to test-old to keep them around,/,/,0
+4e4d6e8507920c0424a83c5fc9ec188bf59557ae,/,/,    * moved JSR antlr parser into groovy-core,/,/,0
+9354b2164cf0603fbc8226c7e4ea0f66e1895e5a,/,/,    Fixed another test & moved over the TestSupport class that a few tests depend on,/,/,0
+d40307d5fb24fe01c4c5db0cff3abaf37ecdac18,/,/,    added the classic test cases to the New Groovy test area so we can start trying our hands at runing the new parser against the classic tests,/,/,0
+4d9306c7b50c1c48750ac01cf5144939006b4c64,/,/,    removed old dead code,/,/,0
+80eec18dea97ba3353e6c90597c6a7250827fa1d,/,/,    * BIG CHANGE TO TEST PROCEDURES,/,/,0
+607466324bdb647a4b78f5895af55326e5643d4f,GROOVY-648,Improvement,Fall through to method closures call from the binding of a script,None,Minor,1
+f98ac8e2bb33988cbc434bd910d1f35e6f4e349c,GROOVY-464,Bug,provide access to public fields if they overload properties,None,Major,1
+40a77e4fa06b0e5361ea21cd678f51332f2cfee8,/,/,    allow any scripts to be ran by the GroovyTestSuite inside any JUnit tool,/,/,0
+814fb33f88a5439206c1388cd1e97339afb2000a,/,/,    added code for static method dispatching. The main changes are in AsmClassGenerator2  which deprecates AsmClssGenerator  and all the Expression subclasses and nodes that deal with type information. Some changes are not really related to call dispatching  but I have included them in the batch. The early-binding mode is turned off by default (see AsmClassGenerator2  line 200) the default mode checks for -Dstatic.dispatching=true and turns on early-binding accordingly.,/,/,0
+cbaffa8c4f7342f878d04095139d45dbd3545fb6,/,/,    Added integer division operators \ and \=,/,/,0
+57087785d5fc9523eff1bc682a4188536e298786,/,/,    minor refactor to allow ClassGenerator to be implemented using some Java AST model instead of ASM. This lets us experiment while preserving the AST back end until we make a choice on which direction to go in.,/,/,0
+a0a831f4e3eec5ec04b561a02846c07031f63780,/,/,    Centralized compilation management and error handling.,/,/,0
+64e65829fa69dec52d9653087f9d6e65e59b9028,/,/,    Overhaul of Groovy parser and lexer.  Includes numerous bug fixes  enhancements ,/,/,0
+9ead0b3f69dca62cbfebc9da49f3cc4819c93196,GROOVY-303,Bug,import using package.* doesn&apos;t seem to work properly for implements/extends class,None,Major,1
+3035d1a8df2b413f03aed7bce062415b0f519581,/,/,    Applied patches kindly submitted by Chris Poirier to refactor the code  add better warning level support to the compiler and to document the code.,/,/,0
+42af6d21b8ee3ef965624ab3b6220a969a1f22aa,/,/,    New For loop which handles JDK 1.5 style for loops using : or in along with an optional type,/,/,0
+67b24e35f97f842bcd8b927240de06a601a0c99c,/,/,    First part of refactor to remove reflection code from CVS and to use bytecode generation instead to invoke methods.,/,/,0
+2f0aa033f9e37595ed09992f6f8162d5238172a9,GROOVY-144,Bug,A closure body can&apos;t be a single identifier,parser,Major,1
+54780d2d76cefc64086c8ff3881b5ca6bd9d2523,GROOVY-115,Bug,fix the bug Guillaume found with using foo++ as a key value,None,Major,1
+96bbd97d36b9000640f58f00f87607c0d3700dcb,/,/,    Fixed a bug related to the instanceof keyword.,/,/,0
+99d9a28f78f54224a7f2bb16ac9bb6a2a3fabc05,/,/,    Made the parser more strict so that "foo bar" is no longer interperted as "foo; bar".,/,/,0
+a9bc5a3c070194738349267bf5fdf6721ca2195e,/,/,    Fix for serialization issue Rod found. All Groovy objects are now easily serializable,/,/,0
+b2c047499c964c2f1b284ae33526b8b4aac47740,/,/,    Fixed Rod's bug where typed expressions barf. Added his test case as a unit test,/,/,0
+5ac9a33faaf8fbe776b46f105ff83b017aab9102,/,/,    Another fix for bytecode generation; this time handling casts for outer fields when using closures,/,/,0
+abb0b46e8d5c5b13b54afaa3c8da554ec0ec05b8,/,/,    A minor refactor to make it easier to debug the bytecode generation of inner classes (for some reason the 'maven asm:dump' doesn't dump inner classes),/,/,0
+fd35ea583ef4636d97eccf6318babd7111a10e4d,/,/,    Progress on primitive types support. Constructor support.  Some servlet fixes.,/,/,0
+879a38f37f8ed32b5e7ac61ff0cd383c2ead32c5,/,/,    Made closures a little more 'real' allowing outer variables to be passed into the inner closure.,/,/,0
+e5532b3cda0bf96bbc1d3bfd3ad4de931186be86,/,/,    Added front end compiler implementation of various new syntaxes like switch  case  break  continue  throw  synchronized.,/,/,0
+99acb82ba3065a7eb5cf8c8a7a0ea4220b56c2a1,/,/,    Groovy-42 FIXED: This adds ! support to groovy.  I tried a number of different strategies for adding it and this was the least traumatic.  Javac supports ! by reversing the compares that are done in the underlying expression.  This proved to be an extremely large change for something that is easily handled with a utility method.  I do suggest that when we go back to optimize groovy that this may something that can be done more efficiently.,/,/,0
+4323c4ba67cf49d955a002a63f9395abe5fc4fc2,/,/,    * applied Sam's patch to tidy up the MetaClass,/,/,0
+c0d7b88427a76246ac539cde0f1afddef503d97e,/,/,    Apologies for the monster commit everyone - was stuck travelling for 24 hours so had heaps of time to hack groovy - without WiFi in Houston or Gatwick :(,/,/,0
+e03f681c24109f23b69f4dcf9223f1aaeae9ce75,/,/,    Minor patch to the GString expression changes  so that by default strings are turned into ConstantExpressions unless they have at least 1 dynamic value,/,/,0
+d257099d278c6034278e7a8ebdebef9b70a1d780,/,/,    Minor fixes to avoid some PMD code warnings  mostly removing unused code & adding some equals() implementations.,/,/,0
+353ef84ee8e2cb01fd24e4414721d2b59387c4ac,/,/,    Deleted the old & dead interpreter (we can now use GroovyShell as an interpreter instead) and added the swiitch statement to the AST,/,/,0
+2c9079ed221f427ffe798f261a9f42ea40b6d8f8,/,/,    Fully working BSF engine including variable passing context etc.,/,/,0
+b8393d4b46f4311ba83430c142ed103e5bd6219e,/,/,    Added support for the running of Groovy scripts without a class required,/,/,0
+d5166cb9237df134d018db74429c505e62de596d,/,/,    Refactor to introduce a single CompileUnit which owns all the modules and classes in a compile so that we can know for sure which classes are in the compile unit and which are not. We can also detect duplicate classes and so forth.,/,/,0
+c19b715babd13b7d78bc8acfce63dc9bf4be5a9c,/,/,    Added initial checkin of the GroovyDataObjects (GDO) developed at GeekNight with Chris Stevenson for creating groovy data objects via normal Groovy syntax (rather than SQL) and using closures for predicates or view projections or order by clauses,/,/,0
+24a7559a97b7565f860dee5e52680e90d4fee7ae,/,/,    Minor refactor - moved the AntBuillder and GroovyMBean classes into the groovy.util package to make the groovy APIs simpler to use.,/,/,0
+7cdfaa32723c10eaa5952a8d301f07bb0a14b548,/,/,    Numerous changes.,/,/,0
+573d6796c8ccfd4181bc7fe0c5ec67701448d0c6,/,/,    Refactored CompositeString to be called GString :),/,/,0
+a03930c1046a323bc1ade98605c24c7032ae67b2,/,/,    * added SAX and Markup builders for easy creation of SAX events or XML / HTML markup,/,/,0
+4e5fee40f36e16b602bd901e42711bb2f5ccc716,/,/,    Added more working CompositeString unit tests,/,/,0
+3eb4e92469fd21863b1af1b87caf882349a8abb0,/,/,    Got the CompositeString implementation working along with a test case for using it,/,/,0
+764ab7a732a72c0585966fcbb62c2b30466738c9,/,/,    Re-added the CompilerTest which is handy for debugging things by turning on the debug flag & seeing the assembly bytecode of the generated classes.,/,/,0
+a98591ea64a749df9d9a5dcca9c5183456d39dc6,/,/,    Minor refactoring to add a CompilerFacade.,/,/,0
+87fe7387851580b2230a0b0fd383f9a1a137cf62,/,/,    Added initial support for mixins. There's some work to do before we can fully support them but at least the basics are there now.,/,/,0
+5f0531504712ab766f7cc24e8e1ee03089994444,/,/,    Added support for constructors! Thanks to bob's work this weekend we can now create new objects inside Groovy scripts - who-hoo!,/,/,0
+f3eae213c50ba50aa9841155ffb0f2ff839a4fb9,/,/,    Refactored the test cases to take out semicolons and to remove package statements.,/,/,0
+bc3e65b5e6d0b0c10c946a20dcae67e2f61aeaf5,/,/,    Fairly large refactoring - the statements and expressions are now all named properly to make bob happier and have been refactored into sub packages to make it easier to see whats going on.,/,/,0
+009a7bd4de6fac2a90bea208507903a0dfcdc602,/,/,    Refactoring of compilation stuff.,/,/,0
+1c86825f8baeb9c34c433c059340a6fb70b0576e,/,/,    Hey look  new expression.  At least the -front- end.  The class generation,/,/,0
+425d36a3978b55e7cfd66b7977e9487a18fab8f2,/,/,    Numerous changes,/,/,0
+82f0514cdab58c920cac1392febbd8ffa4a49ce7,/,/,    Added support for field initialisation and for each generated class to implement GroovyObject.,/,/,0
+ec6321cde182487f05c420be436833f232e78862,/,/,    refactored code so that groovy.lang is the core package available to groovy scripts which is implicitly imported,/,/,0
+2983b9e0a398cc5d156e2f446f2f203868ce292c,/,/,    updated documentation links and fixed the access of outer class fields for inner classes,/,/,0
+e1ea7417a7e9e48b963dfa540e125a956c24e691,/,/,    added tests for using method pointers as closures,/,/,0
+bb2273b91f88397490f67e5be94c9eb9d2a741ad,/,/,    more testing and fixes of closure methods,/,/,0
+d0f22e3e9bc9d5bba803c06b2953e95176685dc0,/,/,    * various fixes for static fields and static method invocations,/,/,0
+1dc96b90f0612ad2642a415227379e02c48a4e5e,/,/,    Method invocation.,/,/,0
+0bb5a5fd890ad6ca46694555b208d3c30328e879,/,/,    Pushing line numbering and test-getting down to ASTNode so both,/,/,0
+f604e00970231c359771075b86642ea275c5bf1f,/,/,    Nearly got all the test passing again after having to change the stack processing mechanism somewhat to handle more complex statement blocks,/,/,0
+698df9f5b0816e05bbf97a390428f8ef94e0cdbf,/,/,    Range expressions.,/,/,0
+99dddd8f0996537691c001be1852d41e302f8dd4,/,/,    merge to 10258. 9967 is excluded  because it contains a braking change to 1.5.1,/,/,0
+dc9d6df7761a49ff6f5215537372f1951f353226,/,/,    start of 1.5.2 branch,/,/,0
+d085e62dbdbfdce3bace37160506b78102c76cbc,/,/,    1.5.1 release,/,/,0
+78cb3185c0c368cb3514735d97d8901a03557fa4,/,/,    SwingBuilder  from Java -> Groovy,/,/,0
+21f49c49a007f29be44f4977856f75da0a937cb0,GROOVY-2091,Improvement,enum support,None,Major,1
+ef77a9384472b479eb8e6c67434fdf46f9a2708b,GROOVY-1978,Bug,static imports not working with groovy classes,groovy-jdk,Major,1
+ba967f594eb869fd5908133342d34278730a7e61,/,/,    reformat test code,/,/,0
+905b980227d94ff6e95bacacb6fc059a3362462f,/,/,    Added initial implementation of Groovydoc,/,/,0
+e9f2ea4a0cb6d56b4d29b2534786df64083c99dd,/,/,    Move more MetaClass related stuff into runtime.metaclass package,/,/,0
+5751d8d642edf92524f54e057c3369a6a4917783,/,/,    Add groovy.lang.GroovySsytem to hold system data,/,/,0
+9ebea0cbddcad1ab6636da61962a368138828bf0,/,/,    First step in making MetaClass an interface,/,/,0
+2368f6a50e0cf146a4f575e441e8b963b0243a65,/,/,    merge changeset 11553 from trunk,/,/,0
+2fb64dc3d79affb0cbc9aebbffec1030fd833ab5,/,/,    creating branch for 1.5.5 release,/,/,0
+7b9a5ea4ab32ed00ca8b5ba23371ce47a3258c48,/,/,    adding some missing else parts to get/setAttribute and get/setProperty,/,/,0
+29f8fdfcd890a246abd59cbf82d39e8893116997,/,/,    adding some missing else parts to get/setAttribute and get/setProperty,/,/,0
+dcb94d5727f9a9f393144ee78daa83d28489ce8a,GROOVY-2604,Bug,Annotations on a local variable crash GroovyC,ast builder,Major,1
+dd84b92480f20131a933dcfa8248485498df41d7,GROOVY-2604,Bug,Annotations on a local variable crash GroovyC,ast builder,Major,1
+d6d5248508a1e21fa98d64f64062a4e50142dfa6,GROOVY-2700,Bug,Joint compiler incorrectly assumes that subclass is a Java class,None,Major,1
+17dc687e63c556d3c860aa5455f9bfafaacf767e,GROOVY-2700,Bug,Joint compiler incorrectly assumes that subclass is a Java class,None,Major,1
+d04239e1d64833d8d00f928caa1d11f52e6b5441,GROOVY-2698,Bug,Method dispatch with overloaded methods for Java types doesn&apos;t choose the most specific method,bytecode,Critical,1
+d34bf50bfbd84d3886b3720156bef6c94a779772,GROOVY-2698,Bug,Method dispatch with overloaded methods for Java types doesn&apos;t choose the most specific method,bytecode,Critical,1
+bbce10eb34199397409b6dea6268f8c13545295d,GROOVY-2719,Bug,wrong method override is chosen,None,Critical,1
+701c5ff98490945ba06d915c03af021431e59d0b,GROOVY-2719,Bug,wrong method override is chosen,None,Critical,1
+2542e81350912b3415b2423fcb4f34f8bcc5e92f,/,/,    merge changeset 11447 from trunk,/,/,0
+a0bb8c9dcff794a008e8b7c948fba70aa43ddf53,/,/,    merge changeset 11447 from trunk,/,/,0
+4f432b69a924b4a4d165e3ba82d2c8ddc69f8cd2,/,/,    merge changeset 11504 from trunk,/,/,0
+d9e9a8c97c7d3ddf5b1c20c37d64e7f597780121,/,/,    merge changeset 11504 from trunk,/,/,0
+fc8acf4bf2d8fc9b97e1eb9e26b43b51d41bb7e5,/,/,    merge changeset 11437 from trunk,/,/,0
+f1ff6a75296d9fdd68e67063a9835e1977b9ee0b,/,/,    merge changeset 11437 from trunk,/,/,0
+0576d4675a40b0a65d27da08f49b36afe6efabc8,/,/,    merge changesets 11333  11361 from trunk,/,/,0
+57ca72077e6f03eb03b4f0ab18b20f1ea066c51d,/,/,    merge changesets 11333  11361 from trunk,/,/,0
+a1aabe1090d0f6371430472aaed24ca3bb318d86,/,/,    comment out an accidental commit,/,/,0
+06c0a382210f2ceedc631e6deae469a619fef34a,/,/,    comment out an accidental commit,/,/,0
+705d33a16a340d99241fde2ee32e870024ba00f2,/,/,    merge changeset 11422 from trunk,/,/,0
+32dce4a972fedb4d74c0a10613088ac21d77fb68,/,/,    merge changeset 11422 from trunk,/,/,0
+9d71c7e198783f49491676bf55626777de1f0d30,/,/,    merge changesets 11275  11279  11287  11302 from trunk,/,/,0
+67e0a6ef2eeba3d602562feba8dd8aa102716d86,/,/,    merge changesets 11275  11279  11287  11302 from trunk,/,/,0
+e44e221216e4eaec5993453adeb0d14b782aa376,GROOVY-2647,Bug,Linenumber for exception during script execution is not reported,None,Major,1
+7fe2eed0da0895d704b0da56cad69f8f7a733b7b,GROOVY-2647,Bug,Linenumber for exception during script execution is not reported,None,Major,1
+d3ca21a2531f8490df4f0aa30323ab52cbd96d6d,/,/,    merge changeset 11254 from trunk,/,/,0
+fc17279c2b79666de5d10cd49bbececa5b20cd35,/,/,    merge changeset 11254 from trunk,/,/,0
+c02056ff5a6f719e1d54d22ddbdc1ce53f1ef936,/,/,    merge changeset 11207 from trunk,/,/,0
+5ea6dbbc563502d3cef9f869ebc0276b9dac0c1b,/,/,    merge changeset 11207 from trunk,/,/,0
+f5147bbe850d15d5bbf8310f8b2fb6509415a3da,/,/,    Merge changeset 11225 from trunk,/,/,0
+e310a933c23f0806a4999d167881ecf1f0bbd27c,/,/,    Merge changeset 11225 from trunk,/,/,0
+41f3e11188acc791725bc9523ad7b060a71e724d,GROOVY-2705,Bug,ProxyGenerator.instantiateDelegate fails when there are overridden protected methods,groovy-jdk,Major,1
+11422a4e76db481d1f673c73d3ce2d698661847d,GROOVY-2705,Bug,ProxyGenerator.instantiateDelegate fails when there are overridden protected methods,groovy-jdk,Major,1
+9462df288d48d473be3497e46438d0b1404760b2,/,/,    merge changesets 11195  11199  11203  11211 from trunk,/,/,0
+3bf92402ee1c45476ce2a51126657f49118a5dc8,/,/,    merge changesets 11195  11199  11203  11211 from trunk,/,/,0
+f93d8dd9af6d147400920b19cd87ae544c6e1dd8,/,/,    update CHANGESET-INFO.txt,/,/,0
+043acd4d6aa62fb0cedf0f08a8a5d668ca69a508,/,/,    update CHANGESET-INFO.txt,/,/,0
+90bf34b538ddf469f0e0ba7f47d59d0f79a6f275,/,/,    merge changesets 11164  11168  11169  11173  11174 from trunk,/,/,0
+a760316c17b1da3ed8a98845fad541af639085de,/,/,    merge changesets 11164  11168  11169  11173  11174 from trunk,/,/,0
+716777e41df43f91b3a7c882180e74b91ade37ca,/,/,    Remove test for logMethodCall messages that were removed yesterday (r11137),/,/,0
+8a53abc98bf1239a2b585d0761e90b5e145072e2,/,/,    Remove test for logMethodCall messages that were removed yesterday (r11137),/,/,0
+f16019be4080fa9ede19665603e7bbd530598fdf,GROOVY-2694,Bug,CachedClass.CachedMethodComparatorWithString doesn&apos;t work on non Sun JDK,None,Critical,1
+f4096206302fb680c9fc7054381ff90732afaadb,GROOVY-2694,Bug,CachedClass.CachedMethodComparatorWithString doesn&apos;t work on non Sun JDK,None,Critical,1
+09b1e15724d34c896b6ae992c4db809ff77f3e3a,/,/,    reduces the class loading lookups even more. The time for "ant build" in Grails goes down by 60% compared to 1.5.4 this version is around 3 times faster now,/,/,0
+8eff111997db9a796f0342a920c9b22a7e3fbb4c,/,/,    reduces the class loading lookups even more. The time for "ant build" in Grails goes down by 60% compared to 1.5.4 this version is around 3 times faster now,/,/,0
+a0f734c9e75fb02e4f45e88202c934f2f1e3b00b,/,/,    Getting rid of logMethodCall,/,/,0
+f7d80a798ba19ece75ebc798017045f4658a6fee,/,/,    Getting rid of logMethodCall,/,/,0
+74003473c4770c90060d672d67b912762a920816,/,/,    merge changesets 11124  11128 from trunk,/,/,0
+6ac6f4d7aa7df34cc243c94b70701457fa7ccf1d,/,/,    merge changesets 11124  11128 from trunk,/,/,0
+4963920149ab4f423da2583d0ace4f3ce1b087f9,/,/,    merge changesets 11112  11117 from trunk,/,/,0
+0d7ce2b9f8dbeadfaffa72d78d3a03c81820c04f,/,/,    merge changesets 11112  11117 from trunk,/,/,0
+577aff318325222f15edb42a128c41865ac94a7e,/,/,    merge changesets 11102-11103 from trunk,/,/,0
+98c86d3840392951bca05d398d561f6fa06f4a0e,/,/,    merge changesets 11102-11103 from trunk,/,/,0
+41cb990497d9c32ec0a4a35dc9a90bbc641b8be2,/,/,    merge changesets 11093  11094 from trunk,/,/,0
+1ee6d5197976b6328064369cc17038fbd1bc8557,/,/,    merge changesets 11093  11094 from trunk,/,/,0
+5c28ef8371b4d7141e6e56b467daac93e737a7b9,/,/,    merge changeset 11091 from trunk,/,/,0
+4a9ca0349926d8f85c50ef7b651292f0051497d8,/,/,    merge changeset 11091 from trunk,/,/,0
+26b450065d6b222e540b0f44c32b9516286b9ba4,/,/,    merge changeset 11089 from trunk,/,/,0
+22cabbefc4807885fd5aeb83273e45f7b7c1f285,/,/,    merge changeset 11089 from trunk,/,/,0
+d140e8a1feecb26782f097ffd1741f36d48ea01c,/,/,    merge changeset 11087 from trunk,/,/,0
+289b64b762abacda3f7f74632c49fed29b5dcec1,/,/,    merge changeset 11087 from trunk,/,/,0
+b167e91704a2520743013a768874043ed52f9035,/,/,    merge changesets 11065  11066  11077  11081-11083 from trunk,/,/,0
+e07e58531186253fd49a4c73a0f781b9aac90124,/,/,    merge changesets 11065  11066  11077  11081-11083 from trunk,/,/,0
+af79ba24db44ad014c70f07c247856d60c638b1e,/,/,    merge changesets 11056  11058  11062 from trunk,/,/,0
+1d01a7e5c57c47a4023e6fc86052fec3e32faba0,/,/,    merge changesets 11056  11058  11062 from trunk,/,/,0
+99296677951aa9a06b3dcc6ac9fac01905acabd4,/,/,    merge changeset 11050 from trunk,/,/,0
+4c04ee720ab4800bf3b205863b344b1b3d2ee840,/,/,    merge changeset 11050 from trunk,/,/,0
+cd090f23430a6a7e926461edabad87a1b9b53f3f,/,/,    fixes a bug introduced by rev 10936. The inner class naming was corrupted and a class X.Y became X$$Y instead of X$Y  also the was a wrong handling of the package so that foo.X.Y became fooX$$Y  instead of foo.X$Y. The test ensures this won't happen again in this way,/,/,0
+c3a8679f5d8196e486f6ffdb33171bbe2cce7416,/,/,    fixes a bug introduced by rev 10936. The inner class naming was corrupted and a class X.Y became X$$Y instead of X$Y  also the was a wrong handling of the package so that foo.X.Y became fooX$$Y  instead of foo.X$Y. The test ensures this won't happen again in this way,/,/,0
+bb5cfcdab2d221593def3294c55ba37ba72c53b7,GROOVY-2643,Bug,Delegate property is ignored by closure,None,Blocker,1
+658fb6b43b58bf7ef16068eb7773c68f8c0350cb,GROOVY-2643,Bug,Delegate property is ignored by closure,None,Blocker,1
+e302f5cae8a5a44464021e677d897fb5067b40f6,GROOVY-2643,Bug,Delegate property is ignored by closure,None,Blocker,1
+ec28cc5f21f9353b4379f4c46c3e8045adbfaa6b,GROOVY-2643,Bug,Delegate property is ignored by closure,None,Blocker,1
+b2c23c8d7bd58d9c675a12b615d0a84a21f0823b,/,/,    merge changeset 11029 from trunk,/,/,0
+c51cce49e9d3f258d7eaf59a37698a68d4b25de3,/,/,    merge changeset 11029 from trunk,/,/,0
+cb0c1ad8d631ccf02ca94019978bebfb54bb3a8b,/,/,    merge changeset 11023 from trunk,/,/,0
+30343977a21bd07730ece1d393fe9bbdcc904e05,/,/,    merge changeset 11023 from trunk,/,/,0
+2d5ab513108bb5e41761753ab23189c12630bae3,/,/,    merge changesets 11006 11007 from trunk,/,/,0
+fe434379e1d95c4d38bfc1b2c1f836b6241bb14f,/,/,    merge changesets 11006 11007 from trunk,/,/,0
+99983240e71c2b844944a8a8bb5bc22804bc6089,/,/,    merge changeset 10959 from trunk (forgot CHANGESET-INFO),/,/,0
+39f5a1d3c5cd8ad09e0e4d1ed07a937a7f766493,/,/,    merge changeset 10959 from trunk (forgot CHANGESET-INFO),/,/,0
+8d2539b47982d7f2c711afaf3faf9f82cadd9adc,/,/,    merge changeset 10959 from trunk,/,/,0
+07060149ffa531c80d5225f835f29959f266fbfe,/,/,    merge changeset 10959 from trunk,/,/,0
+6c31ef0e2594e861a5a97993636c5fd49d88d7f5,GROOVY-2628,Bug,Command line option for classpath (--cp/--classpath) is broken on Windows,None,Major,1
+77588887baa8510a93571f2111504025187a2b94,GROOVY-2628,Bug,Command line option for classpath (--cp/--classpath) is broken on Windows,None,Major,1
+e1f0dfb07bd366f5a6a962b2369d842c7fd4a621,/,/,    merge changeset 10881  10898  10939-10941 from trunk,/,/,0
+c13a0b9400b671327875b2f66a743553f61645db,/,/,    merge changeset 10881  10898  10939-10941 from trunk,/,/,0
+e00b2c5a619c1b49897362540713e3b78b16e0a3,/,/,    merge changeset 10826 from trunk,/,/,0
+e1089a63cacc11a99343875d4bba07e7f2628066,/,/,    merge changeset 10826 from trunk,/,/,0
+1dd3d5897dab4b570a47c6c48ba5c28cc242f3da,/,/,    merge changeset 10810  10814  10815  10757 SwingBuilderTest from trunk,/,/,0
+39c2d84a41866acc891e2094dcbb51caafa1f5c8,/,/,    merge changeset 10810  10814  10815  10757 SwingBuilderTest from trunk,/,/,0
+1b937315deb9e365b743a4e4d3f02a9ec9067257,/,/,    reduces the lookup of inner classes the compiler does. The effect depends on the sources of course  but it seems that calls to loadClass are reduced by about 44% and grails build time goes down about 33% here.,/,/,0
+cd1b55126df67d8dc1cf73600017dcfb21ebc7cb,/,/,    reduces the lookup of inner classes the compiler does. The effect depends on the sources of course  but it seems that calls to loadClass are reduced by about 44% and grails build time goes down about 33% here.,/,/,0
+9852223ab74ebc6ad80044a60fefbc1f96fcd0ea,/,/,    r9957 - fix nibus LAF name,/,/,1
+ ,GROOVY-2856,Bug,groovy.sql.DataSet should alias table name in SQL to accomodate http://download.oracle.com/docs/cd/B14117_01/java.101/b10979/resltset.htm#sthref1543  17.2.2.1.1 Workaround,SQL processing,Minor
+ca4a8814a3dcf31537d09c8704da921eb879c881,/,/,    r9957 - fix nibus LAF name,/,/,1
+ ,GROOVY-2856,Bug,groovy.sql.DataSet should alias table name in SQL to accomodate http://download.oracle.com/docs/cd/B14117_01/java.101/b10979/resltset.htm#sthref1543  17.2.2.1.1 Workaround,SQL processing,Minor
+5c4351e554c68eab24f1f74baaab693f7e40a06e,/,/,    merge changeset 10731  10749  10753  10763  10767  10779  10783 from trunk,/,/,0
+baf60322f0630261243c90e2addf4d10365905dc,/,/,    merge changeset 10731  10749  10753  10763  10767  10779  10783 from trunk,/,/,0
+0fa0657b8c439a9dd5e38d6c2f3a3ef211033a5c,/,/,    merge up to changeset 10724 from trunk,/,/,0
+0c8aa32105b5849b2cbc7e4ab3f09ddc14050464,/,/,    merge up to changeset 10724 from trunk,/,/,0
+54d1621820f9a58d01e67a4e72d079d7903391b7,/,/,    merge changeset 10701  10711 from trunk,/,/,0
+5fcb35c0fa34d9c3866970c0d6d3192f3fb2dfc3,/,/,    merge changeset 10701  10711 from trunk,/,/,0
+208e4557d61b41704fc4229186a261ad1ad6fd5f,/,/,    merge changeset 10609 from trunk,/,/,0
+691c0d045fdd92f6f56db7af64549643e427ea88,/,/,    merge changeset 10609 from trunk,/,/,0
+9fb0c0e820a892e5e6c1b257f8b6403db7403777,/,/,    merge changeset 10326 from trunk,/,/,0
+d9da6d6f109fb814888792b1189386f085acfc0b,/,/,    merge changeset 10326 from trunk,/,/,0
+2f934dbb320878936d3427891ec663090e7c044e,GROOVY-2596,Bug,Found a deadlock when I have mutiple threads running a groovy script,None,Blocker,1
+a2da3edec2fe6f833977fc35985e05223abd75a1,GROOVY-2596,Bug,Found a deadlock when I have mutiple threads running a groovy script,None,Blocker,1
+2dcd5585c69acedfe52916786a3f4e6a8d54a2b9,GROOVY-2568,Bug,Questionable code in ReflectionCache,None,Major,1
+833d9a0c5bb2d555af49c75f9973bf05e8cc8fe2,GROOVY-2568,Bug,Questionable code in ReflectionCache,None,Major,1
+be48878933c98c78caa518e44672570d6adfd793,GROOVY-2568,Bug,Questionable code in ReflectionCache,None,Major,1
+77468ae7a2a2eda787cff316afceb1765c39e996,GROOVY-2568,Bug,Questionable code in ReflectionCache,None,Major,1
+e2752bb1bc07bbe85222d0505ab620b8d9161c3e,/,/,    Update the version information to 1.5.5-SNAPSHOT,/,/,0
+c8c8c89cc6f3b5a19d9cdd8d801b826f06cc0f3f,/,/,    1.5.4 release,/,/,0
+19cea13bfcfd543a48c1d5af2240a7f55ddfc951,GROOVY-2634,Bug,Using Java Generics,None,Major,1
+f1e8a7455e4fddcecaffbdde619e4956f8b03e6b,GROOVY-259,Wish,unit test case to ensure that we always set line number information on all AST nodes,None,Minor,1
+e48099002a4fdd0dff5b5fc1cdc18669d8396bf7,GROOVY-2615,Improvement,Patches for line / colum information for various AST Nodes,parser,Major,1
+4549775a634c66d411e5b2511b5616b0c6f46c2e,/,/,    reverting merges from trunk (changeset 11827),/,/,0
+50532e20ac047ef3ff0de7a8fa2b985f3cec65ad,GROOVY-2615,Improvement,Patches for line / colum information for various AST Nodes,parser,Major,1
+1db3b158f7d416ee171c558213b616a6f0be50d5,/,/,    Set version to 1.5.6-SNAPSHOT,/,/,0
+ac36ba2c039014ae853933e2faf4f1fb16a6aeb9,/,/,    tagging 1.6.0,/,/,0
+228a83fff4a9b25daffaf4345bf73935ff7a1ad7,GROOVY-3353,Bug,Category methods are not inherited,None,Major,1
+e572c6aa77e83e7bfb0fe6c8b19982995c6e9452,/,/,    increase 1.6.0 version,/,/,0
+1707283cef2a540d628dcdf017b2dc5b88e12013,GROOVY-3345,Bug,Proxy of a Proxy Fails,groovy-jdk,Critical,1
+aaffe721eb51ad7986f30209dd245017025ed565,/,/,    ivy to 2.0.0,/,/,0
+1b74a24b5f22124add60da1f2b4b4247e21243e5,/,/,    disable test on 1_5_X branch as well for now,/,/,0
+7c5c159ec211cae207bed1198da8022de09e27bd,/,/,    set version to RC3 SNAPSHOT,/,/,0
+1917a34b3fb61ddf177b9e86f5ea7d14a87e8823,GROOVY-3284,Bug,Call behavior on enums is inconsistent,None,Minor,1
+4b7bbe063802de4de5ce3eb71d793a416c444b94,GROOVY-3316,Bug,Find a solution to the collection coping problem involving findAll  grep etc. that causes Hibernate lazy loading to break,None,Blocker,1
+487f039e1369cc41b288dd8b33938fb138787b63,GROOVY-3187,Bug,ServletBinding lies about what variables it can handle,Groovlet / GSP,Minor,1
+f8dc1ae2e2c90dcd351ceac0fce1368a9922f021,GROOVY-3187,Bug,ServletBinding lies about what variables it can handle,Groovlet / GSP,Minor,1
+c83440a1ac4352f248d6351d55164301c579fe26,GROOVY-3335,Bug,Exception while evaluating classes with static toString() methods,None,Major,1
+60dac0bc0b819f4fcee9a82e841bf0af6d3e4c8e,GROOVY-3311,Bug,NPE on Groovy 1.6-RC2: Cannot invoke method times() on null object,None,Critical,1
+354d9278a8789936a8289f9c62b439180f7f8ca8,GROOVY-3317,Bug,args passed from ant to groovy script: comes up blank,Ant integration,Major,1
+7aabe3316935fcf7477c39b45b5a23a200ec7f6a,/,/,    1.6.0 bug fixing branch creation,/,/,0
+dbf67e9503e30435f264d8699ef35a066ab686d0,GROOVY-3305,Bug,Can&apos;t use list argument when The method&apos;s first argument class is int,None,Minor,1
+8f4b779eeab3ef5316ea49c07c569c22afe68cd2,GROOVY-3294,Improvement,Improved class loading for AST transformations,Compiler,Critical,1
+da0c2304621b6a445025ff60bc5fde1851c34945,GROOVY-3281,Bug,GroovyScriptEngine doesn&apos;t inherit CompilerConfiguration from parent classloader,groovy-jdk,Minor,1
+95f6680ebd7ded900957689d18d12e38b602cff5,GROOVY-3298,Improvement,Support multiple labels on the same statement,parser-antlr2,Major,1
+cc6893e1b6d9a6839332f5cff90500a3836cb87d,GROOVY-3290,Improvement,ProxyMetaClass.use method should return the result of the closure call,None,Major,1
+2abdca0d21d8db4fd9e7f9b5e1d50ce09ef99284,GROOVY-3303,Bug,DGM File.append( byte[] ) overwrites existing file,groovy-jdk,Major,1
+f8047179ca912e0e17df5679fb17b7aa18f012dc,GROOVY-3271,Bug,Update antlib.xml and add to Groovy JAR,Ant integration,Minor,1
+84ab8bc90a24f67960f57d6ed88eb6eff3a60b99,GROOVY-3293,Bug,Return statements of the form &quot;return;&quot; have wrong source position,ast builder,Major,1
+492eafbfe95f60232c5ed22ff52bd58f86f6ffb4,GROOVY-3300,Improvement,Disallow try statements without catch or finally block,Compiler,Major,1
+c0ceba1e8c276e5ca475a9fddca525832b1c5592,GROOVY-3284,Bug,Call behavior on enums is inconsistent,None,Minor,1
+cb41502eef59c56ff7c20fb159218c65da4c77a3,GROOVY-3284,Bug,Call behavior on enums is inconsistent,None,Minor,1
+7bba59bf81c3cd6cc6cecbe6eddb3ea2a2105e08,/,/,    merge changesets 14729-14731  14734-14738  14744-14745  14749  14753  14777-14781  14785  14793-14795  14819  14823-14824  14828-14829  14833  14880-14882  14922  14934  14938  14942  14952-14953  14969  14973  14977-14980  14984-14985  14990  14994-14997  15004  15011  15036  15077-15079  15088  15095 from trunk (catchup groovydoc on 1.6 branch),/,/,0
+d718e40b0bf3dc2c5ddd98bbbf53ca9202adcee4,GROOVY-3284,Bug,Call behavior on enums is inconsistent,None,Minor,1
+f72296237beeff78510094fb526a8c17faf71f63,GROOVY-3284,Bug,Call behavior on enums is inconsistent,None,Minor,1
+8e7690eb73d2cc04c2735902c937d8663de6d030,GROOVY-3264,Bug,DGM#denormalize - Mac style line breaks and empty string,groovy-jdk,Major,1
+14cfdd0fd10634b9b25f6cc8df861d61f0bafb62,GROOVY-3264,Bug,DGM#denormalize - Mac style line breaks and empty string,groovy-jdk,Major,1
+78802a00fbe2855c589f47f3912402a8623ce674,GROOVY-3246,New Feature,There should be a DGM.normalize(String) method which acts like readLines().join(&apos;\n&apos;),None,Minor,2
+ ,GROOVY-3264,Bug,DGM#denormalize - Mac style line breaks and empty string,groovy-jdk,Major
+dae188a4aa73efea3d6a47266a4e1237ec3d82a4,GROOVY-3271,Bug,Update antlib.xml and add to Groovy JAR,Ant integration,Minor,1
+709998deaf329a6f6056cff5a174cde0b02d9642,GROOVY-3283,Bug,Can&apos;t &quot;import static&quot; more than one enum,Compiler,Minor,1
+07df4a6b852ec12a5367456b62ee7e89404b1107,GROOVY-3287,Improvement,Implement workaround for JDK 1.4 String.replaceAll bug.,None,Major,1
+548bd38832a3806b3b56f51f48a36c93da65803a,GROOVY-3287,Improvement,Implement workaround for JDK 1.4 String.replaceAll bug.,None,Major,1
+6283567a83246a12e2949ffc8305305f5d7f7883,GROOVY-3285,Improvement,Implement String.replace(CharSequence  CharSequence)  a JDK 1.5 method  for backwards compatibility,None,Major,2
+ ,GROOVY-3287,Improvement,Implement workaround for JDK 1.4 String.replaceAll bug.,None,Major
+5700ecd697df893e7d5030a41abb2827fe31b05a,GROOVY-3285,Improvement,Implement String.replace(CharSequence  CharSequence)  a JDK 1.5 method  for backwards compatibility,None,Major,1
+51db8f991c6de81af6ef344a8cf8fbe99fa5f481,/,/,    Make StringTest.testNormalizationRoundTrip test case JDK 1.4 API compatible.,/,/,0
+4004808230c9c439a80de6be8ee9cb9c3c5d93b8,/,/,    Merge cs14964 - DurationTest breakage occurring on OSX even though CI seems OK.,/,/,0
+a121fbf9f81d40c563cd2468e8f76b951b65b7be,GROOVY-3246,New Feature,There should be a DGM.normalize(String) method which acts like readLines().join(&apos;\n&apos;),None,Minor,3
+ ,GROOVY-3264,Bug,DGM#denormalize - Mac style line breaks and empty string,groovy-jdk,Major
+ ,GROOVY-3235,Bug,DGM.println(Object) and friends do a Writer.close() if the object is a writer.  Should be flush() instead.,None,Major
+ee5a613ec7144c1cec33fd32e9c4b887090a97b0,GROOVY-3246,New Feature,There should be a DGM.normalize(String) method which acts like readLines().join(&apos;\n&apos;),None,Minor,3
+ ,GROOVY-3264,Bug,DGM#denormalize - Mac style line breaks and empty string,groovy-jdk,Major
+ ,GROOVY-3235,Bug,DGM.println(Object) and friends do a Writer.close() if the object is a writer.  Should be flush() instead.,None,Major
+bb8b2aa7805c40443331b6484b72c69f0303b473,/,/,    Faster code for setters,/,/,0
+59f7bd42b4a2116dbbff57380637e08fb644be47,GROOVY-3276,Bug,Enums in 1.6-RC-1 no longer work with constructors with multiple parameters,None,Critical,2
+ ,GROOVY-3214,Bug,Strange Groovy bug for Maps in a Enums method,None,Blocker
+794a232c24eec0a4bc42981265e3b026f8c4a7f3,GROOVY-3253,Improvement,Change array formatting to be uniform,None,Major,1
+372d031967649dcc0e4392c89f9a7d024c65ced4,GROOVY-3235,Bug,DGM.println(Object) and friends do a Writer.close() if the object is a writer.  Should be flush() instead.,None,Major,1
+1abfe4667cac0c9423a6ff44346e43642e2a9d42,GROOVY-3252,Improvement,Fix DGM toString for Map and Collection,None,Major,1
+091044c6ed7e58106a34f2be453c208153edbc6c,GROOVY-2918,Bug,problem with default namespace in StreamingSAXBuilder,None,Major,1
+be6cb63067bf567efc3969a9375246020062863a,GROOVY-3248,Bug,String.replaceAll(String  Closure) should quote the replacement string,None,Major,1
+dae7534d434564e94ef04347d4715d8b0d8f2178,GROOVY-3248,Bug,String.replaceAll(String  Closure) should quote the replacement string,None,Major,1
+7d6bf581bd99e2b4422edb4ae1ea91923a9278b9,/,/,    merge changesets 14722-23 from trunk (error message tweak - help debug why 1.4 build broke),/,/,0
+7a868aa89ba919411ad9256cdafe89f2ae609dfd,/,/,    merge/port changesets 14715-16 from trunk,/,/,0
+3a0f887bf19f9c004d78656c3f867e943a479364,/,/,    merge changesets 14714-16 from trunk,/,/,0
+b038af459fa572b902b3292c9a6e330990abe4c9,GROOVY-3238,Bug,String.valueOf(BigInteger) doesn&apos;t call String.valueOf(Object),None,Major,1
+0d7d83c89539289d706136680404716b8e5dd643,GROOVY-3238,Bug,String.valueOf(BigInteger) doesn&apos;t call String.valueOf(Object),None,Major,1
+7abe3e63378f9a4f6a2f20902affe8ae57fb30e9,/,/,    merge/port changesets 14689-91 from trunk,/,/,0
+fc8acf27c7349b9d0b2dca90d3215ef1c0cb7632,/,/,    merge changesets 14689-14692 from trunk,/,/,0
+4dd61ffd01ba6b309c6c2cc4f58c28f770c9fa33,GROOVY-3242,Bug,metaclass and curry() gives MissingMethodException,None,Major,1
+757ec3596d04d9a7d98222877074e35142a9505f,/,/,    Added license notice and updated javadoc.,/,/,0
+05448670b06a95ec30fd65be857439b7b6a699c0,GROOVY-2904,Improvement,[ [a:1  b:2  c:3] ].flatten() -&gt; [ 1  2  3 ]  but should be [ [a:1  b:2  c:3] ],None,Major,1
+ee75bf986056f70a05ae539beb1c9aad000cd179,GROOVY-3230,New Feature,Integrate JmxBuilder into Groovy,None,Major,1
+4a7ab7feda34ef240e0999452089324f16a1b09d,GROOVY-3124,Bug,for(;;) {} does not behave the same as in Java,Compiler,Minor,1
+1f2d6e0cbedb6e094bae3d93c94314cec58c4ff8,/,/,    JmxBuilder,/,/,0
+93b23f8d6103c0826a4fdfcce4c1f6b57f70f1ee,GROOVY-3173,Bug,Assignment to array elements is inconsistent with assignment to fields and variables,None,Major,1
+c3037c1033d97aaffe046610972ad289f3d5784b,GROOVY-3226,Bug,org.codehaus.groovy.tools.LoaderConfiguration fails to implement glob in expected fashion,None,Critical,1
+f2b05035cd569114b1646b4a21f052d9f267bdb2,/,/,    merge of rev 14591,/,/,0
+9d2f4bd3a3355cbf1f6d0cfa4a40d600368546ac,/,/,    merge changesets 14551 14558 from trunk (minor correction to javadoc),/,/,0
+e21ef55a7275d79a8dd130590aa2eebad16656a3,GROOVY-3221,Improvement,Open up AntrlParserPlugin for extension,Compiler,Major,1
+f25e48ed7758e015785858ee6df75589a4217123,/,/,    merge changesets 14539 14541 from trunk (formatting/checkstyle),/,/,0
+54b09ef95e60028a4f1d3b549c0e1ca3c8d403e3,GROOVY-3165,Bug,Regression in assignment of single character strings to char array element,None,Major,1
+02f60fba1211fb0e7f61bd1ab0683ad68aebbf03,GROOVY-3173,Bug,Assignment to array elements is inconsistent with assignment to fields and variables,None,Major,1
+71647d48f8b521cf06caf07496674521cb5a8ee6,GROOVY-2271,Bug,Mocks are not used by the delegate of a closure,mocks and stubs,Major,1
+e4cb0688179c9e27d64ae263e55b2f6c1dda6cc3,/,/,    Add API to list dependencies loaded into a ClassLaoder,/,/,0
+c1b9a263fa5b18bb012f731c4337eaa055883b9b,GROOVY-3161,Bug,Wrong initialization order for static fields in enums,None,Minor,1
+6f6fc53ab6ea5372244f36aec50975ce8c9604f8,GROOVY-3161,Bug,Wrong initialization order for static fields in enums,None,Minor,1
+4b036a7ebd0d9a24f9ebd659e31ea5b3c25fdb6a,GROOVY-3205,Bug,Cannot override toString() in a &quot;mapOfClosures as AClass&quot; implementation,None,Major,1
+59b36b54699c57f888c2416b4236a5ccd102c41e,GROOVY-3213,Bug,DGM.unique(Collection  Closure) is broken for Sets,None,Minor,1
+3f3b732a224a545ad6d8c5cf675dc4fab2384e01,GROOVY-3195,Bug,MetaClassImpl calling method twice,None,Critical,1
+26e1dd3c495311bfccaac02ad412963f834bd8e6,GROOVY-3069,Bug,Closure does not have scope precedent over local method,syntax,Major,1
+76be5f78f514c481c7f44883051926df02aef9b4,GROOVY-3171,Improvement,Handle floating conversion to BigDecimal and Double using &apos;as&apos; gracefully.,None,Major,1
+cac04bb644027c861f114dff449a466ce13f6a51,GROOVY-3207,Bug,XmlNodePointer does not handle namespace prefixes with repeated URNs,XML Processing,Major,1
+9936bf9c43c77e5883f8540fb3dfd6404bc11bf9,/,/,    Fix typo in javadoc.,/,/,0
+d1ebd523370b23f964fb52e9f63e8b95a7812ed4,GROOVY-3177,Bug,Preserve SwingBuilder.build(Closure).,Swing,Major,1
+95b84c24a9e77b93504b586234036c9ab10fd296,GROOVY-3069,Bug,Closure does not have scope precedent over local method,syntax,Major,1
+d3586c170391047119377812f956e82b63cec3c3,GROOVY-3172,Improvement,Add setter for field MethodNode.name,Compiler,Major,1
+4b78332e00cdc992375f8e67ca76f67a2f3b1858,GROOVY-3172,Improvement,Add setter for field MethodNode.name,Compiler,Major,1
+08777d9f4403fdac1cd3dc5c607acafdf5f731f6,GROOVY-3214,Bug,Strange Groovy bug for Maps in a Enums method,None,Blocker,1
+f4b3c55f5763b78ae27be65dfcdc3e5eba0dc851,GROOVY-3213,Bug,DGM.unique(Collection  Closure) is broken for Sets,None,Minor,1
+898df87b4846d22570d2eaa5f711da76c4316251,GROOVY-3118,Improvement,Better Cobertura Support,bytecode,Major,1
+7327539017bdb8c73ea0efd6278c6707c450c149,GROOVY-3118,Improvement,Better Cobertura Support,bytecode,Major,1
+d03fe7587adc4fa732d0795a1b0f968d60645b42,GROOVY-3118,Improvement,Better Cobertura Support,bytecode,Major,1
+5b6737fc204e2d548e117b83ba038828a771e2cd,GROOVY-3118,Improvement,Better Cobertura Support,bytecode,Major,1
+1e3e91a9c98504e7ebf0ea921490e62ea497b1fa,GROOVY-3118,Improvement,Better Cobertura Support,bytecode,Major,1
+383db49c3b490080215e50581c00f5ce161b0a61,GROOVY-3118,Improvement,Better Cobertura Support,bytecode,Major,1
+a9ce34508fbf74fe585122598920fca43b4e6146,/,/,    Add a line to startGroovy to transform JAVA_HOME path format for MSYS.,/,/,0
+59d5230aca83fabf144e2a439b92106e170fa21a,/,/,    Add a line to startGroovy to transform JAVA_HOME path format for MSYS.,/,/,0
+91dbdf67e4a44b386d3c958baaf61d7e8f628976,GROOVY-3172,Improvement,Add setter for field MethodNode.name,Compiler,Major,1
+c4b2c68a8ce86500bbfe4e11fa4faa5c7084dc37,GROOVY-3172,Improvement,Add setter for field MethodNode.name,Compiler,Major,1
+745313d6f8e5dc95207f148d7e970b0bb1a14ddf,/,/,    adds source position information for .class epxressions. Patch by Peter Niederwieser.,/,/,0
+a507dee4ab43d8e227a9494883816ea021b20b2d,/,/,    adds source position information for .class epxressions. Patch by Peter Niederwieser.,/,/,0
+8cff05d9d518e2ff495552a56e5eeb7bde2721b4,GROOVY-3112,Improvement,Occasional &quot;Access is denied&quot; message with &lt;groovyc&gt;,class generator,Minor,1
+ee9bd087f5068ff235824bd8f2247f0480935c68,GROOVY-3191,Bug,Groovysh cannot be extended,Groovysh,Critical,1
+abb7326dad61c842d1350e4d824d10f010dc4239,GROOVY-3069,Bug,Closure does not have scope precedent over local method,syntax,Major,1
+892a174e77a69f62effb18cd45cc7d4570b50998,/,/,    merge changeset 14437 from trunk,/,/,0
+e0303e19c7a3a0754ba176bdac45428139f29647,GROOVY-2801,Bug,Override toString in coerced Map fails for interfaces but is ok for concrete classes,None,Major,1
+1ddf5482b052ed341ebcd66031e433b054104fb4,GROOVY-3200,Bug,Map coercion should not throw an NPE for non implemented methods from the map,None,Minor,1
+824fd03ac774c8dc4dc0e57fee47b555ab5928e6,GROOVY-3200,Bug,Map coercion should not throw an NPE for non implemented methods from the map,None,Minor,1
+539183300a4769899bbf3c040c2ed1227aa27ef8,/,/,    merge changeset 14405 from trunk,/,/,0
+6d12636798b4f61cd8e4c717c33479078cd25bb4,/,/,    port changeset 14400 from trunk,/,/,0
+fd87cb6a830831d482b417c643ac04d099c59998,/,/,    Made the Grape enableGrapes and autoDownload static properties public so they are accessible from Java and added a new "grape.root" system property for customizing where grape downloads jars and reads its configuration from,/,/,0
+92fc816aeeaf8b67db3d198ae2529372ae74f3a2,GROOVY-2853,Improvement,Unclear error message for syntax error when using generics and forget bracket,Compiler,Major,1
+618f38939aaf73fa664dcce4eaf88faadb32e626,/,/,    merge changesets 14362-14364  14368 from trunk,/,/,0
+b6bd5cf079daca3cf9d8c4dab39909eaf6b1d963,GROOVY-2849,Bug,A property name in a nested closure interferes with a class property when refering with &quot;this.prop&quot;,parser,Major,1
+8cf7f24f48c860b621206e5c9087b9fec4c57679,GROOVY-2849,Bug,A property name in a nested closure interferes with a class property when refering with &quot;this.prop&quot;,parser,Major,1
+cca22061302f3f7537bd1fa33eb07660376c0329,GROOVY-3156,Bug,Within a nested closure  &quot;this.method()&quot; works incorrectly if parent closure and outermost class have closures/methods of the same name,class generator,Major,1
+aa976b6cb315cf10ae3413049e38bbf5951a3c08,GROOVY-3145,New Feature,Add Console output visualizations,Groovy Console,Major,2
+ ,GROOVY-3185,Improvement,Provide clickable stacktrace and error messages in the Swing console,None,Major
+c56d873e0a19ee861c56aa578112d332e165abc7,GROOVY-3129,Bug,Compile-error when implementing a method from a generic interface,None,Major,1
+ca50c1504adede7f013633933d2a0c710bdb5de8,GROOVY-3129,Bug,Compile-error when implementing a method from a generic interface,None,Major,1
+18627cbc8838c24053fff35a765f449c7649e638,GROOVY-3079,Bug,groovysh does not run when CLASSPATH includes embeddable/groovy-all.jar,Groovysh,Minor,1
+fea184004943c9c8f23fea503c42a5f2b8ade4eb,GROOVY-3079,Bug,groovysh does not run when CLASSPATH includes embeddable/groovy-all.jar,Groovysh,Minor,1
+3bc35e90717fc0a27b114f0c9179c004e1f57ddf,GROOVY-3135,Bug,Incorrect array type created when calling vararg method,None,Major,1
+5228b773d4137716d95b28b2ec8ffa5552849827,GROOVY-3135,Bug,Incorrect array type created when calling vararg method,None,Major,1
+c9003c175efee114e0fef641baa3cf7f7ca84871,/,/,    Extra info in ant build banner,/,/,0
+7697d4809c4adfd9f6941f90c555d7366ea24bdb,GROOVY-3185,Improvement,Provide clickable stacktrace and error messages in the Swing console,None,Major,1
+4c513e9681849c8b430404691be2a2a032b694c0,GROOVY-3182,Bug,Wrong line number on PropertyMissingException ,None,Major,1
+c0fa652cc9dc1f8c1bdd881b9370680db77e72b7,/,/,    One more pass at build(Closure),/,/,0
+aadb6ca2b98e672f1bd73dc917d3e43ad8987f99,GROOVY-3109,Bug,StackOverflowError with DOMCategory and missing property,None,Critical,1
+cc4a58de1d483be75fa82c31d1b8ff064bca1009,/,/,    don't process transforms if visualizations are turned off,/,/,0
+d4d0f1fe3eadb2d7ac87958ffcef1d2922ae39fe,GROOVY-2582,Bug,cannot extend java.util.Properties unless getProperty() is overridden,ast builder,Minor,1
+7f08de4af1c0d90d3f24c075b0af86f4a27aec89,GROOVY-2582,Bug,cannot extend java.util.Properties unless getProperty() is overridden,ast builder,Minor,1
+8c24d61302c8362d02410103f35dd41cebe0e71a,GROOVY-2836,Bug,Misleading MissingMethodException thrown when this() is called inside a constructor,command line processing,Major,1
+74f6dd7efb4746021b11ca3b61461e478dea0f69,/,/,    trunk fix bringovers,/,/,0
+690e90abd0de900aee43ddac5a75ca299a4b300d,GROOVY-3170,Bug,XmlNodePrinter does not handle attribute namespaces correctly,XML Processing,Major,1
+15f8b49d1b5921109e6a4c878c03f5a4a61585db,/,/,    merge changesets 14215 14177 from trunk,/,/,0
+d7aa5e86b13704baed533d5a78f16c2175365625,GROOVY-2746,Bug,Static import of method with default parameter value: MissingMethodException,None,Major,1
+cc5aebff5d6a9f767f43b578fa7d65f9532ee872,GROOVY-3165,Bug,Regression in assignment of single character strings to char array element,None,Major,1
+254bc36547fff424264a9dd9ac89ea414ce871db,GROOVY-3119,Improvement,When accessing a property on a null object inside of a closure  the line number is not always reported in the stack trace.,Compiler,Major,1
+8250cf5c3d31cfd629f080f8d6b4b9db8c337c0c,/,/,    additional test case for Groovy-3089.,/,/,0
+c6304198f6ddd85635ed71de955dd43cd946d43b,GROOVY-3089,Bug,compile error with covariant bridge method added for already existing method,None,Major,1
+99acc94940affe3284c9d2dc58fb756f1a033af5,/,/,    merge rev 14181  better NullPointerException messages forget/setProperty on null,/,/,0
+3314b46e9d455399c3539c8abc2e7cfd10a406d9,GROOVY-3162,Improvement,DGM.minus(Date  Date) is conspicuously missing,None,Major,1
+a1c15d08715c7e840ce07fa58cc17f1aa2a7d47d,GROOVY-2933,Bug,List Parameter in Enum constructor with misbehavior,None,Minor,1
+a2e51fb1d810d5fbefd950e49664ac4beb0eddac,GROOVY-2657,Bug,Code: def Target = &quot;releases$&quot; returns error on line 0 / column 0,None,Minor,1
+6bd2860f6f5d7839d60c7e851c169c31f8cf5856,GROOVY-2657,Bug,Code: def Target = &quot;releases$&quot; returns error on line 0 / column 0,None,Minor,1
+90eeaefba21a22656e998e36dfacd4a7943081ca,GROOVY-3067,Bug,Incorrect line number reporting when exception occurs inside if statement,bytecode,Critical,2
+ ,GROOVY-2983,Bug,wrong line number in 1.6 for getting an property,class generator,Major
+9358c8a8de6db89310d91228c6dcb76666931f42,GROOVY-1915,Improvement,Should use Integer.valueOf() instead of new Integer()  where appropriate,parser-antlr2,Major,1
+7e6665edd44b8aae796e1e8e24110bf216331496,GROOVY-3164,Improvement,Bring miscellaneous small changes from 1.6 into 1.5.,None,Minor,1
+53063df2336508f188dcec34bd4b7b8cbeb15f40,/,/,    merge changesets 14050  14051  14058  14076  14093  14100  14103  14125  14126  14128,/,/,0
+fb4c7b97ce305ae6e2e53e6711d1c5ee21d40789,GROOVY-1605,New Feature,Have a delete() method in File that deletes all subdirectories and contained files,groovy-jdk,Minor,1
+0713648f734aebc578692d8985d1ed636ce3b065,GROOVY-1594,Improvement,Bundle JSR 223 Support in Groovy,None,Major,1
+0a85cbd6466a2bc4eaf688b078e971a49ac23502,GROOVY-2602,Improvement,TimeDuration should override toString,groovy-jdk,Minor,1
+b4c3c42dbef44e15abadd76634e29c9734724a81,GROOVY-2602,Improvement,TimeDuration should override toString,groovy-jdk,Minor,1
+0f97cbb3da1afd101f2bcecc029c9bb779ab2454,/,/,    Fix the build I've broken with my change to GroovyDoc,/,/,0
+849237a5e07c38b70e77eef16666fff49d2faa54,GROOVY-3145,New Feature,Add Console output visualizations,Groovy Console,Major,1
+d0c750ab1cfb5180871c710b4f4e48c3f44e2a83,GROOVY-3132,Improvement,Groovydoc doesn&apos;t support multiple locations in sourcepath,Ant integration,Minor,1
+6aa85a2161ebeae2fec105e597bf81085666a98a,GROOVY-3132,Improvement,Groovydoc doesn&apos;t support multiple locations in sourcepath,Ant integration,Minor,1
+3c4f9fd320cc82ab69f12a52200a8019a873263e,/,/,    merge changesets 14022 and 14031,/,/,0
+6332b88926783c37fe1fe4a376a9ee1c912fa040,/,/,    merge changesets 14022 and 14031,/,/,0
+e33e36a480c1867f88e4692940b77abf98109e73,/,/,    merge changeset 14004 from trunk,/,/,0
+295305569f3351155e1bafcb044faab343c9afc8,GROOVY-3148,Improvement,Add javabean property and user generated setter support to @Bindable AST transformation.,None,Minor,1
+1654502aadd6040a75013c713769a6e33d454797,GROOVY-3147,Bug,memory leak  in WeakDoubleKeyHashmap,None,Critical,1
+30600bb3ed3948cbcbcaece7aa4eeab3412d1238,GROOVY-3138,New Feature,Add ability to hide script recopy output in Swing console,Groovy Console,Trivial,1
+e10e774f48a7d133d460ad935a5c318b55e76d3f,GROOVY-2531,Bug,VerifyError with -- var -- and (var--)--,bytecode,Minor,1
+755f43434c38324dc007590fe8dc8ff6a1f940c6,GROOVY-3109,Bug,StackOverflowError with DOMCategory and missing property,None,Critical,1
+4fce85084eb0861ae408065b215a833ba40b5240,GROOVY-2531,Bug,VerifyError with -- var -- and (var--)--,bytecode,Minor,1
+115f65186913e9c654432e9f7489f1d54daaafdf,/,/,    bind() node upgrades -,/,/,0
+40419af2fb6095e5be52500f0a833d911a5f6851,GROOVY-2382,Bug,64K limit on strings -- Caught: java.lang.ClassFormatError: Unknown constant tag 84 in class file test,bytecode,Major,1
+f51c1ceba6cca0e9710b32ea26fd86a97fd08a22,GROOVY-2382,Bug,64K limit on strings -- Caught: java.lang.ClassFormatError: Unknown constant tag 84 in class file test,bytecode,Major,1
+8d15671ccfe427fce2eb80ef15b123084b51fbb9,GROOVY-2962,Bug,groovyc ant task creates invalid stub,None,Major,1
+118ea2d38588c71648c54aabe9f834ea3b6f25af,GROOVY-2962,Bug,groovyc ant task creates invalid stub,None,Major,1
+f7c1f689f227a3ddda8c78bd0e44ad7ca48b3657,GROOVY-3038,Bug, Cannot use &quot;final&quot; modifier on iterator in for (...) loops,ast builder,Minor,1
+b95d16b19308e12d37972c2951fed53117d6ceed,/,/,    merge of rev 13866 and rev 13867. Contains optimization for while loop  fixes SqlCompleteWithoutDataSourceTest to use text mode  fixes using for implicit it of outer closure in inner closure.,/,/,0
+996eacecceed480688ae499b209364a879e722e2,/,/,    merge of rev 13866 and rev 13867. Contains optimization for while loop  fixes SqlCompleteWithoutDataSourceTest to use text mode  fixes using for implicit it of outer closure in inner closure.,/,/,0
+224338ee6fea3fd6b00445d9203f0e5a5f1ff785,/,/,    merge rev 11150 from 1.5.x branch to increase compiler speed,/,/,0
+a727f763a0794f3d6b3426463313e564f1018293,GROOVY-3071,Improvement,include example of observing and editing compilation phase during class loading,None,Minor,1
+ac0e952b314b52fd15be7bfe3803ca17a5348f5f,GROOVY-3115,Bug,Shortcut notation for annotations for single value array parameter,None,Major,1
+2274576e9d53c07e03c672f655becad6916ea68b,GROOVY-2760,Bug,groovyc compiles file  but running it fails with java.lang.VerifyError,command line processing,Major,1
+099787f95f5267171ce107d9a857dec8a10b447d,GROOVY-2760,Bug,groovyc compiles file  but running it fails with java.lang.VerifyError,command line processing,Major,1
+0c70e3004b1e779b0dc3fe23a304da4367a8ef93,GROOVY-2409,Bug,Problems calling private static methods,class generator,Major,1
+2c6de6a69826117b1439547ed3f9a63bc74a672f,GROOVY-3120,Bug,closure fails to call missingMethod in delegate,None,Major,1
+96dfb4566dbf563550ef11528d6ce0ed88a08a54,GROOVY-3120,Bug,closure fails to call missingMethod in delegate,None,Major,1
+9c3ee652ddc5ff65d04b54f937ec0cbb3893f0c6,GROOVY-2687,Bug,VerifyError on incorrect function call,parser,Major,1
+91e712ccb5d5c8034ed183e244c720557fa6b79c,GROOVY-2687,Bug,VerifyError on incorrect function call,parser,Major,1
+5e9fe64741cfdd904047ae61c52948caf7da84f0,GROOVY-3115,Bug,Shortcut notation for annotations for single value array parameter,None,Major,1
+ae9ac378afac1486d92a161228089f10da0a65c1,GROOVY-3115,Bug,Shortcut notation for annotations for single value array parameter,None,Major,1
+afc69b16c7398776c0f75e700228cfd5f4119434,GROOVY-3112,Improvement,Occasional &quot;Access is denied&quot; message with &lt;groovyc&gt;,class generator,Minor,1
+d5a0659a881fb7acd54e96c20719eefc3b607b57,/,/,    merge changesets 13771-4  13778  13785,/,/,0
+30c93f8a6a8992a7f145f288cbd41b05e4d8d893,GROOVY-3090,Bug,ObjectGraphBuilder does not set itself as delegate on closure strategies,None,Minor,3
+ ,GROOVY-3091,Improvement,Allow setting String based strategies on ObjectGraphBuilder[IdentityResolver|ReferenceResolver],None,Minor
+ ,GROOVY-3094,Improvement,ObjectGraphBuilder: allow references to be resolved lazily,None,Minor
+73c5e0d7e2a90b3bccc04a0b3883f586dcdb4bef,GROOVY-3090,Bug,ObjectGraphBuilder does not set itself as delegate on closure strategies,None,Minor,3
+ ,GROOVY-3091,Improvement,Allow setting String based strategies on ObjectGraphBuilder[IdentityResolver|ReferenceResolver],None,Minor
+ ,GROOVY-3094,Improvement,ObjectGraphBuilder: allow references to be resolved lazily,None,Minor
+da398634003abac9faa4151cc2f43618aae1d04b,/,/,    merge changeset 13756 from trunk,/,/,0
+25254d0c9755e349ddd095d7007e624838abcdd2,/,/,    merge changeset 13750 from trunk,/,/,0
+8aef7afadaed6d812653d49743e82513fcbe7d41,/,/,    merge changeset 13750 from trunk,/,/,0
+7ec61ba57e365396257ed0b251f1f0b6da2cf212,/,/,    merge changesets 13742  13743 from trunk,/,/,0
+4d0a86669a7b6a7b5235e1c84b39e3faad5821b3,/,/,    creating branch for 1.6.X,/,/,0

@@ -1,0 +1,462 @@
+8e847c76edab42f5c847d4b50dcca34ea8b8c78b,/,/,    Added release date/version,/,/
+10fe2fd4ab5b582dc2931d91db36e84874ebb539,/,/,    Extended conneciton state handling to the remaining recipes,/,/
+e9cf5ad6db7ef14d511cedeaccf35ec7d9b22e9d,/,/,    Major changes in error handling and listening:,/,/
+1c95337b20d664936f9464a5d833969bf421dd02,/,/,    MOre work on stabalizing tests,/,/
+1b644817e443ca7ff86dd9877b703e8c69aefd89,/,/,    Added a test,/,/
+d03c40dff7d277325998d482a1d50ece5af946bf,/,/,    Reworked based on suggestions from Eishay Smith...,/,/
+03f72ec5d4901dd075e2509eba7983495da1bce3,/,/,    Work continues on Discovery,/,/
+be193437e46149bbe1bc9ba99acb2b3fd32d215d,/,/,    Initial pass at a ZooKeeper based Discovery service,/,/
+18f25f679cb0ad0d98adbc88f06fdb8ffcceff97,/,/,    oops - left some debugging code in,/,/
+8e847c76edab42f5c847d4b50dcca34ea8b8c78b,/,/,    Added release date/version,/,/
+10fe2fd4ab5b582dc2931d91db36e84874ebb539,/,/,    Extended conneciton state handling to the remaining recipes,/,/
+e9cf5ad6db7ef14d511cedeaccf35ec7d9b22e9d,/,/,    Major changes in error handling and listening:,/,/
+b34a9621f36eb74e94db3ea34d5d80c15ed3c7e9,/,/,    Reworked implementation. I was unhappy with the complexity of the previous one. Now  there's a simpler master implementation,/,/
+7439e966018aedc9930e0586bfae2cc62c899366,/,/,    New recipe for shared counts,/,/
+6477ee4bc53b9ff55e0a41b67679871da7918a9b,/,/,    Major changes to semaphore code. At the same time  re-wrote LockInternals to be simpler. The previous sempahores had lots of problems and restrictions.,/,/
+6fd1fcf932e674dc6e9d6de0d4691e2d229a43d4,/,/,    Major change. Previously  exceptions that couldn't be handled would cause the client to close and a handler to be called. Now  the client is _not_,/,/
+31cffd77b4a0ff39be39a49e967629d4a9e8fdff,/,/,    Hat-tip to https://github.com/sbridges for pointing this out,/,/
+f338e2335d5bac887565ed5fb94dba5a27d9ef02,/,/,    Added a way to control re-queuing behavior when a consumer throws an exception.,/,/
+04532e686b5d2e6dd1b996d8c17aee3a845a68dc,/,/,    Punted on the previous coop implementation. I've decided to maintain two distinct types of semaphores. The existing version,/,/
+3e78e6b58406ccdab762c0f8fd84447b8d10785b,/,/,    Modified CoopInterProcessSemaphore so that the number of leases values can be changed after instance creation,/,/
+d355ba93f98f400f9b839f4fb984d207a819e50d,/,/,    Moved to latest version of RESTEasy and updated the tests,/,/
+7288effdbc724cae1679fb3b9e01922808c9c4df,/,/,    Finished initial imp and added Docs,/,/
+78192933024528d664e25618eeae6742ede51dfe,/,/,    Testing with RestEasy to validate proper JAX-RS without dependency on implementation,/,/
+612c7e4b5f37ca2678e5ef52c1c03d771ae21123,/,/,    development on Discovery server continues,/,/
+80d515277197e2e3c56c26e429a3db80258c5390,/,/,    first pass,/,/
+56eb5d83a84143a25eedd4f6f465d843d9fd5fbc,/,/,    Switched to slf4j for logging,/,/
+5b7758f13fe33c2c8a03669de0a002c8192946c5,/,/,    Moved the testing classes into a new sub-module to make the dependencies cleaner. Also  I can re-use the KillSession class this way.,/,/
+1c95337b20d664936f9464a5d833969bf421dd02,/,/,    MOre work on stabalizing tests,/,/
+1b644817e443ca7ff86dd9877b703e8c69aefd89,/,/,    Added a test,/,/
+d03c40dff7d277325998d482a1d50ece5af946bf,/,/,    Reworked based on suggestions from Eishay Smith...,/,/
+03f72ec5d4901dd075e2509eba7983495da1bce3,/,/,    Work continues on Discovery,/,/
+be193437e46149bbe1bc9ba99acb2b3fd32d215d,/,/,    Initial pass at a ZooKeeper based Discovery service,/,/
+18f25f679cb0ad0d98adbc88f06fdb8ffcceff97,/,/,    oops - left some debugging code in,/,/
+8e847c76edab42f5c847d4b50dcca34ea8b8c78b,/,/,    Added release date/version,/,/
+10fe2fd4ab5b582dc2931d91db36e84874ebb539,/,/,    Extended conneciton state handling to the remaining recipes,/,/
+e9cf5ad6db7ef14d511cedeaccf35ec7d9b22e9d,/,/,    Major changes in error handling and listening:,/,/
+b34a9621f36eb74e94db3ea34d5d80c15ed3c7e9,/,/,    Reworked implementation. I was unhappy with the complexity of the previous one. Now  there's a simpler master implementation,/,/
+7439e966018aedc9930e0586bfae2cc62c899366,/,/,    New recipe for shared counts,/,/
+6477ee4bc53b9ff55e0a41b67679871da7918a9b,/,/,    Major changes to semaphore code. At the same time  re-wrote LockInternals to be simpler. The previous sempahores had lots of problems and restrictions.,/,/
+6fd1fcf932e674dc6e9d6de0d4691e2d229a43d4,/,/,    Major change. Previously  exceptions that couldn't be handled would cause the client to close and a handler to be called. Now  the client is _not_,/,/
+cf09a02e2cbf3ff197f057d5be0e6f9bd62391ca,/,/,    1. Moved discovery-server to a more appropriate package. 2. Added a provider strategy to the Resource,/,/
+140aaffce1c958c8fcb443d4afc6a8c9da731c8e,/,/,    Injection of major ugliness!,/,/
+d6b16a76f54dc9a5b3b4da4c820f637e2d34dcdc,/,/,    Various changes to make tests more reliable/predictable,/,/
+0865db60e3e57f923e036699a2c9393b712f5c92,/,/,    Need to wait for the kill to succeed,/,/
+512e3f2de763cd1876bd354c5e37d010cb37025e,/,/,    Pull changes from 1.1.x version:,/,/
+9b9cac92d153f85fae05d1f1e9af19c960b051b7,/,/,    Make compat with zk 3.3.x,/,/
+53c9cda3e31cd6111f67da77fda56bdfa0c22a3a,/,/,    Using Timing for better reliability,/,/
+bfe3b8db844415ad538d1c9bde8295a81474d25c,/,/,    Merge pull request #36 from quidryan/master,/,/
+511af91ab42c638f45f6328588b66b76dd692901,/,/,    Remove netflix reference and remove unnecessary documentation,/,/
+eb4d2aaf7702e7e5ffbf1c1dd8544e88b1171045,/,/,    1. Added a new class to the Test module  Timing  that is used to better coordinate timings in tests,/,/
+066fbb591969d7ecc90107e39288674e83818ac4,/,/,    Path creation should be in a retry loop,/,/
+81e8bd4dc2fb1eb771e7deda646e8d210400e796,/,/,    Added profile to skip tests,/,/
+01884d69d74d5c49e0748a6196e8226c0fe50241,/,/,    [maven-release-plugin] prepare release 1.0.3,/,/
+a8a543b99c35bb4c2a5370abb87ba6de47523163,/,/,    set release date,/,/
+512e3f2de763cd1876bd354c5e37d010cb37025e,/,/,    Pull changes from 1.1.x version:,/,/
+66f0876bd294e51987ed0d7082e45a26a66a66a3,/,/,    Added failed delete code,/,/
+23ad7255d9733e647d8303c5d84aa56cb2a9a235,/,/,    Added a test for cluster/network partition and restart,/,/
+8670ecd41d785234e8d1f90e50265e9ad7281aab,/,/,    Added a mechanism to listen for put completions.,/,/
+ec78c8c04d74be389cf856ce24143495c17713eb,/,/,    Updated,/,/
+e6aa29f66a5bf4a9d6e0e1fdd68e4035cb5f4ce7,/,/,    [maven-release-plugin] prepare release 1.0.2,/,/
+270b70c4626d4a50927393e184085b125ae7f9e0,/,/,    Increase timeout,/,/
+363372be55e99260ebec902e7a03b8b2c5b0d9d8,/,/,    Bring up to date with main branch. See commits 98043924143c259fb5dc5182c0f38c95f7d04efa - fd77e8e96483291d7cebd9b18f08214876bb900d,/,/
+5ddc45d445b676d907ece19d352ab3e158e3d428,/,/,    Give the lock a bit more time,/,/
+64a657533da270700c7fed933df302b0fa4ff059,/,/,    I think the problem with the tests had to do with KillSession. I re-wrote it and hopefully have done a better job.,/,/
+8b71679a5756417e94cda51c93d580d4dbb8740a,/,/,    More work on making tests more predictable. Testing concurrent processes is freaking hard.,/,/
+8d2c1cde32f5470106c4381426cd7a09261a1c97,/,/,    Added some tests for transactions,/,/
+b05e761e28ce1e581ed91d891cb61adcd3760493,/,/,    Merge branch 'master' into zk3.3.x,/,/
+7c1aa60572d9c5c7a41945ac8812463e51edcbbd,/,/,    Several users have expressed dissatisfaction with the LeaderSelector implementation - requiring a thread  etc. So  I've,/,/
+f0c4b674e48b1599fba0139872bb3c6c7ba2ba65,/,/,    Add a hack to stop ZK server leaking file handles on shutdown.,/,/
+9306d93a0013df64c06e4cd003eb311cf50f7ce0,/,/,    Merge branch 'master' into session-v2,/,/
+11032b3a496d44738f0ca440e2d83a46b195ad52,/,/,    Instead of allowing only 1 parent watcher  make it a list. The previous implementation had nasty edge cases.,/,/
+a02082ea2b482970e160b159c6c1b51f3e360777,/,/,    Merge branch 'master' into session-v2,/,/
+8df4988ee5127dc89047384ab8ea1ee09ae44031,/,/,    Made test more resillient,/,/
+340f000604a1b156b9a109241b4ba0de526abd20,/,/,    Relying on thread interruption is error prone and hard to test. Instead  use a kind of thread local to mark,/,/
+469da5e561baac8f10d6dadefebabcdf2e8eb44e,/,/,    Added support for operations that must all be part of the same session.,/,/
+537bba739fbd4b0c8b8b658d5a0b655a50c1601c,/,/,    Removed all 3.4.x code,/,/
+76d23af185b4a5818f740d8fbbc431bbd25970d3,/,/,    Issue 64,/,/
+1cf2724fa50fe75b993be41d278f1bcaeb1c6c0f,/,/,    Issue 59,/,/
+1c10d4fd75f72dd5ca2e1de987c1d45dc3594e4f,/,/,    Added support for compressed data,/,/
+072a88a8f45fee8e1b0e921123dbb94831e7d060,/,/,    set released date,/,/
+9b9cac92d153f85fae05d1f1e9af19c960b051b7,/,/,    Make compat with zk 3.3.x,/,/
+53c9cda3e31cd6111f67da77fda56bdfa0c22a3a,/,/,    Using Timing for better reliability,/,/
+3401bc54d13353be4654acc2f15b6a357cae7eb2,/,/,    A more complete solution for background build-ups. The previous implementation did the retry sleep,/,/
+7a81d0619e35986585fdf5241ec6cd4148b93fa9,/,/,    Rewrote the ChildrenCache to not use background operations. If there are connection issues  events can start to build up in ZooKeeper,/,/
+d9f6e18d0be85b6f8790093d99784bac4a487c38,/,/,    Added ChildReaper. This builds on the newly added Reaper. This utility monitors a single node,/,/
+d35cf1662b1cef6359fa2d687eebda78c3af0da9,/,/,    Updated Apache header,/,/
+38fd751bee7bd8b0b7860e47928dc1cc3f042eb1,/,/,    Merge pull request #105 from Randgalt/zk3.3.x,/,/
+9b846c783959b4e7d5817f18ca5c52808a02225a,/,/,    Added notes about end of life for 1.0.x branch,/,/
+16b22bc4db9b4f682dcbb979813ff94423f34d85,/,/,    Removed all 3.4.x stuff. The 3.3.x branch had gotten way out of sync,/,/
+b597446f7c20f5155d45049c2494fa07d2b26466,/,/,    Merge branch 'master' into zk3.3.x,/,/
+3401bc54d13353be4654acc2f15b6a357cae7eb2,/,/,    A more complete solution for background build-ups. The previous implementation did the retry sleep,/,/
+17a26bc9c44fc5c38bc338fd8643a0e0e526d608,/,/,    Merge branch 'master' into zk3.3.x,/,/
+7a81d0619e35986585fdf5241ec6cd4148b93fa9,/,/,    Rewrote the ChildrenCache to not use background operations. If there are connection issues  events can start to build up in ZooKeeper,/,/
+83552f9e8955f3467728b0c09b5b2e248bc98b21,/,/,    Merge branch 'master' into zk3.3.x,/,/
+b8a9dfaf83af3d2560934cb13aa52cab138ba809,/,/,    Issue 109,/,/
+86f41a4c25d957c3b71f00db14cf3b33a583a92a,/,/,    Merge branch 'master' into zk3.3.x,/,/
+f0ff775d32048d1697b7591923d4bd2bcf25a63c,/,/,    LeaderRunner didn't add much value - removed it,/,/
+210d18ccf32e9cfcc8bc0e1d261e75696d7ce089,/,/,    Merge branch 'master' into zk3.3.x,/,/
+33221e335e72a3a578e167ea60922b0b70c8b4ea,/,/,    Issue 107,/,/
+8c736c79d3e8d9c4b050917013f0435e579f3772,/,/,    Merge branch 'master' into zk3.3.x,/,/
+d9f6e18d0be85b6f8790093d99784bac4a487c38,/,/,    Added ChildReaper. This builds on the newly added Reaper. This utility monitors a single node,/,/
+5685b1c6d1913e887fab3ecb960fa266d2de61d1,/,/,    Merge branch 'master' into zk3.3.x,/,/
+d0d03373282632ccd9e9d18249dc32ba901050df,/,/,    Test was leaking curator instances,/,/
+35869a79b1a64dd3e53828b1934cfdcb9ff1a315,/,/,    Merge branch 'master' into zk3.3.x,/,/
+5206e80a2b1ddca7b17f1ffe2e3b15878fcf7d98,/,/,    Made some version compatible with Netflix repo,/,/
+ed6f52fe9e36426bf26bdb5274ac410642b2b825,/,/,    Merge branch 'master' into zk3.3.x,/,/
+51515e2f4d7e114af6104d1ea2f64cbf2c0748aa,/,/,    Issue 125,/,/
+867b2eb0bd1bc8f9425b7eb567bba435142fa07c,/,/,    Merge branch 'master' into zk3.3.x,/,/
+cb657706839551c5682e7ae9fb3ed42e83fb5697,/,/,    IDEA killed many of my class docs - adding them back,/,/
+a9c2e294c6806ebd63c3ad328870be05cc28d1c9,/,/,    Added non-reentrant mutex,/,/
+f74f680cade374d290acf65cb452a1d7ee8b7286,/,/,    Test with namespaces,/,/
+1ba887d62f47e18edd3dc118e3cefed8618b3478,/,/,    Merge pull request #113 from Randgalt/zk3.3.x,/,/
+86a5fa6afe43976fc8f098e1d2cde11aac6bc24e,/,/,    Merge branch 'master' of git://github.com/Netflix/curator,/,/
+44a15bf9365fe9a1273092bc39f50c643149628c,/,/,    1.0.16,/,/
+ec82566202c1e5e879ba31c9da4392f005f922d3,/,/,    1.1.15,/,/
+5996ffd7ffc6713fc1f62d4eff5c97143c07ddae,/,/,    Merge pull request #111 from Randgalt/zk3.3.x,/,/
+e2551307c2396763244b02bf2ec32f7c7ac79efa,/,/,    v.1.1.15,/,/
+b597446f7c20f5155d45049c2494fa07d2b26466,/,/,    Merge branch 'master' into zk3.3.x,/,/
+3401bc54d13353be4654acc2f15b6a357cae7eb2,/,/,    A more complete solution for background build-ups. The previous implementation did the retry sleep,/,/
+17a26bc9c44fc5c38bc338fd8643a0e0e526d608,/,/,    Merge branch 'master' into zk3.3.x,/,/
+7a81d0619e35986585fdf5241ec6cd4148b93fa9,/,/,    Rewrote the ChildrenCache to not use background operations. If there are connection issues  events can start to build up in ZooKeeper,/,/
+83552f9e8955f3467728b0c09b5b2e248bc98b21,/,/,    Merge branch 'master' into zk3.3.x,/,/
+b8a9dfaf83af3d2560934cb13aa52cab138ba809,/,/,    Issue 109,/,/
+86f41a4c25d957c3b71f00db14cf3b33a583a92a,/,/,    Merge branch 'master' into zk3.3.x,/,/
+f0ff775d32048d1697b7591923d4bd2bcf25a63c,/,/,    LeaderRunner didn't add much value - removed it,/,/
+210d18ccf32e9cfcc8bc0e1d261e75696d7ce089,/,/,    Merge branch 'master' into zk3.3.x,/,/
+33221e335e72a3a578e167ea60922b0b70c8b4ea,/,/,    Issue 107,/,/
+8c736c79d3e8d9c4b050917013f0435e579f3772,/,/,    Merge branch 'master' into zk3.3.x,/,/
+d9f6e18d0be85b6f8790093d99784bac4a487c38,/,/,    Added ChildReaper. This builds on the newly added Reaper. This utility monitors a single node,/,/
+d35cf1662b1cef6359fa2d687eebda78c3af0da9,/,/,    Updated Apache header,/,/
+38fd751bee7bd8b0b7860e47928dc1cc3f042eb1,/,/,    Merge pull request #105 from Randgalt/zk3.3.x,/,/
+9b846c783959b4e7d5817f18ca5c52808a02225a,/,/,    Added notes about end of life for 1.0.x branch,/,/
+16b22bc4db9b4f682dcbb979813ff94423f34d85,/,/,    Removed all 3.4.x stuff. The 3.3.x branch had gotten way out of sync,/,/
+567ac981f63b461628e01057303bffccefabb878,/,/,    Issue 99,/,/
+46a4c24b669c761c0fbb6de577f24b1f8c3b8091,/,/,    Merge branch 'zk3.3.x' of git://github.com/Netflix/curator,/,/
+83f2baa5d30ec3741debbccda4564cae7f7b2b04,/,/,    Merge branch 'zk3.3.x' of github.com:Netflix/curator into zk3.3.x,/,/
+130bfcec35521f6eb0a12552b50c4c2d2cd78869,/,/,    1.0.14,/,/
+1974281588159f5a1310a5f41224c770bfbb3a0e,/,/,    Prep for next release,/,/
+2596c92d04eb2981dd04361d9513ba4a5b0ce75a,/,/,    Merge pull request #97 from Randgalt/zk3.3.x,/,/
+d92a4c09cf31374d8443783894c85dbfe093198b,/,/,    Merge pull request #96 from Randgalt/master,/,/
+a39eafb69004ad2af3aff4960c9bf275fe83b89d,/,/,    Merge branch 'master' into zk3.3.x,/,/
+293bd81694e4578bc652e4464e96639b482bac9c,/,/,    getEmptyCount() can reasonably return -1 sometimes if the node has moved out of the DelayQueue during reap(),/,/
+8eeae1248202487e2d22644516e410ef875bb5f9,/,/,    Merge pull request #95 from Randgalt/zk3.3.x,/,/
+9b721be45329dc13f79599f2d44504010c12a047,/,/,    Merge pull request #94 from Randgalt/master,/,/
+db6483cd95cbdb6f5ae948f5d5149443ecd8ce29,/,/,    Merge branch 'master' into zk3.3.x,/,/
+ac1562dfd9e50e10df08d753184742d53aec2442,/,/,    Need to keep a separate set of active nodes so that remove works,/,/
+b9accf4e25c788113466386e964a9e23c76f4e16,/,/,    Merge pull request #93 from Randgalt/zk3.3.x,/,/
+3e15a946f6e7f3de925d1a7552970fe8369e8d28,/,/,    Revert "Merge pull request #92 from Randgalt/zk3.3.x",/,/
+92b3662674c1cd1a5b15e13ccad3031569465323,/,/,    Merge branch 'master' into zk3.3.x,/,/
+05d43e75e410f938b45fc008f03a7a362dbe91ad,/,/,    Continued: Unit tests should be a lot less noisy. A system property now turns off most internal error logging.,/,/
+aef6de3c27f84cbed28def48da2074d66188d07e,/,/,    Continued: Unit tests should be a lot less noisy. A system property now turns off most internal error logging.,/,/
+d98d9e51b3c5181d635449f46a151330039968ce,/,/,    Unit tests should be a lot less noisy. A system property now turns off most internal error logging.,/,/
+ab6318dae1314e9fd42ba309b61af7b2cc8833eb,/,/,    createParentsIfNeeded() should now perform better. Instead of "pre" checking  it now only does the,/,/
+83ce25c12f5f829f7d74d7141a09e9e9dd85cc84,/,/,    Issue 82: Generalized (and deprecated) nonNamespaceView() by adding the usingNamespace() method,/,/
+b7259addc2d63b7647625a415624914c67c6fb48,/,/,    1.1.12,/,/
+5bd3f7bc6e9b36b00043613d507ac9d507e96a1f,/,/,    Merge branch 'master' into zk3.3.x,/,/
+f2e9a51bf509729ccae3e9641d52845004f9afe3,/,/,    guaranteed deletions were not working with namespaces.,/,/
+aaddc1d36b06f63d350d724de7e1d490ad2025bf,/,/,    Merge branch 'master' of github.com:Netflix/curator,/,/
+48b15e6032489e63358101f4c09884506a4b66c7,/,/,    Speed up TestingServer startup time on OS X Lion.,/,/
+0e61aa27027512ff44d35885c3de925519ccd46e,/,/,    optimization to avoid unnecessary queue creation,/,/
+7941e0403f34c6e15f66061d0bbc192f591b7a45,/,/,    Merge branch 'master' into zk3.3.x,/,/
+f78e49828e1ed7ac593448a2db995d79e1d126a6,/,/,    Work on timing  etc.,/,/
+27e80f9641d4b2bbd63eb9f0c41d985da6b70388,/,/,    Removed an unused import,/,/
+03cb5b3fa5a2b1d9f1dad7caac045bc44e135418,/,/,    Added QueueSharder,/,/
+872aa2c7121f2b1a1d610d11b91c94103ff43683,/,/,    Got rid of the curator listener. It was added long ago and is no longer needed,/,/
+e378578c3d713d35928826f3ce95ae1a71665681,/,/,    Issue 74 - there were some missing combinations in the backgrounding API,/,/
+068e89b5169f87924c0804096a9c65fd0197a0d2,/,/,    Merge branch 'master' into zk3.3.x,/,/
+14a130973dbfdd21a57cb93b51eb420ab96f458d,/,/,    Added comments to all Preconditions that were missing them,/,/
+b05e761e28ce1e581ed91d891cb61adcd3760493,/,/,    Merge branch 'master' into zk3.3.x,/,/
+7c1aa60572d9c5c7a41945ac8812463e51edcbbd,/,/,    Several users have expressed dissatisfaction with the LeaderSelector implementation - requiring a thread  etc. So  I've,/,/
+f0c4b674e48b1599fba0139872bb3c6c7ba2ba65,/,/,    Add a hack to stop ZK server leaking file handles on shutdown.,/,/
+9306d93a0013df64c06e4cd003eb311cf50f7ce0,/,/,    Merge branch 'master' into session-v2,/,/
+11032b3a496d44738f0ca440e2d83a46b195ad52,/,/,    Instead of allowing only 1 parent watcher  make it a list. The previous implementation had nasty edge cases.,/,/
+a02082ea2b482970e160b159c6c1b51f3e360777,/,/,    Merge branch 'master' into session-v2,/,/
+8df4988ee5127dc89047384ab8ea1ee09ae44031,/,/,    Made test more resillient,/,/
+340f000604a1b156b9a109241b4ba0de526abd20,/,/,    Relying on thread interruption is error prone and hard to test. Instead  use a kind of thread local to mark,/,/
+469da5e561baac8f10d6dadefebabcdf2e8eb44e,/,/,    Added support for operations that must all be part of the same session.,/,/
+537bba739fbd4b0c8b8b658d5a0b655a50c1601c,/,/,    Removed all 3.4.x code,/,/
+76d23af185b4a5818f740d8fbbc431bbd25970d3,/,/,    Issue 64,/,/
+1cf2724fa50fe75b993be41d278f1bcaeb1c6c0f,/,/,    Issue 59,/,/
+1c10d4fd75f72dd5ca2e1de987c1d45dc3594e4f,/,/,    Added support for compressed data,/,/
+8a83ec318757b4f1ba1d44009d9ee9eb6ae2ac69,/,/,    1. Using Timing for better reliability,/,/
+bfe3b8db844415ad538d1c9bde8295a81474d25c,/,/,    Merge pull request #36 from quidryan/master,/,/
+511af91ab42c638f45f6328588b66b76dd692901,/,/,    Remove netflix reference and remove unnecessary documentation,/,/
+eb4d2aaf7702e7e5ffbf1c1dd8544e88b1171045,/,/,    1. Added a new class to the Test module  Timing  that is used to better coordinate timings in tests,/,/
+066fbb591969d7ecc90107e39288674e83818ac4,/,/,    Path creation should be in a retry loop,/,/
+23ad7255d9733e647d8303c5d84aa56cb2a9a235,/,/,    Added a test for cluster/network partition and restart,/,/
+8670ecd41d785234e8d1f90e50265e9ad7281aab,/,/,    Added a mechanism to listen for put completions.,/,/
+7c1aa60572d9c5c7a41945ac8812463e51edcbbd,/,/,    Several users have expressed dissatisfaction with the LeaderSelector implementation - requiring a thread  etc. So  I've,/,/
+f0c4b674e48b1599fba0139872bb3c6c7ba2ba65,/,/,    Add a hack to stop ZK server leaking file handles on shutdown.,/,/
+9306d93a0013df64c06e4cd003eb311cf50f7ce0,/,/,    Merge branch 'master' into session-v2,/,/
+11032b3a496d44738f0ca440e2d83a46b195ad52,/,/,    Instead of allowing only 1 parent watcher  make it a list. The previous implementation had nasty edge cases.,/,/
+a02082ea2b482970e160b159c6c1b51f3e360777,/,/,    Merge branch 'master' into session-v2,/,/
+8df4988ee5127dc89047384ab8ea1ee09ae44031,/,/,    Made test more resillient,/,/
+340f000604a1b156b9a109241b4ba0de526abd20,/,/,    Relying on thread interruption is error prone and hard to test. Instead  use a kind of thread local to mark,/,/
+76d23af185b4a5818f740d8fbbc431bbd25970d3,/,/,    Issue 64,/,/
+1cf2724fa50fe75b993be41d278f1bcaeb1c6c0f,/,/,    Issue 59,/,/
+1c10d4fd75f72dd5ca2e1de987c1d45dc3594e4f,/,/,    Added support for compressed data,/,/
+8a83ec318757b4f1ba1d44009d9ee9eb6ae2ac69,/,/,    1. Using Timing for better reliability,/,/
+3e15a946f6e7f3de925d1a7552970fe8369e8d28,/,/,    Revert "Merge pull request #92 from Randgalt/zk3.3.x",/,/
+92b3662674c1cd1a5b15e13ccad3031569465323,/,/,    Merge branch 'master' into zk3.3.x,/,/
+05d43e75e410f938b45fc008f03a7a362dbe91ad,/,/,    Continued: Unit tests should be a lot less noisy. A system property now turns off most internal error logging.,/,/
+aef6de3c27f84cbed28def48da2074d66188d07e,/,/,    Continued: Unit tests should be a lot less noisy. A system property now turns off most internal error logging.,/,/
+d98d9e51b3c5181d635449f46a151330039968ce,/,/,    Unit tests should be a lot less noisy. A system property now turns off most internal error logging.,/,/
+ab6318dae1314e9fd42ba309b61af7b2cc8833eb,/,/,    createParentsIfNeeded() should now perform better. Instead of "pre" checking  it now only does the,/,/
+83ce25c12f5f829f7d74d7141a09e9e9dd85cc84,/,/,    Issue 82: Generalized (and deprecated) nonNamespaceView() by adding the usingNamespace() method,/,/
+6b9d6e12375708ee731196ddeb94635d71372fd5,/,/,    First pass at bounded Queue support.,/,/
+7941e0403f34c6e15f66061d0bbc192f591b7a45,/,/,    Merge branch 'master' into zk3.3.x,/,/
+b05e761e28ce1e581ed91d891cb61adcd3760493,/,/,    Merge branch 'master' into zk3.3.x,/,/
+3401bc54d13353be4654acc2f15b6a357cae7eb2,/,/,    A more complete solution for background build-ups. The previous implementation did the retry sleep,/,/
+7a81d0619e35986585fdf5241ec6cd4148b93fa9,/,/,    Rewrote the ChildrenCache to not use background operations. If there are connection issues  events can start to build up in ZooKeeper,/,/
+d9f6e18d0be85b6f8790093d99784bac4a487c38,/,/,    Added ChildReaper. This builds on the newly added Reaper. This utility monitors a single node,/,/
+8d32c4738afe4fb6fa5e6fd843b05821ddc2ce88,/,/,    Beginning to move everything to Apache,/,/
+0482093d86ca0ca7a83ec5df9c31a0553f35f132,/,/,    Issue 245: Auth info specified in the CuratorFrameworkFactory.Builder was not being re-set in cases,/,/
+27550024ad3dcda7c2494f633d0b60cdc2f43ad2,/,/,    Issue 232: ZooKeeper guarantees that "A watch object  or function/context pair  will only,/,/
+bacec7716fddeb39a415bce5c65bf0a28ecf9b39,/,/,    Issue 233: An internal idiom being used to create an EnsurePath instance with the parent of a passed in path,/,/
+ab43c0e903a9aec26a344aac86d4ef83b7d9a5e8,/,/,    Issue 232: NodeCache wasn't handling server connection issues well. It would repeatedly execute checkExists(),/,/
+3c1b1b4dbf256e318b803e7bbcc2a3dcd2b88619,/,/,    Issue 224: ExponentialBackoffRetry was not protected against edge-cases where a too big maxRetries argument,/,/
+296437ee0e2526a0beca5b776ec019416c7fe4cf,/,/,    Removed for now and pushed to a branch.,/,/
+46493f9fcc88a8feff24617325d96c816694fb48,/,/,    Merge branch 'persistent',/,/
+112b5d9238c0642da31c6fcf6ba1a6602cbc6bd8,/,/,    Issue 216,/,/
+57cdbcd38a8d94f717bcdd07d00959f2152e46d3,/,/,    Better implementation of createParents for background mode. This is spends less time blocking ZK's background thread,/,/
+ff4ec29f5958cc9162f0302c02f4ec50c0e796cd,/,/,    temp checkin,/,/
+e8a5f9ce0c52108785530fec3bf88b7e7cbb9f5a,/,/,    Merge branch 'master' of git://github.com/Netflix/curator,/,/
+6b200d5607a4d341b097e18345666da1a47d45b4,/,/,    Merge pull request #210 from dougnukem/master,/,/
+2cb2cdfc99ebed79860704d4250803cb01246a4d,/,/,    Issue 212 - There wasn't a good way to update the data for a Service. I've added a new method,/,/
+365875755c4015504d7ed7fed0f3a1e78e593ac4,/,/,    Issue 211 - Added getState() method to CuratorFramework.,/,/
+8c9e3f0e3a1c62a580f50c514e55d34dc0f71038,/,/,    Creating withProtection() is now supported in the background,/,/
+95c2d1c053135736c7e930ac5bbe5d6137230ecd,/,/,    Merge branch 'cache',/,/
+972684dd056ed2fde7e5cab55dee724969c707ce,/,/,    I can't believe this has been like this for so long. The executor passed to the listener was never used. Doh!!! Major bug.,/,/
+8cd8347c8fb4406e7eb41dafe20abcdd52d8818d,/,/,    I can't believe this has been like this for so long. The executor passed to the listener was never used. Doh!!! Major bug.,/,/
+882bc94618f3e8077079f080fd8eb8283c6447df,/,/,    Improved way of monitoring changes. Instead of issuing a ZooKeeper call for every change  just post an event to a queue so that the ZK can be queries. This way  in a distruptive moment  only 1 ZK call is made instead of many,/,/
+85f8045fe91fe0c76b337127a45345b09f2037f5,/,/,    Added doc,/,/
+21a8f701ebcfad333da59622d2a7b38fb532eae1,/,/,    A bit of refactoring and more code/doc in the service discovery example,/,/
+26521296455232eb206fdcd39911d4665a3ac0ce,/,/,    1. Better implementation for refreshOnWatch - take advantage of the cache's version,/,/
+672cf5c417b78266d1ec89f9ea9145923aa849dd,/,/,    Thanks to Ben Bangert: the InterProcessSemaphore waiting semantics weren't ideal. The nth,/,/
+a769286ea72f885c1c1a5c5de355b731a3971b15,/,/,    oops - switched watch handling,/,/
+86857cb5aa5511240544f49848054cb6a6453ed4,/,/,    Finalized implementation and generalized concept of an instance filter.,/,/
+f424f856643e8b59c611137238a617ef8cce7256,CURATOR-52,Bug,Retry issues with background operations,Framework,Major
+3eb4d69c9cbf5fe5108a49cdaceff58b9659e056,/,/,    added license,/,/
+38a29687f140bf5c8ff27d6d2ff591bdcc172cba,/,/,    When the message was requeued  the wrong node name was being used causing a node name length leak - increasingly long node names,/,/
+64a21a79c5c8bbb9f5b36dfdfd7adbec72795af3,/,/,    When performBackgroundOperation gets a retryable CuratorConnectionLossException  don't do it inline. Queue the background operation as usual,/,/
+37cf6524cbe5315bbaf3e5d94c637529fe1f4c6e,/,/,    It was not possible to correctly handle connection state issues with the LeaderSelectorListener. There was an edge case where if,/,/
+6d7f726bea4919562cf521d48a105f4ffc23c30b,/,/,    Added test from user Michael Morello that exposes major retry hole in background operations. The getZooKeeper() method is not retried,/,/
+86e442a1d9a0907c12f21787ba26bc6be9b80e7b,/,/,    InterProcessSemaphoreMutex changed to use InterProcessSemaphoreV2. In the process  a bug in InterProcessSemaphoreV2 was,/,/
+5deb7ed38d5754d936dafc422246d8634abecc57,/,/,    Added Cam McKenzie to committers list.,/,/
+1103f476d84a53784377a96f8661bd9219e7412d,CURATOR-116,Bug,Ordering of delayed distributed queue is inconsistent,Recipes,Minor
+2df9b97dfdd8f322efcb5facf0ba933c2125e4ef,CURATOR-93,Improvement,Have TransactionCreateBuilder implement Compressible,None,Minor
+7d192424d06a04f27c4efc8cac27762ad841b532,CURATOR-93,Improvement,Have TransactionCreateBuilder implement Compressible,None,Minor
+c885c8fac3ef1c6450dedd173dd1ef6baae826bb,CURATOR-114,Improvement,TestingServer should expose restart() method.,Tests,Trivial
+67dbfadcefa31e7e73873f85f20c3205218e4d68,CURATOR-114,Improvement,TestingServer should expose restart() method.,Tests,Trivial
+2337b64fc5a1cfbbcbe462560cb0a8d2fef22c0a,CURATOR-114,Improvement,TestingServer should expose restart() method.,Tests,Trivial
+30e66cfa3e8e7d09f553adbaa699edbd05993a4e,CURATOR-93,Improvement,Have TransactionCreateBuilder implement Compressible,None,Minor
+5d7d0c7f1430dde06cef8800bca3f035dd707c0d,CURATOR-110,Bug,LeaderLatch does not complete if it is started without a connection to ZooKeeper,Recipes,Minor
+61eb3886e371f7285b8a0572a6b1c896c64b8065,CURATOR-114,Improvement,TestingServer should expose restart() method.,Tests,Trivial
+5954e66fa3108c39b3f2915583def5e51915846f,/,/,    AfterConnectionEstablished needs to return the future from the service so that clients can cancel the action if needed. Added this to LeaderLatch,/,/
+27c70aab9a3d86ba9a8a20e3ae28ef5bed147300,CURATOR-114,Improvement,TestingServer should expose restart() method.,Tests,Trivial
+63d0401c05f6cc122468f55c79c9e1bd4ddb3eb5,CURATOR-110,Bug,LeaderLatch does not complete if it is started without a connection to ZooKeeper,Recipes,Minor
+d3ce45c637caf1cef7263489eef5889a684cbca7,/,/,    made testRetry() more resilient,/,/
+2c376b9f51d6eab4340651abce3284f358bedbc7,CURATOR-110,Bug,LeaderLatch does not complete if it is started without a connection to ZooKeeper,Recipes,Minor
+3a0f6472ec059f4e44b9e79a329326a2cf57fbad,/,/,    more tests,/,/
+0b7ae7e3672a9c817fe31144cd6b18d9a357f124,CURATOR-110,Bug,LeaderLatch does not complete if it is started without a connection to ZooKeeper,Recipes,Minor
+30019cda31afee4150bd014d849e5e7677d02909,/,/,    Return null if the connection manager is closed,/,/
+1a63a102ebbaaead265babd71a3d52928f848bd0,CURATOR-110,Bug,LeaderLatch does not complete if it is started without a connection to ZooKeeper,Recipes,Minor
+bee07a525682436ce33e7110b8f6688ec1df285f,/,/,    start writing RPC tests,/,/
+bfc388ce020afa62a6f5e1d6bd3c6cdd9a82e8a3,/,/,    wip on doc,/,/
+cb9d8dd96e4c625f154f6f15d39801701c2cdab1,/,/,    Merge branch 'master' into curator-rpc,/,/
+bef0b8b7683b65cbeb8bd6dfaf5b54858936180b,/,/,    Fixed a bunch of encoding issues on the confluence doc files,/,/
+87582a9b2f5640fedaa6122a8c7c7d4eafb96e19,/,/,    started work on service discovery,/,/
+8bfaffd24177bba0431fc765f4b1d560aa58bf71,/,/,    refactoring,/,/
+41ac42bb67cd9e3196ec2f0873a4efe595c6ed41,/,/,    some more leader methods - start of path children cache,/,/
+4465fe0f5ac3b7f7c2287980bc114ece9d635f16,/,/,    wip,/,/
+530010d902cb8a2ff09ffe66048e9f11a0650cb1,/,/,    Completed move to new configuration. Connection specs are now fully specified in the server via configuration. Clients create projections by name only.,/,/
+e5ecbcd96fd84611a11a34074d63ae05a77df0d9,/,/,    wip,/,/
+49d0294657d242f366db4a0e0654f429100c4b85,/,/,    transitioned to Dropwizard config and logging,/,/
+f103e02dcc906f9d0387a1e720fa20f8aa479904,/,/,    wip,/,/
+10e52ad0051f839e0349d728b22254a42e91924e,/,/,    wip,/,/
+b949f57b49600f53aa63d1f9fdad8a71e7d7a4df,/,/,    wip,/,/
+27d3b109723e999d463d2a29a3df79b04a53a4db,/,/,    Keep old ctor  add some doc  minor changes,/,/
+8fe1e2699feea9efea0029af5f6961b2b67318a3,CURATOR-275,New Feature,Allow service instances to be disabled temporarily,Recipes,Major
+dd20f1dbed3879372483d7e8f7eb05d920707168,CURATOR-356,Improvement,Allow SASL configuration for TestingServer,Tests,Major
+022de3921a120c6f86cc6e21442327cc04b66cd2,CURATOR-344,Bug,SharedValue watcher should limit work to valid data change events ,Recipes,Major
+649e0ba24b4123829e1267c755318a288f6f9e0c,CURATOR-287,New Feature,PersistentEphemeralNode should be generalized to accept all create modes,Recipes,Minor
+55ca08cb1aef3deada6ae6bb128c6fb2f0608777,/,/,    fixed docs/comments that refer to ephemeral,/,/
+5d485b07218a72a7b01fe5cfd69b1b7c7b9910a8,/,/,    Merge branch 'master' of https://git-wip-us.apache.org/repos/asf/curator,/,/
+c1ea06b1bb5ada979b17e3d1e1f6a65897d1927e,CURATOR-288,New Feature,Provide a mechanism to limit tree traversal in TreeCache + Return old values in NODE_REMOVED event,Recipes,Minor
+bef5bb9bd2ff5ba7862d89120b5d3443587bd39a,CURATOR-278,Bug,In transactions compressed option does not work with some fluent api combinations,Framework,Major
+6b8113b65dce1958a405186ff8ee3c9b4f14f362,/,/,    Return old data for NODE_REMOVED,/,/
+003acc6027aa63e59b5de3b0d1da7e33c2b9f9cc,/,/,    General fix for catch-alls throughout the code. This is overkill but it strikes me as the safest way to address the problem. Everywhere there is a catch-all add a check for InterruptedException and reset the thread's interrupted state,/,/
+a01f2a00dcbf608f5e297683e51a5244ffd679bf,/,/,    Added TreeCacheSelector to allow for controling which nodes a TreeCache processes,/,/
+fefbba1cc3bd5641983657440b40e25425165a6a,/,/,    Deprecated PersistentEphemeralNode in favor of PersistentNode which is the same code but now accepts any createmode,/,/
+9b68e19a278e025fa5884445a2b2519463b57445,/,/,    Moved findAndDeleteProtectedNodeInBackground code into separate operation that is processed through the standard Curator background,/,/
+c1e2a308d891cba4251adcb18a91d074077979b9,CURATOR-278,Bug,In transactions compressed option does not work with some fluent api combinations,Framework,Major
+a14b277b97a8e94cdd8820c2b0da50430bb1b5d1,/,/,    Use supplied executor,/,/
+0fe4d969f86836ecfcf27ab1164c422e771d1495,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+ ,CURATOR-265,Sub-task,Dynamic Reconfig APIs needs some work and more accurate testing,Recipes,Major
+add56dc92e4564ce5d146a8f3c0a8ae51c6dc46f,/,/,    Support delete().quietly() and create().orSetData(),/,/
+b89091e9363e760aa34028bcfb57baf6ca921957,/,/,    Support getting at the cached config from the ensemble tracker,/,/
+3029856c894a72ed2c5762e0c6acd2c0a8cd3937,/,/,    First pass implementation of group membership,/,/
+d42ef172e57af17ed42d7c2c4e2d9a7a0c520f3c,/,/,    wip - adding() API was misnamed. Also  it's mutually exclusive with join/leave,/,/
+4c3c8377935f8ae2c0f24c4a1010cf4bdef4e297,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+ ,CURATOR-265,Sub-task,Dynamic Reconfig APIs needs some work and more accurate testing,Recipes,Major
+d57aaeb77b40fd6a4f5aa52e3d4e44dbe02c1700,CURATOR-247,Sub-task,Extend Curator&apos;s connection state to support SESSION_LOST,Framework,Major
+ ,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+72f722372aedc221f6dd633113b5f9c30e8bd8e2,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+ ,CURATOR-247,Sub-task,Extend Curator&apos;s connection state to support SESSION_LOST,Framework,Major
+667c97e7f3e2966153fb5c105020deaac7d0f510,CURATOR-214,Sub-task,Support new create() APIs,Framework,Major
+ ,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+5f094f8bb6dca3c056051cb8800b418839cca0e1,/,/,    More refinement of classic/new connection handling. Reworked how the retry policy is invoked for each. New behavior is now confirmed to be: wait for connection timeout only once. Some tests will need work due to this,/,/
+6c5a154c8cb33bc0fa62f5ad9daac8d45db50262,CURATOR-214,Sub-task,Support new create() APIs,Framework,Major
+e239137019608f02cabb23c27ab13adcef88c027,/,/,    major refactoring. Abstracting old/new behavior into a pluggable ConnectionHandlingPolicy. Also  IMPORTANT  made the new behavior the default. This needs to be discussed but it's a major improvement and we should default to it.,/,/
+af369dec7a3ba20c60c68b502198bd851e34906f,CURATOR-214,Sub-task,Support new create() APIs,Framework,Major
+d5d12c88b075fd1fc51a29412b3c08918cceb983,CURATOR-217,Sub-task,Use new Watcher Removal APIs in Curator Recipes,Recipes,Major
+ ,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+8389371b3bd635d39aecc8e63020ef95896fbc21,/,/,    updated doc,/,/
+4275b3c60c9350a2c0cd3d7297643db03ba3304d,/,/,    Updated example and some other wip,/,/
+7df5ab38d6055bfe6439e7337816ea00768a5401,/,/,    Initial implementation finished. Uses old transactions internal code for consistency. However  this makes the implementation a bit cumbersome. Old APIs are deprecated. In the future  this can all be cleaned up,/,/
+d86f51f8c2c473715cddfcd32f087e2510332b4f,/,/,    Moved EnsembleTracker and did some refactoring,/,/
+4ec5ffe3a9d1c14a0a5acbe1ebb5552a284a8908,CURATOR-160,Sub-task,Support Dynamic Reconfig,None,Major
+2bd53fc28fbaa70ed380af0579853db83b63a663,CURATOR-160,Sub-task,Support Dynamic Reconfig,None,Major
+227aaf3f56dd2e587977f97d10b9b8b20525830a,/,/,    Upgrade to ZooKeeper 3.5.0-alpha.,/,/
+fb274b1c8d56eeae97c50966ba69e6b98fd71274,CURATOR-161,Sub-task,Support Watcher Removal,None,Major
+ ,CURATOR-217,Sub-task,Use new Watcher Removal APIs in Curator Recipes,Recipes,Major
+79d152ca42b0a34826369c5620ce7807c668ad63,/,/,    doc,/,/
+22d034af90987940420649c5f320e8dc09910c8a,CURATOR-161,Sub-task,Support Watcher Removal,None,Major
+49b2fd3a8313cd05292e2ca8edb4b14b08f0de55,/,/,    more tests  refinements,/,/
+04caf36cd4ee76b358c7866da18c858b5608ebca,CURATOR-161,Sub-task,Support Watcher Removal,None,Major
+d3672a5acbd2bdf0f8caa9b7c8ea07e9d4e4dd2a,/,/,    wip,/,/
+58fcc548f87e3c787f82d48931e2e9992f6c3366,/,/,    first pass at implementation and a simple test,/,/
+d7a65ad5e90c26cb487fe864146b01277dd8cc1a,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+651ac591725567bf85ec830a45b9b062d5dd7474,/,/,    Delay reconnect on session expired,/,/
+3a966eae1eedfad1324ce689c9f168c48ad27bd1,/,/,    doc clarification,/,/
+6d8c0be868341a0885023976dbd1c9f04395d818,CURATOR-99,New Feature,Java 8 refactoring,Recipes,Major
+8363692841ea46caebd25f7fe8e61b5bc8295bab,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+27d3b109723e999d463d2a29a3df79b04a53a4db,/,/,    Keep old ctor  add some doc  minor changes,/,/
+8fe1e2699feea9efea0029af5f6961b2b67318a3,CURATOR-275,New Feature,Allow service instances to be disabled temporarily,Recipes,Major
+649c441529040401e2f414fbaffd8c6122263e70,/,/,    Added AsyncResult - still needs documentation,/,/
+386cadefb6b40d949d6646f2ee237b413dac2733,CURATOR-200,Improvement,Proposal: Remove references to guava library from public APIs,Framework,Major
+8e7fbac86dfe14f18a540a6a10c75f5bfe74120a,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+2724443527db10aab3e505ce3643a0da67a1a7f2,/,/,    closes #56 - old PR needs to be closed,/,/
+5cf7d050fa9905332e358cfaeb93d2e739d158a0,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+cc49ae91f298243f80689a7f879bd9529133755e,/,/,    Lastest TestNg breaks assertEquals on Map<String  byte[]>,/,/
+540cd28a33bccc6423765851631a02dcd974b89f,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+2342578f424230ee9dd0abfd47f0042f9c422343,/,/,    Move to latest TestNg and try to improve test retries,/,/
+acd90971dafd9c3b4373f45734dd9f8f88a165ce,/,/,    reworked this so that it now properly retries one time while still doing each test twice - once for classic and once for standard,/,/
+2ef420cab3bc2951559304786b9789763b796292,/,/,    doc refinement,/,/
+90b39dd87ce8e96dc4d25633960ec7583d33b3d6,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+0b699a368bbb5f3c72ab609fa590bf225c2a2d7a,/,/,    Original PR breaks nodes with protection as the protection ID is stored in the create builder. This change fixes it.,/,/
+e45466acd8fcdcfd9066d5be04e4a176e8e67b89,/,/,    link to async from Framework page,/,/
+bc8e981662cfc996a6e20507e49be80de2aca759,/,/,    closes #180 - won't fix as this will break existing users,/,/
+770aa411d00f97ce6040f2b4182d6f0fe744262d,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+144977f8bc94115fac53163f81310aff0d50c78d,CURATOR-364,Bug,Persistent Node Constructor Requires a Started ZK Connection,Recipes,Major
+dca47a880f6c68b134cc49c5cfa775ffd3323c0e,/,/,    refactoring,/,/
+b4cbe4ba1a2e844405dd30b5505fa24dab63db70,/,/,    closes #184 - this was merged. Don't know why the PR didn't close,/,/
+b58cfd068dbe4771f83365124693049b6051f63e,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+8f592095d295a7dffe44fb6b0432d703bd4cf5b4,/,/,    added info to pom - doc fixes,/,/
+6d392ecb929b292ea9438b0e177c4bbab2c3953b,CURATOR-279,Improvement,Semaphore Leases should return the node name,Recipes,Minor
+da48ef388f6153e66d251121854bb0faae77a3ec,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+fb277f9601411427dee7d26dd2be76941d38c0c3,/,/,    Shaded Guava into Curator Client (and Curator Test) so that it's no longer an issue for users. This should have been done a long time ago. Unfortunately  com.google.common.base.Function  com.google.common.base.Predicate and com.google.common.reflect.TypeToken are in Curator's public API so those 3 classes are NOT shaded. However  this won't be a problem because there's no reason to think that Guava will change or remove these basic interfaces,/,/
+ee4031de78ab06494013e47911896e4e689ba131,/,/,    Added a filtering feature plus some refactoring,/,/
+3876d3eebe50aaadef71e5d32f425fad622513a0,/,/,    watched() should be in the Dsl interface,/,/
+e8d1352253ba0df915bb478e3bc40c2156477494,/,/,    Ported TestFramework to validate some of the new APIs,/,/
+2fa1a69afd9b1b9d4be6c756b643ca4d4ce1f810,/,/,    Needed a method to re-stage watchers that triggered only for connection problems.,/,/
+476d55fe210621d3647355a08c0fb7a926d88a21,/,/,    refactoring,/,/
+394eb9008f226433d983b3ffde31abd6a49f4571,/,/,    Finished first pass  added license  etc.,/,/
+10170c2691687cc9f266b6b19ab57b75b088233c,/,/,    wip,/,/
+9b84ba3988ce533ec549980dcab77c8e35230cef,/,/,    wip - rewriting everything,/,/
+52c9c7d6fecb8df5eb93f0f5a28a2cf3f6268091,CURATOR-376,Bug,InterProcessSemaphoreMutex is not thread safe,Recipes,Major
+74f14106bf389b8cdf92f2838a41372fabdbfa18,/,/,    start of watcher support,/,/
+7689f33eab9e75fc5f443043bb7dd3675c1530dc,/,/,    added support for transactions,/,/
+71283320eba76ef6fe02af84ac31bd27a4ef3916,/,/,    big refactoring,/,/
+ea6261e52e00d724cd41248a99787e6e5ad465bf,/,/,    Simplification. CrimpResult isn't needed. Let the suppliers set the value/exception directly,/,/
+c53f59dcc048006bce0a5df3c0718ccdbb39774f,/,/,    Using a blocking queue was incorrect. This is more Scala-like now. I misunderstood how Promises work in Scala,/,/
+2ae72d67a499c92a6ca0bea795d28b13b54d8b0c,CURATOR-374,Improvement,Reduce memory usage in TreeCache,Recipes,Minor
+67cebe5c243b7e87a0cb475c909d907435f5d427,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+140342045e15876e610d5adee5eda5723d00f09d,/,/,    Merge branch 'master' of https://github.com/apache/curator,/,/
+adcaf340f32755f063d50eef6baf7b0740eb7e40,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+82a8906ddb185e4d405056aeed8abc807f440440,CURATOR-361,Bug,NamespaceImpl.unfixForNamespace() removes leading slash if namespace is empty,Framework,Minor
+e6ed99965b6df91607b2505a3784780e51fa8c53,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+a8a5d46cca4a6257d7f8edce9f3d21af3526847b,/,/,    Introduced hostname to InstanceSpec so that the TestingServer can be bound to other interfaces in a machine other than localhost (127.0.01),/,/
+60d24c2c982ef185ac10d08d01a7eca8f6d57e61,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+3478aca7ed6852484b5574a6082f4bb75c04a1e0,CURATOR-358,Bug,Receiving KeeperException with NoNode when LeaderLatch#getLeader(),Recipes,Critical
+2fccfc190d7a36c4d8a20ed18907bbd97c9b97ad,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+10e2d9db821ed03903f00ce4f23e431168fce910,/,/,    [maven-release-plugin] prepare release apache-curator-2.11.1,/,/
+31d7f9a2040975dee08cb685d61cceb7015f9e32,CURATOR-426,Task,Prep Apache Curator 4.0.0,Apache,Major
+2204c15508f7b5757dfcbba8234ca57de8b0884d,/,/,    latest updates,/,/
+afc206c7efad8bf3e596b2e9a523cce3b355f035,/,/,    merge problem,/,/
+b57f9ef65c1c0fcf948da3f9d66e31c74d5e3db9,CURATOR-426,Task,Prep Apache Curator 4.0.0,Apache,Major
+63f83104d8b7fc086ad92ba166ce58e1897646be,CURATOR-425,Task,Create ZooKeeper 3.4.x compatibility mode for master branch (Curator 3.x),Website,Major
+9454f1ca46bcbd52ba3d7767f2e76a05ffdf56f6,/,/,    update mvn parent pom  plugin and other dependency version,/,/
+334950f6188fe646a4588fd5aafd46e1525686d2,CURATOR-425,Task,Create ZooKeeper 3.4.x compatibility mode for master branch (Curator 3.x),Website,Major
+95b70d2b4b04ca86194cbf54e9b5dc1869b36b3b,/,/,    Squashed commit of the following:,/,/
+8a9f7a8a705a7b19fb7226a5aeb971f9ff931cce,/,/,    color scheme refresh,/,/
+aa976bbe83a8961b33f76aa5b0a7302a3b5f8f39,/,/,    Adding @Test to the class caused testApiPermutations to run. So  added a disabled Test annotation to it,/,/
+42ee566f4f93cf074b93eb08266634d2e993bf4c,/,/,    version 4.0.0-SNAPSHOT,/,/
+58bc969fecc01a1947dd272300d4fb305d221ea2,/,/,    Basic concept of zk 3.4.x compatibility proven. The Compatibility class checks for a well-known 3.5 class and sets a static,/,/
+0641243f75d25a92a9ceb811e8e2611a1e95869e,/,/,    initial work on ZooKeeper 3.4.x compatibility mode,/,/
+7e611bd1c7bbdea3f220af0a17d12bdf1b49b8c0,CURATOR-362,Bug,Curator framework create API with ACL Mode is not adding the ACL to the parent nodes if select creatingParentsIfNeeded,Client,Major
+33e4138840904635a1793084051fd50b643794f1,/,/,    The entire migration set should be 1 transaction - not each inidividual migration,/,/
+74013456da1260f9155a72fa651d5d6fa449d984,/,/,    wip for fixing tests,/,/
+84191f3d46d015cb49ebebb42fddc1019b3db6c3,CURATOR-421,New Feature,Add Data Migration Feature,Framework,Major
+123f2ece539f924705945f462030ec2b9692aebd,/,/,    Added asyncEnsureParents(),/,/
+2ab172a45722efb08e85b6b4d230d9d04b4ce15b,CURATOR-421,New Feature,Add Data Migration Feature,Framework,Major
+1b6216e97be2771e927b7302160957834039579c,/,/,    Oops - modeled ZPath snuck into the main async package,/,/
+1a15582b59ccfaf80b1547fd57bcb7dfe894b1c8,/,/,    reworking so that this feature is more general. Now manages any set of transactions,/,/
+11be719b32bcf8879c44a0c2005ba5a2107986cb,CURATOR-397,New Feature,Created strongly typed model DSL,Framework,Major
+1784a7c68982bae8bed471d92464168f87b0fceb,CURATOR-423,Bug,AsyncCuratorFramework.transactionOp().create() is ignoring create modes,Framework,Major
+ ,CURATOR-421,New Feature,Add Data Migration Feature,Framework,Major
+4a0e022ce361e21b9f1751434166c5a90c4a8845,/,/,    Fixed create mode for AsyncCuratorFramework.transactionOp().create(). It was being ignored. Added a test as well,/,/
+4cd731c92d34a075d9d5a9610ec2610d69aa7792,CURATOR-423,Bug,AsyncCuratorFramework.transactionOp().create() is ignoring create modes,Framework,Major
+e158bbc75affef29828b98373e864b2c460c1f4d,/,/,    close was double closing things. Also introduce an ExceptionAccumulator,/,/
+0f5d10da38626494ae4d0e3339a2a35f270b0edd,/,/,    Squashed commit of the following:,/,/
+ ,CURATOR-397,New Feature,Created strongly typed model DSL,Framework,Major
+ ,CURATOR-407,Improvement,Create Transaction DSL is missing TTL support,Framework,Major
+ ,CURATOR-397,New Feature,Created strongly typed model DSL,Framework,Major
+ ,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+ ,CURATOR-397,New Feature,Created strongly typed model DSL,Framework,Major
+ ,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+ ,CURATOR-397,New Feature,Created strongly typed model DSL,Framework,Major
+527768de890e163770aa4e2de084c7cb20bab82a,/,/,    Squashed commit of the following:,/,/
+ ,CURATOR-2,New Feature,OSGi-friend distribution,General,Minor
+ ,CURATOR-394,Bug,UnrecognizedPropertyException: &quot;enabled&quot; incompatibility,Recipes,Major
+ ,CURATOR-275,New Feature,Allow service instances to be disabled temporarily,Recipes,Major
+086c5b4152cdb045e7bb4818d9cef925e88ed313,/,/,    added missing doc for executorService,/,/
+abaabb5f65c2161f77527165a15d2420f6c88219,CURATOR-386,Improvement,Allow listener to be passed in to PersistentNode to notify for node creation events,Recipes,Minor
+96cb3374f1170afd1b3a5f7ac0fe82d79636a093,CURATOR-401,Improvement,Make InterProcessMutex.isOwnedByCurrentThread public,Recipes,Minor
+da7f18c618eb51e6aaaff7b10f79240cefaf0183,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+ ,CURATOR-351,New Feature,ZOOKEEPER-2169 will add support TTL Nodes,None,Major
+00ffe77951a88ea12c60a506a9beff1ae78de300,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+302661a7af89d4101a9751acfa4897c45fcc44d9,/,/,    localCreateMethod could be null in a race condition,/,/
+e3fec5bc7fcd1091c3f07317039d1d5ed20f2d66,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+ ,CURATOR-351,New Feature,ZOOKEEPER-2169 will add support TTL Nodes,None,Major
+fcec4b650d186932d3e7164f09c15b4a6e1e06a4,CURATOR-400,Bug,Upgrade clirr to fix the check error on java 8,Framework,Major
+9febe31899126ca615117a49fa4c4385bf6498a8,/,/,    Closes #212,/,/
+191aca247dc17d7657a3aaf2c678d29036e992cb,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+4bc2ac329517df67fd6cb410fd24ede9f12335d9,/,/,    updated the DOAP file,/,/
+1826b66d72f6e543a57aaf5f3acc3cd9ca6e965d,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+ ,CURATOR-351,New Feature,ZOOKEEPER-2169 will add support TTL Nodes,None,Major
+e7d57eccfc756efb2cac83edf25da9d57f740553,/,/,    correct version of ZK that has TTL nodes,/,/
+b3939acd47b6198930812236678ceae6f6f6a7af,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+d1a08ae3c92249f0365fd2c918f48f06e7589f3d,/,/,    add fangmin to the developers section,/,/
+bec1443c9cb04f512df8145fbbaaca7c1c6511b4,CURATOR-386,Improvement,Allow listener to be passed in to PersistentNode to notify for node creation events,Recipes,Minor
+6d41d4a8025a8c982fc8fbd1c92b5cd9a3e3dacc,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+2672049482abea4fba1354e7e583e197cdc5c61e,CURATOR-391,Bug,PathChildrenCache missing events upon reconnection,Recipes,Major
+850b6e4e427028aa6366cd51d524570a10343a97,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+a0c72bd4ee1255b1ac8bf6c24358dc5f6fcc7f57,CURATOR-390,Improvement,Create better summary of what Apache Curator is/does,Website,Minor
+9b73d11bc03c6e37567e237e96c36cdf93e4ff66,/,/,    Fixing connection string construction to ignore wildcard client addresses,/,/
+0fc0cbec1ad65d108e2c239f7a6ddfb93f3ed2b0,/,/,    Use Mzxid to determine node change,/,/
+0e23fbac1be51df269f1b396af03980f8a614cab,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+337b9d929c6e027719044559de65468c044c4251,/,/,    check empty connection string in FixedEnsembleProvider,/,/
+7d44baee3d87890b67fc4900f204bb5111368079,CURATOR-3,Bug,LeaderLatch race condition causing extra nodes to be added in Zookeeper Edit,Recipes,Major
+08102b0f09f1b1ac79699d121bca8076853f4e44,/,/,    log authorisation error when writing node with PersistentData,/,/
+87a145ca3346cd1bab8a4fbdc3b1d3d9fe237dc7,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+8c1c5ffa287d22eaea18bf6f89a4a8bf6d9b871c,CURATOR-311,Bug,SharedValue could hold stall data when quourm membership changes,Recipes,Major
+04affff861f142881ebb60fce5d8d89568385ab5,CURATOR-544,New Feature,Implement SessionFailedRetryPolicy,Client,Major
+b29bb010ada7f17626438b828de1f9e122e5d7bf,CURATOR-549,Improvement,ZooKeeper 3.6 will add support for Persistent Recursive Watchers - Add Curator support,Tests,Major
+844c0ad36340b695b2784489c078cfd78522143c,CURATOR-549,Improvement,ZooKeeper 3.6 will add support for Persistent Recursive Watchers - Add Curator support,Tests,Major
+7f9e9cc48e04e4f6cdbea47b98ba2c602059d973,CURATOR-549,Improvement,ZooKeeper 3.6 will add support for Persistent Recursive Watchers - Add Curator support,Tests,Major
+d65669b64f003326c98843b32b997e3ffab1e442,CURATOR-549,Improvement,ZooKeeper 3.6 will add support for Persistent Recursive Watchers - Add Curator support,Tests,Major
+7bbb7196173b88baac0e102bdff265dc7f2ee77e,CURATOR-558,Improvement,ZooKeeper 3.6.0 has many API changes - bring Curator up to date,Tests,Major
+d1a9234ecae47e3704037c839e6041931c24d1f4,CURATOR-558,Improvement,ZooKeeper 3.6.0 has many API changes - bring Curator up to date,Tests,Major
+9745ec4ac2a8585b859350a9e15e06d59dca19fc,CURATOR-562,Improvement,Remove ConnectionHandlingPolicy,Framework,Major

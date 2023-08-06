@@ -1,0 +1,45 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     SampleData-weka.filters.unsupervised.attribute.Remove-R1-5,7-12
+Instances:    354
+Attributes:   2
+              ChangedDeps
+              Tag
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         323               91.2429 %
+Incorrectly Classified Instances        31                8.7571 %
+Kappa statistic                          0.8249
+Mean absolute error                      0.1036
+Root mean squared error                  0.2555
+Relative absolute error                 20.7212 %
+Root relative squared error             51.09   %
+Total Number of Instances              354     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.915    0.090    0.910      0.915    0.913      0.825    0.961     0.938     NoArchChanged
+                 0.910    0.085    0.915      0.910    0.912      0.825    0.961     0.957     ArchChanged
+Weighted Avg.    0.912    0.088    0.912      0.912    0.912      0.825    0.961     0.947     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 162  15 |   a = NoArchChanged
+  16 161 |   b = ArchChanged
+

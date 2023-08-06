@@ -21,11 +21,11 @@ import java.math.*;
 public class ModifyInfo {
     public static void main(String[] args) throws IOException {
 
-        String ProjectName = "freemarker";
-        String CsvPath = "E:\\Metric-tool\\TestOutput\\" + ProjectName + "\\Metric\\commit\\89MetricResults.csv";
-        String MapPath = "E:\\Metric-tool\\myproject\\" + ProjectName + "\\map\\89Map.txt";
+        String ProjectName = "avro";
+        String CsvPath = "E:\\Metric-tool\\TestOutput\\" + ProjectName + "\\Metric\\commit\\avroMetricResults_release1-2.csv";
+        String MapPath = "E:\\Metric-tool\\myproject\\" + ProjectName + "\\map\\12Map.txt";
 
-        String FileList = "E:\\Metric-tool\\myproject\\" + ProjectName + "\\FileList\\freemarker8_file.txt";//该文件是log中第一个提交的文件代码行数文件
+        String FileList = "E:\\Metric-tool\\myproject\\" + ProjectName + "\\FileList\\avro1_file.txt";//该文件是log中第一个提交的文件代码行数文件
         String FileDepsPath = "E:\\Metric-tool\\TestOutput\\" + ProjectName + "\\commit12";
         //暂时不算文件依赖数了 所以函数中相关部分注释掉了
         String Outpath = "E:\\Metric-tool\\TestOutput\\CommitExtract\\" + ProjectName;

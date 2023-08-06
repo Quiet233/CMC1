@@ -1,0 +1,80 @@
+c47e7a91db38b9501a3e8894cbe55ec724c8baf4,FLUME-1629,Sub-task,Add Audience/Stability annotations,None,Major
+fc5e8f7c0bde9a4b365e72adac53ef52a6b140f3,FLUME-1425,New Feature,Create a SpoolDirectory Source and Client,None,Major
+2cc975e53fa5f9ac1d7d5089b3d3c57dcda6c985,FLUME-1371,New Feature,ElasticSearch Sink,Sinks+Sources,Major
+0bb1b21e3fa80cbb0f15c6397214d2a040fd1a5c,FLUME-1199,New Feature,Add HTTP Post Source,Sinks+Sources,Major
+df969d3946e3800474d272a022a8897aa7ea1c06,FLUME-1607,Improvement,FileChannel We should use a regex as opposed to simple filename filter when finding logs,Channel,Major
+80176f340aa9aeb7a9b68a98161c65c4f7218e2b,FLUME-1593,Improvement,FileChannel race condition when log file rolls,Channel,Minor
+150c84541b18331c79cd1372e0dcfa8d54e2d63c,FLUME-1583,Bug,FileChannel fast full replay will always be used if enabled,Channel,Major
+016c93a36c697eb567578899e1690e71ab2592cf,FLUME-1560,Improvement,TestFileChannel* tests which fill up the channel should use larger batch size than 1,Test,Major
+cb4a1a0fe95951d346cac12e1fe0835cb8644656,FLUME-1543,Improvement,TestFileChannel should be factored into many tests,Test,Minor
+88a06409f902e442bf17d9a1c6cfad55c4de163d,FLUME-1424,New Feature,File Channel should support encryption,None,Major
+810dfe28262eaa882cdc9a251d4978196ac333ea,FLUME-1487,Improvement,FileChannel format needs to be extensible,Channel,Major
+e46cf8050acf1624d939d6029326ffae9e9d430a,FLUME-1508,Improvement,TestFileChannel times out maven periodically,Test,Major
+ca636a3277cd9fd2a8d6df693b2c76c95acde984,FLUME-1490,Improvement,Option to limit number of events sent in Stress source,Sinks+Sources,Major
+57fe281125c8c11ba9c17892946ce13de875fd89,FLUME-1398,Bug,Improve concurrency for async hbase sink,Sinks+Sources,Major
+30268b3dd84d37ad9c23f1418472626f5d53108c,/,/,    Copying 1.2.0 rc1 tag to final 1.2.0 release tag.,/,/
+3ddf4d783e582e168eaa7e36740d8b3fe98ba881,FLUME-1377,Bug,ChannelProcessor clobbers exception with NPE if Channel.getTransaction() throws,None,Major
+ea961c31f7d544552fec8d0da0a36518fa4a7adf,FLUME-1374,Bug,Support ganglia reporting,None,Major
+909eb37bd2a78e026f025bbb1ef78a2d1ed2bb4c,FLUME-748,Sub-task,Create metric collection infrastructure,Web,Blocker
+ae602b65c9e8c4654c98bad16caca759819d7c0e,FLUME-1338,Improvement,Produce helpful error message in case that timestamp header is missing when time based bucketing is in use,None,Minor
+90182e307a76144529e523cfac74b9313f0adc17,FLUME-748,Sub-task,Create metric collection infrastructure,Web,Blocker
+9efb9f23edf29a9fd76872ac3a58834a509a244d,FLUME-2010,New Feature,Support Avro records in Log4jAppender and the HDFS Sink,Sinks+Sources,Major
+81df41de97b889adfb67e778074df976b8fc0f11,FLUME-2070,New Feature,Add a Flume Morphline Solr Sink,Sinks+Sources,Major
+2b66fb8d33d86bd7dabbb1b4f911c38c892dbdaa,FLUME-2015,Improvement,ElasticSearchSink: need access to IndexRequestBuilder instance during flume event processing,Sinks+Sources,Major
+fcf638fc33e7ead6de7919da85e7f10b68de6c82,FLUME-2014,Bug,Race condition when using local timestamp with BucketPath,None,Major
+bedfc4e9b606dfad6fa79c507ed97ce0f69e94b7,FLUME-1922,Bug,HDFS Sink should optionally insert the timestamp at the sink,None,Major
+61c5b072620f857f979e43f106c4b9e010f12874,FLUME-1897,Sub-task,Implement Thrift Sink,None,Major
+8fa29e3ee0969041b2b3f668d80fbe305729968d,FLUME-1865,Bug,Rename the Sequence File formatters to Serializer to be consistent with the rest of Flume,Sinks+Sources,Major
+919353dbdf6f82fce6d67d096f4b43c9bedc3a71,FLUME-1732,Bug,Build is failing due to netty problems,None,Major
+977f1faf92356cecfa246518514ecd074abf9d39,FLUME-1076,Improvement,SInk batch sizes vary wildy,Sinks+Sources,Major
+4981e0d3ec87409813f395baadae63a1c228bdc8,FLUME-1810,Sub-task,Update Change log for Flume 1.3.1,None,Major
+5e8fbcc7f164735e7c70857894371bce3e688995,FLUME-1808,Improvement,ElasticSearchSink is missing log4.properties,None,Minor
+26f4af0a9812d928df15701a962a2969bfe8dbe3,FLUME-1788,Bug,Flume Thrift source can fail intermittently because of a race condition in Thrift server implementation on some Linux systems,Test,Minor
+6c5b3e08d8e6983c295ef7f89af2e5112def1958,FLUME-1770,Improvement,Flume should have serializer which supports serializer the headers to a simple string,None,Minor
+38e67d5acfec3f534f7f33b275967b0adb0266ca,FLUME-1762,Improvement,File Channel should recover automatically if the checkpoint is incomplete or bad by deleting the contents of the checkpoint directory,None,Major
+019358d926b9d6c470dfb0b449c4b9a4c31b7588,FLUME-1699,Improvement,Make the rename of the meta file platform neutral,None,Major
+56e50b0e9ca2188c8918365dd187bf79c5b81490,FLUME-1632,New Feature,Persist progress on each file in file spooling client/source,None,Major
+79cef695091441a6597b5a1ccd6962c2ed07ee2a,FLUME-924,New Feature,Implement a JMS source for Flume NG,None,Major
+a536fe9863d0dd0d5354df7a97aacf95d5711ec6,FLUME-1777,Improvement,AbstractSource does not provide enough implementation for sub-classes,Sinks+Sources,Major
+1a9eee4703f374d451ac1f68c80269c97df4798a,FLUME-1502,New Feature,Support for running simple configurations embedded in host process,None,Major
+ecd5062b854ffbcb0057fe7ee532af660f66fa81,FLUME-1630,Sub-task,Flume configuration code could be improved,Configuration,Major
+c47e7a91db38b9501a3e8894cbe55ec724c8baf4,FLUME-1629,Sub-task,Add Audience/Stability annotations,None,Major
+fc5e8f7c0bde9a4b365e72adac53ef52a6b140f3,FLUME-1425,New Feature,Create a SpoolDirectory Source and Client,None,Major
+2aabe6e39005c5da2290ec3ca40ce365df88fe1c,FLUME-1371,New Feature,ElasticSearch Sink,Sinks+Sources,Major
+0bb1b21e3fa80cbb0f15c6397214d2a040fd1a5c,FLUME-1199,New Feature,Add HTTP Post Source,Sinks+Sources,Major
+e984ffa7e86f983953eeaf6fa3f0de3d699dc73b,FLUME-2357,Bug,HDFS sink should retry closing files that previously had close errors,Sinks+Sources,Major
+ee75bc57cdacf98620035ff0acb132821c01c9bb,FLUME-2259,Bug,transaction  closure not happening for all the scenario in hbasesink,Sinks+Sources,Major
+f53d62a359a3a74d0c0fe763ca2f547a188e612e,FLUME-2233,Bug,MemoryChannel lock contention on every put due to bytesRemaining Semaphore,None,Major
+f6bbc5c5af45cb12751a379c5e3060629365a6fd,FLUME-1666,Bug,Syslog source strips timestamp and hostname from log message body,Sinks+Sources,Major
+8ea4789326f8aa56b1947bc9e826acc8ef49d6f5,FLUME-2159,Bug,Sporadic failures in  TestNettyAvroRpcClient.spinThreadsCrazily(),Test,Major
+1e4a074311fd8c682196e0622978fdc66f921bab,FLUME-2052,Improvement,Spooling directory source should be able to replace or ignore malformed characters,None,Major
+e048160e043e4aa57fc49cc33f2640e60677cbe5,FLUME-2010,New Feature,Support Avro records in Log4jAppender and the HDFS Sink,Sinks+Sources,Major
+cf6298415caca606d44fb8a1833337a23d6088d4,FLUME-2070,New Feature,Add a Flume Morphline Solr Sink,Sinks+Sources,Major
+6b910371268685122c2d9fbff8e7ed7f46acbcbb,FLUME-2015,Improvement,ElasticSearchSink: need access to IndexRequestBuilder instance during flume event processing,Sinks+Sources,Major
+0a855488a152cf695e2e1e2f89b67ed2e3095422,FLUME-2014,Bug,Race condition when using local timestamp with BucketPath,None,Major
+6293146224a261d340b39824ce7dadcda9b1efd7,FLUME-1922,Bug,HDFS Sink should optionally insert the timestamp at the sink,None,Major
+5294ee61e71e24b33ab3e4b94bd3b1c03a35475d,FLUME-1897,Sub-task,Implement Thrift Sink,None,Major
+380588d0e3f5e95664053d921615bd3971cdf385,FLUME-1865,Bug,Rename the Sequence File formatters to Serializer to be consistent with the rest of Flume,Sinks+Sources,Major
+6019fcf4c9f773b521813145e026c10c96584527,FLUME-2613,Improvement,Tool/script for deleting individual message from queue,None,Minor
+1b0f051b610b5a102c869a9d06254258a3de898f,FLUME-2631,New Feature,End to End authentication in Flume ,Sinks+Sources,Major
+49101731c35ed5674b668993dc00a7635c2eee20,FLUME-2373,Improvement,Enable configuration to switch thrift source serialization protocol,Sinks+Sources,Major
+aa4a11c576777eab5029be8912df2e2e8b95fb2e,/,/,    Update RELEASE-NOTES for 1.5.2,/,/
+451fad0271280d18ea7c6a1c7114f7c3f9a32665,FLUME-2551,Improvement,Add dev-support to src tarball,None,Major
+67d900cc215aafe1d0dd50a4f1b71ac7c5a2c73e,/,/,    Updating CHANGELOG for 1.5.1 release,/,/
+f25ff9e7d7fff44a9f82aec051051c28f59f60ee,FLUME-2511,Improvement,Allow configuration of enabled protocols in Avro source and Rpc client,Sinks+Sources,Major
+7888f94ed1d44b574ae934aea39b5394fbc85b43,FLUME-2520,Bug,HTTP Source should be able to block a prefixed set of protocols.,None,Major
+a2175841e46c44a317288b53c9d31dffcfbbfe3f,FLUME-2520,Bug,HTTP Source should be able to block a prefixed set of protocols.,None,Major
+93ff446ff00f6044e4b58f4594a47c81caf16ddf,FLUME-1710,Improvement,JSONEvent.getBody should not return null,None,Trivial
+29ca0bae3f1e85e74ae8371ed6b598b7fe794a3a,FLUME-2479,Bug,Kafka property auto.commit.enable is incorrect for KafkaSource,None,Major
+be2dbf1ab68c8b22f565585a627886e78e190503,FLUME-2479,Bug,Kafka property auto.commit.enable is incorrect for KafkaSource,None,Major
+9cc8508255078b5a03f5b2899cc2795f376ad2b5,FLUME-2250,Sub-task,Add support for Kafka Source,Sinks+Sources,Minor
+d56feccfb922165ab35a856f3d2cc65649093571,FLUME-2416,Bug,Use CodecPool in compressed stream to prevent leak of direct buffers,None,Major
+d5fad3b00083487204bd27cc07a1a724ba1053d0,FLUME-2408,Bug,Remove FLUME-1899 from Flume 1.5.0 change log.,None,Major
+ ,FLUME-1899,Improvement,Make SpoolDir work with Sub-Directories,Sinks+Sources,Minor
+b0824298560faba2e15199c20d39bf4f9d64c2b4,FLUME-2365,Task,Please create a DOAP file for your TLP,None,Major
+ceda6aa1126a01370641caf729d8b1dd6d80aa61,FLUME-2399,Bug,Flume 1.5.0.1 release,None,Major
+2085b5ca1a647484dd858340ba83e58905cc6b59,/,/,    Updating RELEASE-NOTES for Flume 1.5.0.1,/,/
+e3e786ca695d549bd4721cc3f8aedf09ee0a56b4,FLUME-2389,Bug,Spillable Memory Channel Example is incorrect,None,Major
+7dea4bdf96d32e859350b1b83efce687b9f0c6df,FLUME-2389,Bug,Spillable Memory Channel Example is incorrect,None,Major
+60a3caaa24f0930d733ad08f83f6d3e8010e57c5,FLUME-2397,Bug,HBase-98 compatibility,None,Blocker
+4ed64553d9d2e4a447dde0e4e3f6f4237a49075d,FLUME-2273,Improvement,ElasticSearchSink: Add handling for header substitution in indexName,Sinks+Sources,Minor

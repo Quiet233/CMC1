@@ -1,0 +1,861 @@
+e68c0fcaaa356937e8694931a1173b8c6ec3bd5b,/,/,    [maven-scm] copy for tag shiro-root-1.2.0,/,/
+b15bdc8e4cef7b7927c39ca5d52d9c2055b510a3,/,/,    [maven-release-plugin] prepare release shiro-root-1.2.0,/,/
+67cd3297756d79c55f2da594c81dcc836a10d33c,SHIRO-339,Task,Release 1.2.0,None,Major
+bb7fb7d41af46bfd0bfc206b5af0e185db1a4386,SHIRO-339,Task,Release 1.2.0,None,Major
+cf53088c6f36e628ea01cb2e242056330cb855d2,/,/,    Remove unfinished openid4j from the tag,/,/
+a7a1e3db82eb59a9ba996a5c552d6be02d60d191,/,/,    Rename 1.2.0 tag to shiro-root-1.2.0 for consistency,/,/
+83a7258a1ab379a6a32d32bc2bd10fc6203cb47f,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+a3da1fb73f9aea430e00061140378f9d15666b28,/,/,    [maven-scm] copy for tag 1.2.0,/,/
+f83696ace48eaa127cea6531c8e5ebad2608372f,/,/,    [maven-release-plugin] prepare release 1.2.0,/,/
+c855f6ac68b381f41d7d64af2142f31467840a2e,SHIRO-339,Task,Release 1.2.0,None,Major
+c65f99368cad6df73e85fb29f11b32db5daa8e19,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+ac8e1147d0dbf85c12112ba25247fa45ecd3aab7,/,/,    [maven-scm] copy for tag shiro-root-1.2.0,/,/
+3d76a58a6eb42a0793abb2b54a8f6e2608259c57,/,/,    [maven-release-plugin] prepare release shiro-root-1.2.0,/,/
+665d06e45579ba82d6a8f7c45fecbd0cdfa33014,/,/,    [maven-release-plugin] rollback the release of shiro-root-1.2.0,/,/
+46f34d1ce99983f2f1c765f885aee5cb712c4e81,/,/,    [maven-release-plugin] prepare release shiro-root-1.2.0,/,/
+6feac79c381c2c17d8ab62ef25b4976fb50e15de,SHIRO-339,Task,Release 1.2.0,None,Major
+17aa41502ce7fac5f0f34fe31c34ebc3a0c56283,/,/,    [maven-release-plugin] prepare release shiro-root-1.2.0,/,/
+c73e24245c4bf77e16aa3e9cdf5f966c59c2e386,SHIRO-339,Task,Release 1.2.0,None,Major
+c5735db6c1fe735d1dcb0ca0ce91b2ac7f1f3069,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+222cdfdbf1ca671989ed6d475597453d50b6454a,/,/,    [maven-scm] copy for tag shiro-root-1.2.0,/,/
+3195472c8157d96109ec634850a1a4017b35c027,/,/,    [maven-release-plugin] prepare release shiro-root-1.2.0,/,/
+19102c4816c3a631c1aaabd2d0549403417b184e,SHIRO-339,Task,Release 1.2.0,None,Major
+e83520ef081cd050a5140c5cea118c0a35cfbcf1,SHIRO-339,Task,Release 1.2.0,None,Major
+fbb854935c37e9d52ed73db46c113d44dcf42a52,SHIRO-339,Task,Release 1.2.0,None,Major
+b07c4ac2d0e8816698efb3b7ffc41266219bb0a2,/,/,    [maven-scm] copy for tag shiro-root-1.2.0,/,/
+298a04360af52597fac16bf845854300ed401b16,SHIRO-339,Task,Release 1.2.0,None,Major
+cf4ff457280800ff88002e4e34eb80f715f340f9,SHIRO-339,Task,Release 1.2.0,None,Major
+c8af11bd917f2d4ed362798ca88075fda241bec7,SHIRO-339,Task,Release 1.2.0,None,Major
+ee99d23cbfe801c6a4fc6ad204ae02595efc80a1,SHIRO-339,Task,Release 1.2.0,None,Major
+0febcedc0bed30f20bd0221e19b5efdb306b5559,SHIRO-339,Task,Release 1.2.0,None,Major
+454e5969e4682daadfa9bfec1c7bd6241da312d9,/,/,    Fix license errors reported by apache-rat,/,/
+0aa34db117c11da9999a5fe1fdc3c6f43eee99df,SHIRO-339,Task,Release 1.2.0,None,Major
+6746a98429e16a5f3b2aa99b8cca69eac2ee4e55,SHIRO-339,Task,Release 1.2.0,None,Major
+ff8059fc44444f341812e564cd8a1d865baec9be,SHIRO-298,Bug,LogoutFilter should catch the  InvalidSessionException ,Web,Minor
+ae5ff0fd1741bd9922ab59b157b2957ab866e4bd,SHIRO-338,Bug,Jenkins builds fail regularly,None,Major
+dbd57702fb5b1217f8176e4414d7d7e4ec2b184c,SHIRO-205,Bug,Filter configs cannot contain commas in INI format,Configuration,Major
+8ae85b3e412ffe2c21b0f83432584007843a078d,SHIRO-323,Bug,DelegatingSubject class cannot be serialized.,Subject,Major
+9c19b0395f46ede3a59bf8d09cb3e15c88e18075,SHIRO-305,Bug,Connect to a SSL secured LDAP,Realms ,Major
+b13e326cad3788b95e9fcada86122caa663ece3e,SHIRO-305,Bug,Connect to a SSL secured LDAP,Realms ,Major
+462404c8c6ae9a64bda80adedfd3adff0d2bc5c0,SHIRO-285,New Feature,Integration with CAS,None,Major
+53e27b973718ee8d3f57882361e7da90db2d344c,SHIRO-285,New Feature,Integration with CAS,None,Major
+271d3c0e3ca9b93f0db649cb52af41383c857a8f,SHIRO-335,Bug,Build with Maven 3 generates a multitude of warnings.,None,Minor
+a8752ecf65fe5086ee6eecf55732b9df27a0067f,SHIRO-217,New Feature,Create JndiObjectFactory to allow JNDI object acquisition during configuration,Configuration,Major
+2203acf0555f9c53d95c98ffb9eca260f065094d,SHIRO-298,Bug,LogoutFilter should catch the  InvalidSessionException ,Web,Minor
+126c5843ff2bbbea8674ceba774903c945d44635,SHIRO-223,Bug,TextConfigurationRealm does not initialize [patch included],Integration: Spring,Minor
+e494036529704fb0ebf625d0a4e81e250eaef44f,SHIRO-285,New Feature,Integration with CAS,None,Major
+cd2c50f269f848371222223f1e1ff1584f5f8a8c,SHIRO-285,New Feature,Integration with CAS,None,Major
+87c494b838943e2593911145aa18e09ab33cf6ed,SHIRO-306,Bug,EnvironmentLoaderListener crashes if custom filters are configured. ,Web,Major
+7340f9dfdda305571644fc68882efe745f19fba4,SHIRO-225,Bug,ReflectionBuilder should support setting null and the empty string,Configuration,Major
+ ,SHIRO-285,New Feature,Integration with CAS,None,Major
+5df45d1d38ebcba8b7c09b067595cab716542448,SHIRO-334,Bug,DefaultSerializer does not load classes from the ContextClassLoader  causing RememberMe to not work,Authentication (log-in),Major
+b709e636de99d4b4d85401c6b6696381f6fb7528,/,/,    Minor spelling fix,/,/
+4b8eb6e35195ae9d407618ced0d03ede3acacbcf,/,/,    Minor JavaDoc updates,/,/
+d5da608be1bd234883fa6de3e11e11acd1227a5f,/,/,    Command-line Hasher cleanup and enabled PasswordMatcher to have an internal DefaultPasswordService instance.,/,/
+3fa3f6544690b737a7b7bb038401dc8afd398194,/,/,    Minor JavaDoc fix,/,/
+0f58e83c1cfe943127a8d2c0f4b3ec547fa180c4,SHIRO-280,New Feature,Create a PasswordService to automate user password management techniques,Cryptography &amp;amp; Hashing,Major
+15ac57e41ed364da3b20176e719f9ec2871a79c8,SHIRO-333,Bug,Error in DOAP,None,Major
+5ad74735b4ecd61fdd44d1b77040b5e0e6721ec7,SHIRO-279,New Feature,Create a simple command line utility to hash passwords,None,Minor
+08f3b0af52db34082f020f3b3242d1aa162441c6,SHIRO-328,Task,Default Block Cipher OperationMode should be CBC,Cryptography &amp;amp; Hashing,Major
+5ea16691b9ad624b6df9df5bd703ee7022eecef0,SHIRO-325,Bug,SimpleSession serializes fields twice,Session Management,Major
+02073403b009b5ce46c9a2794641a71d0df45168,SHIRO-217,New Feature,Create JndiObjectFactory to allow JNDI object acquisition during configuration,Configuration,Major
+c020adf94d957e197d2a2f5e3a7c8e5847b64dfa,SHIRO-217,New Feature,Create JndiObjectFactory to allow JNDI object acquisition during configuration,Configuration,Major
+d035211d405d0510567b0d922aaa66ffb4d86bcd,SHIRO-283,Improvement,Add ability to support basic auth and form authentication simultaneously,None,Major
+79b1a1310c87036fe5c7ca666ecfb6e0994a0778,SHIRO-319,Improvement,SslFilter should check for request.isSecure() as well,None,Major
+2a9fad894556cddfae8bdc1c511408ce08d89b23,SHIRO-318,Bug,Guice integration causes a warning from guice-servlet,None,Major
+bdc5721b066ab21b366382a74e82654dbbff53dd,/,/,    Correcting formatting of last commit.,/,/
+30d3b66d1d0816a232a9cb8398f35730725bf19a,/,/,    Adding self to developer list.,/,/
+dff631c459581050ce4da8e07171da8f54b920fe,SHIRO-312,Bug,DefaultSecurityManager.setSessionManager can get out of sync with DefaultSecurityManager.setSessionMode,Web,Major
+6b9a4a107cb3cd01a7892521f485d45f8e8b7ef2,/,/,    Updated Release Notes to indicate ServletContainerSessionManager change,/,/
+228129174585f1ce647c452d306dc4867e1697d5,/,/,    minor JavaDoc fix,/,/
+569eee47c1390869baf92e53121c0582369cbe68,SHIRO-266,Improvement,Login/Logout: Enable pluggable Subject state binding,Subject,Major
+43ff01d196830539cce39165a07302813db2e5b7,SHIRO-266,Improvement,Login/Logout: Enable pluggable Subject state binding,Subject,Major
+97d8cd1cfa7d21744f83b465b6d4a18a1710c342,/,/,    Updated log message to be a little more readable.,/,/
+601a88db7e1a7188805ffbfd9efb9a016cb3bfd3,/,/,    Finally!  Able to remove direct call to ThreadContext as Thread state management is no longer directly coupled to Subject implementations.,/,/
+5289ef29c9f3815baec1081dfa29de30147a8de2,/,/,    Ignore infinitest.filters configuration file,/,/
+e68e6c6da45a7c1c8c581dd8e487b7b8b0a61d13,/,/,    Ignore infinitest.filters configuration file,/,/
+0eeff86d3f9ea596420d3fed2905a2e9e790b7a4,/,/,    JavaDoc updates,/,/
+5d0d241e8796550eba2e76f40d65372e5dda2811,/,/,    Made session mode resolution more explicit - it will guarantee the default ServletContainerSessionManager in all case except when the native one is explicitly configured.,/,/
+508aa5b82b7cd7668d129fe0b1638ae36ab127ec,/,/,    JavaDoc and license header updates.,/,/
+b6a51db727ecb3df7a7562fd5966326ba45a82c8,SHIRO-266,Improvement,Login/Logout: Enable pluggable Subject state binding,Subject,Major
+84dfd4794382ffd2a368cd4a601e57df19bebdb1,SHIRO-279,New Feature,Create a simple command line utility to hash passwords,None,Minor
+0b8ea9c582dee532c2cd2883da5280c98ec2de74,SHIRO-307,Bug,DomainPermission does not fully support domain  actions and targets properties,Authorization (access control) ,Major
+c2292442f9bc234b97b9dc4f3867fc4c695f6968,/,/,    Altered logic to allow the redirect url to be based on the current request or subject (before logout)  falling back to a static url if necessary.  Subclasses can override the template method to perform request-specific redirect URL acquisition.,/,/
+5f0dc061a1cdc5e68c49e1e7344f331165cec43e,/,/,    Added an intermediate getRedirectUrl(request response) method to allow subclasses to dynamically configure the redirectUrl if desired.  Default implementation returns getRedirectUrl() to retain current behavior.,/,/
+30bf035fa35113a3f90c6721b0fa4e109f983782,/,/,    Minor JavaDoc fix,/,/
+883f8b8d39669efd46acd415693eade0eac44afe,SHIRO-302,Bug,DefaultHasher does not generate random salt,Cryptography &amp;amp; Hashing,Major
+8ee71e197257d9c0af278d077b3fc8e7876b185f,SHIRO-299,Task,Update root pom to ignore maven life cycles in eclipse (m2e 0.13),None,Major
+8f18e05e566148201d438d99b9e196e2ffa9d1b8,SHIRO-288,Bug,Ini file loading from classpath,Web,Major
+aee89709ad241a8abebff4ae2a46bb076f20347b,SHIRO-73,New Feature,Add Authentication Caching to AuthenticatingRealm,None,Major
+ee70b030cb54c5ef1d51292329e9d9c548e6c2a8,SHIRO-73,New Feature,Add Authentication Caching to AuthenticatingRealm,None,Major
+478aeb7af7ee70de745aec499197909e11548efe,SHIRO-282,New Feature,Create ByteSource.Util inner class for creating ByteSource instances,None,Major
+28b81f3d591efadabde5260db7b02e4443b9c27f,/,/,    Adding self to developer list,/,/
+4aa767ddae7148cea2d070998c6a23039d622d8e,SHIRO-280,New Feature,Create a PasswordService to automate user password management techniques,Cryptography &amp;amp; Hashing,Major
+4ac4517252ceb5afa14b2bdcdec7b41c9a05d5f8,SHIRO-281,New Feature,Create DAO Exception Hierarchy and Exception Translator mechanism,None,Major
+2517806f88a24950bebcfd18e3dad0a75370eca9,SHIRO-281,New Feature,Create DAO Exception Hierarchy and Exception Translator mechanism,None,Major
+38532a0924a8fb7567ecbbc5f9ce1e7cec40402f,SHIRO-279,New Feature,Create a simple command line utility to hash passwords,None,Minor
+f34973da603c441670739e0b4e40d29401ef22eb,SHIRO-279,New Feature,Create a simple command line utility to hash passwords,None,Minor
+93713be28ffb303343cef241d8a35addf5ccfae4,SHIRO-279,New Feature,Create a simple command line utility to hash passwords,None,Minor
+179fa6715333740af3a531896cdf78fbb95ea3ba,SHIRO-279,New Feature,Create a simple command line utility to hash passwords,None,Minor
+6bf959ff0e147a3d25fdd3ca2a700bfd2a18c208,SHIRO-240,Bug,ServletContainerSessionManager does not honor web.xml&apos;s session timeout value,Web,Major
+11968e954fd763a2df5529320dfac2343ab89679,SHIRO-222,Bug,Register LifecycleBeanPostProcessor before ShiroFilterFactoryBean [patch included],Integration: Spring,Major
+18110f60c13a7544be9cfdc699becf486f0359b6,SHIRO-235,Bug,checkRoles(String... roles) is unimplemented,Authorization (access control) ,Major
+e6d68335e9353db275dc0a3726cf86c61020d8c2,SHIRO-251,Improvement,Optimize Shiro Video for Google Indexing,Web Site,Minor
+e0cb603d9674f37482e829a514e4e1629fe4d246,SHIRO-270,Bug,DelegatingSubjectTest#testRunAs null pointer exception,None,Minor
+6d2b36d3a6605625f29a7eca045af5a64a8edea8,SHIRO-270,Bug,DelegatingSubjectTest#testRunAs null pointer exception,None,Minor
+051543d7f3123460bb1248ca714382599bbe5e89,SHIRO-234,Bug,ClassCastException in checkRoles,None,Major
+493c60767b8c8a4bd216b809592985c3dfa19fd0,SHIRO-274,New Feature,Apache Karaf Features File,None,Major
+103e591bce8a3b5420188c83e0047bbc6cc47aa9,SHIRO-274,New Feature,Apache Karaf Features File,None,Major
+6145d073149d8f361e7bfb5651a140e87e71ab0c,SHIRO-276,Improvement,remove empty support/groovy project,None,Trivial
+93175c43d6fc40cacb588c2737a3379458899e24,SHIRO-273,Bug,ModularRealmAuthenticator does not call AuthenticationStrategy.beforeAttempt,Authentication (log-in),Critical
+1383c372bbd00f8d01aaf2468aaf04828af05fd2,SHIRO-273,Bug,ModularRealmAuthenticator does not call AuthenticationStrategy.beforeAttempt,Authentication (log-in),Critical
+cb68e5db9e9058abd3142eee8d6a272ca11074f2,SHIRO-272,Bug,Svnignores for support/groovy does not exclude eclipse files,None,Trivial
+eb0435eeacdb0687cac84b6143d2edb0fc19204b,SHIRO-227,Bug,Leak in getPermissions method of JdbcRealm,None,Major
+ae97fd0728139e1102e2eecdfd4d60d202d56d41,SHIRO-237,Bug,nullpointer error at permission check when no permissionresolver is set,Realms ,Critical
+313fb5903dde88275dc8da92df40f329208a5368,SHIRO-243,Improvement,when method is unauthorized  please include method info in stack trace,None,Minor
+36fab3bf476c4783e8e7c7778065996016350f14,SHIRO-243,Improvement,when method is unauthorized  please include method info in stack trace,None,Minor
+3d98efa157cc8d3fc7cb8b8940b61ea34ed9ccb5,SHIRO-243,Improvement,when method is unauthorized  please include method info in stack trace,None,Minor
+e235accd7139bf530e8d357aca26b3fe56ce6cea,SHIRO-243,Improvement,when method is unauthorized  please include method info in stack trace,None,Minor
+63206b37f26a28302d9d6f42bd54a2febae2b82e,SHIRO-236,Improvement,Adding &lt;relativePath&gt; to the &lt;parent&gt; element to avoid Maven 3.0.x issue where parent is not in local repo yet.,None,Minor
+1e50f68f5a6b6e8d76949cfe4ce841fd7139d5dd,/,/,    Added tests for path traversal prevention  had implemented them way before but apparently never committed,/,/
+ec3a2af79ae3f780337598c43259bfc4cbc46ca4,SHIRO-238,Bug,RealmFactory not working properly,Configuration,Major
+259e7a82525d0fbec197a378647f2de492e0640f,SHIRO-231,Bug,Realm shouldn&apos;t implement Authorizer but AuthorizingRealm should implement it directly,Realms ,Major
+54e427584952562cd6d250016a217e2a05170c17,SHIRO-231,Bug,Realm shouldn&apos;t implement Authorizer but AuthorizingRealm should implement it directly,Realms ,Major
+0845c25dfd2fc59e7679c17b7031805d57770896,SHIRO-231,Bug,Realm shouldn&apos;t implement Authorizer but AuthorizingRealm should implement it directly,Realms ,Major
+44c569914946311428f305c55243b991ebe768b5,SHIRO-218,Wish,Add Shiro to Apache Project page,Web,Minor
+8130668c8fc2faaad6b29daee4ef44140f577f7a,/,/,    removed direct use of Logging provider API in favor of SLF4J,/,/
+0f3fbb9ffbe278c98a5d834c915c927c37aa7bf2,SHIRO-221,Improvement,Allow Shiro Filters to be enabled or disabled with a config property,Web,Major
+3c975223ef19498b60f9c4352a76b2cfc4774f1d,/,/,    Updated sample Spring application to use the correct Spring libraries.  Now deploys successfully  although Spring remoting is failing for the Swing app.,/,/
+1c1ab8d865cb1db01bec69ba697e1f8c4c8e77b6,/,/,    Updated trunk to reflect version 1.2.0-SNAPSHOT to reflect forward-incompatible changes and new features.  Any point release (1.1.x) bug fixes will be done in the branches/shiro-root-1.1.x branch and merged into the trunk.,/,/
+6fe9fc548bc69c93b2ef80f93cbbf2a73ed7bba8,/,/,    Fixed bug in AbstractShiroTest implementation that didn't work well when using only mock Subject instances (without the presence of a SecurityManager),/,/
+eb99295cbf8ec3c04ada44b22ba42ea79dbf69cf,/,/,    Javadoc fix - could be misleading,/,/
+b39c291369779d071a87de217fa6dd70ef944a2b,/,/,    Updated example test classes to reflect updated documentation.,/,/
+6e751a96027d629ee8f8bafed11e03d1d590d96f,/,/,    Minor adjustments: Created a basic 'AbstractShiroTest' class w/ example subclass to accompany new 'Testing' documentation page.  Upgraded the maven gpg plugin from version 1.0 to 1.1,/,/
+0401887ad7c81803346421ba21d39e420173e5bc,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+35fbaea2d43bf905cb62be6f885c1d982b6f1b82,/,/,    [maven-release-plugin] prepare release shiro-root-1.1.0,/,/
+fbe1a70510748b35d8e7f987f6337a000ea8445d,/,/,    [maven-release-plugin] rollback the release of shiro-root-1.1.0,/,/
+2c48a81600ac4e5f88714bb8606cc4dafaa9cbc4,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+903fef441200a44cadae294dd062742963560711,/,/,    [maven-release-plugin] prepare release shiro-root-1.1.0,/,/
+cec2d314bb70f5fbdf3afd2e08c1375ebd395094,SHIRO-208,Task,Correct JDK 1.5 / 1.6 incompatibilities,None,Major
+afc4f04f74e83971252b02f613249e06588b38d9,SHIRO-208,Task,Correct JDK 1.5 / 1.6 incompatibilities,None,Major
+a28d395416e0a914be90af3b812e00809037db72,/,/,    removed use of Java 1.6 method to be 1.5 compatible,/,/
+541daa38c12083d3983692edfd25380bba6bdfdc,/,/,    fixed erroneous jsp-api artifact reference,/,/
+fc6810cb4198672a0473e3ae5830dd3d132a6b80,/,/,    Reverting POM versions to 1.1.0-SNAPSHOT to retry the release,/,/
+5e6d5049fffb407ec9169151a08861391f9a26cc,/,/,    retaining original 1.1 release attempt until re-release,/,/
+0a09375b2403decf9ae49c193734d08aaa244e9f,SHIRO-180,Improvement,Upgrade 3rd party dependencies to latest stable versions,None,Major
+fe4aeb898190ee7e4177d2619d11975404139156,SHIRO-18,New Feature,Atlassian Crowd realm,None,Major
+8fb60007221df12f4b5ff85ce7b980dd4a0e88fe,/,/,    [maven-release-plugin] prepare release shiro-root-2.0.0-alpha-1,/,/
+802acf482ef3fbaed4f9286dbf93715eeab63d15,/,/,    Merge pull request #760 from apache/dependabot/maven/org.omnifaces-omnifaces-3.14.2,/,/
+960b553fe6e541e6676a42e010b74cd1e710ca2d,/,/,    flowlogix and omnifaces need to be upgraded together this time,/,/
+e0503e93490fb845bb1d2e73f9c50b0f1477f789,/,/,    remove site goals from default release plugin execution,/,/
+1a12824bfdf37830f244e74f343d7a0143ebbad5,/,/,    Merge remote-tracking branch 'upstream/main',/,/
+f2e62ca7ae3d9d9cf35c252fb1f18a73cc6a8628,/,/,    Merge pull request #762 from apache/dependabot/github_actions/github/codeql-action-2.2.5,/,/
+55a3d14e17886f3964f8fd96dce013789be3bd5c,/,/,    Merge pull request #761 from apache/dependabot/maven/com.puppycrawl.tools-checkstyle-10.8.0,/,/
+41761789538a9e15f4fadc1cdbf7334f77e773e6,/,/,    Merge pull request #759 from apache/dependabot/maven/org.owasp-dependency-check-maven-8.1.1,/,/
+2af711ba7823a7608471bb51f76187d084d2d413,/,/,    Bump github/codeql-action from 2.2.4 to 2.2.5,/,/
+fcf98a77b36b6a049245e8fa5bd9d42a040525a9,/,/,    Bump checkstyle from 10.7.0 to 10.8.0,/,/
+4f7e0831deefba4f961f044db03f3f63cd60a343,/,/,    Bump omnifaces from 3.14.1 to 3.14.2,/,/
+2180b271b26fbdf19b45e76a1af984ecf2b9a31c,/,/,    Bump dependency-check-maven from 8.1.0 to 8.1.1,/,/
+7e46f0fb572447646e96734c02894551bf93dcd3,/,/,    added validate prep goals,/,/
+167e00bc8a42a24020225fa5fd8a3700bc20f2db,/,/,    fix release: move samples after integration tests to avoid missing dependency,/,/
+5019d893048780b99ad06051a5825c75b1490eb3,/,/,    release fixes: javadoc dependencies and maven site dependencies updated and fixed,/,/
+1f385a1dd32de928d8237f8db7c44df7b0deee0a,/,/,    Merge pull request #755 from apache/dependabot/maven/tomcat.version-10.1.6,/,/
+a3d75d98da621d1c4256178b9a47390d028ed4d6,/,/,    Bump tomcat.version from 10.1.5 to 10.1.6,/,/
+7752ace13dba20a64b5a4fc9930fd7afa17f7552,/,/,    Merge pull request #754 from apache/dependabot/maven/spring-boot.version-2.7.9,/,/
+5f54b508c9a7349d8f948fa739bbd14f2c0244d7,/,/,    Bump spring-boot.version from 2.7.8 to 2.7.9,/,/
+16b65eea8df75b55bf3793b65f89bf794fdcfabe,/,/,    Merge pull request #751 from leleuj/fluentsetter,/,/
+633ef5136500eba1ad5361e6571312e822711eb4,/,/,    Merge pull request #752 from apache/dependabot/maven/org.codehaus.mojo-versions-maven-plugin-2.15.0,/,/
+30c7dd30aed3fa419c76cb1e701c2077b5df6802,/,/,    Merge pull request #750 from apache/dependabot/github_actions/actions/cache-3.2.6,/,/
+c54ad74eff59d89ddba037945d1739d929e69da5,/,/,    Bump actions/cache from 3.2.5 to 3.2.6,/,/
+92fcb71f64be5469dd0310cf6585cb502e4cae4f,/,/,    Merge pull request #747 from apache/dependabot/maven/org.jsoup-jsoup-1.15.4,/,/
+14688245f485158cfb60b86fdce0263d0fdbc663,/,/,    Bump jsoup from 1.15.3 to 1.15.4,/,/
+7f82d35dbf0c4e6cd6e0216e1c4653e4ca352f47,SHIRO-337,New Feature,adding support for CDI,Integration: JEE,Major
+031484a883102ea0c66255fa9ed1c0c72175c598,/,/,    Merge pull request #743 from apache/dependabot/maven/com.hazelcast-hazelcast-5.2.2,/,/
+17933d67ac490eee79b583ac42e474504074d636,/,/,    Bump hazelcast from 5.2.1 to 5.2.2,/,/
+cc9423f1c81609ea126191b5c9eeae9ce6c577b8,/,/,    Merge pull request #737 from apache/dependabot/maven/org.cache2k-cache2k-jcache-2.6.1.Final,/,/
+faad5eaf9464dda367e757e6bbdd79970fb6057e,/,/,    Merge pull request #736 from apache/dependabot/github_actions/github/codeql-action-2.2.4,/,/
+200dbf005add708f0f138a0f2ba39aa2fb951e51,/,/,    Merge pull request #738 from apache/dependabot/maven/org.owasp-dependency-check-maven-8.1.0,/,/
+50aeb2daf4153d77c602fe16aebf2a89e268a565,/,/,    Bump dependency-check-maven from 8.0.2 to 8.1.0,/,/
+71d49881ef7f461821b63a1a5a5977221f956da6,/,/,    Bump cache2k-jcache from 2.4.1.Final to 2.6.1.Final,/,/
+ca664800cef62db01e4dc2dd4c63f6435608a633,/,/,    Bump github/codeql-action from 2.2.3 to 2.2.4,/,/
+2c03b991149a500483c63284e684f86fbea7e9f1,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+a01d29fc6184ece917f9389bd49166a919321db2,/,/,    Merge pull request #734 from fpapon/jakarta-bom,/,/
+ ,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+b9f4b779a46df7830218105f6147952019815d84,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+92af573c030aadb9f1fe0f97289369fd362c348c,/,/,    Merge pull request #714 from lprimak/roles-allowed,/,/
+ ,SHIRO-671,Improvement,Add support for javax.annotation.security.RolesAllowed  PermitAll  and DenyAll,jax-rs,Major
+1afd6b8a25350821d531caad24b1e2c2a029ec58,/,/,    Merge pull request #705 from apache/jcache-main,/,/
+ ,SHIRO-849,Task,Add support for JCache,Caching ,Major
+5d793fb11426c8edc77cc6e2388ddd7e74d22985,/,/,    Merge pull request #733 from apache/dependabot/github_actions/actions/cache-3.2.5,/,/
+1c4a80902a29f67e6f3a81246a3cebcdcc15359b,/,/,    Bump actions/cache from 3.2.4 to 3.2.5,/,/
+932429d569f0dfd6c9f3d530cd4b8fb751dd5c62,/,/,    Merge pull request #732 from apache/dependabot/github_actions/github/codeql-action-2.2.3,/,/
+d49c0c9e1fadcd421e491d641311fda83f221958,/,/,    Merge pull request #731 from apache/dependabot/maven/groovy.version-4.0.9,/,/
+45e09acb7e355594b42c25f94e565e7fc6902550,/,/,    Bump github/codeql-action from 2.2.2 to 2.2.3,/,/
+44998191f9c38a2af01daa3dd7e8e183b5f7ce29,/,/,    Bump groovy.version from 4.0.8 to 4.0.9,/,/
+f421ba87d5bdfcdf953c3c7aa665d2594a18e0e3,/,/,    fix tests: give up in payara /jenkins (can't figure out why it breaks sometimes on port clashes),/,/
+f2cd5f8b084eec0e9e86d39a7d6d0273493e816c,/,/,    Merge pull request #729 from apache/dependabot/maven/org.glassfish.jaxb-jaxb-runtime-2.3.8,/,/
+c64a04c364d9396d731a2e142c793641b4676f71,/,/,    fix tests: removed Jenkins-unsupported builds and removed payara port check,/,/
+0db17f74fc852afff549c89d8801383b1953aff7,/,/,    Bump jaxb-runtime from 2.3.2 to 2.3.8,/,/
+b8d6305acdcb8f04276f1f03debf73f8ec20b45f,/,/,    jenkins: hostname -> node_name env vars,/,/
+88690006d492035a93c6444735567003f998ea15,/,/,    jenkins: printing out slave node host in Jenkins pipeline,/,/
+09e978c71d625bbe33121cd8ad645d4f288c18df,/,/,    fix tests: now setting reuseaddr to true in hopes to detect port clashes better,/,/
+5e945ac3fc624374781f10e94d47603ff4fb368c,/,/,    Merge pull request #721 from apache/dependabot/maven/org.projectlombok-lombok-1.18.26,/,/
+a8ab1e0147fd376ff56607c6a55c0fad81f9d096,/,/,    Merge pull request #726 from apache/dependabot/github_actions/github/codeql-action-2.2.2,/,/
+6e1e9b99fcf6f18e005ea9c1b8eae39a1fcd76f3,/,/,    Merge pull request #725 from apache/dependabot/github_actions/actions/setup-java-3.10.0,/,/
+a75523f0a4b1795df6a413d77f16f56d6e56bdf7,/,/,    Bump github/codeql-action from 2.2.1 to 2.2.2,/,/
+b5b883f71305ef48bbe8f3c48e8357fbabddc50f,/,/,    Bump actions/setup-java from 3.9.0 to 3.10.0,/,/
+2ccdc505556030a66b6dbd3d4d038f1831c76287,/,/,    Bump lombok from 1.18.24 to 1.18.26,/,/
+fac85b8b7518d226c93995371464d092becc33c5,/,/,    Merge pull request #720 from apache/coheigea/maven,/,/
+860b39f10d5a9ff0fc59d95f5338677a5d105673,/,/,    Adding permission to maven workflow,/,/
+bd9818561f8813979762e3d08f5e8a833b6a55fa,/,/,    fix tests: forgot to remove a print line,/,/
+ef32a40b06c0c2e93f77929af47d98a7fde93ac1,/,/,    fix tests: matrix build port clash now based on matrix hash,/,/
+15f3f62481b788b781aad15ee2f6b50ccd872e28,SHIRO-671,Improvement,Add support for javax.annotation.security.RolesAllowed  PermitAll  and DenyAll,jax-rs,Major
+64a87a8318af437961805b248849c2265d8cac7b,/,/,    Merge pull request #695 from lprimak/cdi-module-integration,/,/
+ ,SHIRO-337,New Feature,adding support for CDI,Integration: JEE,Major
+0cf238a0cef62fe80af797a41f7b843a493e009f,SHIRO-337,New Feature,adding support for CDI,Integration: JEE,Major
+2629c2c2139e615373fb45927cb668ee540a52e3,/,/,    Merge pull request #718 from apache/dependabot/maven/arquillian.version-1.7.0.Alpha14,/,/
+ce31b1ed3485955d185a728895fbe2110b6338d4,/,/,    Merge pull request #717 from apache/dependabot/maven/hibernate.version-5.6.15.Final,/,/
+432991e864c2d880120b991e6b719141c147106e,/,/,    Bump arquillian.version from 1.7.0.Alpha13 to 1.7.0.Alpha14,/,/
+4d0c043c70fec91ba0e8d423274840d3d58a4f48,/,/,    Bump hibernate.version from 5.6.14.Final to 5.6.15.Final,/,/
+c024474e4ca6a9dd8ec0b2d5b230992784988792,/,/,    chore: exclude NetBeans files from license check,/,/
+0c2bbc45c042ba1c3eccd687040428f643fd350f,/,/,    fix tests: better error message when payara ports clash,/,/
+61e7e4a49cefa01e1d5b551dfdbc22bf1193ff0a,/,/,    fix tests: Payara ports clash during Jenkins patrix builds,/,/
+da6d3c1063d1590319bce1f0035375236f66d415,/,/,    Merge pull request #713 from apache/dependabot/maven/org.projectlombok-lombok-1.18.26,/,/
+4e60231e4f1b80c1990fb1af2f8f9d0041e66288,/,/,    Bump lombok from 1.18.24 to 1.18.26,/,/
+2aa01a8e0cc7f2313c01013f1f2b9ea601c38d9b,/,/,    Merge pull request #712 from apache/dependabot/maven/jakarta.servlet.jsp-jakarta.servlet.jsp-api-3.1.1,/,/
+c8d1511584a370c5fb4d871ab22a043e29218534,/,/,    Bump jakarta.servlet.jsp-api from 3.1.0 to 3.1.1,/,/
+1ab48433b3e3c514b72e3d6c22d2a0f802626e3d,/,/,    Merge pull request #708 from apache/dependabot/maven/com.puppycrawl.tools-checkstyle-10.7.0,/,/
+a99a91998db3e9d58268c8d19593913c883d9cc3,/,/,    Merge pull request #707 from apache/dependabot/maven/mockito.version-5.1.1,/,/
+70e33750625c5c8988fb37e6965c8d470f4816d3,/,/,    Bump checkstyle from 10.6.0 to 10.7.0,/,/
+9d7b573bec4d5f821311db74be42c7a9e8e9cf89,/,/,    Bump mockito.version from 5.1.0 to 5.1.1,/,/
+42ba52d0901bc74b9b2c743861f1ac84c703981c,/,/,    Merge pull request #706 from step-security-bot/stepsecurity_remediation_1675147592,/,/
+969a17ff98f410fcbaf934c172e98e738183293b,/,/,    [StepSecurity] ci: Harden GitHub Actions,/,/
+3774b64d24a242dba0c0d5819c224a7a42822d6c,/,/,    Adding scorecards badge to README,/,/
+f43a097519d6171d600cc1de0337e3b6073667c9,/,/,    Add JCache support,/,/
+da7159b9a08cb96a6edfb96612495c514081fcd1,/,/,    Add missing license header,/,/
+b919b4977a4ce4b825f5c457624ccb3ed5c1fb9b,/,/,    Adds cache module for JCache,/,/
+ ,SHIRO-816,Improvement,Update shiro-hazelcast to support Hazelcast 5.x,None,Major
+ ,SHIRO-813
+6cb4b849ee3fa26cacd1bfa6ea4cd099b753a89e,/,/,    removed extra whitespace from ReflectionBuilder.java,/,/
+0d1a7d7b055ff0d8ada943fea3b53af2c61ebcbc,/,/,    Merge pull request #701 from apache/dependabot/github_actions/actions/cache-3.2.4,/,/
+4559508f4502164184ee85531dc16c8a958d7695,/,/,    Merge pull request #700 from apache/dependabot/maven/org.owasp-dependency-check-maven-8.0.2,/,/
+85409717a2649730c956f1b070f74273a80af972,/,/,    Merge pull request #699 from apache/dependabot/maven/mockito.version-5.1.0,/,/
+cba31a2891d93ca75af4e317c74394634483e967,/,/,    Bump actions/cache from 3.2.3 to 3.2.4,/,/
+7e6618f473cae6a84cc6157c0f1043a9f1778548,/,/,    Bump dependency-check-maven from 8.0.1 to 8.0.2,/,/
+b29be6b9d554921fdbeda423a10d6538e80a67c3,/,/,    Bump mockito.version from 5.0.0 to 5.1.0,/,/
+e9a77f1364704255eb1d2510786bb6d7f50c826b,/,/,    Merge pull request #698 from apache/coheigea/codeql,/,/
+8433da68d1b5f6aea33f84eeb41a43da5f6aa5ef,/,/,    Attempting to speedup codeql by caching artifacts,/,/
+acd35fb4c780485b2c0320c57d266dd262d18c66,/,/,    Adding ASF license for codeql,/,/
+cc9c34352c877f1d177330b9abb6291fa2cf010f,/,/,    Create codeql.yml,/,/
+b7d99fd3ad69d06b6b94ae6dac92383f5d23bb46,/,/,    Merge pull request #697 from fpapon/main,/,/
+5f447e34ec277ea6c4658ebc1c03565aec2a2398,/,/,    Fix Shiro logo on readme,/,/
+5bbad251c7ed0d57937ebf179eb96673b4ae7f4f,/,/,    - update surefire / failsafe plugins to 3.0.0-M8,/,/
+e1510a51da6a3d2de201415614fe8a528dd59987,/,/,    feat(Jakarta EE): do not null out principal unless org.apache.shiro.servlet-no-principal = true is specified in web.xml,/,/
+418547dd6ed56716c32f7ba1750eb4a90a2f9950,/,/,    Merge pull request #692 from apache/dependabot/maven/spring.version-5.3.25,/,/
+1973173049442bb5388cd11a44d9c77edd45422f,/,/,    Merge pull request #664 from bmarwell/SHIRO_902_quoted_permissions,/,/
+ ,SHIRO-902,Bug,Separator conflict between PermissionUtils.resolveDelimitedPermissions() and WildcardPermission.SUBPART_DIVIDER_TOKEN,Authorization (access control) ,Major
+c8035a6e4abe9616e9b053344eb9b4873193b046,/,/,    Bump spring.version from 5.3.23 to 5.3.25,/,/
+337448298be51d9a08bc78751524f030f4e13906,/,/,    Merge pull request #691 from apache/dependabot/maven/spring-boot.version-2.7.8,/,/
+e555540eaf789a70a2a8816708d58a869dec80d9,/,/,    Bump spring-boot.version from 2.7.4 to 2.7.8,/,/
+55afc07070fe89650e9dbf1edbe07f267da45749,/,/,    feat(Jakarta EE): added alwaysEnabled config variable to SSL filter so as to ignore JSF if true,/,/
+655619ea2b4a83c0a36c0fee4cc93d915c2123dd,/,/,    Revert "feat(Jakarta EE): added alwaysEnabled config variable to SSL filter so as to ignore JSF if true",/,/
+6a6d6f1faaef6ab39020fc6d0503864cd2c95695,/,/,    feat(Jakarta EE): added alwaysEnabled config variable to SSL filter so as to ignore JSF if true,/,/
+af09500330048af4c5bd19c79671d782a5eb70bb,/,/,    Merge pull request #690 from lprimak/fix-default-webenv-init-when-ee-disabled,/,/
+5c905162ebf3550146adbaa84cf08799e22600e7,/,/,    bugfix: when Shiro-EE is disabled  use the "standard" default ini environment instead of custom,/,/
+556e4888074179ecdc2a15c32bb00a0f56bf0c76,/,/,    Merge pull request #687 from apache/dependabot/maven/org.apache.maven.plugins-maven-pmd-plugin-3.20.0,/,/
+14825875a1d9c2d39e51bedba12762db96c05113,/,/,    Merge pull request #685 from apache/dependabot/maven/org.apache.cxf-cxf-rt-rs-client-3.5.5,/,/
+5e1832040b13e26763beca5d0fd3e19a2bb0f87a,/,/,    Merge pull request #684 from apache/dependabot/maven/org.owasp-dependency-check-maven-8.0.1,/,/
+9ac674807e0e71f1a5dcb8791b385b70fbe0f342,/,/,    Merge pull request #682 from apache/dependabot/maven/com.flowlogix-flowlogix-jee-5.3.2,/,/
+3b2022e51a19f58c6907cc12e55abbdc51b29cee,/,/,    Merge pull request #681 from apache/dependabot/maven/com.puppycrawl.tools-checkstyle-10.6.0,/,/
+9b1f7fb76e14088b9c38078c046102643dac0363,/,/,    Bump maven-pmd-plugin from 3.19.0 to 3.20.0,/,/
+1d28b6aca3d0a842b6181c665ec50d0b8b31eba4,/,/,    Merge pull request #678 from apache/dependabot/maven/dependency.meecrowave.version-1.2.15,/,/
+2b94f3183e899425ac43be6796e1f404f0c33bc0,/,/,    Merge pull request #677 from apache/dependabot/maven/jakarta.servlet.jsp-jakarta.servlet.jsp-api-3.1.0,/,/
+aa59019357525240d6c238f057c1d3439ab499d3,/,/,    Merge pull request #676 from apache/dependabot/maven/org.apache.cxf-cxf-rt-frontend-jaxrs-3.5.5,/,/
+158f514edadf21e13423216ddce37f312a2637ad,/,/,    Merge pull request #675 from apache/dependabot/maven/org.apache.karaf.features-framework-4.4.3,/,/
+7d001843388ca76c8036e3d661e389fba94766e6,/,/,    upped dependabot PR limit to 50,/,/
+6cd05c1bdcc5716f8c6f208b685166801ccb2a5d,/,/,    Bump cxf-rt-rs-client from 3.5.3 to 3.5.5,/,/
+7c83c8a7e0cb28e32e23628f9850fd67f3caa73d,/,/,    Bump dependency-check-maven from 8.0.0 to 8.0.1,/,/
+bbfc910913a7fc97d5d5ddd34c895b9dc38b921a,/,/,    Bump flowlogix-jee from 5.2 to 5.3.2,/,/
+a7c874fa12de6349dc515b55b33bcb468fb80baf,/,/,    Bump checkstyle from 10.5.0 to 10.6.0,/,/
+e6951c1062ed5db3e2ba77459832385416582c81,/,/,    Bump dependency.meecrowave.version from 1.2.11 to 1.2.15,/,/
+058f95de3769bccf6bc138be7ae5ae746188701d,/,/,    Bump jakarta.servlet.jsp-api from 3.0.0 to 3.1.0,/,/
+fc6f9b5aa888d8213207ec80bdc1da0e5dc84739,/,/,    Bump cxf-rt-frontend-jaxrs from 3.5.3 to 3.5.5,/,/
+61a87c8d7b9270cfd79615e35c51cafa87c1e3b8,/,/,    Bump framework from 4.4.2 to 4.4.3,/,/
+1bd8d59e51959620626ee904369afa89d9bc331f,/,/,    Merge pull request #674 from apache/dependabot/maven/mockito.version-5.0.0,/,/
+f99b5ff3a6b9c56bbe623bc131259ca118c006be,/,/,    Merge pull request #673 from apache/dependabot/maven/org.apache.meecrowave-meecrowave-core-jakarta-1.2.15,/,/
+d27ffc7bfc14bef0071dd68c6863375d99ab54ec,/,/,    Bump meecrowave-core from 1.2.14 to 1.2.15,/,/
+6e98488b948be6902f99589bf8240926d7b6024c,/,/,    Merge pull request #670 from apache/dependabot/maven/tomcat.version-10.1.5,/,/
+855397b48a830f58eacd776410c98eeaad17d558,/,/,    Merge pull request #669 from apache/dependabot/maven/org.codehaus.mojo-versions-maven-plugin-2.14.2,/,/
+2fcaadd02385c66a47da764504fbc110676950c7,/,/,    Bump mockito.version from 4.8.0 to 5.0.0,/,/
+1f7fb12592be6521b050d8decf1364f287305cff,/,/,    Bump tomcat.version from 10.0.27 to 10.1.5,/,/
+988d4002b6ccbef806cf2b0ae057b7eb38d55c04,/,/,    Bump versions-maven-plugin from 2.14.1 to 2.14.2,/,/
+d743e3ddee79e76b894bf1ee2343ce5d673257a7,/,/,    Merge pull request #625 from apache/dependabot/maven/aspectj.version-1.9.19,/,/
+ffab5020280a163d015e1f06811f6d270b0e482a,/,/,    Bump aspectj.version from 1.9.7.M3 to 1.9.19,/,/
+344a0699d1c7321bb3b792fea86b857fc227e07e,/,/,    Merge pull request #548 from apache/dependabot/maven/org.hsqldb-hsqldb-2.7.1,/,/
+cbfdeae67a69b45448ebdda3c493e3982b0d0a71,/,/,    Bump hsqldb from 2.5.0 to 2.7.1,/,/
+d3e0cb9744aaa6da8c67729a4a5cca801d372934,/,/,    Merge pull request #640 from apache/dependabot/maven/com.hazelcast-hazelcast-5.2.1,/,/
+ed7d1b1b1d976ccb344eafa138e69ece312b0c0a,/,/,    Merge pull request #641 from apache/dependabot/maven/com.github.siom79.japicmp-japicmp-maven-plugin-0.17.1,/,/
+3caff3977d2aae9dcf223c09fb341a6b1cd2e806,/,/,    Merge pull request #667 from lprimak/jakarta-ee-logging-enh,/,/
+faf9220acfb3af92fd725cf317fe574183007971,/,/,    saving payara logs and making it easier to find out why integration test failed,/,/
+11044e045243bca041c05410364499478134aa52,/,/,    Merge pull request #666 from apache/dependabot/maven/groovy.version-4.0.8,/,/
+53eb74bc7e71aebf2ccf3607c0442d082c781647,/,/,    Bump groovy.version from 4.0.7 to 4.0.8,/,/
+75f118db8ab90f6dfc08db2303548f17cda15069,/,/,    fixed jacoco coverage,/,/
+eac02ca7178a51b5f4364fab8b8cee45a95ce031,/,/,    Merge pull request #659 from apache/dependabot/maven/junit.version-5.9.2,/,/
+75d90fbc84a945d2c408ad6c1adf860629e677f5,/,/,    skip integration tests when deploying from Jenkins in addition to skipping regular tests,/,/
+33a010f3e327847634dfff37cb587895ed32074e,/,/,    separated out Payara temp direcotires per-workspace so they don't clash on Jenkins,/,/
+fb593f6ce632c489a2640d55a199c0fa86af60a9,SHIRO-902,Bug,Separator conflict between PermissionUtils.resolveDelimitedPermissions() and WildcardPermission.SUBPART_DIVIDER_TOKEN,Authorization (access control) ,Major
+eeb70924074168cad1d42ef6bf0a19d09b8ec00b,/,/,    Bump hazelcast from 5.1.3 to 5.2.1,/,/
+495350b2f40254940e658fc6806443e923877c1d,/,/,    Bump junit.version from 5.9.1 to 5.9.2,/,/
+73b47f5d3f519f8fac21eb2e64a7e114e93939ad,/,/,    do not pass GH credentials on Windows  was failing the builds,/,/
+3cea9eafc08a7623f98bfdb333c346e7f33d53ce,/,/,    Merge pull request #647 from apache/dependabot/maven/org.apache.maven.plugins-maven-dependency-plugin-3.5.0,/,/
+7b4604cec3256c92a7742b63dfdb467b43c773b7,/,/,    Merge pull request #563 from lprimak/jakartaee-integration,/,/
+ ,SHIRO-898,New Feature,Migrate Jakarta EE support from FlowLogix to Shiro,Integration: JEE,Major
+84fc88288f8bbd35d07c0328524c7b4bc5c364fe,/,/,    Merge pull request #657 from lprimak/jdk-11-minimum,/,/
+ ,SHIRO-904,Task,Make JDK 11 base compatibility in Shiro 2.0,None,Major
+3c64f53a2f8df1c3028e11b7f3d9eee76d1e2269,SHIRO-904,Task,Make JDK 11 base compatibility in Shiro 2.0,None,Major
+474a8328dc98b3eb2f7a2f58459b76ece73ac626,/,/,    Bump maven-dependency-plugin from 3.4.0 to 3.5.0,/,/
+c6a700299a3a4e8226ec1db459a99f06bcc4d80e,/,/,    Merge pull request #644 from apache/dependabot/maven/org.owasp-dependency-check-maven-8.0.0,/,/
+ced1f3808f83370bcfc5c6e55f788f20fcc244b2,/,/,    Bump dependency-check-maven from 7.2.1 to 8.0.0,/,/
+65e6c981f06717d9381f9c9e22b5f65282089e25,/,/,    Add Spring EnvironmentPostProcessor,/,/
+bdbbb98cd628fc03fa95696fc0e563320bf44cc5,/,/,    Bump japicmp-maven-plugin from 0.16.0 to 0.17.1,/,/
+0102f1346acc444fb173e4198647961973c1d5e1,/,/,    Merge pull request #623 from apache/dependabot/maven/hibernate.version-5.6.14.Final,/,/
+2ab2442fb3c7b5b330099975a0d6640b6de0879d,/,/,    Merge pull request #629 from mnd999/mnd999-name-authorizingrealm-cache-flag,/,/
+adb56c885210eeca710b2df17f6b3aeda85e4f35,/,/,    [maven-release-plugin] prepare release shiro-root-1.11.0,/,/
+e167a712d6908be2a5c5f2c36fc10ab64a4b256a,/,/,    Add Spring EnvironmentPostProcessor,/,/
+a2eb7e88067c5ae2f851c4973aff005fa892dadf,/,/,    Merge pull request #637 from lprimak/native-session-relocation-fix-1.x,/,/
+ ,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+94a6480bb4f0524eefefd4010469f2a6e62ae41b,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+4aa4db5c3443b47801d295044c372c630bbb05c2,/,/,    Merge pull request #632 from lucasdillmann/main,/,/
+ ,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+0c59b8a906e7587a74a2fde08ad13ef90b7416f4,/,/,    Merge pull request #627 from apache/dependabot/maven/org.easymock-easymock-5.1.0,/,/
+8fab24a43c119e7c372949a297cc936658eef58f,/,/,    Merge pull request #630 from apache/dependabot/github_actions/actions/checkout-3.3.0,/,/
+ce0eeaefdde2b59fd3f57f12144877dbf3d119b1,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+244c7031303c6e77818b8e776809f4a54edd7bce,/,/,    Bump actions/checkout from 3.2.0 to 3.3.0,/,/
+c0966bbd2b179268bc8c853ffaf5cc0498a38fbf,/,/,    Name the authorizationCachingEnabled flag correctly,/,/
+1bfd6081ceef5ad67a017b92a59329cf78e0c91d,/,/,    Bump easymock from 4.3 to 5.1.0,/,/
+d0ca4a5f08d0f7fc845a4eddb1a8a2afaa7f280c,/,/,    Bump hibernate.version from 5.6.12.Final to 5.6.14.Final,/,/
+ae09d12952e29a256faf60e261f973a343abf2a1,/,/,    Merge pull request #570 from apache/dependabot/github_actions/actions/checkout-3.2.0,/,/
+2cfe81c5740c1f886bb27fc2c50b693a1644ba8f,/,/,    Merge pull request #481 from apache/dependabot/maven/org.apache.maven.plugins-maven-jxr-plugin-3.3.0,/,/
+80c5ade9af822173964546d3f904cbbcae3f5094,/,/,    Merge pull request #482 from apache/dependabot/maven/slf4j.version-1.7.33,/,/
+3356e65510e5e1b249181c19e8b498dc921c2b55,/,/,    Merge pull request #483 from apache/dependabot/maven/commons-cli-commons-cli-1.5.0,/,/
+c64a7981b0dd04047420ff1ff2cf9be82f6725ec,/,/,    Merge pull request #475 from apache/dependabot/maven/org.codehaus.mojo-taglist-maven-plugin-3.0.0,/,/
+11b05f93a0bcb55ced353921fba6b6c5107742fd,/,/,    Merge pull request #478 from apache/dependabot/maven/org.apache.maven.plugins-maven-resources-plugin-3.3.0,/,/
+1e8081c1aac21540fc0624ea6b4ea53a13e58e75,/,/,    Merge pull request #484 from apache/dependabot/maven/com.mycila-license-maven-plugin-4.1,/,/
+d477a0f4569ec8c6325d0975edc3a4a9944da71e,/,/,    Merge pull request #595 from apache/update-spring-boot,/,/
+42f8a4b522a4e7123ce42fe7688249329079455d,/,/,    Update Spring Boot version to 2.7.7,/,/
+c205b5e2b329fdf11832093a8e4126f7fb1c204f,/,/,    Merge pull request #546 from apache/dependabot/maven/1.11.x/org.codehaus.mojo-taglist-maven-plugin-3.0.0,/,/
+c9f3d988273823febc51b87eeba28e3d6f473179,/,/,    Merge pull request #582 from apache/dependabot/maven/1.11.x/org.apache.maven.plugins-maven-dependency-plugin-3.4.0,/,/
+79938a04281bb5d340de8c2408afa44fcecdf2e9,/,/,    Merge pull request #584 from apache/dependabot/maven/1.11.x/org.codehaus.mojo-versions-maven-plugin-2.14.1,/,/
+de914a71298843c42fd8b53487154d71d8081be5,/,/,    Merge pull request #589 from apache/dependabot/maven/1.11.x/org.apache.maven.plugins-maven-release-plugin-3.0.0-M7,/,/
+a02e6e066cc7220ea33ad07c49b3982d007feec9,/,/,    Bump framework from 4.4.1 to 4.4.2,/,/
+b303b3f37de057b35bc3e94fbb27eba1623e2c98,/,/,    Bump maven-release-plugin from 3.0.0-M6 to 3.0.0-M7,/,/
+7f70d72d53443dc06be3ce6b4ab07a1da3cf3d25,/,/,    Bump versions-maven-plugin from 2.13.0 to 2.14.1,/,/
+ff71b647bb311688ef3a5754bc8d7454edbb8ef2,/,/,    Bump maven-dependency-plugin from 3.3.0 to 3.4.0,/,/
+31c1fa58b13d29999f25a79d8fcbb66cc784a16f,/,/,    Merge pull request #578 from apache/dependabot/maven/1.11.x/cxf.version-3.5.5,/,/
+e048b2caf22a285b130f287c695a6de0f2d7bedb,/,/,    Merge pull request #572 from apache/dependabot/github_actions/1.11.x/actions/checkout-3.2.0,/,/
+cebb0faf8fff1498a77ead2ab80a794e59ffe2e2,/,/,    Merge pull request #576 from apache/dependabot/maven/1.11.x/org.apache-apache-29,/,/
+55695c438998e9e259e2ec8604bda715a2dc6418,/,/,    Merge pull request #580 from apache/dependabot/maven/1.11.x/org.apache.maven.plugins-maven-project-info-reports-plugin-3.4.1,/,/
+f6d6cbaf8ab61118f933972115ce457b874bfc14,/,/,    Merge pull request #581 from apache/dependabot/maven/1.11.x/com.github.siom79.japicmp-japicmp-maven-plugin-0.17.1,/,/
+5034886f2e6780725f76db6c6b2fb04f6ba2b1a9,/,/,    Bump actions/checkout from 3.1.0 to 3.2.0,/,/
+d16211ded8a2af398801e923f37f5821f0b11260,/,/,    Merge pull request #535 from apache/dependabot/maven/1.11.x/org.codehaus.gmavenplus-gmavenplus-plugin-2.1.0,/,/
+918fb871c3583d112ccad8207c0740342e275433,/,/,    Bump japicmp-maven-plugin from 0.16.0 to 0.17.1,/,/
+e1357f0682eaed73d9352a641265bc5157669ccd,/,/,    Bump maven-project-info-reports-plugin from 3.1.2 to 3.4.1,/,/
+f0290a91b1079b43e8387d821d3d4d0852c17c19,/,/,    Bump cxf.version from 3.5.3 to 3.5.5,/,/
+b39d07acd1efc0e5f8bcc09202dc01a903744b9a,/,/,    Merge pull request #544 from apache/dependabot/maven/1.11.x/hibernate.version-5.6.14.Final,/,/
+421fc89fcc971dd816f129c9cedc2e2826e26434,/,/,    Merge pull request #538 from apache/dependabot/maven/1.11.x/org.apache.maven.plugins-maven-surefire-report-plugin-3.0.0-M7,/,/
+8431258636168aa25908ba04c95623ff535309a2,/,/,    Bump apache from 27 to 29,/,/
+3fff0b26f02887b956744740af088bd98b34ed13,/,/,    Remove dependabot config for 1.10.x branch,/,/
+44d644e4e4e1067c99ba01eb0ade6b53439e00e5,/,/,    Bump actions/checkout from 3.1.0 to 3.2.0,/,/
+f28626978470f00193912a45f975622035516cf9,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+1e9d8906af947e53fb58934f98be2c9d84ffe06f,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+ef9636dae7996204a437e4a92ae306cdafcc358a,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+4edaf476da4539127de81ef6f301a45e53ca5338,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+c65733828fe9165f8e540a4c0eda8f39ed17332e,/,/,    Bump dependency-check-maven from 7.2.1 to 7.4.1,/,/
+de73559c8d66b230870e61b09d46acb83902c659,/,/,    Merge pull request #557 from lprimak/native-sessions-jakarta-modular,/,/
+ ,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+ace4d7e11f1c9f429535f40380a0ac0e62452de9,/,/,    Merge pull request #562 from apache/bump-main-apache-parent-v28,/,/
+17ae4977063893088217209facd9563b7d39f99d,/,/,    Merge pull request #526 from zenglzh/main,/,/
+86f605b971afc9cda39d0b1f287feffc2442109e,/,/,    Performance optimization,/,/
+9f7727b6bcd6c692d188b4913c84388d78f03083,/,/,    Remove unnecessary plugin versions,/,/
+bb30889b8c0635c00c21f717ef327e29f1658594,/,/,    removed extraneous whitespace from pom.xml,/,/
+8fa58520dbdcdedaa556e29e978f415edbacfca2,/,/,    removed extraneous whitespace from pom.xml,/,/
+25f511cb0185fb50574809a56d80399cd0d058ac,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+31794e7bcf47fa66a0050c8b3f8ef2f8b1a51a5c,/,/,    Merge pull request #556 from lprimak/move-util-package-to-lang-util,/,/
+ ,SHIRO-679,Improvement,Shiro modules have split packages,None,Major
+7f764587614f11fdc8bb35691cfa8c29579e2195,/,/,    Bump maven-dependency-plugin from 3.1.1 to 3.4.0,/,/
+818249cd77e8315751eec3690f033ad6691b8d99,SHIRO-679,Improvement,Shiro modules have split packages,None,Major
+947193beb4869a195806a9cc1457ba70188ff52b,/,/,    Merge pull request #555 from lprimak/add-http-session-ctx-shim,/,/
+ ,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+40933969460d229c06bb7301ca7075ed44e57277,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+b6b5849bd8d0566759061cdab565bd0dbec4e9af,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+a0460235c93d933a9f6717b98844fd89bf295cf6,/,/,    Bump taglist-maven-plugin from 2.4 to 3.0.0,/,/
+2cada070671d272a35a2e1cd3c859d64a373ccf2,/,/,    Merge pull request #541 from apache/dependabot/maven/1.11.x/org.mockito-mockito-core-4.9.0,/,/
+a24178b776dcd4f3f72610a121d4590a1ed66cb1,/,/,    Bump hibernate.version from 5.6.12.Final to 5.6.14.Final,/,/
+f947fb76993597a54ed3667dd8326f89270d59b9,/,/,    Bump mockito-core from 4.8.0 to 4.9.0,/,/
+a6693c6bdd80c5e825163fa10d9279e876f0710b,/,/,    Bump maven-surefire-report-plugin from 3.0.0-M5 to 3.0.0-M7,/,/
+5981cd5b55de9d617a83c9fd36bda2275ab0bd70,/,/,    Bump gmavenplus-plugin from 1.13.1 to 2.1.0,/,/
+9635f0181bc273675abc23471cc7b5c0fb9f867c,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+85ce71217b294991df5d82d5676e3707037fdf20,SHIRO-893,Bug,NPE caused by lack of default ShiroFilterConfiguration,Configuration,Minor
+bd5903941f34d4fd788fa57e2b58e0cdbb940596,/,/,    Merge pull request #512 from apache/dependabot/maven/1.10.x/org.codehaus.mojo-versions-maven-plugin-2.13.0,/,/
+548ca1d7f8c761e6f64c5f19ea2514a734f9169a,/,/,    Merge pull request #521 from apache/dependabot/maven/1.10.x/net.sourceforge.htmlunit-htmlunit-2.66.0,/,/
+329dc7e4b1ea037c33526b8fe8794d0208c47d4e,SHIRO-892,Bug,No Guice binding for newly introduced ShiroFilterConfiguration,Integration: Guice,Major
+4de49f7271ce0e6e9475400307742139f8b267a2,/,/,    Merge pull request #514 from apache/dependabot/maven/1.10.x/org.easymock-easymock-5.0.1,/,/
+7d26ab75d9b5ac232297d172056ed14359edb66c,/,/,    Merge pull request #517 from bmarwell/build_reduce_build,/,/
+302f2f9e7a026803da831af160e44d225b93b085,/,/,    [BUILD] reduce build matrix,/,/
+921759e7d6733b101697182d7eac923116b4dd5d,SHIRO-896,Dependency upgrade,HSQLDB 2.7.1,None,Major
+2c1254e558cb15f3aba191ff05b64956bc4cbaa9,SHIRO-896,Dependency upgrade,HSQLDB 2.7.1,None,Major
+efbd28cbe72ec7fd06c7295b6b162a76544305b6,/,/,    Merge pull request #499 from julian-computes/shiro_filter_config_npe_fix,/,/
+ ,SHIRO-893,Bug,NPE caused by lack of default ShiroFilterConfiguration,Configuration,Minor
+396c88f94c5e1cc810fa20cd373be8c93416b284,SHIRO-895,Test,Work around Guice 4&apos;s Java 17 compatibliity for Java 17-based tests,None,Major
+c6560561ee86265a9420c74fe6ac012de5875e1f,SHIRO-894,Dependency upgrade,EasyMock 5.0.1 for Java 17 compatibility,None,Major
+f5f10982ed0984f042927c6056adfae663266eb9,SHIRO-895,Test,Work around Guice 4&apos;s Java 17 compatibliity for Java 17-based tests,None,Major
+97b422297c157617f0ce1dc2ebec5710a5a87222,SHIRO-893,Bug,NPE caused by lack of default ShiroFilterConfiguration,Configuration,Minor
+8a522bde95a15ce65379acfd4bfd8c7f92684900,/,/,    Bump easymock from 4.3 to 5.0.1,/,/
+ca3925552345a988307b4a32d54ee8f59033bb0a,SHIRO-895,Test,Work around Guice 4&apos;s Java 17 compatibliity for Java 17-based tests,None,Major
+0d27bd0172c3e9cd53528ccf000c8fef0d5f8e24,/,/,    Merge pull request #472 from georgecao/aop,/,/
+ ,SHIRO-890,Improvement,Avoid another proxy creator when @EnableAspectJAutoProxy enabled,Integration: Spring,Critical
+45caf3a84e4c8acc95be4203d1480b514d45c37b,/,/,    Bump license-maven-plugin from 3.0 to 4.1,/,/
+c89cf2a4afe080c80cb4efaa2e8ec17f23069b14,/,/,    Bump commons-cli from 1.4 to 1.5.0,/,/
+dac7248106bcf17208000856a5321f367f73037a,/,/,    Bump slf4j.version from 1.7.26 to 1.7.33,/,/
+94f9f0b42793abd66b70b93b90f4f6190679ba4f,/,/,    Bump maven-jxr-plugin from 3.1.1 to 3.3.0,/,/
+dcd864641a1fdae7fa1ace750df50320fb19327f,/,/,    Bump maven-resources-plugin from 3.1.0 to 3.3.0,/,/
+bf7cd24b6dd8f854334cf37e7e0a44389468b46e,/,/,    Bump taglist-maven-plugin from 2.4 to 3.0.0,/,/
+0b277a682bfea561fab5d2636bd91535e326be62,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+7141f41137f058a3c756ea13ed4e0fef9a3abb66,/,/,    [maven-release-plugin] prepare release shiro-root-1.10.0,/,/
+43240d91590fa6bb20d5eddc1ebb122356595cd4,SHIRO-890,Improvement,Avoid another proxy creator when @EnableAspectJAutoProxy enabled,Integration: Spring,Critical
+bfc75e1b56fdbaa3d61b72693c3dcd160c11db6f,/,/,    Merge pull request #473 from apache/revert-info-report,/,/
+268febf132eaa82ecff402f897940a19fd08f00e,/,/,    Bump cxf-rt-rs-client from 3.0.15 to 3.5.3,/,/
+2dba442eccb78cbf35abe36f4a3f42ded7f258c0,/,/,    Merge pull request #441 from apache/dependabot/maven/org.codehaus.mojo-buildnumber-maven-plugin-3.0.0,/,/
+54c2f385653612e41dbd53d6ca8f177bb04e5e8c,/,/,    Merge pull request #470 from apache/dependabot/maven/org.mockito-mockito-core-4.8.0,/,/
+6d758cfca561164d34640a0038a8a10db26b45ec,/,/,    Merge pull request #469 from apache/dependabot/maven/com.hazelcast-hazelcast-5.1.3,/,/
+fa73beb9a91ca017f30f7e619802ec7f58c4de04,/,/,    Merge pull request #468 from apache/dependabot/maven/org.bouncycastle-bcprov-jdk15on-1.70,/,/
+7bbb0e0c7048f31fbdfe4b9f71519bf2305540cc,/,/,    Add optional flag to skip dependency check for integration tets,/,/
+6c6001e37ae9a8f6055f1d2024bdfcd6c70f91c7,/,/,    Merge pull request #465 from apache/dependabot/maven/org.apache.johnzon-johnzon-jsonb-1.2.19,/,/
+b318fc26a72eef810987ed55d6c04ea9e7975864,/,/,    Bump mockito-core from 3.12.4 to 4.8.0,/,/
+ec87a40c55331966e15633dbe1401738c5ddfcb8,/,/,    Bump hazelcast from 3.12.6 to 5.1.3,/,/
+fa98782d5b670e2094ed28759107e2992139a3e7,/,/,    Bump bcprov-jdk15on from 1.68 to 1.70,/,/
+10c48974d0c0fededcc3a643af26b9528c9eedee,/,/,    Bump buildnumber-maven-plugin from 1.4 to 3.0.0,/,/
+fc4028e70c15ae7907e0f23cc47569fad143d33e,/,/,    Merge pull request #466 from apache/dependabot/maven/org.apache.cxf-cxf-rt-frontend-jaxrs-3.5.3,/,/
+e3ebb2acf8f879aa9c57df048f256c34426c0898,/,/,    Bump apache-rat-plugin from 0.13 to 0.15,/,/
+ab4b72fb6f6d15dd96036def612008205a45c8e6,/,/,    Merge pull request #438 from apache/dependabot/maven/org.apache.maven.plugins-maven-release-plugin-3.0.0-M6,/,/
+e88bbf5722a344ec60d939eb6ce601ded2c3c93b,/,/,    Merge pull request #448 from apache/dependabot/maven/org.owasp-dependency-check-maven-7.2.1,/,/
+6cdfe25deac27b90fa86f9b52333988a9e986e1c,/,/,    Merge pull request #447 from apache/dependabot/maven/org.apache.maven.plugins-maven-scm-publish-plugin-3.1.0,/,/
+b3aaa16fbac7bd492e3dec2e7fba16e2a53b6376,/,/,    Bump cxf-rt-frontend-jaxrs from 3.4.3 to 3.5.3,/,/
+b834008781c56bfec889e007cd74feb5ad3efc91,/,/,    Bump johnzon-jsonb from 1.2.12 to 1.2.19,/,/
+996ffaa0e2c5f1569ae6dc715b83729d628147b1,/,/,    Merge pull request #446 from apache/dependabot/maven/org.codehaus.mojo-build-helper-maven-plugin-3.3.0,/,/
+c49dfe778786e68e08a8a755b7921ee24fcae528,/,/,    Merge pull request #445 from apache/dependabot/maven/org.apache.maven.plugins-maven-jar-plugin-3.3.0,/,/
+b1bd9bad2fd058f399dd534f0ef176817bcf5338,/,/,    Merge pull request #458 from apache/dependabot/maven/1.10.x/org.codehaus.mojo-mrm-maven-plugin-1.4.1,/,/
+5fc85aff1c503e705eb4a60f412e913e73dde0eb,/,/,    Merge pull request #456 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-pmd-plugin-3.19.0,/,/
+5a71a32e867a48bbae410c2e61c031967eda651c,/,/,    Merge pull request #463 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-failsafe-plugin-3.0.0-M7,/,/
+718351e9716c01542858af126429bd5f9414b6dc,/,/,    Merge pull request #464 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-scm-publish-plugin-3.1.0,/,/
+e646d89846d9742e3e3850f87bc4a0a3261d008e,/,/,    Merge pull request #461 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-jar-plugin-3.3.0,/,/
+d7477737c49b05c2de77bd27161832eb22a8827a,/,/,    Merge pull request #460 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-enforcer-plugin-3.1.0,/,/
+4938a4309a2999069c70eb52a8e5960af3de297e,/,/,    Merge pull request #455 from apache/dependabot/maven/1.10.x/javax.servlet.jsp-jsp-api-2.2,/,/
+99cef46f28d248936474d2f24416fc7d707e1800,/,/,    Merge pull request #457 from apache/dependabot/maven/1.10.x/org.codehaus.mojo-versions-maven-plugin-2.12.0,/,/
+bcabc6bb336b21cfaca044647cca342ce1e6ef5e,/,/,    Merge pull request #454 from apache/dependabot/maven/1.10.x/com.github.siom79.japicmp-japicmp-maven-plugin-0.16.0,/,/
+c736286f9223af958493badcd1c0d021e78feba2,/,/,    Merge pull request #452 from apache/dependabot/maven/1.10.x/resteasy.version-3.15.3.Final,/,/
+e8dbb1e054e02637a89fec55dac328f09f75ac25,/,/,    Merge pull request #453 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-dependency-plugin-3.3.0,/,/
+9686735a93675a3a607b5d5b35e0e51d3fab5a50,/,/,    Merge pull request #450 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-release-plugin-3.0.0-M6,/,/
+6f5809cbb241bff9a4dafd9096647f1cc8cefd12,/,/,    Bump maven-scm-publish-plugin from 3.0.0 to 3.1.0,/,/
+586888a19ef2c790652d87ff0693f65a6b334261,/,/,    Bump maven-failsafe-plugin from 3.0.0-M5 to 3.0.0-M7,/,/
+5d36826f6b8f37365d9cb14378eb0f792be80b25,/,/,    Bump maven-jar-plugin from 3.2.2 to 3.3.0,/,/
+2eabd42389744f59839b8ea9b3ccef005a8856e2,/,/,    Bump maven-enforcer-plugin from 3.0.0 to 3.1.0,/,/
+ccc631f583a19731dc12fa2c072a2e4fe664f3c1,/,/,    Bump mrm-maven-plugin from 1.1.0 to 1.4.1,/,/
+ea5863171de04d4c0aeba48c4c6a422d95a2406b,/,/,    Bump versions-maven-plugin from 2.7 to 2.12.0,/,/
+354d442a364afcf56c19f1856fee91fe79c30bd2,/,/,    Bump maven-pmd-plugin from 3.12.0 to 3.19.0,/,/
+4dc7ab67a850f02e59e3e4faa1ebddd26ec78b38,/,/,    Bump jsp-api from 2.1 to 2.2,/,/
+a3a7b1491786afdf2d33404733ee4dcd16c2106c,/,/,    Bump japicmp-maven-plugin from 0.14.1 to 0.16.0,/,/
+6ae293a21108c80688f7fe7bc41e9159321bb65d,/,/,    Bump maven-dependency-plugin from 3.1.1 to 3.3.0,/,/
+5d2370285e9f0136e00332834088f61215e543c5,/,/,    Bump resteasy.version from 3.9.0.Final to 3.15.3.Final,/,/
+da75b329a47a823a8955293b1dd98bb460621d81,/,/,    Bump dependency-check-maven from 5.2.4 to 7.2.1,/,/
+d3efe5c1b5da6a00337f5b56c9f232f3955dd827,/,/,    Bump maven-scm-publish-plugin from 3.0.0 to 3.1.0,/,/
+0710a8fffe95c2b3061a24cbc9c5281b15fb3476,/,/,    Bump build-helper-maven-plugin from 3.0.0 to 3.3.0,/,/
+d3eb0f4c56766db44c16573e9e1affc821d2e66c,/,/,    Bump maven-jar-plugin from 3.2.2 to 3.3.0,/,/
+c104ec50b9fd0f634dc133d1ad3f8cbe7060d90a,SHIRO-887,Bug,FormAuthenticationFilter trims passwords which start and/or end with one or more space character(s),None,Minor
+02263206ac69764c9f031d016b60c4ede6ef1884,/,/,    Bump maven-release-plugin from 3.0.0-M5 to 3.0.0-M6,/,/
+6133d771bb6d6e0b79a886d16c0473f4d51bd677,/,/,    Merge pull request #427 from apache/dependabot/maven/log4j.version-2.19.0,/,/
+922a95c48c7f06196a1121e3163b54b7ec52e9dd,/,/,    Merge pull request #408 from apache/dependabot/maven/org.codehaus.groovy-groovy-3.0.13,/,/
+a6b16e1ad4230ad0f29bb39283a8a5659664eacf,/,/,    Merge pull request #429 from apache/dependabot/maven/javax.servlet.jsp-jsp-api-2.2,/,/
+930c94a846a9acdb60fde28667350255dd5621bc,/,/,    Merge pull request #437 from apache/dependabot/maven/org.apache.felix-maven-bundle-plugin-5.1.8,/,/
+d238928e5a08c73083c806d91eabb2a1eb62014f,/,/,    Merge pull request #440 from apache/dependabot/maven/org.sonatype.plugins-nexus-staging-maven-plugin-1.6.13,/,/
+eb2b8037e4e062dcb27e3700cbf48fe043671d50,/,/,    Merge pull request #439 from apache/dependabot/maven/org.apache.maven.plugins-maven-surefire-report-plugin-3.0.0-M7,/,/
+30ef9585d087299bf6035468aa67e6787a711da9,/,/,    Bump jsp-api from 2.1 to 2.2,/,/
+8d578d5b34340ea426c9e52c3d3e7a4f844c7932,/,/,    Bump log4j.version from 2.17.1 to 2.19.0,/,/
+d3991106387254d87adbba6516c65cebc0cb8548,/,/,    Bump groovy from 3.0.9 to 3.0.13,/,/
+3ee49ff31c59bd7af923b5be7dcdd0833a174399,/,/,    Bump nexus-staging-maven-plugin from 1.6.8 to 1.6.13,/,/
+ebe5df8ff40671e3d6d6fe02607e2632c3799ba8,/,/,    Bump maven-surefire-report-plugin from 3.0.0-M5 to 3.0.0-M7,/,/
+c87d6bda92e6f659ac65742b209e5d2f06de35a8,/,/,    Merge pull request #387 from apache/dependabot/maven/spring.version-5.3.23,/,/
+7e7bd17f37cda1624e84e0523a0ab82e1349b6e4,/,/,    Bump maven-bundle-plugin from 5.1.4 to 5.1.8,/,/
+2118751115781e80714bbc3b3438502460f0a120,/,/,    Merge pull request #399 from apache/dependabot/maven/org.apache.maven.plugins-maven-surefire-plugin-3.0.0-M7,/,/
+c6a783853682bd6c4ffee4c839b856148cc40c32,/,/,    Merge pull request #428 from apache/dependabot/maven/org.apache.maven.plugins-maven-pmd-plugin-3.19.0,/,/
+8dd0a86833841cd0c10b33777f4c30b1ce138e24,/,/,    Merge pull request #432 from apache/dependabot/maven/org.easymock-easymock-4.3,/,/
+cbd393ed59f67c7897f59a1728da664fefa9dd2a,/,/,    Merge pull request #434 from apache/dependabot/maven/org.hamcrest-hamcrest-core-2.2,/,/
+f12c7b65f6d0ba5796afed218eee20ae3a339a89,/,/,    Merge pull request #435 from apache/dependabot/maven/junit.version-5.9.1,/,/
+29f9f0497fb1ae227a4c22f3e2a588e77a7fc050,/,/,    Merge pull request #436 from apache/dependabot/maven/org.apache.commons-commons-lang3-3.12.0,/,/
+26ca9d8f818307a56d2b79800526a8c0ffcabad5,/,/,    Bump commons-lang3 from 3.9 to 3.12.0,/,/
+2b540563795612698bba41802e9380a2e2defa59,/,/,    Bump junit.version from 5.8.1 to 5.9.1,/,/
+262eade86ae51cabc0606414c714cfa267c3788c,/,/,    Bump hamcrest-core from 2.1 to 2.2,/,/
+e610e33769c70e13dc7297d9ee1212709ca8993f,/,/,    Bump easymock from 4.0.2 to 4.3,/,/
+7147448667792c12a5005954a9f51d4e2735e1ba,/,/,    Merge pull request #378 from apache/dependabot/github_actions/actions/checkout-3.1.0,/,/
+d0d53ef79cffb09c38305e0c135c71a87c4d35d3,/,/,    Merge pull request #381 from apache/dependabot/maven/com.github.siom79.japicmp-japicmp-maven-plugin-0.16.0,/,/
+aa5c67aca0f80f463c5bc00fa9eb3fc9a31238e6,/,/,    Bump maven-pmd-plugin from 3.12.0 to 3.19.0,/,/
+88124c3c3b8a58328bac547fa942e622663f5484,/,/,    Merge pull request #383 from apache/dependabot/maven/org.jacoco-jacoco-maven-plugin-0.8.8,/,/
+66f3be733a2eb9226ad1c84d8b1681e97e5ac086,/,/,    Merge pull request #384 from apache/dependabot/maven/org.apache.maven.plugins-maven-project-info-reports-plugin-3.4.1,/,/
+73ad9f07b546971ac91e8efebeb2aae2e246f5b2,/,/,    Merge pull request #388 from apache/dependabot/maven/org.apache.maven.plugins-maven-javadoc-plugin-3.4.1,/,/
+9ef3ca4d8077a514b44f8cdccd06e16cbd096ae1,/,/,    Merge pull request #409 from apache/dependabot/maven/org.codehaus.mojo-exec-maven-plugin-3.1.0,/,/
+62c11bfe470efb8dc825502dd6ea5fff4b9d6d42,/,/,    Merge pull request #391 from apache/dependabot/maven/org.codehaus.mojo-versions-maven-plugin-2.12.0,/,/
+ebc6af924edae5034714e3c74952eb163b1725bb,/,/,    Bump spring.version from 5.3.18 to 5.3.23,/,/
+de0f844f635a45204b8868645cd7ef3bde2ac1d5,/,/,    Bump actions/checkout from 2 to 3.1.0,/,/
+f750cf597b4141ecdbffe8fdc4dc6782e3d6d967,/,/,    Merge pull request #376 from apache/dependabot/github_actions/actions/setup-java-3,/,/
+5dc9bee9b6d6c01ca2f80f23074c48b8ad01b6bd,/,/,    Merge pull request #394 from apache/dependabot/maven/1.10.x/org.mockito-mockito-core-4.8.0,/,/
+74a8acf3ce59168723142a1084048479b2042335,/,/,    Bump actions/checkout from 2 to 3.1.0,/,/
+1e615625ae907f30a601cd80d6848d1f79cb2ba1,/,/,    Bump japicmp-maven-plugin from 0.14.1 to 0.16.0,/,/
+039c34e5e93fd926dd07715610def69cc0ed24c6,/,/,    Bump jacoco-maven-plugin from 0.8.7 to 0.8.8,/,/
+afbdf1cb6796cf86a13a0fa20a90d1c9e0c1e4ca,/,/,    Bump maven-project-info-reports-plugin from 3.1.2 to 3.4.1,/,/
+2a09c262ec5b647f9bcfa3a014cb49abfc049cd8,/,/,    Bump versions-maven-plugin from 2.7 to 2.12.0,/,/
+ffc27f234de3834a02e6c4c2b6703fdfacfe8085,/,/,    Bump maven-javadoc-plugin from 3.3.1 to 3.4.1,/,/
+ef7b0674dc4e239dc2f0fc9f067edb6994ccbc59,/,/,    Bump maven-site-plugin from 3.7.1 to 3.12.1,/,/
+14b1164e46d2448f9b50890a67f66b5c5c5067b8,/,/,    Bump spring-boot.version from 2.5.12 to 2.7.4,/,/
+be0f256f5d2b63e9120c732f0cc60aa27c624d46,/,/,    Bump maven-surefire-plugin from 3.0.0-M5 to 3.0.0-M7,/,/
+81d0fe652b9fdecd97ade3214882708af49e67e7,/,/,    Bump exec-maven-plugin from 1.6.0 to 3.1.0,/,/
+a167ce0ac359ad66f7b198d1e6ca6ea2939cc7dc,/,/,    Merge pull request #425 from apache/dependabot/maven/1.10.x/com.mycila-license-maven-plugin-4.1,/,/
+9bc991a2a9d6762febd66e3e3dc00d29c1d27583,/,/,    Merge pull request #424 from apache/dependabot/maven/1.10.x/org.hamcrest-hamcrest-core-2.2,/,/
+142adfa801cece952d568c4893be115bdf6ab38f,/,/,    Bump mockito-core from 1.10.17 to 4.8.0,/,/
+a0172cb5ebb98cb4ff63248bac091d1e08f5031d,/,/,    Merge pull request #379 from apache/dependabot/github_actions/1.10.x/actions/setup-java-3,/,/
+542060f88ef2042205ed458e4d524f1a027a0438,/,/,    Merge pull request #415 from apache/dependabot/maven/1.10.x/org.apache.felix-maven-bundle-plugin-5.1.8,/,/
+7a2637561d17e8a1a548c88029e332abe4799769,/,/,    Merge pull request #421 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-resources-plugin-3.3.0,/,/
+c76b673d24a8204bf03f359c5e1a3c03a9ea6724,/,/,    Merge pull request #420 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-surefire-plugin-3.0.0-M7,/,/
+4cd2f9cbc1f97ebc5bc734a5b423081250b05ba1,/,/,    Bump license-maven-plugin from 3.0 to 4.1,/,/
+06dd61b1bd2ac8aaac1a8a60cdc918135f08ef0a,/,/,    Bump hamcrest-core from 2.1 to 2.2,/,/
+a7399f99d863dc8a12ce7264e2b082f8974a7d77,/,/,    Bump apache-rat-plugin from 0.13 to 0.15,/,/
+ec28e8a6c9d5aea2bf9a6e3601678c59be8c457e,/,/,    Merge pull request #392 from apache/dependabot/maven/1.10.x/org.apache-apache-27,/,/
+ede1998d7c2f20d9ecc3ef0954b731e093adb99a,/,/,    Merge pull request #396 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-project-info-reports-plugin-3.4.1,/,/
+46d1cd9036f86fef2bf2f828a431dd532aa42adc,/,/,    Merge pull request #390 from apache/dependabot/maven/1.10.x/org.sonatype.plugins-nexus-staging-maven-plugin-1.6.13,/,/
+f79a606573e0d65eb0c8b1cb38476f8cbe1bbbba,/,/,    Merge pull request #403 from apache/dependabot/maven/1.10.x/org.jacoco-jacoco-maven-plugin-0.8.8,/,/
+4e9a6d8776260e3a672f630510cb79f35837dd37,/,/,    Merge pull request #377 from apache/dependabot/github_actions/1.10.x/actions/cache-3.0.10,/,/
+fd76fa982618dc78103174eb6297b980bec8550d,/,/,    Merge pull request #400 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-compiler-plugin-3.10.1,/,/
+69ccb12fcd65d05dab9deddcce713edf16c09e63,/,/,    Merge pull request #402 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-jxr-plugin-3.3.0,/,/
+7c123dfd0149c042758899f61b26e78ac3dd34b2,/,/,    Bump maven-bundle-plugin from 5.1.4 to 5.1.8,/,/
+32dbc73d778a8cc8ec6bdea586a3a22cf9282937,/,/,    Bump maven-resources-plugin from 3.1.0 to 3.3.0,/,/
+948c8914e611f38274cfa4c6434df33cc014ff75,/,/,    Bump maven-surefire-plugin from 3.0.0-M5 to 3.0.0-M7,/,/
+5117a6086a613b7043f7ea470a7868e1d57b6670,/,/,    Merge pull request #416 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-assembly-plugin-3.4.2,/,/
+1fd6d962b331608a63ccdeaaeb8207535a47821b,/,/,    Merge pull request #414 from apache/dependabot/maven/1.10.x/org.codehaus.mojo-exec-maven-plugin-3.1.0,/,/
+a3c608ca456525632b83e759a528e87b806decf7,/,/,    Bump nexus-staging-maven-plugin from 1.6.8 to 1.6.13,/,/
+9ae78173c70a9179928017f43ce1661f5bd882d1,/,/,    Bump apache from 26 to 27,/,/
+8d2271eee442a10ba1fe2bdc907820afd2483aca,/,/,    Bump actions/cache from 2.1.6 to 3.0.10,/,/
+f85add9e5ec1118e2d15572dc9537616f5b311f9,/,/,    Bump maven-project-info-reports-plugin from 3.1.2 to 3.4.1,/,/
+9e5e1cc5d8af92c093f64da8b25fe81993eeeffc,/,/,    Bump actions/setup-java from 2 to 3,/,/
+f09bd115628343d68a9dba9b61f0012256b98125,/,/,    Bump maven-compiler-plugin from 3.8.0 to 3.10.1,/,/
+fa90e7be33798f230b2da45b38e58520d219f782,/,/,    Bump maven-jxr-plugin from 3.1.1 to 3.3.0,/,/
+13d4aefe8fbfdd15e4f8eb671d24d0a4834f7e18,/,/,    Bump jacoco-maven-plugin from 0.8.4 to 0.8.8,/,/
+e01d51418dc81c337f977952093d7f731d7f7464,/,/,    Bump maven-assembly-plugin from 3.1.0 to 3.4.2,/,/
+b2cd1dfad0d993b06f053496eef605981ac4e28a,/,/,    Merge pull request #401 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-javadoc-plugin-3.4.1,/,/
+bb52db6e0694b2c3e00189471021c0dcd32d09eb,/,/,    Bump exec-maven-plugin from 1.6.0 to 3.1.0,/,/
+d83377cc54b755f06c36a0f36fa0b7737d99b78c,/,/,    Merge pull request #412 from apache/dependabot/maven/1.10.x/org.codehaus.mojo-build-helper-maven-plugin-3.3.0,/,/
+1381bda0446a67b7cea347d877ea8c7ac9656f76,/,/,    Merge pull request #413 from apache/dependabot/maven/1.10.x/org.apache.maven.plugins-maven-site-plugin-3.12.1,/,/
+6ef87139cbed9f2f77b2ee4618538a1147433be4,/,/,    Updating Karaf version,/,/
+44c11b676fb881cbb4ff8894d41c41a759bf617d,/,/,    Bump maven-site-plugin from 3.7.1 to 3.12.1,/,/
+359fa763cb5c4f4f779fd4c8ba87d0340a1636d7,/,/,    Bump build-helper-maven-plugin from 3.0.0 to 3.3.0,/,/
+bda64b6e5be1f71b29b2722deef9ccd001ca4223,/,/,    Update owasp dependency check,/,/
+ca872256d45cf974d049c369afb62da030a1df0f,/,/,    Merge pull request #373 from apache/update-deps-1-10,/,/
+f3811a152775daefef4995adfd523f08b437ad40,/,/,    Fix integration test package versions,/,/
+536603f0c0eb18c73f05270e7adcbc49021d76b2,/,/,    added comments,/,/
+e1df06bd93ac7e843600a31aec735e7dce42df7d,/,/,    Merge pull request #372 from lprimak/session-invalidation-race,/,/
+ ,SHIRO-512,Bug,Race condition in Shiro&apos;s web container session timeout handling,Authentication (log-in),Minor
+0439fb55c4ea08ebe2cd872e93f42d4ec5584636,/,/,    added comments,/,/
+cd88a85bf1e20f03651983f872044e75b5f6d0e2,/,/,    Merge pull request #370 from apache/backport-regex-pattern-matcher,/,/
+5e4aeccf88f06d40d30c3d0a9e99646122e93347,/,/,    Merge pull request #371 from apache/BUILD]-maven-ci-1.9.x-and-1.10.x,/,/
+7e54f928b3fae3d46f27f63996a9c7e97d0f17d0,/,/,    build fox 1.9.x and 1.10.x,/,/
+fcc4e6b5d38267c2db728cb9f6e42551413082b5,/,/,    [BUILD] set version to 1.10.0-SNAPSHOT,/,/
+4ce0399244fd8363fb28e73032d28d57c60ef44e,SHIRO-886,Dependency upgrade,Upgrade to commons configuration 2.8.0,Configuration,Major
+bd81ec1f7ce7433c2a1ef35bf2f4ba341a29c066,SHIRO-885,Improvement,Use OWASP Java Encoder with OSGi manifest,None,Major
+853b2a24c5ee2523dcedf40fa10e032d8efeda36,SHIRO-884,Improvement,fix source jar Reproducible Builds issue,None,Major
+249c792b536f75557177b4caebd15d62eab3b3c7,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+2b532117ac341a47c27ea8c17262e79fe54aee32,/,/,    [maven-release-plugin] prepare release shiro-root-1.9.1,/,/
+6bcb92e06fa588b9c7790dd01bc02135d58d3f5b,/,/,    Add support for case-insensitive matching to RegExPatternMatcher,/,/
+0db440a839de1f6bb263c089cdce678c1f241732,/,/,    Apply principalSuffix only when username does NOT already contain the suffix,/,/
+ ,SHIRO-871,Improvement,ActiveDirectoryRealm - append suffix only if missing from username,None,Major
+a259d268c02861809eb6aa3ec4909b700b699572,SHIRO-881,Dependency,pom.xml in samples/web may lack dependency,Sample Apps,Major
+62a663b3280bb35f968695a9976c3fed2e327f01,/,/,    Merge pull request #357 from apache/1-9-parent,/,/
+ ,SHIRO-882,Dependency upgrade,Upgrade to apache pom parent 26,None,Minor
+37e2191e49cdc3bc6d36d677845b05a62ab30aba,/,/,    Fix sporadic failures of AuthorizationFilterTest,/,/
+1aa024bd6a9b5e2d7621cd42ff5c5d562fc76234,/,/,    Merge pull request #354 from apache/dependabot/maven/org.hibernate-hibernate-core-5.4.24.Final,/,/
+de93a4465d20bfb9d1f8c943ce24f680b0e500ee,SHIRO-882,Dependency upgrade,Upgrade to apache pom parent 26,None,Minor
+d8b45f5488b38028345b4cd96036c1745aaa6e7c,SHIRO-882,Dependency upgrade,Upgrade to apache pom parent 26,None,Minor
+ee3a99f288b03dba18281aaa77ca3b709d349e06,/,/,    Bump hibernate-core from 5.4.3.Final to 5.4.24.Final,/,/
+056df97e38d3c10d2ce90c2de8be9ac1c2c80064,/,/,    Merge pull request #353 from bmarwell/update_matrix,/,/
+d2b47fd27545cfea8c3cc2d07676a08fccec7c6b,/,/,    [BUILD] update build matrix.,/,/
+78fe835e7f6741aa8c997d4be4911396330ad41f,/,/,    Merge pull request #352 from apache/update-spring,/,/
+81d7af6fc8de84c46f3a3584f483f7a8b9edf059,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+83ab67f4f48dad9afb066d76c8196b799ebde746,/,/,    [maven-release-plugin] prepare release shiro-root-1.9.0,/,/
+0eb61dc84b5e8ac436d8fe4a28cb94abf90ac35c,/,/,    Update release notes,/,/
+262eea1ddaaf4352e6eb8910708c94b81e2caf0b,SHIRO-838,Improvement,Create SHA512-Hashes,None,Blocker
+51dc6c1f7951b35f775b32ed7919b025d8188a4b,SHIRO-838,Improvement,Create SHA512-Hashes,None,Blocker
+50f686a4587c2a2f71d72538f828da1d49acee18,/,/,    Revert "[maven-release-plugin] prepare release shiro-root-1.9.0",/,/
+6bc43b347b28cf4a21e816953b9af62f0e51d583,/,/,    Revert "[maven-release-plugin] prepare for next development iteration",/,/
+31df3309ea601e5e9ba10163045e1988d2fe6b8d,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+9c944fff86c5566f56a3cf4130681165c2f9add9,/,/,    [maven-release-plugin] prepare release shiro-root-1.9.0,/,/
+af0db3b18677752bf7104280d2a33f2d65ab0755,/,/,    Merge pull request #348 from apache/update_main_badge,/,/
+1fcae4d85f5a1162a711bde9330ecf03fb7a1d0a,SHIRO-867,Task,Skip Deployment of integration-test and samples artifacts,Sample Apps,Major
+43526b28cbcab85dd07fb08a2f7c3cffedc36652,SHIRO-862,Improvement,Replace Google Analytics with Matomo for new Javadocs,Documentation,Major
+bc0fb939af88e58329aac4db0865b63bc284bf45,/,/,    Merge pull request #345 from pjfanning/patch-1,/,/
+ ,SHIRO-860,Improvement,update logback to 1.2.10,None,Major
+b8de57feda60b152ab07262069ad483e6610df28,SHIRO-829,Bug,beanPostProcessor and FactoryBean cause aop to fail in the same Configuration,Integration: Spring,Major
+ad582d30157b55cbfab016b4a1578a637ed16c1b,SHIRO-853,Improvement,Versions of maven-surefire/failsafe/report plugin are not in sync,None,Minor
+688744248ae364e20cd6465033df6fa954a9f032,SHIRO-842,Dependency upgrade,shiro-web depends on older log4j,Web,Major
+a5e74216d89f949aa60b5e0683a91943c850832e,SHIRO-854,Improvement,Konfiguration includes/excludes maven-failsafe-plugin can be reduced to default,None,Minor
+b3049f5187b1c6ab50f2f5fee95f8109106d1fd7,SHIRO-853,Improvement,Versions of maven-surefire/failsafe/report plugin are not in sync,None,Minor
+e83b5659f0f493a8cb4bc7b91e3743764ac84da6,SHIRO-852,Improvement,Configuration for maven-release-plugin prepationGoal should be changed,None,Minor
+14eff674bf13e3169fa22b38ab8149adabf8025d,SHIRO-851,Improvement,Handling properties for compile/enconding vs. default configurations of plugins,None,Minor
+65b95be497bb86199d2a54bc6ef04571edf22cf5,SHIRO-854,Improvement,Konfiguration includes/excludes maven-failsafe-plugin can be reduced to default,None,Minor
+19aaa947e2042b5e46c7551ba9f1fb30abdf6a8b,SHIRO-854,Improvement,Konfiguration includes/excludes maven-failsafe-plugin can be reduced to default,None,Minor
+9a4caf9b95e73b091855f1b66ed2bd6c8375ee57,SHIRO-850,Improvement,The profile name jdk19-plus is misleading,Sample Apps,Trivial
+0b462be5e6b7c6d562b184e2c0bf7add94f29738,SHIRO-853,Improvement,Versions of maven-surefire/failsafe/report plugin are not in sync,None,Minor
+48a8068b82c52e9112fde69529c0980dfdf1d02b,SHIRO-852,Improvement,Configuration for maven-release-plugin prepationGoal should be changed,None,Minor
+2aaf6e6c203ffe2c04c9ca03ab2e9fe913488281,SHIRO-851,Improvement,Handling properties for compile/enconding vs. default configurations of plugins,None,Minor
+4bbd16da872d95db3d8d5f8dcad0f7ab56c4ceaf,/,/,    Merge pull request #344 from markixy/avoid_conflict_with_spring,/,/
+ ,SHIRO-804,Improvement,Avoid conflicts with spring boot aop,Integration: Spring,Minor
+371d7c3e08e29c2b7bde613cd69f83b76421c99a,/,/,    avoid conflicts,/,/
+af79f35c52bdc028036832ed9140926f19fe6ab1,SHIRO-853,Improvement,Versions of maven-surefire/failsafe/report plugin are not in sync,None,Minor
+e638b5c69d37b58626103d772a8d97282aab0d6b,SHIRO-852,Improvement,Configuration for maven-release-plugin prepationGoal should be changed,None,Minor
+b4165f8e4b31dbcdccb139a20619f45e2890839c,SHIRO-850,Improvement,The profile name jdk19-plus is misleading,Sample Apps,Trivial
+9686f60f7595ad8108af8d88cb216211425ec856,SHIRO-848,Improvement,Relative Path in pom.xml is not needed,None,Trivial
+8a95ba8cb86ac8a916c4d10174da6bec90768d4d,SHIRO-846,Improvement,Creation of site takes very long time,None,Minor
+4959401aa8b631b2190aeab2128f75964400b87f,SHIRO-848,Improvement,Relative Path in pom.xml is not needed,None,Trivial
+da0deddb19cff0744e2056c38c27b47843536fe5,SHIRO-846,Improvement,Creation of site takes very long time,None,Minor
+e696281f02e84369d3ad13e5f02128ea37e0add3,SHIRO-845,Bug,Dependencies for test-jars missing,None,Minor
+d0214fb75365b6ca92c2204966ef89e269966e2d,SHIRO-842,Dependency upgrade,shiro-web depends on older log4j,Web,Major
+c7f359b7483946b1554f4f7c4517c6155db335f0,SHIRO-848,Improvement,Relative Path in pom.xml is not needed,None,Trivial
+2fdcebc22666832807fbc692cd4b7bab739e5c19,SHIRO-846,Improvement,Creation of site takes very long time,None,Minor
+a043b814741dd96581cf73a949f870d21902dc38,SHIRO-845,Bug,Dependencies for test-jars missing,None,Minor
+0b1ce93ccc705585a1cde40b84ee21cd54555052,/,/,    Update core/src/main/java/org/apache/shiro/mgt/SessionsSecurityManager.java,/,/
+da7448f0f97b6758d20d9ea83ce1f77dd669182a,SHIRO-841,Task,NullPointerException from SessionsSecurityManager.start(),None,Minor
+374234e940724a09d649483b33475e1c92bf4321,SHIRO-844,Dependency upgrade,Update maven-javadoc-plugin to 3.3.1,None,Major
+d776fcdd046d52c6c2989ebcf4d4b4ce8d747fa2,SHIRO-843,Dependency upgrade,Update maven-project-info-reports,Web Site,Major
+0ba786e1fcc1f4f582c1af7ead6da4f652216680,/,/,    Update core/src/main/java/org/apache/shiro/mgt/SessionsSecurityManager.java,/,/
+5f6de71a30d32a9833734b5353953137bc05a930,SHIRO-841,Task,NullPointerException from SessionsSecurityManager.start(),None,Minor
+b637c4676537dc49fd06a226bdd395615021da53,/,/,    Merge pull request #315 from bmarwell/meecrowave-it,/,/
+6da24f3023a00662fcd9f953ce7b755d53bd4e6d,/,/,    add-opens to liberty.,/,/
+113b3320c1e4e81dec1dde8c5caef8cd8c7aa8a6,/,/,    use more recent failsafe plugin again.,/,/
+df2f5481260bd778226473a658d237c047b7e840,/,/,    Merge pull request #328 from bmarwell/java17_jenkins,/,/
+ ,SHIRO-840,Improvement,Java 17 compatibility,None,Major
+5b8e45885381c22d382f8298bf289db2f9f78797,SHIRO-840,Improvement,Java 17 compatibility,None,Major
+9031d52353e88ca66df55cf476039cf8539b26b5,SHIRO-838,Improvement,Create SHA512-Hashes,None,Blocker
+c2c6d78ad0024164d49d059ac575158f8ddbe71a,SHIRO-838,Improvement,Create SHA512-Hashes,None,Blocker
+fd1b038ff1c022da19996305d204ad6d0cd34919,SHIRO-838,Improvement,Create SHA512-Hashes,None,Blocker
+42b0a24a432cd3f08d229bf9d89a9bddc53a12d9,SHIRO-828,Dependency upgrade,aspectj-maven-plugin 1.14.0,Integration: AspectJ,Minor
+a52171f7cc2d3a0b7d6599b8ff7e6acfaa8bb85b,SHIRO-828,Dependency upgrade,aspectj-maven-plugin 1.14.0,Integration: AspectJ,Minor
+39192e3321ae9071b50c76cd393b7845bfe843b5,SHIRO-828,Dependency upgrade,aspectj-maven-plugin 1.14.0,Integration: AspectJ,Minor
+a6b0318798993193961e45e3709b4bada9f3300f,/,/,    Merge pull request #321 from apache/java17support,/,/
+ ,SHIRO-840,Improvement,Java 17 compatibility,None,Major
+bc3b0e720daf3b0a482ecd429f48981d5111a714,SHIRO-828,Dependency upgrade,aspectj-maven-plugin 1.14.0,Integration: AspectJ,Minor
+89900e312387f9d91d82e0c3ee4dcd0904e1fb6f,/,/,    Merge pull request #324 from bmarwell/github-action-from-main,/,/
+a9f9145e73cc348ede7bc80edcaeb7cfc2748223,/,/,    [BUILD] github actions from main (copied).,/,/
+3aaeeb2e58c1605d67de9b0ccb2a407953f6ec46,SHIRO-836,Improvement,Delete jsecurty-sample.jks,None,Trivial
+4c4bcc4af6d088b9f2905bf0b80e2016990e22a9,/,/,    README update: CI/build status.,/,/
+17ba345267c0b6e09e77d2d44670e9a03d261adb,SHIRO-836,Improvement,Delete jsecurty-sample.jks,None,Trivial
+1b74f796f463f322e8f7cdf836b64bbdde6373cd,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+a86c51a11c1b6df6b097e312f5709924479edccc,/,/,    [maven-release-plugin] prepare release shiro-root-1.8.0,/,/
+55deabc919bb02fc9f09e5f9930b80142be4a5fe,SHIRO-216,Improvement,Add @Documented to Shiro authorization annotations,Documentation,Minor
+41fb3acb11da68b42b977134fbf35a2a03901b64,SHIRO-678,Bug,Strings garbled when POST without JSESSIONID cookie,Web,Major
+3077275d227a45a606aecc77d28007d339c57cb6,SHIRO-678,Bug,Strings garbled when POST without JSESSIONID cookie,Web,Major
+897cd3112c3ef6209e30a3901c5455eb004c227a,SHIRO-805,Task,Spelling,None,Minor
+92a04d6415d4d0e93f125d5dd6a1ac359fa06103,SHIRO-806,Improvement,Remove deprecated DefaultLdapContextFactory,None,Minor
+140b786b1af3c258d61374ec0c52d4e25de44c35,SHIRO-806,Improvement,Remove deprecated DefaultLdapContextFactory,None,Minor
+0daec0229c3d76badccbb8452ae8e64749bc301d,/,/,    Merge pull request #300 from apache/jdk16-builds-jenkins,/,/
+4c8586b20491799327fbf11adbff6fc3f3de450b,/,/,    Merge pull request #307 from apache/add-issues-mailing-list,/,/
+0554a2d36d925d969f2076b1f0833539051669b9,/,/,    Merge pull request #313 from fpapon/apache-pom,/,/
+e4259087bada054bb7d52ec673ea3548c40b5895,/,/,    Merge pull request #2 from hboutemy/apache-pom,/,/
+92c937fa57107b3e372a092f0636550a5cdd2180,/,/,    fix remaining build reproducibility issues,/,/
+2eb7da42682acdd0f4d810286924b3c8f7a75033,/,/,    Upgrade to Apache pom 24 and make build reproductible,/,/
+bdc7f4598b50a78a88403575032cc174d4590962,/,/,    Merge pull request #312 from apache/pr-vuln-note,/,/
+a7c545692eb12460325b8481b0d95487cf4d0aba,/,/,    Add note about reporting a vuln in the PR template,/,/
+367c3d5cc0bc18eefcc4358930b82978c877f06b,SHIRO-825,Bug,Trailing slash in URI results in &quot;IllegalArgumentException: There is no configured chain under the name/key&quot;,None,Major
+125ae48abf3c7c8cb471e60dd785d3d7fad59e7a,/,/,    Fix incorrect second parameter,/,/
+2a747d675272625863cce5c26ec955b95454f72e,/,/,    Configure new JIRA "issues" mailing list,/,/
+69132cd691ed1b1d5e799747cd323e060f5eef53,/,/,    Merge pull request #301 from bmarwell/update-setup-jdk,/,/
+fd4ca8646749df6b0907615dd1c6158a0aa7d4fe,/,/,    Bump AspectJ to 1.9.7.M3  centralise AspectJ Maven config,/,/
+a5da6e891233d0c470a0fe0699ceb42a7a6deab5,/,/,    update setup-jdk / maven action.,/,/
+1c97815737fee587729b1d3827814f3f58d2b6ec,/,/,    Merge pull request #302 from weltonrodrigo/patch-1,/,/
+ ,SHIRO-817,Bug,CommonsInterpolator does not follow javadoc,Configuration,Minor
+671f40ff85ad7b9c9911844c741674d7a9c09225,/,/,    Merge pull request #306 from bmarwell/aspectj-maven-plugin,/,/
+ ,SHIRO-822,Dependency upgrade,Update aspectj-maven-plugin for Java 9+ support,None,Major
+ba4c31857afc08d4da75a2b566e1bec4f6a85388,SHIRO-822,Dependency upgrade,Update aspectj-maven-plugin for Java 9+ support,None,Major
+e2df3fa075fd51d8689616a8f2008e2714e3b474,SHIRO-823,Task,Remove broken JAX-RS sample,None,Major
+215ba012f2d161ba15852860b25c56dea6c0c017,SHIRO-823,Task,Remove broken JAX-RS sample,None,Major
+a949178ea811ac31b268ab786c8a5e71e16b225d,/,/,    Merge pull request #303 from bmarwell/fix-jaxrs-exceptionmapper,/,/
+ ,SHIRO-818,Bug,JAX-RS ExceptionMapper returns wrong status code,jax-rs,Major
+cfea5a85b0d125b9b18ab53361620e875ed0a41e,SHIRO-819,Bug,Hasher Utility not executable,Cryptography &amp;amp; Hashing,Major
+3eb264217a706c74c0d66ddce396c924ff65b1c7,SHIRO-819,Bug,Hasher Utility not executable,Cryptography &amp;amp; Hashing,Major
+132720ed585e40493982b2e7ada14de034a67097,SHIRO-818,Bug,JAX-RS ExceptionMapper returns wrong status code,jax-rs,Major
+2e9cddc806bdb0617071cea1c88fa92d02e3c9b5,SHIRO-290,New Feature,Create a BCrypt Hash implementation,Cryptography &amp;amp; Hashing,Major
+020813003ad44bbef4cd02defbae171cd47a96e3,/,/,    Merge pull request #268 from seaswalker/avoid_conflict_with_spring,/,/
+ ,SHIRO-804,Improvement,Avoid conflicts with spring boot aop,Integration: Spring,Minor
+21d7562856528bcea7f081276e6a2232a4458e9d,/,/,    Update config/ogdl/src/main/java/org/apache/shiro/config/ogdl/CommonsInterpolator.java,/,/
+de3df8699f3dc6d076493c02cd832e0052d05c8b,/,/,    Update `CommonsInterpolator` doc to reflect actual behavior,/,/
+9f8e5c6a5a7fc32b052b495c20b0fada0629f157,/,/,    Configure japicmp to work with new single spring boot starter,/,/
+ce743aa7bf9604e559b410d3fe33884010bbe680,/,/,    Combine Spring Boot starters (web and non-web) into single module,/,/
+29dcaad78f9e77e1b4814f922d2f23e291d3c8e8,SHIRO-290,New Feature,Create a BCrypt Hash implementation,Cryptography &amp;amp; Hashing,Major
+d84faf8b1609571893a398ad3a5560e204340879,SHIRO-290,New Feature,Create a BCrypt Hash implementation,Cryptography &amp;amp; Hashing,Major
+d1c248ba72e58301ce06f0e5df471b0854b3aef1,/,/,    Replace Java 14 with 16 in the 1.8 branch build,/,/
+4a621615675ba0de9a1b8d50d252c37f73c16490,/,/,    Remove snapshot updates from jenkins.groovy,/,/
+d9426f52056e6e3a7661bf6170bda6c0ddc71ea3,/,/,    Reduce jenkins matrix build to previously run JDK configs,/,/
+4cebebbd7892ab160c2b6f0ca0b27a1e8c1548d2,/,/,    Merge pull request #298 from apache/pr-297-to-main,/,/
+2588375ff9869dd25d269cdae6df626378924dad,/,/,    Rename var in jenkinsfile,/,/
+bc7fa3392a767e2a39d52f9fd75cc1fec36f72f8,/,/,    Add doc note in AesCipherService of Java 14 behavior change,/,/
+efa56541b2849066bce997723caded8c83aaf1c6,/,/,    Merge pull request #297 from apache/1.8-build-issues,/,/
+4d9a71461a2d5ce521de6e404092619415b95cdb,/,/,    Jenkins file cleanup for 1.8,/,/
+b219f36312498dedc1843a9dcd13cf1ed9f1fb15,/,/,    Update invoker plugin to 3.2.2,/,/
+06da4a757f8e50eb30efd4808b86d00327b474e0,/,/,    Correct padding of streaming cipher for Java 14,/,/
+b49d64a1593015a2b3f5d157c8645adc45646271,/,/,    ITs need to use local repo in CI,/,/
+7877c37f08bc9f7beaf732d4bce479cf4c4bc884,/,/,    Using separate maven local repo for Jenkins builds,/,/
+9871caccac9b7bb6f17c55af0ffdeda83c6b3fb7,/,/,    Correct project version used by invoker plugin,/,/
+d690823b4fe85ecbe67f20677ad39d4492a8ffbd,/,/,    Set previous version for japicmp to 1.7.1,/,/
+9e68eb488644f4a8ee72c4ec736d257a66e5cc5d,/,/,    Merge pull request #295 from fpapon/INFRA-21748,/,/
+48ff4cc66638633f8fae7a2fd30718f03d831713,/,/,    [INFRA-21748] Rename Shiro master branch to main,/,/
+de50cfb90ea80a6ab2ad802aaf4ec5a299abcd84,/,/,    Fix typo in Guice quickstart,/,/
+cc13903fe1ba2fa6caee0209256312c06c2e7b7d,SHIRO-812,Bug,Key value separator in config is broken with escape char,Configuration,Major
+3f4a1cebde7b60fa6c132eb0a6e0516277020fc9,SHIRO-812,Bug,Key value separator in config is broken with escape char,Configuration,Major
+49bf4d489571fdaa9d0af99214f865e346d0d19c,/,/,    Update release-notes,/,/
+70589941bcd447fde18c039d0d72bba75389871c,/,/,    Merge pull request #288 from pitjazz/bugfix-scanner,/,/
+d30fb5ea271b3aebf1d1ca933fcde5b2b0121591,/,/,    Merge pull request #291 from apache/INFRA-21061_adopt-latest,/,/
+0332ad1b92adaabf589c857e53fc0cfc6629a164,/,/,    [INFRA-21061] Adotp 'latest' aliases for AdoptOpenJDK.net JVMs.,/,/
+0f72d5e47c2c09e16547964d9c90fd2a3adc83ae,/,/,    Added closing for Scanner in TextConfigurationRealm,/,/
+c97eac5360e82c541bc4a2ab2113c2381bad6d68,/,/,    Removed unnecessary boxing in HttpServletSession,/,/
+4becdd9af935190ea9dbce7c013a9262e5383b38,/,/,    Update PMC Chair,/,/
+a85dfcd8629294cd1c6bc3cdd34cbebb94e09662,/,/,    Update PMC Chair,/,/
+869f87a79a0d4eec3b90c59d5ad35347af88d3a7,SHIRO-811,Improvement,Convert AuthorizationFilterTest to using Mockito,Web,Major
+0842c27fa72d0da5de0c5723a66d402fe20903df,/,/,    Improving tests for path matching logic,/,/
+11ab6fc297cd0366cb9bc1af31085ba617cc1d35,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+e5d8134d9457c87e63f97b441255012686a3056f,SHIRO-811,Improvement,Convert AuthorizationFilterTest to using Mockito,Web,Major
+1b0ff3e4434a33406e7198485e9b4009e966a5e7,SHIRO-811,Improvement,Convert AuthorizationFilterTest to using Mockito,Web,Major
+555fe06af34caed382c60255dea90cc2ce4b90b5,/,/,    Merge pull request #283 from bmarwell/jenkins_pr,/,/
+eafbfa6c299e12b50709146ec9c3ff16f020966a,/,/,    (build) do not try to deploy on PRs.,/,/
+1b54391b4539165372c0b18ebc1f5e2b75d66244,SHIRO-807,Improvement,Remove deprecated getLdapContext(String username  String password),None,Major
+abc21915c86e2037c37e773cff3b95feabbaf420,/,/,    Merge pull request #281 from apache/jenkins_matrix,/,/
+c2ae6ea265b9ca9456f34b2b04fe9cc3370aa40a,/,/,    (build) jenkinsfile matrix build.,/,/
+cc1933a7ff11e8206b076e2ed125f301be9a0095,/,/,    (build) add comments  remove empty profile  update jacoco,/,/
+cf2d085d30d5d2035617fa9b6aa945ee5de4ebe0,/,/,    Merge pull request #278 from bmarwell/jdk16-17,/,/
+eca1f2ac5f08efc6e2c2ed799a470bc0c92c1e9f,/,/,    (build) fix JDK 16/17 by replacing some EasyMock tests with Mockito  illegal-access=permit for guice tests. Remove JDK17 for now.,/,/
+40c959f9c1a04309d9075d2c91759f61f1a0c64a,/,/,    Merge pull request #277 from bmarwell/invalidimports,/,/
+2b4796d7fbf08dbfeaa5f1f4ab3299c9a1694e78,/,/,    (no-issue) remove invalid and unused imports leading to a compile error.,/,/
+ab0fede055ce1e62d3b6da37df607487739b3424,/,/,    Merge pull request #276 from apache/bmarwell-delete-travis,/,/
+94eccd02cdddd3d2c93583250d39f4bcc5c9c343,/,/,    Merge pull request #274 from coheigea/war-plugin,/,/
+b362df34c49cb47d4100e12bd2caf09d3a98ed8e,/,/,    Delete .travis.yml,/,/
+bb982449c4ce1410d8803e0ede4675732510dd0f,/,/,    Merge pull request #271 from bmarwell/github_workflow,/,/
+1f519815c10ac468cf2877d0a18532f9755f587b,/,/,    Updating maven-war-plugin to 3.3.1,/,/
+d06d923642d9a6090256df64fcd705ac33c08d47,/,/,    (build) GitHub workflow,/,/
+e35a6694c8f428b71185800b4740eafd9fd7174f,/,/,    Merge pull request #267 from bmarwell/envloader_it,/,/
+72f6076c2c454a94a59fc4977e7ca15058654616,/,/,    Add missing license headers to new tests,/,/
+c539537ab90f56fdb38066e7177184b189106015,/,/,    Add basic tests to assert no whitespace in spring.factories fiels,/,/
+c0ff831eec9c1fd9674f1076b578104c249c2558,/,/,    Merge pull request #263 from dngzs/hotfix/springboot_autoconfig,/,/
+ ,SHIRO-797,Bug,Shiro 1.7.0 is lower than using springboot version 2.0.7 dependency error,None,Blocker
+9a2de1649f72ecacdaabfd43f3ab9f89ae2d1f98,/,/,    Add missing license headers to new tests,/,/
+bd152bac39bdb0255f62a96005d5bc787d82c413,/,/,    Add basic tests to assert no whitespace in spring.factories fiels,/,/
+04a5eeed333ab19aa9765580373970d145a5a7df,/,/,    Merge pull request #264 from coheigea/jetty-9.4.34,/,/
+0948f6f2911cd6279b04c67ea9c5d6c90e26499d,/,/,    Update to Jetty 9.4.34.v20201102,/,/
+dbe2a25118c90a5e8b535a55fea6b0d881aa7ca3,/,/,    Merge pull request #262 from coheigea/jetty,/,/
+1b9d8d99cd6d50d7114916508a13677a0fe6f345,/,/,    hotfix springboot spring.factories,/,/
+5b1add9a4c4ed046b52cf2132ed0f264a22caf1d,/,/,    Disable jsessionid URL rewriting by default,/,/
+ ,SHIRO-795,Improvement,Disable session path rewriting by default,None,Major
+042c59356cc6442345a9f935aed3e7603cb4dfad,/,/,    Adds configuration to toggle the normalization of backslashes,/,/
+ ,SHIRO-794,Improvement,Add system property to enable backslash path normalization,None,Major
+16fc47ae44e330297ed24f080a20d211c2666667,/,/,    Add ShiroUrlHelper and related Spring configuration,/,/
+3bd10d35fa0b11db50edceb2b2566d478879a0e8,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+be1144dede3bf1b8b221285a23222faa523bf318,/,/,    [maven-release-plugin] prepare release shiro-root-1.7.0,/,/
+42f303f2eca6f75dcb00ef7170c9ea25e979dddd,/,/,    Test cases with EasyMock,/,/
+434c86bd5d486710feddf79601fff35fec8e9378,/,/,    Added SslFilterTest,/,/
+243e8924420518348141644175fb3dbfe0335f47,/,/,    SslFilter with HTTP Strict Transport Security (HSTS),/,/
+74d4cb6aee9aa1af4b098edc526a1e5630743f9b,/,/,    Disable jsessionid URL rewriting by default,/,/
+ ,SHIRO-795,Improvement,Disable session path rewriting by default,None,Major
+a28300448ae6c4bb78a8ba626b0cacb00f82d5f8,/,/,    Adds configuration to toggle the normalization of backslashes,/,/
+ ,SHIRO-794,Improvement,Add system property to enable backslash path normalization,None,Major
+0b370f5b327936a0c7922275c37341ed82f03642,/,/,    Update Jenkinsfiles with 1.7 branch,/,/
+386c1033260720604a1ee6a5874fb37ef9c1826d,/,/,    Update versions to 1.7.0,/,/
+a61a1c460de8baf56fd94a630c73d3005ea342e1,/,/,    Merge pull request #261 from fpapon/jenkins,/,/
+b5e753d362e20fef073589a55a66092de9eebf22,/,/,    [CI]?Update maven and jdk labels,/,/
+c632a62f345ca56a1ea0284dc83b2c63ddaaa328,/,/,    Merge pull request #257 from FredTreg/patch-1,/,/
+ ,SHIRO-793,Task,deleteMe cookie should use the defined &quot;sameSite&quot;,None,Major
+be4f526cdb578363a280f2412d303e1f7ebf87b7,/,/,    Merge pull request #258 from fpapon/sonar,/,/
+aa2acedcae790bf9f36b4eabff2fe91576336b3b,/,/,    Move sonar build step to Java 11 pipeline,/,/
+3008045470f302530d3db61eb075e5539132fae6,/,/,    Merge pull request #256 from fpapon/SONARCFG,/,/
+f39530ea5476a31a1d5c3344419692d677bfc712,/,/,    Add Sonarqube quality check,/,/
+c5e80757f67d4b5c3849f3e25b4bac470384e9c2,/,/,    deleteMe cookie should use the defined "sameSite",/,/
+ea680b427a9e4eabd9d795497372a6434e5a34c9,/,/,    Merge pull request #255 from ricardolsmendes/add-name-shirofilter-conditional,/,/
+ ,SHIRO-792,Bug,ShiroWebFilterConfiguration seems to conflict with other FilterRegistrationBean,Integration: Spring,Major
+dfda698e744226c446b1a09ba7c4c26afc5540d4,SHIRO-349,Bug,Security: Byte arrays (and other memory) holding sensitive data (even temporarily) should be zerod-out,Cryptography &amp;amp; Hashing,Critical
+b0091dfef63288f957389bce42f5a8e85329a1aa,/,/,    disable japicmp plugin in `ci` profile,/,/
+44f23e53ecf1b313a89b2e4ea147764b8884ab45,/,/,    Add Jenkins file,/,/
+41d3f7a84d139b9fdcac810cbb0c8d93af5d4fab,/,/,    Merge pull request #248 from ddddyyyy/master,/,/
+ ,SHIRO-767,Bug,org.apache.shiro.util.ClassUtil cannot load the array of Primitive DataType when use undertown as web container,RememberMe,Minor
+a49382809b1ac58ae1579e04a9b186e16c7a71f2,SHIRO-767,Bug,org.apache.shiro.util.ClassUtil cannot load the array of Primitive DataType when use undertown as web container,RememberMe,Minor
+638e639073d5a166b753a6623f9527170d7997d4,/,/,    Fix inefficient iterators,/,/
+4d822e1ba6976b659eefee9cd248e908cda5b978,/,/,    Update build badge in readme,/,/
+6383cc66b1564efc7cedbcb3c9c238354f732fa4,/,/,    Merge pull request #249 from fpapon/JENKINS,/,/
+451acc6c192c1bc4f8c8d91e73f67e631af9a90d,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+e2fcdf3753a9e1d37e8dbe89cd306d01f54fa712,/,/,    [maven-release-plugin] prepare release shiro-root-1.6.0,/,/
+1f2cdcdb29d879c9cd8e0bb8cab7a45ba0e9fbe0,/,/,    Update Spring/Spring Boot Versions,/,/
+5b13ddb22d135a2f256b442c6c56dea2486856a8,/,/,    Create 1.6.x branch,/,/
+f394807576ef0ee4eb701af42dd924ef71274933,SHIRO-780,Wish,NOTICE files of shiro components don&apos;t match NOTICE in source code repository,Documentation,Major
+864a2527b9e67a3e944588f1f52c41cab8f94266,SHIRO-786,Dependency upgrade,Upgrade to Spring 5.2.8.RELEASE and Spring boot 2.3.2.RELEASE,None,Major
+797881c9dd9e1b3a0c1ef2902c250fab0017bb5d,SHIRO-785,Dependency upgrade,Upgrade to maven-bundle-plugin 5.1.1,None,Major
+8f7ad79f0cdb53c29ed604bbbfd665edf673e1e8,SHIRO-785,Dependency upgrade,Upgrade to maven-bundle-plugin 5.1.1,None,Major
+b294b3090c2a81c0158f42607db07a2812c247b7,SHIRO-398,Improvement,Inconsistent name for session validation interval property in different implementations,None,Minor
+270b9403b5ad2ea82c9c6a3cbe108d631be5efe3,/,/,    Renamed the variable interval to sessionValidationInterval to make it consistent across implemetations.,/,/
+6c4e8f121c573737b0807892d1b02d59ac851c00,SHIRO-610,Bug,Incorrect filterchainResolver in 1.4.0-RC2,None,Major
+acef1457182968f4da47a96380ec22c59fa230ee,SHIRO-778,Bug,onInit method on AuthenticatingRealm is called twice,None,Major
+d52b834c08306a7965e47f8fd6976a945956f5b1,/,/,    Merge pull request #244 from apache/spring-config-filter-fix,/,/
+ ,SHIRO-784,Question,Error creating bean with name &apos;org.apache.shiro.spring.web.config.ShiroWebFilterConfiguration&apos;: Unsatisfied dependency expressed through field &apos;filterMap&apos;; ,None,Major
+c276617ac95335cc29a1ee6682ce74e64207ac6e,/,/,    Fixed issue where no custom filters are defined in spring (non-boot) applications,/,/
+2baa37d5221bc53e09f9eb3a267f098bf63aa47b,SHIRO-778,Bug,onInit method on AuthenticatingRealm is called twice,None,Major
+8e3042fc9499a3fc1052de7b604a237c83a255b3,SHIRO-551,Improvement,DelegatingSubject should implement toString(),None,Major
+062c8e383b8f657c0b6ff735018d85a2e74d4322,SHIRO-551,Improvement,DelegatingSubject should implement toString(),None,Major
+76d22f85871ccf67f6c266ab59018ce52b861f60,SHIRO-761,Bug,Bad OSGi import for javax.annotation in shiro-guice,Integration: Guice,Major
+b8cd45c840f6657b06dc6fccfdf82cc8269e4d50,SHIRO-761,Bug,Bad OSGi import for javax.annotation in shiro-guice,Integration: Guice,Major
+bffaa33c9ec23188526d9078e3d5659ccd553a75,SHIRO-610,Bug,Incorrect filterchainResolver in 1.4.0-RC2,None,Major
+5efcca57e031e954fe9a9b9c8610b0f27f4d1900,SHIRO-778,Bug,onInit method on AuthenticatingRealm is called twice,None,Major
+ec3e6194afbc5313742086eb7816bd0894c6d920,SHIRO-780,Wish,NOTICE files of shiro components don&apos;t match NOTICE in source code repository,Documentation,Major
+2e297858be85ffe95b9d2066dd6287643b32b492,/,/,    Merge pull request #238 from ramostear/master,/,/
+7b60edebd38b38f1644d251d1a068ded26d6d703,/,/,    Fix the annotation of setCredentialsMatcher method in AuthenticatingRealm class,/,/
+8751ce1c31848efa96242099ba908bd110540246,/,/,    Update Release notes from old releases,/,/
+2548eb6a0f1e0bbb47801a01782ee08713e7e0b6,/,/,    Add github pull request template,/,/
+fef71881b8a67e1c5e5efd87f469b507532ca01a,SHIRO-776,Test,JUnit update to version 5,None,Minor
+d9f7d57a38d745711cbcabdebc7980165a5f8247,SHIRO-777,Test,Remove PowerMock and update the enforcer exclusion list,None,Minor
+ff0ffb72beaeb7ebca5ca44852dd7b96d2b4741f,/,/,    Update github asf.yaml,/,/
+5be3a505b686cc88a050515303a057755e920339,SHIRO-777,Test,Remove PowerMock and update the enforcer exclusion list,None,Minor
+b178b232c9ec9c3d20f7445a59d87b12eb8b2ad5,SHIRO-777,Test,Remove PowerMock and update the enforcer exclusion list,None,Minor
+ecb57e450231746cb2e202c23d747a653dde1233,SHIRO-774,Bug,Remove wrong usage of prerequisites in pom.xml,None,Major
+fcd9dea8353adcae8fd0e9c408dd16a32b33ab2b,/,/,    Merge pull request #221 from bmhm/doc-committer,/,/
+5d5e7865216787d71575e9e71ce2ea2ab5212cac,SHIRO-774,Bug,Remove wrong usage of prerequisites in pom.xml,None,Major
+227937f68612c07093f8700e8e940e2a641c41d7,SHIRO-771,Improvement,Add OpenJDK-OpenJ9 travis builds,Documentation,Major
+1399c0d8acb191090cfe95899cdfeca0c23aff39,SHIRO-771,Improvement,Add OpenJDK-OpenJ9 travis builds,Documentation,Major
+e36ffa8a2a7f4d15d896a90e4d7e5c0ea310376a,SHIRO-775,Sub-task,Excessive logging in jetty ContainerITs,Integration: JEE,Major
+7437d476a44641faf57975a22a9a02d06816fc45,SHIRO-775,Sub-task,Excessive logging in jetty ContainerITs,Integration: JEE,Major
+897f214c77ca88d7e623b5a51d51c8a207a71296,SHIRO-768,Task,Remove the shiro-all module,None,Major
+72c6b16c4edc0ebbbb41e64ba2fdec2595779eb6,SHIRO-773,Sub-task,Outdated Groovy version does not work with JDK14,None,Major
+98dbd5c9e5dbf192e8f54dd6d04a3e699e9fad32,SHIRO-773,Sub-task,Outdated Groovy version does not work with JDK14,None,Major
+930380cf2f0200b7ab3842b4b4c9555b42634083,SHIRO-772,Sub-task,PowerMock blocks JDK 11+ builds,None,Major
+3f339f34ed25e94ffcea401bdda9a0f38d284ebe,SHIRO-772,Sub-task,PowerMock blocks JDK 11+ builds,None,Major
+e225c1084070043d2e1b3226349151e1b2461b9e,SHIRO-770,Improvement,Remove Base64,Configuration,Major
+fabae55bbe22a8c80c1ee820dbd0841de5349080,/,/,    Merge pull request #229 from fpapon/travis,/,/
+c46f235f47cdc0c04c31de625f4c0af502be5844,/,/,    Remove CI profile for 2.0.0,/,/
+4c7eb2aee13e228ecf82c9177607438d5e1ead6a,SHIRO-770,Improvement,Remove Base64,Configuration,Major
+13806fc623aa64ab89b64821c1db55ee8e6468e9,/,/,    Merge pull request #224 from bmhm/base64-away2,/,/
+ ,SHIRO-770,Improvement,Remove Base64,Configuration,Major
+99c55f65ddb70d7aa5b8f2d61051c0ccdb747ff7,SHIRO-708,Improvement,Remove deprecated shiro-cas module,None,Major
+a92a79ca8f8f7bf4f6386d0b618f95041b1c092a,/,/,    Merge pull request #219 from mookkiah/master,/,/
+ ,SHIRO-764,Improvement,Add IpFilter for restricting access IP ranges,None,Major
+8b061f7999a4eb367e55ce857a3e5f65506f2c7c,SHIRO-766,Bug,ArrayIndexOutOfBoundsException in Base64#decode,RememberMe,Minor
+29f6c0e2eb9052738d85f0f71f0583c5b97f5c99,/,/,    (doc) Remove base64 implementation  keep UTF-8 codec by default.,/,/
+8bf147354fb70e12fcde2b69479cad9339d8508e,/,/,    Add IpFilter for restricting access to resources from those coming from without (or outside) specific IP ranges.,/,/
+83d8dacd273c8f6d70e6b1aa4f240d4f7a408c27,SHIRO-766,Bug,ArrayIndexOutOfBoundsException in Base64#decode,RememberMe,Minor
+47dd4c1e140586889ca914c872f5282e68d22501,SHIRO-765,Dependency upgrade,Upgrade to Apache Pom Parent 23,None,Minor
+12abf11a7ed3496227767291e0e03dd32b75f00a,SHIRO-765,Dependency upgrade,Upgrade to Apache Pom Parent 23,None,Minor
+7935aa8506cb68bb8ecde47e474e88e1d5c0cb0c,/,/,    Mark `SecurityUtils.securityManager` as volatile,/,/
+2b3e5830871a1dc2f832801a6bd6c05859b2ace0,/,/,    Merge pull request #218 from boris-petrov/add-volatile,/,/
+ ,SHIRO-762,Bug,SecurityUtils.securityManager should be volatile,None,Critical
+ac86d2d3d2ba674e3c04a498dabb51ffbc7ed136,/,/,    Add .asf.yaml to redirect PR notification on commits mailing list,/,/
+8123fd7121e52eb0c9fb54ca494f2bdfa849d3ff,/,/,    Move master to 2.0.0-SNAPSHOT,/,/
+ed6aff971609e93fa76042155b7473132419376e,/,/,    (doc) Committer Update,/,/
+de6200fc4683afdfb99316508b8cbf3676e32cdd,/,/,    Test cases with EasyMock,/,/
+47434364e53039d2b1a256644d978d32cb66f2b3,/,/,    Added SslFilterTest,/,/

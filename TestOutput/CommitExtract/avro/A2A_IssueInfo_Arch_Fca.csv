@@ -1,0 +1,206 @@
+116a973813541d4f6ca000ae27090074871e714e,/,/,    avro goes tlp,/,/,0
+b062afaea6c4534bea3e2ec1387afb549da72570,AVRO-108,New Feature,add binary comparator,java,Major,1
+f736dfd4dd6089d9323cf7290ca7852c9dd045cd,AVRO-95,Bug,mixing multiple types in one data file using reflection is not supported,java,Major,1
+62806bad9162f22afe69f01e97ea96321d83710a,AVRO-76,Sub-task,Add plug-in mechanism for manipulating per-call metadata,java,Major,1
+2034a4ee5bc4fd9623797590e1dbb411e4848787,AVRO-81,Test,Switch Avro&apos;s tests back to JUnit from current TestNG framework,java,Major,1
+f352f56536e1855bdb97208b23f65c659eed3b69,AVRO-82,Improvement,A large number of Java warnings due to unused vairables etc.,java,Minor,1
+0039f146bd31549fee2b80119a3c977a5072a5d5,AVRO-50,New Feature,bidrectional text representation of AVRO data,spec,Major,1
+751a179769ed29c686558cd618a7934754b6691f,AVRO-78,Bug,&apos;reflect&apos; implementation works only with public fields,java,Major,1
+8e900b4a1450bc64057a257efa7682daf5da1c8b,/,/,    avro goes tlp,/,/,0
+03e67154953150c38fbf92e079ada74aec75398d,AVRO-392,Improvement,Binary Decoder Performance and flexibility overhaul,java,Critical,1
+1d6b6c5549fd0086e0682d519527d879b1efda33,AVRO-295,Improvement,JsonEncoder  is not flushed after writing using ReflectDatumWriter,java,Major,1
+62cba7ee3c6f0b73f1d195934b940b5061757a84,AVRO-321,Test,Run Java RPC interop tests again,java,Major,1
+e1e7220560d799b380d79c257dfc0aaac949a623,AVRO-340,Improvement,specify http transport in spec,spec,Major,1
+f86e0305115fdf9aaa90b19e3bb8ee58324a1406,AVRO-387,Bug,Add IndexedRecord interface to share more logic between specific and generic.,java,Minor,1
+2e4f32687d9c6b669bcda7b8a0b42d71daf97a2c,AVRO-380,Improvement,Avro Container File format change:  add block size to block descriptor,spec,Major,1
+7a0078b786f0e3575fef5d98a8242c13530ceccd,AVRO-383,Improvement,Optimizing ResolvingDecoder for default values,java,Major,1
+56f6af364fa4d8d20e1bf7ed138e8445586b1ac6,AVRO-135,New Feature,add compression to data files,spec,Blocker,1
+e3ddec6f5a87984a5d5358734f8ee5e26a6682df,AVRO-352,Bug,Incorrect binary encoding for strings and bytes,c,Major,1
+abd816c13c3e1af987e8a7b88face7f06288bde9,AVRO-351,Improvement,Shorten induce tool description; add check to avoid overly verbose descriptions.,java,Major,1
+2b43cbdc5d51752325dd9f29a669dcc532a1c6b0,AVRO-163,Improvement,Each language Avro supports should be a separate package,python,Critical,1
+8fc362ad49300d2aa145c0e0e118851fbcc563b6,AVRO-259,Bug,GenericData.Array should fail fast when constructed with a null Schema,java,Trivial,1
+e5d6f00462a43a94edd3ad1e4266443c63ecf51c,AVRO-273,New Feature,Stopwatch: simple class to encapsulate time for statistics gathering,java,Minor,3
+ ,AVRO-275,New Feature,Histogram class to keep RPC timing stats,java,Minor,
+ ,AVRO-279,New Feature,StatsRpcPlugin -- plugin to keep RPC stats,java,Minor,
+e5631c1b774681f92de43f9f7d6ec64ae15d5c9b,AVRO-267,New Feature,Tool (for &quot;avroj&quot;) to send and receive a single RPC from the commandline,java,Major,1
+162726205705d4130e4090e4c4aa24d9e7ef34a6,AVRO-258,New Feature,Higher-level language for authoring schemata,spec,Major,1
+1d125b4a4fdabf0bf55f27d092226a53d70427ac,/,/,    Revised data file format and Java API.,/,/,0
+4471c7079a4e7cc62ff6d67cfe22b078a6bbe4af,/,/,    Add four new avroj commands for converting data between JSON and binary encodings.,/,/,0
+8fca9cd353d16aa7396fb91c4b9a7cb4660d23fd,AVRO-241,Improvement,add union annotation to reflect API,java,Major,1
+ba55ccc8e773ecbb0e71b13997c628b82f40eeac,AVRO-236,Improvement,add support for protocols to avroj induce tool,java,Major,1
+234893c3d0ff9c18fd2b90e5c7ea0b0a9a0b2762,AVRO-80,Bug,&apos;reflect&apos; implementation requires Avro classes to define types,java,Major,1
+6b33f0278abc9a1d81f925d39673d9fccefc5370,AVRO-185,Improvement,specific should not depend on reflect,java,Major,1
+76c6762906b4802dd9e41b647a7a5146a08e180b,AVRO-182,Bug,hashCode and equals are not consistent with compareTo,java,Major,1
+de5d14395bed3d9eeae07c7a1d60975b6778e3d2,AVRO-605,Improvement,Java: make Utf8 implement CharSequence,java,Major,1
+819709d877b8f21d4c680d8d1a91f70cfd6bbadb,AVRO-595,Sub-task,Add Basic Trace Collection and Propagation,java,Major,1
+0457a5785252d997d93cebb4c275e2a355577d75,AVRO-587,Sub-task,Add Charts and Templating to Stats View,java,Major,1
+ce35df9fb9c907883e9cede03109765e900248e7,AVRO-580,New Feature,java: permit generic data within specific,java,Major,2
+ ,AVRO-581,New Feature,java: add reducer that separates keys and values when map output is pairs,java,Major,
+f739842c9055909dbd9bf8fc6e49dcd34661b84f,AVRO-405,New Feature,Netty-based Java RPC server,java,Major,1
+9c56ed4e8af0f977fe76f82d231757c2563d2094,AVRO-567,New Feature,add tools for text file import and export,java,Major,1
+2ca528fa31870b767f7d89550d8781c40c6b8bcf,AVRO-577,New Feature,Add input format for plain text files,java,Major,1
+cac9e93d3984bf05f67c86fba0d7024b82469ae1,AVRO-512,New Feature,define and implement mapreduce connector protocol,java,Major,1
+3c71a148c09d3951aaabdb7dcf6639d70905016f,/,/,    Updating CHANGES.txt in trunk to reflect the 1.3.3 release.,/,/,0
+a052723e1b0f22ec061865f6cdad2ad45c67ac93,/,/,    Avro-1.3.3 release.,/,/,0
+af73cd3f2d5249dd386dc299a9d4d1e4f9b3bec2,/,/,    formatting only: wrap lines longer than 80 columns,/,/,0
+a317436c7b069bad1f171acfe3b17c1480dd6724,AVRO-556,Improvement,Poor performance for Reader::readBytes can be easily improved,c++,Major,1
+625d88ca5ce134b9f7572e4266a39bfb41d3bb02,/,/,    Avro 1.3.3-rc0 release.,/,/,0
+ea4bd94d187975224470dfc66d568d69dd32ed39,/,/,    Setting share/VERSION.txt to 1.3.3 in preparation for the initial RC.,/,/,0
+2660351b81bb6ea57f5c8c33a935600132db1d57,AVRO-556,Improvement,Poor performance for Reader::readBytes can be easily improved,c++,Major,1
+cb61f04eb422c48fb7c6c5d0c1ff7b9834bbe4a4,AVRO-526,Improvement,Fall back to pure Python StringIO if cStringIO is not available,python,Minor,1
+a4c97afaf377cb1461faee2654a1a7c00e0a92c1,AVRO-526,Improvement,Fall back to pure Python StringIO if cStringIO is not available,python,Minor,1
+33a9b04bb67cf8f0434d25922642d145ff3f83a1,AVRO-562,Bug,ruby side has busted client handshaking,ruby,Major,1
+05cc368353d72c798b261d9dbfcee05d8c7cdaa5,AVRO-562,Bug,ruby side has busted client handshaking,ruby,Major,1
+913345d239e7aa67bfbfb80e8d1f2394c5de64c4,AVRO-559,Improvement,Handle read_union error where the list index of the union branch to follow exceeds the size of the union schema,python,Major,1
+9b31fdd70fcd6aa0bac31f6d91256d1df81a86c8,AVRO-559,Improvement,Handle read_union error where the list index of the union branch to follow exceeds the size of the union schema,python,Major,1
+e1de8c0286840cf021dd686d78525ab47b6dc0d1,AVRO-560,Improvement,Python impl should include system errors in every protocol,python,Major,1
+8dfd1a6027d2c293fac298c3197567b80c2f0402,AVRO-560,Improvement,Python impl should include system errors in every protocol,python,Major,1
+6f8dcb9a14c843936358784ba5bb7bca13d6a84d,/,/,    Updating share/VERSION.txt to be 1.3.3-SNAPSHOT.,/,/,0
+cb3dab05528ea8597fa41d4c09618b2907d544d8,AVRO-499,Bug,reflection does not handle interfaces with overloaded method names,java,Major,1
+e33fc2bc1fedbb746f38b9daa41b8b657a9bbfc5,AVRO-499,Bug,reflection does not handle interfaces with overloaded method names,java,Major,1
+1b5c4e428e3ac83bee7d0a73e518880819f34541,AVRO-524,Bug,DataFileWriter.appendTo leads to intermittent IOException during write(),java,Major,1
+32d4ad76def63559a83def91582320ce8e31ab74,AVRO-524,Bug,DataFileWriter.appendTo leads to intermittent IOException during write(),java,Major,1
+3604f4fd70c81c782d26b7f7b0c2d6fa54240ae2,AVRO-517,Bug,Resolving Decoder fails in some cases,java,Critical,1
+2550e35bbce6b5cd487259405e44ff2802416cc7,AVRO-496,Bug,python sample_http_client.py is broken,python,Major,1
+9c3095aeab368e4984fde046e10d0c274cf240c0,AVRO-552,Sub-task,C: Win32: Build Avro code,c,Major,1
+21a4eb06f5be66acfe2eaedaa8d7988a44b37338,/,/,    Adding 1.3.3 section to CHANGES.txt in trunk and in branch-1.3 (hammer).,/,/,0
+4c8ef34d89fd8ff2277c901a092c961bebe3269a,AVRO-543,Improvement,ruby: schema comparison is hella slow,ruby,Major,1
+abdbc5744d15001bf473cf0701ad3b1b490e6fde,AVRO-543,Improvement,ruby: schema comparison is hella slow,ruby,Major,1
+627d42de01bbd935ac469ff0ca0af135b75cef1e,AVRO-540,New Feature,make GenericArray reversible,java,Minor,1
+d8e96da726d2d2e57d40afdd9deb6dbac09719ca,/,/,    avro goes tlp,/,/,0
+cdeb6ea2198cc94f450ca2ff949c0c198a4f8b00,AVRO-493,New Feature,hadoop mapreduce support for avro data,java,Major,1
+3b5d0336153495e29ee42605e6b11fa27a3fec5b,AVRO-769,Improvement,Java: Align Decoder/Encoder APIs for consistency and long term stability ,java,Blocker,1
+3962eec7f14fc83542437a50c49dcd2d4b481410,AVRO-753,Improvement,Java:  Improve BinaryEncoder Performance,java,Blocker,1
+507684968666f97c5af23116884cf0ba88c60be4,AVRO-246,Improvement,Java schema parser should take schema from InputStream in addition to file,java,Minor,1
+214803f7333fa6681caf0c36abf5899b7e861992,AVRO-716,Task,New Java build: integrate with parent build and remove cruft,java,Blocker,2
+ ,AVRO-647,Improvement,Break avro.jar into avro.jar  avro-dev.jar and avro-hadoop.jar,java,Major,
+5ca4688a84af2406da81c0915ef781a790a016cb,AVRO-752,Improvement,Java:  Enhanced Performance Test Suite,java,Minor,1
+9403bef4294b16c9eb59e6876f7a6fb6cecfaa0a,AVRO-716,Task,New Java build: integrate with parent build and remove cruft,java,Blocker,2
+ ,AVRO-647,Improvement,Break avro.jar into avro.jar  avro-dev.jar and avro-hadoop.jar,java,Major,
+6cac5fe1283d797f62e40b1dd755e40f5b213d7b,AVRO-723,Bug,Incorrect handling of Undeclared Errors in IPC calls to SpecificResponder,java,Minor,1
+701473043802d2e54638df2c8c112af8d8d4504a,AVRO-708,Bug,Repeated calls to Netty IPC service fail,java,Minor,1
+5a8078804ce08c49c2c5e5314fec94cb72415f2a,AVRO-722,Bug,IPC Request Metadata written for transmission before processing by plugins,java,Minor,1
+1116da410809a4572e6134c01b1e8e4be6627647,AVRO-717,Bug,SpecificDatumWriter is using GenericData.resolveUnion sometimes,java,Major,1
+a612645c98b33802c70259bc9599e39afc32b385,AVRO-669,Bug,Avro Mapreduce Doesn&apos;t Work With Reflect Schemas,java,Major,1
+4631aef659d3795b5d3d7dc8e458b131387c2640,AVRO-647,Improvement,Break avro.jar into avro.jar  avro-dev.jar and avro-hadoop.jar,java,Major,1
+6647059e85e3c70c01a1596fe11f4a12f69125a7,AVRO-707,Improvement,promote Sasl-based RPC,java,Major,1
+7adf61bb2083f9f027901fd63441b3bf06607fd5,AVRO-698,Test,add mapred tests that incorporate non-Avro formats,java,Major,1
+4d73af83a5ec618781a1476e55d60b5e3a6e72f5,AVRO-684,New Feature,Java tool for altering the codec of an Avro data file stream.,java,Major,1
+48cbce8f86cc008c4d8f2e0685dae992ccab4922,/,/,    note release date of 1.4.1,/,/,0
+a0ee4f676223b7d14f622c083833b63501b2113e,AVRO-673,Improvement,Reduce time spent validating schemas,python,Minor,1
+4dda8ddb4f6ca16d11b908f5597e299bb7fd8d76,AVRO-537,Bug,ruby: keep connection between requests to same client,ruby,Major,1
+dc6db274036bd925416436ac8c138cd40cd782e0,AVRO-537,Bug,ruby: keep connection between requests to same client,ruby,Major,1
+b56ff0fecbf61869aa29d319f575187c0ef4f8b8,/,/,    Vim editor support for IDL files.  Contributed by Daniel Lundin,/,/,0
+a2a7d5453ea09936cf9dbf0bbb5e79f0cba252a7,AVRO-664,Bug,Ruby server takes a long time to start in interop tests,ruby,Major,3
+ ,AVRO-667,Bug,GenericArray fails to compare with List.  SpecificRecord compare gets ClassCastException,java,Blocker,
+ ,AVRO-668,Improvement,Java: Streamline writing of Strings for Encoders and GenericDatumWriter,java,Major,
+3397abb9d37d1a84a9d26c2e90558fc4e4be26d9,AVRO-670,Improvement,Allow DataFileWriteTool to accept schema files as input,java,Major,1
+007dbc2a7b9d709f5ef77c36d59733a859f3b887,AVRO-662,New Feature,Java: Add InputFormat for SequenceFiles using Reflect API,java,Major,1
+13bf69f3eda8d6046a61ffb3bf281e3dde3298f4,AVRO-662,New Feature,Java: Add InputFormat for SequenceFiles using Reflect API,java,Major,1
+64fda09d97f5f68897262e0d305deec5ca363f56,AVRO-641,New Feature,add SASL to socket transport,java,Major,1
+f9c3ccc83b9b5f89c786a593c9bc23af10209f00,AVRO-641,New Feature,add SASL to socket transport,java,Major,1
+da44c2318c5dc9bfc4116cd713bcd0eb872e6e5a,AVRO-803,Improvement,Java generated Avro classes make using Avro painful and surprising,java,Major,1
+21223692e8066b2bdf2100641fb7befdae453e8e,AVRO-895,Bug,JsonDecoder does not tolerate JSON records with different field order,java,Major,1
+e93f2ff7ca53586dbfd3941035fdaf67cb8ae306,AVRO-881,New Feature,Add tool to list data file metadata,java,Major,1
+6ea146d357b041e1c16167124afd7fc4d0f36c21,AVRO-888,Improvement,Create SeekableInput based on data in byte[],java,Major,1
+5f2cc474348dfdc8cfca669f3f4f0d75bc9e7ae9,AVRO-805,New Feature,Java: add ProtobufDatumReader and ProtobufDatumWriter,java,Major,1
+4df83ff5373d7438bdf7789ab2cd5eb547b6db0b,/,/,    preparing to roll 1.5.4 candidate,/,/,0
+b4d6a171e5e2d96d4e6fad49e06aca19c916420a,/,/,    prepare to roll 1.5.4 candidate,/,/,0
+45c9b60be4681d36f07247c0ed9c1faca55b8936,AVRO-866,New Feature,Python: add snappy compression,python,Major,1
+7c2bfeb2c6ebb2f69eaa4aafbf586ddd2c000629,AVRO-866,New Feature,Python: add snappy compression,python,Major,1
+401eb42a3bfad01266049cb0385fed6b8edb8c84,AVRO-884,Bug,Regression in one-way message connection failure case,java,Major,1
+666be14b735fa4b6e03c20b5c15d229f90efd437,AVRO-839,Improvement,Implement builder pattern in generated record classes that sets default values when omitted,java,Major,1
+153ce108ab9334a4a74e266c078f4d0c08e2f485,AVRO-539,New Feature,Allow asynchronous clients to specify a callback to be run when server processing completes,java,Major,1
+7833e4baa36951829a4ed4cbb81ae37df617464f,AVRO-810,Improvement,Add strong naming to C# assemblies,csharp,Minor,1
+a39e6deea243dcd9a09df8f67af724003dec1d02,AVRO-1099,Bug,Int / Float cannot be decoded,java,Major,1
+446bd1be05c2e1c385d24b31e79504a9fcb1b4b2,AVRO-593,New Feature,Java: add support for Hadoop&apos;s new mapreduce APIs,java,Major,1
+22d55ddf3e6ff8021da1743c8bb989111391b32a,AVRO-1202,Improvement,Add &quot;Getting started&quot; guide to documentation,doc,Major,1
+c8fe3e085e7afb5ee7de69561f0578a8ca2f046c,AVRO-1199,Bug,SortedKeyValueFile$Writer.append method have a puzzle for the sorted key,java,Major,1
+3c15fc6183d1df06abc2eb1904f9c4514ef4f665,AVRO-1157,Improvement,Idl tool - parse properties as plain String OR expose the property as Json,spec,Minor,1
+c3577650285efd083a22a86670e33137d0fc6cdf,AVRO-1170,Bug,Avro&apos;s new mapreduce APIs don&apos;t work with Hadoop 2,java,Major,1
+21c239025f435bea117e11e61792b89d20a9110e,AVRO-1252,New Feature,enable compiler tool to generate String instead of Utf8,java,Minor,1
+4d8a4dd7a2582ad4fa59b8ed3e0db27b91559334,AVRO-1243,Improvement,Avro support for all compression codecs,java,Minor,1
+448249366ff5ab9f5cfe4117b26ef0ab3bc7d047,AVRO-1248,Improvement,Add a avro tool that dumps the protocol from a remote RPC service,java,Minor,1
+854daafa0d91b3e0da986841ba6ad023eddddeca,AVRO-1353,Improvement,Configurable Hadoop serialization in-memory representations,java,Major,1
+8af840b2cd1ad273e6417f58d359e9b113a1c927,AVRO-1341,New Feature,Allow controlling avro via java annotations when using reflection. ,java,Major,1
+23201deb6d468b4cd8be4db7f812f37285358f5b,AVRO-1327,Improvement,Having GenericEnumSymbol implement Comparable (mimic&apos;ing java&apos;s Enum),java,Major,1
+40650540dcb8ca8a6b6235de5cdd36c0f6e2eb31,AVRO-1282,Improvement,Make use of the sun.misc.Unsafe class during serialization if a JDK supports it,java,Minor,1
+9a501d91b962ade5554e8ddeb8bbacde544fb9b8,AVRO-1299,Improvement,SpecificRecordBase implements GenericRecord,java,Minor,1
+30e914cf37160bfd0aa4daf97feadd8e57435a33,AVRO-1522,Bug,SortedKeyValueFile Writer should support compression codecs,java,Major,1
+7122ddad939d59f03da8c60bd41eb9247352c449,AVRO-1402,New Feature,Support for DECIMAL type,None,Minor,1
+4fec1d9c1fde62c384d59ed520dfc80b4a4205a5,AVRO-1402,New Feature,Support for DECIMAL type,None,Minor,1
+8dd83708d454f9dc7caebf2769b3f5c513ba242c,AVRO-1454,Bug,AvroAsTextInput format creates invalid JSON for NaN values,java,Major,1
+edd9f5557b344be58b03ed01c3588734c793ac46,AVRO-1781,Bug,Schema.parse is not thread safe,java,Blocker,1
+eb31746cd5efd5e2c9c57780a651afaccd5cfe06,AVRO-1497,New Feature,Add LogicalType support to Java,java,Major,1
+3fdea9c2021b1491825f45547c62b52d75dc505c,AVRO-1539,Improvement,Add FileSystem-based FsInput Constructor,java,Trivial,1
+fbaf3c399e2f34e57008d8625c76f0543a3cadf4,AVRO-1407,Bug,NettyTransceiver can cause a infinite loop when slow to connect,java,Major,1
+5cc99503deea276eabfb9deb8c88fd1f01f5ebad,AVRO-834,New Feature,Data File corruption recovery tool,java,Minor,1
+5b9b847fa099d2476ba497ad971ac36495add960,AVRO-1602,Bug,Remove the Dapper-style RPC trace facility,build,Major,1
+535f6efca296d80f01e1bad2050b1bdc453f4800,AVRO-1502,New Feature,Avro objects should implement Serializable,java,Major,1
+5af5e3992a6a58dcb3e52969e4e2b5d903a076c3,AVRO-570,New Feature,python implementation of mapreduce connector,python,Critical,1
+f426a75e9c8dc48fdc4901224313edbb9c4739a1,AVRO-1591,Bug,Java - handle hashCode / equals / toString in SpecificRequestor,java,Major,1
+f71e0cd28d1ebc039ec57cd303ba30e190e72dce,AVRO-1502,New Feature,Avro objects should implement Serializable,java,Major,1
+bb9b589e0ebd7aed7fa477b273881c42409969ac,AVRO-1684,New Feature,Add date  time  and timestamp to specific object model classes,java,Major,1
+6de8e985675034fbb3cac4dc8bd3cbed31461b33,AVRO-1711,Bug,JsonDecoder.skipChildren skips more than it should.,None,Major,1
+ce64ff7ba8f51a8f54c910407b89cb99b12f79df,AVRO-1821,Bug,Avro (Java) Memory Leak in ReflectData Caching,java,Major,1
+ec8a091819a25bccf03adc868449f57f9c076d19,AVRO-1821,Bug,Avro (Java) Memory Leak in ReflectData Caching,java,Major,1
+c80d1eec0229ea733e0ed0f4e7c0c4b90d81f841,AVRO-1704,Improvement,Standardized format for encoding messages with Avro,spec,Major,1
+ff5bb456e751e9128606c6bbffe638e256ee2c1c,AVRO-1847,New Feature,IDL compiler should use BigDecimal to represent decimal logical type.,java,Major,1
+4c0e41cebc0804c563dffe98a58c06b1c39098e1,AVRO-732,Bug,Generated protocol&apos;s method should not throw AvroRemoteException,java,Major,1
+c369dd1b4d2f807bfdec5b25317a5adee855d7fc,/,/,    Rename JSR310 conversion class to TimeConversions  deprecate Joda conversion,/,/,0
+48ed810a0d1352adcb3f608ff33b186ed433e784,AVRO-2346,New Feature,Introduce JMH Performance Testing Framework,java,Major,1
+ac95febf82b15ffa564cac1d92475cdf6efed9f6,AVRO-2106,Improvement,Revisit dependencies on Jetty  servlet-api  and Netty,java,Major,1
+7ed38d7c7e150987ef8bf035196576fc158e03eb,AVRO-1891,Bug,Generated Java code fails with union containing logical type,logical types,Blocker,2
+ ,AVRO-2065,Bug,Avro java code generation for Unions doesn&apos;t set converters for unions,java,Blocker,
+eb06f71861025c9261b5ad7a09cab0c46f2ac311,AVRO-2267,Improvement,Duplicate code RandomData.java and its dependency problem,java,Major,1
+c6f772b408046c61b3269d8aecc5f1684bcad6fb,AVRO-2127,Improvement,Throwing more specific exception if an avro file has currupted magic,java,Minor,1
+409dac80e9e042f308d097f64b496df122c58dd2,AVRO-2245,Improvement,Java codec testing improvements,java,Minor,1
+25032e10a86851bdabfa29b99885ccfc03c6667e,AVRO-1887,Task,set up precommit checks via Apache Yetus,community,Blocker,1
+d799e1829a39ca0379f3e12d2e8cfdf5fcd26151,/,/,    Squashed commit of the following:,/,/,1
+ ,AVRO-1605,Sub-task,Remove Jackson classes from public API,java,Major,
+cf2f30336efe0ecc3debc7bede86fde6d23f7c79,AVRO-2195,New Feature,Add Zstandard Codec,java,Major,1
+238714d324d1623f144ca09c0dfb10330a2ba2c4,AVRO-1340,Improvement,use default to allow old readers to specify default enum value when encountering new enum symbols,spec,Minor,1
+61ab73837a56b5ce89b6a05d205b38b78d58cea9,AVRO-2117,Improvement,Overall cleanup of code,misc,Major,1
+ce1654df5e6b3c9e4b142678b61d36f19c9da359,/,/,    [fix] eliminate FB annotations to reduce the scope of this change.,/,/,0
+e38f7074d7c8f9156b39c8310302486ced93767a,AVRO-2018,Bug,lang/java/avro/src/test/java/org/apache/avro/TestFixed.java missing copyright comment,java,Blocker,1
+874fff780dfe6d6ee8a3fa13f461110794b56f35,/,/,    [add] resolution code using new reusable visitor.,/,/,0
+0550d2cce2793d1b810960a652f03fadf88b02ff,AVRO-2001,New Feature,Add support for doc in the Ruby library for Avro schemas,ruby,Minor,1
+884fbabd3a07e6442dac9a43f34eb9ca0e5a0cbc,/,/,    [merge] marge with latest changes,/,/,0
+b735b4259d0512482477a2648b92d095a29cfa54,AVRO-1975,Improvement,Upgrade java dependencies,dependencies,Major,1
+c3384e4d016bac264f6577fff9543199a1fb1970,/,/,    [add] incomplete implementation to use generic schema traverser.,/,/,0
+c80d1eec0229ea733e0ed0f4e7c0c4b90d81f841,AVRO-1704,Improvement,Standardized format for encoding messages with Avro,spec,Major,1
+fb7f023daf40c6373dc60db436fe302c70805493,AVRO-1741,Bug,Python 3 code should check if avro.codec is None before decoding,None,Major,1
+749934f3cd13c413e293815e7f64848a688a6e60,AVRO-1719,Bug,Avro fails to build against Boost 1.59.0,build,Blocker,1
+39481e665620fec527085552c4c71571f5aeb68f,AVRO-1895,Improvement,DeepCopy does not work with logical types,logical types,Critical,1
+f6c044e56f9de7d3e34eeb1702c11fa4add04d84,AVRO-1704,Improvement,Standardized format for encoding messages with Avro,spec,Major,1
+f2c7b08c3395cd9065730c21bd1a6dc25a57dbf4,/,/,    Add FreeBSD way of byte-swapping uint32,/,/,0
+c3964345189581db8347bf0e038a0559d7a7626c,/,/,    [add] add more to gitignore,/,/,0
+ff5bb456e751e9128606c6bbffe638e256ee2c1c,AVRO-1847,New Feature,IDL compiler should use BigDecimal to represent decimal logical type.,java,Major,1
+b26d194c974f2b29aeb4ba13054adcb339310dfa,AVRO-1867,Bug,branch-1.8 needs to be updated to 1.8.2-SNAPSHOT,build,Blocker,1
+89a31b9236c92b2036b8f4ddd190183a18c630fc,AVRO-1847,New Feature,IDL compiler should use BigDecimal to represent decimal logical type.,java,Major,1
+bb9b589e0ebd7aed7fa477b273881c42409969ac,AVRO-1684,New Feature,Add date  time  and timestamp to specific object model classes,java,Major,1
+6de8e985675034fbb3cac4dc8bd3cbed31461b33,AVRO-1711,Bug,JsonDecoder.skipChildren skips more than it should.,None,Major,1
+ce64ff7ba8f51a8f54c910407b89cb99b12f79df,AVRO-1821,Bug,Avro (Java) Memory Leak in ReflectData Caching,java,Major,1
+ec8a091819a25bccf03adc868449f57f9c076d19,AVRO-1821,Bug,Avro (Java) Memory Leak in ReflectData Caching,java,Major,1
+8a3960ab1cdd9d575a7f5863f8e85f8bebd0419d,AVRO-1793,Improvement,Python2: Retain stack trace and original exception when failing to parse schema,python,Major,1
+c22a1a102d78558e04249dad2cc086ca647fc2dd,AVRO-1684,New Feature,Add date  time  and timestamp to specific object model classes,java,Major,1
+7e10babe3eaad11c90cfed41553fc0c1ff90c16a,AVRO-1711,Bug,JsonDecoder.skipChildren skips more than it should.,None,Major,1
+4c1463cba1bc268c2ccf2a506d27e6ee84030316,AVRO-1819,Bug,org.apache.avro.Protocol.parseMessage doesn&apos;t respect request field&apos;s aliases,java,Major,2
+ ,AVRO-1820,Bug,Read annotations to request&apos;s fields,java,Major,
+a593cb03f93a9d449723c0e5d765bf2dcf55e132,/,/,    [cleanup] eliminate commented code.,/,/,0
+54eefb8d780237a7108c2a0c91b12282686426ad,AVRO-1821,Bug,Avro (Java) Memory Leak in ReflectData Caching,java,Major,1
+58daaf08a2637e0976cc124571200ce198b3143d,AVRO-1821,Bug,Avro (Java) Memory Leak in ReflectData Caching,java,Major,1
+32067dec274ba93aa0775fcfe990eef3b87b534c,AVRO-1824,Bug,Avro C++ Documentation fix,doc,Trivial,1
+fd6c4228fbecc6eff3e3ecd5ee27d2ceb46339ff,AVRO-1723,Improvement,Add support for forward declarations in avro IDL,None,Major,2
+ ,AVRO-1667,Bug,Parser symbol tree flattening is broken for recursive schemas,None,Major,
+60365c1b05181960e141b71ca035164137f2cf64,AVRO-1782,Bug,Test failures in Ruby 2.1/2.2,ruby,Major,1
+a7a547cb8a3b7bb16531ef956b81c663c197fe75,AVRO-1782,Bug,Test failures in Ruby 2.1/2.2,ruby,Major,1
+f7ec67996b66444f9de2284d1ddfaa66297ba51e,AVRO-1781,Bug,Schema.parse is not thread safe,java,Blocker,1
+8c30a2d55d841e3da32554b01850fb40aeff9c0f,/,/,    Branching for 1.8 releases,/,/,0
+1f6fa7b79efde2eb999de34334b686a77b23e46a,AVRO-1723,Improvement,Add support for forward declarations in avro IDL,None,Major,2
+ ,AVRO-1667,Bug,Parser symbol tree flattening is broken for recursive schemas,None,Major,
+ed6a4e1f2aad7cea85bd956165fb7f66277533ea,AVRO-1755,Bug,avro-mapred should not depend on avro-ipc:test,java,Minor,1
+1c5205ef3f1516fa5f3a323057139bffd5758182,AVRO-1723,Improvement,Add support for forward declarations in avro IDL,None,Major,2
+ ,AVRO-1667,Bug,Parser symbol tree flattening is broken for recursive schemas,None,Major,
+42787b7926631b0a6dff4388ec66116373fc2365,AVRO-3531,Bug,GenericDatumReader in multithread lead to infinite loop cause misused of IdentityHashMap,java,Critical,1
+3a600f36db48d3bf236f06a4b7ae9a264443ae7e,AVRO-3133,Bug,EnumAdjust.resolve should compare unqualified name rather than full name,java,Major,1

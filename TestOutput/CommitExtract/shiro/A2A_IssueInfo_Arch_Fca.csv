@@ -1,0 +1,391 @@
+78d60f6c98635cbd207aadff8dc8e8a337dac3d9,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+93bead3431b44d354e63e432d9a9fca622ae34e7,/,/,    [maven-scm] copy for tag shiro-root-1.2.0,/,/
+00733f81ba30e040d50da89025870e554554a6b7,SHIRO-322,Bug,Overriding permissionResolver has no effect on implicit iniRealm,None,Major
+ed6ad2dd34019b3cf2a2c922c239d18cd9c0f5d5,SHIRO-285,New Feature,Integration with CAS,None,Major
+cd0efd9ca9a141256c0a3f47d57a6f3ff90b5321,SHIRO-213,New Feature,Password and hash management,None,Major
+ ,SHIRO-279,New Feature,Create a simple command line utility to hash passwords,None,Minor
+ ,SHIRO-280,New Feature,Create a PasswordService to automate user password management techniques,Cryptography &amp;amp; Hashing,Major
+ ,SHIRO-302,Bug,DefaultHasher does not generate random salt,Cryptography &amp;amp; Hashing,Major
+b7b224778906406e42adc693ffb3a5edeff0841f,SHIRO-313,Bug,Default SessionManager in web environment for Guice support differs from the otherwise.,Session Management,Major
+36a848ba30990dacdc13efcd5ed75b393dfa0fd5,SHIRO-277,Improvement,JdbcRealm needs to be refactored,Realms ,Major
+871e3a789d150aad332d9e9aba424cd7c8eb89ac,SHIRO-312,Bug,DefaultSecurityManager.setSessionManager can get out of sync with DefaultSecurityManager.setSessionMode,Web,Major
+dfb22a43389fbff442fdea2e7a134dccd5a34376,SHIRO-23,New Feature,Integrating Jsecurity with Guice,None,Minor
+7ade362ee3b1725f4913968d923edf016fe0738f,SHIRO-293,New Feature,Initialize Shiro using a &lt;listener&gt; in web.xml,None,Major
+9847b1042007ca9f11526d9e279319f5edaa5fb5,SHIRO-284,New Feature,Logout Filter,Web,Major
+1cdf63b2a5ee246c24122857eb2fa6a300673d3a,SHIRO-178,Improvement,Would like to be able to put shiro.ini in the WEB-INF directory with other web configuration files.,Configuration,Minor
+46ee0a212c7cf3f3de21a844cd05bba6ce00669a,SHIRO-287,New Feature,Enable web-configured SecurityManager to be statically accessible for non-request threads,None,Major
+e9183261b7eeba572e0ddd970de08530b8664ae7,SHIRO-73,New Feature,Add Authentication Caching to AuthenticatingRealm,None,Major
+29e21ebf8e1c8271ca70d2fced5a46394dd66d45,/,/,    added experimental principal feature (PrincipalMap  SimplePrincipalMap).  Not used anywhere in code yet.,/,/
+59f86be8d226119f4cd468d20a810f27bdc81ac3,SHIRO-21,New Feature,Add OpenId as an authentication mechanism,None,Major
+3436fe6da08ec255006c55da673d4983acfc1d6f,SHIRO-611,Bug,Spring web module does not load correct SessionStorageEvaluator,Integration: Spring,Major
+dae40161b014d61b084f2fad409a74d54ea13442,/,/,    Fix Guice IT that expects RememberMe to persist across restarts,/,/
+9475c99d73ca7c041591f953dbad9a8ad485a344,/,/,    Disable session URL rewriting on web examples,/,/
+03cad012125b73af59f3d2653fa1fa25d50e0582,/,/,    Add more Spring examples,/,/
+46bcb3b28ed45f9dfab9c123a267e3820f576784,/,/,    Updated Spring examples,/,/
+2606a3876de8b325be76f8735c743d593ef5eed7,/,/,    Removing dead code from samples,/,/
+d44204a4378f73e17be2e58097ba09d33c1cff3e,/,/,    Moved CollectionUtils back to shiro-core,/,/
+056d7cc27b462d94f8dc91490154dbca784d857c,/,/,    Adding shiro-cas back to master,/,/
+2f4d6358503bff4470a37b162984339176d55786,SHIRO-595,Bug,Allow for POST only logout requests,None,Major
+aa2cd4fca10416623ecc29008cd851a4f1ed3d98,SHIRO-590,New Feature,Add Spring Boot support / starters,None,Major
+baaf4f5bca7ba532c7268f0bf86a6d64eb5c7a0e,/,/,    Updated shiro.doap.rdf with 1.3.2 release,/,/
+b15ab927709ca18ea4a02538be01919a19ab65af,/,/,    Added fix to adjust how the servlet context path is handled,/,/
+ef5450b9f4be74ee930401115394823b9e1fc3e6,/,/,    Updated shiro.doap.rdf with 1.3.1 release,/,/
+9055c0bc8a049a30f8afe2f65c1abf0ba9815134,/,/,    [maven-release-plugin] prepare release shiro-root-1.3.1,/,/
+6e152b1053b8ab1c97442ae41b298d998ed7b791,/,/,    Improved log message and level when AbstractRememberMeManager fails to parse.,/,/
+4ec62bfe3998aa3619966fd8360a58baa78283a9,/,/,    Improved log message and level when AbstractRememberMeManager fails to parse.,/,/
+63f2891d48a37c7261c4f7eba7ab0ae5e17cb23a,SHIRO-577,Bug,Regression - Unable to set custom SessionValidationScheduler,Session Management,Major
+c7e0f854caa6e0ab7d9f0508fb580a59dce49436,SHIRO-577,Bug,Regression - Unable to set custom SessionValidationScheduler,Session Management,Major
+64955340c7f361c529cde7c06d7831bb22d8580f,/,/,    Adding 1.3.0 release to shirt.doap.rdf,/,/
+a8d1a0213d1aa3fb6b10a90df771da40e1faa8fc,SHIRO-361,Improvement,HttpServletResponse.encodeURL: only append JSESSIONID when necessary,Web,Major
+ ,SHIRO-360,New Feature,Create UrlEncoder,Web,Major
+fcc6613c719f75e22c3332ec19e5bc8f38089b50,SHIRO-571,Task,Mark shiro-cas deprecated (replaced with buji-pac4j),None,Major
+9f702f627c6abd7e82f1618038679d73fc20474e,SHIRO-571,Task,Mark shiro-cas deprecated (replaced with buji-pac4j),None,Major
+eb71da4742aa2dc93af11eaab61ba587c5f257db,/,/,    fix up logging dependencies in quickstart samples,/,/
+7bdcc6694659c4cafa2f19e52b726f5c50ae1054,SHIRO-397,Bug,SingleArgumentMethodEventListenerTest fails,None,Major
+4ddc3d0456aa0d518e6c4019fe98377e13bf027b,/,/,    Removed call to requireExplicitBindings() in ShiroModule  this is not backwards compatible.,/,/
+ ,SHIRO-368,Bug,DomainPermission(string  string) constructor sets targets to the same value as actions,Authorization (access control) ,Minor
+58a57fdf643039cde796f223808f8d387a617a73,/,/,    Removed call to requireExplicitBindings() in ShiroModule  this is not backwards compatible.,/,/
+ ,SHIRO-368,Bug,DomainPermission(string  string) constructor sets targets to the same value as actions,Authorization (access control) ,Minor
+ba1cffda506e10e6a0bd4d4bb2849b405bf9c04d,/,/,    Corrected shiro-faces javadoc @since tag to be 2.0,/,/
+bdc0b7cab5ed3c1544f891405a71cc1c461aa3be,SHIRO-368,Bug,DomainPermission(string  string) constructor sets targets to the same value as actions,Authorization (access control) ,Minor
+ff84432dabf5698fd4ce83f41c41f70b665bfc07,SHIRO-200,New Feature,Add ability to configure basic authentication for specific HTTP methods ,Web,Major
+a20a24ccac6fee6a7ac4ee8259e4256db75f62c7,/,/,    Removing log spam when no cache manager is enabled.,/,/
+ ,SHIRO-428,Improvement,AuthorizingRealm &quot;no cache&quot; logging should be at DEBUG level  not INFO  OR is should log only once,Authorization (access control) ,Trivial
+3432f6ade45618781c944496615cd811af69ad83,/,/,    Small bug fix and test for handling classnames in LoggingBeanEventListener,/,/
+1e6a89cb56aa11865a2af2d2137cb49c8b60da72,/,/,    Backported guice samples,/,/
+4929b4a415c48da576568efd41659cbb9d547d96,SHIRO-395,New Feature,Add an Event Bus for event publishing and low-coupling for custom components/plugins.,None,Major
+0a886db69ae665c0f29c3513e032f72c1b65095e,SHIRO-364,New Feature,Add &quot;bean listener&quot; feature to Ini factories,None,Major
+dbfacf1f5a1f480cd1e3c68a5350f10870719652,SHIRO-278,Improvement,Rename JndiLdapRealm to DefaultLdapRealm,Realms ,Major
+f4df3818d432be86a8d3efbe11c3da16fd5faf29,SHIRO-278,Improvement,Rename JndiLdapRealm to DefaultLdapRealm,Realms ,Major
+d577ca2930d7f9728e4b76b5c20b58a17cde5899,/,/,    Corrected license header in previous commit,/,/
+d3883817368f3b179bc5835cfb24e9c3d378f570,/,/,    Corrected license header in previous commit,/,/
+84884e1f83982ee1f65950e04a62bfcb3c43e2fb,SHIRO-436,New Feature,Add EnvironmentLoader finalizeEnvironment method,None,Major
+4c1a4cf443ca451d95f4f008a1a05539418ee113,SHIRO-436,New Feature,Add EnvironmentLoader finalizeEnvironment method,None,Major
+25baa4a095267c8804bdf85a1a2a357c2ce63db0,SHIRO-483,Bug,passwordsMatch() returns false with right plain password-encrypted password in JVM with default locale tr_TR,Authentication (log-in),Major
+791867fb39f1b3ba9673cef2dc85ed4bf9615e44,/,/,    Replaced cobertura with jacoco and added an aggregated coverage report,/,/
+e95e9cf558c663c4be64e20b391de41b8acc8f14,SHIRO-514,Improvement,ExecutorServiceSessionValidationScheduler should create threads with a configurable name,Session Management,Major
+00beeef0fa928403c6ad2f3b57f0eb1322827829,SHIRO-514,Improvement,ExecutorServiceSessionValidationScheduler should create threads with a configurable name,Session Management,Major
+e3b899939d2db414a24f25c609891556ffb9e238,SHIRO-570,Bug,SimpleCookie should check the path of the cookie,Web,Major
+48980e1e27e9d4356fa6ebdcbf791856f80d43a7,SHIRO-570,Bug,SimpleCookie should check the path of the cookie,Web,Major
+6684e86948c550c5aa947922b163f65a62f984bb,/,/,    Added missing license to HttpServletSessionTest cause by previous commit,/,/
+206dae99ff8e2ec9270bf8deb0ea683b1cb74b3f,/,/,    Added missing license to HttpServletSessionTest cause by previous commit,/,/
+dc97eceb8c694e695ec024da9020bc1406d13fda,SHIRO-421,Bug,Unable to set long timeouts on HttpServletSession,Session Management,Major
+96aa7f13532e563ac7e130f93709195cb6e85468,SHIRO-421,Bug,Unable to set long timeouts on HttpServletSession,Session Management,Major
+9a4de3bba6fa353c3b99f4f1eb127346cfd57e7c,SHIRO-480,Bug,setTarget method in DomainPermission does not set targets,Authorization (access control) ,Minor
+39ceafa2b1f0deecff2a4b718b98551f27b81c27,SHIRO-480,Bug,setTarget method in DomainPermission does not set targets,Authorization (access control) ,Minor
+5be8e710fc2b27042514a92c96e8d3599afc148a,/,/,    Updating shirt.doap.rdf with missing releases 1.2.4  1.2.5  1.2.6,/,/
+012787434c4b50843bca2a8bda59a7b76a553ce2,SHIRO-437,Improvement,WildcardPermission: conformed toString,Authorization (access control) ,Trivial
+19006237f133d3036ee041c8f9369a610dc51220,SHIRO-437,Improvement,WildcardPermission: conformed toString,Authorization (access control) ,Trivial
+204e8e71f2c956fdfb4e77476ab9c69b040ae50e,SHIRO-547,Bug,Use MessageDigest#isEqual() instead of Arrays#equals() for comparing digests,Cryptography &amp;amp; Hashing,Major
+7d6f53c5d73582660eac2e6f3194b5d1e910d5ce,SHIRO-547,Bug,Use MessageDigest#isEqual() instead of Arrays#equals() for comparing digests,Cryptography &amp;amp; Hashing,Major
+8aec95ea6fd9a905587e2c5954cae59cfb2ccaa7,SHIRO-473,Bug,DefaultAnnotationResolver.getAnnotation throws NullPointerException,Integration: JEE,Major
+08a860f5ac0fcf9c64309981bdac6325a3360876,/,/,    Correct OSGI import version for com.google.inject,/,/
+ ,SHIRO-502,Bug,OSGi import of com.google.inject in shiro-guice has incorrect version range,Integration: Guice,Major
+5babc335f436e98de02224079da84ab2c344f9c0,/,/,    Correct OSGI import version for com.google.inject,/,/
+ ,SHIRO-502,Bug,OSGi import of com.google.inject in shiro-guice has incorrect version range,Integration: Guice,Major
+49c14ff738d002c34e107b78aed6b3f7aa3b2d79,/,/,    Added basic README.md for display on social coding sites.,/,/
+cb0c225a53f75badb70d58dff13589cd29baebe0,/,/,    Updated versions for 1.3.x,/,/
+da4c167b924af4440e033b42a3b8e691f0e5d8cd,SHIRO-566,Improvement,CollectionUtils should use Collections wrappers of arrays if possible,Authorization (access control) ,Trivial
+21f7fe4b73251dedcc768c89f1427120f1708e94,SHIRO-515,Bug,ExecutorServiceSessionValidationScheduler leaks resources due to improper synchronization,Session Management,Critical
+73fb97373ff0f32604e70fc4037df8cb22eb3462,/,/,    Removing log spam when no cache manager is enabled.,/,/
+ ,SHIRO-428,Improvement,AuthorizingRealm &quot;no cache&quot; logging should be at DEBUG level  not INFO  OR is should log only once,Authorization (access control) ,Trivial
+227c357274488cacc9ed16f47b1c78785a50893a,/,/,    Correcting encoding in root pom.,/,/
+ ,SHIRO-567,Bug,shiro-root-1.2.5.pom uses invalid encoding  fails to parse with Gradle 2.14,None,Major
+f47ced33952b1a8e3b45fb843efe1522ec4c519b,SHIRO-518,Bug,Shiro-CAS: Security Problem in cas-client-core versions older than 3.3.2,Web,Blocker
+bf1e04fca099ca6fd1a9a16da1aea04a5bb8f404,/,/,    [maven-release-plugin] prepare release shiro-root-1.2.5,/,/
+e109f816fca73176efbfafdac3b73dfd160e9603,/,/,    Adding cipherKey doc string to web sample,/,/
+f961b77fdbffb0a1fd21f562ed518bb3f9ce3d98,/,/,"    Revert ""[maven-release-plugin] prepare for next development iteration""",/,/
+64d9f8341e1aa7ef1a29744e16ea7c578ca5deee,/,/,    Force RememberMe cipher to be set to survive JVM restart.,/,/
+0655e849afc7b2414fd888c9044f6681baa3c65b,SHIRO-462,Bug,Authentication exceptions are swallowed,Authentication (log-in),Minor
+78e92455a30a711cb06c079985d28dae65583623,/,/,    Changing swallowed exceptions to log.warn instead of log.debug,/,/
+ ,SHIRO-462,Bug,Authentication exceptions are swallowed,Authentication (log-in),Minor
+2eaf2e5e03bf02153b3c2eb47a54d013d380c323,SHIRO-443,Bug,SessionValidationScheduler created multiple times  enabling it is not thread safe,Session Management,Major
+5b03bf39dfb8aca1bdde8fed764292f060a67ab0,/,/,    Replace 'ACS' with 'Apache Shiro' in CONTRIBUTING.md,/,/
+7e4c1f0140a040ef85ded0e3476320517c5d0dd0,SHIRO-562,Improvement,WildcardPermission calls String.trim() twice in setParts(),Authorization (access control) ,Trivial
+ab90259510fd98a29f73b44b368e80dd0ec97898,SHIRO-562,Improvement,WildcardPermission calls String.trim() twice in setParts(),Authorization (access control) ,Trivial
+145bbe736fb06787794df49a5b026be3a04de94e,/,/,    Updating 1.2.x branch with git info,/,/
+b74c1a7aa8df8323533d2fc9ab80273f860b6b14,/,/,    enabling core test jar to fix broken builds,/,/
+fe4b9192e23c375fac1d8616912b6a1d35fe04e6,SHIRO-332,Improvement,Change access level of method  &apos;isPermitted&apos; in  org.apache.shiro.realm.AuthorizingRealm  (line 461)  from private to protected,Authorization (access control) ,Minor
+aaf49d23e88bbae17d25b38307e1957620f150b7,SHIRO-498,Improvement,ThreadLocal should not be created when not necessary,None,Major
+6b0188f83a88f85f7d6b7592f8fb6555c2875e4c,SHIRO-518,Bug,Shiro-CAS: Security Problem in cas-client-core versions older than 3.3.2,Web,Blocker
+9137e6cc45922b529fb776c6857647a3935471bb,/,/,    Updating JndiLdapContextFactory to conform to spec rfc4513 section-5.1.2,/,/
+f988846207f98c98ff24213ee9063798ea5d9b6c,/,/,    Updating JndiLdapContextFactory to conform to spec rfc4513 section-5.1.2,/,/
+de6f107557981a7af72b1fb5fa24b2d9f064a321,/,/,    Moved config-related tests to the config module(s),/,/
+8180fb852bd040de0850ced31532754ddd5713bc,/,/,    Moved configuration-related code to a new module.  This decouples configuration issues from Shiro's core API since config is largely environment specific (Ini  Tapestry  Spring  Guice  etc).  This also (finally) removes shiro-core's dependency on Apache Commons BeanUtils.,/,/
+c8a80800225df371b49dbe32b1151d87cdf0ca21,/,/,    Moved crypto code (ciphers  hashes  hash formats and hash service related classes) to their own module(s).,/,/
+0089825463bb6159e36ea29d241a9250a246f01a,/,/,    Started cleaning up modules - introduced a 'lang' module for shared functionality.  This might even make its way back into core - just flushing out things at the moment.,/,/
+8032f004f9030aa46513fe1eaaabefb04b563b25,/,/,    Moving current trunk to 1.x branch so 2.x development can be done on the trunk,/,/
+cc50da78dca1097415610dd2e704f5c6d9a2e509,SHIRO-429,Bug,perms filter parsing is too sensitive to a trailing space,Configuration,Major
+efcaa81c99b9164b8cb247d7ddc7e75cce6ed90c,/,/,    Fixed license header,/,/
+8f05c7e00ec3a85aea21827e561ede6407c9291a,/,/,    Updated license header,/,/
+d221874c5adfca5e70580945c09e026a9e4726c7,SHIRO-423,Bug,INI ReflectionBuilder should not wrap reference values,Configuration,Major
+66bcef03d651f5b66ab6c9820cf5654bbb25ae78,SHIRO-423,Bug,INI ReflectionBuilder should not wrap reference values,Configuration,Major
+d5f7e77a8b8da95bc4127c118a0c76c71ef4389c,SHIRO-387,Bug,EnvironmentLoader destroys wrong environment,Web,Major
+da5666a257881e0e564625108f5ca0ff0d59d7e6,SHIRO-387,Bug,EnvironmentLoader destroys wrong environment,Web,Major
+d5d73f15420c647b6ceae3da2797d45583f3177d,SHIRO-394,Bug,PropertiesRealm reloading not working when loading from file,Realms ,Major
+e907670dd51166e37f3fc500769595c1dbd678da,SHIRO-394,Bug,PropertiesRealm reloading not working when loading from file,Realms ,Major
+400d8dc7375f2870eeaa8d96833c107a1b632832,SHIRO-388,Bug,Stackoverflow org.apache.shiro.session.SessionListener.onStop(),Session Management,Major
+189251e821f495c0af76f0648f62e7b46da2a4c5,SHIRO-388,Bug,Stackoverflow org.apache.shiro.session.SessionListener.onStop(),Session Management,Major
+5ef5d6add75329c2c302579f82f97aa80b1818f3,SHIRO-379,Bug,SimpleAccoutRealm concurrency access to roles and users,Realms ,Minor
+e10fe3ee3d1631e2c6831cff3c5de6497a2650ea,SHIRO-399,Bug,Memory leak for invalid sessions,None,Major
+7fe46e2ac6ccfc55e977b64877e720e05246a918,SHIRO-399,Bug,Memory leak for invalid sessions,None,Major
+42f169013c09f35823f21700b088a93c39c3187e,SHIRO-399,Bug,Memory leak for invalid sessions,None,Major
+d602e8bfd9994c94cdb7c9e0a8bd8b9f2608e714,SHIRO-390,Bug,OSGi Import for JSP (javax.servlet.jsp) should be declared optional,None,Minor
+8b155259bdd7f961d4bc4ad84f658abc7863a2c8,SHIRO-390,Bug,OSGi Import for JSP (javax.servlet.jsp) should be declared optional,None,Minor
+ab8f37af4128dfdc2762440bd539a18924a56d6f,SHIRO-418,Bug,Javadoc typo in JdbcRealm.SaltStyle,Authentication (log-in),Trivial
+b5e6b2f1797bc53b8271f5c4d3cca69d89881b7c,SHIRO-418,Bug,Javadoc typo in JdbcRealm.SaltStyle,Authentication (log-in),Trivial
+b7aa036b9a766787a1b91d28c3a87166b925a30a,SHIRO-431,Bug,please use git ignore,None,Major
+6ac21ebc1c37a5850dd97f71b530995de0f98a8a,SHIRO-431,Bug,please use git ignore,None,Major
+2862357a89eaedc38795b6b77e20d973e8bfbfe5,/,/,    fixed license headers,/,/
+9de76e7d05d0c587dd05e6ab922c4a70b528fd5b,/,/,    fixed license header,/,/
+79e596d61e54658696e1cf8773e7ffcb03a91b2c,SHIRO-351,Bug,Shiro Native Session implementation cannot extract JSESSIONID From URL if JSESSIONID is URL parameter (not HTTP parameter),Web,Major
+8d93348ebcf225d206fd1a9c67039ccfbaa3b93d,SHIRO-351,Bug,Shiro Native Session implementation cannot extract JSESSIONID From URL if JSESSIONID is URL parameter (not HTTP parameter),Web,Major
+958a8dee1cb0bbb45397c02b3f944e81ceaa573c,SHIRO-413,Bug,init() method is not called on class that implements org.apache.shiro.util.Initializable,Configuration,Critical
+94b9367ef242ab449f053e6b5f649a4778de40a5,SHIRO-413,Bug,init() method is not called on class that implements org.apache.shiro.util.Initializable,Configuration,Critical
+a302519bf775dacd035390cafdff0f0ec7a57d7f,SHIRO-415,Bug,isLoginAttempt method in BasicHttpAuthenticationFilter class fails if used in any locale other than English,Realms ,Minor
+f9f21357f861daca2ead9f85ef9f09f57cc7d7b0,SHIRO-415,Bug,isLoginAttempt method in BasicHttpAuthenticationFilter class fails if used in any locale other than English,Realms ,Minor
+3f884603e0d4f77031b562cc31962532c5eb6e27,SHIRO-395,New Feature,Add an Event Bus for event publishing and low-coupling for custom components/plugins.,None,Major
+872214781797d0b7d26a5bc42e75f073de93e680,SHIRO-389,Bug,Fix OSGI Exports for shiro-ehcache,Caching ,Major
+3356bc8885074d6610e4cf5fae7dbdec3309b178,SHIRO-403,Bug,Trunk will not build under JDK 1.7 due to webstart plugin,Sample Apps,Major
+88bf0cc19b7e3f87d669053a544da7146fd34a00,SHIRO-403,Bug,Trunk will not build under JDK 1.7 due to webstart plugin,Sample Apps,Major
+27544e9dc5b58207009d44e2f051c4bf18dade1a,SHIRO-380,Bug,runAs feature (still) doesn&apos;t work,Realms ,Major
+49499993ba1e40f0242efb69d505a6a8e058c588,SHIRO-380,Bug,runAs feature (still) doesn&apos;t work,Realms ,Major
+2ca0f295a733a697583c43a6316cf9fc8f389c5b,/,/,    Updated to reflect the 1.2.0 and 1.2.1 releases.,/,/
+db8d5b1b161c80c53a990cf8482f984b58d0eb91,/,/,    [maven-release-plugin] prepare release shiro-root-1.2.1,/,/
+43ab65e30386e6afa3c215eb7d3ebaa13b28c3c0,/,/,    Merge from 1.2.x branch,/,/
+50c040b705b42c3c22d8b51966538b3e2b292473,/,/,    [maven-release-plugin] prepare release shiro-root-1.2.1,/,/
+767d3784d15f533010048cfbaeb83d4e4254c86f,/,/,    Minor plugin version upgrades before merging in from the 1.2.x branch.,/,/
+22329102ab57f0abc459531fd4100d849762cadb,/,/,    [maven-release-plugin] prepare release shiro-root-1.2.1,/,/
+48a0d2571632e317e012374b403b4e6425409842,/,/,    Merged from 1.2.x,/,/
+ ,SHIRO-377,Bug,PropertiesRealm unable to reload Properties,Realms ,Minor
+eb9e1572d46d410d2b3f9704653aac118796ba1a,SHIRO-377,Bug,PropertiesRealm unable to reload Properties,Realms ,Minor
+0c48445a23303d1d8f830c40867debbe7fe0856a,/,/,    Merged from 1.2.x,/,/
+ ,SHIRO-374,Bug,Session Cookie will not be deleted on subjects logout,Subject,Major
+07d98237f085a93c4679636694385b21006a91cd,SHIRO-374,Bug,Session Cookie will not be deleted on subjects logout,Subject,Major
+7456a6a20c070a298fa9314c614e5ca0de6da1e7,/,/,    Merged from 1.2.x,/,/
+ ,SHIRO-354,Bug,Authentication cache,Caching ,Major
+aa355ce798535d822762172b5378147dfd92d0a0,SHIRO-354,Bug,Authentication cache,Caching ,Major
+0657cb7fee42389af71cfe86b079de2c1a4eb6f4,/,/,    Updated release plugin's arguments,/,/
+e5ede6dd2bbac9bf3da9fc92daed4f7ab7506a15,SHIRO-353,Bug,DefaultSecurityManager has invalid SLF4J log instruction,None,Trivial
+f91ddd70b9fcd969a17b159ddb1c68ca6c744fea,/,/,    Merge from 1.2.x,/,/
+57764965c0ec979270822ea4bd07336aed0d2acb,/,/,    Updated copyright year,/,/
+fa34a92fa77943b67e29b9f1c5f30b17abc8915f,/,/,    Merged from 1.2.x,/,/
+ ,SHIRO-350,Bug,Creating a subject should not create a session,None,Major
+83035b1238cd40eea32045fad64728f6b27c7138,SHIRO-350,Bug,Creating a subject should not create a session,None,Major
+de5cefdc53149ca57de52c580bf5412f555bd2bb,SHIRO-344,Bug,runAs feature doesn&apos;t work,Realms ,Major
+b6b4267cb18735b5c8f9f364efa7465db76728a2,SHIRO-344,Bug,runAs feature doesn&apos;t work,Realms ,Major
+604933f08ef6d92dddee422c13eaa175214e858f,SHIRO-368,Bug,DomainPermission(string  string) constructor sets targets to the same value as actions,Authorization (access control) ,Minor
+a7781bd019b9bcab1bb92d29921e3aa1630143a4,SHIRO-368,Bug,DomainPermission(string  string) constructor sets targets to the same value as actions,Authorization (access control) ,Minor
+cb23be1115b5171b2db0b6fc5d5b3f98fa2b1d80,SHIRO-376,Bug,shiro-cas feature should not depend on shiro-cas,Configuration,Critical
+7745bfc391c3408dc9d1f65ae9e23ab134519cb8,SHIRO-376,Bug,shiro-cas feature should not depend on shiro-cas,Configuration,Critical
+4fa9a677b7c07011c473908c56104ca7f7e888b2,SHIRO-375,Bug,Basic authentication issue when using COLON character,Web,Major
+b1c0f04cf85f29eb0fd12aa927637fe3655f93af,SHIRO-375,Bug,Basic authentication issue when using COLON character,Web,Major
+0377a44a7e9c59e5422c5a06589f0f904f7447e5,/,/,    Bump versions-maven-plugin from 2.14.2 to 2.15.0,/,/
+22339255d44d977e3bfd9c09e7c7cc418eaf2f14,/,/,    Properly handle fluent setters,/,/
+0f317997c62347dfb64d25dd702807ca53547c78,SHIRO-337,New Feature,adding support for CDI,Integration: JEE,Major
+6dc2568a9c9720e1ce0386c34d9ce62709037483,SHIRO-337,New Feature,adding support for CDI,Integration: JEE,Major
+52428fcab4d58bc19de0031ef2ff9a9a452a352e,/,/,    Merge pull request #715 from lprimak/faces-tags,/,/
+ ,SHIRO-206,New Feature,Support for JSF/Facelets,Web,Major
+cc383c48caa4764c8a3f9e210fa5b854986c4ed7,/,/,    fix tests: Jenkins matrix checkout and build in separate workspaces so concurrent builds don't clash,/,/
+80bd6c992c18eee616c851520aca0c10a870bb4d,SHIRO-206,New Feature,Support for JSF/Facelets,Web,Major
+56217998eacb17a22eacdb1e2726e8bf695601a4,/,/,    Adding scorecards GHA,/,/
+d0432fc09b50d6545f1e0024f8f9aa5fdc63de31,SHIRO-898,New Feature,Migrate Jakarta EE support from FlowLogix to Shiro,Integration: JEE,Major
+e3c56b529ab2836e0428406547128ff083e1ec62,/,/,    Merge pull request #574 from lprimak/jdk11-improvements,/,/
+ ,SHIRO-900,Improvement,Refactor of root POM (and update groovy to apache),None,Major
+3c4a25095940d2dd999eebe3d84f0e28b34349e3,/,/,    Merge pull request #633 from lprimak/backport-springboot-jakarta,/,/
+ ,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+7b6f5f6880291c9ccca41cf33c7d24f88f2d39c9,SHIRO-900,Improvement,Refactor of root POM (and update groovy to apache),None,Major
+f08ce4eca4dfdf01a8eb37ec67389efb2abac8e4,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+e0d0b0d89d7cbc9bd654b84cf7aa58e348b0c74c,/,/,    Merge pull request #508 from apache/dependabot/maven/org.apache.karaf.features-framework-4.4.2,/,/
+3ffaa1d12797479bd5a10f148d0b3ba801677979,/,/,    Merge pull request #594 from apache/dependabot/maven/1.11.x/org.apache.karaf.features-framework-4.4.2,/,/
+139692472157d25c39ea0e13c918ae0ca49b27fb,/,/,    made SingleArgumentMethodEventListenerTest work on JDK 18+,/,/
+6ee22af635b98a1d08ccb08e4c186d2dfe1956ce,/,/,    Merge pull request #534 from apache/dependabot/maven/1.11.x/spring-boot.version-2.7.5,/,/
+7e9bb40362b28afa6071af0d68b6ff2c5bf30e5c,/,/,    Merge pull request #559 from apache/dependabot/maven/org.apache.maven.plugins-maven-dependency-plugin-3.4.0,/,/
+c8e2ddc34e39ca1b328175e447b47acbc1687d86,/,/,    Merge pull request #564 from apache/dependabot/maven/1.11.x/org.owasp-dependency-check-maven-7.4.1,/,/
+1040d6531e1da8bad727b95857aba3a0fa444049,/,/,    added 'lprimak' to Developers section in the pom.xml,/,/
+e9f672a86816d2912119196a6a267be981896c60,/,/,    Merge pull request #566 from lprimak/shiro-889-jakarta-modules-shiro1,/,/
+ ,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+729a8172aa62bac2d5e22bdffa866dca972e45d8,/,/,    Merge pull request #567 from lprimak/shiro-889-remote-jakarta-crypto,/,/
+ ,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+7dcf8a6f3111a129b0c3f75c5611ed96de61cafd,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+b4d457d1508bded43299bee48e2232f7ddb39b0c,SHIRO-889,Improvement,Provide Jakarta jar modules,None,Major
+a7de297472f9beafc270f3bd8e80d7cff66e7256,/,/,    Merge pull request #558 from lprimak/native-sessions-jakarta-modular-1.11.x,/,/
+ ,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+6309a0615ad3e429f9964df1d140a9a0d19ed5d9,/,/,    Bump maven-apache-parent to v28,/,/
+8ec5b4a569c3205eab33be5673e7d4db0d04149f,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+3ad7c611a8d39f36529b733f48485674ad55591e,/,/,    Merge pull request #551 from lprimak/remove-http-session-context,/,/
+ ,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+0d29d7dd809b206e1754f3a4033619d2221bff88,SHIRO-899,Bug,Jakarta 9+ fails with Shiro native sesions,Web,Major
+2bcdc1e5cd276ba5c5322a18c38df393f896ee90,SHIRO-893,Bug,NPE caused by lack of default ShiroFilterConfiguration,Configuration,Minor
+740a54b7307bc30ffbc74d4e41cf6d81374b3236,/,/,    Bump spring-boot.version from 2.7.4 to 2.7.5,/,/
+bdd6866943542535b4ac73abbada30aee3b17741,/,/,    added dependabot configurations - branch 1.11.x for source and github actions,/,/
+41bd51529e455713e31d94a6f39bcc396a3b842b,/,/,    [BUILD] start v1.11.0,/,/
+3203c8f6314e7a37b35803b19c672c733d5662db,/,/,    Merge pull request #518 from apache/back-port-shiro-filter-config,/,/
+cfe890714f1cfe0aff98550c5603477efa71b3fe,/,/,    Bump htmlunit from 2.65.1 to 2.66.0,/,/
+37f47911a60cd85cdb85a9f3a963dc30ab114c78,/,/,    Migrating Filter Tests from EasyMock to Mockito,/,/
+d6f6959621885177472b24dae3f6406e274ffbf5,SHIRO-892,Bug,No Guice binding for newly introduced ShiroFilterConfiguration,Integration: Guice,Major
+d9a75a420f691a700fabc9464f049bd9c9267925,/,/,    Allow for direct configuration of ShiroFilter through WebEnvironment,/,/
+eb78a35b279639ee74d4d887c648f607f959a87a,/,/,    Bump versions-maven-plugin from 2.12.0 to 2.13.0,/,/
+7529eeb512e23a23499ea03b142d84d193cf170e,/,/,    Bump framework from 4.2.8 to 4.4.2,/,/
+5e5bcb102a59dcccfc96b51bb40b2eeca41fef28,SHIRO-894,Dependency upgrade,EasyMock 5.0.1 for Java 17 compatibility,None,Major
+70540215a6165796a5864ef4662e158b1b218e91,/,/,    Avoid another proxy creator when @EnableAspectJAutoProxy enabled,/,/
+28e10e0ca1cdcd2cede86802fde8464b29265fc8,/,/,    Allow for direct configuration of ShiroFilter through WebEnvironment,/,/
+41133ec978044ddd55a595c2da237bcabada6bfd,/,/,    Revert: Bump maven-project-info-reports-plugin from 3.1.2 to 3.4.1,/,/
+b82377a55f6a75076d6ca86969eccfc61ec3e62a,/,/,    Merge pull request #443 from apache/dependabot/maven/org.apache.cxf-cxf-rt-rs-client-3.5.3,/,/
+6bf5695d7e50906346fa0472858508e3a54c1284,/,/,    Merge pull request #471 from apache/update-guava-1-10-x,/,/
+dc3ffc16ffe00752e2537c09ed9371c946be1098,/,/,    Merge pull request #467 from apache/dependabot/maven/org.apache.rat-apache-rat-plugin-0.15,/,/
+7ac34806abcd61856b798c5d8fffe81b8ca45020,/,/,    Update guava to 31.1,/,/
+d437d83ed487b4dbe8ff2aa04ef9403dffaa2876,/,/,    Merge pull request #444 from apache/dependabot/maven/hibernate.version-5.6.12.Final,/,/
+32ee3ed07a9c3a11501e82c5143c9182e5dffba9,/,/,    Bump maven-release-plugin from 3.0.0-M5 to 3.0.0-M6,/,/
+82f87bb863b41198f19c0080fbcf8a21d0fc89b4,/,/,    Bump hibernate.version from 5.4.24.Final to 5.6.12.Final,/,/
+404dbf58a9ea213224501ad34e2c2e5ab5c6acb0,/,/,    Merge pull request #410 from apache/dep-updates-again-1-10-x,/,/
+ce545bdf60d715c066254396fc492a10b27f6376,/,/,    Merge pull request #397 from apache/dependabot/maven/org.apache.maven.plugins-maven-site-plugin-3.12.1,/,/
+dac5e238792a866c701e59b9909efed029fbe809,/,/,    Merge pull request #375 from apache/dependabot/github_actions/1.10.x/actions/checkout-3.1.0,/,/
+00670b8e768b14f8196ba4fc502ddea2c4db1ef5,/,/,    Merge pull request #407 from apache/dependabot/maven/spring-boot.version-2.7.4,/,/
+21dd185f31d9f483eaa1fe583ff483020b5408b2,/,/,    Merge pull request #423 from apache/dependabot/maven/1.10.x/org.apache.rat-apache-rat-plugin-0.15,/,/
+09a1efe96375b41ab2900b166dfb3f510cdfae3d,/,/,    Bump actions/setup-java from 2 to 3,/,/
+dad3207c30ca3249778bb8778e3e675493bfcc23,/,/,    Bump maven-javadoc-plugin from 3.3.1 to 3.4.1,/,/
+33f31ed304cc3eeff1b49fed101822bc438d8fe1,/,/,    Merge pull request #374 from apache/dependabot,/,/
+354f79b55955ec8f0560bbcc5ebdc974c38bd9ea,/,/,    Update various dependencies:,/,/
+591f2dadd0994d1e321db8a2a66f89f759df4969,/,/,    Adding dependabot config,/,/
+2765effd1820be8ad78948779926eb31905af6f5,/,/,    catch SessionException in getRunAsPrincipalsStack,/,/
+ ,SHIRO-512,Bug,Race condition in Shiro&apos;s web container session timeout handling,Authentication (log-in),Minor
+f9f54562415b3dc9059d939a1cb3e926b80c47d4,/,/,    catch SessionException in getRunAsPrincipalsStack,/,/
+ ,SHIRO-512,Bug,Race condition in Shiro&apos;s web container session timeout handling,Authentication (log-in),Minor
+e47feebca1f5e5a7becec815380fbe6e2900be15,SHIRO-887,Bug,FormAuthenticationFilter trims passwords which start and/or end with one or more space character(s),None,Minor
+f42ae2c79ca7268535f4fa907d36572b953a88a6,/,/,    Add support for case-insensitive matching to RegExPatternMatcher,/,/
+848f1224b16ff3d99192eacf092ebbc737a08f39,SHIRO-886,Dependency upgrade,Upgrade to commons configuration 2.8.0,Configuration,Major
+5a9fb6f6fdd777e04c10e31cc80ca3213b113e6b,SHIRO-886,Dependency upgrade,Upgrade to commons configuration 2.8.0,Configuration,Major
+7877c891041cf12184a4bfa1ffa0a33d1bf80ee7,SHIRO-885,Improvement,Use OWASP Java Encoder with OSGi manifest,None,Major
+8c3b3858780ee8f45587cef0c9b976f82e93ceef,SHIRO-885,Improvement,Use OWASP Java Encoder with OSGi manifest,None,Major
+04e89262807bd2b94deaae9bffb3b5161964bd00,SHIRO-884,Improvement,fix source jar Reproducible Builds issue,None,Major
+9ab435422f45cbd60c7ee7b0820c869d4ca12b4a,SHIRO-884,Improvement,fix source jar Reproducible Builds issue,None,Major
+422166dd55195339e811a08a532333e83604bc65,/,/,    Merge pull request #364 from apache/shiro-871-19x,/,/
+017d8e0f69b31ac1e225d0e7dd235b3e84cbcbe8,SHIRO-871,Improvement,ActiveDirectoryRealm - append suffix only if missing from username,None,Major
+9a4f1bf64a963941ea243b33f2c2414bae021384,SHIRO-882,Dependency upgrade,Upgrade to apache pom parent 26,None,Minor
+beb089dac4dc4c44db8bcb46439689e3bfbc4c0b,/,/,    Merge pull request #362 from apache/sec-manager-tests,/,/
+b3e98b0005b3cc7f3a3d63a382d07e5c5b1cfc43,/,/,    Merge pull request #363 from apache/shiro-19-bump-deps,/,/
+acc7c17ac11ec007aa1408c5e2d612e201973efc,/,/,    Merge pull request #355 from hugbgithub/SHIRO_881,/,/
+ ,SHIRO-881,Dependency,pom.xml in samples/web may lack dependency,Sample Apps,Major
+2e88dcfae996233213d7fe67ac079c054c856a69,/,/,    Update Spring  jetty  slf4j  and hazelcast dependencies,/,/
+541b2a9a73e9b19e3bdfc08bc198c8797d5bfde4,SHIRO-881,Dependency,pom.xml in samples/web may lack dependency,Sample Apps,Major
+f52c3a1e9681139b21785638ce42448a3f16936a,/,/,    Merge pull request #361 from apache/another-ci-test,/,/
+ca87a3a462207b4de93f49ba6463433257e254f2,/,/,    Reduce the scope of the ThreadLocals used in SecurityManagerTestSupport,/,/
+a3d31d686049315106ef2337be5531241dc10532,/,/,    Add branch 1.9.x to GH Actions build,/,/
+029bdd1dd2eafb571ba68aa7b9c6d45c21901424,SHIRO-872,Improvement,fix Reproducible Builds issues,None,Major
+37ace2eec749559d60985e7007028053ccc66c3e,SHIRO-872,Improvement,fix Reproducible Builds issues,None,Major
+22078ba50eb22420c1c6b8e327288f8dc85a8064,/,/,    Update Spring v5.1.18 Spring Boot v2.5.12,/,/
+ ,SHIRO-876,Question,Does CVE-2010-1622 affect shiro?,None,Major
+b512984a84d1f4abcd1b74191c6ef5b5774861db,SHIRO-872,Improvement,fix Reproducible Builds issues,None,Major
+c8e08962051c04c2817e402b104fda14284d6548,/,/,    Apply principalSuffix only when username does NOT already contain the suffix,/,/
+ ,SHIRO-871,Improvement,ActiveDirectoryRealm - append suffix only if missing from username,None,Major
+a2a4716978f1ed69591b7291e0411991ba1dd754,/,/,    Updating NOTICE year,/,/
+1d7aea599f96e32e37e5696f4d530fd08cd78d10,/,/,    Updating NOTICE year,/,/
+8aea58c158a403f47df601bb440d6f2f4b9d534c,/,/,    [BUILD] fix hazelcast/powermock reflection in test.,/,/
+36b47fc591ca9e7ec1fc0a631edeea8b0e339350,SHIRO-867,Task,Skip Deployment of integration-test and samples artifacts,Sample Apps,Major
+758db5d85b40fedf34222940f78e7e5731c4e01a,SHIRO-867,Task,Skip Deployment of integration-test and samples artifacts,Sample Apps,Major
+6bfe0d6698bdf1b2e12fe441fca73d419d181413,/,/,    [DOCS] update badge on main branch,/,/
+1a11e38e5f9f17e9091b8a1950607d3e234be602,SHIRO-862,Improvement,Replace Google Analytics with Matomo for new Javadocs,Documentation,Major
+6ef63f4e383448edd493b3ad049e8cd79fe8c576,SHIRO-862,Improvement,Replace Google Analytics with Matomo for new Javadocs,Documentation,Major
+5e84d6b1f42762ff6e4bfe7ae86e1bc0c1cd1d0e,SHIRO-860,Improvement,update logback to 1.2.10,None,Major
+7fc1dc4177091ad72e2c6068c53e6c1c977813ec,SHIRO-860,Improvement,update logback to 1.2.10,None,Major
+b92c64e7f3095f39d4047f33796bdec6db873f57,SHIRO-842,Dependency upgrade,shiro-web depends on older log4j,Web,Major
+8eb2218e24c8204655204cb1b018ac85c77386b5,SHIRO-842,Dependency upgrade,shiro-web depends on older log4j,Web,Major
+6433bf713e8bdbc93899326d543b924e512f1ffc,SHIRO-850,Improvement,The profile name jdk19-plus is misleading,Sample Apps,Trivial
+e8190f0c2faf8d9e759cb4825767cdbdbb8c2f65,SHIRO-851,Improvement,Handling properties for compile/enconding vs. default configurations of plugins,None,Minor
+7a0766991b2cb6abf1ee6bfd48a7f5254dd91d33,SHIRO-845,Bug,Dependencies for test-jars missing,None,Minor
+eb0b471b294f35d04db32066957abc617b7c25a2,SHIRO-842,Dependency upgrade,shiro-web depends on older log4j,Web,Major
+800c0d121abe1e7a87f3ab57aacbedfce0430033,SHIRO-841,Task,NullPointerException from SessionsSecurityManager.start(),None,Minor
+44fab139cea55ea6257bab9784ecf2f3db26a3f0,SHIRO-844,Dependency upgrade,Update maven-javadoc-plugin to 3.3.1,None,Major
+9017cb4f998cc60cc336952bec5d0dc5df46062b,SHIRO-844,Dependency upgrade,Update maven-javadoc-plugin to 3.3.1,None,Major
+b31d3eb3a2e62edfba7ca958f73fdda2b39cad86,SHIRO-843,Dependency upgrade,Update maven-project-info-reports,Web Site,Major
+6200707ef4b0490e52d5e8930d326b92d87a13c4,SHIRO-844,Dependency upgrade,Update maven-javadoc-plugin to 3.3.1,None,Major
+346671a1a79947d200ea4233759f04f2496c709b,SHIRO-843,Dependency upgrade,Update maven-project-info-reports,Web Site,Major
+020818e5e15383741b872521f4c899037f59b82c,SHIRO-843,Dependency upgrade,Update maven-project-info-reports,Web Site,Major
+182074696f763956f910ee366c82a940dbcb58c0,/,/,    JAX-RS IT (stormtrooper example). Meecrowave and OpenLiberty.,/,/
+2cf2eb7b84ba66b32b7fbd301fd4c194d6f8481d,SHIRO-838,Improvement,Create SHA512-Hashes,None,Blocker
+bfe8aad1c72ae1ce3c1432d8effe9e32cd7874f3,SHIRO-828,Dependency upgrade,aspectj-maven-plugin 1.14.0,Integration: AspectJ,Minor
+3cae7a45fd2b8e5d383aa7e233d5472314dd4031,SHIRO-840,Improvement,Java 17 compatibility,None,Major
+e5d4783e87cc05cc07ffe2ddc8f51707f1152b32,/,/,    Set version to 1.9.0-SNAPSHOT.,/,/
+3f6d1123319227a3e1b523ca68a1130ef01e96fc,/,/,    delete not used jsecurity-sample.jks file,/,/
+e1b7802ecc0f0c34d9ee766a19705926a8264e23,/,/,    Add @Documented to Shiro annotations,/,/
+ ,SHIRO-216,Improvement,Add @Documented to Shiro authorization annotations,Documentation,Minor
+29056fcc333504b7781a1bd8353e1f264f6b1d40,/,/,    Add @Documented to Shiro annotations,/,/
+ ,SHIRO-216,Improvement,Add @Documented to Shiro authorization annotations,Documentation,Minor
+b298f711fb702f99f785cfcf4fae78834d0d6bf9,SHIRO-678,Bug,Strings garbled when POST without JSESSIONID cookie,Web,Major
+0c0d9da2d81a4b24de6e02bc1c8a2ad1b5ef32d7,/,/,    Merge pull request #269 from jsoref/spelling,/,/
+ ,SHIRO-805,Task,Spelling,None,Minor
+67b05d2d672c1a5267b7d09d81ae57273a9d79a8,/,/,    [bugfix]: beanPostProcessor and FactoryBean cause spring aop to fail in the same Configuration,/,/
+ ,SHIRO-829,Bug,beanPostProcessor and FactoryBean cause aop to fail in the same Configuration,Integration: Spring,Major
+2b2bdb12ab69feb6db44478a692e7fef497ba6c6,/,/,    Merge pull request #309 from zAlbee/patch-1,/,/
+ ,SHIRO-825,Bug,Trailing slash in URI results in &quot;IllegalArgumentException: There is no configured chain under the name/key&quot;,None,Major
+4ed0c80567c22f6b543007c222132c39693807a9,SHIRO-825,Bug,Trailing slash in URI results in &quot;IllegalArgumentException: There is no configured chain under the name/key&quot;,None,Major
+264136ef9b2b392239e1d36f5f78a0bef17b7ecb,/,/,    (build) update latest GA'd JDKs to JDK 16.,/,/
+4a20bf0e995909d8fda58f9c0485ea9eb2d43f0e,SHIRO-825,Bug,Trailing slash in URI results in &quot;IllegalArgumentException: There is no configured chain under the name/key&quot;,None,Major
+5682cf6c511ea48e4f3054eb64a46c1f82b7b95f,/,/,    Merge pull request #293 from apache/single-spring-boot,/,/
+1447e4329e786739863035dc1ed8480b73143f3b,/,/,    Merge pull request #296 from apache/single-spring-1-8,/,/
+5354e1ab31dfdbbe4f2910b7cf300d873d9cda8b,/,/,    Merge pull request #294 from apache/quickstart-typo,/,/
+358397b391b3a6494919a7e7fb13bc3c30fa3b48,/,/,    Merge pull request #299 from apache/jenkins-matrix-1.8,/,/
+eb8662d91fb5bfe49605d9815f5cd113c830fcf4,SHIRO-290,New Feature,Create a BCrypt Hash implementation,Cryptography &amp;amp; Hashing,Major
+a9f646d6581601c6dec8dfbf777d4e6270d45559,/,/,    Reverted Java 16 build back to 14,/,/
+c6e6ca7c48c7f0de1e5e8ac9bed3c4b24e29df74,SHIRO-290,New Feature,Create a BCrypt Hash implementation,Cryptography &amp;amp; Hashing,Major
+e3f87cdc9922d1318d069cd41d0c7b7bbb8b2f1c,/,/,    Use Jenkins matrix build config from main,/,/
+bb4da53c2a2e90b1b73789e87e9479d70baa01a4,/,/,    Minor build related changes,/,/
+7c5a0d7df53cd3ac6e5c4c642eafb1a679779ec2,/,/,    Set version to 1.8.0-SNAPSHOT,/,/
+df81077726b407f905ba16a9f57ba731b7736375,/,/,    Merge pull request #287 from pitjazz/bugfix,/,/
+5cddd741749f6a018ba6ce8947cb3022ac842408,SHIRO-812,Bug,Key value separator in config is broken with escape char,Configuration,Major
+13697c08598167bbdc5a3acc1a1919a8be410a2e,/,/,    Update release-notes,/,/
+6439f97469ceb75958439ef9029ec7332a5d1d19,SHIRO-812,Bug,Key value separator in config is broken with escape char,Configuration,Major
+d1d6f3ea3627a3255f60a82670db0f733b55ad74,SHIRO-812,Bug,Key value separator in config is broken with escape char,Configuration,Major
+ac009702d1e8d6a52ec23ba2a7414f87924a6f6f,/,/,    Combine Spring Boot starters (web and non-web) into single module,/,/
+00591e4e073f84cc50f49aa25bde555dfb3a7f5e,SHIRO-812,Bug,Key value separator in config is broken with escape char,Configuration,Major
+4e9ffaac4c0a44b81ba52e8c0cae403e0dc7380a,/,/,    (doc) Committer Update,/,/
+0146e013e760a4132b44d1f525f2704f6851d56a,SHIRO-811,Improvement,Convert AuthorizationFilterTest to using Mockito,Web,Major
+40bac06d2fd41d7a9e9e0409753b5a409972150c,/,/,    [maven-release-plugin] prepare release shiro-root-1.7.1,/,/
+61963a8c60a986767e3ff3359b9041121083dec1,SHIRO-807,Improvement,Remove deprecated getLdapContext(String username  String password),None,Major
+ab1ea4a2006f6bd6a2b5f72740b7135662f8f160,/,/,    Improving tests for path matching logic,/,/
+c57fed9697d56765d5f06aee982211d881a3d9a8,/,/,    add Spring internal proxy creator condition,/,/
+41436c8c010715162b42020550ea3c435bb8fcc2,/,/,    (test) convert EnvironmentLoaderServiceTest partly to integration test.,/,/
+5f367c334bce6dc4d7b8525630a43e726f1dd28e,/,/,    hotfix springboot spring.factories,/,/
+0e5a4428bcaa0a4c03680f5faad5a4c897379497,/,/,    Merge pull request #266 from lcc/fix-flush-bytearrayoutputstream,/,/
+a2365b3cc4a47be291d226bc95ce8574fd7e5c94,/,/,    fixed whitespace,/,/
+a65d12a17d3a6094ef3e07594f95bed0996e1f36,/,/,    Update README.md,/,/
+1fce97d052d593316ae6f6ccc59b5c9ec8194913,/,/,    Fix: flushes ByteArrayOutputStream before using,/,/
+fc4ceec1ab52cd4f0f0d2d8cf7d7945606969a50,/,/,    Update Jetty to 9.4.33.v20201020 to fix CVE-2020-27216,/,/
+6acaaee9bb3a27927b599c37fabaeb7dd6109403,/,/,    Add ShiroUrlHelper and related Spring configuration,/,/
+cacdb37baa6d38a4b5e56609aae6a3b13bf0cd08,/,/,    [CI]?Update maven and jdk labels,/,/
+82ebf5ccf6a4ef1d9fdc98a21e6f7ed4b55679bd,SHIRO-789,New Feature,Also add cookie SameSite option to Spring,Integration: Spring,Major
+441e736eaf25344f8f1612961bb5da3bf72b57c9,SHIRO-789,New Feature,Also add cookie SameSite option to Spring,Integration: Spring,Major
+f819f3282e53cefa29c6da5ee91506fdffb72151,/,/,    Fix inefficient iterators in Text Config Realm,/,/
+48f8e01c53f8c75c16efb19c012e272b3ff83f48,SHIRO-789,New Feature,Also add cookie SameSite option to Spring,Integration: Spring,Major
+9154b0ea43535a1952f156de4929da207335cced,SHIRO-789,New Feature,Also add cookie SameSite option to Spring,Integration: Spring,Major
+676240b7eebd11c7592c069f6426c65a7cb8138d,/,/,    Merge pull request #259 from apache/tls-for-its-16x,/,/
+1ad362ad7193b41d097c11eff8b07683a161ba94,/,/,    Merge pull request #260 from apache/tls-for-its,/,/
+b9973cbf8346f6b04bf1f5197ad91215c9d4e2a5,/,/,"    deleteMe cookie should use the defined ""sameSite""",/,/
+b68739bf0ceeaa0282e665b59c0bf861cf1fab4a,/,/,    Update AbstractContainerIT to allow for HTTPS connections,/,/
+e384ebaaa0a283cb3009435c37a25f0b452776eb,/,/,    Update AbstractContainerIT to allow for HTTPS connections,/,/
+df227aca34f851403bdbe8f810d3f7efc42cfb6b,/,/,    Add name to ShiroFilter's @ConditionalOnMissingBean,/,/
+ ,SHIRO-792,Bug,ShiroWebFilterConfiguration seems to conflict with other FilterRegistrationBean,Integration: Spring,Major
+886569d38ba40ec8555b88084b4f2c4778ca7ab1,/,/,    Add name to ShiroFilter's @ConditionalOnMissingBean,/,/
+ ,SHIRO-792,Bug,ShiroWebFilterConfiguration seems to conflict with other FilterRegistrationBean,Integration: Spring,Major
+4aa4e3eca17aa6524171c273c08157a0430ce688,/,/,    Merge pull request #55 from raupachz/hsts,/,/
+ ,SHIRO-740,Improvement,SslFilter with HTTP Strict Transport Security (HSTS),None,Minor
+d7d36a6daf0b1c3c848ec82adb41a7cc56c35e60,/,/,    Merge pull request #253 from bmhm/1.6.x_junit4fix,/,/
+8590adce20ac0942a2bf27716af2058bc2cde574,SHIRO-349,Bug,Security: Byte arrays (and other memory) holding sensitive data (even temporarily) should be zerod-out,Cryptography &amp;amp; Hashing,Critical
+52946ebf4eedbbe80891a69ad515c5991dd6698b,/,/,    (no-issue) fix importing junit5 packages,/,/
+3411e9a746c17c8e34279dba7b7baeeca23a4bc9,/,/,    Add a feature to allow for global filters,/,/
+f6af26ccbbdabe14afe1db7f058f55db6a99459a,SHIRO-767,Bug,org.apache.shiro.util.ClassUtil cannot load the array of Primitive DataType when use undertown as web container,RememberMe,Minor
+743474dbe65bdcb8e0011fe147efde2b38c2ac9a,/,/,    Add Jenkins file,/,/
+dc194fc977ab6cfbf3c1ecb085e2bac5db14af6d,/,/,    Add a feature to allow for global filters,/,/
+f60cc630ed3e66337243800c9f9c60bcda93886e,SHIRO-780,Wish,NOTICE files of shiro components don&apos;t match NOTICE in source code repository,Documentation,Major
+c0647f82782f5be8581c8b6467c10380a02e6cc8,SHIRO-786,Dependency upgrade,Upgrade to Spring 5.2.8.RELEASE and Spring boot 2.3.2.RELEASE,None,Major
+6253e6d2a9e035abf042f85c911be1e52eb54a2e,SHIRO-610,Bug,Incorrect filterchainResolver in 1.4.0-RC2,None,Major
+323698ed6e22e417a5e86e367906cddb29932bbe,SHIRO-679,Improvement,Shiro modules have split packages,None,Major
+1f3846cca6e9d9dfedda8b23f2c99467c9e6bb59,SHIRO-768,Task,Remove the shiro-all module,None,Major
+c4c05e73f696b52ddd19d9ce255c4a554e0f98aa,SHIRO-679,Improvement,Shiro modules have split packages,None,Major
+6a4f7e23c09f4f95142c97ff5d7339412f2bc5a9,SHIRO-750,Improvement,Migrate to jakarta APIs,jax-rs,Minor
+3887e5d2e6dc9c2cba7aefab20af1c6407454d16,SHIRO-750,Improvement,Migrate to jakarta APIs,jax-rs,Minor
+c3f3b317f2b6acb28ed06d149ca6d1ff7de32593,SHIRO-750,Improvement,Migrate to jakarta APIs,jax-rs,Minor
+c77a857391a9c325ab2bac9da3fb06fe021af7dd,SHIRO-750,Improvement,Migrate to jakarta APIs,jax-rs,Minor
+7c301e1aa5eb87d2e31b3e41367faf38c612fc29,SHIRO-708,Improvement,Remove deprecated shiro-cas module,None,Major
+b80b7677e193c79068f40b91d97b30b0ff5c9775,/,/,    Mark `SecurityUtils.securityManager` as volatile,/,/

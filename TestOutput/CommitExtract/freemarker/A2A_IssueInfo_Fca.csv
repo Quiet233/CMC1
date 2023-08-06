@@ -1,0 +1,1288 @@
+440080b6f78c74ad4c873a6a642439556405d91e,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+68dcb35281d24463b712bc900933c1a8b7a697e3,/,/,    Fixing outdated license info in MANIFEST.MF,/,/
+92c927d244d2843a1671fff3fccc565e14967e32,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+763e278ff051e7194e0fa6a147354f2d0549b4ba,/,/,    Commented out findbugs annotation that caused problems when running tests on JDK 5.,/,/
+b7bd1cfd19501e1bdd7d8663b0f61f7086afd634,/,/,    (One more error message typo...),/,/
+c1570e5e664693d4bb8aa98cf1285c1580ab8b68,/,/,    Added missing copyright headers.,/,/
+7325abddf6941490d55a9f4e065043ccd483daac,/,/,    (Some typos in error messages and comments.),/,/
+c77771af468927727a04da51ec0edb43386849eb,/,/,    Fixing xs:time/xs:dateTime test issue on Java 1.5,/,/
+bfea6378f8d953f9ff53b87dc2475d029ecb6ccb,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+ec450a2717c974c9b083e837a8e688399248fe86,/,/,    (Test fix: extraInfo can be null),/,/
+833ed2f73d1654b2561aeadba03b4cc8947bef6b,/,/,    Deprecated TreeNode-related methods.,/,/
+3e45864727874eec8d6c8cb9a8c79d0a248a9393,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+b260a747927b4453c2b4af39bfe1fa7879b149b2,/,/,    Version number set to 2.3.21 (stable),/,/
+d9cc9e00dfd3fda6ef80d694d8d0c8f359642d16,/,/,    (Manual: Version to 2.3.21  some typo fixes),/,/
+815536623780141f41fca277fa49c9b9916b1ec8,/,/,    Improved/updated incompatibleImprovements JavaDoc,/,/
+8e69dba8c9ad39ecc9d6383e322ad868219ada0c,/,/,    Minor adjustments regarding 2.3.21 API additions: Minor naming improvements  few missing @since-s added  one marginal Java ACC reported error fixed  some JavaDoc improvements.,/,/
+93dfb21d2f433cf8fa6f4398c7f3dd8a6e6ea13b,/,/,    Fixing JavaDoc: setUpdateDelay and setLocalizedLookup are not thread-safe.,/,/
+3edd09ec0c88f6f142b473b1b284ea3ebfe09aba,/,/,    (Unclosed stream in legacy code),/,/
+20b5cc6bb394e671d0ad228c83953708c707486b,/,/,    Added test case for bugfix "#229 Unterminated comments should be reported as errors". Clean up JUnit test class hierarchy meanwhile.,/,/
+05e4b8755ae4fd1bb24072e189cdd846f217e795,/,/,    (Manual: minor fixes),/,/
+638669f52e4c97af61aa1979285d931e671aea84,/,/,    (Minor build.xml cleanup),/,/
+3b01eae635bf238c4e204d2f4d4d46c9781c26b9,/,/,    (Moved around AST test),/,/
+a10770b3054ad672c25b73d11a8b4e5865b006ea,/,/,    Continued FTL stack trace improvements: Stack frames related to nestings are now marked differently  and filtered out when there's no space for full stack trace. Added more self-explanatory stack frame labels. In-message shown stack trace length limit increased from 6 to 10.,/,/
+aad3ad12d9dba7238c65fdec197968660c1bad19,/,/,    Test for accessing inner classes,/,/
+2c542cd0b940e12ca73928aa2846b3d1b828145d,/,/,    (Error message typo),/,/
+607dc9434aea2bba686aa41ab8333d641a84893a,/,/,    @assertFails message="..." shouldn't search in the now include FTL stack trace,/,/
+f134d12350a4392a8a73bdc26af7a15e03aa6041,/,/,    Merged RC version history entries into a single 2.3.21 entry. Improved some change descriptions a bit.,/,/
+c40e9ed5238f6e8bd7d99ca628c6e5aa12538cd7,/,/,    New special variable: .local_object. This is like .locale  except that it's a java.util.Locale object  not a string. This is useful if you want to pass the current locale to Java methods.,/,/
+8209c2c99202d0b95c2908c40eb2ed7f7384f9bd,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+ef527e52337cac502a32fd2c56f09bf7cb352df0,/,/,    (Distribution index.html: Some fiddling with the Manual bookmarks),/,/
+40c50d975ba260298210c0952dbe4c267e5c1717,/,/,    (Manual: Lower priority glossary bookmark),/,/
+c275ba6682ffa3ae66ffc794964c91085bd70abf,/,/,    Manual: Some reordering of Appendixes. Added Legal appendix  which now contains the License section. Added ECCN section under the new Legal appendix.,/,/
+1a80776517d0c049b09de7a912e7563796ef5851,/,/,    (Manual: Moved XML Processing Guide downwards),/,/
+c1b6fa9f017abd6645f9fc7c189766285fa5211b,/,/,    Manual: Some chapter/section title changes,/,/
+8135c1836d4f3b316dd005d15d80d6460858a95c,/,/,    Fixing Standard Java API links in the generated JavaDoc.,/,/
+f24fbfcf335d31640969f971c5ea4b2bc1b99723,/,/,    Don't require JDK 8 for non-dist target  and fix JDK 8 javadoc CSS with regexps.,/,/
+efdbd4695e5ac3ac2bbc78beae9181e99227b55e,/,/,    (Made it obvious that we are using modified JDK8 javadoc CSS.),/,/
+d86399320d53adfa0ad3201982edae5be989fafa,/,/,    Require JDK 8+ for javadoc  but change its style to be more like JDK 7 (usability over fashion),/,/
+d747485ed34b6a716b9f0e6c17ee4674be219b4f,/,/,    (Minor JavaDoc updates/fixes),/,/
+090a015bd49a63e7882759d4ccea44e5e865b62e,/,/,    (javadoc errors now cause the Ant task to fail),/,/
+d1324e03a7633513edbce0e420f52f728d746da1,/,/,    (JavaDoc typo),/,/
+5ab5f3121c4762f665512772f424fc15e0ebc8a6,/,/,    Made JavaDoc comments and Ant task compatible with JDK 8,/,/
+e618121806d999ab8b1901ba84ba0994d426da1b,/,/,    (Manual: Some random oversights fixed.),/,/
+87c701e3d22e4abc12c6f1c891e639f30cebefe1,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+32ee33cae18fb7982d0edaa9ab112bc75b486806,/,/,    Had problems with IvyDE again... just let ant generate an ide-dependencies directory for us and be done with it.,/,/
+9578df70f864ed60212e6eddc7d46d47e22c7687,/,/,    Added some missing "since 2.3.21"-s,/,/
+6fd8351a2314cb1529a3d00c34c68b08ec733389,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+1dd8b34a5e4f1347fce90e9c944a64550184244f,/,/,    Improved TemplateException error messages:,/,/
+e077e5c64e081e0ae31b9774df0efa6cbfd8f5cf,/,/,    Manual: Added Google Analytics  and separate online and offline manual generating,/,/
+f662c4da2f25eb921d68929b628573ca1ad202a8,/,/,    (Manual: Typo fixes),/,/
+639a7771e9ed6c1e162e9d84df0a1db8e7ffa8d7,/,/,    (Manual: limited sample code line length to 100),/,/
+e3928c92cbad0df819e3cd0e8d8139a0a3b52a4e,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+247b8f6e86af963b1a230f58f60593527a3a657d,/,/,    (Minor Manual fixes),/,/
+833bfb448125aabd84e6689c024f2a211586fcb4,/,/,    (Links to ?ensure_starts_with and ?ensure_ends_with from ?starts_with and ?ends_with),/,/
+f8d3ff72911356f2171e7e343552e6f7df15fada,/,/,    (Added links to slicing-related built-ins in the section about slicing expressions.),/,/
+ac870baaa41557aececcbe208cfcf728bf9ce010,/,/,    (Manual updated for RC2),/,/
+8acfa25570c3fdda378d59b07551df6e8e6bd00f,/,/,    - Renamed ?keep_until to ?keep_before  and added ?keep_after.,/,/
+8242e2bae9f3b1a32c9cf5112d2ae4ecf4270df0,/,/,    Added new string built-ins:  keep_until(substring[  flags])  remove_ending(substring)  remove_beginning(substring)  ensure_starts_with(substring)  ensure_ends_with(substring). Also moved split(...) from regexp BI-s to basic BI-s.,/,/
+1e5f0c93134608a61343c34bd453b6a65ad9b53e,/,/,    (Fix outdated Java Pattern API link),/,/
+a32f936bc5db142230e9735668c63bd9d631b8db,/,/,    OSGi execution environment header was tweaked again  now it's Bundle-RequiredExecutionEnvironment: J2SE-1.5  J2SE-1.4. That is  we prefer (and compile against) 1.5  but only require 1.4.,/,/
+c56f8ce3c0949d70d0f24d0a34da48ddfc01b39d,/,/,    (Fixed outdated license in Manual),/,/
+be7e7a645407ea56d5d041374e2647be1e1937dd,/,/,    Programmer's Guide: Address some common mistakes,/,/
+116c0cce26cae1075b91de6f0ed1fb11c8b729f3,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+ec10e8c33d633992156356ed12d2dffdf4a03bc3,/,/,    (Restructured the BuiltIn-s source code),/,/
+5e1ead2733e6b6d11a569a7b68f66ec3afee1f79,/,/,    (Made it clearer how freemarker.runtime.attempt logging works.),/,/
+def812d76045f86a4b483cfd5770bc2509293132,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+ca5bf075953b86d00b17d9ba90bbbeec8816386c,/,/,    Version to 2.3.21-RC2,/,/
+85f2fb22bf44dda9b4cfd39e3f660aa55a03e156,/,/,    The getResult() method of builder classes was renamed to build().,/,/
+0a43a59ab6401e9654517cd72cfb72b94fbcc8e1,/,/,    Findbugs findings (nothing serious  mostly code cleanup  some broken error messages fixed),/,/
+780e8be48eae100188ae33b6f4d62c8ddbf3ed0a,/,/,    Fixed RC1 bug: Legacy (deprecated) Template constructors without Configuration parameter have failed with NullPointerException,/,/
+4fee20607f7687eaed486c54cb71e9808b3de8cc,/,/,    Bug fixed [27]: Not very good quality error messages when #import-ing a template whose parsing fails.,/,/
+a74beea9c4bfe94379f6862b573b1d6d11afd2af,/,/,    Bug fixed [222]: Poor quality error message when someString[someIndex] fails with string index out of bounds.,/,/
+7fad6973aee1d976041073f751ba1dd3a6aa4319,/,/,    Bug fixed [229]: If you set incompatible_improvements to 2.3.21 (or higher)  unclosed comments and #noparse-s won't be silently closed at the end of template anymore  but cause a parsing error instead.,/,/
+505a18e8ef2fb3d2468c8ebba229bba2d01eee32,/,/,    (Some JavaCC jj file cleanups),/,/
+7a1299c2836cae8cde92ce56059aa5d4c40d8d05,/,/,    (Bit of XML processing speed optimization.),/,/
+25e99643b83cbd686a41b89357f4c084821377d5,/,/,    Added tests and version history entry for: Bug fixed [257]: The result of ?matches wasn't reentrant. For example  you couldn't list the matches inside another listing where you are also listing exactly the same result value  as they would consume from the same iterator. Most importantly  even accessing the ?size of the same result value has terminated the outer listing of the same value.,/,/
+c76429bfe79f457a8431b17505c1928a94ee21b7,/,/,    Bugfix for #257 "Random behavior when using ?size + #list on ?matches result",/,/
+aca8c88ec0989a591b3763caff1e5faf93adc6df,/,/,    ?matches fixing in progress,/,/
+51191b06a810cf8c31de139304d2710386584c84,/,/,    (Cleaning up identifier patterns),/,/
+81f63e9d04420abadd6882fb7435e78c5abc569f,/,/,    (Some renamings in the jj file.),/,/
+3b924a3a6d69dd9c40d7cb9500355dc3c6833715,/,/,    (Internal method name typo fix),/,/
+b1dfeda7d61f2200f0eab9d61e608079957ec957,/,/,    (Minor ASTPrinter improvements),/,/
+5009c65dd185b68b38293b69ff458b6f68b28edc,/,/,    Removed the possibility of deploying to snapshot repository - it turns out it's not backward compatible because of projects depending on org.freemarker:freemarker version ranges.,/,/
+c7f2d21404a20caacc7d33319cc4b13d66d54ba8,/,/,    Removed some stuff not needed on Java 1.4 anymore.,/,/
+f8a020f8b1ef650d2b38b74ec6dc99db181a9906,/,/,    New built-in  ?url_path: This is the same as the url built-in  except that it doesn't escape slash (/) characters. This meant to be used for converting paths (like paths coming from the OS or some content repository) that use slash (not backslash!) to a path the can be inserted into an URL.,/,/
+09bdcf6ad2bb2ef627e205fca859fdfc0afba723,/,/,    (JavaDoc typo),/,/
+fa2c449fbf588ae094210370974a683038be6a42,/,/,    The setting directive now can set the output_encoding setting.,/,/
+8cf541f880c6bf376a3c00374b23822b84df436a,/,/,    (Less confusing error message when BeanModel.get(String) fails inside the getter method of the wrapped class.),/,/
+f4d23b438022b2252a5622c43c6469d6e9e2b878,/,/,    (Tabs to spaces...),/,/
+df126a7917d53e8cc2ac3a621340c542ecdc33fe,/,/,    (On 1.4 we have Boolean.valueOf...),/,/
+06c5e86581f672049b5ae080eb345c570a8ae202,/,/,    (Failing parse error message test fix + more cases.),/,/
+d4ac3a4b43a856c5c3ed33782ddb2c3ee72b564f,/,/,    (Error message typo),/,/
+e8a8c5219abeb6a6a7fd2c3957c59aded9122356,/,/,    (Tag parsing error was still misleading.),/,/
+525d63f8099c813ca72f9c735c5154921cb58fb7,/,/,    (More #include test),/,/
+998925a505d2decfd81ef4e7c62bdeaad56f9990,/,/,    Tests and documentation for <#include ignore_missing=...>.,/,/
+602218a9a62478098c9b40a0b155e01dd5646376,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+ce711404ba0730ba78cab77736bcfc57a6c5630f,/,/,    Added <#include ignore_missing=...>. Also  #include related code cleanups  #include AST traversal API and canonical form fixes.,/,/
+2cec22dc8327356a49920f66283f169ad7fddff3,/,/,    (Comment update),/,/
+b79833f697b8418307f9510496fe3a80d991e848,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+1e31ce994661c268a3132cb710729aa410fe8b21,/,/,    (Use external mvn command instead of Ant task  as we need Maven 3.x),/,/
+bc80187633249cd2af48381ea07b1783184bd7ab,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+99b1cc8ca37cb05bf8b766bd7218dee5f2a1e588,/,/,    (Ant build: Can now release SNAPHOST-s on oss.sonatype.org Maven repo),/,/
+053c6b8852e22a76f10c0bb7ccaa9c2232377b23,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+7abc0f6b7568633c8c91a495056d58155ac4464d,/,/,    (Outdated license references fixed),/,/
+9e65084998a12873506348edb63c910d395663aa,/,/,    (Missing version history entry),/,/
+42092bb854052f7262a1ac44876d73e403db2329,/,/,    (Changed version numbers to RC1),/,/
+f2b6145be852c742031bb443e583ab8ed14b9169,/,/,    (Cleaned up 2.3.21 version history  added some missing JavaDocs.),/,/
+d3e8d965066fe950850ab84d0a8a3b1dd0cbbdde,/,/,    (Missing ?c + ICI 2.3.21 documentation in the Manual.),/,/
+e220af94580c9e42befb75c4ca3413d4d9524d0d,/,/,    If incompatible_improvements in the FreeMarker configuration is set to at least 2.3.21  someNumber?c will return "INF"  "-INF" and "NaN" for positive/negative infinity and IEEE floating point Not-a-Number  respectively. These are the XML Schema compatible representations of these special values. Earlier it has returned what java.text.DecimalFormat did with US locale  none of which was understood by any (common) computer language.,/,/
+62e981f50d9434838ffb77cb13e21d9a223f1eba,/,/,    someString?number now recognizes all XML Schema number formats  like NaN  INF  -INF  plus the Java-native formats Infinity and -Infinity.,/,/
+1cb32e9233eaaa050ab46901cf1f826d6fa4853b,/,/,    (Minor code cleanup),/,/
+f187c6f3250f240133c72442c3db8ef02a6f9311,/,/,    Added Configuration.setSharedVariables(Map/*<String  Object>*/) for setting the shared variables from Spring IoC and other IoC solutions. The already existing Configuration.setSharedVariable(String  Object) isn't a JavaBean property so it was hard to use for that. Furthermore   the order in which Configuration.setObjectWrapper and Configuration.setSharedVariables are called doesn't mater (unlike in the case of Configuration.setSharedVariable)  which is essential in most IoC solutions.,/,/
+76d4fbfb07e02f4f08f6ec970551145826363e0a,/,/,    (Some smaller documentation fixes.),/,/
+af15c1ef11c3651c69a5eb867fa150d83534830c,/,/,    Fixed NPE introduced due to static field initialization order.,/,/
+a36ad2dfe1b95844526b6aaf7887950a7cca3a39,/,/,    Removed unfinished class cache clearing method.,/,/
+4c073146856c2bfd6dfef0ed2fbd651f607762e6,/,/,    The Version instances that are incompatible improvements break points are now available via constants like: Configuration.VERSION_2_3_21.,/,/
+8332c3247901fd29f3c26751b56317163a63a245,/,/,    Removed JRebel logs for the expected situations  as I have realized it's not BC: it may triggers logger selection earlier than before.,/,/
+fd60564706db4bceb9961e22f6b4f5f34c29b428,/,/,    1. FreemarkerServlet was updated to have the same ObjectWrapper default that's suggested by Configuration. That's important now that incompatible_improvements affects that.,/,/
+35f46b2d1685b801ec9df12053d346724079e536,/,/,    With incompatible_improvements 2.3.21: hash *literals* that repeat keys now only have the key once with ?keys  and only has the last value associated to that key with ?values. This is consistent with the behavior of hash[key] and how maps work in Java. Also did some performance improvements.,/,/
+107fd27bb5b0b04a8af0ed13de9f98b91c3fa6f4,/,/,    (Added missing copyright comments.),/,/
+2955e5f7d4aea79934032bd6121a57980c57335a,/,/,    (Fixed indentation mess and some other formatting in JavaCC jj file),/,/
+e6d88f4930679d2f2e2f3f52989fd139773dbaa2,/,/,    (Fixed JavaCC warning),/,/
+6add9813381832869385a9b9bbc9fb34f23fabff,/,/,    Cleaning up version handling  especially template language version handling.,/,/
+09c740a4c28060555ff9e63a09eb1b3e34439a58,/,/,    (Docs: typo fix),/,/
+dcc1adeabb5cced72f4c02d4e5b9f94923488e2b,/,/,    Bug fixed [273]: TemplateLoader-s that use java.net.URLConnection-s should set URLConnection.useCaches to false  or else it won't detect template caches on certain configurations:,/,/
+6c451d2fe6603fc538e29819fb8ba362c215463e,/,/,    Bug fixed [414]: Eclipse debug mode running was suspended during FreeMarker static initialization on the JRebel availability checked if JRebel wasn't available.,/,/
+f7520e52573f96f88e2a6ba67bd1e414d7c0c8ee,/,/,    (Documentation grammar fixes),/,/
+888e7663e6464eecd5e542b6b86c7c5f01715e82,/,/,    ?join will give error if you try to apply it on a right-unbounded range.,/,/
+485b0fc5db91a2e82854574caca82592537d62de,/,/,    Bug fixed: Constants used for empty sequence  empty hash  empty collection and empty iterator weren't Serializable.,/,/
+4ecea19a39a7ad9337ac2b5ee2edd55cbe136b65,/,/,    (Manual: Better variable scopes documentation.),/,/
+37272c3bdff9629b818a5d304aff6ae29edfdef6,/,/,    (Manual: Slicing documentation improvements),/,/
+d37329008a3344257c566e8a836dc4e2f704eeac,/,/,    (Manual: Replaced another usage of &gt; instead of gt),/,/
+01e18358b1deeb0e418df669480153226b82627b,/,/,    (Manual: Smaller improvement mostly regarding ranges.),/,/
+99e60116f5d3bbc87b16db42621f560351b0248c,/,/,    Manual: Updated/fixed operator precedence table regarding range operators.,/,/
+f84d7a13a2e8bb916be15109e28c0c3440ba697b,/,/,    Manual: Updated > and >= related documentation: the preferred "escaping" is not &gt; and &gt;= but gt and gte,/,/
+71f86da22e09a362bf7519002eb1f17ce132dcb9,/,/,    Reverted adding ?safe_substring  and deprecated ?substring in favor of the enhanced range slicing.,/,/
+e56478d4b31a223e562d950820874c59b1223f70,/,/,    Test for the ..* range operator. Also more tests for the other range operators.,/,/
+5b73b3254f668cf8f9373c36468035347fed5bec,/,/,    Don't emulate legacy n..n-1 string slicing bug for the new range operators.,/,/
+be951caaf2bc9aff333e18fc6688a68133e85d51,/,/,    1. Added length limited ranges: start..*length: For example  10..*4 gives [10  11  12  13]  10..*-4 gives [10  9  8  7]  and 10..*0 gives []. When these kind of ranges are used for slicing  the slice will end without error if the end of the sliced sequence or string is reached before the specified range length was reached.,/,/
+d95a8e713c25594b9f9bde80724046888a19b887,/,/,    (The ASTPrinter tester tool now autodetects charset),/,/
+a9bdbbba024648a6f01bc4edb0441ee85bfa3696,/,/,    Manual: Better/updated range and slicing docs,/,/
+489eea821eddb2a4915e7c9a0a9a78463c429301,/,/,    Minor range parsing fixes (backward compatible),/,/
+302969ee7c49365adc77c8555323558e5c74c3b2,/,/,    (Added missing incompatibleImprovemetns JavaDoc entry),/,/
+57743783450b357e1b10ac3ff9f00aafabae3c45,/,/,    Right-unbounded ranges become readable (like listable) if incompatible_improvements >= 2.3.21. Earlier they could only be used for slicing.,/,/
+1790da3ab62e9a844123e7720434f42af5cc4a1e,/,/,    (Minor range related touch ups.),/,/
+cf3a7329b804092b409a900ff36a0306d37c0d0f,/,/,    AST nodes should get IcI version number from their containing Template  rather than from the main template. (Although the IcI will be the same in both in practice.),/,/
+09367a80cb70f360351a4c9e8779e41a347c33b8,/,/,    (Fixed and reactivated old compress test.),/,/
+5d3c6998b99f5436e617b0ac01709a239c02e517,/,/,    (More/better range tests),/,/
+3c4757d06a8ddc8440778bcf2d11efeb7a4fdf0e,/,/,    (More/better range tests),/,/
+14af800e840f0d241b6c8fe6c322d3aef3f9e72f,/,/,    Slicing with ranges improved:,/,/
+b6706b54873394dff76a296b8aa049d3ed48bee4,/,/,    Fixed test that were sensitive to the default time zone of the executing computer.,/,/
+0461f1d0f2c9dcb10bb9030c192826b87bebaf9a,/,/,    New operator for creating ranges with exclusive end: start..<end (also can be written as start..!end). String and sequence slices doesn't work yet!,/,/
+28eba49079363c8185c51d45d0127885649321ad,/,/,    Manual: Sorted reference sections alphabetically.,/,/
+e184096845eeccdd0492c3ef6239cf8adbe8ca37,/,/,    Bug fixed: ?is_enumerable has returned true for Java methods get from Java objects  despite that those values aren't <#list ...>-able. (This is actually a historical quirk of BeansWrapper  not a bug in ?is_enumerable  but now ?is_enumerable is aware of this exceptional case.),/,/
+9703a91c1c95743972994d77a9b89a1db273e335,/,/,    (Minor change log toucup),/,/
+c5be74eb584eada891beac4512099a3739b45047,/,/,    (Fixed outdated iso..._fz javadoc.),/,/
+7cbc643680e6a27d04ec1518dc251929d0c4e75f,/,/,    1. New built-in: ?safe_substring. This is the same as ?substring  but it allows the begin index and/or the end index to be outside the bounds of the string.,/,/
+4ff15e9b8eb7f95b3416bdbed6ff65cb942af382,/,/,    (XML DOM Error message also mentions ?date.xs and ?time.xs),/,/
+793b4847ad18042dddbb62e0cef2f28514042307,/,/,    (Some more date/time formatting tests),/,/
+21906186ef6ea971fdb533fbf02893588e1e6eb1,/,/,    (Renamed getSupportedCoreDirectiveNames to getSupportedBuiltInDirectiveNames),/,/
+c2c274c1442aac09ba2dda4032b0607c7a753358,/,/,    Fixed Configurable refactoring oversight for object_wrapper=default  which managed to remain hidden as the related test case was skipped by Ant (also fixed).,/,/
+970e4c154f547abb1927624506afd8e9338acf6a,/,/,    Deprecated ?iso_... built-ins in favor of the new format setting values. Thus  also reverted the new "iso_..._fz" variants; people can use that feature via setting values or like ?string.iso_fz.,/,/
+62a0e4b9925f67660676978c3d555ae6b973cd32,/,/,    Manual and JavaDoc: Documented new date/time formatting possibilities  also improved formatting related documentation in general.,/,/
+3b98b717b62566c19df0a618c82548ca926cec39,/,/,    Added "fu" (force UTC) option to the "xs" and "iso" date formats. Updated JavaDocs and Manual. Some other code cleanups.,/,/
+094c5fbfcad5075543cf60512f8f2fb00fbd9b5b,/,/,    (Code cleanup),/,/
+815affd99a67534099607b1db8d0b3a20342985d,/,/,    1. Replace the uses_system_default_time_zone_for_sql_date_and_time setting with sql_date_and_time_time_zone  because not everyone uses the JVM default time zone for the values coming from JDBC. So now it can be set to UTC and such too.,/,/
+352ebc615bd550e4e71a11b035063473356b730b,/,/,    (Code cleanup),/,/
+056f5942969bb364be785b081a06aefe698d35fc,/,/,    Fixing 2.3.21 ?string lazy evaluation bug together with the architectural issue behind it. Some other minor date/time formatting cleanups.,/,/
+f7968557da21ab60e1317ea85ed87054511016a3,/,/,    More helpful error message when ${someDate} fails because the related ..._format setting is malformed.,/,/
+a80e4686579003dc80abde0b412f1906612e81b4,/,/,    (Some JavaDoc fixes),/,/
+060fea4111b6b467f8323a779eaac5e7eb5cd178,/,/,    Some more date/time formatting tests.,/,/
+eb410a174784392440352caba141eb264bcbbc0d,/,/,    (Minor cleanup),/,/
+48fe7cdbffd9b35fcbafd91f79074d949d19a77c,/,/,    More xs and iso tests  also some cleanup in those tests.,/,/
+b399791709c35d7c0c36acc4272a1cd398934350,/,/,    1. "iso" and "xs" format strings now can be continued with flags like h  m  s and ms for setting shown accuracy  and nz  fz  u for time zone related behavior. For example  datetime_format="iso m nz". Tests and documentation is still lacking.,/,/
+a413714e2acd56a4af6387ec2a09fc4d6e2c9435,/,/,    (Updated TemplateDateModel FTL type name to march terminology),/,/
+3ac5a6b7cc878f88fe09e07daf1be0ae69ffc672,/,/,    Changed xs_z  iso_z  etc. to ..._fz (for "force zone")  because "z" could be misunderstood as showing the date/time in UTC (like 12:30:00Z).,/,/
+623bfc3435a297835e783bfdaca3027a52cc42bd,/,/,    Stricter ISO 8601 parsing  tests  some more documentation.,/,/
+1fee9100fc1ca169de5a3c215ec406fab8f953f7,/,/,    Fixed bug introduced while refactoring: ?date/?time/?timestamp default format isn't safe to evaluate lazily.,/,/
+a1ed253c86cc6f0fb611033292ed14f045660331,/,/,    Added new date_format/time_format/datetime_format-s: iso  iso_z  iso_nz. This also means that now we can parse such dates. Minor improvements in date/time related code and related documentation.,/,/
+e3e06ccff2b74c43d1e1af88f9f08895c7342332,/,/,    TemplateDateFormat-s work with TemplateDateModel-s instead of with Date-s. This is expected to be required for application-domain-aware formatting  where the TemplateModel-s may hold the application-domain meaning of the date (like it's not just a date-time  but the time of departure).,/,/
+cba56647d9172d9e90e01221307528f3114043c6,/,/,    Some further cleanups in date/time/date-time formatting  and additional work towards user-defined formats,/,/
+78179ace7cd1d63ea4dc2d3ef9dd0a106c231fcc,/,/,    Generalized date/time/dateTime formatting mechanism so that it's possible to use "xs" as date/time/datetime_format setting value  and in general anything that you can use with ?string.<format> or ?string(<format>).,/,/
+a0e05d423d43dfc926f2e058d53e87f3e9c2ec68,/,/,    Date/time/date-time terminology cleanup in the Manual  JavaDocs and error messages. Various smaller additions about using "xs" and such. Note that ..._format value "xs" doesn't work yet  but it's already documented.,/,/
+a4febdffe53c7e841dd5d7ad5b8794395510517c,/,/,    Added alternative name to ?is_date  as the current one is a misnomer: ?is_date_like,/,/
+d9d57ae39a5c33f68d3f1341b6a3a231382ee282,/,/,    (Added notes regarding PostgreSQL "time with time zone" columns),/,/
+3cc995e809870abb73a1c92f6acd0aa051ffbbab,/,/,    1. Implementation + test for new builtins: ?is_date_with_unknown_type  ?is_date_only  ?is_time_only  ?is_datetime  ?date_if_unknown   ?time_if_unknown  ?datetime_if_unknown,/,/
+bdba57fb5bfcd27dbd88166eedcb7b94522e644e,/,/,    (Some more test for string.xs),/,/
+801ead32c2e45e18489567821f81b5847b5cd119,/,/,    ?string now supports formatting date/time/datetime values with XML Schema format with ?string.xs  ?string.xs_z (forces showing time zone offset)  ?string.xs_nz (forces hiding time zone offset). ?string.xs doesn't show time zone offsets for java.sql.Time and java.sql.Date vales.,/,/
+2f8c8fb24479f037f03e14d36e4d47090e0b0c37,/,/,    Added missing javadoc about ?iso_... built-in behavior change with incompatible_improvements 2.3.21.,/,/
+5111bb2c8f056cbfe92a0b7df7e998036919343d,/,/,    If the incompatible improvements configuration setting is at least 2.3.21  the ?iso_... built-ins won't show time zone offset for java.sql.Time values anymore  except those that look like ?iso_..._z. The variations ending with _z are new in this release  and they force showing time zone offset  except for date-only values  where ISO 8601 doesn't allow that.,/,/
+ab851b76cf816d45707851ac72918a20b0a03fa0,/,/,    (Some version history improvements.),/,/
+abf136ffdcd4b2354d2a97e629f08e6e30fc6825,/,/,    Added support for xs:date/time/dateTime formatting in DateUtil. Also fixed some javadocs there.,/,/
+7727a7457b4c033ef4f9b080bbbfab038d6f6b71,/,/,    (Added some more time zone setting tests.),/,/
+251c1d5c1276ffc46e908ba38d3c0e80fd544977,/,/,    (Some cleanup in date formatter code.),/,/
+d40ddb682830df1d8cb0c680d8bd7fd3e1467a9b,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+8e1562fc7e9d30283754fb037bae5f58b099c0dd,/,/,    TemplateExceptions now expose the position of the error (template name  line  column  end line  end column) similarly to ParseException-s. Where applicable  they also expose the blamed expression in its canonical FTL source form; this is mostly useful for InvalidReferenceException-s.,/,/
+74994a10529249a99d48086b2e73a60db9074736,/,/,    Revert "Fixed missing cause exception in ParseException-s"  because it was not compatible with Java 1.4.,/,/
+07a42a2fb235a441ddb15c2cd7822e53c1c4dc87,/,/,    Fixed missing cause exception in ParseException-s,/,/
+b92cabc8bbdef496d889a31066afcaf0adb31ecf,/,/,    (Manual: Fixed TimeZone link. Updated FM version.),/,/
+a17e494767886a060c8c83c37ea60513f20f6fa7,/,/,    use_system_default_time_zone_for_sql_date_and_time more tests and docs.,/,/
+4fbc948a1aa48dd2992fb824187a651bb0d778a9,/,/,    A use_system_default_time_zone_for_sql_date_and_time fix and more tests.,/,/
+b43b789925116dabf33dc2ad25cb1487735010c0,/,/,    use_system_default_time_zone_for_sql_date_and_time now works for the ?iso_... built-ins too. Version history updated. Started adding tests. Removed a date formatting hint that's no longer a good idea.,/,/
+92e0deebaa27e8d98aa19336dc1be9ef852391b9,/,/,    Started working on a setting that forces using system default time zone instead of FreeMarker time_zone setting when dealing with java.sql.Date and java.sql.Time objects. This is neeeded as JDBC uses that too when storing date-only and time-only values in Date-s. Also some cleanup in the old date/time formatting code.,/,/
+ffcc2fd618d7af51b46c96327fa44b63aefbc54e,/,/,    Added "default" as valid "time_zone" setting value.,/,/
+73e5b4fab0e98fb0a631f9102b24c07946a0a856,/,/,    (Some more string-to-date/time tests),/,/
+83e586fd5f3010d993ebeb26f8514a18c0d5df4f,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+d86d4837796cd2ddfe957cd41f76f85deacd034a,/,/,    Fixed outdated ISO 8601 test,/,/
+e90f99ae247e679035855b6240bac637702cd219,/,/,    Added FTL tests for ?date.xs/?time.xs/?datetime.xs  and some Manual updates,/,/
+2a83b7a34a64100815a17d344ef1c51198256d5a,/,/,    Some more work on the XML Schema date/time/dateTime parser: don't round to milliseconds  truncate to it,/,/
+e0cbd594829392e11771ffe0f2f8841363dc2f1c,/,/,    Fixed ISO 8601 bug with pre-Gregorian dates. Some more work on the XML Schema date/time/dateTime formats.,/,/
+98d608f9aff6c2ad2dece66fcc4691769b4881b3,/,/,    Removed J2SE-1.2  J2SE-1.3 OSGi execution environments as 2.3.21 will need at least J2SE-1.4,/,/
+3145ace59532b619304211a5825eec44fb7d0f8b,/,/,    (Fixing old license in README.txt),/,/
+df2f3a738c7eab7f5f6a9ec0710970517cf08e5d,/,/,    Started adding XML Schema date/time/dateTime parsing,/,/
+1414df5a7580684c3d6c0ec817df0ba538a7f85b,/,/,    Minimum Java version has changed from 1.2 to 1.4.,/,/
+50bf5ac285ed8d957da5a2d4e86144ee5b70f00d,/,/,    New built-in: someString?boolean. This is for example useful for converting "true" and "false" strings coming from XML to real boolean values.,/,/
+76169a5a9a6b23ed731a5b655900f50e96c2e481,/,/,    (Replaced "Parsing error" with "Syntax error"... maybe less developers will misunderstand it.),/,/
+c8072fb85dcee2a6f6a3c0f526e4ae839f745cab,/,/,    (Added missing copyright comments),/,/
+f07fcd607c821fd368973c5738d4b39162d01f90,/,/,    (Some minor JavaDocs and Manual content improvements.),/,/
+30db61a99dbedca606703e33e9aff92db905d016,/,/,    Better type error messages when accessing XML data (applies when wrapped with freemarker.ext.dom):,/,/
+41da298448d5313495a26fac2a93cb76f0cc6c0d,/,/,    - More f.c.UnexpectedTypeException subclasses.,/,/
+d4ffa9e3727b83b95fd546591aa15dbad0118bd0,/,/,    Fixed unclosed directive error messages at end of file where the wrong unclosed directive name was reported,/,/
+1ae9c7175872d81b73343e06a5ee144a4b24b0c0,/,/,    (Some more FTL parser test cases),/,/
+3823adf286e9cc9ba7f06e5087bba0cfdf0df9a2,/,/,    Bug fixed [402]: Fixed misleading parser error message when a directive called without its required parameters (like <#list>) was reported as unknown directive.,/,/
+9ace3665d0d57ab137c9d6d08c2d6c2c6df26cbb,/,/,    Added some tests for parser error messages.,/,/
+2e0afd4179c29c23add61834792d437b3c71dc72,/,/,    (Updated Java DateFormat link  also added it to one more place.),/,/
+8778df44e81219899028f07c049e2aca2692ee1d,/,/,    Test that runs the example from the bug report #363 summary,/,/
+30f3fc2c5201589f405fbce03bab352d77d2f835,/,/,    Error message tip to suggest using ?size and ?length when foo.size and foo.length fails with undefined variable. Also added tests for the AST-based tips.,/,/
+ad41cd85c4963f8ea811c9e251dcb58b57bd7694,/,/,    (Fixed JavaDoc @Deprecated text),/,/
+403604b079139cdea9c633b4e7c137b32002a66c,/,/,    Hint to explain in the case of goodName.undefined and goodName["undefined"] that it's the last step of the quoted expression that caused the error.,/,/
+2447ad1e294d9b38e9b0aa1b046b3b5e14316032,/,/,    When the undefined variable's name is started with $ (frequent mistake of Velocity users)  a hint is added that explains that the $ is probably not needed.,/,/
+7574bdeb04d41e2dd07adccf843a9bb9353e584e,/,/,    (Template-not-found error messages minor refinements.),/,/
+bbf2c61601c83af5b39d5f91ef520187d0577d0f,/,/,    Template not found exceptions now explain that the template path is relative to a virtual file system  and show the toString of the TemplateLoader. The out-of-the-box TemplateLoader implementations now have an overridden toString to show the actual base directory and such details. Custom TemplateLoader implementations are encouraged to override toString.,/,/
+badafb39c5a9fe0d619c35adbfe849c31b2efcb2,/,/,    (Some Javadoc improvements regarding sharedVariables),/,/
+e4589a881e1d74d4493e4c7025a9274cffb858d6,/,/,    template_loader was added as possible configuration setting Properties key.,/,/
+fac1e4f70d7a17cc86707a1cc1a765b91b73c2e9,/,/,    (Internal renaming: read-only -> write protected),/,/
+a0800270d8d662dd5449b2d1aa3624b3b2595620,/,/,    Bug fixed [300]: Logger class availability check was incorrect in that it has checked the availability of logger libraries with the thread context class loader  then later it tried to link to them with the defining class loader of the FreeMarker classes. With some class loader setups (notably under Netbeans sometimes) this led to ClassDefNotFoundError-s that made FreeMarker unusable. (The check itself was also not very durable  as it didn't expected LinakeError-s  only ClassNotFoundException.),/,/
+ac1440e1811e9f65a9e734bd26d42c24f521b8be,/,/,    (Manual typo...),/,/
+73ccd1b52cc7b0b2a25d1365156a19462bac2f38,/,/,    Bug fixed [373]: This are three bugs actually  which can cause problems when FreeMarker re-loads a template because of a charset override with <#ftl encoding="...">: First  if the template loader was a URLTemplateLoader  when TemplateLoader.getReader() was called for the second time  and the Reader returned for the first time was already used  it might returned an empty or corrupted template  depending on the backing URL implementation. Secondly  when FreeMarer has decided if a template file has to be re-loaded because its encoding specified with <#ftl encoding="..."> differs from the encoding used for loading the template first  it has used case-sensitive comparison  thus often re-loaded needlessly (like "UTF-8" and "utf-8" mean the same). Now this comparison is case-insensitive. Last not least  when retrying with the second charset  The TemplateCache has forgotten to close the first Reader  which can be a handle leak.,/,/
+5f6c139842b3a2b977aec46e45326a5293a7f145,/,/,    Bug fix [311]: TemplateBooleanModel.TRUE and FALSE are now serializable,/,/
+1bc3291c98f8fe80fa211b880366f2bba90f7187,/,/,    Bug fix [394]: When trying to access the optional Jython (or W3C DOM) classes has failed in DefaultObjectWrapper with an Error  rather than with an Exception  loading the DefaultObjectWrapper class itself has failed  instead of the Jython (or W3C DOM) support being disabled. From now in  it will survive any kind of Throwable there  and if the Throwable is not an ClassNotFoundException  it will also log the Throwable.,/,/
+8e9affef630b087fdc7159f8b0db85c2b4ea8b12,/,/,    Added interface freemarker.cache.CacheStorageWithGetSize which allows querying the current number of cache entries in a CacheStorage that implements it. It's implemented by all out-of-the-box CacheStorage implementations. Also added getStrongSize() and getSoftSize() to MRUCacheStorage.,/,/
+fc9eba51492c3cd4da3547ba15b95c7db9b3d237,/,/,    Configuration.setTemplateLoader doesn't clear the cache anymore if you set the same TemplateLoader object (same instance) again.,/,/
+cfa4592a0c4c6100f8a0dff20f2835d16f545774,/,/,    (A version history fix),/,/
+a8fd91565b87a6e938b50650b282e9d3816f2afc,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+4c29824f7d3fadb01e907236cf34c34dd53197e8,/,/,    (Removed all @author JavaDoc directives  as they don't reflect reality anymore  and those with @author tags has agreed.),/,/
+0eb143d70627389a039bee600da1eef2524a5c34,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+153aec42933f8cb317b70710b510347cd6ff1b9d,/,/,    (License change in version history),/,/
+3f8fa866e0eac7a1b99176e637c85b170dc264fe,/,/,    Changed the license to "Apache License  Version 2.0" and the owner to "Attila Szegedi  Daniel Dekany  Jonathan Revusky".,/,/
+b6b64b8bfcb1de9294c8b5b5b42ca13586ec8ca3,/,/,    (Java 1.2 compatibility fix...),/,/
+921acb12a5f1e6260c653e8df966d984b844355f,/,/,    Various smaller improvements in configuration setting errors messages,/,/
+ff3ce9d284fd5c77ffcd8983197659e874b885b5,/,/,    (Charset related documentation impr.),/,/
+d18d5969999281236981179ebb954f6a74474562,/,/,    (Deprecation of some classes that will be certainly removed in 2.4.),/,/
+87fa6de09358c00be7119cd518d1c62660899e57,/,/,    (Tests: effect of class/constructor visibility in builder expressions  and thus in BeansWrapper's overloaded constructor handling),/,/
+59f11c14e6b2b093645667d50a7bc6b35421fe14,/,/,    Properties-based-configuration object builder expressions continued: new_builtin_class_resolver and cache_storage settings now also uses this. Some javadoc improvements.,/,/
+f6b4e9c5e013a9e8d8bd4530707ade44c53a5c32,/,/,    (JavaDoc warning fixes.),/,/
+d7717e99af3f1e4d9de481088c9902194215a122,/,/,    Properties-based-configuration object builder expressions continued: Now it's also used for the template_exception_handler and arithmetic_engine settings. JavaDoc and version history. Banned ${...}/#{...} inside string literals in object builder expressions.,/,/
+0b4b0a5500d6baa1edafa9599d6a69d602c94116,/,/,    (Java 1.2 compatibility fix),/,/
+3a2b14979720f1aab0ed1396a2c524a117e38ca9,/,/,    Properties-based-configuration object builder expressions continued: static INSTANCE field support  string literal support  allow nested builder expressions  null literal bugfix  code cleanup  more tests.,/,/
+c4dba4ffe94625d9a2f3682e47b7f36e62493376,/,/,    More flexible object creation for Properties-based configurations. For example  now you can write:,/,/
+7dd1af420c94e303705437419232c8967d193d2e,/,/,    (Some "builder pattern" cleanup),/,/
+17fbaf1595ce940923cbf39b1015e54a9dfa6065,/,/,    Changed how singleton creation works to follow "builder pattern". It's cleaner this way  and more familiar for many.,/,/
+85e1a7f74fda8eea45e453299327103aa9cf4a0a,/,/,    Fixed some more Version bugs: Hash code shouldn't take the original string into account. Some malformed version strings were accepted.,/,/
+0e81ba39342d759e5ccf9b283f7bebb0902b40f6,/,/,    (Minor BeansWrapper JavaDoc fixes),/,/
+85598ccb099a8afe731fb3984f53ced99ad872a1,/,/,    (Minor test code cleanup.),/,/
+a882f8d0de1ac01f26726867eb772148f5e648ab,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+e4716350c2de5bf7ef36b42e4c3c387839c0d438,/,/,    (Minor test code cleanup.),/,/
+6f82f41808d69ad63b11f7a99b791c335bf34e02,/,/,    (Minor code cleanup),/,/
+39864ef711fe4218085e4886ce432d35f7a9daeb,/,/,    (Trying to ensure that the value of BIG_MANTISSA_LOSS_PRICE won't become  outdated.),/,/
+7581b09d672567b1437819de7438b99cb6691d63,/,/,    (Some more tests for overloaded array choices.),/,/
+b9b19d93dbdb8f0cf68270a2fb4a3d72052ffb60,/,/,    Array-to-List conversion for array items. Thus now it's possible to call a method whose parameter type is array-of-Lists with a List-of-Lists or List-of-arrays argument. Also fixed the index number reported in array conversion errors.,/,/
+372d98f0934ffab1647fe630cefe42c95e27d596,/,/,    Fix for array-to-List conversion when the array is of primitive type. Also some more tests of array-to-List conversions.,/,/
+96d2ebc2d963b096998a42af70bfe67d87a2dcae,/,/,    (Java 1.2 compatibility fix...),/,/
+7a1bad8662df835696931026067be7633b4ad7d6,/,/,    Added tip on overloaded member selection errors when the BeansWrapper bugfixes aren't enabled,/,/
+ae77176185766746007780306f260c7514789cae,/,/,    (Just some internal cleanup),/,/
+9da05cfe1d436fdb0dc04d578c7599753f326f3f,/,/,    (typo fix),/,/
+168b73425619dc83cbbd0d49ff28c855e4bb2940,/,/,    (Removed some old source code ugliness.),/,/
+c8fedb34d0494ad162c49a0f5d239a2c9e027736,/,/,    Further improved overloaded method selection error messages. Now it shows the unwrapped argument types among others  which helps a lot in understanding what the problem is.,/,/
+4fb08c83f68606496d6c1833096c4a2c6d79c305,/,/,    Fixed bug where CharSequence wasn't seen as less specific than char/Character  instead they were seen as unrelated classes. (A character is a string of length 1 in FTL  thus something that's less specific than String must also be less specific than char/Character.),/,/
+ad89bbe481b15bd526e895e0705d410ac0b64b56,/,/,    (array to list conversion bugfix),/,/
+7c533cc4c9c2e6d138a352b81fb2c5a886d3584a,/,/,    FTL string to Java char/Character conversion now works for overloaded method parameters; earlier it has worked for non-overloaded methods only. If the string length is 1  it will be seen as compatible with parameters with char or Character type.,/,/
+39e1a9bee17f6b74d254e32d32ed92f2e0a8f435,/,/,    (Added typeFlags to the version history.),/,/
+e3a074f78267277b510f5981fc61c8f73afa20cf,/,/,    (Some more typeFlags tests),/,/
+227ef79a207a05211977513bcd843cf36091c379,/,/,    Unwrapping for overloaded methods now utilizes the recently introduced typeFlags to avoid unwrapping multi-typed FTL values to the wrong Java type. (Also 0 parameter methods won't have null TypeFlags anymore. Also fixed the precondition that allowed unwrapping to List on parameter positions where an array type occurs.),/,/
+c1b17220f36b3fd681d2bdf7c06bc23b3d4b4f6f,/,/,    (Prevent JUnit warning under Eclipse.),/,/
+8e7c7358d0609cf25cdbca4f45a5140108dabfe0,/,/,    Fixes and improvements in method call error messages,/,/
+aa6c3838f918a5a1062f9c4b0373b408b0904d06,/,/,    (Added missing log4j.properties to the test suite),/,/
+08f052a63103c4b2ddab2bc73be8dd70cd0da3f9,/,/,    Started generalizing numerical type flags to a more generic type flags that can carry extra information for unwrapping before overloaded method calls. Right now the flags are filled  but not used anywhere.,/,/
+bb299ba8d710dfabf7b9058d3d88a6e8900687a1,/,/,    (Some internal javadoc and import reorg.),/,/
+3ffff9dd9f5c818135ce6a9d84c03e85c179deda,/,/,    (Eclipse: Organize import when saving),/,/
+893c2586358a63088959412e3752049b712bf7e5,/,/,    More consistent (slightly fixed) method and constructor invocation error messages (also moved MethodUtils under f.e.beans). Also improved _ErrorDescriptionBuilder a bit.,/,/
+814fa68cc61e9532e57e6283da6c93ec79969e0e,/,/,    (Few more tests),/,/
+d0b5a2e62079095085062e26db056228868a3d8b,/,/,    Bug fixed [411]: Invalid execution environment names were fixed: J2SE-1.6 to Java2SE-1.6  J2SE-1.7 to JavaSE-1.7. Also  J2SE-1.8 was removed for now  as we don't utilize any features in it dynamically (to prevent misunderstandings  Java 8 is still supported).,/,/
+cb2e3bc133f1303ff4e3b04b77d12a0ce802c8b8,/,/,    (A useless catch block removed),/,/
+80b2fae3c4ab938f74fe9201d77287c8c9411f4c,/,/,    Array-to-List conversion for overloaded methods (with 2.3.21 incompatible improvement on): FTL sequence values that wrapped a Java array (when FreeMarker was also aware of that via AdapterTemplateModel or WrapperTemplateModel) were not seen as applicable to a parameter with List type if there were multiple overloaded methods with the same number of parameters but with different types on the position of the array parameter. So this is pretty much like the issue described in the previous point  but for array to List conversion. The array to List conversion will be avoided if possible  but it will be attempted if there's no other alternative. Note that unlike with List to array conversions  here FreeMarker can't cope with multi-dimensional lists  that is  an array-of-arrays won't be converted to a List-of-List-s.,/,/
+75e810e1e9ec0bc8691280b52f4d7439b2960db3,/,/,    (Some new test cases for overloaded method handling),/,/
+a4c676cd21bea43a54238239530bf0ee259cb511,/,/,    (Source code formatting fix),/,/
+3932e391a9e76cef5825bbfbd5e60e11e07746c8,/,/,    Wrong overloaded error message fixes.,/,/
+ab8360cc5c27e26228f252e10bba5ad0dc653d7d,/,/,    (Version history fixes),/,/
+d214f8187c16f108365978f8221e880c2115d7d8,/,/,    (Some Java code style changes for new code.),/,/
+2c648e4ae1de7942626356468ac78a47d44a12c2,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+6bc2898888bbe3fee9e860d4e043072de4fb7985,/,/,    (Test suite: Fixes in the tests (not in FreeMarker) so that it's successful on Java 8.),/,/
+4e96c77c4047563eb9d5c96349b083b672a42e72,/,/,    (Build: Faster test suite execution  also  fail the whole ant task if a test fails.),/,/
+58f03548768d517c1955624c9482f644df1720fe,/,/,    (Version history update),/,/
+5d048401e0233c47ef6eadb438349d05aa6bb860,/,/,    Further improved sequence-to-array conversion when calling methods: For consistency with the behavior when passing in sequence arguments  this conversion will work even if the argument is a List that come directly from Java  i.e.  when it was wrapped then unwrapped to the original object. (Of course it also works for converting List-of-List to multidimensional argument type  and even for List-of-sequences.),/,/
+2eef864c81e0ab2c21cf7256cc21af949d802c0f,/,/,    (Build: Always generate Emma coverage reports.),/,/
+e35b44ffd4f36e1ac1ee9eeca3c4095176c3470b,/,/,    (Test suite: added causeNestingLevel parameter to @assertFails),/,/
+759e05af61394226b59dfa0310cead507cecbe1b,/,/,    Some more SimpleHash tests.,/,/
+9b40206e2a22cd3100cf6fc797d8f465188b9317,/,/,    Bug fixed [409]: SimpleHash's internal Map is concurrently modified on a non-safe way when getting length-1 String key that exists but maps to null. This operation will accidentally add a Character key to the internal map  which is not a thread-safe operation.,/,/
+67aa9058b6ba2b8e7cbff466cc1200027128dc67,/,/,    (Just moved common 2.3.20 and 2.3.21 method call tests into a common file.),/,/
+2a89294fa9efec6c1996ab13c8a0d1a31f0e7736,/,/,    (Some more test cases  now for non-overloaded array/list parameters),/,/
+e7de67791e44439469f4b675b13cd0a84e50a79b,/,/,    (Added some test cases regarding array treatment),/,/
+b052971dbc7ffe87f92c04781e8e1754f06a9f0d,/,/,    (Minor code cleanup),/,/
+919a1e522c59854977f0a9c688e114a9a9b25b27,/,/,    FTL sequence (or wrapped Java List-s) values were not seen as applicable to a parameter with array type if there were multiple overloaded methods with the same number of parameters but with different types on the position of the array parameter. That is  if you had f(String[]) and f(String) in Java  then f(['foo'  'bar']) in the template reported no compatible overloads. Now it will choose f(String[]). Note that if there's also an f(List) or even an f(Collection)  it will prefer those over arrays.,/,/
+8251f1d13aeed1a99522ffbc8bec4dfbaed39d44,/,/,    (Some minor typo fixes and an extra assertion... no behavior has changed.),/,/
+b4abd9138b4873bddd4176ec2b08009a09115d68,/,/,    (Just some purely aesthetic code changes.),/,/
+322678e39bb5cf3d8e963999dc6a31c45d786329,/,/,    (Just some typo fixes in the version history.),/,/
+8acc514f18eccc2e4213a6bfe43e98c1e0265747,/,/,    Add test for BeansWrapper StaticModels and their caching.,/,/
+6734224dd80fb82b7f0eceef7b36cc4b0ca6e7ea,/,/,    Added test for BeansWrapper enumModel-s and their caching,/,/
+4598a30417270748bf98a21027b3ce0d2d7341c8,/,/,    Add minimal test for useCache BeansWrapper property.,/,/
+8990ac6401571a33f33d72719c4ba3136565947f,/,/,    (Accidentally public internal method),/,/
+3d0d43d331ad1b813d534294b27417f2ac109612,/,/,    Made MethodAppearanceFineTuner a bit more future proof by using an object as input instead of individual parameters. Thus  new input parameters can be added later without breaking BC. Also renamed MethodAppearanceFineTuner.fineTuneMethodAppearance to MethodAppearanceFineTuner.process.,/,/
+c0c4988e0df771df3cda993f262efb4ab5915401,/,/,    (Fixing English mistake: methodShorter -> methodSorter),/,/
+607cd606ea21ca6762744d62130944fbfa9c6905,/,/,    (Renamed SettingAssignments to PropertyAssignments and moved them into f.t.u.),/,/
+1f00ba3ac31e8ee23d6f91f2a90e546cdb818465,/,/,    (Renamed SimpleMemberModel to SimpleMethod - it's not a model  and it's not for member in general),/,/
+efec48cd9b594901edb34e58a6acc92becee3694,/,/,    Clearly differentiating in the API if the ClassIntrospectior is shared  or it just have restrictions like if it was shared.,/,/
+a65833e3ccda5989638a0b0554ab57c5265865e3,/,/,    Renamed Lockable to WriteProtectable (and makeReadOnly() to writeProtect()  etc.)  as Locking is more ambiguous (like used for threading too).,/,/
+467e91c508f77064ddc0985458c4d5da2bf3d84a,/,/,    (Updated JavaDocs with SingletonCustomizer-related changes.),/,/
+f8b95618217cdf531c63989fb21e2dab3ced3b4d,/,/,    (Removed duplicated JavaDocs),/,/
+220c4075c9b41f5921be8305a00c6a0e8d273bae,/,/,    Add SingletonCustomizer marker interface to allow the ClassIntrospector to be shared even if MethodAppearanceFineTuner (or similar future customization points) is specified. Also  now if there's a non-singleton customizer  the BeansWrapper instance can be shared  only its ClassIntrospector won't be.,/,/
+6adb961393bcac1b89d4e2aba0c1765f817f77a6,/,/,    Fixed the otherwise very unlikely glitch where some outdated static- or enum-models get into the cache after ClassIntrospector clearance.,/,/
+e9c1a44e6ff6afb5b5f27cf293a438f4c7b49a37,/,/,    (Moved over JRebel support from BeansWrapper to ClassIntrospector.),/,/
+a63a611603aed00cc2f1ce9371ec52516a079cec,/,/,    (Internal method renaming),/,/
+f8880d761003fc67fc07a02fbe1b775ed76d6bcd,/,/,    Prevented eager class introspection for BeansWrapper.TRUE|FALSE  also clearing the memberCache of them on introspection setting changes. This lowers BeansWrapper creation price  for the 3 deprecated static object wrappers too. More importantly  if we can assume that the memberCache doesn't contain stale entries  that can allow some optimizations later.,/,/
+f56bd713f8359b037dd774310224db2f6bc31503,/,/,    Ant build: examples didn't build from the distro,/,/
+1664856d86a191960fe7d451f79ea7db894400d8,/,/,    (Moved Version constants to a single place.),/,/
+40839e7cd5d25647c24af56f1e1ac18d242296b5,/,/,    (Prevented a potential AccessControlException when initalizing BeansWrapper class. Right now FM has this problem on various other places too though.),/,/
+d65d1de8274d17bd809b95e61ec96d6371d65528,/,/,    Added static getInstance-s to SimpleObjectWrapper that always throw exception to shadow those "inherited" from DefaultObjectWrapper.,/,/
+71a29c13db28e32df27d18d0096650993eb7ac91,/,/,    Hidden some synchronized-s from the public API  as those method was never thread-safe (and will not be either).,/,/
+4d2eb4372470d3323017cc7e7ef5e256c50b50ec,/,/,    Added useModelCache to BeansWrapper.SettingAssignments (corresponds to BeansWrapper.setUseCache). Also added BeansWrapper.getUseCache; it was accidentally missing.,/,/
+bda48162acce2533f4f16a4b9a0be903f56f8fed,/,/,    (JavaDoc typo fix),/,/
+b0da48a4b360f1f2ed390bf2207e07f2fc163b8c,/,/,    Updated example web apps to use proper publishing for the cfg (multi-core JMM issue). Some comment and minor code fixes.,/,/
+e0aae0bc9715b3aa5fcad66709b33b1cd3dea666,/,/,    Added BeansWrapper and DefaultObjectWrapper caching. Improved related JavaDocs.,/,/
+a3ff45b5fa027f93a53ac795478286965cbedf8a,/,/,    (Minor ClassInrospector touchups),/,/
+dc44da2c3ce5f14289cadaf4e110ee5dcc876f0d,/,/,    Added ClassIntrospector cache (affects BeansWrapper).,/,/
+b6a14efd8a6b0f67989bd7d45ffdace860d0cd68,/,/,    Summary: The recent BeansWrapper-instance and class-introspection-cache-caching work was dropt  I have redone that differently now. But there's no actual caching yet  so it should behave just like 2.3.20.,/,/
+dd9f7dcb81aaf8209c3f60cede12f82c14ce8dd6,/,/,    Prevent sneaky bugs caused by that the deprecated static singleton BeansWrapper is created when not all static fields of BeansWrapper is initialized yet.,/,/
+719ca6041a06a5a68b7a7a3c3249a437327fc09b,/,/,    Use lazy initialization for the deprecated default configuration.,/,/
+33214e377b55306b67fffa512c8b1c967175261b,/,/,    Moved BeansWrapper back-references out of the class introspection cache  over into OverloadedMethodModel where it belongs to.,/,/
+19dae83017fa82ea42d64f761cac852b820c1179,/,/,    Fixed outdated equals+hashCode,/,/
+30a88461cc5aa3db7c1e7ecc689b57361c222b94,/,/,    (Minor source code comments and version history touch ups),/,/
+98b6cde95dc7219a0ea750dfbde9856d0a71b676,/,/,    Add new setting  show_error_tips,/,/
+a874383f68b919c3ea5f2b5c7c06ab9f53aa750c,/,/,    ClassUtil.forName  used inside FreeMarker everywhere to resolve class names to classes  if the thread context class loader is null  no longer tries to load with the bootstrap class loader before loading with the defining class loader of FreeMarker.,/,/
+0e0bf45fbccd2614ef6f3cb18098ba86f87eec0b,/,/,    Added more settings (and JavaDoc) to BeansWrapper.SettingAssignments.,/,/
+1d224c5696c8ded92742952deed3c5871884149b,/,/,    (Minor JavaDoc update),/,/
+5c3307a9f083b497c7c70657ea945719548d2e20,/,/,    Add more helpful FileNotFoundException message when the problem is that the template_loader setting wasn't set. Also  for FileTemplateLoader-s the message always tells what the base directory was. But this last will have to be generalized so that all TemplateLoader-s can report such info.,/,/
+b15f5b5d1e5b98c72b40eaf4060674b6346e1408,/,/,    Changed the Configuration(2.3.21) default TemplateLoader to null; removed NullTemplateLoader.,/,/
+4bfef8eeb7045571aec0d00ba3e7ff67ec51b106,/,/,    From now on  if you try to set the incompatible improvements to greater than the current FreeMarker version  or less than 2.3.0  an IllegalArgumentException will be thrown. Thus  new Configuration(new Version(2  3  21)) will not only active the fixes up to 2.3.21  but will ensure that the application is not deployed in an environment where an older FreeMarker version is installed. After all  on an older FreeMarker version the fixes that you have requested aren't implemented yet.,/,/
+5fbf5b9bd496dcd10e599fb242935a382158c79a,/,/,    Configuration.version and Version.hashCode() related minor improvements (made getVersion thread-safe  faster Version.hashCode).,/,/
+7559c1816cca823c2c73abc61f48a844dfc17ba1,/,/,    (Renamed some inconsistently named test classes.),/,/
+af9de78413eded8b8e543b3db047c6a6445cb2a2,/,/,    Various smaller adjustments and fixes in the JavaDocs and Manual. Deprecated some SimpleXxx constructors for using legacy static singletons.,/,/
+d15f0387d099e2f605e0a99b60628150723df0a7,/,/,    (Updated Configuration(Version) documentation.),/,/
+ac9c5cc565392dd8ebe20cc124307b0d7304195a,/,/,    Added Configuration(Version incompatibleImprovements) constructor  deprecated the Configuration() constructor. This makes setIncompatibleImprovements(Version) calls needless in most cases. Also  with incompatibleImprovements 2.3.21  the default ObjectWrapper changes to the one returned by DefaultObjectWrapper.getInstance(cfg.getIncompatibleImprovements())  so DefaultObjectWrapper doesn't have to be instantiated "manually" with the Version argument anymore. Furthermore  with incompatibleImprovements 2.3.21 the default TemplateLoader changes to the NullTemplateLoader  that  I have also just added.,/,/
+314a07bc7f71e3bca9d1991d024399b663446000,/,/,    (Nothing  just another RuntimeException to BugException.),/,/
+45ff14bf7abd337b0b2125d520ba924199865acb,/,/,    Removing the "synchronized"-s from before those few Configuration methods that had them. Configuration-s were always only thread-safe as "effectively final" objects  i.e.  after proper publishing. As these syncs has no counterpart on the reading side  they doesn't change that. To maximize BC  I have moved these synchronizations inside the methods instead of removing them  so if something was accidentally worked due to the CPU cache flushes it causes  it will keep working. But that's synchronized is not visible in the API  and so won't give the false sense of thread-safety.,/,/
+335e504a2e52be56d31ed8191b518279aec97916,/,/,    (Added core.BugException  and used it instead of raw RuntimeException-s where appropriate.),/,/
+21c5c480a09e01a1f0dc38e994059076435af252,/,/,    Fixing safe publishing (concurrency) issue prior Java 5 (JSR 133) in the BeansWrapper instance cache.,/,/
+2735cf280a59b1dbb05deddbdc55fdf361e66c76,/,/,    1. BeansWrapper/DefaultObjectWrapper instances returned by getInstance (or a special protected constructor) will now share the class introspection cache among each other. This is the most expensive structure inside BeansWrapper-s  so it has also inflated the value of caching/singletoning the object wrapper instances.,/,/
+a4be9c055216711c4d2fe2125ae94292daad3ec3,/,/,    Cleanup of getInstance/singletons changes: Improved related JavaDocs  updated Manual and examples to follow new best practices  renamed Configuration.getSingleton(Class ...) to getInstanceOf(Class ...)  some non-public member renamings.,/,/
+319dece08f2460c8c4046edc08e9c14066c18aea,/,/,    (Minor JavaDoc fixes),/,/
+bf3aad254602a7bdaa012b3e57cfba0b1dd7cab2,/,/,    Renamed Configuration.getSingletonXxx-s to Xxx.getInstance-s. Substantially improved the speed of the Xxx.getInstance calls. Improved related JavaDocs.,/,/
+4aed227d830819c0bf93a9040cbf34fa7ac6b552,/,/,    Added Configuration.getSingletonBeansWrapper and getSingletonDefaultObjectWrapper convenience methods. Deprecated the static fields ObjectWrapper.DEFAULT_WRAPPER  BEANS_WRAPPER and SIMPLE_WRAPPER (they are dangerous as those ObjectWrapper instances aren't read-only  etc.).,/,/
+e729af446f466c5b030cdc79ca4a71871dde5d43,/,/,    (JavaDoc fixes/additions),/,/
+8c36e90f5c7c3e5be2612a3d3b923fcca0b34273,/,/,    getSingletons: For safety  ensure that the property Map and the constructor argument array aren't the aliases of the getSingleton arguments,/,/
+eca5102eb01a5b9d4d3e2445d8484c87a2e4532e,/,/,    (getSingleton: fixing some outdated JavaDoc),/,/
+6fbca0801430b3b94bc285e4f96489800cf1d637,/,/,    Little SingletonObjectKey.equals optimization,/,/
+5e09b576561bde95b434baa243e1e7b6747d9fe9,/,/,    getSingleton: Disallowed shortening the constructor argument list during normalization,/,/
+ad71de5e2d3bb58094052decc307a8ca0997a37d,/,/,    Added new method  static Object Configuration.getSingleton(Class singletonClass  Object[] constrArgs  Map properties). This gets or creates a VM-wide shared object (a singleton) with the given class  constructor parameters and JavaBean properties. If based on the class  constructor arguments and properties set  a matching instance already exists  it returns that  otherwise it creates a new one (that it will store so that next time it can return it). This is mostly used for creating/getting the standard ObjectWrapper-s  but can also manage singletons of user-defined classes.,/,/
+8302323b63b03c07bbe5580c7d3a354454ffeb95,/,/,    (Fixing some JavaDoc typos.),/,/
+f3d71fd595ed0a8f6778d9586a0aa6cbffa11f1a,/,/,    Added EMPTY_CLASS_ARRAY and EMPTY_OBJECT_ARRAY to Collections12.,/,/
+33195bb3949b939fc64f046519614769dcc26bdd,/,/,    (Fixing some random white-space/tab errors in the source code),/,/
+c778e49f4840aed9d82d151cbee66396f40c8b94,/,/,    (Moved/renamed beans.MethodUtilities so that it's easier to find for us.),/,/
+b6272430dc0e148c41c2f98ab3435120e40f460c,/,/,    Fixed concurrency issues in Version class hashCode  equals  toString that could  in theory  result in wrong return values.,/,/
+7d6585f617e23a6c6e2e966995b2adb24e9c514e,/,/,    (Made arrayToString reusable in other test cases.),/,/
+d37ebf945bcc2b3c28043f4c071e53f1f6cf5136,/,/,    Added overloaded method tests that use the DefaultObjectWrapper instead of pure BeansWrapper.,/,/
+b8c404e0804233dec8b121c171984e9e7cb719d1,/,/,    (Code cleanup: Made some fields final.),/,/
+607af831ce90ab807d20be4499fa23f8bb5d7b41,/,/,    Added freemarker.template.utility.Lockable and implemented it in BeansWrapper. With this interface the configuration properties of the object wrapper can be set permanently to read-only by calling makeReadOnly(). This is crucial for VM-wide singletons.,/,/
+9ba43b92ae78ec5bd82fd39f0f01c3d78991dca8,/,/,    (Documentation typos...),/,/
+854c92e1d9bb05d188b1b3de5727c3492cd5e4a0,/,/,    Fixing a concurrency bug that could cause problem now that we are using ConcurrentHashMap for overloaded method lookups.,/,/
+67d24353e04e4f34bdbcf1197c48c0b01c571a56,/,/,    Fixing Java 1.2 compilation error.,/,/
+9409fc65f96106d4bd7c804d2f6a6af201cde82a,/,/,    The concurrent performance of overloaded method lookups (from the cache) was improved under Java 5 and later.,/,/
+e1c2a107f468af6841d474e3b5e581d5998388f4,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+55e8e8b7d2381668eb2f9798267893e94a6350c7,/,/,    Documented and tested a varargs bug that BeansWrapper(2.3.21) has fixed: With overloaded varargs methods of different parameter counts  sometimes the last parameters of the compared methods was ignored  which is taking away a potential deciding factor and thus can lead to ambiguity error. Whether this happened depends on the order in which the Java reflection API has returned the methods  which is undocumented and known to change at least after some Java updates  breaking the application.,/,/
+41143cfe7c649bb4c89a3da37454d89d84602633,/,/,    (Minor version history fixes.),/,/
+0d3d2894f7f129d7ece8e495bc166cbf2cab29d4,/,/,    Fixed bug with method argument unwrapping to a primitive "hint" type  where AdapterTemplateModel and WrapperTemplateModel had to unwrap to a primitive value  which is impossible as their return value is Object. Only active with BeansWrapper(new Version(2  3  21))!,/,/
+bbf853e8e4bb6feb52495996c50b59f0ea1ff92f,/,/,    Made primitive-VS-boxed differences less important than subclassing and number-conversion differences when counting which overload has more "preferable" parameters. Now they only cound if there's no other kind of difference  like m(Integer  Integer  String) wins over m(int  int  Object).,/,/
+996b35897d87bdd1372861bb4fe819ef499db6df,/,/,    Added tests for ArgumentTypes.isApplicable,/,/
+716d177652889ac4ad8c299b23c444b88b15d1bc,/,/,    More null-related overloaded method tests.,/,/
+8d51e5503d9bc0e89a185861f6c5213a9eb4e4fa,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+95687ec3be0dda86b8086d8536481efbf0c910f6,/,/,    Reworked how overloaded methods treat numbers with BeansWrapper(2.3.21). Along the way  some other aspects of overloaded method had to be changed as well. For more  see the changes of book.xml. But in short  overloaded method calls are now much less prone to drop decimals or truncate numbers  while they are also more lenient (like double 1.0 is seen applicable to an int parameter). Again  this all only have an effect with BeansWrapper(2.3.21).,/,/
+727d4362b994b6eca2311b53b76bcfff5f91dd16,/,/,    (Minor version history fixes.),/,/
+5c358bb70e95b00beff8363b1210faf6dc170e3d,/,/,    (Upgraded JUnit dependency to 4.11),/,/
+07c991c87d08c3d9bfcb67672013988b5806f5e8,/,/,    (Set Eclipse indent to 4),/,/
+180f06d6ee12904e39250439d7e041737f77f77e,/,/,    Test suite: Getting rid of the "class" XML attribute; we don't use it anymore. Updated JUnit dependency.,/,/
+c596a01f8084b8c89a02b03a456772f73bf6086f,/,/,    (Fixing wrong test case:The old behavior gives Object  as the are two most specific common classes  Number and Comparable  and it can't decide.),/,/
+832d544a0af6852035a8e4406a2f840cbd5cad00,/,/,    ParseException-s now also store the end-location of the error  not just its start-location. This is useful if you want to underline the error in the source code  not just point at it.,/,/
+f74b933921d142b293984ecd4da758fc905571a8,/,/,    Added option to test.ASTPrinter to print node locations too (not possible with the CLI...),/,/
+770cc88c28d303fd4f6605440046b77b9e7ed2bf,/,/,    Canonical form bug: assignment target variables need to be quoted sometimes  like <#assign "foo bar" = 1>.,/,/
+57b820cd221bd4d34b70f15b42902f1654d557a2,/,/,    Fixed FTL stack trace glitch where if an #if had and #else or #elseif  the #if/#else/#elseif wasn't hidden in the FTL stack trace when the error was inside its nested block.,/,/
+d0e8d48f424e6b59ea1f3a02fabf108ac3cbaf27,/,/,    Closing the Null.class inside ClassString  never to get out from there. Some trivial cleanup.,/,/
+87e36eb363ab46fa0daec12577f14f30dd42cf73,/,/,    Add some test cases to demonstrate further bugs to fix  also some that covers some earlier fixes more.,/,/
+785c2f86023850c8af5bbe78e09ac7e015ee3905,/,/,    Overloaded methods bugfix: Ambiguity is now resolved in some cases where earlier it was an error. Ambiguities was and are resolved by selecting the compatible methods then choosing the one with the most specific parameter types among them. How the specificity of the parameter types is calculated was extended:,/,/
+fab32ecbf833bd68429904de572d8695f4b8eb6d,/,/,    (Minor comment and manual typos/improvements...),/,/
+68b17ff425a73a8a87b17858a1b3dd1073bb3175,/,/,    Bugfix (active with new BeansWrapper(new Version(2  3  21))): In many cases  less specific hint class was used for unwrapping than that was theoretically possible within the limitations of the applied hint generation algorithm. (The unwrapping hint has influence when there's an ambiguity regarding how to create a Java object form an FTL value. In the vast majority of the cases  a too generic hint has no effect.),/,/
+2c5ae0543b9bc02fc470f3a3d7eed6648349efbe,/,/,    Fixing bug: null argument values has only matched overloaded methods where the corresponding parameter had Object type  not a subclass of it. Also did some code cleanup along the way.,/,/
+c68a511a247f6ca191955787199e893b24262a8c,/,/,    (Some more refactoring/cleanup...),/,/
+1acdf221f643be89d16a1641c747f1e41b7ffd26,/,/,    Amend to: Some cleanup-refactoring in the overloaded methods code... got rid of those Object return values everywhere at this point.,/,/
+15069ca3d1b7a07257347adf3e40de93efcb7fe9,/,/,    Some cleanup-refactoring in the overloaded methods code... got rid of those Object return values everywhere at this point.,/,/
+5892ae350194030cd77b6d6b87b13295a86e4821,/,/,    Refactoring to avoid the somewhat expensive getSignature(member) calls when searching the best matching overloaded method (and elsewhere too)  also to get rid of Map<Constructor|Method  Class[]> signatures and thus also the Map lookups in it.,/,/
+f65644432ed5f88d920710d06806da144dcd6458,/,/,    (Just some javadoc/comment typos and some tab-to-space conversion.),/,/
+e10a4b0cb93ba0570a8d8a9ff1da490cb058bb65,/,/,    Fixing bug where in some rare cases overloaded varargs methods used less specific type hinting than possible with our current approach. For example  for m(File  String...) and m(String...)  sometimes (unpredictably  depending on in what order the Java API has returned the methods) it has unwrapped arguments with the hints [Object  Object  Object  etc.] instead of with,/,/
+6e90146b939f46723237635d6487f90a059b801a,/,/,    New BeansWrapper  DefaultObjectWrapper and SimpleObjectWrapper constructor that takes a Version incompatibleImprovements argument. This has the same role as the incompatible_improvements setting of the Configuration  but it applies to the ObjectWrapper instead. (As ObjectWrapper objects are often shared among multiple Configuration-s  they can't use that setting of the Configuration.),/,/
+bb6a5d6dbaec8dd878be3b77a3155b3c6da98889,/,/,    (needless import),/,/
+773b3f43e6e8fc0573735c72660347848c41d961,/,/,    Updates version,/,/
+c2cebb75299c49c3d8a56a98dc979a4102c74507,/,/,    Overloaded methods: Started reading source code => Comments on suspected issues  renamings and trivial refactorings to make the code more understandable. No behavior was changed yet.,/,/
+c4cd2ac14c2f38dbe6278666511939d6afb505b8,/,/,    (Just some comments),/,/
+9eb37deb743284ba083b72e4147bea7c1f587405,/,/,    (Manual: moving getTemplate down where it belongs in the example.),/,/
+33690d950a4a6a0c83eeb29b38556af85804e196,/,/,    (Maven dist build: build the src artifact from the dist too.),/,/
+9afdcd2edeed7c11e922789bc3d75ebd22c93d82,/,/,    Merge branch '2.3' of github.com:freemarker/freemarker into 2.3,/,/
+fe20560c24cc9ca8283064bce653f20f04a15c40,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+1acc58d37e572cc9cf0897296860ae54ee4beccf,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+6ea06ae2a0dc2b46bc3d403d141e283262e986c9,/,/,    Switching to Sonatype OSS Repository for publishing into the Maven Central Repo. (The rsync method doesn't work anymore.),/,/
+cde5eae6b7c701bf6604c59c2c8412a077cdf84a,/,/,    Merge branch '2.3-gae' into 2.3 (just to "document" that changes from the gae branch before this need not be merged),/,/
+ddff5e0a651a96e1537c4991476a37791ad6fc24,/,/,    One of the Java 5 method overrides wasn't commented out  and its return value conflicts with Appendable. This could cause problems.,/,/
+fdda30c7a32897e2e768a5e16f868e96dfdab674,/,/,    Fixing artifact name.,/,/
+08d5b523aee59196459d260e91de3ddbbed247d0,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+b490c99e70f0fad865757f4d7994cbdca138e09f,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+10b7ff513445e8bb0e3a025bdf43741bdd07f1bc,/,/,    (License: List of included ASF files updated),/,/
+8d35edfb4492c21de5ca21c8c544222e12f2df42,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+4a1ecb3e647350a4a3f5eddc1800b6d67143b3da,/,/,    Version updated to 2.3.22.,/,/
+dc3a89a2c8ef66b9f8c21116b28a854fdc0915bf,/,/,    Manual: 2.3.22-related improvements  updates.,/,/
+1dcee124b4380e7ba8b45b966143bec2989db405,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+ecd41d226971c2df4e2392113b3fa7d7dab66390,/,/,    Fixed build script so that fails on static linkages to optional dependences. Fixed yet another such linkage oversight in error message generation.,/,/
+5d09839e856aeb50c948e5206251fd8d664711f8,/,/,    Fixed accidental static linkage to Servlet classes. Introduced in 2.3.22-rc02.,/,/
+1c3478239b608784efbb02898b0f0d2149c37ec7,/,/,    (Improvements/fixes in comments and JavaDoc  mostly related to new things in 2.3.22),/,/
+a4f234edcdebaf3f49db3440528c097f671f8bce,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+91adffa96ee0f61fb89aa2ae07135d0c2abbc8c0,/,/,    Detecting the presence of a 2.4+ freemarker.jar  giving error then. This will be useful now as there won't be freemarker-gae artifact starting from 2.4.0  and thus the 2.4.x version won't evict it in Maven/Ivy.,/,/
+94e05ccba138654956d0d63fbcba84b821e738e4,/,/,    Marked all main(String[]) methods for future removal (deprecated)  as,/,/
+52b8bcc1b4a2e38a047e249be27e2fd2ee86291f,/,/,    Manual: Recommend using log_template_exceptions=false. Some other minor logging documentation improvements.,/,/
+b5feae051f3938f57ea89f8e8b04190e35bdeebb,/,/,    (Manual typos),/,/
+f087610fb1f2dda0649fe28b48e2e1caf60537d2,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+6009703237b28ee13da44c8dfb9ffbb961309a9b,/,/,    Removed the possibility of getting the template name from DirectiveCallPlace  as that method will become redundant in 2.4.,/,/
+3bf73ff73e8d2377ac3cb637525690a36442ec13,/,/,    (JavaDoc merging fix),/,/
+5fde67bf9abc5b02f09a4bab21a9572672937a81,/,/,    (Renamed Eclipse project to 2.3),/,/
+960c043e06de2ed8716371c95caf29b5c3243b56,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+513c27676fb25abdc9fd1d26a33a50faac9719e3,/,/,    (Renamed Eclipse project to 2.3-gae),/,/
+f9cee45798813e3eb66674b3275a9381256f7e76,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+3c13998a2cfad8cef94ac3668ee26d0c51e71dfe,/,/,    (Missing copyrights),/,/
+f1fdb39ca0d7bd2b58e5d4eec68ba626496359e2,/,/,    2.3.22 BC fix: Don't wrap RuntimeException-s thrown by JSP tags into TemplateModelException  so that eventually they will be thrown by the template itself. Unless  it's a very generic and frequent one  like NPE.,/,/
+da8fb72f2813a686376fe62fff6785025cca980f,/,/,    (Error message typo),/,/
+c341c3aec4b81d0dabe485b4cf3b31d95d84d9b2,/,/,    Removed links to outdated FAQ translations (sorry). To much has changed since then.,/,/
+878a1f539e5d52c0415d708d49361043916bebdb,/,/,    (Added some more (speculative) parser errors that point towards a later release.),/,/
+d48f7693d3dc07fe73b25b2c83689268a5469b77,/,/,    Added non-public support for thread interruption during template processing. (I will start using this soon in production for template execution timeouts  but exposing the TemplatePostProcessor API and this feature can lead to BC constraints that I don't want to risk until all the internal API refactorings are done. And that won't happen in 2.3.x for sure.),/,/
+b11e82f0e402e800cdce75f08fd32b0ebbf67be7,/,/,    (Missing copyright comments.),/,/
+0af8afa358b8859f801ef21dd1f51f53051fa815,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+19e63943588711cacea5daa7d8e827a04bc9f5d2,/,/,    (Version history fixes.),/,/
+ffb1258dc9c61aa2dc9a19c436dced012d69e3f2,/,/,    Updating veriosn to 2.3.22-rc02,/,/
+a255c4187f32215c56b4575fb5de09fca0856433,/,/,    Manual/JavaDocs: More helpful "incompatible improvements" setting documentation.,/,/
+640e5e79fdb38af47451a4c70cd533c7afbda3e9,/,/,    Updates manual for RC02,/,/
+c61bb107c051f4bd65e535856ae182d9d151b8be,/,/,    Renamed APIObjectWrapper to ObjectWrapperWithAPISupport.,/,/
+224bccde273ef2015e0f00fbd3d3e09ec2438d85,/,/,    Marked a few internal but historically public classes as @deprecated  to warn users.,/,/
+d723989a83c44f0646ebdb2859c3401b7a655b22,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+5b98505e3f840dfc9514cb197b759be89ec7f0dd,/,/,    (Test for deprecated Macro and import API added  because 2.4 UnboundTemplate-s and BoundCallable-s affect these.),/,/
+ccb253aeb6fa595ef5434167fc5330385db28f44,/,/,    Got rid of some needless char[] creation during parsing,/,/
+6657b415fbca70bf5b2f04026a3c64019e1ecf63,/,/,    Deprecated some Macro- and TemplateElement-related methods that should never be public.,/,/
+64a5da29a908e2c46955f667605ca9ac97cde7c9,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+436d6daf76c2eb596557173d41384196bca31957,/,/,    Some CustomAttribute API additions  and better JavaDoc and code cleanup. More CustomAttribute tests.,/,/
+1b68aaf483147f427a52c0c0c6e460b6bfb547c1,/,/,    (incompatibleImprovements JavaDoc adjustment),/,/
+59f3dcf63568e42829d01d432ce92bc1a03491d7,/,/,    (Test coverage for template custom attributes - an old feature),/,/
+55bae785c79ffcd64af8b6801ae35d240a9ea2e4,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+4c7af09fca4f00eef5d14a3d4c08851df8bc4748,/,/,    Added camelCase error messages that suggest using 2.4.0 for special variable names. Also the list of valid names is shown in the error message.,/,/
+d7597453d84ef66eb5f92e38a9eff0b27c59c62a,/,/,    Added camelCase error messages that suggest using 2.4.0 for #ftl and #include parameters.,/,/
+2f162a98cd03a16c2e79c66bd0947aef56c73415,/,/,    (JavaDoc: A missing @since),/,/
+b2c823efea0428e9c48eb3db61a49d00544c0abc,/,/,    (Manual: Marked RC02 changes),/,/
+07a1622fd9b14c628b60b98e7282d3b10b273dae,/,/,    #import and #include now uses the TemplateNameFormat instead of having their own assumptions about the name format. Also  did some code cleanup  and made the error messages better.,/,/
+1a1ce2c935bc7cb3c0e431dac9284156c9e665b5,/,/,    (Use "[No exception message]" instead of nothing or "null" in error messages when an exception has no message.),/,/
+8349f6a9b6db3d6cf3f0803a9c14c043cb19048d,/,/,    Allowed null baseName in TemplateNameFormat.toAbsoluteName,/,/
+064fb2d90acb048d0819cc00ff48deb965ddf08b,/,/,    Deprecated some Template methods that shouldn't be public.,/,/
+4cf5c388c98c70293cf829289d289028c3b934c3,/,/,    (Version history entry for: Debug break also uses Template.getSourceName() instead of getName().),/,/
+2cfb63119b9ead5a229db1ba20eeee064f219253,/,/,    Debug break also uses Template.getSourceName() instead of getName().,/,/
+4b0f32a05915f52c4deac676fd03845765569e56,/,/,    Fixed bug where parse error messages still used Template.name instead of sourceName,/,/
+d9ecef170c85e4078d8243d8063bf937a605abdc,/,/,    Fixed bug where "plain text templates" didn't get the proper sourceName,/,/
+467b6fa5b8417d44b9bfad50fa8946eecd969c4e,/,/,    Added test for ns_prefixes scope.,/,/
+d7e369c7e97afd81b3eab048e6a90f5b23d73653,/,/,    Eclipse friendlier multi-line equals,/,/
+43181eca56ccc9f1fe504e25fd9ad71d9e37c888,/,/,    (Manual: Minor additions/fixes),/,/
+96a0458aebb1d06b3f6fff523aa4943cbacbb68e,/,/,    (Removed space from "build " dir name),/,/
+66ccc2f22e2a43f52b5489f1e42760bf3714ffdc,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+54b12c5e9761e64118dd39c1cd61dd14cc234761,/,/,    Various smaller glitches fixed and little improvements  mostly in the Manual and JavaDocs.,/,/
+9d550569e831d08d8f8e777023b54ef8eb2ab789,/,/,    If incompatible_improvements is set to 2.3.22  the TemplatePath servlet init-param supports specifying multiple comma separated paths inside [...]  like <param-value>[ WEB-INF/templates  classpath:com/example/myapp/templates ]</param-value>. This internally creates a freemarker.cache.MultiTemplateLoader.,/,/
+9858ea90ed32b17c27a013ccac175ccc788084a5,/,/,    Recognizing when the user uses camelCase instead of underscore_case  pointing towards 2.4.0 in that case. Incidentally  now #setting error messages are more helpful when the setting name is wrong.,/,/
+5dae3ef39472b2324836dbd83dd569cfe6af429a,/,/,    (Manual adjustments),/,/
+209c2a1a839f77bf5c620f30ee7b0cde6546c418,/,/,    Added ?lower_abc and ?upper_abc. This converts 1  2  3  etc.  to the string "a"  "b"  "c"  etc. (or for "A"  "B"  "C"  etc.). When reaching "z"  it continues like "aa"  "ab"  etc. This is the same logic that you can see in column labels in spreadsheet applications (like Excel or Calc).,/,/
+191a79c41a8bac2e80affab767fcac057d15bd44,/,/,    Fixed bug with ?keep_[before|after]_last(''  'r'),/,/
+d9e8f2215ea1a5251f1b13f4c2379a4e691019aa,/,/,    Added ?keep_before_last and ?keep_after_last. Example: "foo.bar.txt"?keep_before_last returns "foo.bar"  "foo.bar.txt"?keep_after_last returns "txt".,/,/
+eb81708d5ab80de592afee5229e39980456d2eec,/,/,    Updated version to 2.3.22 RC2 Nightly.,/,/
+0f36ed81d2dc8d096c77181d6dabae526d4c3329,/,/,    (Manual: Minor adjustments/fixes),/,/
+7435edc4394cd4d11fcd7549a1cc223d47872de6,/,/,    (Changed misleading JSP EL unavailability error message),/,/
+144ad6a87245d898f127335de9f5387c58270015,/,/,    (Error message typo),/,/
+95e1fe1fffa72ef498684e5417362c2c997d08b4,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+a7dec64e2e0005c35dc9a500c24522193331a18e,/,/,    Increased version number to 2.3.22-rc01,/,/
+a888347e6fdd16b1b960ee7d2851528ad23ecddf,/,/,    Added StringUtil.isFTLIdentifier<Start|Part>  also the generator program for the new identifier chars  also a test.,/,/
+3e43399260c2c0b9814e6b26f1b7568307dfaef4,/,/,    (Manual typos),/,/
+726dc937d6b21b312fca540c54fd5c7d7db14eaf,/,/,    Added many missing UNICODE letters and digits to the set of legal identifier characters  like Korean letters (bug fixed: [129]),/,/
+03d1c1636f9a52fff5f4f4073af2f71b3e9abcec,/,/,    (Manual: Some clarification...),/,/
+a14ef67437fb2ab3d27330c642c97d39822edeb0,/,/,    Fixed <@...>loop variable canonical dump bug (there were some other canonical form fixes/improvements in the earlier identifier escaping commits too),/,/
+e57ac03d6446a8fcdd17002f4a2b0200e97b3605,/,/,    Hopefully finished this: Identifiers (like someVariable) can now contain minus (-)  dot (.)  and colon (:) at any position  but must be escaped with a preceding backslash (\)  or else they would be interpreted as operators. For example  to read the variable whose name is data-id  the expression is data\-id  as data-id would be interpreted as data minus id. This also works for named macro parameters  which is useful when you want to accept arbitrary HTML attributes in a catch-all parameter  like in <@box class="someCssClass" data\-id=product.id />. (When you enumerate the catch-all hash inside the macro  the key string you get is just "data-id" of course.),/,/
+2dea8b038a2d7b782d360c6ef5f800c12f4210a0,/,/,    (Added tests for catchAll and escaped parameter names.),/,/
+f85e0118a4a4637a094e779d4ad06dab36b69338,/,/,    Identifier.toString was misused  causing problems now that toString() not always the same as getName().,/,/
+68d7e79cc1dc7b3cb67a19f4c11aabe817c060a3,/,/,    Not yet finished but working: Allowed escaped '-'  '.' and ':' in identifiers everywhere. The main goal is to give a workaround for macro parameter names that contain '-'  like <@panel data\-id=item.id />. (Unfortunately  '-' can't be allowed there in a backward compatible way.) Also improved canonical form generation in the process  and added more flexible StringUtil-s for FTL string escaping and quotation.,/,/
+0969c14a106c41df0a1b8de958c36834ccc526ab,/,/,    (Manual: #flush and #stop documentation fixed/improved),/,/
+c391998843765132a522abd24a2de4176560181e,/,/,    (FAQ update),/,/
+82801e0a29311af74d4186222125de7e23f27955,/,/,    (Removed a now redundant debug log.),/,/
+e38a40c6aef30f46af28ad2f978a242ab4abe9b8,/,/,    Template not found errors are now more detailed  giving hints about accidentally using \ instead of /  or backing out of the TemplateLoader's root directory  etc.,/,/
+3633e122281285ffa1fbd96a305c89c7de4e2905,/,/,    FAQ additions/improvements.,/,/
+00ce70bde132c79196434a2a80421f6ceeca94da,/,/,    Log on debug level what was the TemplateLoader called with when looking for a template.,/,/
+0dbf5326d4d9efb15d6892ebb8e10077dd6177d0,/,/,    Improved TemplateNotFoundException message  and some other toString-s.,/,/
+e00f336fa56fd6475e2e957161df117ec6ad7ae6,/,/,    Made TemplateLookupStrategy an abstract class - more future proof. Also made named classes out of some nested anonymous classes  because it's nicert in error messages. Also defined toString for some of the standard singletons.,/,/
+48ec4f0185943195052c4a3ba4000fac0a1b2fb0,/,/,    Test cleanups (static imports  use Hamcrest more),/,/
+964df6aac2c03d85305615d9a87206d76f1f300d,/,/,    (Added missing copyright comments),/,/
+328731b6de6198d5fda8b36bf35e133828596a65,/,/,    Disallowed backlash in template names with TemplateNameFormat.DEFAULT_2_4_0. Thus instead of uninformative TemplateNotFoundException  the user will get a TemplateNameFormatException that explains that "/" should be used instead of "\"/,/,/
+e1d4f87a0f6a768eb473fca4f84e3c6f9043fd02,/,/,    Added new Configuration setting  template_name_format (Configuration.setTemplateNameFormat(TemplateNameFormat)). This allows specifying the naming rules used by FreeMarker. For now  custom implementations aren't allowed  and you can only chose between TemplateNameFormat.DEFAULT_2_3_0 (the default) and DEFAULT_2_4_0 (recommended  at least for new projects). DEFAULT_2_4_0 has several advantages  but isn't fully backward compatible (though most applications won't be affected). For typical mistakes like backing out of the root it gives MalformedTemplateNameFormatException with explanation instead of a generic TempalteNotFoundException. It allows scheme names to be terminated with ":" alone instead of with "://"  like in classpath:foo/bar.ftl. It fixes numerous legacy glitches (bugs)  mostly related to the interpretation of ".." after special steps like "." or "*". See the full list of differences in the Java API documentation of TemplateNameFormat.DEFAULT_2_4_0.,/,/
+4f5df22619aa11ce72f4b15e27ef84fca0dfb5e2,/,/,    Better class name display in the toString of the standard TemplateLoader-s.,/,/
+07513e2992a73fb134fe55f58f22fb909fd0e0e6,/,/,    (object_wrapper javadoc update),/,/
+e21a8d82791c9a7a33f1ca69baaa14b8c0415f60,/,/,    When using properties-based settings: object_wrapper=legacy_default to object_wrapper=default_2_3_0. Also many cleanup and new tests for the Configuration settings API.,/,/
+34d9151438bda2c19bacf6bc6bd773b4937d0b95,/,/,    (Manual Version history adjustment...),/,/
+237e4707b1383146470f2c1f975a4a6451e2fbfc,/,/,    Added Configuration.unsetXxx() and Configuration.isXxxExplicitlySet() methods for several settings. For Properties-based configuration  added "default" setting value for some setting  which calls unsetXxx. With incompatible_improvements 2.3.22 object_wrappe=default also calls the unsetter now (but also added object_wrapper=legacy_default). Added template_name_format to setSettings(). Fixed incompatible_improvements change tracking issues with 2.3.22.,/,/
+232be99fd6d66c31322e99685cfffb89d518fa28,/,/,    Made the default TemplateLookupStrategy conveniently accessible as TemplateLookupStrategy.DEFAULT_2_3_0.,/,/
+e1a6db78fa30c1ef464fe5681f85433c0f4313ee,/,/,    Working on new setting: template_name_format. Not yet finished...,/,/
+fa777b2952635402a9eeb259f8641e5b8d961643,/,/,    (Some minor JavaDoc improvements.),/,/
+e3ad7e6c71b7b683070e9aa914277d9dbbcd3907,/,/,    Added protected methods to FreemarkerServlet to make the default values of metaInfTldSources and classpathTlds be overridable in a subclass.,/,/
+f598f2140b29bacd61aa6ac67e4b4a7cb6572593,/,/,    Removed/modified new features that will possibly interfere with future developments: Envronment.getCurrentTemplate() removed  DirectiveCallPlace.getTemplate() replaced with getTemplateSourceName().,/,/
+caeccda7d74bf54627078153d5be3f06d55cfbc9,/,/,    Bug fixed: Changing the value of the localized_lookup setting now empties the template cache  so that old lookup results won't be reused.,/,/
+9dc0a4b200b9092b0ce1bb1e45584645257aa592,/,/,    Configuration.getTemplate(...) overloads now accept null for the locale and encoding parameters  in which case they use the same defaults as the overloads where the parameter is omitted.,/,/
+e638aba137142fc07549cbfe9723b8a0bc9e15c0,/,/,    Finished customLookupCondition feature. From the version history: Added new Configuration.getTemplate(...) parameter  Object customLookupCondition. This parameter can be used by custom a TemplateLookupStrategy to deduce the actual template name(s) from the requested name (similarly to as the default lookup strategy does that based on the locale). For example  on a multi-domain Web site  one may want to define some templates that are specialized to a domain  and thus use the domain name as the custom lookup condition. Then  when foo.ftl is requested  a custom TemplateLookupStrategy could first look for @somedomain.com/foo.ftl  and then for @default/foo.ftl.,/,/
+6b0a6985e5192401801d7e99e052f44d431ad1a1,/,/,    Get rid of TemplateLookupStrategy.DEFAULT; too inflexible  could become a BC burden in the future.,/,/
+fe675433f853ec6a0d013d188eca9375c88523db,/,/,    Nicer WrongEncodingException. Some related tests  also some more Template constructor and encoding related tests.,/,/
+87d21f4d89fa54de93ba9a968ecae49edfed70f8,/,/,    Has put back new Template constructor overload with sourceName parameter  removed setSourceName. The parser already needs the sourceName for the error messages  so it's too late to set it after the constructor has ran.,/,/
+309e941f132c5ea90f43e864d00ba760dd1b443d,/,/,    Started working on customLookupCondition...,/,/
+a212496b550035fbb4bda6887f8cae1c9eb66a6a,/,/,    (Fixed version history entry for sourceName),/,/
+4b9b8b2b93ddc002a52c158d2d3300eb03d98bc4,/,/,    Reverted new Template constructor overload  made a setter for sourceName instead.,/,/
+ac707932505ff4e55102e317b2c97d8a54c7d2a7,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+d39e55ab745d2799c998fb390b1a81023a78125c,/,/,    (JavaDoc: TemplateLookupStrategy and related  updates/fixes. Some visibility fixes.),/,/
+e7e39a396d6ee499e519e4b670ffeee9e5f01346,/,/,    Refined new TemplateLookupStrategy API: lookup return values can't be null anymore.,/,/
+51b62cca32d8394edeb7a0c28cb016747fea8383,/,/,    (Stricter Eclipse null checks),/,/
+0162581713c6442c9655c2cff2fd3a6cbcbf6ad6,/,/,    (Cleaned up some weird null handling.),/,/
+d8998021ab0f111151bc5277a6c21dee51d5e4f6,/,/,    (JavaDoc: More explanation for TemplateLookupStrategy.),/,/
+c7d9690ba655efb68ba7e7b787324893503ccc78,/,/,    Require normalized path for TemplateLookupContext.lookupWith...,/,/
+cf7de666f2ce65b0542710d457dc8568d68c55ed,/,/,    Added TemplateException.getTemplateSourceName()  which corresponds to Template.getTemplateSourceName(). Also added some more tests.,/,/
+133ce0c9d3ac06987679bc7e8ae8594cec563ef1,/,/,    (Outdated JavaDoc fix),/,/
+a761fe818318038af999f650a2c3d7964559ed64,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+21da7e7d022188435b70a8cf1cad925680b36dc1,/,/,    Several related changes: (1) Bug fixed: When localized lookup or template acquisition has kicked in  error messages have still quoted the name used for requesting the template  rather that the actual template source name (like foo.ftl instead of foo_en.ftl  when the template was get as foo.ftl  but behind the scenes was loaded from foo_en.ftl).,/,/
+2d6f40ad9a73f84bd1b8b5d1af037ba6ca75f87a,/,/,    Added new Configuration setting  template_lookup_strategy (Configuration.setTemplateLookupStrategy(templateLookupStrategy)). This allows customizing what TemplateLoader-level names will be tried when a template is requested. With this you can define a custom localized lookup sequence instead of the default (which looks like: foo_de_LU_MAC.ftl  foo_de_LU.ftl  foo_de.ftl  foo.ftl).,/,/
+404cfe76d8f0e832d1f9b5b05de5d6579ac01c88,/,/,    (static final logger -> LOG),/,/
+23015ca9dd820ba9adb08b3fabc6219243f3181c,/,/,    (Warn about turning on ?api support in the error message.),/,/
+61a07cf1b067c78218c3316543f59f68464a8413,/,/,    (Improved cache log message formatting/wording),/,/
+fdff05f31ca4d7002548fabb7b2024b4e5b30d06,/,/,    (Deleted commented out code),/,/
+39225f786df0fc466b4ee11efb7349c6c9318bb9,/,/,    (Renamted PROPERTY_NAME_LOGGER_LIBRARY to  SYSTEM_PROPERTY_NAME_LOGGER_LIBRARY),/,/
+641bd4345bcf845efc50099617d87dff376e6986,/,/,    Bug fixed: If you had multiple FreemarkerServlet-s with different configuration settings in the same servlet context  that could lead to malfunction. (Normally  you only have one  just like there's only one servlet that processes *.jsp.),/,/
+5647aa8993e113638062e4fbb911a4b5979db8ce,/,/,    (Merged EL function tests into the basic JSP test webapp),/,/
+bfd9901c6d83c9d7dce870c9d547cba738edbfbc,/,/,    Made TLD scanning more durable: always skip wrong TLD-s  but show the list of earlier skipped TLD-s when a taglib resolution fails.,/,/
+3f285c6d2dcc8403586e975204a6b97a5b62d55f,/,/,    (Smaller adjustments in FreemarkerServlet error handling.),/,/
+20afbb175264267f6812e09be4f343cff15a0d0b,/,/,    HTML_DEBUG and DEBUG TemplateExceptionHandler output now contains a warning like "HTML_DEBUG mode; use RETHROW in production!"  due to frequent misuse.,/,/
+27f90988f509efa75bb0ae1f0e1be988b400cadb,/,/,    Cleaned up debug TemplateExceptionHandler handling in FreemarkerServlet.,/,/
+98e7eaa1b5e2b9cc0673b3eed25624583a4202af,/,/,    (FreemarkerServlet error handling: documentation and test adjustments),/,/
+71f084cc81b1953931d9e1eee1269e44cee8567f,/,/,    (Version history cleanup  also added some missing entries.),/,/
+0254311a9535c44a15b4d8dac4990a711f827577,/,/,    Added new exception  TemplateNotFoundException  which is now used instead of TemplateNotFoundException when getting a template. As it extends TemplateNotFoundException  this change is backward compatible. The main goal was to counter the common misunderstanding that template paths are real file paths.,/,/
+013bb6da1157873be27652de42f0f288c36b69fc,/,/,    (Added tests for the fixed FreemarkerServlet default customizations),/,/
+e916e8035d384d7c9e6210e8386a6ceebb276447,/,/,    TemplateClassLoader cleanup: More self-explanatory toString() output  added parameter getters  etc.,/,/
+a541d2a02804b0c49730129ecfe4ebb4e05e45e2,/,/,    (Fixing bizarre build issue because of an import used by JavaDoc only.),/,/
+00926663d7c4bc7c9fd978d4123a7e17d29c2168,/,/,    (Additional FreemarkerServlet template loading tests),/,/
+dc7977532fde0287c288aaf1d6b3235a5919e7a0,/,/,    The TemplatePath init-param now supports a new kind of path  that looks like classpath:com/example/myapp/templates. This is similar to the old class://com/example/myapp/templates  but it uses the Thread Context Class Loader of the thread that initializes FreemarkerSerlvet  and thus will work even if freemarker.jar is not local to the web application. class:// had the problem that it uses the defining class loader of FreemarkerSerlvet itself (or of its subclass).,/,/
+247edc68acff7f3fb446e59be27347e1a3b0a677,/,/,    ClassTemplateLoader now can be created by specifying a ClassLoader directly  rather than by specifying a base Class. That is  now there's ClassTemplateLoader(ClassLoader  String) constructor  and also a Configuration.setClassLoaderForTemplateLoading(ClassLoader  String) method.,/,/
+00b4118079f14a0cb32bed9df06ab536ee89f583,/,/,    (Manual typo fix),/,/
+699ffebb5c9ac2debd70be841b0cc3cad32dcec7,/,/,    (Accidentally commented out some tests.),/,/
+a96e4349bb84f7c4e79d38a3a94d80d2292398ea,/,/,    Bug fixed: Defaults set in an overidden FreemarkerServlet.createConfiguration won't be accidentally overwritten by FreemarkerServlet's factory defaults anymore. This was a problem with theses settings only: template_exception_handler  log_template_exceptions  object_wrapper  template_loader.,/,/
+c12e280201c0822d42fcab47e64963ab2cf07865,/,/,    Started working on better FreemarkerServlet error logging/handling,/,/
+445e37e303696a0187110fc96497c69c44b3090d,/,/,    New configuration setting: log_template_exceptions (Configuration.setLogTemplateExceptions(boolean)). This specifies if TemplateException-s thrown by template processing are logged by FreeMarker or not. The default is true for backward compatibility  but that results in logging the exception twice in properly written applications  because there the TemplateException thrown by the public FreeMarker API is also logged by the caller (even if only as the cause exception of a higher level exception). Hence  in modern applications it should be set to false. (Note that this setting has no effect on the logging of exceptions caught by #attempt/#recover; those are always logged.),/,/
+6339f31e8587d11c9b3ddf4a5518376dbf54b646,/,/,    Renamed SimpleXxxAdapter -> DefaultXxxAdapter  after all  they implement all the fancy interfaces  etc. Improved/fixed javadocs of DefaultObjectWrapper and related classes.,/,/
+6604a9430b912ed7cc6434ca63d0a3f3fcf3d687,/,/,    (Smaller cleanups around new ObjectWrapper stuff  one more test),/,/
+3ddcebbd10de7f315c505b4b560e714737563f3d,/,/,    SimpleObjectWrapper now sabotages ?api. Also added some SimpleObjectWrapper tests.,/,/
+e9468196c4b15836b7daebc2c7d7d2ca1ac7590d,/,/,    (Random FAQ updates/fixes),/,/
+c4a9c057e4b8ad80b4bca0896c49625dfc0f8f92,/,/,    Continued ?api: Pure-BeansWrapper-wrapped values now support it  documentation  tests.,/,/
+22b1a1fa16a8bfcc84fc4c2b9a24da07e456c90f,/,/,    (Better DefaultObjectWrapper.toString(). It has importance as it's shown in some error messages.),/,/
+62f87c377bf3de83a2b6a6ba6435952c3cb47dd0,/,/,    Working but not entierly finished implementation of the ?api built-in. Excerpt from the version history:,/,/
+e8f1a1a20d5061fdd3c43f157ed31117fbc364d5,/,/,    (Removed some old TODO-s),/,/
+e3541b763653d1450b73c778e04b42ac282f8d83,/,/,    (Changed useAdaptersForNonListCollections to forceLegacyNonListCollections. It's kind of the opposite  but not exactly  as it only has effect if useAdaptersForContainers is true.),/,/
+6c5488e01b5df51b61e419ea0a9947b30bca0d40,/,/,    (Some more object wrapping tests),/,/
+7dab10d15f2ccdb087cb2f5a73fb57e57e3c2aef,/,/,    (Manual: Added example for custom TemplateModel and DefaultObjectWrapper customization),/,/
+63f76e7c0b4c97bace39f6e880c413c96673f102,/,/,    (Added overloaded test selection tests with DefaultObjectWrapper(2.3.22)  described related migration risks in the version history.),/,/
+d88baf9aaa54af162c77300912e9535d0d4b7c69,/,/,    (Manual/JavaDocs: Improved/updated object wrapping related parts),/,/
+c96e72542174304649b8fe8e2ccf1b017517b547,/,/,    (Manual: Updated incompatible_improvements samples to 2.3.22),/,/
+b0f67b827064274d63f82f9a8c681f6c2da6116b,/,/,    Avoid extra Map lookup(s) when BeansWrapper.nullModel is null.,/,/
+fc2e5ac9158a424b204593c2cddd2f958644cea8,/,/,    (Require unwrapping functionality for most SimpleXxxAdapter's ObjectWrapper. Added some missing JavaDocs.),/,/
+8a99f031878df1c2f73dc8b01c1e802ab7930bd5,/,/,    Evolved ObjectWrapperAndUnwrapper interface further  put it in use in JSP extension,/,/
+6cdb00f738b4bab51f69949c508ede87e4ebd4fa,/,/,    Improved FreemarkerServlet tester infrastructure  also added tests for ObjectWrapper - Page-scope-attribute interactions.,/,/
+591df1a0e7f0639e31be64b3aca5b0e71a3f5fc8,/,/,    Nicer canonical form for hash literal expressions  also meaningful toString for the corresponding TemplateModel,/,/
+9d33a65f428a2734df6b3c1305671025f05c0580,/,/,    (JavaDoc / Version History updates.),/,/
+6c74bf2d486a2771b1faa4598457a07facdb463c,/,/,    - Bug fixed [372]: ClassCastException when a SortedMap (typically  a TreeMap) is wrapped with DefaultObjectWrapper and then a 1 character long string is get from it that doesn't exist. To fix the issue  if the wrapped Map is a SortedMap  DefaultObjectWrapper (SimpleHash  to be more precise) won't try to fall back to a Character key after with the String key it has got null. (This change should be backward compatible  because when a SortedMap has Character keys  the initial attempt with String key causes ClassCastException  thus  such SortedMap-s were never usable as FTL hashes.),/,/
+c7ecd93edd7f7a7b0587c0592b51b4d5e5ddd3ec,/,/,    Added SimpleIteratorAdapter  which is again something that's only used with DefaultObjectWrapper(2.3.22) or DefaultObjectWrapper(useAdaptersForContainers=true). This fixes the issue where an Iterator (not to be confused with Iterable)  when passed to a Java method from FTL  came through as a dysfunctional SetAdapter instead of the original Iterator object.,/,/
+e48f387a969808d69baa001e7df3a85aad6eb332,/,/,    (More version history info about SimpleAdapterXxx-s),/,/
+4ae4f3ad5772b5b5b625dc9c00aff63b32a6a510,/,/,    (Some random SimpleAdapterXxx related cleanup/javadoc/tests),/,/
+ceeef6ad4a3876a63e603bfb7ff46ebd679a3495,/,/,    (More organized 2.3.22 version history),/,/
+6fc57f2d280980087b90d88c6ec02954b885ded5,/,/,    TemplateCollectionModelEx  ObjectWrapperAndUnwrapper  DefaultObjectWrapper.useAdaptersForNonListCollections  SimpleNonListCollectionAdapter (see excerpts from the version history below)  also some cleanup of the new SimpleXxxAdapter-s and some better test coverage:,/,/
+447387265a4f22245c322e80922a4dd90f657848,/,/,    Manual: More detailed description of the DefaultObjectWrapper change (new adapter approach VS legacy copying approach),/,/
+a35497cb39ba44f243f8720b3c87916703885ff5,/,/,    Removed Emma from the build  hence speeding up and simplifying `ant test`. One can use EclEmma (which BTW doesn't use Emma  but JaCoCo) from Eclipse.,/,/
+d6a7d44170c99f2f9ebb6c0c58cad389636da960,/,/,    DefaultObjectWrapper with its incompatible_improvements set to 2.3.22 or with its new useAdaptersForContainers setting set to true doesn't copy Map-s  List-s and array anymore when wrapping them to TemplateModel-s  just puts a TemplateModel adapter layer over them. The wrapped values will be instances of the new SimpleMapAdapter  SimpleListAdapter  SimpleArrayAdapter classes  instead of SimpleHash-es and SimpleSequence-s.,/,/
+ad16868922b968fa98b547b1d291a790d3687410,/,/,    Extended previous JSP PageContext.getAttribute unwrapping for sequences and hashes. Reworked the mechanism so that if BeansWrapper.IcI >= 2.3.22 then it uses BeansWrapper for unwrapping  rather than copying the unwrapping logic and then later go out of sync (as it happened).,/,/
+f2551b2d0aceb4bbf5a649e293d1edf330a34448,/,/,    (Minor exception class adjustment since we are on Java 1.4 now),/,/
+9c638804a1ad91739eec96de55ece6c6eeb412b6,/,/,    Bug fixed (only active with incompatible_improvements set to 2.3.22 or higher): When a date/time/date-time value was put into the JSP page scope as an attribute (via #global or via the JSP PageContext API) and later read back with the JSP PageContext API (typically in a custom JSP tag)  it may come back as a freemarker.template.SimpleDate object  rather than as a java.util.Date. (This has occurred if the value was created directly in FTL  or if you are using DefaultObjectWrapper  not pure BeansWrapper. The origin of the problem is that FTL had no native date/time/date-time type when the JSP taglib extension was written; FTL numbers  strings and booleans were always transformed back to plain Java types. It's highly unlikely that something expects the presence of this oversight.),/,/
+5a446570a98343a69e66ad6d50ddc85f695cffb2,/,/,    (Little cleanup...),/,/
+f287c9cd771018f98186d5b28f95453b93d52f6b,/,/,    (Fixed possible multiple warns logged instead of one  due to concurrency issues.),/,/
+df658a5a6adf04c754c8b2ec15b8a6693f8e8b9b,/,/,    (Continued JSP scope attribute tests),/,/
+c85b378b474ff35ae586e48e54d921fb05e59dd1,/,/,    (Added some test to test JSP attribute scopes.),/,/
+dc3fbb8f9dfb754087562373a7d5101780391f7f,/,/,    (Continued cleaning up JSP tests.),/,/
+ccedc3f4398c70a7a3d57ab1fce82a554c276bd6,/,/,    (Continued cleaning up JSP tests.),/,/
+e981503e6c51951e9b1ec41e3a60ff1660ac3ff2,/,/,    (FreemarkerServlet logs warn when wrapper != config.getObjectWrapper() - a sign of wrong class extension),/,/
+ac3239b7fc2e1d06f657c2c7e011201857cc4e9c,/,/,    Added new overridable method: FreemarkerServlet.createDefaultObjectWrapper(). This can be used for what createObjectWrapper() is usually overridden for  but without unwillingly disabling the processing of the related init-params (like of object_wrapper). Also updated the JavaDocs to push the user to the right direction.,/,/
+085c6e46278c0469d90641440b5def54aeb081c4,/,/,    (Fixed minr glithc in #list FTL stack trace  also clean up code a bit),/,/
+5b19aee3aa4adf612b74700fd8b6d3bd4b768287,/,/,    (Fixing outdated JSP test reference output),/,/
+1c359ed919084a016e47ddb6b737c0ffe463fb95,/,/,    Better error messages when custom tags throw exception (more information  also less repetition when custom tags are nested into each other and the inner one fails),/,/
+8341673e4ed471814b7dadc6b2005ed40cafcb60,/,/,    Bug fixed: Error message was unhelpful when there was a type mismatch between the actual and the expected type of a custom tag parameter. This was a very frequent problem of users who call JSP taglibs from FTL (the typical "java.lang.IllegalArgumentException: argument type mismatch"  without any FTL context). Now it's a proper error with explanation  solution tip  and FTL error position/quotation.,/,/
+68ee63335dcd9c2541b2f9dc33635720b7f13a2e,/,/,    Added new init-param  BufferSize. This sets the buffer size via HTTPServletResponse.setBufferSize() if the response state still allows that.,/,/
+d9d73ce8f0b70879cdd0d4a7b90268abfbc5ae47,/,/,    (More tag library EL function tests.),/,/
+56fa068fab24beb2c5f7a09a55b12f4cb4ece353,/,/,    (Test logging adjustment),/,/
+16d87dcbfbb8d79fbb768f1a620987dd7b1a6d04,/,/,    Bug fixed: Leading and trailing whitespace in TLD-s inside the name and tag-class elements is now removed.,/,/
+3286f19e27a04aacc024f3e7cc4e969ea89f69dd,/,/,    (Manual: More helpful Logging documentation),/,/
+766f1a6226729dfff2f3f3b3aabf075fe5d7335d,/,/,    (Started test case for the EL function support.),/,/
+44064853b12d426c69afea27064dd8fc536020b4,/,/,    Improved/fixed FreemarkerServlet initialization error messages.,/,/
+c390f99dcbd32a89ba198929293518e4812d6d34,/,/,    Removed all the xsd files (web-app and taglib schemas) from the FreeMarker artifact and from the XML entity resolver  as they were unused during XML parsing.,/,/
+916924a314f391c1ed49e6f03d739b0e23cd2c03,/,/,    (TaglibFactory: Some better error messages and more test coverage.),/,/
+12ed80574d77b90d639b1ead55c2d26c2026da8d,/,/,    (getCurrentDirectiveCallPlace: JavaDoc improvements.),/,/
+535f9623c341733c6383657dcbe94307d81371c4,/,/,    (getCurrentDirectiveCallPlace: Fixed bug with @ that calls a macro.),/,/
+73dea3862a43a5f2fd470edc25868e6afa77000e,/,/,    (Changed getCurrentDirectiveCallPlace to be null when called inside from the nested content  so that it can only be used from the called TemplateDirectiveModel itself.),/,/
+bada9a4a4f71c1924e1c6ce311dc6c0f6d34032e,/,/,    (More tests for the DirectiveCallPlace feature  some JavaDoc improvements.),/,/
+bbca1e2f6d8ad713e6cf37e40e1f6b5bdef36506,/,/,    (More/fixed tests for the DirectiveCallPlace feature.),/,/
+c3ac3476a69e7ba298da9534b764cdc9246e6f6a,/,/,    (More/fixed tests for the DirectiveCallPlace feature.),/,/
+1dfe4e3bd5c3529f0df0e3064af99df38ba1843e,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+f785fb7f66467f2160285392d30a42433084b7c5,/,/,    Added Environment.getCurrentDirectiveCallPlace()  which returns a DirectiveCallPlace object when called from a custom directive (i.e.  from TemplateDirectiveModel.execute()). The DirectiveCallPlace objects lets you query where the directive was called from (template  line  column). It also lets you associate an arbitrary object to the directive invocation inside the template  which can be used for call-place-bound caching (like the minification of non-dynamic nested content). See DirectiveCallPlace in the Java API documentation for more. (TODO: More tests),/,/
+d15ca6a696c16fa5fc658ac09c7780de2898dfb0,/,/,    (Member name typo...),/,/
+6bfcc860c8d639755b886f26c6af3aa5daa685f1,/,/,    (Adjusted test Logback settings.),/,/
+2d385e96fe473f656dc704ffd2fb85ff8b61202e,/,/,    (More test coverage for the org.freemarker.jsp.metaInfTldSources system property  some minor test code cleanup.),/,/
+5a696156b0f3ce3cccb6c784070f9e72104c46d9,/,/,    Some tests for non-absolute taglib URI resolution  also fixed preformance issue where it haven't used the taglib cache.,/,/
+310b58b390216626bcc83e07d2ea59f059941d57,/,/,    - Bug fixed: Now *.tld files are searched in WEB-INF/ and in all its subdirectories recursively. Earlier they were only searched directly under WEB-INF/  and WEB-INF/lib/.,/,/
+52abc1b03601b948fb0f26c38acce481625c06a0,/,/,    (Manual: Typo fix),/,/
+7720dd13dec68b829afb35bdd8f057e89036a99c,/,/,    Documentation updates and fixes around "MetaInfTldSources" and FreemarkerServlet.,/,/
+f1d00b8bd76a65727cb2e1e3d31defc3927947f9,/,/,    - More flexible "MetaInfTldSources" init-param instead of "ClasspathTaglibJarPatterns" (removed). This can find TLD-s both in jar and non-jar classpath roots (like the Eclipse "target" directory). Manual not yet updated.,/,/
+63fa72bf05172e6dfb2d3fca6f92c5af887830e6,/,/,    (Some code cleanup in #339  FreemarkerServlert to load TLD-s from plain classpath),/,/
+4eb088af3dd94fbcbee8ad875b234b399f5603a3,/,/,    (Manual: #339  FreemarkerServlert to load TLD-s from plain classpath),/,/
+5d16acbeba2570a838dd86e5af20476dfee15d4f,/,/,    (Some more test coverage for #339  FreemarkerServlert to load TLD-s from plain classpath),/,/
+7d5c56b657cb3f9338d02c9fb1026a77df16c4b1,/,/,    Added simple tests for FreemarkerServlet ClasspathTlds and ClasspathTaglibJarPatterns init-params.,/,/
+e5ccc94b24eea10fa41159938cb6faa9a7e35cd3,/,/,    Old mock JSP tests modified to run on embedded Jetty.,/,/
+1fcb66e16403381e49132ca58c1c85e2080e5b0e,/,/,    #339 FreemarkerServlert can now load TLD-s from plain classpath via the ClasspathTlds and ClasspathTaglibJarPatterns init-params. Not yet tested or documented.,/,/
+971e9fa339bb9320ba74a4be2704686b31b8d79c,/,/,    (Manual: Fixed Docgen validation error.),/,/
+a6a0384dd477f2c8080bb9d3ee6c3587c1f2fe6c,/,/,    (Template cache log message touch up),/,/
+2d51dcfd7b3ba7599c6a4f066ea6148813113dd9,/,/,    Refactored JSP taglib factory: Preparing for non-ServletContext loading (unfinished)  much cleaner code  minor performance bug fixes.,/,/
+9e4d5ac12623c11f6b2b6c2e02e7f7c88b791e7d,/,/,    (Fixing marginal API compatibility breakage),/,/
+8ae8ea497e7175fb1737700a70971fe7909c1687,/,/,    (Missing "since"-s),/,/
+3446f77494062eea0d78c1453eaada4712d176ab,/,/,    (Manual: Fixed bug number),/,/
+23211d58d7f63175be98b171915fb486d34dfcc5,/,/,    (Minor fixes/improvements regarding logging when system properties can't be read. Tested with applets.),/,/
+88c8602c776067a4a98791417d89cd4bcf869aee,/,/,    Choose SLF4J instead of Log4j during logger library auto selection when Log4j is actually log4j-over-slf4j.  Also fixed many rough edges in the refactored logging facility.,/,/
+3a2de430a988b08449124bd8cd22b2cdd94200ec,/,/,    (Fixing errors caused by barely started TLD loader reworking.),/,/
+dc3477a30d7e1a17dfe7d5507cf3614902b7c7db,/,/,    Logging cleanup and org.freemarker.loggerLibrary system property.,/,/
+9936313fb3312c7b157a575875d3a9bddb0b622e,/,/,    FreeMarker doesn't fail anymore when it's unable to read certain Java system properties  it just logs a warning and goes on with a fixed default. For example  if it has no access to the file.encoding system property  it will log a warning then assume "utf-8". Reading system properties is very rarely and issue  but can happen in security restricted environment. TODO: bug #129 (applets) will still fail.,/,/
+907889c045a22fe2a3a8bbf67fc09dbfa8a3af58,/,/,    (Manual: servlet  set explicit locale in example),/,/
+1e58eb41ced162c78d624c2e8dc619bd3ff06368,/,/,    Started working on better TLD searching...,/,/
+48e17531c6ce7fcefa603cacc207649679bb39fb,/,/,    (JSP test infrastructure: More permissive TLD searching in classpath jars),/,/
+dc4ca84b5ad27034d39fbba92b657de07e76f5cd,/,/,    Continued test infrastructure for testing with embedded Jetty: fixed JSTL issues  better white space normalization.,/,/
+91c1c1d9e7b451a5919b0acdfa62d2ada735607d,/,/,    Continued test infrastructure for testing with embedded Jetty.,/,/
+034a3f7dd0e2a605384eeffe21c939cdef076aa2,/,/,    Added test infrastructure for testing with embedded Jetty  rather than with mocks.,/,/
+b8227fac196673c3ca3270474db829c9a55a5674,/,/,    (Ivy test dependency clean up),/,/
+51c4c5ecab816c60e6f0580535ce6c5cb8ddc98b,/,/,    Better TLD parsing error messages  fixed NPE-s on invalid TLD-s  fixed class loading Error catching  some clean up of old code.,/,/
+d130d9910cd67cbe0fb26c33a0a70a33734ff997,/,/,    Fixed broken SAXParseException toString and getCause when parsing TLD-s.,/,/
+6c07e760422a723bd3bf3dea873b2a54a2be8404,/,/,    (Some comment / code formatting cleanup),/,/
+da2a26a1fb3ded968692a325f0ccf215274e2028,/,/,    Fixed NPE when the TLD is loaded without ObjectWrapper,/,/
+9f2a97edb728b98b90d1537872777227843e4b8e,/,/,    (Some comment / code formatting / Manual cleanup),/,/
+7becfc29db72859d4bfcad1a964f3fd3904ad390,/,/,    (Manual: Better JSP-to-FTL example  some updates.),/,/
+91cda83f4ea128cdbab5faaf1e03dcdb3d93ee56,/,/,    (Manual: version history fixes),/,/
+e5c9e6a598fb8a5a2b55b28db5bfe2bcdbdeeae9,/,/,    Taglib EL function feature modification: SimpleMethodModel constructor doesn't become public. Version history update.,/,/
+8a70302c5f20a69ab3fa3d0c0b99f5007756b978,/,/,    Added some JSP custom taglib EL function call tests,/,/
+971c6c3fae31d476d19f2ddf186a2c83c07a0855,/,/,    (Moved JSP tests around a bit.),/,/
+c1b50434ff2dc1a5ab386bdefdc38f31b4af9979,/,/,    (Manual typo),/,/
+7e81a04faaedfdeb80729c6ce16b602d122d6c4b,/,/,    Moving taglib related utility methods into ext.jsp. Some exception improvements.,/,/
+3ab7b2e491278482a19c8f3a1f87f4f8e429106a,/,/,    (Fixing compilation error due to a RC2-to-final change  also a JavaDoc error.),/,/
+2a3616006afd7e6e33538e1da00224b5157c99a2,/,/,    Merge pull request #13 from woonsan/jstl-function-support,/,/
+3a90b65a41a781d90b3e523c01d4d70b768619f5,/,/,    Better error message when wrapped ResourceBundle throws MissingResourceException.,/,/
+96cb2a073dd3b974b7a0e044d79673b0f18c207a,/,/,    (Manual: Easier to find/understand catch-all parameters),/,/
+872396e7b4be4ab2f4e3a66521eb6c918096d633,/,/,    Added Environment.getMainTemplate() and Environment.getCurrentTemplate()  deprecated Environment.getTemplate(). These can be useful for directives and methods that are called from templates to find out which template they were called from.,/,/
+85ace66f5925c39c0b293e2628d7267e0131e544,/,/,    Continued Environment.getTemplate tests,/,/
+7aa570e24056ba6619e486fcfeeea573e69086c6,/,/,    Continued Environment.getTemplate tests,/,/
+8ac8f722835ca0bcc011bd794828f58de894059d,/,/,    Macro related source code cleanup,/,/
+931f8e5f9e5781fcc0ac8c06d8a7b0594e30be25,/,/,    Started Environment.getTemplate tests,/,/
+09c28e3d11394dd6a261ea8611cb6819cca7cc01,/,/,    (Fixed mistaken new_builtin_class_resolver JavaDoc),/,/
+b9690f9ca795df052fc1dbeaa8f2cd7a152489e6,/,/,    Manual: More detailed boolean_format  documentation.,/,/
+b8530944201df2aaa88b3d03de90b7ec9f92cabf,/,/,    (Some minor build improvements),/,/
+da9ce36f7bb84fc0077928ed17f1d7cec5c1e536,/,/,    (TemplateTestSuite: references -> expected),/,/
+a622c2f6da218cf606a4912180a96b1b4d24a5c1,/,/,    TemplateTestSuite streamlined for multi-IcI tests,/,/
+54fbfa605e8fa57e1bcfddc3d4b1b56e16ea0248,/,/,    TemplateTestSuite DTD cleanup,/,/
+7dff35055a933979619fcb6f083cbe2f9a93154b,/,/,    TemplateTestSuite runs test cases with both 2.3.0 and the current version.,/,/
+3d2b1a30ac9440ba303baebf47e1cb1a6f99392e,/,/,    (Error message typo),/,/
+13bd680a84e0dd5a89db0569735f3147beb09bca,/,/,    Bug fixed [145]: Active only with incompatible_improvements set to 2.3.22 (or higher): #include and #nested doesn't change the parent Template (see Configurable.getParent()) of the Environment anymore to the Template that's included or where #nested returns to. Thus  the parent of Environment will be now always the main Template. (The main Template is the Template whose process or  createProcessingEnvironment method was called to initiate the output generation.) Note all this only matters if you have set settings directly on Template objects  and almost nobody does that. Also note that macro calls have never changed the Environment parent to the Template that contains the macro definition  so there's no change there now.,/,/
+0d70cf80b7138c48660af2a177c8e1bed00f08d4,/,/,    Support choosing default incompatible_improvements for the TemplateTestSuite,/,/
+aaf57c85fc237ce1149b02e6f998cd625d1f34cd,/,/,    Updated version number to 2.3.22-nightly,/,/
+d0a915be0bf79b0fbc4d4320805edd37ed66253c,/,/,    #220 JavaDoc fix.,/,/
+440080b6f78c74ad4c873a6a642439556405d91e,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+92c927d244d2843a1671fff3fccc565e14967e32,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+bfea6378f8d953f9ff53b87dc2475d029ecb6ccb,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+833ed2f73d1654b2561aeadba03b4cc8947bef6b,/,/,    Deprecated TreeNode-related methods.,/,/
+3e45864727874eec8d6c8cb9a8c79d0a248a9393,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+8209c2c99202d0b95c2908c40eb2ed7f7384f9bd,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+87c701e3d22e4abc12c6f1c891e639f30cebefe1,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+6fd8351a2314cb1529a3d00c34c68b08ec733389,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+e3928c92cbad0df819e3cd0e8d8139a0a3b52a4e,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+116c0cce26cae1075b91de6f0ed1fb11c8b729f3,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+def812d76045f86a4b483cfd5770bc2509293132,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+602218a9a62478098c9b40a0b155e01dd5646376,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+b79833f697b8418307f9510496fe3a80d991e848,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+bc80187633249cd2af48381ea07b1783184bd7ab,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+053c6b8852e22a76f10c0bb7ccaa9c2232377b23,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+cb6d7f5a96186ac31e86fb0b925bb15f8e91c5a8,/,/,    Fixed the following:,/,/
+4cac5b32cf5c8a3750823120d5769be86c84c514,/,/,    Merge remote-tracking branch 'upstream/2.3-gae' into jstl-function-support,/,/
+e141bd3da34977a92e2a29430a1e6cd8424fdaed,/,/,    Fixing copyright header,/,/
+0469ed03306952c95e0ad610e1b6777cbc5c276c,/,/,    Supporting JSTL functions,/,/
+d40ddb682830df1d8cb0c680d8bd7fd3e1467a9b,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+83e586fd5f3010d993ebeb26f8514a18c0d5df4f,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+a8fd91565b87a6e938b50650b282e9d3816f2afc,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+0eb143d70627389a039bee600da1eef2524a5c34,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+a882f8d0de1ac01f26726867eb772148f5e648ab,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+2c648e4ae1de7942626356468ac78a47d44a12c2,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+e1c2a107f468af6841d474e3b5e581d5998388f4,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+8d51e5503d9bc0e89a185861f6c5213a9eb4e4fa,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+9afdcd2edeed7c11e922789bc3d75ebd22c93d82,/,/,    Merge branch '2.3' of github.com:freemarker/freemarker into 2.3,/,/
+fe20560c24cc9ca8283064bce653f20f04a15c40,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+1acc58d37e572cc9cf0897296860ae54ee4beccf,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+cde5eae6b7c701bf6604c59c2c8412a077cdf84a,/,/,    Merge branch '2.3-gae' into 2.3 (just to "document" that changes from the gae branch before this need not be merged),/,/
+ddff5e0a651a96e1537c4991476a37791ad6fc24,/,/,    One of the Java 5 method overrides wasn't commented out  and its return value conflicts with Appendable. This could cause problems.,/,/
+fdda30c7a32897e2e768a5e16f868e96dfdab674,/,/,    Fixing artifact name.,/,/
+08d5b523aee59196459d260e91de3ddbbed247d0,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+4a723fc1e89c3f258b00e6ee40ba3c60d076aa89,/,/,    Merge remote-tracking branch 'origin/2.3.24-gae-stabilization' into 2.3.24-stabilization,/,/
+4b8df1fd03c21495e646ac1721734811564317f5,/,/,    (Manual: Release date updated),/,/
+31920b4e16b0e6197a8c449c29809da13fb44d75,/,/,    Merge remote-tracking branch 'origin/2.3.24-gae-stabilization' into 2.3.24-stabilization,/,/
+af6f05ca307a9807af9ca30a8ee33c4da02842a1,/,/,    README adjustments.,/,/
+aa00a775f1fce304745b1fafb49b62cc18ac2278,/,/,    RELEASE-NOTES adjustment.,/,/
+1d4064d4adb349de6b040b2b8468f4d57a405548,/,/,    Binary release extracted directory name adjustment,/,/
+4bc1ce1898c8fd0078e4d6179b0e7b729659f785,/,/,    NOTICE content fix,/,/
+677cdf94231a4b8bb9ca864f50f75ce8aae0340e,/,/,    Missing copyright header.,/,/
+3f9de1c1918ff447f1f0b86f2f5dfa662b93794b,/,/,    Updating version number for 2.3.24,/,/
+9c68f4935f9ea013bb8f357d29ae391ed1db24f8,/,/,    Further Manual (and some JavaDoc) improvements  mostly related to template loading/caching and template error handling. These are mostly wording improvements  but some outdated parts were updated too.,/,/
+12c64ded99861bbd67b5026e577c6622fcc629f6,/,/,    Manual grammatical/wording improvements  and some minor clarifications.,/,/
+ac7a07ef17506aad136774c441f32e11e95eb1f9,/,/,    Manual Version history and JavaDoc fixes/improvements.,/,/
+974d66503b909751064ad2187515e95bfe3ea1c0,/,/,    Merge remote-tracking branch 'origin/2.3.24-gae-stabilization' into 2.3.24-stabilization,/,/
+021d95d2746616ea623a941bedec9120ff92b357,/,/,    (Manual: Ellipsis wasn't visible.),/,/
+a925da5dafec3db731bf41a75e755c42a3de00fb,/,/,    (JavaDoc typos),/,/
+da3b1a6811a3db1dff276b840c0147718bc9c4ea,FREEMARKER-16,Bug,js_string buit-in function escapes &apos;/&apos; for first character,engine,Minor
+6b51f59d54f149d655fcf912908e28af5e6eecb3,/,/,    (JavaDoc refinements),/,/
+416667cb17c8ac919846c09c5a51f4a1d1566b0f,/,/,    (Documentation typos),/,/
+bbbfbaece9c982dd658535a4680e83fe17d1d333,/,/,    Merge remote-tracking branch 'origin/2.3.24-gae-stabilization' into 2.3.24-stabilization,/,/
+b8e1d5e3f4bd6d50cdf4a6346777b2499a08c347,/,/,    Version history adjusted for 2.3.24 final.,/,/
+8ee5bc47eeb07594bb26e1dae31aa27a82c393e0,/,/,    1. Added MultiTemplateLoader.setSticky(boolean) and MultiTemplateLoader.isSticky()  with which you can disable the default behavior  where once a template was found in a child TemplateLoader  it will be searched there first next time (typically  when the template update delay is expired). With the sticky property set to false  the child TemplateLoader-s will be always searched in the order as they were added to the MultiTemplateLoader.,/,/
+cbf9457028c63b5fa31a4c375f1341de2af6713e,/,/,    Removed Eclipse project files from the source release (there are Eclipse setup instructions in the README).,/,/
+6c4888bfbd943a5abb890503202b0c3afb34d2b0,/,/,    Added Eclipse files to .gitignore,/,/
+62158399bc38ed75e3a4895413af7190fcdc2bac,/,/,    Removed all Eclipse files  instead  added an Eclipse setup guide to the README. It's written so that it useful for other IDE-s too.,/,/
+e4510739bae639366126dc3dc46e71b93aff4e19,/,/,    Test fix: Avoiding strange rounding difference on Java 8 (Double 10.305 0.## half-up is 10.31 on Java 6  but 10.3 on Java 8.),/,/
+738b16ba6b82d940402d7e130a9d00d213dd6bf5,/,/,    Removed @Override-s that aren't valid for (some?) Java 5 compilers.,/,/
+99d939c99ab062a3be8491f5f64100bcc931b100,FREEMARKER-15,Task,Unextract jar-s inside src/test  generate them instead,engine,Major
+ec3d4618bd1f69b79366d2b94fbd1362200db3fb,/,/,    Added note about copying ivy.jar to the Ant lib folder.,/,/
+b9ca91dd5c3b04121f5ddcb9f6194c1e7931ba2c,/,/,    Merge remote-tracking branch 'origin/2.3.24-gae-stabilization' into 2.3,/,/
+0c71d8f99323577d9683d924c51d617eb0346d15,/,/,    Added special NOTICE file to the jar META-INF  as the source NOTICE content wasn't exactly fitting,/,/
+46dc67858880427f802e2be066093284d1697cf5,/,/,    Merge remote-tracking branch 'origin/2.3.24-gae-stabilization' into 2.3,/,/
+34043caec030992774f2d7634898a46c9b54eddc,/,/,    More precise and readable font-related NOTICE section in the binary distribution.,/,/
+a34137028a5793336741357bd7500b773b8e232d,/,/,    Merge remote-tracking branch 'origin/2.3.24-gae-stabilization' into 2.3,/,/
+550ac15a18b6eedbbef6f9d27992baa7857acd0d,/,/,    Build: Snapshot VS staging Maven repo selected automatically,/,/
+e17dd7ccafd819e292863110ca22c0b645d3b879,/,/,    Added NOTICE file to the javadoc Maven artifact,/,/
+ce1dc19b3ccfb734af551c2d694a3a3d1039f7fa,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+6166efe1d02fe89a98c7d87ab26a608e2d560492,/,/,    Revert "Modified Maven version from 2.3.24-rc01-incubating to 2.3.24-SNAPSHOT  so that I can deploy to the snapshot repo.",/,/
+af1d5554020a75cd9957f2d08a09d5dfa86c38c8,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+c9e50fa0d8c4f1cedce9a34936184a2b1f3b15b9,/,/,    Modified Maven version from 2.3.24-rc01-incubating to 2.3.24-SNAPSHOT  so that I can deploy to the snapshot repo.,/,/
+9a4f598888c1eec85a0d7b9afb400626ec49f46e,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+b968ffaf2b52225e57ec196aaa3ee7345fa0024d,/,/,    Build: Added NOTICE and DISCLAIMER under META-INF in freemarker.jar. Added LICENSE  NOTICE  DISCLAIMER under META-INF to the Maven source artifact. Added LICENSE  DISCLAIMER under META-INF to the Maven javadoc artifact.,/,/
+599e0fdbe36cae76008af1aa1cd62e4f4345111e,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+da6180e5e49130610ea4ea6d5c560dede78addfc,/,/,    Build: The top folder inside the tar should include the version number in its name.,/,/
+cec5ed09377ccca2cb0c081eee6142ca346c76c2,/,/,    LICENSE and NOTICE fixes:,/,/
+b1980af5aac427fe158ca4369fb500e78e69f9b1,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+3944629f4be469207133615f353baf0170bfe372,/,/,    Distribution archives now have a top directory called apache-freemarker and apache-freemarker-src (or apache-freemarker-gae and apache-freemarker-gae-src).,/,/
+1016b935b4b2647574f82009bbe21c7292d27a1e,/,/,    Accidentally committed orig file.,/,/
+81e1716a11109f41b5ed79a42284b85900728b18,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+06557d59c456c75f6b97bc9530753cdfc5aa282e,/,/,    Build: Missed "v" from version Git tag,/,/
+7515c055b949f9ed6f7180cce6388e8123717e3a,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+e1352eddfdb900eb4a693a4cbf23fe8bc1379fba,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+40b79ee791a7252eae78bf9acdf7c0bd3a0227b5,/,/,    Build: bnd license URL update,/,/
+547c1eb36f4495b5700c322a4bdae764ef1f6daa,/,/,    Build: Fixed missing META-INF/LICENSE,/,/
+813dce1f0557e83b1f3fc39a101e6decf0148be8,/,/,    Build: Removed abandoned Eclipse update site generator,/,/
+31690f68d07d4f4406322f4a2d53e4e3d13c5484,/,/,    Build: Updated pom.xml and the Maven deployer for the ASF infrastructure,/,/
+17144edc0fb34302fe57c21e3fd32c788653816b,/,/,    Build: Added GPG signing and checksum file generation,/,/
+19c2b98739b68e5e8fc6bc463a2ddb59f3a10385,/,/,    Deleted examples. They weren't maintained much. Anyway  if we want examples  that should be done on GitHub for example. Putting them into the releases doesn't make much sense.,/,/
+c7f2ad6ea44c3202c3f1785f6f41f36cb3fcba1e,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+def5937389253d814e0d2b85376da0e5f416f031,/,/,    (Missed the "gae" from the src archive name),/,/
+d5e34c76b647f54c601373e7c6e378d24896c0ae,/,/,    Version history update,/,/
+d5de8ad896eba7e39d3c3dff08c460c3a7221ef6,/,/,    Adjusting version number (which now ends with "-incubating").,/,/
+b8e81873450c3b4da9cabeb51c2389e371acf77e,/,/,    Added disclaimer to more places. Changed FreeMarker to Apache FreeMarker in Manual book title and preface.,/,/
+72d6ac13b136e16fe3e18b1347609e65570b3889,/,/,    Added GAE  to the binary artifact name.,/,/
+c28febccf2412b90ac651ce3cb33301b89f6378a,/,/,    (README adjustments),/,/
+5377aadec284ef4a9360c2313147b4de297c3a0e,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+64f2cd19b18cd507caeea54fe47f0f5ad23b8bc3,/,/,    Separated src and bin distribution archives  as per Apache requirements. The bin distro contains both freemarker.jar and the documentation  because these are all the build artifacts of the src. Adjusted plain text file names to apache conventions  updated their contents. Simplified the distro index.html in the documentation artifact  so that no content is duplicated from the Manual.,/,/
+a94e78cf98296292af1e13d2fc91802cc5a9ce37,/,/,    (Broken Manual link),/,/
+f310e855bb0d291e7181fba26baba7e3be3b5a94,/,/,    Added copyright header to Manual output  also fixed copyright in the footer.,/,/
+22e5fddfc39a064454d219702328d8c9d9ed9724,/,/,    (JavaDoc adjustment),/,/
+48f7b87c046f2044c1e3ff170727b9600a12051b,/,/,    Added copyright comment to the TLD-s inside the test jar-s,/,/
+c52561aaa83816463faeb76b6d96c320d5e9eac6,/,/,    Added copyright comment to the TLD-s inside the test jar-s,/,/
+2a567e30cac12229bcbfd230d251d5a9473f2011,/,/,    Remove re-generatble csv as it's not possible to add copyright comments to it.,/,/
+85f52ffccf6bc1d3938ab149dc099dedeb8d14c0,/,/,    Added copyright comment to some more txt documents,/,/
+a64f13674dd496a5175d6b8e1f134ae4fd55dd6d,/,/,    Replaced txt/out/ast copyright comments with Java-style comments,/,/
+ef6b4d112ba8a87b360a00aa8d2caeeb166c6077,/,/,    NOTICE year update,/,/
+545cd6369b2d51c8ff4537b429bc74c56ba3c71b,/,/,    Added copyright comment to txt documents,/,/
+4a38aee1228c721e07406f8747ba3ee17366e249,/,/,    Added copyright comment to UnsafeMethods "database",/,/
+fc9e6676c9554005f44956d7efa29ab6461fd750,/,/,    Added copyright comment to more expected result files (ast),/,/
+701b339a5f519c1ead0e6892fdc212e6bd9ae035,/,/,    Added copyright comment to expected result files (txt or out),/,/
+ec24a424734c5be4f74482c8fba54430f4bf686f,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+7d355e7a69ba6c334be64e439c319795a1a1f602,/,/,    Some more missing copyright comments,/,/
+7d8792cb334a6bf271287f5b263f7274bb54f8be,/,/,    (Test file name typo),/,/
+1334cd9bdf8997c9522ed3f5bdb861bf8c48e87e,/,/,    Added copyright comment to HTML files,/,/
+0cfd13df3f8db1ba7ce4788486b2630a4552ee39,/,/,    Added Rat task to build.xml,/,/
+8a259d463eabb26f4e50564ff1aa6dc24b8758ce,/,/,    Added copyright comment to properties files,/,/
+2890b2ecdec65052bccbef0aaadfb11c7ece2a44,/,/,    Added copyright comment to XML files,/,/
+0a8dcf1e7c3dfacc73dc51195f528b02e4f2bf5d,/,/,    Added copyright comments to JSP files,/,/
+e7ce04bdd3dbabd7fbf7d6e65a7d8c97e350e063,/,/,    Added copyright comments to some build related XML-s and the Manual XML,/,/
+71117cc292b108ab1e6f33095c98c1e12ea303dd,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+559381f38766c077d95e4dc1c9be97cd1a216876,/,/,    Added copyright headers to ftl/ftlx/ftlh files (used in tests an examples).,/,/
+9ee209e9354d78193cc2c2c5b0a0e8135c5f4ee3,/,/,    AST tests and TemplateTestSuite tests remove the copyright comment from the template files on the fly.,/,/
+9d255d897a15a5bfb6045f23b5e16edee7ba3cb6,/,/,    <#ftl outputFormat="HTML"> headers aren't needed with the latest Eclipse plugin anymore  though "latest" means the one with my pull request to JBoss merged in.,/,/
+f0695c39a6044653f115ebbbada44873d216dfe7,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+be2d7994ca6194565b4484d3556d1b0c3d2f8bb8,/,/,    (Manual typo),/,/
+3a62ff8ecfc63bec8c43d4996ffa5839b9871a9e,/,/,    Bug fixed: With incompatible_improvements set to 2.3.24  m?is_sequence doesn't return true for Java methods wrapped by BeansWrapper and its subclasses (most notably DefaultObjectWrapper) anymore  as they only implement the [index] operator  but not ?size  which causes <#list ...> to fail among others. (They shouldn't implement either  but this is historical heritage.),/,/
+957264e7984803f8c4ae528ebf5dfd2405ac69de,/,/,    (Fixed compilation error in FTL.jj-generated code),/,/
+64c1b0821a24455a94850f5f6e30b80455e653f2,/,/,    (Added missing copyright headers.),/,/
+7dfa6642807583d26a52a8a27b6421e7cda0457c,/,/,    Manual: Updated getting started example to use bean for latestProduct  and to use ftlh template extension.,/,/
+56b5f6e3f7836464bf35f7d145c762fe46c64f45,/,/,    Manual: Adding cfg.setLogTemplateExceptions(false) to more places.,/,/
+7292716630d9539bd47a40e20327006447d0c770,/,/,    Added an overload to Configuration.getSupportedBuiltInNames and Configuration.getSupportedBuiltInDirectiveNames that has a namingConvention parameter. This is useful for tooling as since 2.3.23 we support both camel case naming convention (like s?upperCase) and the legacy one (like s?upper_case). Furthermore the old 0 argument overload will now utilize Configuration.getNamingConvention() to only return the relevant names if it's not AUTO_DETECT_NAMING_CONVENTION.,/,/
+f20271e535792636988955d8591964cc812f91d0,/,/,    (Cleaned up and extended XML prefix outputting test a bit.),/,/
+95859c384f13a13fad8c8042a6f11970cca04952,/,/,    (Removed unused class),/,/
+177b6a19fe611d866da0b5772a020c75b76a6678,/,/,    Added missing copyright comments to some new files.,/,/
+02459623e11efc5ddce66e6a8310c8f628272102,/,/,    Two freemarker.ext.dom xmlns prefix outputting bugs fixed:,/,/
+33ba278fdd7a26653d2f96f945c3e5e701a9acf5,/,/,    Bug fixed: XPath queries that has only contained characters that are valid in XML element names and has also contained :: (which is valid in names in namespace-unware documents)  like e['following-sibling::foo']  were interpreted as literal element names (giving 0 hits) rather than as XPath expressions. Note that there were no such problem with e['following-sibling::*'] for example  as it's not a valid XML element name according the XML specification. This fix can actually break applications that has processed namespace unaware XML that use :: as part of element or attribute names  but such an application is highly unlikely  unlike running into the fixed problem. (Unfortunately  using incompatible_improvements wasn't technically possible here.),/,/
+55cb12e21fd92101b23a2fed112f1e77a2c4eb91,/,/,    Bug fixed  with incompatible_improvements set to 2.3.24: The #import directive meant to copy the library variable into a global variable if it's executed in the main namespace  but that haven't happened when the imported template was already imported earlier in another namespace. (Also fixed some minor typos elsewhere  and added more import/include tests.),/,/
+576625f559d3d86d98c85e30488b1eb5977c546d,/,/,    (Added an ?interpret test),/,/
+90fcfb9d7a6b859894ca27886ef7bd43c29cb8a8,/,/,    The parser used by ?interpet and ?eval inherits not only the output_format of its surrounding lexical context  but also the auto-escaping policy of it (basically  if auto-escapig is on or off). Also documented how these built-ins inherit the configuration settings.,/,/
+d3654bc3eea27c2a9c7b2fbe43c7ec0a793df14b,/,/,    (Documentation typo fixes and small adjustments.),/,/
+ea39153956c0860927ef516e3eeed232d5dc89c1,/,/,    (Manual adjustments in formatting related parts),/,/
+f112ed6ceb84eec5ada63ded39e0efcc2ee546bb,/,/,    Added custom formatter examples to the Manual. Fixed/updated JavaDoc and Manual number/date formatting related parts (mostly).,/,/
+bec1430b44ec205f08c8045825c8a0b10a7f87ab,/,/,    New output formats were in the wrong source directory,/,/
+7051e55cfffe244a9ef537c62ec71d45c9d569ad,/,/,    More helpful JavaDoc for some OutputFormat-related parts.,/,/
+2153e2309e49dd1f94cfd26f35377f62137e8306,/,/,    Added some non-escaping OutputFormat-s  just for the MIME type (that for example FreemarkerServlet can utilize); Updated/fixed OutputFormat-related JavaDocs and Manual parts.,/,/
+d9f6b4444c1bf8d910b5ff54f7b8b5cb07606abf,/,/,    RTFOutputFormat uses application/rtf instead of text/rtf,/,/
+62f03d80b800dc8f64ebbd0498c35f03aa3f4f48,/,/,    XHTML output format is now available by "XHTML" name by default,/,/
+2944148e0d0b16e2056cd4833e2cf64ad2deb739,/,/,    (Missing version history entry),/,/
+7b0a1c414a21df7eaf189fcb8048c5932a6ac7d9,/,/,    XMLOutputFormat uses application/xml instead of text/xml,/,/
+aa53f15d3df1440a4f1349796e1082b33950913d,/,/,    Output format and escaping related typos and minor adjustments in JavaDoc and Manual,/,/
+d5c2d14366140460877e106b54e10544c40547bf,/,/,    (More test for public static fields access in configuration strings),/,/
+0020e6653a024f17abbc333a197e92a24c0922ff,/,/,    Extending .gitignore with IntelliJ  OS X  and other common ignorables,/,/
+fe799f5d382fad7e35be634f660e73f62d6ec9e8,/,/,    In the mini-language used for configuring FreeMarker from java.util.Properties or other string-only sources (but not used inside templates): public static fields can be referred like com.example.MyClass.MY_CONSTANT or Configuration.AUTO_DETECT_TAG_SYNTAX.,/,/
+731be2c28e51d71e5027c6fd4ddda68c3af81b05,/,/,    Made place for the Chinese manual.,/,/
+ad73f5f4a1fa72ca63aeace0db4f01c8865c5a8b,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+41b6f8342b3d6252d4927cd5729d2917934e500b,/,/,    (Error message typo fix),/,/
+ea5c47d13366ccf8e90d69ddc94bdfa911719b77,/,/,    The new (in 2.3.24-pre01) TemplateConfigurer class was renamed to TemplateConfiguration  and the related configuration setting from template_configurers to template_configurations. Also  the TemplateConfigurer.configure method was renamed to TemplateConfiguration.apply. Also did some JavaDoc typo fixes and additions for the related API-s.,/,/
+159bcb29625d23cf74af7d5650d8db600ae7c94f,/,/,    Removed unused olink definitions plus fixed one.,/,/
+5203c735a39f745afa0b5e7b556bb1022968a9b5,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+0e5213a8bd08bce7a24ede6a9cb09b1c3fb54fd9,/,/,    Fixing regression: Interpolations should be shown in the FTL stack trace,/,/
+4fb95ebc9339c488c64ef72ba03aa97f21c59cb8,/,/,    Added back FMParser.MixedContent and OptionalBlock products for backward compatibility for those dared to call the parser directly. We don't use them.,/,/
+f08867b604399abf9b0de8a6c89e1cbc560b300b,/,/,    (More AST location information tests),/,/
+cd6857c18bd178fe0c480d8ac469e0fdcd09a0aa,/,/,    (AST location information test),/,/
+448d50bd50635bd876271213c9a6949dca625508,/,/,    (if/else tests to guard against certain AST-related bugs),/,/
+4af2c81d9bba53fb8a6ad6b0a810bebb386871ba,/,/,    (Test case to test #return in macros),/,/
+d1dafa5427b1caec463ca3f62cc89c416ae2a478,/,/,    (Added an AST test case),/,/
+c942528745019d145ddf753d094bcb0350736afc,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+204723f0955c1e6e33a7591d20bc8b47d5d3adad,/,/,    Avoid using TemplateElement methods that are Swing dependent in 2.3 (the non-GAE branch),/,/
+44ca7eb5ba3bba4013d57544e668a645119fff62,/,/,    (Commented out AST assertions),/,/
+a97cf7289d53a69cf74cb3a9aa9f669e99e3949f,/,/,    Decreased guaranteed stack usage (which is the stack usage you see in exception stack traces) by 1 per visit(TemplateElement[]).,/,/
+bc303ab9b42aa02cb94419dcff719fdc2d64160e,/,/,    Decreased macro call stack usage by 1.,/,/
+77d44df1e769c1f74e673000941028a3430fdb0e,/,/,    (TemplateElement.getChildNodes code cleanup),/,/
+1cb2a5fa8167ae34e59cc940617a31459300d91c,/,/,    (Just local variable name fixes  and one more AST test),/,/
+a31cf2a6918e3f128778d2ace9b2aa680a9ae8d9,/,/,    (JavaDoc typo fix),/,/
+83920692f18c3e00ad845e75b727af5bccaea44a,/,/,    Change log for stack usage usage optimization and AST cleanup.,/,/
+81f81e9665813c88afc09372e7ab36817a9d0977,/,/,    Adjusted #attempt AST structure so that its goes through postParseCleanup properly.,/,/
+c82edf0859f4ad0272dc50c227553cbcc7272b2e,/,/,    A bit of stripText optimization,/,/
+2e3919625289aa90561eb6d7a33fd61e9532ec56,/,/,    (Adjusted some JavaDoc comments),/,/
+3d7e66273ae393ca9330baf771511766ff411639,/,/,    Refactoring FMParser to not produce MixedContent  except for the root element.,/,/
+808ddadd382a5ce116b249ee4ae14c683c96ba91,/,/,    [unfinished] Getting rid of nestedBlock VS regulatedChildren,/,/
+83eca1b2a7c3b6141b9f71adacea435a54d1b2e1,/,/,    Avoid creating new TemplateElement[] for TemplateElement.accept calls.,/,/
+325bbd088a841725014da68078cda76258f2c9df,/,/,    Replaced localContextStack with specialized ArrayList-like class for some speed gain,/,/
+079b701b20cedf42c273f5e74f37c12703f7da9f,/,/,    Rewriting instructionStack to use an array instead of an ArrayList (gives 10% speedup in certain templates.),/,/
+89585c8e5d23f169389c801d0cb012c76b18406a,/,/,    Simplified stack trace handling (no hide-in-parent logic)  allows some optimization in the "elementsToVisit" returning mechanism.,/,/
+c64251ef81070d031e953a6d9fd381d935d9c4a1,/,/,    Some formatting fixes and cleanup,/,/
+113d67027f8213146fed2a917c03c7f0651cb6b1,/,/,    Merge remote-tracking branch 'github/avoid-too-much-recursion-when-visiting-template-elements-2.3-ga' into 2.3-gae,/,/
+5758b0a5148e4c99879d2e6f4b6fcb6f59db6e5d,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+116b817543c369dbc91aae09ea84d20040ef26f5,/,/,    Reverted earlier change; FreemarkerServlet ResponseCharacterEncoding init-param uses "force" prefix again. Updated FreemarkerServlet configuration example to use FreeMarker's output_encoding setting  also added the ftlh and fltx extensions to it. Some other minor JavaDoc adjustments.,/,/
+5d1a411abba840d139293a9442694ef61a92037b,/,/,    FreemarkerServlet documentation fixes/improvements,/,/
+7540a51c13e9b666bea6e8e5065cb1ee1712aee8,/,/,    FreemarkerServlet ResponseCharacterEncoding init-param doesn't use the "force" prefix anymore  you just specify the charset name as its value.,/,/
+947428ae9c42e6a1aa8df82bfd95efc3938362c9,/,/,    More helpful warning log message when no ObjectWrapper was specified for the TaglibFactory.,/,/
+52a618eb5e0ee95f524dd8d68e97a08a1037e1f2,/,/,    (Minor ResponseCharacterEncoding documentation adjustments.),/,/
+43fd9737a8acdc33c1d5273439e5d6dcb041accc,/,/,    FreemarkerServlet ResponseCharacterEncoding init-param now works properly with the legacy content_type template attribute (usually specified in the #ftl tag),/,/
+f64aa1f0d6f071e858b2ff41a325dca722735579,/,/,    Added new init-param  ResponseCharacterEncoding: Deprecates the old (and quirky) way of specifying the output charset  which was specifying it in the ContentType  or falling back to using the template file charset. The possible value are legacy (the default for backward compatibility)  fromTemplate (which is legacy without quirks)  doNotSet (keeps what the caller has already set in the ServletRespone) and force charsetName (forces a specific charset).,/,/
+e96460cb9e17d224f326398235cd6761842dceb5,/,/,    (JavaDoc typo),/,/
+0b6f0d2357e241ad5f01babf016cdffdbe4f21e3,/,/,    Added OverrideResponseLocale to version hisotry  and some JavaDoc/Manual polish related to the new init-params.,/,/
+6819382e6e32d03e80ef63b862b13300d1467dbd,FREEMARKER-2,Improvement,Option to set request locale from the given servlet request,None,Minor
+ef943b23f89fd197039637549388513916a8db53,/,/,    (Version history: Some missing entries under "Changes compared to 2.3.24 Preview 1"),/,/
+a761e994c11d5f84718ac5256134b9199176e95d,/,/,    Fixes and improvements in the object builder syntax used for configuring FreeMarker from java.util.Properties (or other string-only sources). This is not to be confused with the template language syntax  which has nothing to do with the object builder syntax:,/,/
+4ba67367821a553693287ac39d4d6527f295f3de,/,/,    Made the default of the "OverrideResponseContentType" FreemarkerServlet init-param overrideable via subclassing.,/,/
+064d12eb95b2086fbff903e1950d41f103face7b,/,/,    (Removed unnecessary test permutation.),/,/
+1e4c64f1c0230ec9f6ddc70fed6e142d3b8199ca,FREEMARKER-2,Improvement,Option to set request locale from the given servlet request,None,Minor
+eef30af2fa1b61be9ad553f92362e5ff72a15779,/,/,    Bug fixed: It wasn't well defined when a Java Iterator counts as empty. Depending on what ObjectWrapper you are using  one of these fixes apply:,/,/
+fca65a24f481d657bf8676485dbdf842c2bb562e,FREEMARKER-1,Improvement,Option to not to overwrite response ContentType in FreemarkerServlet,None,Minor
+2531f51e7bc019480abdb35671b7c94bf75fc4b0,FREEMARKER-1,Improvement,Option to not to overwrite response ContentType in FreemarkerServlet,None,Minor
+3bf80f67fda9fd87539681b90c61701d154362a2,FREEMARKER-1,Improvement,Option to not to overwrite response ContentType in FreemarkerServlet,None,Minor
+9e7f359a164112c813377a654fcd361405c5edd4,FREEMARKER-1,Improvement,Option to not to overwrite response ContentType in FreemarkerServlet,None,Minor
+64ec04bf8d53a260905a174876bba434d2a13eaf,FREEMARKER-1,Improvement,Option to not to overwrite response ContentType in FreemarkerServlet,None,Minor
+fe08488da50e12dfcb8a5c600417a391df218d26,FREEMARKER-1,Improvement,Option to not to overwrite response ContentType in FreemarkerServlet,None,Minor
+3ab293ad12e1aaf2e2bededcd3540884d35f9fae,FREEMARKER-1,Improvement,Option to not to overwrite response ContentType in FreemarkerServlet,None,Minor
+0286f23671b06efa4e64789d84f6a506993ef5a3,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+0256df536e130bfccd193bdbb0a41245431890ac,/,/,    ASTTest: Ensure loaded template uses LF-s instead of replacing \r\n-s later in string literals,/,/
+597a45060aa262d70443e626e5f898fe1b670f1e,FREEMARKER-3,Bug,FileTemplateLoaderTest and ASTTest fails test on non-Windows env,None,Major
+16f1559b222504964137060876085de5258b766a,/,/,    merge Environment#visit and Environment#visitByHiddingParent to further reduce call stack size,/,/
+699d4426e03ec142b8f2341cb57b33ec7ff7906c,/,/,    let TemplateElement#accept return child elements that remain to be processed,/,/
+e89dbfce5f2d2274653062dfd6911a62c354c39b,FREEMARKER-1,Improvement,Option to not to overwrite response ContentType in FreemarkerServlet,None,Minor
+76c56a59abca3799409329b244a328b31e754a6b,FREEMARKER-3,Bug,FileTemplateLoaderTest and ASTTest fails test on non-Windows env,None,Major
+d07ad04ceb1e735af3f216c101632ed7e37a0844,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+8adee326161c928aaa02525bc84b7293d86262cd,/,/,    The extended decimal format options don't use abbreviations anymore. Like instead of rnd=hu  now there's roundingMode=halfUp.,/,/
+a8814b8803a4cafe857924419cda475bf5ad07ec,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+1e905a47da788a9e0d5fa5b820e6250bc0980c1a,/,/,    (Added unknown date-type test),/,/
+43007bfed4b663e76d99aa77735a42e7a354acc1,/,/,    (Minor code cleanup),/,/
+14fab44fe1a20bee814c086f110ec01e97bcbefc,/,/,    Fixed accidental use of Java 6 API.,/,/
+dd54594617cd382b60c6113649c7717b20cd54b8,/,/,    (Added a date format test for a markup producing format.),/,/
+db94e0726416af827bdd8868f46dcfb75cbebd7b,/,/,    (Some Manual adjustments regarding string literal interpolations.),/,/
+83a30d5ae03b76ef637cda926ed13009e8fc0294,/,/,    Some more markup string literal interpolation tests,/,/
+75fab1f789523ed8513a1aa6b938f6a89e9fe906,/,/,    Added new built-in: is_markup_output  returns true if the value is of type markup output.,/,/
+fa6ac0eea88c38c816298b518c5d249d4599f93e,/,/,    `${...}` inside string literals is equivalent to using the `+` operator again. This rule was broken by `+` supporting markup operands  while `${...}` inside string literals didn't. Now similarly as `"foo " + someMarkup` works and gives a markup result  `"foo ${someMarkup}"` does too.,/,/
+d8487ffee38a1fd3ab9291c9174d8f7e7ce15be8,/,/,    Reworked how ${...}-s are lexed a bit  to make the lexing of string literals (which may contain ${...}) more manageable.,/,/
+6802cc7110d796c841f4d49d401dda1c3f78048a,/,/,    Simplified static text parsing,/,/
+6ac1b86a48ab9826e5061e497df22ea289b0c17b,/,/,    <@ and </@ is now allowed in String literals that contain ${exp}  and will be part of the literal as is. Earlier it was a syntactical error.,/,/
+a361243146a62ca19552074e4b8d74d76ca9abb4,/,/,    Documented that JDK 8 is needed for building.,/,/
+0c3e1461f937fa0115dd70a92c13ad1a0bd0e317,/,/,    (Test class name typo...),/,/
+4b1550e786f5ec51f1b95cc4ca4e7836c09351c2,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+c798862ac437ded4e1ccf6566374e40febd3bc73,/,/,    Simplified number/date-like formatting more: The TemplateValueFormat-s don't get the desired TemplateOutputFormat as parameter  instead  an TemplateValueFormat should just return the single type of output it was designed for when format(...) is called  or plain text if formatToPlainText(...) is called. This resulting behavior is less sophisticated  but easy to understand for the end users. Also this way no output format has to be around when formatting  which simplifies the core and the implementation of user methods that would otherwise need that information from the lexical context somehow. Also string built-ins are now call format(...) and then fail if the result is markup  rather than formatting the LHO to plain text. Some internal class name changes.,/,/
+b680e9cd7feca8f5d832e6ba68ea2e6e7caedfad,/,/,    (Manual: Missing programlisting role),/,/
+9ce036f5d78fef56a03b49f83e88379366f04c3e,/,/,    Added checks against null returning (custom) TemplateValueFormat results. Minor cleanup and documentation additions in formatting related parts.,/,/
+84927d91a2c1e5e3592e6915d150d92a85438286,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+e90143c8975bc53afcec85f2d80e704831f4e5a3,/,/,    Missing part from: Bug #439: FileTemplateLoader with emulateCaseSensitiveFileSystem set to true (used for development) wasn't properly synchronized  leading to random NullPointerException-s or other misbehavior.,/,/
+dfc4f0aa102270fa9404a87e4550e7e5a5108be7,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+dfd07ec50f0f4b9fa9eedc17ddba0d65fc001f3f,/,/,    Bug #439: FileTemplateLoader with emulateCaseSensitiveFileSystem set to true (used for development) wasn't properly synchronized  leading to random NullPointerException-s or other misbehavior.,/,/
+a0eaf3da9724a063bf04ccc5e5968c843e914b02,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+f32a506a32e6eb381ee9b0badd1e54b56a09b72f,/,/,    Simplified TemplateValueFormat API-s  because the small performance benefit didn't worth the extra code complexity.,/,/
+b9523f6a2c2e95d7a0f7408f0cbffea76bb955a2,/,/,    (Manual typo),/,/
+6b2840c6cf767ed6f7adf86c917ea0d04af4a1f8,/,/,    Added XHTMLOutputFormat and TemplateXHTMLOutputModel.,/,/
+b6bd3c2cc0abb871f0a59c1e7115f76e45cfeb53,/,/,    Formatting to markup with ${numOrDate} and `something + numOrDate`. Incomplete: (a) String built-ins should fail instead of formatting to plain text; (a) More testing needed  like for TemplateDateFormatter-s,/,/
+dde63a1f255ca1d8563d5499ee248a4151b3f52b,/,/,    FreeMarker's JSP support (if it's used) now requires at least JSP 2.0. Earlier it only required JSP 1.1. (Reason: The jsp-api dependency for JSP 1.x  which was needed for building  can't be legally present in the Maven Central Repository  nor be provided by freemarker.org.),/,/
+9c2b9c871aeb80d5c3fbe595b65e79fc363af06f,/,/,    (Documentation fixes/improvements related to format strings and @),/,/
+8e7c80a439273ea81a660611b4fa4a807b6c4e6f,/,/,    @@ can't be used to escape @ at the beginning of format strings anymore  because it was confusing on Android  where DecimalFormat supports patterns like "@@@@@@". If a pattern has to output a literal @ as the first character  you can simply use quoting as defined by DecimalFormat and SimpleDateFormat (for example  "'@'0.##").,/,/
+d5bfedbad0169fbf26ba34c0b43167d433f22cc0,/,/,    In number/date/time/datetime format strings  initial @ can be used to refer to custom formats even if incompatible_improvements is less than 2.3.24  as far as there's any custom format defined. As custom formats is also a 2.3.24 feature  it's backward compatible this way.,/,/
+ee7f23f7f55135bd06ace919b6b5db82c36e4b27,/,/,    Documented extended DecimalFormat. Some other improvements in formatting-related documentation.,/,/
+7f591d168a0519bb558860a1fdc61d44384a2c79,/,/,    Figured out how TemplateDateFormat.parse will look. Also  ?date  ?time and ?datetime can now be called like ?date()  etc.  which returns the exact object that TemplateDateFormat.parse returns. Also added TemplateNumberFormat.parse as a final method that always throws ParsingNotSupportedException  to reserve the place for this method for later versions.,/,/
+03e8fc070cec335ecfe3c11aaf5c1979b858ca3e,/,/,    Unifying UnformattableDateException and UnformattableNumberException as UnformattableValueException. Added UnparsableValueException  using it for TemplateDateFormat.parse.,/,/
+53bf6b3b312f492c83d614b8b596010be563c898,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+89ec237f42a28ba0f0b31a100b09e3c7c586fda0,/,/,    Proper template error message when DecimalFormat.format throws ArithmeticException.,/,/
+25f3b824b263713dc48e32f05546a8a19e92f57d,/,/,    FTL now uses the ExtendedDecimalFormatParser. Some cleanups in the code.,/,/
+9ca1a710efd7a2a8d7e399c10cffa9d6dbb4e5a1,/,/,    Extended decimal format strings now support options "curc" for CURrency Code (ISO 4217)  "curs" for CURency Symbol  and "mdec" for the monetary version of "dec". Just like the other extended format options  these just make long existing DecimalFormat capabilities accessible. Examples: "0.## ก่;;curs=bucks"  prints something like "10 bucks"  "ก่0.##;;curc=USD" prints "$10" (at least if locale is US).,/,/
+be9500d0ae9589f15c4f4923c34f7e62f66ea09f,/,/,    (Test for BigDecimal "; ;"),/,/
+a071995ab4f122fb8d20296147747621974f6d59,/,/,    Allowed " for quotation in extended DecimalFormat option assignments.,/,/
+205bcda44670bae2d705abc0f24ecb7fa92638de,/,/,    "rnd" instead of "ro"  as the abbreviation of "rounding",/,/
+d21fe9490778ecb80724c3e0b07f4d5a32f7c80f,/,/,    (Suppressed a FindBugs false alarm.),/,/
+2bdd2615cf91bb97246b08dbeddc718a109ca97c,/,/,    Using JDOM 1.0-beta-8 from the Maven Central Repo instead of from the freemarker.org repo.,/,/
+41ec86442b92dc0fc44be3636f0e96e71d8995c5,/,/,    Changed Jython 2.0 dependency to 2.1  because 2.0 isn't present in the Maven Central Repo. Luckily  the API-s used by us are the same in both versions.,/,/
+1d5198f67c2e90206742ace0900ea989088a2de0,/,/,    Initial implementation of extended DecimalFormat format string parsing. It's not used by FTL yet. Also currency-related options are missing.,/,/
+aab02867e31f9d576ab9fad00cb65b2cbfb58837,/,/,    (Suppressed a FindBugs false alarm.),/,/
+01552a9c2968c01be09eef9880564a0e1723bf92,/,/,    Eclipse project files update to use Java 6 (the Ant build will still catch non-Java-5 calls where they aren't allowed),/,/
+2daf5f3d78d15cfed55b93459ef31af9a1889db9,/,/,    Added support for calling some Java 6 functions (despite that we only require Java 5),/,/
+26c1ff1ea5a9d2ffa9e1705dd4fd3287cc24998e,/,/,    Version history typo: "Added freemarker.core.AliasTemplateNumberFormat*Factory* and AliasTemplateDateFormat*Factory*...",/,/
+b6d84a0828ac752402323c5edc02fb5fb1e83401,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+3fab33d91e6aa5e459ffb16e0bd155c5858c1224,/,/,    Added freemarker.core.AliasTemplateNumberFormat and AliasTemplateDateFormat  which can be used to create custom formats that are aliases to other formats. For example  instead of writing ${n?string["0.00"]} again and again  you can define the custom format "price" as the alias to the format string "0.00" in the configuration  and then use ${n?string.@price}. Thus  you can control at a central place how prices look. Furthermore  the alias can chose a different target format string depending on the current locale; this is especially useful for dates  where conventions can significantly differ in different countries.,/,/
+dfe0c09782463ff2ee508834dc545c05e6421186,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+ef18a73e51942dd315126ae4343407f5b281a1a9,/,/,    TemplateXxxFormat and related API cleanup: Exceptions thrown. Introducing common ancestors for number-formatting-related and date-formatting-related classes,/,/
+016cc9e9baec6326f1fe78de858ceec0d114ab38,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+8983313236a7dc72fc76be26a8e53d4512a94324,/,/,    Fixed doubled FTL stack trace in `?string` formatting errors,/,/
+52dcb977368e9fc1fffdd9c10a5f227b92007852,/,/,    Added public Environment methods for getting TemplateDateFormat objects. Other formatting code clean up and JavaDoc comments.,/,/
+0eccad5c13958aead41a582ea80a6585e1349666,/,/,    Some number formatting code clean up + comments.,/,/
+34a1da6677ab574071c03bf9a9af3c52d2386cdf,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+c1f736473cd0e43733fa7df5079cc5c049e203a0,/,/,    Updated Maven scm data,/,/
+5e4c13b3db2f4737721fedf063a9f06429690285,/,/,    DISCLAIMER was missing from the distribution artifact,/,/
+0d434f40d1bc81cbb0871ab210e688db94db0a78,/,/,    Changed owner in copyright headers to the Apache Software Foundation. Modified/created NOTICE  LICENSE and DISCLAIMER files  so that the owner there is the Apache Software Foundation too  and so that their file name and content complies with the guidelines provided by the Apache Software Foundation.,/,/
+c0a231d3f1d481f849bd69ff97853f4fec250f6f,/,/,    Changed owner in copyright headers to the Apache Software Foundation. Modified/created NOTICE  LICENSE and DISCLAIMER files  so that the owner there is the Apache Software Foundation too  and so that their file name and content complies with the guidelines provided by the Apache Software Foundation.,/,/
+c7f874ccf0c30d72412f62bf3593ea725993228c,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+0e64b9bcb054c14e6f1e5bab54f5f1f393720caa,/,/,    Version update to 2.3.24-pre01,/,/
+aa28969dd67a13b54dcf46ec114b6b6b4bd96c45,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+942f03e08fce6abd0a6caf6444c0c8ea8176498f,/,/,    (Static utility methods for custom format creation now also deals with dates. Some JavaDoc comments on API stability.),/,/
+ff86060f71c475e1199ea3aeb7c4f93af9f05a5e,/,/,    Manual: Referring to custom formatter at various places,/,/
+4383c73d7e5cb5cf6db314211f2ae3d3aea9d547,/,/,    (Improved formatter-related JavaDocs),/,/
+ec6f52cd8f8625b4c3bd74ae4562f4e1db633915,/,/,    Added customNumberFormats and customDateFormats configurability from Properties,/,/
+9f514e8f99b70107f17f7dfe18389a77f90cdf3d,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+1b429d85e46f20eb65c42cbd2d4f37fae3b7b640,/,/,    Improved "object builder" syntax used for configuring FreeMarker from java.util.Properties (or other string-only sources): Added support for creating maps with { key1: value1  key2: value2  ... keyN: valueN } syntax.,/,/
+ed1bf242b0a459238fa39b1ff978de3012fe7721,/,/,    The customXxxFormats settings merge the Map-s when TemplateConfigurers are merged.,/,/
+2e9036d942eb250b26e3d4d50e81db742bb85054,/,/,    ?markup -> ?markupString (or ?markup_string)  as the meaning wasn't clear enough  and as ?markup will be good for formatting numbers/dates to markup (while ?string formats to plain text).,/,/
+a9fc0f25c24cde843731573ea1eb1d9bfa7ac5cd,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+46a572f687b3ec34b67fde64580076f2ea7a5058,/,/,    Manual: Version history update.,/,/
+f4a4ff44798a23df962d027e6fee71228933f29c,/,/,    Made implementing custom number format with fallback possible (example in test: "@base 2|0.0#"),/,/
+bb02d0ff48e3c1c067eb616472bf3b526035ef42,/,/,    (Added test for parametrized custom date formats.),/,/
+1e761842ca4568e4777cbe52c3fb5a188fcc16b4,/,/,    Treat @ at the beginning for numberFormat  dateFormat  etc.  as non-special if IcI < 2.3.24. Treat @@ as escaped @ if  if IcI >= 2.3.24.,/,/
+de5152eb97a446d55899f3e917ff53620c44ef92,/,/,    TemplateDateFormat.isTimeZoneBound support + tests,/,/
+8b72f8bb6f9518421c356b9d427abaae032d7859,/,/,    (env.customState test),/,/
+b8842555dbf368966b99012bef414044c17b6395,/,/,    TemplateDateFormatFactory now also uses ConcurrentHashMap and has cache size limit.,/,/
+03da3a59e1a8360ad8f6dd2c7adc6768eb02904a,/,/,    JavaTemplateNumberFormatFactory concurrency bug fix  plus code cleanup.,/,/
+8d1e14f3caa1128c97eee2f43a548d0961b45459,/,/,    Replacing LocalTemplateDateFormatterFactory mechanism with a more generic env.customState feature.,/,/
+a26e832c8eb2f5a42b18ef8d8f236fc4719366f6,/,/,    JSP support to give more helpful error message on corrupted zip-s,/,/
+3de562f4aee50fdf103e0415a1eaaea609751f23,/,/,    Replacing LocaleTemplateNumberFormatterFactory mechanism with a more generic env.customState fature.,/,/
+a6df64a78660f1601f54d3e2772d481d30e6d2c5,/,/,    Custom date/time/dateTime formats like cfg.setDateTimeFormat("@myFormat") or foo?string.@myFormat are working (more tests needed).,/,/
+ecb0c01ca6bf8b26c56d156ee39c7c0d948f6c4a,/,/,    Caching date/time/dateTime formatter by formatString in Environment.,/,/
+52669ec595cdb92625b8cf72ae776440e981b3fc,/,/,    Custom number formats with parameter (like numberFormat="@base 2").,/,/
+18835e35fbc9c61e2048b0ae6648506d0106d726,/,/,    (Only allow letters and digits in custom date/number format names.),/,/
+eacfc41d49c9d0f785ceecc01067de3cec3739fa,/,/,    (Cleaned up LocalTemplateXxxFormatFactory initialization a bit),/,/
+f5a214ff4f0bc30881f1090a33c41b71cb91c364,/,/,    Restricted characters allowed in custom date/number format names.,/,/
+7ae1e0f19b1658770d2ebe134467d8b635d90107,/,/,    Reworked LocalTemplateXxxFormatFactory format string related API. Reworked format string related exceptions.,/,/
+a20db469a7f4fa5838e55bb8700111352ebb04d1,/,/,    Nicer TemplateModel.getAsXxx() == null handling.,/,/
+4c82b081a528caecc3550640da57595adf159be1,/,/,    Fixed number?string backward compatibility in the unlikely case when the number inside NumberModel changes,/,/
+e0a3ff031ef6b1eb676a644e645bef21a207a226,/,/,    Continued number/date/time formatter API and code reworkings.,/,/
+9c73c0977d165cc7923daf99a1f668f63d016903,/,/,    Continued number/date/time formatter API and code reworkings. Custom number formats seem to work (see JUnit test)  but more testing will be needed.,/,/
+1f4558bc02e70a3255c103a34224d89a446fe9fe,/,/,    Number/date/time formatter API and code reworkings.,/,/
+4786a52e974fd3fb5dc7d618bff64ed08c9a58cd,/,/,    Number/date/time formatter API and code reworkings.,/,/
+9c66dc080adc533bd48cdb7d9eb229e7db4aed83,/,/,    Smaller Date/time formatter API and code reworkings,/,/
+80be74c7014aac1596724e024bbbdcab2733a403,/,/,    Made date formatter API-s public. Reworked markup formatter API (but nothing calls it yet). Added TemplateNumberFormat (draft).,/,/
+b3f01196130614d38a1d40d66c9a3125cd9c5e2d,/,/,    Faster Configuration access in Environment. TemplateDateFormatterFactory-es now require a Configuration.,/,/
+25231d01f5609ab68b8d5fe5b0b9f489db537762,/,/,    Added Date/Time markup formatter methods (not yet called),/,/
+3c5d79c2faaa49dc5a38256f8d2d7443aa46c239,/,/,    (Suppress FindBugs error),/,/
+b10b45948716b17a62f407634809705df55ad66a,/,/,    (Some clean up in (old) date formatter code),/,/
+b6c7e314ffad188d3dc9584ba4b66c30fd30c7b0,/,/,    Manual: Typo fixes and small adjustments in new sections,/,/
+7d7f733b084062fa31d21d746c3c60712c197a8b,/,/,    Manual: Typo fixes and small adjustments in new sections,/,/
+1956eeb99590229e17b905b11ac026c24559db25,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+1a2a4489cf0cbf3ddc6aa2a3920abc8c784dd1ed,/,/,    Manual: Further updates related to auto-escaping,/,/
+f662a5d9dbc5964b433b6a1c65cc595b68d9ab10,/,/,    Renamed autoEscaping setting to autoEscapingPolicy. Cleanup  tests  docs around this feature.,/,/
+01bea63ac87e1154952a2ddb080e9af0ccac3949,/,/,    Made autoEscaping setting and .autoEscaping special variable less confusing. Now the first just specifies a policy (enableIfDefault  enableIfSupported  default)  while the last tells if auto-escaping is indeed happening or not (boolean). More testing/docs needed.,/,/
+cd4f015b5aceb0e00efe515889acfb742ceab5b4,/,/,    Manual: auto-escaping missing pieces,/,/
+1c05b62cfea6c70359e51d8d13b1f9581ff510e4,/,/,    Manual: templateConfigurers setting examples,/,/
+fca87ab1b4db66c63637c195811d8a6e999ac244,/,/,    Manual: Continued documenting the major 2.3.24 features (incomplete).,/,/
+e0ef6c370f59996b835359053a70d25cacd7bfb2,/,/,    Manual: Continued documenting the major 2.3.24 features (incomplete).,/,/
+362931c423d4229cdeac70bb01ac2d59caa695f9,/,/,    Manual: Continued documenting the major 2.3.24 features (incomplete).,/,/
+6d7a66c62c728562517367991ddb3fadc77b1d08,/,/,    Manual: Continued documenting the major 2.3.24 features (incomplete).,/,/
+256148b52fdb5f4357f21e64430ef8cd5c1ae09e,/,/,    Missing new directives from Configuration.getSupportedBuiltInDirectives().,/,/
+27f4d95b3360d0143156938e8b9436a8b2109567,/,/,    Manual: Started documenting the major 2.3.24 features.,/,/
+74845d038821cb847e0332b8cb3044a9bd812595,/,/,    (Error message wording fix),/,/
+4465abde7a61023dc34c4ac44a9127fdea4b8493,/,/,    (Added test to confirm that auto-escaping doesn't interfere with missing value handling.),/,/
+aa304567033357d2302901fda7a0afa1451df547,/,/,    Added MarkupOutputFortam.isEmpty()  ?hasContent support for MO-s,/,/
+2f1453b1d420b37f30cf021e27f96c52e49f3f06,/,/,    (JavaDoc fixes),/,/
+a56cab9212bfcd72a38f637bde6a47be1af4d400,/,/,    Moved ftlh and ftlx file extension recognization from the TemplateCache to the Template parser  so that even templates created directly with new Template(...) will be affected. Also  now the outputFormat and autoEscaping settings of TemplateConfigurer-s can't override the effect of the standard extensions. OTOH  added new configuration setting  recognize_standard_file_extensions  which can be overwritten in TemplateConfigurer-s. This setting is false by default if incompatibleImprovements is less than 2.3.24.,/,/
+0611c98f0fdfb96c426cb4c9ae4bbd5803d67eda,/,/,    Fixed missing template cache clearings when certain settings change.,/,/
+e7b65ea3dd7e9e0a2ec43671522251d4d2ba4ab5,/,/,    Bug fixed  only with incompatible_improvements set to 2.3.24 (see how here...): Expressions inside interpolations that were inside string literal expressions (not ${...}-s in general)  like in <#assign s="Hello ${name}!">  always used incompatibleImprovements 0 (2.3.0 in effect). This means that expressions inside string literals had missed the ?html  ?iso_...  ?is_enumerable  ?c  etc. fixes/improvements.,/,/
+7782de5252debaaeca5a864e9560dfa473a42239,/,/,    ?html  ?xml  ?xhtml  and ?rtf silently bypasses (nearly-)equivalent markup output models instead of giving error.,/,/
+ca2075a5782ae85685ce5ce65c445c4f84eafd86,/,/,    Added support for combined (nested) output formats in Configuration.getOutputFormat(name) and in <#ftl outputFormat=...> and in <#outputFormat ...>. For example  <#outputFormat 'XML{HTML}'>. Also  outputFormat can just append the to outer format  like <#outputFormat '{HTML}'>.,/,/
+0d65fadc21ad6d36063ab819061b8966d57c6299,/,/,    (Test for CombinedMarkupOutputFormat),/,/
+0fa74812c435a2bb17b559ec358b8585bb4ab65a,/,/,    Some missing  OutputFormats tests and JavaDocs. (And  missing CombinedMarkupOutputFormat.),/,/
+b19b941f7d248ff940d328a043d121f9584a78b2,/,/,    Cleaned up (mostly method renaming sorting  some JavaDoc) OutputFormat API-s and their interpretations a bit.,/,/
+38ca434e440566cc491688593a8fcae55ccb8a12,/,/,    Banned legacy escaping constructs (?html  ?xhtml  ?xml  ?rtf and #escape) on places where auto-escaping with a markup output format is active  to prevent double escaping and confusion in general. These are parse-time errors.,/,/
+5adbd11b0c7d73eb1db796ba4c2e958dbfb674c0,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+39dafcffdb913ca425c9205a40f2bc65f9459a81,/,/,    Added Tip to Java method call error messages when the problem is that we have a TemplateMarkupOutputModel where a String is expected  and so using ?markup might solves it.,/,/
+5d8a4523077ea47eab65cdf08fb5454dedc553cc,/,/,    (Manual: Fixed outdated incompatibleImprovement-s in examples),/,/
+edd6e37167e88b52c69c6144b1f9ec2e7eb06cf2,/,/,    Added FileExtensionMatcher and caseInsensitive option to all the glob matchers.,/,/
+b55944c4dc9d516a3d62e01905d7147e787c6912,/,/,    <#autoEsc> and <#ftl autoEsc=true> complains if the outputFormat is not a markup. While this restriction is technically unnecessary  we can catch a dangerous and probably common user misunderstanding with it.,/,/
+4dd63aac3417a8e2c163a12cb2220f2dcfcb122f,/,/,    (Missing copyright header),/,/
+a019154d8dda354be7debdb4aaf18e18a9188367,/,/,    ?interpret and ?eval now gets the outputFormat from its lexical context  rather than from template.parserConfiguration. This exception was added as it would cause lot of security oversights if something like <#ftl outputFormat="HTML"> doesn't affect it (because that doesn't affect the ParserConfiguration  obviously).,/,/
+bb76fcaf20270876ffb9b0c4be89798b66061b76,/,/,    (Manual: Version history missing points and adjustments),/,/
+301220b9e9c2091400bec29b70bce7d84d5a3e2f,/,/,    (AST test for #noAutoEsc and #autoEsc),/,/
+33f9a161f0850cafe3789fba2e14c043ecef1994,/,/,    Renamed #ftl header parameter and built-in variable from auto_escaping/autoEscaping to auto_esc/autoEsc  to be consistent with ?noEsc  ?esc  #noAutoEsc  #autoEsc  etc. These are inconsistent with the Java API though  where this is never abbreviated (autoEscaping)  but that's not referred directly from the templates anyway.,/,/
+86b59c6947bc097ac50b2c90ed8cc326f34d7031,/,/,    New directives: noAutoEsc and autoEsc  used to turn auto-escaping off and on for a section of a template  like <#noautoesc>...</#noautoesc>.,/,/
+8fe0caa36f264bdb6ddb5af76c29cee971ee1cd8,/,/,    #outputFormat cleanups and more tests,/,/
+800b35ad00c11b784630dd8e72d680573fe0b2ba,/,/,    New directive: outputFormat  used to change the output format for a section in the template  like <#output_format "XML">...</#output_format>,/,/
+951346a1f709cb6ebb3b09dcc49eea843681d797,/,/,    (Manual: Missing "since 2.3.24"-s),/,/
+3a2dae72e67d6c1fec6d2f35ac73114158620c39,/,/,    Bug fixed: The (rarely used) cause exception of ParseException-s wasn't set,/,/
+801ddfc337514a4f8bb06e0981491065bf5be422,/,/,    Added new special variable: .incompatible_improvements  which returns the incompatbile_improvements setting of the current FreeMarker configuration  as a string.,/,/
+1d3857bb490ee598f2c13b9d7b347539d1cebf42,/,/,    (Test for the snake-case variation of .output_format and .auto_escaping),/,/
+b001febe761a2706755f6a7bb4a80799deab2a81,/,/,    Manual: added warnings about some common escaping mistakes.,/,/
+d2ff9b7813aa6efa90a2112f7b20812849d091de,/,/,    Added new built-in: markup. This returns the markup of a value of markup output type as a string.,/,/
+07173942d6e3ac98a7299fe509d35d17d6964877,/,/,    Added .autoEscaping special variable to query autoEscaping state.,/,/
+64ed0bfcf50afcba3337316edca3626f49af203e,/,/,    Block assignments  like <#assign captured>...</#assign>  when the current output_format is some kind of markup (like HTML)  will store the captured output not with string type  but with markup output type. Thus ${captured} will not get unwanted escaping.,/,/
+b58a2aed7a87e0e5eadeebcae4d3740641df0311,/,/,    (Added += tests too  some docs),/,/
+63d6be7a3e582973588382e24fd473b6e5bda477,/,/,    (Made test bit more "sensitive"),/,/
+6fa898b54106216c093155cd3f3553ee9432d650,/,/,    `+` (concatenation) operator now supports TemplateMarkupOutputModel-s  including concatenating them with strings.,/,/
+0b366e920af5ae703266421b6afffaf65a310573,/,/,    (JavaCC syntax error...),/,/
+b372f821ad101a2b55b82932e7a7f54eca3b2d45,/,/,    Fixing some trivial oversights of the latest renamings.,/,/
+af5dc741728e56d9cff63654737e8be565066095,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+001ad3d9c89623ca10e5b5d6973391d7f7a38f0a,/,/,    Renamings: EscapingOutputFormat -> MarkupOutputFormat. EscapingTemplateOutputModel (earlier TemplateOutputModel) -> TemplateMarkupOutputModel. XMLTemplateOutputModel -> TemplateXMLOutputModel. etc.,/,/
+4847f946535c1c5cc11295a31e96778dd5aef3eb,/,/,    Removed isEscaping from OutputFormat  and all other methods that are only needed for escaping formats  instead  there's an EscapingOutputFormat subclass.,/,/
+f63214e7c5aec91cf2016a879b6b6bd5da49db4d,/,/,    Renamed "raw" output format to "undefined"  as it describes the meaning better (esp. since we have "plainText" too).,/,/
+6a16347c26d75a47e9fb9d89c62963175b9d2408,/,/,    (Some more JavaDoc),/,/
+5049a5bc2700a37ff37a01648026fefe7ebf6337,/,/,    Moved TemplateOutputModel to freemarker.core,/,/
+e4c165dc54fbab9dd8e4f669859616c558ab0983,/,/,    Restricted custom output format names more...,/,/
+7c49a5a2a5c4b0eaca4bbe77350eeff23623524d,/,/,    Restricted custom output format names more...,/,/
+41134f264bbf2148ba69c2833a975a504b4ca9c1,/,/,    Restricted custom output format names.,/,/
+55d9b0cfea9af26d46a50f7b51b813e3fee641ac,/,/,    Added new configuration setting: registered_custom_output_formats (or registeredCustomOutputFormats). With this you can add new OutputFormat-s that templates can refer to by name (like in <#ftl output_format="foo">).,/,/
+e1276302590e617c736b6b074b593ad31ab9281a,/,/,    The "object builder" syntax used for Properties-based configuration values now support List literals (like [1  2  3])  and downcast number literals to Integer or Long where possible without loss.,/,/
+9d3050f7b2ff90f242f1e759f4e06a103e232138,/,/,    Modified "object builder" syntax used for Properties-based configuration values to accept literals on top level (most importantly  null),/,/
+66dcc015cd2f8e383a8183924291ac618727c919,/,/,    (Code formatting),/,/
+3f864d742970dd92270ab08bb9395ded00badaeb,/,/,    Refined how *.ftlh and *.ftlx works (outputFormat and autoEscaping can be overidden independently). Added test and better JavaDocs.,/,/
+bdf11e40a4d794177d297fe1f18fefd723170a0e,/,/,    Changed the type of the outputFormat setting from String (the name of the OutputFormat) to OutputFormat<?>. OutputFormat/escaping-related JavaDoc improvements.,/,/
+932a2ca87045dd24fcd74ce178c08203ee19fdb8,/,/,    ftlh and fltx file extensions should force autoEscaping,/,/
+f5b833b48356db9b91c7671e4a87672ffb8ea693,/,/,    Changed the output format of string literals from raw to plainText. Thus we prevent inserting markup with ${...}.,/,/
+037741a5a04e54406b428e92b163013e4e9abcd6,/,/,    Auto escaping also works with #{...}.,/,/
+441bdf038034e21c6a8ab77278982c21a8924ecb,/,/,    Refined OutputFormat escaping and conversion semantics:,/,/
+e175e499711fac69e647a9bea39d9a3b89363d0d,/,/,    Refined autoEscape and raw output format semantics: autoEscape only affects the behavior when outputting non-TemplateOutputModel-s. Raw doesn't check or convert output format when printing a TemplateOutputModel.,/,/
+f04ec7842b442a9298fc57201ad2c60593b4d804,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+486ed299086727794c29e0753a8040d38a1102b1,/,/,    Further parser construction cleanup.,/,/
+20cb1a74486a2ba9c22c45557630699b2a2230bc,/,/,    (Removed unused field.),/,/
+cec10565d10178948572e73cafc5e9df5c2efd4b,/,/,    Continued: Making Parsing less messy around ?eval  ?interpret  plain text templates  and ${} embedded into string literals.,/,/
+bc0b46b0f8fa513d7bc187c0bc682e214ac8b24f,/,/,    FMParser constructor oversight fix plus some cleanup.,/,/
+6ad4bf614c58454247b94933c09928b2e8c93597,/,/,    Making Parsing less messy around ?eval  ?interpret  plain text templates  and ${} embedded into string literals.,/,/
+bdba4e294b597f1c53df6f41bad8250fca529658,/,/,    Added ?noEsc and ?esc. Refined things around OutputFormat/auto-escaping  most importantly  allowe re-escaping TOM-os of another OutputFormat if they were created by escaping plain text.,/,/
+ca45914baca8306e7dae2a49136848143dd69282,/,/,    (Missing copyright headers.),/,/
+67cc6d6fa57e454b50fc19ad3a7d76a5a47ac579,/,/,    Initial implementation of OutputFormat-based auto-escaping with ${}. (Many things are still unfinished here.),/,/
+068d24dc4c2fb1e0057907f93dddb7ef5d1b83a2,/,/,    More StringUtil escapers cleanup.,/,/
+5edc5d6215652858c1916df8a22c1e886a4faa81,/,/,    Added RTFOutputFormat. Cleand up StringUtil escapers a bit.,/,/
+77bd1c279460aed2d1bae6cc75146936a5bad420,/,/,    (Moved StringUtil tests to their place.),/,/
+f2b6fbdc6a7de681e6be72f509fcdcaedf9f171d,/,/,    Cleaned up / fixed HTMLOutputFormat  added XMLOutputFormat.,/,/
+46894f69be8d6030cb8e6d7c63315b55558eec2a,/,/,    (Missing copyright headers...),/,/
+a6634747e15579085068ceaa838b2f87c582ebb7,/,/,    Started working on actual outputFormat / autoEscaping mechanism.,/,/
+48a58db4bf302001d04574a93c28f287e4ee21fa,/,/,    (Method name typo fix),/,/
+b779c0488f30b91bc4342bce47fd92dbd8861203,/,/,    Templates with "ftlh" and "ftlx" file extension automatically get HTML and XML output formats  if IcI >= 2.3.24,/,/
+392549051ba3d52ebfe843ebfa71712c760621fd,/,/,    (Manual: Minor improvements),/,/
+64414a2a1752723135d182c3ac2af0175cc4ccca,/,/,    (JavaDoc typo fix),/,/
+b2d8431c2c8e7307401e247dafc0d26007586992,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+486fc775a7d379563e0598056592829e4ef9b099,/,/,    Minor setSetting refinements for outputFormat and templateConfigurers.,/,/
+3c8d6171916b935cad915262ecb664dd05fea3c9,/,/,    (JavaDoc fix),/,/
+19a3f1c6e3afd6960d21b3c0b2c7fc977bad3c33,/,/,    Added autoEscaping setting and .autoEscaping special variable. The mechanism is not yet implemented  it's just about the setting value.,/,/
+6111bf091e898e4c0043e8a03b2ea4c07ecd4a03,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+46ac38bf3f57bdb85a4944d89ede696e3330ed18,/,/,    (Smaller fixes in outputFormat related code.),/,/
+3847732aedc5fa0303f93635c7166cd2d238af2e,/,/,    Added outputFormat setting and .outputSetting special variable. The mechanism is not yet implemented  it's just about the String setting value.,/,/
+1afe0b81556d302debc6888115de9b46a4b317c2,/,/,    (Manual: .pass was missing from the spec. var. reference.),/,/
+aef4174e4013e97fe84d748ae1e725c312f2ba7a,/,/,    More convenient Configuration handling in TemplateTest-s,/,/
+8e61b7a02975f71ee392a659febfb387096e9845,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+f6de83d87e9b94a586a4b10347ef5febf05ab9e8,/,/,    Fixed ParserConfiguration.arithmeticEngine again... it shouldn't set Template.arithmeticEngine.,/,/
+f287ec4f5347d5e0e183d83abc62ae16109321d4,/,/,    (Removed unused SimpleParserConfiguration field),/,/
+f8869fd44b35a8d321ec3c9d1dc53b03138238f8,/,/,    Changed TemplateConfiguration.configure so that it doesn't overwite what's already set,/,/
+1a8e6862219e2457a491d36d06d56c4a08b08c4b,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+9b57a5a5b0678905977eb88a6363241021337af8,/,/,    (Some more TemplateConfigurer related JavaDoc),/,/
+60113d99793acd21803640e3c28ec6449200645b,/,/,    Fixed concurrency issue with TemplateConfigurer.setParentConfiguration(...).,/,/
+836c21362437bdd50fea9e0a637ada18c98549a8,/,/,    Some TemplateConfigurer related documentation.,/,/
+cebbf10726ee0cf02669fc0a3d52c1b760309292,/,/,    (Fixed outdated error message),/,/
+5ef47244abf02d6ebeec6ff7702d48dad723c40b,/,/,    (Added more TemplateConfigurer-with-TemplateCache tests),/,/
+959babebf809061e66fa5251ffa1d82434699b67,/,/,    (Better glob parser error message),/,/
+629992b76bddb8c31c9c2ee06bfac5f3d49d76a4,/,/,    (API typo fix),/,/
+7f31c339d1e7a78fba01411d68459c01cacd17ec,/,/,    (Bit of TemplateCache cleanup),/,/
+67960bd371a730929b366e0657d1d486992dad32,/,/,    TemplateConfigurer adjustments  related to encoding   and also to non-parsed templates,/,/
+26fb09cc7d99bbc843510e601bdfb69f5f825e18,/,/,    (Bit of TemplateCache cleanup),/,/
+b8601df6c386f1de21af2cfaee980e75ea1c4e77,/,/,    Added back TemplateConfigurer.encoding. Fixed TemplateConfigurer.locale behavior with TemplateCache,/,/
+2edcf408a4aebd304c69ff3d59076d599aa6f335,/,/,    (Improved StringTemplateLoader src and docs),/,/
+554ea413736c87fb7ac7a7b579c717571ed927e9,/,/,    Added ByteArrayTemplateLoader,/,/
+f878a1fe20dba1ae45b014899bd3f66a9094e311,/,/,    Added new setting  "templateConfigurers". This allows altering the shared Configuration for individual templates based on template name patterns. (Basically works  but not yet finished.),/,/
+db4d2d4f6cb864e083d499cb905bfab91f766776,/,/,    Fixes in the object builder syntax used for configuring FreeMarker from Properties or other sting-only sources:,/,/
+947b35f09eff6b1de4e1248a8878d5ea6a1f2017,/,/,    (Fixing Configuration setting name order test),/,/
+02502e7b244d06d085852e894a3525ccf0747dcd,/,/,    (Added missing copyright comments.),/,/
+3a7fcb2a5874ce2bc1e981c216cdb9b1af0087d0,/,/,    Continued work on per-template configuration customization on loading: Test setParentConfiguration,/,/
+f6f1cc41504445e0dd1d1a51791ca84761e77a9b,/,/,    Continued work on per-template configuration customization on loading: Better setParent,/,/
+a39f7707696e543f284c67f7cb827a6093c3a2dd,/,/,    Continued work on per-template configuration customization on loading: Disallows non-parser settings if IcI < 2.3.22,/,/
+e0b793932cf616f1689301bbbc909736d22579f5,/,/,    (JavaDoc),/,/
+51f5fb58c0cb1685d3167023154aa9d4f60da891,/,/,    Continued work on per-template configuration customization on loading: ?eval now uses the customParserConfiguration properly,/,/
+26a010b1449557937ac8b8c65632b442393ad2e8,/,/,    (Unused private constant),/,/
+33823e0119796f670fb06538f5f69a552c1d4763,/,/,    Continued work on per-template configuration customization on loading: Renamed parserConfigurationCustomization to customParserConfiguration,/,/
+2c67f3a7703aa3ed95db75cfa0f5f1ca92ca1d1e,/,/,    Continued work on per-template configuration customization on loading: ?interpret and ?eval  related Template refinement,/,/
+1e45ee9cd51aaca3cbab8c30893d609284a83d56,/,/,    Continued work on per-template configuration customization on loading: Template constructor only gets the ParserConfiguration,/,/
+4fbecf1eceabae408fc4568c5e11154bb7005921,/,/,    Continued work on per-template configuration customization on loading: ArithmeticEngine fix,/,/
+fb7edd145c747fe2b773ab219e1c9b31f1f71d97,/,/,    (More FMParser API backward compatibility test),/,/
+1167c49593b4732a273af987ead5d38fbef55b38,/,/,    (Fixed new Version constructor.),/,/
+6ea649bc40f2c26325cf7dec2d37279f7503156e,/,/,    Continued work on per-template configuration customization on loading: Backward compatibility fix,/,/
+06a148820e721791fff7e06d80970f6c734190af,/,/,    Continued work on per-template configuration customization on loading: Cleaned up 2.3 parser construction. Dropped TemplateConfigurer.ecoding  as it would be too expensive to develop and isn't a high priority feature.,/,/
+318eec74052573b0a276249e180549bafceb53e5,/,/,    Continued work on per-template configuration customization on loading: ParserConfiguration continued,/,/
+a37ecae5ca3a91e6d9e8f6dd97b745c15bcb7574,/,/,    Continued work on per-template configuration customization on loading: ParserConfiguration continued,/,/
+edf54a030cdafe3e472a7f3f0506d4733d384c82,/,/,    Continued work on per-template configuration customization on loading: ParserConfiguration mostly,/,/
+d2f013b1b07dfd4fd75aab2933090c847468a141,/,/,    Continued work on per-template configuration customization on loading: customAttributes fixed in the case of overridden public method,/,/
+8972df2217586670f101ad1adf93b39bab0adfa8,/,/,    Continued work on per-template configuration customization on loading: customAttributes,/,/
+7e2374dc5f2d33e3b58f456dd5577351af2cd4d4,/,/,    Started working on per-template configuration customization on loading,/,/
+b94ce7883a2109bf09f9ba97e57f0909283df26f,/,/,    (Method order cleanup),/,/
+052d6e3e2fd0125962e067dafa3bdd6b12954c0b,/,/,    Show more specific title in search engines for the two "Getting Started" pages,/,/
+44479ef01613c8b49128271de9f5932670da2858,/,/,    Manual: Preface is redundant online  as nearly the same content is shown on the site welcome page.,/,/
+1981aef509f93a796e430ff972b3add65c928855,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+e745108d693a7419d329306e99ec1534e44925da,/,/,    (Utilizing Java 5 varargs at some places),/,/
+6b62e0e64b28c40318b101448246e1dc4dc62588,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+bc759788cc61201925877472ed7ecd403beab394,/,/,    Added @Override-s,/,/
+c98bdfe5cc31485c897415dcdb880145cce2635a,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+5696f26886bcc79e1191776645ac5b27063deda5,/,/,    Added @Override-s,/,/
+a62200d983c43475f6b679e6f09523ddaa791957,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+b26819978bb29b5ef5c8143a14d3d1646244b8b7,/,/,    Fixing Java code formatting inconsistencies (mostly old-style/C-style formatting)  continued: synchronized,/,/
+3b95b015af9602945aedd53657393a7ad385b766,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+fcfcc60bd65a549bb7b28cb1f1665c4eede554c4,/,/,    Further trivial cleanups that utilizes Java 5. Added FindBugs annotations  made FindBugs Eclipse settings stricter.,/,/
+af51cdccc2dc9a9d95d97d2a5089380f16cba75a,/,/,    Cleaned up Interpolation section content.,/,/
+1304996efd25057e281c03844a30bf4cd8fd3006,/,/,    (Replaced overview image with something even less ugly. Added conversion howto.),/,/
+8e8374aedbb3f1609c46a44083f08a39f84d91a7,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+faf259c59c5c55c269353758f003ef856f3a38f7,/,/,    Some trivial changes to utilize Java 5. Also made Configurable.getSettingNames public.,/,/
+a62ce19059135f73ce661e9dea430564a807581b,/,/,    Replaced overview image with something less ugly.,/,/
+2c30a1dae0d10401ee3f711ade9d2a0b3751bd16,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+e01f618f8561b679023444ac83d79534f927747b,/,/,    Fixing Java code formatting inconsistencies (mostly old-style/C-style formatting)  continued: constructors  try-catch-finally  do-while,/,/
+594324bbf5d299fb820674fa40452cca82e2ad8a,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+a88b93f4326143fa22a9d9c522f3b9d058882eef,/,/,    Fixing Java code formatting inconsistencies (mostly old-style/C-style formatting),/,/
+44510e5e48a10778b526f86f980803e533c7c756,/,/,    Revert "(Nothing... testing something in Git)",/,/
+00e51a4f4810a8939f495836bc970bd509f388bd,/,/,    (Nothing... testing something in Git),/,/
+248d59e7682dfa383c7982d3d2e4b37cab47755f,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+59710b531c3192a20668823cc616379c03ed8891,/,/,    Replaced new <WrapperType> with <WrapperType>.valueOf,/,/
+2549f185a4770fd7b7d625815069b9a31a6feb78,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+d8efa561c52d1b6a074e24e67da35194d2f7c933,/,/,    Get rid of pre-Java-5 ConcurrentHashMap trickery,/,/
+e06b8887cdf70f29980c144268904ba118a51388,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+d012ad980fe7d6fa41691c3b90abae8482e64295,/,/,    (Removed remaining Java 1.4 usage from build.),/,/
+30accceda8b302a1bf2f34ec6e8e94300be2bb2d,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+88e703d078686e07023db96df032ce254bcb5ac5,/,/,    StringBuffer to StringBuilder,/,/
+8c5fed5cb586db31c705bc47b5d923d93190c09a,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+d6e5476169a0417a8bdb1de3537bb925188e3eee,/,/,    Raised minimum required Java version from 1.4 to 5. Upgraded JavaCC (used during build to generate the parser) from 3.2 to 6.1.2.,/,/
+da7b36b79b1a85a80e31fd2bb5c6c1753cec4665,/,/,    Version to 2.3.24-nightly,/,/
+7603723218cbb10451e678a460a9aafde83ca13a,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+0e4b7dbc92b7bbad9cdc6f53e4630e5e07b405d8,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+5890dffb22fd0181053a8e108a8ec7648fcd04c2,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+04ed7db484abcd0218e7659989a5ef10a316210b,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+e4c3f3d5b2113e0b01061de914df70fb32593c73,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+27c190b9e98da870618980d21139c4f5210a69e5,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+d87f33098dff99b89355a2bcacc08e5a8c12e9a2,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+e02e33cbfaf765cc33460a943e96cedf833d8cc5,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+529932c9898a7a93b1704db0de533fd5da84d28d,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+ac8efcf7fd019bc85254d5081f36f61f64a4a6ba,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+2670680a77f6ac182956bf9e674c010d2d06bb5c,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+1dc15469f0ca3a7b91b0af56b6340791baa27e7e,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+88d5b09499e120afc107dbad7426fb884d5e4fac,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+ee4e742b8204f117197cee8a46d221b14f0e51ca,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+1bf7b3f5397841e5b0242e6d6a8f30c36438e7a8,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+aaa43144dd795393f9f623a893637cc579102bc4,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+ff98c7b9d663d3b172eea8ed28395c5516a22a60,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+4b5810a8abb46c87a5e80b453c47494997d2d9fb,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+90602421f10d25ea4f9d8921afecd1d593cf6c7c,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+137a3f735613b62a44fcd6c3cf27fc1958743f97,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+867c028ec1a6a0dc2f3682c690d1a7a3d2c9aea3,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+acaf12dd1c9a04b50c68d666240dbe4cc2534394,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+0714a7d0b5f43f28965330c1129277caa94060a5,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+f49ab3764ab1b1fc82ca3b0fd670954e85181339,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+b490c99e70f0fad865757f4d7994cbdca138e09f,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+8d35edfb4492c21de5ca21c8c544222e12f2df42,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+1dcee124b4380e7ba8b45b966143bec2989db405,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+a4f234edcdebaf3f49db3440528c097f671f8bce,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+f087610fb1f2dda0649fe28b48e2e1caf60537d2,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+3bf73ff73e8d2377ac3cb637525690a36442ec13,/,/,    (JavaDoc merging fix),/,/
+5fde67bf9abc5b02f09a4bab21a9572672937a81,/,/,    (Renamed Eclipse project to 2.3),/,/
+960c043e06de2ed8716371c95caf29b5c3243b56,/,/,    Merge remote-tracking branch 'origin/2.3-gae' into 2.3,/,/
+f9cee45798813e3eb66674b3275a9381256f7e76,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+0af8afa358b8859f801ef21dd1f51f53051fa815,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+d723989a83c44f0646ebdb2859c3401b7a655b22,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+64a5da29a908e2c46955f667605ca9ac97cde7c9,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+55bae785c79ffcd64af8b6801ae35d240a9ea2e4,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+66ccc2f22e2a43f52b5489f1e42760bf3714ffdc,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+95e1fe1fffa72ef498684e5417362c2c997d08b4,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+ac707932505ff4e55102e317b2c97d8a54c7d2a7,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+a761fe818318038af999f650a2c3d7964559ed64,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+1dfe4e3bd5c3529f0df0e3064af99df38ba1843e,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+440080b6f78c74ad4c873a6a642439556405d91e,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+92c927d244d2843a1671fff3fccc565e14967e32,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+bfea6378f8d953f9ff53b87dc2475d029ecb6ccb,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+833ed2f73d1654b2561aeadba03b4cc8947bef6b,/,/,    Deprecated TreeNode-related methods.,/,/
+3e45864727874eec8d6c8cb9a8c79d0a248a9393,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+8209c2c99202d0b95c2908c40eb2ed7f7384f9bd,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+87c701e3d22e4abc12c6f1c891e639f30cebefe1,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+6fd8351a2314cb1529a3d00c34c68b08ec733389,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+e3928c92cbad0df819e3cd0e8d8139a0a3b52a4e,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+116c0cce26cae1075b91de6f0ed1fb11c8b729f3,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+def812d76045f86a4b483cfd5770bc2509293132,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+602218a9a62478098c9b40a0b155e01dd5646376,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+b79833f697b8418307f9510496fe3a80d991e848,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+bc80187633249cd2af48381ea07b1783184bd7ab,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+053c6b8852e22a76f10c0bb7ccaa9c2232377b23,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+d40ddb682830df1d8cb0c680d8bd7fd3e1467a9b,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+83e586fd5f3010d993ebeb26f8514a18c0d5df4f,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+a8fd91565b87a6e938b50650b282e9d3816f2afc,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+0eb143d70627389a039bee600da1eef2524a5c34,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+a882f8d0de1ac01f26726867eb772148f5e648ab,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+2c648e4ae1de7942626356468ac78a47d44a12c2,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+e1c2a107f468af6841d474e3b5e581d5998388f4,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+8d51e5503d9bc0e89a185861f6c5213a9eb4e4fa,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+9afdcd2edeed7c11e922789bc3d75ebd22c93d82,/,/,    Merge branch '2.3' of github.com:freemarker/freemarker into 2.3,/,/
+fe20560c24cc9ca8283064bce653f20f04a15c40,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+1acc58d37e572cc9cf0897296860ae54ee4beccf,/,/,    Merge branch '2.3-gae' into 2.3,/,/
+cde5eae6b7c701bf6604c59c2c8412a077cdf84a,/,/,    Merge branch '2.3-gae' into 2.3 (just to "document" that changes from the gae branch before this need not be merged),/,/
+ddff5e0a651a96e1537c4991476a37791ad6fc24,/,/,    One of the Java 5 method overrides wasn't commented out  and its return value conflicts with Appendable. This could cause problems.,/,/
+fdda30c7a32897e2e768a5e16f868e96dfdab674,/,/,    Fixing artifact name.,/,/
+08d5b523aee59196459d260e91de3ddbbed247d0,/,/,    Merge branch '2.3-gae' into 2.3,/,/

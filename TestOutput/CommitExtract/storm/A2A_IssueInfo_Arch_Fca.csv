@@ -1,0 +1,491 @@
+1a57fcf6b015c23f56aea896397bca03fc109ead,STORM-297,Bug,Storm Performance cannot be scaled up by adding more CPU cores,storm-core,Major
+b4422f13b6c609b5f68eb0a053f4bc08182f97d5,STORM-297,Bug,Storm Performance cannot be scaled up by adding more CPU cores,storm-core,Major
+701ac94d9ad29192368ad63e7d6975794dc3c2f7,STORM-297,Bug,Storm Performance cannot be scaled up by adding more CPU cores,storm-core,Major
+a9180599317e2741559418165ebc7178008147a1,/,/,    Speed up new test,/,/
+f6915d45a61593f95bf779558a32f807d583932c,STORM-297,Bug,Storm Performance cannot be scaled up by adding more CPU cores,storm-core,Major
+baee2f4d3543315c040756caa6cf9881c44ee803,STORM-205,New Feature,Add REST API to Storm UI,storm-core,Major
+426d143784ee3610aa3582d43316f1344abd6275,STORM-297,Bug,Storm Performance cannot be scaled up by adding more CPU cores,storm-core,Major
+4c61cd40023ae31cb9045e04360b376736969d3d,STORM-244,Bug,DRPC timeout can return null instead of throwing an exception,storm-core,Major
+49a9a92f79546f8a44e8664e422e26c187b73ee2,STORM-205,New Feature,Add REST API to Storm UI,storm-core,Major
+2278fc9623d5b71bca9ece3857e645e85ab1562f,/,/,    move towards idiomatic Clojure style,/,/
+900490b9caf8993ad0beee79fd4139b3bdee6359,STORM-205,New Feature,Add REST API to Storm UI,storm-core,Major
+b930e100a9f74e832fd9142d0c825d9f24d0af1d,/,/,    Storm UI Visualizations for Topologies,/,/
+688444a96a5b2abf28faa0b7220e1436a0e951e3,STORM-205,New Feature,Add REST API to Storm UI,storm-core,Major
+f6c306b27036ff9905108379846125ee18e772ff,STORM-308,New Feature,Storm Windows: Add support for config_value to {supervisor nimbus ui drpc logviewer} childopts,storm-core,Major
+7346db2f4dc10e59965d3f9dfa9a9611ccefe41a,/,/,    Add test case to metrics_test.clj,/,/
+9e1dc5918618e9a23e7bc6c1b2e41cb002206230,/,/,    Merge branch 'zk-hb-blocks' of github.com:revans2/incubator-storm,/,/
+20b4f8b2195a1bf214f63e10b1bbca4690c0290f,STORM-297,Bug,Storm Performance cannot be scaled up by adding more CPU cores,storm-core,Major
+c0768100738b211a21e1775b78c114f4a20b2b30,STORM-232,Sub-task,ship JNI dependencies with the storm jar,storm-core,Major
+d85c470747c22fa47a1f914388861b018ce9acc8,STORM-297,Bug,Storm Performance cannot be scaled up by adding more CPU cores,storm-core,Major
+0d6b438fff0ddeb254efe3d858ae7a29251ce289,/,/,    Add ExclamationTopologyWithMetrics to storm-starter,/,/
+deb55ec918126400ed94ee49f88c32b9ffda7b5d,STORM-297,Bug,Storm Performance cannot be scaled up by adding more CPU cores,storm-core,Major
+d3c6a1b1e8d03297cdca95f9244d7c49a590e3fa,STORM-138,New Feature,Pluggable serialization for multilang,storm-multilang,Minor
+f06d81b97e58d76d8597b4dc4535e60764018a50,/,/,    test commit,/,/
+bcbd22bf3527fb700b4dda06207b22638db5a16d,/,/,    Removed sync comment and changed spoutMsg name to _spoutMsg,/,/
+f041e55fc7f8fcaf92d5b7d23c80dee2025c2921,STORM-310,Improvement,Change Twitter authentication stream using the new Twitter4J. An optional set of filters can be used to restricted tweets.,examples,Major
+f55f766d7085a92ea4dfcf645fca10243ec92b89,STORM-308,New Feature,Storm Windows: Add support for config_value to {supervisor nimbus ui drpc logviewer} childopts,storm-core,Major
+f0814d4b46af16ba4bb98458ba4f1d5339c7643a,/,/,    Removed unnecessary comments,/,/
+1bc4d41e8cf348e9cc1121c145d015f3f7351885,/,/,    rewrote submitJar methods to be similar to what we had before,/,/
+8785f491bab0c3a43d472e1e5250415aee6e287b,/,/,    Update PrintSampleStream.java,/,/
+3a9e8fc1ad28942b398fb3864f59989d5720fca7,/,/,    Merge branch 'storm-113' of github.com:supercargo/incubator-storm,/,/
+790b2ece59b237809af7a2e85cc96f011cacbaab,/,/,    set scm tag to HEAD,/,/
+bc76878f0ea08e9b853e342ca92211373346bb4e,/,/,    Added in security documentation.,/,/
+660d8c42ee8876847209e57ffa2c200ceefbbbbd,/,/,    Made the multilang serialiser topology specific,/,/
+3c89fb524f57152353334a60cfc6a2121286c702,/,/,    Addressed review comments,/,/
+8f3226010fdeb0c40f824344b47807e861aa04e7,STORM-269,Bug,Any readable file exposed via UI log viewer,storm-core,Major
+7429e1d163bc7c52a4e111da22ea5dcfc84ea392,/,/,    Merge branch 'zk-log4j-excludes',/,/
+f5f41a0b54a852da95a2fa659b1199d727571313,/,/,    Merge branch 'master' of github.com:jsgilmore/incubator-storm,/,/
+46c02be8181d196e48484807e34215d5e5fb61b4,/,/,    Merge branch 'master' of https://github.com/nathanmarz/storm,/,/
+81704e310eb5e54135fd622281c4c0ebd7df663f,/,/,    Merge branch 'master' of https://github.com/srinivasgumdelli/incubator-storm,/,/
+5eeb74f78b03d1d1076bb3c5871481056a5edf7f,STORM-288,Improvement,Fix version Spelling in pom.xml,storm-core,Minor
+ae728f81a3f480cc0f02209f5ed1309204a590f0,/,/,    add storm-kafka files to the binary distribution,/,/
+de46f7136f07d78946c7c5d16098dd56712ac8d4,/,/,    Merge branch 'fix-storm-shlex' of https://github.com/yerenkow/incubator-storm,/,/
+ ,STORM-196,Bug,When JVM_OPTS are set  storm jar fails to detect storm.jar from environment,storm-core,Blocker
+8a9c635f9ffe478f5937ba125201adbf8cb72162,/,/,    Remove too verbose comment about JAR_JVM_OPTS being array,/,/
+fd82382b54c181718f9966f75dd776c8f445cadc,STORM-258,Dependency upgrade,Upgrading Apache Commons IO to 2.x,storm-core,Minor
+a72aafae503c8314b26330e0d4f440fb4632a483,/,/,    update to kafka 0.8.1,/,/
+4fbbf72795951df10f4a82c0f0f019dd51cc1081,/,/,    Merge branch 'no-clj-in-jar' of https://github.com/revans2/incubator-storm,/,/
+ ,STORM-270,Question,Why ahead-of-time compiled clojure &quot;classes&quot; are not used in storm-core,storm-core,Major
+7d1bf2a923f8416197f81b467d40f959b2f4f997,/,/,    Add storm-kafka as an external module.,/,/
+adab172a7d5621eb4497f9ec511f43c04991b2e3,/,/,    Merge branch 'master' of github.com:wurstmeister/storm-kafka-0.8-plus,/,/
+2c8d3c8927ae611b2c8c7000f8da85df22326b7b,/,/,    STROM-247: Replace links to github resources in storm script (for Julien Nioche),/,/
+98cfe93010ff069af2f7c607b11e6735060e2405,/,/,    close resources in tests,/,/
+aa064727d8b13d762c06509c185194b17edc40e7,/,/,    Update PrintSampleStream.java,/,/
+0d3b833d86687857ec8cbfb1e01041ffc8120798,STORM-273,Bug,Error while running storm topologies on Windows using &quot;storm jar&quot;,storm-core,Major
+93ca65457201948d6be1f994f5a046ea0fe477a1,/,/,    Update README.md,/,/
+94c4d4d9e6c4ce736141668c585818214a9d26cf,STORM-12,Improvement,Reduce Thread Usage of Netty Transport,storm-core,Major
+2f45866c8e011ac4804c940ff9e1d7c147591761,/,/,    fixed KafkaSpout partition assignment,/,/
+77dddca73070c694016c7b682fffb4d113365966,/,/,    Merge branch 'storm-starter',/,/
+84f04c3fea11ccb6844bdef7baf8e6f654637981,/,/,    align with 0.9.2-incubating dependencies.,/,/
+20d04da351324aa28387ad81aa8b33405bd83f4f,/,/,    Merge branch 'master' of https://github.com/apache/incubator-storm into storm-241,/,/
+e1b6fb4db4554ba4d8cacc1d1fcdea9eabfcaa17,/,/,    Merge branch 'master' of github.com:wurstmeister/storm-kafka-0.8-plus,/,/
+9796b5270450cbb914ada62996dd631f92209f4e,/,/,    Merge remote-tracking branch 'original/master' into merge,/,/
+a2be522877a5a86c0c4e0f3407b81e7f8e99c95d,/,/,    update changelog,/,/
+bb13ccedc0ca7443b46c3698ed864bbb19f00220,/,/,    fix spacing issue,/,/
+50408bfc1c193356a66f50f9ce9aeb7786031f4b,/,/,    fix added code not in when-let block,/,/
+f1d7fca7ff1c68c184539e39502f579c9ef6dc39,/,/,    merge storm-starter into examples,/,/
+6c82685c274c57576d45ab4d4b05ce03a3d2223b,/,/,    Work around ZOOKEEPER-1476 by prefering IPv4 by default.,/,/
+118cec43b19eec2ed1d66f6dd0aac7209edfde96,/,/,    added Kafka bolt,/,/
+f573001db106d6b8d6af2167bb2b88f38a3738e5,/,/,    preparing for tag,/,/
+80ab3625e9802fbd8bff16c706fc788cf7aed17c,STORM-245,New Feature, Implement localOrShuffle() on Stream for performance,storm-core,Minor
+4de85c8e7f6f4244be9eb688c6a4576a9c88c2a1,/,/,    Added support for reading message key,/,/
+7ed8879a1fdb27df6848bf2921f8cef89408f2ef,STORM-186,Bug,Milliseconds level tick tuple is broken,storm-core,Major
+71119ce131a1c618759231ed9d4aca0468ff4055,/,/,    Merge pull request #22 from dschiavu/configurable-metrics-emit-interval,/,/
+d2a0bcd99e806922fb6443d2764f8c3ceb52aca1,/,/,    NOTICE revised regarding Yahoo contribution,/,/
+2a0757ace47466e4ce13f670e977128c546c0349,/,/,    Update pom.xml,/,/
+fe1a9da07d7d075a9db768d5fa332f1d24bc3a37,/,/,    remove Nathan Marz reference from NOTICE file,/,/
+b6b1f1d8fb5a56cf14c44ff46aa513e0fa4e99ab,/,/,    Make the spout's Storm Metrics' time bucket size configurable via,/,/
+9fe14b405da30638be348fd3fdbc639e6a7376e9,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+37aa116d7aba38c7600b669589bc9458e328bb4a,/,/,    preparing for tag,/,/
+1b13ca2281f4aafac92e471167ef0e7c3dccb030,STORM-113,Bug,TridentUtils.thriftDeserialize() is used unsafely when running in local mode.,storm-core,Major
+5b764cd9138dd93e7382e3472b9d3d33d4b286a3,/,/,    calculate start offset for new topology consistently,/,/
+47387185b1c8b61b24c8c3be1675e4e4f2c670c6,/,/,    Do not rely on spaces to separate command args,/,/
+95c60dbbbc80165969bae6cbbd1926207720e59c,/,/,    Added error handling for fetch request,/,/
+735b87f78459ec686017c538ef50d95a7db9584b,/,/,    Renamed HostPort to Broker,/,/
+e7f7feac92b4ae7045b5d1c0c8cc75bb842cc20b,/,/,    updated to final version of storm 0.9.0,/,/
+651ccfe07b542fd0b2c8c9a518fb6c1cd173bd9d,/,/,    AbstractRankerBolt: Emit defensive copy of Rankings object,/,/
+74f01ec64eef63181e8d6b92a08295a279e76158,/,/,    Re-add Google Guava to maven deps config (accidentally removed in commit 8012cd7),/,/
+b77057c5d0aa9e47469c86da7c01f4aba3bd5f43,/,/,    updated to final version of kafka 0.8,/,/
+8012cd7a4a8665469ccd4e89c4b7013f52007021,/,/,    align with version 0.9.0.1  clean up m2-pom.xml and align with project.clj  update README,/,/
+1a19f3ddaca0d2ab2c388d70d03d7ebd63590879,/,/,    Shell component serialisation is now plugable with a default JSON serialiser being used. Moved multilang classes to multilang directory.,/,/
+e7b4c09b6859e6b866d8b45b948c7d69b1cc0ceb,/,/,    ISSUE-36: equals() should compare against input parameter,/,/
+572a57702dfbe8918b74247a71f5922ebbde7901,/,/,    renamed GlobalPartitionId,/,/
+f8088920b71b4ab704ffc76f63dab74dc1e834cd,/,/,    Refactored emitters,/,/
+9abf90b4d924e9b74c4ead612e8819ebd24fca3b,/,/,    added test for reading partition leader,/,/
+4024080de5ee9d131b766f870007b13d723ee3cc,/,/,    updated dynamic leader detection,/,/
+005cd8b348a27267e80a3c557c6a6ae25d3f33c2,/,/,    updated zookeeper dynamic broker detection,/,/
+38bde87ed3e27ee5d5dfe1fdf5e25a4640472792,/,/,    fixed kafka 0.8 compilation issues,/,/
+205bc6339f7d59ca6533231e0c92a1ad295e05f0,/,/,    add api latency metric to KafkaSpout,/,/
+8f8f48c75989ea1af3afeb8c0fe27b51b6080850,/,/,    upgrade to lein 2,/,/
+4bf2de58f0972b731600269cd419c1a3d1869458,/,/,    forgot MaxMetric,/,/
+76d788cd08265ba22b17632aa0629c34a86baefd,/,/,    fixed possible issue where getValueAndReset is called before refreshPartitions is ever called,/,/
+2aaada7ff0db344335642eabd0da52751a17717a,/,/,    fix unit tests to match new behavior,/,/
+860a43b444f72bd90f3d24090907874330995bb2,/,/,    fixed concurrent modification exception,/,/
+cb5e958745344849a6f4689963c5de08c5bc2386,/,/,    Merge pull request #33 from MichaelBlume/emit-zeros,/,/
+08f779f0de6839f63af1443d7070da730db9a3b4,/,/,    lein2 upgrade,/,/
+b33e706503c50390d52c54032a95d955dd71d08a,/,/,    update to storm 0.8.2,/,/
+1897dee648686282d3bee948ed04c01b8bae729a,STORM-511,Bug,Storm-Kafka spout keeps sending fetch requests with invalid offset,storm-kafka,Major
+d92e974a113bcaba656dd777985c520c8c9a4dd8,/,/,    Change DEFAULT-TIMEOUT-MS to read JVM Property,/,/
+dc94bf47886c2c7b80f9eff8feec8054f6b9d43f,STORM-538,Bug,Guava com.google.thirdparty.publicsuffix is not shaded,storm-core,Major
+d34037d2d2b1a1e635d708e9367c5a29d2505eff,STORM-511,Bug,Storm-Kafka spout keeps sending fetch requests with invalid offset,storm-kafka,Major
+b2ecd44a7ee13d6c98171c63d056bdef481d6e0f,STORM-307,Bug,After host crash  supervisor is unable to restart itself,storm-core,Major
+786aacca25227dd97e2e473e3c5a09a66aa0fb8f,/,/,    TEST-TIMEOUT-MS : Make it clearer to have number type,/,/
+be66015dfbfad20451b66db35efb16fef50878c9,STORM-499,Bug,Document and clean up shaded dependncy resolution with maven,storm-core,Critical
+c6aabd4a8726766eb72d6a2b35b00c680b876ab3,STORM-492,Bug,Test timeout should be configurable,storm-core,Major
+9f712703e3c1017f79054a59230ce0a462504251,/,/,    Merge branch 'storm-hbase' of github.com:ptgoetz/incubator-storm,/,/
+3f2eec5ff3db9cdb72bd34027c9441e22e599dc2,STORM-428,Improvement,Common Core Storm/Trident Tuple Interface,storm-core,Minor
+a56ccc7f5f98b34587c307d4cbdb90c91ce947de,STORM-508,Documentation,Update DEVELOPER.md now that Storm has graduated from Incubator,documentation,Minor
+d2ca0b344fe685c2978c55b9792cde1ef8273eda,STORM-428,Improvement,Common Core Storm/Trident Tuple Interface,storm-core,Minor
+f259f1da288171a9393fb500150d034ccca0d146,STORM-497,Bug,b.s.m.netty.Server.getMessageQueueId is not thread safe  and can return null,storm-core,Critical
+e96b4467bedd5db7dfdcce9e5623da79ae2e5468,/,/,    Nodejs fail should not be followed by ack,/,/
+4c515dd71f4b9fb42ca56b738de7758236547046,/,/,    add storm-hbase as an external module,/,/
+509e41514bb92ef65dba1449bbd935557dc8193c,/,/,    add back HBaseState.java,/,/
+9cf06354fcf650694a50719b50f02715a033ecb5,/,/,    delete HbaseState.java,/,/
+fafda26918fb7284f8a7ea69e4168f79775f4e42,/,/,    refactor lookup interface,/,/
+08d21a2cb35a5123dedf0bbe13eeef48ee7896b5,/,/,    Merge branch 'trident' of github.com:Parth-Brahmbhatt/storm-hbase into merge,/,/
+c99145c93130e93bff8132516fafbecead815ea8,STORM-493,Bug,Workers don&apos;t inherit storm.conf.file/storm.options properties of the supervisor,storm-core,Minor
+2921336a1889164a15044f9c5b53ee1458cd8d80,/,/,    Add the equivalent of sleep(100) to randomsentence.js,/,/
+264354305207f04019bf621b5fc06d134632e1b6,STORM-475,Bug,Storm UI pages do not use UTF-8,storm-core,Major
+1201b8481b8606d520641be441339a61245b1ce0,/,/,    Move the meta tag to be the 1st child of head,/,/
+b89a00c18d3db6f34d861e8b6b35e972645c3a24,/,/,    Merge branch 'shading' of github.com:ptgoetz/incubator-storm,/,/
+e9ee271e20607ced950da075cbf998d616296dc1,/,/,    Fix stepsize to 1 when maxretries is lower than exponenial limit,/,/
+2db902e3883519c3c602c046003b8354d6edfbc3,STORM-361,Improvement,Add JSON-P support to Storm UI API,storm-core,Minor
+32c671ad173b4e33b1be1ef1a0e279808b06e3b8,/,/,    Remove unwanted spaces,/,/
+8abafb34188edcc9e8845c0b24ccd3e13647fb18,/,/,    Addressed review comments,/,/
+8f6fbdad58c6d7ff2c9ab6270e33cade61e7d530,/,/,    Add a comment that indicates that you need ruby  python  and nodejs for all of the tests to pass,/,/
+18f283e329920696439c8766155f3291fc339dcc,STORM-453,Dependency upgrade,Upgrade to curator 2.5.0,storm-core,Major
+a0ca23ca8862500a59b4f4029f05386e3be2ced8,/,/,    emoved Author tags,/,/
+a1cf23d81eded0da5183c61912908761226732c9,/,/,    Remove out of date comment,/,/
+a2484f3e7659841d986439b73c79116f8ba0d70b,/,/,    remove unnessery test and change port numbers order,/,/
+2b7c79a2bd66f0502515851935a3d92eb34c3453,/,/,    Update STORM-UI-REST-API.md,/,/
+d6a71142eec6f669f335312f418134960143fdbc,/,/,    1. fix test case passed on original code; 2. use count-by,/,/
+ee86ad9b6963722a2f2d91c04d5014c11c0a9024,/,/,    Updated ShellBolt to not exit when shutting down.,/,/
+da30c0567ecdb1d1cc1a0af1f62815b47dc48ce8,/,/,    Instantiate retrypolicy once during netty client instantiation,/,/
+747765b9042443443a29a2191303c32976d1e640,/,/,    Fix naming mismatch for twitter spout when building the topology for the print sample stream example,/,/
+7d21ffe9f9f61c9e3115add26a250b95084b131d,/,/,    Implement storm exponential backoff stategy to use for netty client and curator.,/,/
+10110763090b0fbeaa797aeec9c3a0f7773daba4,STORM-405,Improvement,Add kafka trident state so messages can be sent to kafka topics,storm-kafka,Minor
+581a528fbeab1c121c0511ece856eafd3dd674de,/,/,    Merge branch 'storm-hdfs' of github.com:ptgoetz/incubator-storm,/,/
+837b9e50acbfb3b91009ed08259c44e0efebcebf,/,/,    fix the problem of log level implementation to compatible with old log protocol with no loglevel,/,/
+c361603d2bffea419cb989913099639b65004f22,STORM-405,Improvement,Add kafka trident state so messages can be sent to kafka topics,storm-kafka,Minor
+b2aa030c478875411be009119b0ebc563a4036a9,/,/,    Merge branch 'master' into childopts-replacements,/,/
+179cc3760c629c7fe7ec3e0f09e17101707a010d,STORM-405,Improvement,Add kafka trident state so messages can be sent to kafka topics,storm-kafka,Minor
+f7fb65676dd80214760e058d366fb2d6dcb302c2,/,/,    Merge branch 'master' of ../storm-hdfs into storm-hdfs,/,/
+39797ac6914d042051d6f4504edb6e01998bccf3,/,/,    fix HBase configuration bug,/,/
+d4db09f8c0160195bdc296a73ead5d8f1b022ba7,STORM-376,Improvement,Add compression to data stored in ZK,storm-core,Major
+827e0ba9e88f5a719532f2cf55a3963ef0bfb6db,STORM-405,Improvement,Add kafka trident state so messages can be sent to kafka topics,storm-kafka,Minor
+e1e6a602e330d71410b1876ca9fb6bfc29761f35,/,/,    Fix netty client reconnect issue,/,/
+425b75609452f85f90e6945bf4171a2f7cd9e099,STORM-405,Improvement,Add kafka trident state so messages can be sent to kafka topics,storm-kafka,Minor
+d89faea28405a0aaf82d46164d9cb88c3547d0ca,STORM-417,Bug,Storm UI lost table sort style when tablesorter was updated,storm-core,Minor
+6a38b52a51600c7cda561442f92a6195adce527e,STORM-405,Improvement,Add kafka trident state so messages can be sent to kafka topics,storm-kafka,Minor
+1c297d70993014a4713f0fa6584a725c480e1cfd,/,/,    Reformatting function and comments,/,/
+905969ca3a744d86a562d3d85805c25f9f9561cc,STORM-405,Improvement,Add kafka trident state so messages can be sent to kafka topics,storm-kafka,Minor
+b5500ec8f7f0171e6ec37de1e85b2041d2f482af,/,/,    Remove unwanted functions from supervisor-test,/,/
+a26329c238f2bdcd1fd8fe41ac511a394f47c440,STORM-405,Improvement,Add kafka trident state so messages can be sent to kafka topics,storm-kafka,Minor
+ea30b703865bf043bea2fc4f7c689f5a13d59c0f,/,/,    support loglevel to multilang's log interface and python & ruby implementation,/,/
+f7502f41a7bdfc67a432714efa27b0c952b7bb0e,STORM-132,Improvement,Default Storm scheduler should evenly use resources when managing multiple topologies,storm-core,Major
+fe95ca4bafa75e120c6b7e8dc828d3f8e8c2461c,STORM-364,Improvement,The exception time display as default timezone.,storm-core,Major
+b9017eab4beb4d2997688b0c732e937cedb5af1f,/,/,    Noticed that a user name was not being parsed properly.,/,/
+a277c887f16e07e5aae3093f77751f23dd6139b6,STORM-405,Improvement,Add kafka trident state so messages can be sent to kafka topics,storm-kafka,Minor
+c2176bafefdc0bcefe2db5586c26d53ff27f0512,/,/,    Added a hacky workaround for a FileNotFoundException I encountered,/,/
+1ce42cc6cd488d486ba7040c18d03960da07eef0,/,/,    Addressed review comments.,/,/
+db2026b24f290755b271c12554a038adcbd2a779,/,/,    Revert "[maven-release-plugin] prepare for next development iteration",/,/
+3fc72fbca91fda1f85ae9b8823001152047b6763,/,/,    Revert "[maven-release-plugin] prepare for next development iteration",/,/
+bc5f38ef6446bf663934c067941d6637abb5ba60,STORM-996,Bug,netty-unit-tests/test-batch demonstrates out-of-order delivery,storm-core,Blocker
+8a29593539869e9144af45e8da11bf719f435d05,/,/,    Netty Fix.,/,/
+a1649c5485f14fa94d1e80bd1f212a3e165afdc8,STORM-1108,Sub-task,Random test failure : reset-log-levels-timer fails with NPE,storm-core,Major
+697059e958879c4daae5f4db57ce9abc04e81bd7,/,/,    [maven-release-plugin] prepare release v0.9.6,/,/
+1f2c4f72b4dcd565a28e96828d6752a12d018e52,STORM-1094,Bug,kafka offset does not advance when deserializer yields no object ,storm-kafka,Major
+3fd46c3e95f970a2fc1ef7589ef94ed871165218,/,/,    Fixing schema/scheme issue.,/,/
+42a3d9bd1e922dbd641140e1516e885e858ab829,STORM-1056,Task,allow supervisor log filename to be configurable via ENV variable,storm-core,Minor
+1730fd3bd9c475e7add4cddbdca4445867b37060,STORM-1056,Task,allow supervisor log filename to be configurable via ENV variable,storm-core,Minor
+9d16fec026068810c001f473bb01358edba80531,STORM-1044,Bug,Setting dop to zero does not raise an error,storm-core,Minor
+aa8114f15963b80dabaf97466334296ca2b4c51d,STORM-1051,Bug,Netty Client.java&apos;s flushMessages produces a NullPointerException,storm-core,Critical
+e0c71e6e9aec210dcb39ae78f43d286e31dc3681,/,/,    Revert "[maven-release-plugin] prepare for next development iteration",/,/
+e696481c164f011e59396ba2c7bb1031db31381d,STORM-1027,Bug,Topology may hang because metric-tick function is a blocking call from spout,storm-core,Critical
+e3762533e0a11bcf78e18793974cfa107e028904,/,/,    remove unnecessary file,/,/
+55f8b28f293a51d144e184396bed00b864b459ab,/,/,    create logs metadata dir when running securely,/,/
+d222c312ad393272fb6a59c3bd56b60536e66fec,STORM-933,Bug,NullPointerException during KafkaSpout deactivation,storm-kafka,Major
+0315b015dc048568c708ae0a41010391dbbe9b42,STORM-643,Bug,KafkaUtils repeatedly fetches messages whose offset is out of range,storm-kafka,Major
+8b5df970afa21fa2db3cdb87d327a8a2d9e8785c,/,/,    Merge branch 'patch-2' of https://github.com/vesense/storm into 0.9.x-branch,/,/
+c804fbd2ee8795f303f9180bd6b725396041fa99,STORM-728,Bug,UI: Component Page &quot;Spout stats&quot; table has Emitted and Transferred in each other&apos;s column,storm-core,Major
+ ,STORM-0
+979e23cd73bbbb55ccadf9df9d62ac60b27e063e,/,/,    fix issue of high cpu usage when bolt idle,/,/
+72e243464787f8dccd1aa32f5eb40087d6f23d02,/,/,    fix issue of high cpu usage when bolt idle,/,/
+9221dba1eee59686ec6a1bcfd93d4ce542b071e9,/,/,    Fix incorrect WARN log,/,/
+56de46c3e84ce56d3d722264502e806fac41119a,STORM-763,Bug,nimbus reassigned worker A to another machine  but other worker&apos;s netty client can&apos;t connect to the new worker A ,storm-core,Major
+ ,STORM-839,Bug,Deadlock hazard in backtype.storm.messaging.netty.Client,storm-core,Critical
+dafbc000d7aa373f3fea6196a13b48c657aafbff,STORM-763,Bug,nimbus reassigned worker A to another machine  but other worker&apos;s netty client can&apos;t connect to the new worker A ,storm-core,Major
+ ,STORM-839,Bug,Deadlock hazard in backtype.storm.messaging.netty.Client,storm-core,Critical
+ ,STORM-763,Bug,nimbus reassigned worker A to another machine  but other worker&apos;s netty client can&apos;t connect to the new worker A ,storm-core,Major
+a2502c3bc3bcd4caf3800bb645058abb61d2a071,STORM-763,Bug,nimbus reassigned worker A to another machine  but other worker&apos;s netty client can&apos;t connect to the new worker A ,storm-core,Major
+286bacdf49937d1e8576eff27dfc887824ffdbbb,STORM-763,Bug,nimbus reassigned worker A to another machine  but other worker&apos;s netty client can&apos;t connect to the new worker A ,storm-core,Major
+ ,STORM-839,Bug,Deadlock hazard in backtype.storm.messaging.netty.Client,storm-core,Critical
+367a08d1b4ab434e42f824530b157c8e55160d19,/,/,    Put emitted and transferred stats under correct columns,/,/
+9ecf26cfb1b29ef369a4a99de85e2237645306c3,/,/,    Shade external dependencies,/,/
+5e134973eadda2c76b1fd62a0f93281abf326688,/,/,    Clean up,/,/
+5f55c51acd06697e339a6d2d5a07e46a21f3e0ab,STORM-760,Bug,use JSON for conf serialization,storm-core,Major
+c715e07a47b498b8a9207dbc853ca4015167b54b,/,/,    Use Netty's callback to perform the background flush,/,/
+cb370a99a12a8466b4acd644bfe4eba00ee26107,STORM-561,Improvement,Add ability to create topologies dynamically,storm-core,Major
+6978b58574a4de67ef12ded945e5183d96680618,/,/,    Merge branch 'ehimprove' of github.com:shanyu/storm,/,/
+28558b34c8be84a1288f290675fb34a71ed6203f,STORM-469,Bug,Storm UI Last Error Detail Insufficient for debugging,storm-core,Major
+832b5db2ec5101601894d8484f0d1707d98331e6,/,/,    Bring back the batching of in-between calls to send.,/,/
+d285d94d418bede3376e743f882c157a83f68a7a,/,/,    Merge branch 'java17',/,/
+b90ec781c7a7ba77f6598fe20e7842fa4a228098,/,/,    fix docs for hbase example,/,/
+bed27a744ab7acd061a0ab71bcb8e78bc0e0151e,STORM-753,Improvement,[storm-redis] Let Redis*StateUpdater to have additional mapper - converting Redis key/value to Storm Values,storm-redis,Major
+9c2972ac635ef5a7066b1abf19ffd5dc9e42718c,/,/,    Add initialization for ResilientEventHubReceiver,/,/
+f8906fb4d7750d5f009fccf98943060bb25e2f0c,STORM-753,Improvement,[storm-redis] Let Redis*StateUpdater to have additional mapper - converting Redis key/value to Storm Values,storm-redis,Major
+934cf3bfc9f697c5ed9281bafa7523408edc71cb,/,/,    Merge branch 'master' into 0.10.x-branch,/,/
+ad8112d10d662ae81498d11f78a602b97243a142,/,/,    Log error message for dropping messages only once per connection error (logging it everytime on send was flooding the log).,/,/
+037a9754fdee063d2238a9c41e6ffdb79759d33d,STORM-753,Improvement,[storm-redis] Let Redis*StateUpdater to have additional mapper - converting Redis key/value to Storm Values,storm-redis,Major
+86f326a3c0b40fc1b0eab65fcb17b438e433cfd6,/,/,    update EventHubClient library version to 0.9.1,/,/
+0edb8ab90c6edbfaf46f05be5dc51c1a3c5b3d03,/,/,    sync storm-redis with master,/,/
+05d1f8b2451a0f958ff079699862c219ddb26833,STORM-821,Improvement,storm-jdbc create a connection provider interface to decouple from hikariCP being the only connection pool implementation that can be used.,storm-jdbc,Minor
+acc1a79de17802c59810193311aa182b963e8511,STORM-737,Bug,Workers may try to send to closed connections,storm-core,Major
+4073dbe6cc98c55b9705888ae697778a9974ad30,STORM-737,Bug,Workers may try to send to closed connections,storm-core,Major
+02f4ae96bcc962e079f9a64794b19df6634db511,/,/,    Merge branch '0.10.x-branch' of https://git-wip-us.apache.org/repos/asf/storm into 0.10.x-branch,/,/
+94b6eab75e9fd02f423afc4ca70634fe72d34b65,STORM-994,Bug,Connection leak between nimbus and supervisors,storm-core,Minor
+8882acbe956086bac7893e9954f3638220b39083,STORM-1001,Bug,Undefined STORM_EXT_CLASSPATH adds &apos;::&apos; to classpath of workers,storm-core,Minor
+9c37d04fd2c646d9cc0705e6ad944d8ff16c98cd,STORM-1001,Bug,Undefined STORM_EXT_CLASSPATH adds &apos;::&apos; to classpath of workers,storm-core,Minor
+1469c647799c2d9d644c40e078fc0d533f568699,/,/,    Apply suggested changes in the pull request:,/,/
+539ea98a1d12d516b04b9aabf7af807cede3b632,STORM-1012,Bug,Shade Jackson dependency,storm-core,Major
+499f891153c575b46f6b69a233f8e9e99e2183e4,/,/,    Make EsStateFactory public  add tests,/,/
+ae0f814d589f718c4f989adffccea9b24bbfd3cf,/,/,    Merge remote-tracking branch 'upstream/master',/,/
+6a54fdb2e617723ca36a82258ba562fd7fadb29f,STORM-1013,Improvement,[storm-elasticsearch] Expose TransportClient configuration Map to EsConfig,storm-elasticsearch,Minor
+2819989001fe0352aa65201192358cdc69fc9356,STORM-974,Improvement,[storm-elasticsearch] Introduces Tuple -&gt; ES document mapper to get rid of constant field mapping (source  index  type),storm-elasticsearch,Major
+76748f863877d77b4f10f07323f06d230320a6a3,STORM-851,Improvement,Storm Solr connector,storm-solr,Major
+a062a40845a808566c8d727a654654a47e8d3eb3,/,/,    each KafkaBolt have its own properties,/,/
+f9a4b0100de2e2417296c094caf7c077e5755a0d,/,/,    Add support for sampling percentage,/,/
+4337ebe6e2398073e9a238e88bd51ca7b76b3437,/,/,    Created QueueMetrics inner class in DistruptorQueue to improve the extendibility and the readability of the metrics code.,/,/
+8552f43c4704a83488c235a0a8c1cb6da883304d,STORM-851,Improvement,Storm Solr connector,storm-solr,Major
+4ab6e0c02aaddbd1ad0b1334a5c458f940271827,STORM-851,Improvement,Storm Solr connector,storm-solr,Major
+949da3853cfe3613ebb0fd4c4b4f6864b483f884,STORM-977,Bug,Incorrect signal (-9) when as-user is true,storm-core,Trivial
+29d1ba55fc76c5a12d86c59c8a5bb88ad73927d8,/,/,    Update timer.clj,/,/
+6b3cb7595e04e175305380ba665428f5b9c245b3,STORM-166,New Feature,Highly available Nimbus,storm-core,Minor
+1764b867b80b0e228e2f2b867d761c1e91155673,/,/,    Addressed PR feedbacks,/,/
+0c409dfc70e5db87e238658788b6a7eebd9cad60,/,/,    made changed to method declarations,/,/
+47a7ba12a8ca39891484d2387cce8f4bf8ecc79c,STORM-1000,Improvement,Use static member classes when permitted,storm-core,Minor
+8618eb336e4e84aa3aaf03f3418c9ec40be0ea1f,/,/,    Make ES lookup bolt dependency interfaces Serializable  add javadoc and more README,/,/
+2169a616f7b117edf7ef654d59ecd3fa3b8dc1cc,STORM-1001,Bug,Undefined STORM_EXT_CLASSPATH adds &apos;::&apos; to classpath of workers,storm-core,Minor
+f73eed319a63fec6b07ecc5a9ec2d5477007cd1a,STORM-829,Bug,Hadoop dependency confusion,storm-core,Major
+ ,STORM-1000,Improvement,Use static member classes when permitted,storm-core,Minor
+ ,STORM-829,Bug,Hadoop dependency confusion,storm-core,Major
+a2db49f1b476c5cbd0253a6cba4a29c0e3c5584e,/,/,    Weaken the ES get request extractor dependency to ITuple,/,/
+7b527548574719f2af7abd835cc30f097d320247,/,/,    Add missing Apache Licence headers,/,/
+d3b9a337758329520ccef6cd73e096a4f1d59842,STORM-949,Improvement,On the topology summary UI page  last shown error should have the time and date,storm-core,Minor
+3094baf200beb513d98cea3a3ce94605e6760fe2,/,/,    Introduce a unit test superclass for ES bolts,/,/
+642ab9d009f0b195ce0a60ef8363f3692c2e99b5,/,/,    Add hamcrest-all test dependency to storm-elasticsearch,/,/
+ef14347f437a6c98f019fc49e8e1a095af0c14b4,/,/,    Changed to show time/date for last error and hover over tooltip will show elapsed time since error,/,/
+e6ba743eea6ca86b04cb4aa1be00818817104f97,STORM-958,Improvement,Add config for init params of group mapping service,storm-core,Minor
+d76f0b2770c0892eb21cdb0b34bde6d51e2b7e92,/,/,    Clarifies description,/,/
+6f37493e13a2658c81769f1cd30c3eed8bbe3906,/,/,    Merge branch 'removing-kafkaspout-changelog' of https://github.com/lazyval/storm into PULL-655,/,/
+4686a47cabb283037d165438a1f4c886a9e1f47a,/,/,    Removing TODO as well  to track issues and proposals see https://issues.apache.org/jira/browse/STORM,/,/
+4262a194a41ab871bac8d9380d9506913601d0fa,/,/,    Merge remote-tracking branch 'upstream/master',/,/
+89f480941f0811c4d2f6be2ddafa509386283dd7,STORM-976,Bug,Config storm.logback.conf.dir is specific to previous logging framework,storm-core,Minor
+87fc2982e50f42e9e8261fb94228cb7ff4113f53,STORM-965,Bug,excessive logging in storm when non-kerberos client tries to connect.,storm-core,Major
+0f283f662e98a2163d20c4fd8bf719d1885edfce,/,/,    Changed to use RotatingMap as a member variable instead of a super-class.,/,/
+f29de472a21a9f5936cb13d26cc5a36669c48164,STORM-965,Bug,excessive logging in storm when non-kerberos client tries to connect.,storm-core,Major
+7ca9b1eb04d506770b5f9690301c5c91a5a5a7ae,STORM-976,Bug,Config storm.logback.conf.dir is specific to previous logging framework,storm-core,Minor
+b3b3174f36f5421785a5769e2a9744678fdc984f,STORM-938,Improvement,storm-hive add a time interval to flush tuples to hive,storm-hive,Major
+1c590e1667d1f3d6ff89c4368441dfe322a640e0,STORM-977,Bug,Incorrect signal (-9) when as-user is true,storm-core,Trivial
+b84981ec98af8aac0f361fe886f903380171e619,/,/,    Merge branch '964' of https://github.com/zhuoliu/storm,/,/
+9e4c3df17ffbc737210e606d3d8a9cdae8f86634,/,/,    General cleanup of the generics.,/,/
+3e20823c199c9babf3017cf1e8a8ff0753c7f24f,STORM-726,Sub-task,Adding nimbus.host config for backward compatibility of client config,storm-core,Major
+73a165639ada07b470f0a0cf39d1c27f15f0d98e,/,/,    re-include storm-kafka to Travis CI build,/,/
+35990fa28aa660b389afb00ca3ecfe38fdf519db,/,/,    Fixed unit tests and a few issues,/,/
+84a282c48ac54ca2573464e4935cd652dd1f84a3,/,/,    Declared stream in declareOutputFields if topicAsStreamId flag is true,/,/
+7940d0c57c07c6b168617a0daaf182895cec8028,/,/,    Merging upstream/master,/,/
+bfa3095ef871e0fdd76edef5d9ab1daf098b88b8,/,/,    Added a topicAsStreamId flag to SpoutConfig,/,/
+e3762533e0a11bcf78e18793974cfa107e028904,/,/,    remove unnecessary file,/,/
+55f8b28f293a51d144e184396bed00b864b459ab,/,/,    create logs metadata dir when running securely,/,/
+394d62ae39532dea42474578747a59a41e1e2d38,/,/,    added united tests and changed exception message,/,/
+8505c3ef2d5e32c1716f49f6928851363c25df91,/,/,    Added doc to explain when exaclty once semantics is supported; Auto disable exactly once if file size > 1GB.,/,/
+1ab2505e085ed672edb19db3117d9c0f6e6627b7,STORM-933,Bug,NullPointerException during KafkaSpout deactivation,storm-kafka,Major
+e7ef20ee40beddd028b692ffb4a9c646360f7b24,/,/,    Merge remote-tracking branch 'upstream/master',/,/
+4555c56f9a05476f0e96fb97aa1da9adbc90037a,STORM-968,Improvement,Display the stream id in the Trident UI for the Spouts,storm-core,Minor
+9fd358eb33b0f3f0d61a8a72890354eb11c5fa1c,STORM-938,Improvement,storm-hive add a time interval to flush tuples to hive,storm-hive,Major
+937346a3373dfaee2225ae32d53b68391bd09cf5,STORM-960,Improvement,Hive-Bolt can lose tuples when flushing data,storm-hive,Minor
+882ef17837e35377bca20e465808e91d1a0a8caa,STORM-945,Bug,&lt;DefaultRolloverStrategy&gt; element is not a policy and should not be putted in the &lt;Policies&gt; element.,storm-core,Minor
+52572e3471d811eb07521cefa464c16289b91800,STORM-918,Improvement,Storm CLI could validate arguments/print usage,storm-core,Minor
+05bd1e36697fe7038284833032da262afb82ac99,STORM-643,Bug,KafkaUtils repeatedly fetches messages whose offset is out of range,storm-kafka,Major
+5ac30623733a4d882e7f2dfd9c903efd91cede5d,STORM-643,Bug,KafkaUtils repeatedly fetches messages whose offset is out of range,storm-kafka,Major
+0315b015dc048568c708ae0a41010391dbbe9b42,STORM-643,Bug,KafkaUtils repeatedly fetches messages whose offset is out of range,storm-kafka,Major
+1b581ef1cd2c6a8c9f07f2097816c0312ae003ba,/,/,    remove unnecessary file,/,/
+b132520adb00def6d03ef020b1cb5973eb3b3519,/,/,    Correctly hash byte array tuple values,/,/
+740f02ee0025cc0307a1422205f9612ce18d3652,STORM-945,Bug,&lt;DefaultRolloverStrategy&gt; element is not a policy and should not be putted in the &lt;Policies&gt; element.,storm-core,Minor
+c804fbd2ee8795f303f9180bd6b725396041fa99,STORM-728,Bug,UI: Component Page &quot;Spout stats&quot; table has Emitted and Transferred in each other&apos;s column,storm-core,Major
+ ,STORM-0
+3466d35757ef23176e6c47b6edf7ef3654d28bb8,STORM-728,Bug,UI: Component Page &quot;Spout stats&quot; table has Emitted and Transferred in each other&apos;s column,storm-core,Major
+ ,STORM-0
+72e243464787f8dccd1aa32f5eb40087d6f23d02,/,/,    fix issue of high cpu usage when bolt idle,/,/
+44c033c8b7c93e11b989757e4ec7b51f4e025de2,STORM-799,Improvement,Consolidate IErrorReporter and reportError methods,storm-core,Minor
+0459bc97f6e7ea80c3212f9bb5cfdc89a1e5450d,/,/,    Incorporating review comments,/,/
+3d03b931b66d43fd5dd383c5e0ac23c55b772232,STORM-67,New Feature,Provide API for spouts to know how many pending messages there are,storm-core,Major
+a2502c3bc3bcd4caf3800bb645058abb61d2a071,STORM-763,Bug,nimbus reassigned worker A to another machine  but other worker&apos;s netty client can&apos;t connect to the new worker A ,storm-core,Major
+286bacdf49937d1e8576eff27dfc887824ffdbbb,STORM-763,Bug,nimbus reassigned worker A to another machine  but other worker&apos;s netty client can&apos;t connect to the new worker A ,storm-core,Major
+ ,STORM-839,Bug,Deadlock hazard in backtype.storm.messaging.netty.Client,storm-core,Critical
+b53770068d61950c64cec2a0d9b7f126a3dd648e,/,/,    Merge remote-tracking branch 'upstream/master',/,/
+735fae7899eb8240b7a0d5514c6f68a9f6be3e4f,STORM-799,Improvement,Consolidate IErrorReporter and reportError methods,storm-core,Minor
+ea81f96df6eedffe668b44201c441095760c74da,/,/,    Merge branch 'master' into 0.10.x-branch,/,/
+0bc08adf6aa434013861e731ed3c1064490b8706,STORM-753,Improvement,[storm-redis] Let Redis*StateUpdater to have additional mapper - converting Redis key/value to Storm Values,storm-redis,Major
+a6c46aec300001095fee6396ce8ffd4a0fd5783a,STORM-841,Documentation,Thread-safeness of OutputCollector has documented contrary to two official doc.,documentation,Critical
+0edb8ab90c6edbfaf46f05be5dc51c1a3c5b3d03,/,/,    sync storm-redis with master,/,/
+743737cb9159d6f5c33e72c407abff50eaaf8aa6,STORM-728,Bug,UI: Component Page &quot;Spout stats&quot; table has Emitted and Transferred in each other&apos;s column,storm-core,Major
+6b606cf68f60858bdc9064c1fe50c873e6dd1971,/,/,    handle cases when heartbeats lack stats metrics,/,/
+56b9e5a6081f74d285133f24430bb44c4fa11758,/,/,    Log "task is null" instead of let worker died,/,/
+602cbba506c32d6aa091701893060708cce0bf12,/,/,    StringMultiSchemeWithTopic to send topic name with tuple,/,/
+f628bb4977cd908f8b85eca553604011248ac26f,STORM-821,Improvement,storm-jdbc create a connection provider interface to decouple from hikariCP being the only connection pool implementation that can be used.,storm-jdbc,Minor
+4b11f71b7e2fe45a62ad5a26d9d6bc32ebdec6df,/,/,    define a constant var for literal,/,/
+add152c383e2fc9322a0403bd119568976a31081,STORM-752,Improvement,[storm-redis] Clarify Redis*StateUpdater&apos;s expire is optional,storm-redis,Major
+031b77c4568ad7efc776e84533080c02d7069fdf,/,/,    Adding jira and central logging links to UI,/,/
+0e49d91be5b765eccf3e05fe9c44f53762f17ddf,/,/,    Refactor to move the isTick to a utility class,/,/
+ae5a6be1b3fff6f9c7c6ebf59e12ff6ec7438123,/,/,    fix storm.cmd to evaluate 'shift' correctly with 'storm jar',/,/
+9a43ad611bc1c27cf977f18d9953ff9505c6f1e4,STORM-806,Improvement,use storm.zookeeper.connection.timeout in storm-kafka ZkState when newCurator,storm-kafka,Major
+e6d319d79e193bd64b5dba7011200e9876cdafa9,STORM-697,Improvement,Support for Emitting Kafka Message Offset and Partition,storm-kafka,Major
+7fd76a0166d1c74e3dc4d55afb48b046375754e1,STORM-749,Task,Remove CSRF check from rest API,storm-core,Major
+b815012509e15a68bdd72cc684ab5cc91dd53b86,STORM-742,Bug,Very busy ShellBolt subprocess with ACK mode cannot respond heartbeat just in time,storm-multilang,Critical
+7e36ce579f0dcbcf4dfe5942b906a6e94a1815e8,STORM-695,Bug,storm CLI tool reports zero exit code on error scenario  take 2,storm-core,Minor
+5b4c28a088ffc62ebcc28e8c28a25d096aa1eb78,STORM-697,Improvement,Support for Emitting Kafka Message Offset and Partition,storm-kafka,Major
+85e4d5efce66352469cb4c9947922731e834ca5d,STORM-166,New Feature,Highly available Nimbus,storm-core,Minor
+6b0da1689525507d2f40823abb50de3a4a1f9607,STORM-166,New Feature,Highly available Nimbus,storm-core,Minor
+50c4c346afa1eb04d0ebeb57aec40b47ad663dce,STORM-166,New Feature,Highly available Nimbus,storm-core,Minor
+1312d69a0ffb01335d1b8842b8c2ba7b8268e3e6,STORM-2937,Task,Overwrite storm-kafka-client 1.x-branch into 1.0.x-branch,storm-kafka-client,Blocker
+e16fa19f21ec0288f915fbd7f0730821cdb318a4,STORM-2937,Task,Overwrite storm-kafka-client 1.x-branch into 1.0.x-branch,storm-kafka-client,Blocker
+4f4c7b4fb8992f879cbbe76cb328c4e13b89b07e,STORM-2410
+8143f448849a266a90ae4d4f5cc1c12c5f8e5188,/,/,    [maven-release-plugin] prepare release v1.2.4,/,/
+2e260aa8dfcc4aa2fc30831b77c0c025cf4fa42e,/,/,    reset versions for new RC,/,/
+cad06ecc578fabde696d01655b4d26fddc057f04,STORM-3384,Bug,storm set-log-level command throws wrong exception when the topology is not running,None,Trivial
+844631ab5e52f9d4e35b0c9701a3c7df9476faa0,STORM-6160
+ ,STORM-3377,Bug,Scheduling may not fully utilize cluster with STORM_WORKER_MIN_CPU_PCORE_PERCENT set,None,Major
+eb7f53e7404dec462dc77963296fe2cc00932a99,STORM-3381,Bug,Upgrading to Zookeeper 3.4.14 added an LGPL dependency,None,Blocker
+e22ae6ea72be92a24db9d6d45a56822d9d674246,STORM-3361,Improvement,Add output of license plugin to git and distributions,None,Minor
+d6efb9b9f7bed307b0e9f299644dafadce6f76e0,STORM-3233,New Feature,Upgrade zookeeper client to newest version (3.4.13),storm-core,Major
+3482d41a33fb6bd308c3dad676abd747379632ab,STORM-3233,New Feature,Upgrade zookeeper client to newest version (3.4.13),storm-core,Major
+d42c20420228c4b0215c3de5f54dcb78935bf97e,STORM-3233,New Feature,Upgrade zookeeper client to newest version (3.4.13),storm-core,Major
+b25c242813da80dd1c5ee1ef6aa33499a0c1c10b,STORM-3312,Dependency upgrade,Upgrade Guava to latest,None,Minor
+2ade13055315b69980f228ed786c6a76efb695a7,/,/,    Merge branch '1.x-minor-update-maven-repository-to-https' into 1.x-branch,/,/
+8a332e382e404d1341b09f7b77c74c5bbec43610,STORM-3344,Improvement,blacklist scheduler causing nimbus restart,None,Major
+79cceae3d70643d48bb4b28d31d743ed9794f856,/,/,    [MINOR] Update maven repository URL to https,/,/
+57befa1a3dbfbbca93299223007559f00c1c6f55,STORM-3321,Bug,Tests are flaky due to long timeouts in Nimbus and supervisor when using LocalCluster,None,Major
+b735ea0c31b42f78130a90c1dec4e818d85ad124,/,/,    [MINOR] Update repository URLs from http to https,/,/
+232933175b2a1d04eb7262881d2872daec75f5d8,STORM-3350,Dependency upgrade,Upgrade some old dependencies,None,Major
+903745365cafd95fcbe0f128cb4ed26b52276732,STORM-3348,Bug,Incorrect message when group id is not provided as kafka spout config on storm ui,None,Trivial
+d1bd66843b9c2089dcd8189c2bfbeab9c2990417,STORM-3348,Bug,Incorrect message when group id is not provided as kafka spout config on storm ui,None,Trivial
+d08184d2b33d6639f53e06c133df4be45e5b777e,/,/,    Upgrade thrift to 0.12.0,/,/
+901f4aa81ccb9596ea46dac23bd7d82aba2cfaa2,/,/,    Upgrade thrift to 0.12.0,/,/
+fda32297d7835d375138e1845ca88423579c0cd8,/,/,    Issue fix - incorrect kafka spout lag error message for newer kafka spout version but null group id config,/,/
+8014f8434ae3a7ec354402df0a13cd516bf5fead,STORM-3344,Improvement,blacklist scheduler causing nimbus restart,None,Major
+499ba076a9e1b2f93eda03895d761d1ff0bc6332,STORM-3342,Improvement,Add plugin to generate list of dependency licenses to build,None,Major
+35b294b6cc1de035fcbc957f4782a93f0ccf27f4,STORM-3343,Bug,JCQueueTest can still be flaky,None,Major
+f375b0239b5fae5b6fba2a5d67dbd4dc8b1019f5,STORM-3330,Sub-task,Migrate parts of storm-webapp  and reduce use of mocks for files,storm-webapp,Major
+e909b3d604367e7c47c3bbf3ec8e7f6b672ff778,STORM-3330,Sub-task,Migrate parts of storm-webapp  and reduce use of mocks for files,storm-webapp,Major
+435e57b09ec8d00d2e630f710f0f6db9f0746842,STORM-3335,Improvement,timeout when scheduling topology runs too long,None,Major
+ecb142b225e4a45194402861917deaec9102aebb,STORM-3333,Bug,storm-kafka-monitor - NoClassDefFoundError: org/apache/kafka/shaded/clients/consumer/KafkaConsumer,None,Minor
+557784abbf46a6120c46a1b76d38e522080e7959,STORM-3274,Improvement,Ensure Python 3 and 2.7 compatibility for all scripts (disallow 2.6),storm-client-misc,Major
+df9fde4ae4fcea348c3823a1aa0a974ad18304be,STORM-3309,Bug,TickTupleTest is still flaky,storm-server,Major
+b1a8a062332b301ca05be740699862f23d9b540a,/,/,    Doc clarification on returning `null` from RecordTranslator.apply(),/,/
+6ba98b215857656e0186887b5d1a6a5aceee10c4,/,/,    [maven-release-plugin] prepare release v1.2.3,/,/
+8c19705041b459aef95e9479489afd1eb6453ebd,/,/,    rollback poms to 2.0.0-SNAPSHOT,/,/
+0c82b8fc926651dcd8006e4e602738d8a2431b7a,STORM-3309,Bug,TickTupleTest is still flaky,storm-server,Major
+7908fac03c127d32716e860ecd247d15a92205a5,STORM-1307,New Feature,port  backtype.storm.testing4j-test to java,storm-core,Major
+7d14d02ed309fd724b3ecccf2a75a65b0359eee6,/,/,    MINOR: Correct comment about overflow limiting in JCQueue. Setting overflow limit to 0 disables limiting  does not disable overflow,/,/
+02e0e75c6bbbb580b6a62dbe394ade7298a9a1dd,STORM-1307,New Feature,port  backtype.storm.testing4j-test to java,storm-core,Major
+d6a1e730ea200b36c42475f9ce45d11ee940c949,STORM-1289,New Feature,port  backtype.storm.integration-test to java,storm-core,Major
+e46a87a862f4d9fc76358f76f9fb4aad5264b080,STORM-2990,Improvement,Make the storm-kafka-client Trident spout FirstPollOffsetStrategy behavior consistent with the regular spout,storm-kafka-client,Major
+afa173f694b648694f1dd8b2d0c4ac0dc6f8529d,STORM-3297,Bug,NimbusMetricProcessor.processWorkerMetrics() can cause supervisor restart,None,Major
+adf5a738552b3211179adcb5dfb10e4d611fbadd,STORM-3301,Bug,The KafkaSpout can in some cases still replay tuples that were already committed,storm-kafka-client,Major
+8bb0185651dfd0e085d9dda4bc0298a1bd8742fb,STORM-3301,Bug,The KafkaSpout can in some cases still replay tuples that were already committed,storm-kafka-client,Major
+79c1dce8a38e15747998a9c3485b08f15853692f,STORM-3301,Bug,The KafkaSpout can in some cases still replay tuples that were already committed,storm-kafka-client,Major
+b4d3df2167b2962bdf7039ba064ad7a646f32644,STORM-3295,Bug,Blacklist scheduling doesn&apos;t handle multiple supervisors on a host properly,None,Major
+954ebe2c059eb0f21888224935fdfe3d7d653f4f,STORM-3292,Improvement,Trident HiveState must flush writers when the batch commits,None,Major
+40f1b6104bbd77bf278dbdf9ecf7e24fa305dae4,/,/,    Merge branch 'add-indent-log4j2-xml' of https://github.com/chiba3/storm into asfgit-master,/,/
+59073640554e31a098d6c08fd39aa3e910d9a4b3,STORM-3123,Bug,Storm Kafka Monitor does not work with Kafka over two-way SSL,storm-kafka-monitor,Major
+5784eb1afc1ea911aeb639020f6c9afd7e414280,STORM-3288,Bug,Extracting jar dirs with resources in them are corrupted,storm-server,Blocker
+bbe7827987dc03393652740522975b7bf0169c64,STORM-3123,Bug,Storm Kafka Monitor does not work with Kafka over two-way SSL,storm-kafka-monitor,Major
+40e24ce45a7744e2d24d4e8d3f6f146372c57824,STORM-3123,Bug,Storm Kafka Monitor does not work with Kafka over two-way SSL,storm-kafka-monitor,Major
+371cc269a6dec5ee6172d7631f7f5574d6eab566,STORM-3123,Bug,Storm Kafka Monitor does not work with Kafka over two-way SSL,storm-kafka-monitor,Major
+56d3752c001f021ebb723c904d134fd01024cad8,STORM-3258,Improvement,prevent flooding supervisor log with blobstore location,None,Trivial
+2f3a04dcc5f1271f0b857171db97b346f8750e49,STORM-3233,New Feature,Upgrade zookeeper client to newest version (3.4.13),storm-core,Major
+94e6bbcc873c04034c55977653910b9921bc014c,/,/,    Bug fix for blobstore sync.,/,/
+aca89eda345fb6e3a43c96885b35717398257441,STORM-3233,New Feature,Upgrade zookeeper client to newest version (3.4.13),storm-core,Major
+5334e0c2f13e282ff6c4a8e536268816b97f81c6,STORM-3234,New Feature,Document Cluster Metrics,documentation,Major
+ce1d862eea00e341f1a5a3fde6670e6750b25ee6,STORM-3233,New Feature,Upgrade zookeeper client to newest version (3.4.13),storm-core,Major
+490fe49afac3b86057f713daf473d03dcf165569,STORM-1311,New Feature,port backtype.storm.ui.core to java,storm-core,Major
+6d77f0a977d2276daa2f985864b41abac4f59c3f,STORM-3233,New Feature,Upgrade zookeeper client to newest version (3.4.13),storm-core,Major
+b9e841d11bcaa7d2cc9673396a95948a508e0853,STORM-3224,Bug,Fix FLUX YAML Viewer  icon location/position on UI page,storm-webapp,Minor
+392803c9bb2fe81a5df57f695a0e6d7c37bd1f2e,STORM-3147,New Feature,Port ClusterSummary as Metrics to StormMetricsRegistry,storm-server,Minor
+9d3feb0e18a96a90cdce9c2ff1727c9c9ecca4a1,STORM-3162,Bug,Race condition at updateHeartbeatCache,storm-server,Critical
+8b0b7fe3ab75bef87cb1723205c54df58c8279d4,/,/,    Fix ui-user position on the index page,/,/
+02428594b53801572f657f4d0bff85b2213b3723,STORM-3147,New Feature,Port ClusterSummary as Metrics to StormMetricsRegistry,storm-server,Minor
+13e4f84e0c6ff1c8c3058db646666e6e615942ee,/,/,    Merge branch 'master' of github.com:apache/storm into fix-flux-icon-formatting,/,/
+8c90f12dda92eb7b7f93d3d9286ba6035e07127f,STORM-3197,Task,Make StormMetricsRegistry a regular instance class rather than a static utility,storm-server,Major
+0e765f89e674f7e0a05746f5cce8ace193180837,/,/,    Remove powered-by.md  it lives in the storm-site repository now,/,/
+2e0a01e5e4e36169ef2a45bf5dcd72792231ee07,STORM-3222,Improvement,Fix KafkaSpout internals to use LinkedList instead of ArrayList,None,Minor
+9f815caafe82164e1b22ddfacdc227f28cb4afad,/,/,    Fix Sasl Plugin to use WorkerToken,/,/
+fe56cfc5a63b7714d6afb486658daff10d0ee78d,STORM-3199,Task,Metrics-ganglia depends on an LGPL library  so we shouldn&apos;t depend on it,None,Blocker
+2f399579d2ab990946b0b7a5b36c9b0340019c82,STORM-3200,Bug,Improve debugging keytab errors ,None,Major
+c4966d4b2c2386a54b7fadf2b08e8d454fddb219,STORM-3201,Bug,kafka spout lag on UI needs some cleanup,None,Major
+dd90dcadd63c579838e32090c491c9192a9105c5,STORM-3201,Bug,kafka spout lag on UI needs some cleanup,None,Major
+43faecc870468a00d5f1b2d5ba1c5c4274ae77b0,STORM-3184,Bug,Storm supervisor log showing keystore and truststore password in plaintext,storm-core,Major
+2875c838a9577ca81e119de6601a0f5d0184b663,STORM-3196,Improvement,&apos;storm list&apos; should include topology owner in output,None,Minor
+42981a09361e34cac639a867fa32134c76e4cbbc,STORM-3199,Task,Metrics-ganglia depends on an LGPL library  so we shouldn&apos;t depend on it,None,Blocker
+cac56053b40c888cc7e448f2b525c7baea419205,STORM-3194,Bug,Reduce logging level of FIFOSchedulingPriorityStrategy,None,Minor
+4f8b0e39baf12b7e6993d6785822a2a01745a9cb,STORM-3184,Bug,Storm supervisor log showing keystore and truststore password in plaintext,storm-core,Major
+e270a1eeab20d794dcc60a697c440b65b03aecc2,STORM-3180,Bug,Total executors in Cluster Summary in main UI page is not exposed even a topology is running,storm-webapp,Blocker
+fc942ee10d86649db9e9b8ce3dc0a04ea23439ce,STORM-3184,Bug,Storm supervisor log showing keystore and truststore password in plaintext,storm-core,Major
+eb7924a5c754e04566d6f64d57a2bc1910cac282,STORM-3166,Bug,Utils.threadDump does not account for dead threads,storm-core,Minor
+7c4ae00adb17bd0acb00263f5e3b000501e5b517,STORM-3164,Bug,Multilang storm.py uses traceback.format_exc incorrectly,storm-multilang,Minor
+31624a2d2f9ed2df0fd37ee871e45e321735d27c,STORM-3156,Sub-task,Remove the transactional topology API,storm-client,Minor
+c8896efcca5b6101942f51434d2100f45df456c6,STORM-2947,Task,Review and fix/remove deprecated things in Storm 2.0.0,storm-solr,Major
+9394f82f6da85fac89e52ce50073cf337bb52990,/,/,    Fix usage of traceback.format_exc in multilang,/,/
+b9dbf8c9700c847e7d4fe0fd1e8b51b1fac9ef6c,/,/,    Merge branch 'master_skc_RawTypeAssignSafe' of https://github.com/hmcl/storm-apache into PR-2775-merge,/,/
+335b388aa6983ae22fb9411c738001a8084cff1f,STORM-3161,Bug,Local mode should force setting min replication count to 1,storm-server,Major
+82961751f9c09bccd776e6ad4c67006a5a93ce65,STORM-3161,Bug,Local mode should force setting min replication count to 1,storm-server,Major
+f1e9a7941d6c90ab687a49eee49eb272e771d94b,STORM-3161,Bug,Local mode should force setting min replication count to 1,storm-server,Major
+a7e817bcd1424d300ab5bad06c5d9f4729d9f347,STORM-2953,Task,Remove storm-kafka in 2.0.0,storm-kafka,Blocker
+3883bf74c7e706d83f3d721257a285f8fdf4b969,STORM-2972,Sub-task,Replace storm-kafka in storm-sql-kafka with storm-kafka-client,storm-sql,Major
+da0bc6a75b2b395dfb8204a2f0f85ae0fe1566ec,STORM-3156,Sub-task,Remove the transactional topology API,storm-client,Minor
+e58ac3e033670aeb83e8543ab7b8779227ca10d8,STORM-2953,Task,Remove storm-kafka in 2.0.0,storm-kafka,Blocker
+c69a23cfe661afd7862201d94b45282e4450b9ee,STORM-2406
+e21110d338fe8ca71b904682be35642a00de9e78,STORM-2974,Sub-task,Add a transactional non-opaque spout to storm-kafka-client,storm-kafka-client,Major
+d5ead66813937e4bb80bd7e0440a66eb987fc48f,STORM-3046,Bug,Getting a NPE leading worker to die when starting a topology.,trident,Blocker
+c705eea6628504ee6c74cecf0f0e82c3356ef247,STORM-3134,Improvement,upload-credentials imporvements,None,Major
+ba5260774bbd436e81da14a97c072e399a70a896,STORM-2974,Sub-task,Add a transactional non-opaque spout to storm-kafka-client,storm-kafka-client,Major
+b7e19c7b238da2ab4e89c09db2a60f61ba3ccfe6,STORM-3013,Bug,Deactivated topology restarts if data flows into Kafka,storm-kafka-client,Major
+35d2ed49d5b367157b3f1351d23c10fcd57cd017,STORM-3143,Bug,Unnecessary inclusion of empty match result in Json,storm-webapp,Major
+4e1e62667d97fe684b1d73cd8a1c41d3175cf6bc,STORM-3082,Bug,NamedTopicFilter can&apos;t handle topics that don&apos;t exist yet,storm-kafka-client,Minor
+2e3f767353be09bf08b2c74738523acfac4a9491,STORM-3082,Bug,NamedTopicFilter can&apos;t handle topics that don&apos;t exist yet,storm-kafka-client,Minor
+e463cf02df443ced705588bcfe2873bccc9ce8ce,STORM-3082,Bug,NamedTopicFilter can&apos;t handle topics that don&apos;t exist yet,storm-kafka-client,Minor
+b82ffcffa386277892c275bc31b267ef3dd6fa60,STORM-3082,Bug,NamedTopicFilter can&apos;t handle topics that don&apos;t exist yet,storm-kafka-client,Minor
+e2e0dbedfa4ac542f2dcfe40248ccf52d6b4e05e,STORM-3028,Bug,HdfsSpout does not handle empty files in case of ack enabled,storm-hdfs,Major
+afe35f318489c86eca26064e3133e89b5591bf1f,STORM-3046,Bug,Getting a NPE leading worker to die when starting a topology.,trident,Blocker
+8a16fec0d832f1beeb8bc22c1100d4562cda9b25,STORM-3047,Bug,Ensure Trident emitter refreshPartitions is only called with partitions assigned to the emitter,storm-core,Major
+81307a50528f71c39786cab577edafe7151d18a0,STORM-3125,Improvement,Refactoring methods in components for Supervisor and DRPC,storm-server,Major
+83e5788c06863cbf4ad336dbfb142aa237b0cba0,STORM-3090,Bug,The same offset value is used by the same partition number of different topics.,storm-kafka,Critical
+a050ee8b1987c3fc37a7ee7be4231b108c779aa4,/,/,    Merge branch 'mkdir-storm-local' of https://github.com/srdo/storm into mkdir-storm-local-merge,/,/
+9938ed357847342143b2474c94d7de01e40839f9,STORM-3122,Bug,FNFE due to race condition between &quot;async localizer&quot; and &quot;update blob&quot; timer thread,storm-core,Critical
+82deb62dd3a6f58e5569244517bc93647fcab2a2,STORM-3110,Bug,Supervisor does not kill all worker processes in secure mode in case of user mismatch,None,Major
+84d19c9ad66e2d24040c7e12dc96cef03ff7bcb3,STORM-3122,Bug,FNFE due to race condition between &quot;async localizer&quot; and &quot;update blob&quot; timer thread,storm-core,Critical
+41cf4f3224063796e49529b09bf05fe12b162a2e,/,/,    Merge branch 'storm3064' of https://github.com/milantracy/storm into asfgit-master,/,/
+e63fe1246049380e694a7d1157930c751b33a21b,STORM-3110,Bug,Supervisor does not kill all worker processes in secure mode in case of user mismatch,None,Major
+fafe4f46cb69dcb67639021a2c0ca74e3dd77852,STORM-3115,Improvement,Add admin command to get a zookeeper shell,storm-server,Major
+35797bf1d2bc9dc9a382d2ab7078e6ef33237810,STORM-3090,Bug,The same offset value is used by the same partition number of different topics.,storm-kafka,Critical
+5200cffeee608848f9f7f41005a4fbd44d7cc273,/,/,    Merge branch 'patch-1' of https://github.com/MaurGi/storm into PULL_2712,/,/
+8fabff55325d68c79470b65f33176f95007062af,STORM-3109,Bug,Wrong canonical path set to STORM_LOCAL_DIR in storm kill_workers,storm-core,Critical
+9c3831a8028f7ea3787e814b13fc4c03b96b830d,STORM-3111,Task,StormSubmitter localNimbus field is unused,storm-client,Trivial
+b0f34ac1bfbdeccc65315f62bba8b635d8f00966,STORM-3102,Bug,Storm Kafka Client performance issues with Kafka Client v1.0.0,storm-kafka-client,Major
+1e3ab3ac386cec0a67a0c3374afe385090d3814e,STORM-3102,Bug,Storm Kafka Client performance issues with Kafka Client v1.0.0,storm-kafka-client,Major
+1d43937a12d5632d1c64e5701b8443a179595062,STORM-3110,Bug,Supervisor does not kill all worker processes in secure mode in case of user mismatch,None,Major
+b03ee18dd13196265c3d68e59e76380ccc6b4bd8,STORM-3109,Bug,Wrong canonical path set to STORM_LOCAL_DIR in storm kill_workers,storm-core,Critical
+a7ac98f4b5595d7d0689a7b32c2d152bebd0c67a,STORM-3102,Bug,Storm Kafka Client performance issues with Kafka Client v1.0.0,storm-kafka-client,Major
+cd6c47aac61bd2a730d03f0a90908b42bd6aec9d,STORM-3094,Improvement,Topology name needs to be validated at storm-client,storm-client,Minor
+24f0ff0b93200d6e300eb200a587be28b379859b,STORM-3097,Bug,Remove storm-druid in 2.x and deprecate support for it in 1.x,storm-druid,Major
+5e5ff7807662ceb34f028d4fb5c54fffe3d24793,STORM-3098,Bug,Fix bug in filterChangingBlobsFor() in Slot.java,storm-server,Major
+1d471c2b3d37ae850f93b6e96163484b9b88ed5a,STORM-3097,Bug,Remove storm-druid in 2.x and deprecate support for it in 1.x,storm-druid,Major
+39320181ff122a0eaf34cde24937c92c5043a5e7,STORM-2882
+61b1b51880603ca20d8d34827e7684d0b70d4bbc,STORM-3097,Bug,Remove storm-druid in 2.x and deprecate support for it in 1.x,storm-druid,Major
+07a437302c544b2635a835c9eeb1f3210e7519db,STORM-3091,Bug,worker heartbeat directory recreated after killing,None,Major
+4c4b2b4b6d579a118379607a268ef060136d9aac,STORM-3091,Bug,worker heartbeat directory recreated after killing,None,Major
+fe32d95c61d0a4c9350eb4515f6e74b2aec761a3,STORM-1294,New Feature,port  backtype.storm.messaging.netty-unit-test to java,storm-core,Major
+44e272735688113ff0b49de6aa1cab2fa9e9fdfc,STORM-3092,Bug,Metrics Reporter and Shutdown Hook on Supervisor not properly set up at launchDaemon,storm-server,Major
+73a343aff14a789b39a6ceb165e72354fa8999af,/,/,    Review comments,/,/
+22b1a5ac28c0019d4cd1fbe4a5ea66c09c2595f8,STORM-3087,Bug,FluxBuilder.canInvokeWithArgs is too permissive when the method parameter type is a primitive,Flux,Major
+85fc30f4f5970ccc6aa67a4e27090b2fd29cd76b,STORM-3093,Improvement,Cache the storm id to executors mapping on master to avoid repeat computation,storm-server,Major
+93bf5b5c785f9bdb440cb06d307345e0b3382080,STORM-3086,Task,Update Flux documentation to demonstrate static factory methods (STORM-2796),Flux,Trivial
+41f977a9e1e10a53633fabd77b30852c052dba3f,STORM-3086,Task,Update Flux documentation to demonstrate static factory methods (STORM-2796),Flux,Trivial
+bfa578058f61fb5eb09055cd7570ad30debbaf92,STORM-3089,Task,Document worker hooks on the hooks page,None,Trivial
+f7ab952b2243add7c79984dcb64475583749515c,STORM-3089,Task,Document worker hooks on the hooks page,None,Trivial
+33ca6c1c010ed29dd7f1df17cd81023fba438e86,STORM-3087,Bug,FluxBuilder.canInvokeWithArgs is too permissive when the method parameter type is a primitive,Flux,Major
+0bc4e26d1897fdc58d6b5ae77142384a1ecc8495,STORM-3087,Bug,FluxBuilder.canInvokeWithArgs is too permissive when the method parameter type is a primitive,Flux,Major
+aeb69dd13791ef238c9a3a2d2ef660106f7f21cd,STORM-3055,Bug,never refresh connection,storm-core,Major
+787a4340a8d2d3291e5e4ecef47c8b85ff9a3b74,/,/,    review rework,/,/
+e63f5528bc2f807578560ec3f783f326e1aec2a0,STORM-3046,Bug,Getting a NPE leading worker to die when starting a topology.,trident,Blocker
+64af629a19a82591dbf3428f7fd6b02f39e0723f,STORM-3036,Improvement,Add isRemoteBlobExists RPC interface for deciding if remote blob exists,storm-server,Major
+a3ab3c2ab5e56c84309199cc4fdea62264bf20a7,STORM-3083,Improvement,Upgrade HikariCP version to 2.4.7,storm-jdbc,Major
+1fd1e17fb2ede7bbb872bfca9ac6dd50fa58efd5,STORM-3061,Improvement,Upgrade Dependencies before 2.x release,None,Major
+b1774d71d9574313ccaf0f852fe34300f2210076,STORM-3068,Bug,STORM_JAR_JVM_OPTS are not passed to storm-kafka-monitor  properly,storm-client,Major
+e6ad8938e075612b07e7d0e054f8771e2c9359fb,STORM-3042,Bug,topology.acker.cpu.pcore.percent and other settings not honored,None,Major
+0b4f32adc9127175954c830fda5eb25fd2ab6d05,STORM-3077,Improvement,Upgrade Disruptor version to 3.3.11,storm-core,Major
+afba24e79840026bf04582732ff0bfdd11659302,STORM-3070,Bug,MessageDecoder forgets to rewind buffer position if BackpressureStatus code is received  but the rest of the message is pending,storm-client,Major
+7ce2a3b615a8d6833800b3e9286c88547ed39201,STORM-3073,Bug,In some cases workers may crash because pendingEmits is full,storm-client,Major
+3551a8b2b64d166b8aa5de566a5c229d70faa1de,STORM-1294,New Feature,port  backtype.storm.messaging.netty-unit-test to java,storm-core,Major
+e8ee6deedda17c6bc8855985a91079fd64d57f0d,STORM-3079,Bug,improve getMessage support for ThriftExceptions,None,Major

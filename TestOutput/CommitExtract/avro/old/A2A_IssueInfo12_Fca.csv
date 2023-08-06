@@ -1,0 +1,43 @@
+CommitID,IsuueID,IssueType,Detail,Component,Priority,Author
+116a973813541d4f6ca000ae27090074871e714e,/,/,    avro goes tlp,/,/, Joe Schaefer
+12b51f98003fb0af5966eb6710a8270d69dd7ee3,/,/,    avro goes tlp,/,/, Joe Schaefer
+e6994922462bdae76cceebdd19515a76f15497bf,/,/,    Tagging release 1.1.0.,/,/, Douglass Cutting
+1dbb683d17f571213a8367d8e1306019063325d3,AVRO-114,Bug,ant target &quot;cdoc&quot; doesn&apos;t generate doxygen documentation ,doc,Major,Matt Massie、
+14c0ae1564cd6a067abb735c3b4f09ddf200910a,AVRO-112,Improvement,Turn off verbose debugging on the checked in version,c++,Trivial,Scott Banachowski、
+d8d90987da6300e3c0a8741dfedc8109fee49da2,/,/,    Preparing for 1.1.0 candiate build.,/,/, Douglass Cutting
+604f27bc286f17bb8b43c25c1aa3302882c80395,/,/,    Add missing license headers.,/,/, Douglass Cutting
+7d83e93e0d50487125d747265d2aa325cdce029d,AVRO-111,Improvement,document standard sort ordering,spec,Major,Doug Cutting、
+b43975aa1e773cd471f5771d7c7faac7a0f73a7c,AVRO-109,New Feature,add comparator control to record schemas,spec,Major,Doug Cutting、
+c454652c1cd491976b894dc293856c8f73495725,AVRO-98,Improvement,Make C++ parsing comply to spec,c++,Major,Scott Banachowski、
+490d0c72dc345c4683e9099e8f2b5244cffb868a,AVRO-110,Improvement,make GenericData  &amp; ReflectData implement singleton pattern,java,Major,Doug Cutting、
+ ,AVRO-41,New Feature,specific and generic instances should implement comparable,java,Major,Doug Cutting、
+b062afaea6c4534bea3e2ec1387afb549da72570,AVRO-108,New Feature,add binary comparator,java,Major,Doug Cutting、
+f49a465349ae11ffccfffb1ed0693363a8b28a87,AVRO-92,New Feature,json encoding should be documented,spec,Major,Doug Cutting、
+acba0fcdc047d14f0a28a88aec0a9b8b0cf524f8,AVRO-107,Bug,minor bugs in Schema &amp; Protocol&apos;s equals() and hashCode() implementations,java,Minor,Doug Cutting、
+97a5793f050400d38b07d4fbab0539809ce579ff,AVRO-104,Bug,Reflective API can&apos;t handle nulls,java,Major,Eelco Hillenius、
+710e2379a2ef1c5c4d2cf6ada9e0dc49795f5c86,AVRO-102,Task,FooRecord and BarRecord need apache headers,java,Trivial,Eelco Hillenius、
+ ,AVRO-95,Bug,mixing multiple types in one data file using reflection is not supported,java,Major,Doug Cutting、Eelco Hillenius、
+a1ea81add49b8684f979988f342193a547795fb0,AVRO-83,Improvement,specific generated code should optimize unions with null,java,Major,Doug Cutting、
+a84db2bc15c8876d40993d29adfe22f8aa9601cd,AVRO-100,Wish,Update spec to reflect that blocking is no longer draft,spec,Major,Doug Cutting、Scott Banachowski、
+c529c6d5821d89bfb3f37e2c6bb0ec9b83635899,AVRO-97,Bug,Bug fix patch for C++,c++,Major,Scott Banachowski、
+b9821a460520ea9c7f5bcc6cb35a33c725295f44,AVRO-61,Bug,Support for blocking arrays/maps in python,python,Major,Ravi Gummadi、Thiruvalluvan M. G.、
+73b69bc59c61294a6689b695342e7f9d6b48db90,AVRO-88,Bug,BlockingBinaryEncoder should override writeEnum() method,java,Major,Ravi Gummadi、
+f736dfd4dd6089d9323cf7290ca7852c9dd045cd,AVRO-95,Bug,mixing multiple types in one data file using reflection is not supported,java,Major,Doug Cutting、Eelco Hillenius、
+e1d53e342f55f7ee51b8f4b04fc03aaa287712dd,AVRO-90,Bug,json encoding does not encode unions correctly,java,Major,Doug Cutting、
+a02c72575832bd9a451bd6d8fed62c7818eac611,AVRO-89,Improvement,generated record classes should use unboxed numeric types,java,Major,Doug Cutting、
+79d571847ca673a23733377fdfd9a489017c499c,AVRO-87,Bug,lots of broken javadoc links,java,Major,Thiruvalluvan M. G.、Doug Cutting、
+ ,AVRO-82,Improvement,A large number of Java warnings due to unused vairables etc.,java,Minor,Thiruvalluvan M. G.、
+127800a158ce6d6af08e5b32e01e153ade03d474,AVRO-81,Test,Switch Avro&apos;s tests back to JUnit from current TestNG framework,java,Major,Konstantin I Boudnik、
+62806bad9162f22afe69f01e97ea96321d83710a,AVRO-76,Sub-task,Add plug-in mechanism for manipulating per-call metadata,java,Major,George Porter、
+eeb1023f9630a576bf8ea2d5b0e485f565e90e42,AVRO-84,Bug,Resolution rules are &quot;recommended?&quot;,spec,Major,Doug Cutting、Raymie Stata、
+ ,AVRO-85,Bug,A few minor errors in and suggestions for the spec document,None,Major,Thiruvalluvan M. G.、
+2034a4ee5bc4fd9623797590e1dbb411e4848787,AVRO-81,Test,Switch Avro&apos;s tests back to JUnit from current TestNG framework,java,Major,Konstantin I Boudnik、
+f03f432cc7d71b7969d56f9dc17ca264a3771650,AVRO-82,Improvement,A large number of Java warnings due to unused vairables etc.,java,Minor,Thiruvalluvan M. G.、
+f352f56536e1855bdb97208b23f65c659eed3b69,AVRO-82,Improvement,A large number of Java warnings due to unused vairables etc.,java,Minor,Thiruvalluvan M. G.、
+0039f146bd31549fee2b80119a3c977a5072a5d5,AVRO-50,New Feature,bidrectional text representation of AVRO data,spec,Major,Doug Cutting、Philip Martin、
+e2e7fd906abe882be5d9ffa6f8ce0ef9025f7107,AVRO-79,Bug,The spec does not say how to encode default values for &quot;fixed&quot;,java,Major,Thiruvalluvan M. G.、
+e6715a6d0792cca5fb0fd6961d565fa869795433,AVRO-54,Improvement,upgrade to TestNG 5.9,java,Major,Doug Cutting、
+751a179769ed29c686558cd618a7934754b6691f,AVRO-78,Bug,&apos;reflect&apos; implementation works only with public fields,java,Major,Doug Cutting、Sharad Agarwal、
+86c74fb4b57813378fe2fd71d44dc1f8f7a28056,AVRO-60,Sub-task,JSON Parser for C needs to properly escape string text,c,Major,Matt Massie、
+86d3ba82a52c921bcf820f580405e06fd3d797cd,AVRO-71,Improvement,Followup - making some C++ object APIs more generic,c++,Major,Scott Banachowski、
+eb3b1bbd9c5c1648af42eca6ab33d3db80ea88d7,/,/,    Prepare for trunk developmenet.,/,/, Douglass Cutting

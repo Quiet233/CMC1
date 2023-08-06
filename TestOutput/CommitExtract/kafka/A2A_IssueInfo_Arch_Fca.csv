@@ -1,0 +1,1087 @@
+fa6339c19cd06880d32ec9a5ee6b66e7f1488dcf,/,/,    Rename client package from kafka.* to org.apache.kafka.*,/,/
+253f86e31062fb86401abdc13835c251eef47417,/,/,    Implement a few of the API suggestions from the mailing list.,/,/
+269d16d3c915d09f650ae32aa81542bd8522ca68,KAFKA-1227,New Feature,Code dump of new producer,None,Major
+343a1e2660aa7c3c847c459360a5fbbcb065c759,/,/,    Merge remote-tracking branch 'origin/0.8' into trunk,/,/
+f53fe18361a434c388e88b0eed90b8faa0983fd8,/,/,    kafka-1069; MBean kafka.cluster.Partition report wrong UnderReplicated status; patched by Jun Rao; reviewed by Neha Narkhede,/,/
+bfc4ba499521addf3d109c3fbe77b8908eabc644,/,/,    Merge remote branch 'origin/0.8' into trunk,/,/
+61b8b2bf818c36e5844a32b24b2855c32bd34254,KAFKA-1062,Bug,Reading topic metadata from zookeeper leads to incompatible ordering of partition list,consumer,Major
+8959690e96f22e6905f80c76faa355448e4d2e51,KAFKA-1053,New Feature,Kafka patch review tool,tools,Major
+c6ca971738700643ecba78ad1f3998062481aab9,KAFKA-1030,Bug,Addition of partitions requires bouncing all the consumers of that topic,None,Blocker
+9feef9fd60920cf25a88e03dc5711745c0b7c0c5,/,/,    Trivial commit: Fix whitespace in Utils.rm.,/,/
+0c1885b800077e4d360935a6d91fe1068a684560,KAFKA-955,Bug,After a leader change  messages sent with ack=0 are lost,None,Major
+75d95d9b0770d187916bed1dd1ca7a3e82ef08b0,/,/,    merge from 0.8 da4512174b6f7c395ffe053a86d2c6bb19d2538a and resolve conflicts,/,/
+d217f4cc276eee021a0d756d3390b633e43f7115,/,/,    kafka-1017; High number of open file handles in 0.8 producer; patched by Swapnil Ghike; reviewed by Neha Narkhede and Jun Rao,/,/
+ff6292904a67cd021d365ef1e07c113002b80582,KAFKA-1009,Bug,DumpLogSegments tool should return error on non-existing files,log,Minor
+9753d15ef1da0ecab9bbee51d8cdc08c2159c50b,KAFKA-999,Bug,Controlled shutdown never succeeds until the broker is killed,controller,Critical
+df18fe13ad50bba3dbc7d1db0ecd8b698169ade2,KAFKA-615,New Feature,Avoid fsync on log segment roll,None,Major
+f3f8fa5c8c17ade2205ef0f80d9092cae640327d,KAFKA-992,Bug,Double Check on Broker Registration to Avoid False NodeExist Exception,None,Major
+bdb2fdc6460c48189b487e1e8a75c344e32aa222,KAFKA-995,Improvement,Enforce that the value for replica.fetch.max.bytes is always &gt;= the value for message.max.bytes,config,Minor
+8edd3e63024832f2c05b5819ab3dfc2e0b300729,KAFKA-991,Bug,Reduce the queue size in hadoop producer,None,Major
+d285e263bf403f3db27f5d138594c395643a2284,KAFKA-925,New Feature,Add optional partition key override in producer,producer ,Major
+b1891e700889e8e4ae78a6d73d785ff681ac70b9,KAFKA-974,Bug,can&apos;t use public release maven repo because of failure of downloaded dependency,None,Major
+db37ed0054305a3f5d824166914092076b10ac1e,/,/,    kafka-965; merge c39d37e9dd97bf2462ffbd1a96c0b2cb05034bae from 0.8 to trunk; patched by Jun Rao; reviewed by Jay Kreps,/,/
+bf31a6bf705f0438dfc15320ff7047a62eb8f94d,/,/,    kafka-969; Need to prevent failure of rebalance when there are no brokers available when consumer comes up; patched by Sriram Subramanian; reviewed by Joel Koshy and Jun Rao,/,/
+c98bdd3e4f6edb7a4db97a876c26e7d37e88e12a,/,/,    kafka-896; merge 0.8 (988d4d8e65a14390abd748318a64e281e4a37c19) to trunk; patched by Jun Rao; reviewed by Jay Kreps,/,/
+cc6027b3279ac5cd8908d01d35511c93716fbe60,/,/,    kafka-947; isr-expiration-thread may block LeaderAndIsr request for a relatively long period; patched by Jun Rao; reviewed by Joel Koshy,/,/
+739b2df6806c10b934f69e6181555fccb85cd9b8,KAFKA-374,New Feature,Move to java CRC32 implementation,core,Minor
+3f432cd01c4728396f277e33897f6f898c530c99,/,/,    copy branch 0.8 to trunk,/,/
+c0e190cdefabc7c59b11bbe0de843baec78efe3f,KAFKA-249,Improvement,Separate out Kafka mirroring into a stand-alone app,core,Major
+fc0e03f79131746da81c05c12e056862c08d79d4,/,/,    kafka-1462; Add new request and response formats for the new consumer and coordinator communication; patched by Jun Rao; reviewed by Guozhang Wang and Jay Kreps,/,/
+cd3ce27d4baf5434676ec040d64663ad3ce09817,KAFKA-1515,Bug,Wake-up Sender upon blocked on fetching leader metadata,None,Major
+548d1ba0939c43fff14531510140e2c641b1caa5,KAFKA-1326,New Feature,New consumer checklist,consumer,Major
+c24740c7b0f6a6e7c66659da786a346650b76766,KAFKA-1328,Sub-task,Add new consumer APIs,consumer,Major
+ed68ba402e088070da0513a3675ed420ec6a70b0,/,/,    kafka-1411; remove unused test cases; patched by Jun Rao; reviewed by Guozhang Wang,/,/
+150d0a70cbe2b1f980e9565a4fa59b0420d1c0a1,/,/,    bump kafka version to 0.8.1.1 in gradle.properties patch by Joe Stein reviewed by Joel Koshy,/,/
+3af3efe3773348fd7adb8ca43f2abc5490416e55,KAFKA-1327,Improvement,Add log cleaner metrics,None,Major
+2ce7ff6b6e56aa480792a298a8a92ef02e67a2f8,KAFKA-1398,Bug,Topic config changes can be lost and cause fatal exceptions on broker restarts,None,Critical
+89f040c8c9807fc4f9e219f0b57279b692b6e45d,KAFKA-1398,Bug,Topic config changes can be lost and cause fatal exceptions on broker restarts,None,Critical
+b18d2c379bbaf65629c041f75918a4711e4063d6,KAFKA-1355,Bug,Reduce/optimize update metadata requests sent during leader election,None,Critical
+037c054be260bcc3b470b9724572cb814b704bff,KAFKA-1362,Bug,Publish sources and javadoc jars,packaging,Major
+7502696e105057bdb2b546de7a774ea62cda766a,KAFKA-1362,Bug,Publish sources and javadoc jars,packaging,Major
+8b052150f55fb9a6f8c4aedc6b3fa0528719671e,KAFKA-1337,Sub-task,Rationalize new producer configs,producer ,Major
+eaf514b41a54242c825eab972765e2a764cd0b7f,KAFKA-1356,Bug,Topic metadata requests takes too long to process,None,Major
+b9351e04f0a26f2f9e4abc7ec526ed802495f991,KAFKA-1398,Bug,Topic config changes can be lost and cause fatal exceptions on broker restarts,None,Critical
+3c4ca854fd2da5e5fcecdaf0856a38a9ebe4763c,KAFKA-1323,Bug,log.dirs server property no longer supports relative directories,None,Blocker
+ ,KAFKA-1315,Bug,log.dirs property in KafkaServer intolerant of trailing slash,None,Blocker
+2d429e19da22416aeb7de68b9e00f33a337e31a0,/,/,    kafka-1337; follow-up patch to add broker list for new producer in system test overriden function; patched by Guozhang Wang; reviewed by Neha Narkhede  Jun Rao,/,/
+48f1b74909df3c08553a7783ddae9d93c41da7cf,KAFKA-1373,Bug,LogCleaner assumes first dirty offset zero if there is no cleaner checkpoint,None,Major
+640f3b05efd00d5e1d7bfc8fe9c90c7aadc3d087,KAFKA-1337,Sub-task,Rationalize new producer configs,producer ,Major
+2b6375b61c0137cdff4b7c25967405f6f521489a,KAFKA-1358,Bug,Broker throws exception when reconnecting to zookeeper,None,Major
+1d5bbc8b5afa35d7a7784670bcea4e9cf2093723,/,/,    kafka-1320; Change compression.codec to compression.type in new producer configs of system tests; patched by Guozhang Wang; reviewed by Jun Rao,/,/
+5a6a1d83b81caaebec0f10a0039b422acaeb5c35,KAFKA-1317,Bug,KafkaServer 0.8.1 not responding to .shutdown() cleanly  possibly related to TopicDeletionManager or MetricsMeter state,None,Blocker
+23d7fc470638c4dffa5ca005ef2e3d34c14dc92e,KAFKA-1251,Sub-task,Add metrics to the producer,producer ,Major
+466a83b78c2bfcb9ac3116748394e7845a99bf7a,KAFKA-1253,Sub-task,Implement compression in new producer,producer ,Major
+655e1a8aa5a2fbb5bb8551b6efd4eec27a606039,/,/,    kafka-1319; kafka jar doesn't depend on metrics-annotation any more; patched by Jun Rao; reviewed by Neha Narkhede,/,/
+d9be502bcc6b9d7e5716c01d2273189c00506f53,KAFKA-1315,Bug,log.dirs property in KafkaServer intolerant of trailing slash,None,Blocker
+03762453fb867ed215ecb96ea27f6f482094de04,KAFKA-1311,Bug,Add a flag to turn off delete topic until it is stable,None,Blocker
+84a3a9a3d9a5f1c4936dfb9d65b4bf0cd3b445d6,/,/,    kafka-1302; cleanup logging in new producer; reviewed by Jay Kreps  Guozhang Wang and Neha Narkhede,/,/
+5ba48348b3abb8f84fda0798d992ff2e0a04051d,KAFKA-1286,Sub-task,Retry Can Block ,producer ,Major
+153ac8aa604014351e6958dce5d479e4875031fa,KAFKA-1288,Bug,add enclosing dir in release tar gz,packaging,Major
+68baaa41607c2cc8a82534c5a25c79a1d50b6cd5,KAFKA-1288,Bug,add enclosing dir in release tar gz,packaging,Major
+77118a935ee28da80c67d4050f41a1e7e838ebaa,KAFKA-1289,Bug,Misc. nitpicks in log cleaner,None,Major
+71a6318be6d099c9c0ad511d1152e347ae93052f,KAFKA-1289,Bug,Misc. nitpicks in log cleaner,None,Major
+edbed2823fc3e4948bb56ec3bee02fe4ad1bbdca,/,/,    kafka-1278; More flexible helper scripts; patched by Nathan Brown; reviewed by Jun Rao,/,/
+b5971264f29c6646bc543b47c58786f6322f0bd0,/,/,    auto rebalance last commit,/,/
+6ab9b1ecd89c74a42233fc792684e7a8757e9460,/,/,    kafka-1235; Enable server to indefinitely retry on controlled shutdown; patched by Guozhang Wang; reviewed by Jun Rao,/,/
+a2745382de26d30cfcbad11abc398150e720540f,/,/,    kafka-1271; controller logs exceptions during ZK session expiration; patched by Jun Rao; reviewed by Guozhang Wang and Jay kreps,/,/
+a8297cc6ca90f2b528091a46e3cf254e84e74d47,KAFKA-1254,Sub-task,remove vestigial sbt,None,Major
+fbb3525ce8f2656869959bce0f32392577d776a0,KAFKA-1254,Sub-task,remove vestigial sbt,None,Major
+16c69a844fabfe512f8c090fedde2014e392800b,KAFKA-1274,Sub-task,gradle.properties needs the variables used in the build.gradle,None,Blocker
+11f3975930a72823b20532c8c37732e47f4a2f6b,KAFKA-1274,Sub-task,gradle.properties needs the variables used in the build.gradle,None,Blocker
+dc5a993e676da4f7042ba1dd9efc034202d46263,KAFKA-1245,Sub-task,the jar files and pom are not being signed so nexus is failing to publish them,None,Blocker
+cb23e5d915ce14ca25d74abb55b329b83054500b,KAFKA-1245,Sub-task,the jar files and pom are not being signed so nexus is failing to publish them,None,Blocker
+5be973674fe726181fc12e7a098b46286a545361,KAFKA-1263,Bug,Snazzy up the README markdown for better visibility on github,None,Major
+879e3e770ebc49f916137e8416df74373fa26a74,KAFKA-1263,Bug,Snazzy up the README markdown for better visibility on github,None,Major
+84a5803a7e5235e3fa0af7de8e40bdf77ff9affe,KAFKA-1233,Sub-task,Integration test for the new producer,None,Major
+5023c2ff2e7293cd559513d3fed811b08048198d,/,/,    kafka-1244 kafka-1246 kafka-1249; various gradle issues for release; patched by Jun Rao; reviewed by Neha Narkhede,/,/
+d2ec321a03e654552ee364f6572437f233b0c226,KAFKA-1238,Bug,New producer hangs in a loop detecting metadata for auto created topics,producer ,Critical
+1a7048d41bb56118d4f31ff972618ebe13007857,KAFKA-330,New Feature,Add delete topic support ,replication,Blocker
+2d848c5ae0d10fc4d49ad9a3477b8c46f1c3dab7,/,/,    Merge branch 'trunk' of http://git-wip-us.apache.org/repos/asf/kafka into trunk,/,/
+c5965820a1fe81c010770106b6ca03b315272f9b,KAFKA-2690,Sub-task,Protect passwords from logging,security,Major
+2b382d6f92ed1d6f414529ce8d41089110ed560a,/,/,    MINOR: remove Kafka Streams in 0.9.0,/,/
+417e283d643d8865aa3e79dffa373c8cc853d78f,KAFKA-2774,Sub-task,Rename Copycat -&gt; Kafka Connect,KafkaConnect,Major
+1fd79f57b4a73308c59b797974086ca09af19b98,KAFKA-2480,Sub-task,Handle non-CopycatExceptions from SinkTasks,KafkaConnect,Major
+27d44afe664bff45d62f72335fdbb56671561512,KAFKA-2723,Improvement,Standardize new consumer exceptions,None,Blocker
+c006c5916ef7a8048ed55db64db27c7b64a3af59,KAFKA-2764,Bug,Copycat APIs should use Map&lt;String  String&gt; instead of Properties,KafkaConnect,Major
+a4551773ca8cb3c1b75cea873715f30053d88f47,KAFKA-2748,Bug,SinkTasks do not handle rebalances and offset commit properly,KafkaConnect,Major
+4a9e7607b9e563195556873b6ec9b74561cedfbb,KAFKA-2742,Bug,SourceTaskOffsetCommitter does not properly remove commit tasks when they are already in progress,KafkaConnect,Major
+ef5d168cc8f10ad4f0efe9df4cbe849a4b35496e,KAFKA-2697,Sub-task,add leave group logic to the consumer,consumer,Major
+421de0a3f93f8d21f7ca0f1287a4305c00edaa08,KAFKA-2727,Sub-task,initialize only the part of the topology relevant to the task,streams,Major
+596c203af1f33360c04f4be7c466310d11343f78,KAFKA-2687,Improvement,Add support for ListGroups and DescribeGroup APIs,None,Blocker
+758272267c811bf559336ea45571bc420a62a478,KAFKA-2706,Sub-task,Make state stores first class citizens in the processor DAG,streams,Major
+c001b2040cb7bf3a24aa77ec8de1312d4f780620,KAFKA-2369,Sub-task,Add Copycat REST API,KafkaConnect,Major
+71399ffe4c52e2539a5794a17852c8c5b3d5fe72,KAFKA-2652,Sub-task,Incorporate the new consumer protocol with partition-group interface,None,Major
+16f194b20ad9795188f1d7781e7cbca1cd2a6a2d,KAFKA-2460,Improvement,Fix capitalization in SSL classes,None,Minor
+2e61773590c0ba86cb8813e6ba17bf6ee33f4461,KAFKA-2371,Sub-task,Add distributed coordinator implementation for Copycat,KafkaConnect,Major
+86eb74d9236c586af5889fe79f4b9e066c9c2af3,KAFKA-2678,Bug,partition level lag metrics can be negative,core,Major
+c553249b4e6d7d385821061f9742f15f90e94def,KAFKA-2594,Sub-task,Add a key-value store that is a fixed-capacity in-memory LRU cache ,streams,Major
+ ,KAFKA-2593,Sub-task,KeyValueStores should not require use of the context&apos;s default serializers and deserializers,streams,Major
+6e571225d51f5d71ffcfc4d22d108e89ae2f46ec,KAFKA-2593,Sub-task,KeyValueStores should not require use of the context&apos;s default serializers and deserializers,streams,Major
+36d4469326fe20c3f0657315321e6ad515530a3e,KAFKA-2372,Sub-task,Copycat distributed config storage,KafkaConnect,Major
+6a06e22ef81aae3335ca59c94cb0fc33e9f4ceff,KAFKA-2596,Bug,Coordinator should return illegal generation for commits from unknown groups with non-negative generation,None,Major
+37f7d75e3d55c600902cd15c3cb219ddd221d23c,KAFKA-2591,Sub-task,Remove Persistent Data before Restoringafter a Fault,None,Major
+263c10ab7c8e8fde9d3566bf59dccaa454ee2605,/,/,    KIP-28: Add a processor client for Kafka Streaming,/,/
+48b4d6938dfb9dc72c941e979ff0d0c4d921f743,KAFKA-2373,Sub-task,Copycat distributed offset storage,KafkaConnect,Major
+d1dd1e902685178a990861f9948fe07f820cf4ef,KAFKA-2403,Sub-task,Expose offset commit metadata in new consumer,None,Minor
+6ec88f7f8a18be7aff12fb0c73fc8abd00ef62d2,KAFKA-2532,Sub-task,Remove Consumer from rebalance callback arguments,None,Major
+9dbeb71ab258955e04b46991c1baf880b07633f4,KAFKA-2120,New Feature,Add a request timeout to NetworkClient,None,Blocker
+da39931afad8008bc2b385a75a462777be051435,KAFKA-2120,New Feature,Add a request timeout to NetworkClient,None,Blocker
+24da542727225c7920ad974582fdca222a38ccc2,KAFKA-2461,Bug,request logger no longer logs extra information in debug mode,None,Blocker
+f090e119efe7529557d90ac5957d0708d04af3ae,/,/,    change build version to 0.8.2.2,/,/
+689d170ac32ed15af9098faa03a97609af14bf05,/,/,    kafka-2210; KafkaAuthorizer: Add all public entities  config changes and changes to KafkaAPI and kafkaServer to allow pluggable authorizer implementation; patched by Parth Brahmbhatt; reviewed Ismael Juma and Jun Rao,/,/
+30f1a44e657adf3fffea6832acacafe925c2c72d,/,/,    kafka-2189; Snappy compression of message batches less efficient in 0.8.2.1; patched by Ismael Juma; reviewed by Jun Rao,/,/
+492bfdfa873db649049382b9785cefef2d6d1eca,KAFKA-2367,Sub-task,Add Copycat runtime data API,KafkaConnect,Major
+35eaef7bb4ebcf6b209312db774564451b052ca9,KAFKA-2388,Sub-task,subscribe(topic)/unsubscribe(topic) should either take a callback to allow user to handle exceptions or it should be synchronous.,None,Major
+9a6b57334953ef86603454e5b0d1287ee4281d03,KAFKA-1901,Bug,Move Kafka version to be generated in code by build (instead of in manifest),None,Major
+9e2c683f550b7ae58008d0bcb62238b7a2d89a65,/,/,    kafka-1690; Add SSL support to Kafka Broker  Producer and Consumer; patched by Sriharsha Chintalapani; reviewed Rajini Sivaram  Joel Koshy  Michael Herstine  Ismael Juma  Dong Lin  Jiangjie Qin and Jun Rao,/,/
+f6acfb08917946f15cb8de2fee786019124af212,KAFKA-2366,Sub-task,Initial patch for Copycat,KafkaConnect,Major
+ ,KAFKA-2367,Sub-task,Add Copycat runtime data API,KafkaConnect,Major
+ ,KAFKA-2365,New Feature,Copycat checklist,KafkaConnect,Major
+ ,KAFKA-2366,Sub-task,Initial patch for Copycat,KafkaConnect,Major
+f6373e4d9929d123a8474ab7673ee701f63ac593,KAFKA-2340,Test,Add additional unit tests for new consumer Fetcher,None,Major
+594b963930c2054199ed54203415d1cb7917df27,KAFKA-2275,Sub-task,Add a ListTopics() API to the new consumer,consumer,Critical
+99c0686be2141a0fffe1c55e279370a87ef8c1ea,KAFKA-2123,Sub-task,Make new consumer offset commit API use callback + future,consumer,Critical
+a99f70feb23db9ac4274cad9e8cbbf9934d3d075,KAFKA-2306,Bug,New producer should emit metrics for buffer exhaustion,None,Major
+d8fe98efee5a44ae12c1e3484fa20f89b0f30054,/,/,    kafka-2044; Support requests and responses from o.a.k.common in KafkaApis; patched by Gwen Shapira; reviewed by Jun Rao,/,/
+0b92cec1e07a1f2d9aa70f3ecd7d0fb12290d2e2,KAFKA-1910,Sub-task,Refactor KafkaConsumer,consumer,Major
+0636928d961a6ceaab46d908f9372d913c3e5faf,KAFKA-1865,Bug,Add a flush() call to the new producer API,None,Major
+10311c138923dcded5d8f57f587c7f7ef1119dac,/,/,    kafka-1984; java producer may miss an available partition; patched by Jun Rao; reviewed by Ewen Cheslack-Postava  Jay Kreps  and Guozhang Wang,/,/
+ee1267b127f3081db491fa1bf9a287084c324e36,/,/,    kafka-1984; java producer may miss an available partition; patched by Jun Rao; reviewed by Ewen Cheslack-Postava  Jay Kreps  and Guozhang Wang,/,/
+7c82afddc812908f9289ded4e2cb0733b8116a77,KAFKA-1476,Wish,Get a list of consumer groups,tools,Major
+5f3eb1cafaecee746641fa43945cc0762635a0bd,/,/,    kafka-1971; starting a broker with a conflicting id will delete the previous broker registration; patched by Jun Rao; reviewed by Neha Narkhede,/,/
+62c7e0e485b8b7693354c3a0a0bf95af671c93b6,KAFKA-1947,Bug,can&apos;t explicitly set replica-assignment when add partitions,core,Major
+bafecc936787576faf111f12cd59cc17c3523e4e,KAFKA-1919,Bug,Metadata request issued with no backoff in new producer if there are no topics,None,Blocker
+4c8817e3d156416240906dd06a4494386949ba0a,KAFKA-1729,Sub-task,add doc for Kafka-based offset management in 0.8.2,None,Major
+45b9e1580c656867c5c81e2ad8f6645c64b83f90,KAFKA-1729,Sub-task,add doc for Kafka-based offset management in 0.8.2,None,Major
+f5684366ef60125c4d799121a6c0adca4744e8ab,/,/,    kafka-1952; High CPU Usage in 0.8.2 release; patched by Jun Rao; reviewed by Guozhang Wang  Ewen Cheslack-Postava and Neha Narkhede,/,/
+375b15511a93313fce52442fb7d4eab4492da62e,/,/,    kafka-1952; High CPU Usage in 0.8.2 release; patched by Jun Rao; reviewed by Guozhang Wang  Ewen Cheslack-Postava and Neha Narkhede,/,/
+1c6d5bbac672cbf49591aed0889510b10e3285fa,KAFKA-1915,Improvement,Integrate checkstyle for java code,None,Minor
+0699ff2ce60abb466cab5315977a224f1a70a4da,KAFKA-1760,Sub-task,Implement new consumer client,consumer,Major
+f32e5ce247eb07ce33cfcb876771293e8a2eacdc,/,/,    kafka-1797; (follow-up patch) add the serializer/deserializer api to the new java client; patched by Jun Rao; reviewed by Jay Kreps,/,/
+c9485b78a6e43747daf1314ae9532839fb7bc810,KAFKA-2370,Sub-task,Add pause/unpause connector support,KafkaConnect,Critical
+7c27989860e7e063bfec3c679cb6bc8fd52abc84,KAFKA-3338,Sub-task,Add print and writeAsText functions to the Streams DSL,streams,Major
+8c59565761a42984335294683c3501df8427ce62,KAFKA-3521,Bug,Better handling NPEs in Streams DSL implementation,streams,Major
+9beafae23a83774fc1d9ea811d449eac34240363,KAFKA-3512,Bug,Add a foreach() operator in Kafka Streams DSL,streams,Major
+dea0719e99211684775780f5da8b93835d7a5dac,KAFKA-3336,Sub-task,Unify ser/de pair classes into one serde class,None,Blocker
+c07d017227f319250e5c373f8a6f504874ecfbf2,KAFKA-3315,Bug,Add Connect API to expose connector configuration info,KafkaConnect,Blocker
+9a836d0154efe6ea1effc688567186cb56265bf4,KAFKA-3303,Improvement,Pass partial record metadata to Interceptor onAcknowledgement in case of errors,None,Blocker
+9c4c5ae1cd15aa0afe3156e572362fbb40130573,/,/,    MINOR: Add unit test for internal topics,/,/
+079c88178dff4b3a4c9de55629e7d15b60e5f562,KAFKA-2934,Bug,Offset storage file configuration in Connect standalone mode is not included in StandaloneConfig,KafkaConnect,Major
+edeb11bc561c0721855b34a4506dc7f1c76445c6,/,/,    MINOR: Move streams-examples source files under src folder,/,/
+845c6eae1f6c6bcf117f5baa53bb19b4611c0528,KAFKA-3192,Sub-task,Add implicit unlimited windowed aggregation for KStream,None,Major
+f7d019ed408fa988129be9af3689bfa4878bc627,KAFKA-3093,Improvement,Keep track of connector and task status info  expose it via the REST API,KafkaConnect,Major
+c00a036e068ea5b33363992abc0499affa7ca2d7,/,/,    HOTFIX: Add missing file for KeyValue unit test,/,/
+14b688e00ddb54a5c8451411d269721484be875f,KAFKA-3046,New Feature,add ByteBuffer Serializer&amp;Deserializer,clients,Major
+878b78acb68d0fa62eb3c8f21d572664ca2bcdd0,KAFKA-3245,Sub-task,need a way to specify the number of replicas for change log topics,streams,Major
+3358e1682f034a82afd670be95505b2f620c78c6,KAFKA-2802,Sub-task,Add integration tests for Kafka Streams,None,Major
+68af16ac15e5675daebb710ed8f15f780dc43abd,/,/,    MINOR: catch a commit failure due to rebalance in StreamThread,/,/
+45c8195fa14c766b200c720f316836dbb84e9d8b,KAFKA-3025,Sub-task,KIP-31&amp;KIP-32 (part 1): Add timestamp field to message  configs  and Producer/ConsumerRecord,None,Major
+f141e647a4a3daf618b48073058320ecaa3671d0,/,/,    MINOR: catch an exception in rebalance and stop the stream thread,/,/
+23c69d62a0cabf06c4db8b338f0ca824dc6d81a7,/,/,    change release version to 0.9.0.1,/,/
+330274ed1c8efd2b1aa9907860429d9d20f72c3c,KAFKA-3229,Bug,Root statestore is not registered with ProcessorStateManager  inner state store is registered instead,streams,Major
+c1f8f689af43f5ce5a95dad86537db4615449694,/,/,    HOTFIX: poll even when all partitions are paused. handle concurrent cleanup,/,/
+f232f53a7731d98cbc3feefbf9a4e58340a4758a,/,/,    MINOR: Remove multi-byte charactor in docs,/,/
+d5b43b19bb06e9cdc606312c8bcf87ed267daf44,KAFKA-3162,Improvement,KIP-42: Add Producer and Consumer Interceptors,None,Major
+ ,KAFKA-3196,Improvement,KIP-42 (part 2): add record size and CRC to RecordMetadata and ConsumerRecords,None,Major
+9aa549dd696b989f0ead1f3d04cfb9293d8008b4,KAFKA-3141,Bug,kafka-acls.sh throws ArrayIndexOutOfBoundsException for an invalid authorizer-property,None,Major
+fe3b7492b73bf21ecb1a49e730dd30efd1e66693,KAFKA-3141,Bug,kafka-acls.sh throws ArrayIndexOutOfBoundsException for an invalid authorizer-property,None,Major
+728e14e25a414b2ffb525845bb382317d833dd8d,KAFKA-3159,Bug,Kafka consumer 0.9.0.0  client poll is very CPU intensive under certain conditions,clients,Major
+b5e6b8671a5b6d97d5026261ae8d62b54f068e53,/,/,    HOTFIX: open window segments in order  add segment id check in getSegment,/,/
+09ba85641c4034c87d2e81f91c54178b88251af9,KAFKA-3216,Bug,&quot;Modifying topics&quot; section incorrectly says you can&apos;t change replication factor.,None,Major
+9f5a1f87667c23db557a712d51c45541372f3c5d,KAFKA-3217,Bug,Unit tests which dont close producers auto-create topics in Kafka brokers of other tests when port is reused,unit tests,Major
+dcdd3ea769cf6259900e4d04a1199ae07206ed65,/,/,    MINOR: Use explicit type in AclCommand,/,/
+9cac38c0216879776b9eab728235e35118e9026e,/,/,    MINOR: Use explicit type in AclCommand,/,/
+552f65aa3911b80b1121463ce292679711fae66a,KAFKA-3191,Improvement,Improve offset committing JavaDoc in KafkaConsumer,consumer,Minor
+1a539c74c115cbfeaebefee2298e846b4821132c,/,/,    MINOR: Improve error message for inconsistent broker ids,/,/
+8abbf95e9ae6664643d248f6e383a1eccf654879,KAFKA-2589,Bug,Documentation bug: the default value for the &quot;rebalance.backoff.ms&quot; property is not specified correctly,config,Major
+40df94af5ca7df99cf384b52ea0090ba63048682,KAFKA-3165,Sub-task,Fix ignored parameters in the gradle &quot;All&quot; tasks,build,Major
+8f23db4c6ab24ae6d0c7ecabe42cd6f2d4edb089,KAFKA-3157,Bug,Mirror maker doesn&apos;t commit offset with new consumer when there is no more messages,None,Major
+d6e36df8737aa2b898b4fd0a81c2d94f3c349b68,KAFKA-3157,Bug,Mirror maker doesn&apos;t commit offset with new consumer when there is no more messages,None,Major
+64d51295929fb894e5d981c3086e646646fb97c9,KAFKA-3003,Bug,The fetch.wait.max.ms is not honored when new log segment rolled for low volume topics.,core,Major
+dc662776cde8e980a3f978041adaf961edf0fe7d,KAFKA-3211,Bug,Handle Connect WorkerTask shutdown before startup correctly,KafkaConnect,Major
+c3f575d5f248cd60daada7037838d0c7c5be1277,KAFKA-3179,Bug,Kafka consumer delivers message whose offset is earlier than sought offset.,clients,Major
+7802a90ed98ea5b9a2b2dcf2e04db1a50e34a2f8,KAFKA-3207,Bug,StateStore seems to be writing state to one topic but restoring from another,streams,Blocker
+c6ecc780988316de14fc4d27aa3ae8d5d253171c,/,/,    MINOR: log connect reconfiguration error only if there was an error,/,/
+0a7b20e2863b2519e63d85bc83610e63c58c6d46,/,/,    HOTFIX: fix partition ordering in assignment,/,/
+90ce9b30019632aad39fb6dcdd6e045f26697336,/,/,    MINOR: Removed unnecessary Vagrantfile hack,/,/
+77683c3cb0eab8c85eb13d0e1397cf9ee32586b6,/,/,    HOTFIX: temp fix for ktable look up,/,/
+c1eec0d4212e8ed6912bee6ffc2ee440cacf99ac,KAFKA-3198,Bug,Ticket Renewal Thread exits prematurely due to inverted comparison,security,Critical
+99956f56c9f994b4f55315559c07310b3d599d9b,KAFKA-3198,Bug,Ticket Renewal Thread exits prematurely due to inverted comparison,security,Critical
+ca5e7f6f0cf1fa9514d9ec35f88ee1304b481a88,/,/,    MINOR: Pin to system tests to ducktape 0.3.10,/,/
+d3ff902d6023eff257653a5dfb31f4e482204c44,/,/,    MINOR: Fix restoring for source KTable,/,/
+29ebb42fdf8af4b5983f3b22f13697e0c73e0d5a,KAFKA-3194,Bug,Validate security.inter.broker.protocol against the advertised.listeners protocols,core,Major
+1d80f563bcd043cd464003782802906b60a0ade8,KAFKA-3092,Improvement,Rename SinkTask.onPartitionsAssigned/onPartitionsRevoked and Clarify Contract,KafkaConnect,Major
+86a9036a7b03c8ae07d014c25a5eedc315544139,/,/,    MINOR: fix the logic of RocksDBWindowStore using RocksDBStore Segments,/,/
+08ecb5bb0eab2161bda3811c277258aaa07c29e7,/,/,    Cherry-pick c97a75d985e42a9d1b1be0352240c45e0b0d2978,/,/
+c97a75d985e42a9d1b1be0352240c45e0b0d2978,KAFKA-3170,Bug,Default value of fetch_min_bytes in new consumer is 1024 while doc says it is 1,consumer,Major
+8a2b7763ad16fa3869160f74de1ad2665e0a7e2b,KAFKA-3068,Bug,NetworkClient may connect to a different Kafka cluster than originally configured,clients,Major
+57da044a991ebf8913d44dfcfa6a27729f54a4d5,KAFKA-3060,Sub-task,Refactor MeteredXXStore,streams,Minor
+181df80dc3ac04b544501f3640f8727842e272b4,/,/,    MINOR: removed obsolete class,/,/
+d1ff6c75f261e4ca2e0c87e4c719fb8279765654,KAFKA-3164,Improvement,Document client and mirrormaker upgrade procedure/requirements,None,Minor
+eaa1433a2f2a9e9d528f5a2620edb63304067f62,KAFKA-3164,Improvement,Document client and mirrormaker upgrade procedure/requirements,None,Minor
+220d498497a2d5a3d99af1d3a46c631417d22858,KAFKA-3169,Bug,Kafka broker throws OutOfMemory error with invalid SASL packet,security,Critical
+b433b4a2470896d90d9dc596bb932030869d5d67,KAFKA-3169,Bug,Kafka broker throws OutOfMemory error with invalid SASL packet,security,Critical
+f3b38cb6fa1e45214b06005e5806d0927ef4c327,/,/,    MINOR: Remove unused imports from tests whose packages were fixed,/,/
+afda7c4dc7246bb6e1589f2d9a21f825aa9325dc,/,/,    MINOR: Remove unused imports from tests whose packages were fixed,/,/
+111927c398a36eb11d253178e766e76d897f529f,KAFKA-3029,Improvement,Make class org.apache.kafka.common.TopicPartition Serializable,clients,Major
+598851f19cbf444c1f2530ec27543dd606b6fbc9,/,/,    MINOR: remove the init method from Serdes,/,/
+56c7842cb834297f3d86290e903bbe89a093c8cc,KAFKA-2676,Bug,Incorrect package name in tests (unit and integration prefix),core,Major
+e1d32bdffd0979596058788ffa3b1130cc7d93b8,KAFKA-3029,Improvement,Make class org.apache.kafka.common.TopicPartition Serializable,clients,Major
+b08bd167965ae7307687fdb6115136a6ce14b3fa,KAFKA-3075,Bug,java.util.HashMap cannot be cast to scala.collection.immutable.Map When using  ZookeeperConsumerConnector.commitOffsets,consumer,Major
+20afdcdd2ec129e94cbf335555c3d78f19a2d58e,KAFKA-3075,Bug,java.util.HashMap cannot be cast to scala.collection.immutable.Map When using  ZookeeperConsumerConnector.commitOffsets,consumer,Major
+1a12d1333da79484b15e8825dcf0961a838579a6,/,/,    MINOR: Fix spelling and grammar issues in ReplicaFetcherThread detailed comment,/,/
+8f302c83c3be0f5264a07dae73287dec81a0198d,KAFKA-3086,Improvement,unused handle method in MirrorMakerMessageHandler,None,Major
+3dcd5dbe89a17a2605f05d69f6df4b91a0ec24d9,KAFKA-3166,Improvement,Disable SSL client authentication for SASL_SSL security protocol,security,Major
+91491986c0a4c9c4cde2ab33be822852b76759e6,KAFKA-3166,Improvement,Disable SSL client authentication for SASL_SSL security protocol,security,Major
+9e5b77ce9e49ff4cc02c63ccaed0ce4a806183a5,/,/,    MINOR: Add Rolling Upgrade Notes to Security Docs,/,/
+962aec1a78cac18608556ac99ab583cdc944ac3f,/,/,    MINOR: Add Rolling Upgrade Notes to Security Docs,/,/
+d5ba34a79b3585c9e5868d69346462405019fb80,KAFKA-2221,Improvement,Log the entire cause which caused a reconnect in the SimpleConsumer,None,Minor
+8e8b9cadea0715882997bd5d1641a065f3997077,KAFKA-2221,Improvement,Log the entire cause which caused a reconnect in the SimpleConsumer,None,Minor
+d4055ca5cf9f88b71fdf2fcd856c7e2135665427,KAFKA-2143,Bug,Replicas get ahead of leader and fail,replication,Major
+87eccb9a3bea56e5d7d5696aaddef1421f038903,KAFKA-2143,Bug,Replicas get ahead of leader and fail,replication,Major
+6a02b0cfc85245964049104658c05bde15f7b1a5,/,/,    MINOR: Fix mis-spell in ConsumerConfig.scala,/,/
+af0df0961fbc890309137424fe6b16f7c3e0a303,/,/,    MINOR: Fix mis-spell in ConsumerConfig.scala,/,/
+a21c77356017b2b950d0e569573cbf948c999b5f,KAFKA-3103,Sub-task,Transient Failure in kafka.integration.PlaintextTopicMetadataTest.testIsrAfterBrokerShutDownAndJoinsBack,None,Major
+9ce595d130c39ce83030e81765702697920dfcfa,KAFKA-3103,Sub-task,Transient Failure in kafka.integration.PlaintextTopicMetadataTest.testIsrAfterBrokerShutDownAndJoinsBack,None,Major
+f4432874319bbd25e63f8adea135e05ba148b039,/,/,    MINOR: Fix syntax used for comment in JAAS config file,/,/
+1388ed9ba21a4f451f4208e0a6179bb18b14008d,KAFKA-3116,Improvement,Failure to build ,build,Major
+b84fef2ae092e57724e144a6299bade4113c80a8,KAFKA-2478,Bug,KafkaConsumer javadoc example seems wrong,consumer,Major
+5ae97196ae149e58f6cfa3c5b6d968cbd7cb6787,KAFKA-3125,Sub-task,Exception Hierarchy for Streams,None,Major
+942074b77b1b1162acdd1bf7a3ee299bd0113886,/,/,    MINOR: add equals and hashCode to Windowed,/,/
+920326a010b5a560c33a76fccc067b0991845b2d,KAFKA-3100,Improvement,Broker.createBroker should work if json is version &gt; 2  but still compatible,core,Major
+fa6b90f97cb366a02eae8057124ec22db1f7e9cd,KAFKA-3138,Bug,0.9.0 docs still say that log compaction doesn&apos;t work on compressed topics.,None,Major
+1e61327b92e25bbade1d41e2d21049b950e476f4,KAFKA-3134,Bug,Missing required configuration &quot;value.deserializer&quot; when initializing a KafkaConsumer with a valid &quot;valueDeserializer&quot;,None,Major
+c197113a9c04e2f6c2d1a72161c0d40d5804490e,KAFKA-3066,Sub-task,Add Demo Examples for Kafka Streams,None,Major
+21c6cfe50dbe818a392c28f48ce8891f7f99aaf6,KAFKA-3136,Sub-task,Rename KafkaStreaming to KafkaStreams,None,Major
+f0249f595400fdc172c01dcad230781bf0325d1d,/,/,    MINOR: Remove remnants of hadoop clients from kafka-run-class.sh,/,/
+4922a51edd91d862d9be92b1a652d2a83d936b2c,KAFKA-2146,Bug,adding partition did not find the correct startIndex ,admin,Minor
+7e2d0096a8afebb550b0444277512219c857fc96,/,/,    MINOR: Upgrade note on compacted topics behaviour on receiving message without key,/,/
+959cf09e8653f4b8255f49c6f4c258ed1a5ec38e,KAFKA-3121,Sub-task,KStream DSL API Improvement,None,Major
+9059bbfff917b4bebbb06f8c8a01cce3d8230830,KAFKA-3122,Bug,Memory leak in `Sender.completeBatch` on TOPIC_AUTHORIZATION_FAILED,clients,Major
+e4ef8e6640a266da1d9135282ae41d18f44f8025,KAFKA-3122,Bug,Memory leak in `Sender.completeBatch` on TOPIC_AUTHORIZATION_FAILED,clients,Major
+6b85158173275f06a700296ec31535130a9a45c7,/,/,    MINOR: Avoid unnecessary `ConcurrentHashMap.get`,/,/
+a1efe633207312d63897ad27953a324d1874fa6b,/,/,    MINOR: Fix javadoc for `PartitionInfo.leader()`,/,/
+c2b73258454778731a8a27bca2836d25eaf04d06,/,/,    MINOR: MemoryRecords.sizeInBytes throws NPE when non-writable.,/,/
+b1d325b3c09cd95d69a66fac4a3760f57d3062c9,KAFKA-3091,Bug,Broker with an invalid id would not start when its id is updated to a new valid one,None,Minor
+ebd5f33605c8891e606a9a4b793691aa62d7963c,KAFKA-3012,Improvement,Avoid reserved.broker.max.id collisions on upgrade,None,Major
+f75e3350259c6df11719ee0a55f5780c136f3d26,/,/,    MINOR: complete built-in stream aggregate functions,/,/
+a62eb5993f5517a64dd1020b0a9bbd1012f7ee67,KAFKA-3104,Sub-task,Windowed Stream Aggregation Implementation,None,Major
+cc3570d1a28354acd082c41a15d9c9efde540b16,KAFKA-2999,Bug,Errors enum should be a 1 to 1 mapping of error codes and exceptions,None,Major
+a9395e746111f43bb972a38c6c8f823407100278,KAFKA-3095,Bug,No documentation on format of sasl.kerberos.principal.to.local.rules,core,Major
+401ae7707cf3990240544eb4575acc46a9c85017,KAFKA-3095,Bug,No documentation on format of sasl.kerberos.principal.to.local.rules,core,Major
+cdfcf2e18c8e60b38a43d60e34cb7e773bd070c2,KAFKA-3098,Bug,&quot;partition.assignment.strategy&quot; appears twice in documentation,None,Major
+5979480c3af6be00cf7b135aeabf11bf8141f936,KAFKA-3098,Bug,&quot;partition.assignment.strategy&quot; appears twice in documentation,None,Major
+7ec6fc889bff7f1de1b04c09077eb7f3d50f8000,KAFKA-2695,Bug,Handle null string/bytes protocol primitives,None,Major
+60a5a523b6f7e5151d8cdc835845cfc4d2e72b52,KAFKA-3085,Bug,BrokerChangeListener computes inconsistent live/dead broker list,core,Major
+562e2a5dcb34b3ac29a0e573ea5d30d5c7c8e6d7,KAFKA-2993,Bug,compression-rate-avg always returns 0 even with compression.type being set,producer ,Minor
+4f22705c7d0c8e8cab68883e76f554439341e34a,KAFKA-3081,Sub-task,KTable Aggregation Implementation,None,Major
+7059158c48ec05288c0b45ccac05d62b38f1bf76,KAFKA-3044,Bug,Consumer.poll doesnot return messages when poll interval is less,clients,Major
+c355f0c3528c3f59fc97fab489cb6c5df43d96e4,/,/,    MINOR: Security doc fixes,/,/
+40d731b8712950122915795acca43886851a73b6,KAFKA-2653,Sub-task,Stateful operations in the KStream DSL layer,None,Major
+4836e525c851640e0da9d8d11321621a2c70e8f0,KAFKA-2649,Sub-task,Add support for custom partitioner in sink nodes,streams,Major
+2861665d15a5e47cc75130b8a4633a976664d232,KAFKA-2988,Improvement,Change default configuration of the log cleaner,None,Major
+5aad4999d1a1d35d61365ff57a9b79a6af3e70d2,KAFKA-3016,Sub-task,Add KStream-KStream window joins,streams,Major
+4ea3803317c8f997a70a3472bd4576213f2ee979,KAFKA-2937,Bug,Topics marked for delete in Zookeeper may become undeletable,core,Major
+ ,KAFKA-340,Sub-task,Implement clean shutdown in 0.8,core,Blocker
+b098f677aec998600f42529b0755b8fd39e777ff,KAFKA-3058,Improvement,remove the usage of deprecated config properties,core,Major
+870cd3607f639a54b646d31110660e2f6fcc9898,KAFKA-3045,Improvement,ZkNodeChangeNotificationListener shouldn&apos;t log interrupted exception as error,core,Major
+c44c898ec835bb16950137f831cbc18c6b8b82f5,KAFKA-3045,Improvement,ZkNodeChangeNotificationListener shouldn&apos;t log interrupted exception as error,core,Major
+2a9869e91362ad8e28d54382592dde14583dcba8,KAFKA-3010,Improvement,include error code when logging an error when ack = 0,core,Major
+b0b3e5aebf381faf81bd9454ef7b448e2ad922c7,KAFKA-3016,Sub-task,Add KStream-KStream window joins,streams,Major
+4a236945ec85c823e19f9e25db38875533bb98c0,KAFKA-3051,Improvement,security.protocol documentation is inaccurate,clients,Major
+ ,KAFKA-3048,Improvement,incorrect property name ssl.want.client.auth ,core,Major
+b93f48f7494e1db4d564b6c28772712ee7681620,KAFKA-2422,Sub-task,Allow copycat connector plugins to be aliased to simpler names,KafkaConnect,Minor
+80030022da29a30e70171083de2d4f9cd470eb2a,KAFKA-3052,Improvement,broker properties get logged twice if acl is enabled,core,Major
+f9642e2a9878faff81366dbc885a206727bd7c7b,KAFKA-3052,Improvement,broker properties get logged twice if acl is enabled,core,Major
+e32ef73a5aee780aad57e41a881a01fe9e557cc0,KAFKA-3055,Bug,JsonConverter mangles schema during serialization (fromConnectData),KafkaConnect,Major
+ca7c76b2632bceaddacb5e6167e84904fd6f58f9,/,/,    MINOR: Update to Gradle 2.10,/,/
+767de4b5d1767110c097a754d697a3a762b0aaea,KAFKA-3002,Improvement,Make available to specify hostname with Uppercase at broker list,clients,Minor
+976fa192d45243d2da3eb7e1d6fa1ce0fdda1fd2,KAFKA-2989,Test,Verify all partitions consumed after rebalancing in system tests,None,Major
+00ba8e0002d9f4c32f7149bcf853fb78a157c088,/,/,    MINOR: Fix typo in documentation,/,/
+a0d21407cbdd3b7cb73f52c986aa2f60804618e7,KAFKA-3009,Bug,Disallow star imports,None,Major
+40acb999ffaefc0ba5ca7a6588e357e2dbef2732,KAFKA-3014,Bug,Integer overflow causes incorrect node iteration in leastLoadedNode() ,None,Major
+fa4ffb8767da18b2b84ef3d3cbeb2d4c5b804dbe,KAFKA-3014,Bug,Integer overflow causes incorrect node iteration in leastLoadedNode() ,None,Major
+4f2d172a3eaa285fe929218e8826b6450177e9d6,KAFKA-2455,Sub-task,Test Failure: kafka.consumer.MetricsTest &gt; testMetricsLeak ,None,Major
+e32131ed6fcfaea7e56295ea0b6ddbf8c804460f,KAFKA-2455,Sub-task,Test Failure: kafka.consumer.MetricsTest &gt; testMetricsLeak ,None,Major
+9765354c857bec8ab7625854f2fb68e0fad6c339,KAFKA-2977,Sub-task,Transient Failure in kafka.log.LogCleanerIntegrationTest.cleanerTest,None,Major
+d2632d011f7bda3cbd0cbcc8f2a3bd1e985d5b1b,KAFKA-2977,Sub-task,Transient Failure in kafka.log.LogCleanerIntegrationTest.cleanerTest,None,Major
+d5698fa3108ec46a686fe4a67320e126c79f08cb,KAFKA-2058,Sub-task,ProducerTest.testSendWithDeadBroker transient failure,None,Major
+587a2f4efd7994d4d3af82ed91304f939514294a,KAFKA-2984,Sub-task,KTable should send old values along with new values to downstreams,streams,Major
+841d2d1a26af94ec95c480dbf2453f9c7d28c2f7,/,/,    MINOR: StreamThread performance optimization,/,/
+6533933371d82c7c8cbaa32edca9b85b3932e1bb,/,/,    MINOR: Add information to upgrade notes,/,/
+9545cc88348b78f66c1c7a891449caa35f322a74,/,/,    MINOR: Improve README,/,/
+52a3e7b2781729fdb9f1f0767e65424f6479bb57,/,/,    MINOR: Documentation updates for reserved.broker.max.id,/,/
+901fe2eec272043236e149513b7cbce1b21f592d,KAFKA-2837,Sub-task,FAILING TEST: kafka.api.ProducerBounceTest &gt; testBrokerFailure ,None,Major
+20b09694ada7d8393b0628cefa78e3b5c2b3ac21,KAFKA-2990,Bug,NoSuchMethodError when Kafka is compiled with 1.8 and run on 1.7,None,Major
+b352d7fbfc07cc14368c01005966924cc3a8d6fe,/,/,    MINOR: Fix broken docs link,/,/
+974e5aa2421890c6080de39762d6a36bcaaf1287,KAFKA-2978,Bug,Topic partition is not sometimes consumed after rebalancing of consumer group,core,Critical
+3fed57909c16f807715f305152a5034aeb1a5532,KAFKA-2837,Sub-task,FAILING TEST: kafka.api.ProducerBounceTest &gt; testBrokerFailure ,None,Major
+8071f105f63e356d0cc20150cbbe0dc8f3f6b1b0,KAFKA-2981,Bug,Fix javadoc in KafkaConsumer,clients,Minor
+a29f80dc74fcdfea4f92ed3c7d18e4978f809307,KAFKA-2928,Bug,system tests: failures in version-related sanity checks,None,Major
+ba09aef5355cad265941feefa60748261f55df03,KAFKA-2926,Bug,[MirrorMaker] InternalRebalancer calls wrong method of external rebalancer,tools,Major
+882fe01284ef7d61e19e4a527fb7c18471a8c074,KAFKA-2926,Bug,[MirrorMaker] InternalRebalancer calls wrong method of external rebalancer,tools,Major
+416210ec55fa0ca3dbda2b875feeb2db6ac38cc7,KAFKA-2893,Bug,Add Negative Partition Seek Check,clients,Major
+9d23b512ccb95940782f51c93bd6cdbed3e938db,KAFKA-2893,Bug,Add Negative Partition Seek Check,clients,Major
+7684f6dd88eaa5dfadb09709ab89f8c7e4d466a9,KAFKA-2578,Bug,Client Metadata internal state should be synchronized,None,Trivial
+3b350cdff795ec08dc77e60f127f2790149d8d52,/,/,    HOTFIX: fix table-table outer join and left join. more tests,/,/
+ec466d358dcd5ff9e035a6d5de82ada12d187ae0,KAFKA-2733,Sub-task,Distinguish metric names inside the sensor registry,None,Major
+a5fa661227b0b0b7da86b10b48e94bfb87d0b71d,KAFKA-2974,Bug,`==` is used incorrectly in a few places in Java code,None,Major
+f7fc2853868caa3b8a044b6d5d52ce26ae2a3677,/,/,    MINOR: Trivial doc/ typo fixes.,/,/
+83c1e33aa7ab2a69998847cb7869fdf0425bafdf,KAFKA-2972,Bug,ControlledShutdownResponse always serialises `partitionsRemaining` as empty,network,Major
+3fa0e12920061788fae87a1293ebcf5e863815ae,KAFKA-2965,Bug,Two variables should be exchanged.,controller,Minor
+f90670621c8fab3a60ee62ec428fcd0452178f1c,KAFKA-2973,Bug,Fix leak of child sensors on remove,clients,Major
+991aad23baa2f55d405d374b0a01785acdc63974,KAFKA-2962,Sub-task,Add Simple Join API,streams,Major
+78192b8becfe48b5fb63f750dde8eb2d12e65007,KAFKA-2924,Improvement,Add offsets/group metadata decoder so that DumpLogSegments can be used with the offsets topic,None,Major
+e1c4aefc36fad009326b9611606c41f43d500108,KAFKA-2957,Improvement,Fix typos in Kafka documentation,None,Trivial
+1f98b0315c92cf8c89f07241485fa6db8b496fdc,KAFKA-2957,Improvement,Fix typos in Kafka documentation,None,Trivial
+268392f5e99dc3eab9d89e921bafde782a1d10a6,/,/,    HOTFIX: fix ProcessorStateManager to use correct ktable partitions,/,/
+168b759e6c7ae72e60459ef6499d0330e617f84c,/,/,    MINOR: Remove unused DoublyLinkedList,/,/
+ ,KAFKA-1997,Improvement,Refactor Mirror Maker,None,Major
+d05fa0a03bc9bcfcff8d73cbf1b22832ebdb75a2,KAFKA-2804,Sub-task,Create / Update changelog topics upon state store initialization,None,Major
+8b65ec9caca82f98e715a0acb2ebabee3ae4fef1,KAFKA-2950,Bug,Performance regression in producer,None,Major
+23f36c5903e9b65c2b322a9405149de671de7a23,KAFKA-2950,Bug,Performance regression in producer,None,Major
+8687c099c4ef082a8f35a050d3b319c7721921c2,KAFKA-2931,Test,Consumer rolling upgrade test case,None,Major
+39c3512eceedebcb6e50f8c6c4ef66601ff7dbc4,KAFKA-2856,Sub-task,add KTable,streams,Major
+80df43500141d6bf710b19f342c8ab172587c128,KAFKA-2905,Test,System test for rolling upgrade to enable ZooKeeper ACLs with SASL,None,Major
+7b46a99d682e7d79e4114931a85e6daca2bcc954,KAFKA-2942,Bug,Inadvertent auto-commit when pre-fetching can cause message loss,None,Major
+5b5f6bbe68a82ce5eae946e0a1a199e9713a6ff7,KAFKA-2825,Test,Add controller failover to existing replication tests,None,Major
+2b4c5dc290ec6d89206f31856204b713e21c7d2b,/,/,    MINOR: ConsoleConsumer - Fix number of processed messages count,/,/
+a5382a333ebb51a10c1a1cab46d66f10abff128a,KAFKA-2902,Bug,StreamingConfig getConsumerConfiigs uses getRestoreConsumerConfigs instead of  getBaseConsumerConfigs,streams,Major
+20e958861e8fc0aef19a77c00c1fa0a2cd6312ad,KAFKA-2880,Bug,Fetcher.getTopicMetadata NullPointerException when broker cannot be reached,clients,Major
+0a52ddfd039721521f60fd23399469d975f3f9ea,/,/,    MINOR: Fix building from subproject directory,/,/
+bb2bcc7eb109caffc1a0a8fa790216f5e44f9104,/,/,    MINOR - fix typo in index corruption warning message,/,/
+0264127ba829adae0f1f1e7f610d2356fbcf17f3,KAFKA-2915,Bug,System Tests that use bootstrap.servers embedded in jinja files are not working,None,Major
+59c7f6c71ab70525331c3bd1e31b060af08d6744,/,/,    MINOR: Update LinkedIn JVM tuning settings,/,/
+fb6ea6b179b6e4b8a7b23063b17828b42361cd75,/,/,    MINOR: Update LinkedIn JVM tuning settings,/,/
+ca24692d168383e4e70c748f791e8382168f506b,KAFKA-2913,Bug,GroupMetadataManager unloads all groups in removeGroupsForPartitions,None,Major
+a35334908df58b7aaa01efd5ce8434f5e6804cb1,/,/,    MINOR: Update "Java Version" section,/,/
+94dc1f939af05216b765c1c7592946568dc4d7ea,/,/,    MINOR: Fixed new consumer Javadoc typo,/,/
+ea971397c8c1b8deedc48c4165aded42118eee43,/,/,    MINOR: Fixed new consumer Javadoc typo,/,/
+0cd6e9464d50e8e54ceeb8cc26f6035b5f3bc00b,/,/,    MINOR: fix verifiable consumer assertion,/,/
+78e7f87db8be3b1eae59752e8c9ceb0b8c064a96,/,/,    MINOR: fix verifiable consumer assertion,/,/
+cbddb0709df712e9496aa783e801969168c1cbec,KAFKA-2906,Bug,Kafka Connect javadocs not built properly,KafkaConnect,Major
+4a8acdf9d7135a50b751a0bea9e205ea4a071e5c,KAFKA-2732,Test,Add test cases with ZK Auth  SASL and SSL,security,Major
+e934a107f8e79a1169c02fb326014fcf91e9ceb5,/,/,    MINOR: Avoiding warning about generics in sample code,/,/
+1dd558aeceffdd98da83f8240cdc3bf8bc182c93,/,/,    MINOR: Avoiding warning about generics in sample code,/,/
+60c44801c9e3a2e730d96bb4c9065d41fdd1c1c0,KAFKA-2899,Bug,Should log unexpected exceptions thrown when reading from local log,None,Major
+09b43beb1d0aabb2776da2a5790752992ef617f7,KAFKA-2899,Bug,Should log unexpected exceptions thrown when reading from local log,None,Major
+7d37086e5e3225b003fc353b86a130a56c1a469b,KAFKA-2882,Improvement,Add constructor cache for Snappy and LZ4 Output/Input stream in Compressor.java,producer ,Major
+4a0e011be3d038763d6326bb0092524f809c3f4d,KAFKA-2882,Improvement,Add constructor cache for Snappy and LZ4 Output/Input stream in Compressor.java,producer ,Major
+4f3bdca5bfd0b795a850ab45ef049dc94ddd8bd8,KAFKA-2892,Bug,Consumer Docs Use Wrong Method,clients,Major
+d07bb1814010ca4d822e44330d1e8ea4b2839c80,/,/,    MINOR: comments on KStream methods  and fix generics,/,/
+33b4d3c4cc1f449f91a74bd589b1c90c60ddc71b,KAFKA-2878,Bug,Kafka broker throws OutOfMemory exception with invalid join group request,clients,Critical
+e14ae66e721f98ca7c18d35ea022e6de733f4c03,/,/,    MINOR: change KStream processor names,/,/
+d96542f8e0c3241f097c9ceaed6fd1cf892123ab,KAFKA-2718,Sub-task,Reuse of temporary directories leading to transient unit test failures,core,Major
+617a91a236a44431aeca9345ae954f7067da48f3,/,/,    HOTFIX: fix StreamTask.close(),/,/
+c89b6f6a5e8dca191c8fcf3042d7d7f868b64f80,KAFKA-2799,Bug,WakupException thrown in the followup poll() could lead to data loss,None,Blocker
+d1053915f64aec7ea717bbeac9570b1f75e9a2b0,KAFKA-2803,Bug,Add hard bounce system test for distributed Kafka Connect,KafkaConnect,Major
+89e916d59382491be1911d6dddd47df800797949,KAFKA-2881,Improvement,Documentation improvement,None,Major
+395bf46ddac8c5fe1d6fd0d1636b94dcddadd678,KAFKA-2881,Improvement,Documentation improvement,None,Major
+701ac0022e3bc0530f4411c3a4b0c66783f9bdce,KAFKA-2877,Bug,Messages sometimes not delivered by new consumer after Kafka restart ,consumer,Critical
+394eda510dfc1af5c614fa88ee96c7cf2c098fd0,KAFKA-2877,Bug,Messages sometimes not delivered by new consumer after Kafka restart ,consumer,Critical
+10b3e6a5e08074c4df391a1346bb87e2ca4f041e,/,/,    trivial doc fix to add link to Quotas,/,/
+3e0333d692762b99eb51d0e2948fe240eef7a6af,/,/,    trivial change: revert incorrect change to ssl.key.password,/,/
+fc7243c2af4b2b4affcdf14d80826986fe6d4ce8,/,/,    trivial change: revert incorrect change to ssl.key.password,/,/
+6a1993b8e08da1a4e8b5b7fbb55d777b70b1f6f5,KAFKA-2862,Bug,Incorrect help description for MirrorMaker&apos;s message.handler.args,None,Major
+1742937cb895ad80bb3e8890d3c116e8cd0008e3,KAFKA-2812,Test,Enhance new consumer integration test coverage,None,Major
+b16817a54c592eefc5a462132f45c5b4f786d5f1,KAFKA-2812,Test,Enhance new consumer integration test coverage,None,Major
+836dd705d16d1d6e01288529dff1b232b62d9f52,KAFKA-2718,Sub-task,Reuse of temporary directories leading to transient unit test failures,core,Major
+a7726ee651ac3b23fd5a4925b9a324c3462ea127,/,/,    trivial change to 0.9.0 docs to fix incorrect ssl.key.password,/,/
+cd7455c64ba4199d76c35019d3be78bb6df0b25f,/,/,    trivial change to 0.9.0 docs to fix outdated ConsumerMetadataRequest,/,/
+9b0ddc555fcb0e65962d0a7fb3dbaba43fae3fb8,/,/,    MINOR: Log at INFO level in Benchmark tests,/,/
+81c89e91f9dc5d6d5086d5b6dcd1eae2941718c2,KAFKA-2863,Improvement,Authorizer should provide lifecycle (shutdown) methods,security,Major
+b1d17e7ef0e901234d95d7825f6862d2aaead76f,KAFKA-2863,Improvement,Authorizer should provide lifecycle (shutdown) methods,security,Major
+2f51ab23aa6597187ff98c04b287ae3ab4666860,KAFKA-2867,Bug,Missing synchronization and improperly handled InterruptException in WorkerSourceTask,KafkaConnect,Blocker
+7b3d1bf6a398f5b1f454a7719d04f5ee9e630f96,KAFKA-2867,Bug,Missing synchronization and improperly handled InterruptException in WorkerSourceTask,KafkaConnect,Blocker
+2b3f6d204a75d1a9ca84b05a6b6a3388f2f16a81,KAFKA-2869,Bug,host used by Authorizer should be IP address not hostname/IP,security,Critical
+d0614f97bc1c45734631770c46ab6a79fc8c8547,KAFKA-2869,Bug,host used by Authorizer should be IP address not hostname/IP,security,Critical
+07e214130fe7dc74cf2a5628232b8c3c3ef000bc,KAFKA-2860,Improvement,New consumer should handle auto-commit errors more gracefully,None,Major
+4e22abaa85414ab4679f22fdc25f531bc701f4c6,KAFKA-2824,Bug,MiniKDC based tests don&apos;t run in VirtualBox,None,Major
+26f7979318ada5ec1e0e4e40dee5ee1ca10facd1,/,/,    MINOR: Documentation improvements,/,/
+2e91806db45b3854bd2fadb69cee4ecae9fd43ac,KAFKA-2820,Bug,System tests: log level is no longer propagating from service classes,None,Major
+537aeae33403e96d1736f049415ec42ea2f7f8d1,KAFKA-2859,Bug,Deadlock in WorkerSourceTask,KafkaConnect,Blocker
+17c6f33126823c4f54ea22ed2284267271b58e21,/,/,    trivial fix to 0.9.0 docs,/,/
+a2bc9501d0926ff9693ca230af79f088ebc4fca2,KAFKA-2841,Bug,Group metadata cache loading is not safe when reloading a partition,None,Blocker
+dbdec927b9badcdbe4a4b4b6ccebf5044ca32747,KAFKA-2841,Bug,Group metadata cache loading is not safe when reloading a partition,None,Blocker
+9f2f9fb8fa65547cf898992b96a55d90856cb60c,/,/,    MINOR: Introduce `producer.config` property to `ConsoleProducer`,/,/
+06d2c78164aca4b20d1d76f2ddef563b115f2b81,/,/,    MINOR: Introduce `producer.config` property to `ConsoleProducer`,/,/
+45d6fb717d3607f0e1a05a429f4feb38f7b50e40,/,/,    MINOR: fix shutdownHook in ConsoleConsumer,/,/
+36b1c1dae292b9a43f56c385de13b89dfd03cad8,/,/,    MINOR: fix shutdownHook in ConsoleConsumer,/,/
+fda91fcc97c2c10ae090d1c82fe36c02c9e35e9a,KAFKA-2852,Bug,Kafka Authroizer CLI should use consistent way to specify multiple values for all config options.,None,Major
+1a36af80b79a634a652e594d8240924ac32376ae,/,/,    MINOR: add KStream merge operator,/,/
+723c6f2de2876a4d332f125446ca350cff63f602,KAFKA-2746,Task,Add support for using ConsumerGroupCommand on secure install,tools,Major
+ffc0965d38c364272078d771fc5ed5f8784e4012,KAFKA-2746,Task,Add support for using ConsumerGroupCommand on secure install,tools,Major
+15407302621a2d827bddbe8085759f6f74ff786d,KAFKA-2847,Bug,remove principal.builder.class from client configs,clients,Major
+52d5e88393630ce6f817bd003c7c787e36e31277,KAFKA-2847,Bug,remove principal.builder.class from client configs,clients,Major
+cae36f5c32e8e20ba36207015e8118b4ffb1ae24,KAFKA-2848,Bug,Use withClientSslSupport/withClientSaslSupport in Kafka Connect,KafkaConnect,Major
+f1169f1da8728db842aca23dcb6fde740a400699,KAFKA-2848,Bug,Use withClientSslSupport/withClientSaslSupport in Kafka Connect,KafkaConnect,Major
+1a7f37bcafae47a7f38e96c62d39c38d5479a776,/,/,    trivial doc change for building customized user name,/,/
+ae315264dbc8a9efc5b5fbb1967a8a5df76dddb3,/,/,    trivial doc change for building customized user name,/,/
+21ea9cbc0de08c303a9d12b2d36e2f7ee38ff113,KAFKA-2721,Bug,Avoid handling duplicate LeaderAndISR requests,None,Major
+6df9e7ff2c6cfb3c7ca16f94928d0e86f3d087e2,KAFKA-2721,Bug,Avoid handling duplicate LeaderAndISR requests,None,Major
+99d9ddc8e0e82c2e0ea579c85462f5d701319c81,KAFKA-2809,Improvement,Improve documentation linking,website,Major
+6cbd97597ccf456a4f01f19553da5a03e12c9366,KAFKA-2809,Improvement,Improve documentation linking,website,Major
+6483ae68507d3c864c9087116c6deb194620db18,KAFKA-2831,Improvement,kafka-consumer-groups requires zookeeper url when using the new-consumer option,None,Major
+45e7f71309f9a3e30d25a6ddd3171c67e3e79286,KAFKA-2811,Sub-task,Add standby tasks,streams,Major
+2261763bca19bb1ba578775e5cce98c2450311d9,KAFKA-2624,Bug,Truncate warn message logged after truncating partitions,replication,Trivial
+356544caba6448c6ba3bcdb38bea787e1fbc277b,KAFKA-2624,Bug,Truncate warn message logged after truncating partitions,replication,Trivial
+e96b7239f3e918e9fc37a8d86433d41e56542137,/,/,    trivial 0.9.0 doc changes to fix links,/,/
+f6d369b70d329af1cc882998aa517926aa9458ab,/,/,    trivial 0.9.0 doc changes to fix links,/,/
+62e213523162ac9e80114b4e6f30bdf367f00ac1,/,/,    trivial 0.9.0 doc changes to AclCommand,/,/
+599a31c245618651c7973d040de793376f43bd95,/,/,    trivial 0.9.0 doc changes to AclCommand,/,/
+3c33858fb47697764a206e760f1051cb31f05129,KAFKA-2838,Bug,allow comma when specifying superusers,None,Major
+5d87eac856273ec505e96ed8d7f7a17fba474471,/,/,    additional trivial 0.9.0 doc changes,/,/
+5b39dcafc97600725937a8b0220a9f02dde6043b,KAFKA-2833,Bug,OffsetsMessageFormatter hits unexpected exception,None,Major
+43ef0150bdc4ca349af61bf4c75dfb8fd8d14691,KAFKA-2833,Bug,OffsetsMessageFormatter hits unexpected exception,None,Major
+a30a798120e67bf4b1481d0ad2227ebdd1d22ea5,KAFKA-2768,Bug,New-consumer sends invalid describeGroupResponse while restabilizing,consumer,Major
+a26dbcdf3ac57515cbc9a1c39d8c27e90f74188a,KAFKA-2768,Bug,New-consumer sends invalid describeGroupResponse while restabilizing,consumer,Major
+cc51733f47c9a0cdbfded52df4f194a256a43af2,KAFKA-2821,Bug,Deadlock in group metadata persistence callback,None,Blocker
+002ec9c796acf8570754522a4eb1b0c3ee9aab13,KAFKA-2821,Bug,Deadlock in group metadata persistence callback,None,Blocker
+002b6b088c61a2e935ef6500c6fe95992c89591b,KAFKA-2791,Improvement,remove deprecated producer properties from console-producer,None,Major
+397306cdfe22ea65ee39afae9ecdf11efd486dfa,/,/,    trivial doc changes,/,/
+3e133c4eed95590fb63e1d57e3a1793dff6ecac2,/,/,    Minor: Missing License,/,/
+da97330915f5c9f73dc55288cc271818044e163f,KAFKA-2830,Task,Change default fix version to 0.9.1.0 in kafka-merge-pr.py,build,Major
+cb0de177cdc03b63ad1927aba1be292ef5637b68,KAFKA-2817,Bug,Closing an unconnected SslTransport get an invalid close state exception,core,Major
+528c78fd30b77e8c60e8b3645e7d44404fd4e013,KAFKA-2817,Bug,Closing an unconnected SslTransport get an invalid close state exception,core,Major
+b06ef94e22f34783e917f42d1659fd33891fabf2,KAFKA-2819,Bug,ConsumerConsume throw unexpected exception during clean shutdown,None,Major
+969d0cb0ae316ba0dfdb34ed096bfd56fe86ad92,KAFKA-2826,Bug,Make Kafka Connect ducktape services easier to extend,KafkaConnect,Minor
+e8f92d620360431548cca54d6545d1f44db12d2b,/,/,    MINOR: Tuned timeout parameter to reduce chance of transient failure,/,/
+2802bd081c9cfd91b8d7aa104c145ef0514ada49,/,/,    MINOR: Tuned timeout parameter to reduce chance of transient failure,/,/
+c4e069ae5647d10ec6186d7713b224e262bcee16,KAFKA-2814,Bug,Kafka Connect system tests using REST interface fail on AWS,system tests,Major
+2991c9865d87a715717dbc1bae431a4d39631d9e,KAFKA-2814,Bug,Kafka Connect system tests using REST interface fail on AWS,system tests,Major
+431ffa21b0327da922f423ed77043dfb028601e2,KAFKA-2822,Bug,DescribeConsumerGroup now returns empty list for non-existent group  it used to throw IllegalArgumentException,None,Major
+28d71ce5e06a17248f944147e850f3e5e029bdee,KAFKA-2822,Bug,DescribeConsumerGroup now returns empty list for non-existent group  it used to throw IllegalArgumentException,None,Major
+d04a918a239b6d894f71975b6e1e6dcc390424a3,/,/,    MINOR: Increase timeouts for Kafka Connect system test service to make tests more reliable on wimpy nodes.,/,/
+1408c670ea576a430287182e9aaa26793917129a,KAFKA-2807,Bug,Movement of throughput throttler to common broke upgrade tests,None,Blocker
+c5965820a1fe81c010770106b6ca03b315272f9b,KAFKA-2690,Sub-task,Protect passwords from logging,security,Major
+ab5ac264a71d7f895b21b4acfd93d9581dabd7c1,KAFKA-2690,Sub-task,Protect passwords from logging,security,Major
+370ce2b4b73b60ca52a4fbce246f3fd87b8dbf85,KAFKA-2815,Bug,unit test failure in org.apache.kafka.streams.processor.internals.KafkaStreamingPartitionAssignorTest,None,Major
+98124930f39ca85fce79e79eaf4ad6687ba14143,/,/,    TRIVIAL: provide clearer error in describe group when group is inactive,/,/
+d9a455243e2350a18b5c734f0a6edaeb74ac6698,/,/,    TRIVIAL: provide clearer error in describe group when group is inactive,/,/
+3ded811928aab33a6ff0bcafe2e275b7d2c011c9,/,/,    MINOR: Use Kafka artifact compiled with Scala 2.11 in quickstart.html,/,/
+2cf6218849a3634badaf70809923a31934182794,/,/,    MINOR: Use Kafka artifact compiled with Scala 2.11 in quickstart.html,/,/
+c7b9ccb8798c2f6744d10ab1a2eb2fa0243f3f49,/,/,    MINOR: Fix logging message in `NetworkClient.poll` not to mention `producer`,/,/
+d60e2ea581289a02efcef3b692bbb043fbdf3199,/,/,    MINOR: Fix logging message in `NetworkClient.poll` not to mention `producer`,/,/
+33809f5ebc9478528d6b5d150435d3169c5a64a4,/,/,    MINOR: Remove `InvalidReceiveException` catch in `SocketServer`,/,/
+b5401f291a16977992c50f0a66d9f02aea07bbe7,/,/,    MINOR: Remove `InvalidReceiveException` catch in `SocketServer`,/,/
+8c370093d1ee3b9ba97f85970ec30fbb26ff48ef,KAFKA-2813,Bug,selector doesn&apos;t close socket connection on non-IOExceptions,core,Blocker
+3fd168d9522d1ad25f5582fbe838cea15bdb525f,KAFKA-2813,Bug,selector doesn&apos;t close socket connection on non-IOExceptions,core,Blocker
+555fab913dc83a4a5174c53e1812be07b2b229ab,/,/,    MINOR: Do not collect zk persistent data by default,/,/
+df88d3be75396b48a762149af2f4bbcd60fe69b9,/,/,    MINOR: Do not collect zk persistent data by default,/,/
+39ea9d3b70341d58dfc9c9fa837229046d483868,/,/,    KAFKA2805; RecordAccumulator request timeout not enforced when all brokers are gone,/,/
+124f73b1747a574982e9ca491712e6758ddbacea,KAFKA-2763,Sub-task,Reduce stream task migrations and initialization costs,streams,Major
+c6b8de4e6806d8f9f4af57e15f2a7f4170265c42,KAFKA-2807,Bug,Movement of throughput throttler to common broke upgrade tests,None,Blocker
+1828b8e52dd83a757580964d03b0148f19ef11fe,KAFKA-2790,Improvement,Kafka 0.9.0 doc improvement,None,Blocker
+a8ccdc6154a1e10982cb80df82e8661903eb9ae5,KAFKA-2790,Improvement,Kafka 0.9.0 doc improvement,None,Blocker
+0ea17e959a3912d6a7620a8de7e347a8fb038bbf,KAFKA-2770,Bug,Race condition causes Mirror Maker to hang during shutdown (new consumer),None,Blocker
+e0098b4567541d1c0cefc6f57ce38f67a9133b5e,KAFKA-2770,Bug,Race condition causes Mirror Maker to hang during shutdown (new consumer),None,Blocker
+57ada44d8e7cda3b2fdcde556ae4408db06d927d,KAFKA-2801,Bug,Data read from network not processed by SSL transport layer,network,Blocker
+8db55618d5d5d5de97feab2bf8da4dc45387a76a,KAFKA-2752,Bug,Add clean bounce system test for distributed Copycat,KafkaConnect,Major
+75db96e429de34373b92d8f4f5df508071b05127,KAFKA-2793,Bug,ConsoleConsumer crashes with new consumer when using keys because of incorrect deserializer,tools,Major
+64a1bfeb9b1b90c94cc62ee2587f9745c850ada3,KAFKA-2793,Bug,ConsoleConsumer crashes with new consumer when using keys because of incorrect deserializer,tools,Major
+501ac028273815f015cf97c8b48b4c34286cc1fb,KAFKA-2788,Bug,allow comma when specifying principals in AclCommand,core,Blocker
+60c06734b345bbf292773e5b9206282ff3995968,KAFKA-2788,Bug,allow comma when specifying principals in AclCommand,core,Blocker
+7508ec219022c02aedb401bb01e5fa183b0db5c1,KAFKA-2795,Bug,potential NPE in GroupMetadataManager,None,Major
+c455e608c1f2c7be6ff0a721f49c1fe3ede0165f,KAFKA-2795,Bug,potential NPE in GroupMetadataManager,None,Major
+c411ec808df33b9343e46ef7f812f1bd4b53d88d,/,/,    MINOR: update system test readme,/,/
+1d884d1f60aec9ec7ea334761bead4c60b13c7a9,/,/,    MINOR: update system test readme,/,/
+dd8a870e4df11cad009498ebfb9b6eac78f1652f,KAFKA-2798,Bug,Kafka Connect distributed configs can conflict with producer/consumer configs  making it impossible to control them independently,KafkaConnect,Major
+403d89edeaa7808f71c0e7318411c925895210f2,KAFKA-2798,Bug,Kafka Connect distributed configs can conflict with producer/consumer configs  making it impossible to control them independently,KafkaConnect,Major
+69f2ad8e22e7183946e076a8cda122aa0964fd9c,KAFKA-2792,Bug,KafkaConsumer.close() can block unnecessarily due to leave group waiting for a reply,consumer,Blocker
+ae5a5d7c08bb634576a414f6f2864c5b8a7e58a3,KAFKA-2792,Bug,KafkaConsumer.close() can block unnecessarily due to leave group waiting for a reply,consumer,Blocker
+528d555fc39b93a52e1781bdba00db96d8554350,KAFKA-2797,Bug,Release artifact expects a git repository for the release audit tool (RAT),build,Blocker
+fe11488a7787732b6cc2ba306f745ea1f318208c,KAFKA-2797,Bug,Release artifact expects a git repository for the release audit tool (RAT),build,Blocker
+a621677bee2f3855cedb2b1b20301199e62260bb,KAFKA-2786,Bug,Only invoke SinkTask onPartitionsRevoked and commitOffsets after task has fully started,KafkaConnect,Minor
+bce664b42a0c414dc19e2c07406cf6f14890cbd1,KAFKA-2274,Sub-task,Add integration test for consumer coordinator,consumer,Blocker
+98b625780c1f524c1f4fa55e099c88eb8a036fca,KAFKA-2769,Test,Integration tests for multi-consumer assignment including session timeouts,None,Major
+c6b93fa50de97c2fe79d5db98823a811c6743f69,KAFKA-2773,Bug,Vagrant provision fails if num_brokers or num_zookeepers is nonzero,None,Trivial
+2b382d6f92ed1d6f414529ce8d41089110ed560a,/,/,    MINOR: remove Kafka Streams in 0.9.0,/,/
+f2031d40639ef34c1591c22971394ef41c87652c,KAFKA-2774,Sub-task,Rename Copycat -&gt; Kafka Connect,KafkaConnect,Major
+f4b87deefecf4902992a84d4a3fe3b99a94ff72b,KAFKA-2480,Sub-task,Handle non-CopycatExceptions from SinkTasks,KafkaConnect,Major
+23cc9c77b27889bb7d71d7ea74b80ab96c4529ae,KAFKA-2723,Improvement,Standardize new consumer exceptions,None,Blocker
+d9ea35e6d34933efb4f16eaca8551fa834d8b292,KAFKA-4253,Bug,Fix Kafka Stream thread shutting down process ordering,streams,Major
+2b431b551252a65113cb720b102a2f3e8b301099,KAFKA-4223,Bug,RocksDBStore should close all open iterators on close,streams,Major
+003c333f62d7edddcd12f8936fef3b22e27bd605,KAFKA-4194,Sub-task,Add more tests for KIP-79,None,Major
+66b2caafe9f8eef4476558277401760ee9077480,KAFKA-3708,Sub-task,Rethink exception handling in KafkaStreams,streams,Major
+eaaa433fc97b86450833d8fcc8c9289ea35d47c0,KAFKA-4148,Task,KIP-79 add ListOffsetRequest v1 and search by timestamp interface to consumer.,None,Major
+d04b0998c043a6a430921585ffd4c42572a3bf5a,KAFKA-2063,Improvement,Bound fetch response size (KIP-74),None,Major
+ecc1fb10fad39c2da82731a36552cb5dd9ac2858,KAFKA-4093,New Feature,Cluster id,None,Major
+86aa0eb0f274c6e44eb190ce250433419e011a67,KAFKA-3776,New Feature,Unify store and downstream caching in streams,streams,Major
+69ebf6f7be2fc0e471ebd5b7a166468017ff2651,KAFKA-3595,Improvement,Add capability to specify replication compact option for stream store,streams,Minor
+a960faf5f48025548de71a84b16e0ccf2a1837ca,KAFKA-4105,Bug,Queryable state tests for concurrency and rebalancing,streams,Major
+71f7e7c3a29e8f7339430837065126256907bd2a,KAFKA-4042,Bug,DistributedHerder thread can die because of connector &amp; task lifecycle exceptions,KafkaConnect,Major
+40b1dd3f495a59abef8a0cba5450526994c92c04,KAFKA-3888,Improvement,Allow consumer to send heartbeats in background thread (KIP-62),consumer,Major
+68b5d014fa3bf2e18da253ded2bbcd4f5d4a9d8d,KAFKA-3914,Sub-task,Global discovery of state stores,streams,Major
+caa9bd0fcd2fab4758791408e2b145532153910e,KAFKA-3936,Improvement,Validate user parameters as early as possible,streams,Minor
+fb65ff40a8d89bc7ad9b079cf1f2a8b902abd182,KAFKA-3954,Improvement,Consumer should use internal topics information returned by the broker,None,Major
+3dafb81da788294d4c2e9811f49437608e5b9ce8,KAFKA-3817,Bug,KTableRepartitionMap should handle null inputs,streams,Major
+a7a17cdec9eaa6c57cc634da6a7c766d98d4160e,/,/,    Bump version to 0.10.0.1,/,/
+6fb33afff976e467bfa8e0b29eb82770a2a3aaec,KAFKA-3875,Sub-task,Transient test failure: kafka.api.SslProducerSendTest.testSendNonCompressedMessageWithCreateTime,unit tests,Major
+ac994dd7651937c19cfa50e7d4e3685b76eacac5,KAFKA-4018,Bug,Streams causing older slf4j-log4j library to be packaged along with newer version,None,Major
+27fc11d1c9b1ec8c63a991cb8c481f95eddb850b,/,/,    MINOR: rename StateStoreProvider.getStores() -> StateStoreProvider.stores(),/,/
+127bb7fca2b55b13ceb3e94662b0be1f091b9da1,/,/,    MINOR: Fixed documentation for KStream left join KStream-KTable,/,/
+227c54fa9e240b7a7f060c2bbbb849379be0d072,KAFKA-3945,Bug,kafka-console-producer.sh does not accept request-required-acks=all,None,Major
+1b333c23f4159bfbd3b5cd986bc40c5cdf6ddae1,KAFKA-3667,Improvement,Improve Section 7.2 Encryption and Authentication using SSL to include proper hostname verification configuration,security,Major
+3bb38d37b7a3fe2dc794c717df1d67e8f9a8af21,/,/,    HOTFIX: Start embedded kafka in KafkaStreamsTest to avoid hanging,/,/
+ce34614a43fb1f43ef6b5660fb37f7a0598d177a,/,/,    HOTFIX: Start embedded kafka in KafkaStreamsTest to avoid hanging,/,/
+f7976d2fc1793d0f635b42eb4dca3810e40c4cc8,KAFKA-4008,Bug,Module &quot;tools&quot; should not be dependent on &quot;core&quot;,tools,Blocker
+f2405a73ea2dd4b636832b7f8729fb06a04de1d5,KAFKA-4008,Bug,Module &quot;tools&quot; should not be dependent on &quot;core&quot;,tools,Blocker
+cd767aee45fd522fb8dbbd911a5a82fc0f9d2623,/,/,    MINOR: Fix a few raw type warnings in cients,/,/
+44ad3ec77364fab869cb5e01a182341bd0ae2698,KAFKA-3950,Bug,kafka mirror maker tool is not respecting whitelist option,None,Critical
+31264f69796b5b2f803bb6daeac7ecd76acd6f99,KAFKA-3946,Bug,Protocol guide should say that Produce request acks can only be 0  1  or -1,None,Minor
+ab242337a8fa6fedf632edfc47cb9425a51d8bf3,/,/,    MINOR: Replace reference to HoppingWindows in streams.html,/,/
+38c65a9a39081068e05e3222ccb0dbc3c9f56942,/,/,    HOTFIX: Fix unstable Streams application reset integration test,/,/
+0d96bc469e7ef9fca8eb67ba1fb756a0a515e1dd,KAFKA-3852,Bug,Clarify how to handle message format upgrade without killing performance,None,Blocker
+071b76cc50b4f79c839306f40eb84ee2b9724ab2,KAFKA-3852,Bug,Clarify how to handle message format upgrade without killing performance,None,Blocker
+11c47dd953b2a59b37de5719454c523db3f34411,/,/,    MINOR: Consumer should throw KafkaException on invalid checksum,/,/
+6e8c6f17f5ccdcc12f6d568a15af7c3ee893e22c,/,/,    HOTFIX: Add license information to release_notes.py,/,/
+25f435098589d01f5cc514636f5be0dae8666611,/,/,    HOTFIX: Add license information to release_notes.py,/,/
+ff557f02ac628edbe220ea69888d39de834527d3,KAFKA-3977,Bug,KafkaConsumer swallows exceptions raised from message deserializers,consumer,Blocker
+b297cead3ef7ee3516590e696975071cadb06fba,KAFKA-3185,Bug,Allow users to cleanup internal data,streams,Blocker
+8deedcacb68ff8ebae802e086ff706ad7e5f38e9,KAFKA-3185,Bug,Allow users to cleanup internal data,streams,Blocker
+279f89a67c8e884a345ff88a4bde6399f48b2e64,KAFKA-3924,Bug,Data loss due to halting when LEO is larger than leader&apos;s LEO,core,Major
+d58c2d9ac6047b14ab22e19c9f7c857bb85a970d,KAFKA-3924,Bug,Data loss due to halting when LEO is larger than leader&apos;s LEO,core,Major
+0a37bedd95aa883a00fbd19c4a86ab53aeb2fcb2,KAFKA-3996,Bug,ByteBufferMessageSet.writeTo() should be non-blocking,None,Blocker
+64842f47f8ad21c942be2e2dd1edb56e3bc76cb8,KAFKA-3996,Bug,ByteBufferMessageSet.writeTo() should be non-blocking,None,Blocker
+817f237683750c815036c09a0c0fa64d4f45bff7,KAFKA-3500,Bug,KafkaOffsetBackingStore set method needs to handle null ,KafkaConnect,Blocker
+801fee89d801e6d222c7b1b76a97847ecc9f10ff,/,/,    MINOR: cleanup apache license in python files,/,/
+dc93f3bf49564db4c453c7e0b65b462a5415a788,KAFKA-3935,Bug,ConnectDistributedTest.test_restart_failed_task.connector_type=sink system test failing,KafkaConnect,Major
+d1546960de0aa43989680a59c8f6b1ae7cb333e9,KAFKA-3935,Bug,ConnectDistributedTest.test_restart_failed_task.connector_type=sink system test failing,KafkaConnect,Major
+c47c3b0b583a849fdf3ed0a06835427a2801950a,KAFKA-3933,Bug,Kafka OOM During Log Recovery Due to Leaked Native Memory,log,Critical
+aebab7cab6af88f777c1fb83604a1573554549a9,/,/,    MINOR: Small enhancement to Deserializer Javadoc,/,/
+17914453e35cc29396685b7fd7665918861b9805,KAFKA-3960,Bug,Committed offset not set after first assign,clients,Blocker
+932bb84c837807eeca3600007ae3030561fdcb37,KAFKA-3960,Bug,Committed offset not set after first assign,clients,Blocker
+24daae7d2703adffcbc90ab903916fa39601ce32,KAFKA-3983,Bug,It would be helpful if SocketServer&apos;s Acceptors logged both the SocketChannel port and the processor ID upon registra,core,Minor
+1ef7672ed6333c02cb0fb8096e5a700b1ef38ce1,/,/,    MINOR: Update to Gradle 2.14.1,/,/
+71a598a179ea9f1ee897d755b6daf9fb99860b50,KAFKA-3782,Bug,Transient failure with kafkatest.tests.connect.connect_distributed_test.ConnectDistributedTest.test_bounce.clean=True,KafkaConnect,Minor
+f1b37eec7422fde2e9240ff56b031b6958887176,/,/,    HOTFIX: Adding init file so streams benchmark is autodiscovered,/,/
+8a6ddf4c4eda7919e24a8ae2a7c6a199e4cd3791,/,/,    MINOR: Upgrade RocksDB to 4.8.0,/,/
+9991086671b0a74bc5fd5698ba81aaf9a2985404,KAFKA-3740,Bug,Enable configuration of RocksDBStores,streams,Major
+e293ed1458a1bc2118fe37ed6a6002ffe05e3ecf,/,/,    MINOR: Improve PartitionState logging and remove duplication of code,/,/
+e5a0d139861b58589233e2bcd3a10e9fb032ddbc,/,/,    MINOR: MetadataCache brokerId is not set on first run with generated broker id,/,/
+619a9b09e5d6b226881014c4e9579ee30c51f628,KAFKA-4613,Improvement,Treat null-key records the same way for joins and aggreations,streams,Major
+1434b61d5d5511e5297d6ad81e2417db157986aa,KAFKA-4679,Task,Remove unstable markers from Connect APIs,KafkaConnect,Blocker
+634c167348e9548ed2ef87239fbd5d881fa019e7,KAFKA-4644,Sub-task,Improve test coverage of StreamsPartitionAssignor,streams,Minor
+e992aca9eda38d8dfbf9488eadcc1b58b9998e99,/,/,    MINOR: Update KTable JavaDoc,/,/
+a2a3e9dd81fb04d9f8c784d765426a0f750040b7,/,/,    MINOR: Streams API JavaDoc improvements,/,/
+ec3975978582dfec63986b67c38d6e3bb7742f81,KAFKA-3502,Sub-task,Build is killed during kafka streams tests due to `pure virtual method called` error,unit tests,Major
+5dbb4b8bfe4f02b31a6b5652ba7fac123d035edd,KAFKA-4548,Sub-task,Add CompatibilityTest to verify that individual features are supported or not by the broker we&apos;re connecting to,unit tests,Major
+928f69ce883c8e30050d2e6f5e72e77e6740bdb9,KAFKA-4576,Bug,Log segments close to max size break on fetch,log,Critical
+4218c02478a213935afbb2c2d661d8a29a5f29ee,KAFKA-4671,Bug,Fix Streams window retention policy,streams,Major
+db57c1a0c7e057e19ec165d3cf9fa35d54b97c8f,KAFKA-4060,Bug,Remove ZkClient dependency in Kafka Streams,streams,Major
+ ,KAFKA-4476,Bug,Kafka Streams gets stuck if metadata is missing,streams,Critical
+c3f923cbf9f686bf42adda44d34a975167a13159,KAFKA-3209,Improvement,Support single message transforms in Kafka Connect,KafkaConnect,Blocker
+6f72a5a53c444278187fa6be58031168bcaffb26,KAFKA-3452,New Feature,Support session windows,streams,Major
+e90db3e3af0718a80d729809186d45076e71a241,/,/,    MINOR: Remove unnecessary store info from TopologyBuilder,/,/
+fc0d612b0806032675b433a48f56ccd04f7e52cf,KAFKA-3739,Bug,Add no-arg constructor for library provided serdes,streams,Major
+8079c980ac5c9c00d7577fa05857b4de6864dbb5,KAFKA-4490,New Feature,Add Global Table support to Kafka Streams,streams,Major
+3c60511655df3349323e394bdc3836300991352f,KAFKA-3452,New Feature,Support session windows,streams,Major
+23dff4b04a4c4cd338b5f39c9bb7d384857c482c,KAFKA-4114,Sub-task,Allow for different &quot;auto.offset.reset&quot; strategies for different input streams,streams,Major
+ecff8544dd45e8cf0fcf04f5e0e716d3e21c9f20,KAFKA-3715,Improvement,Higher granularity streams metrics ,streams,Major
+3d60f1e64350710a5fd2a6036da353cc83195741,KAFKA-4507,Sub-task,The client should send older versions of requests to the broker if necessary,clients,Blocker
+a95170f822227c50414c57860e8547dc2e9d84cb,KAFKA-4481,Bug,Relax Kafka Streams API type constraints,streams,Major
+e0de3a4211a3701c98230b115fadfb67b655e3cf,KAFKA-3452,New Feature,Support session windows,streams,Major
+00964ec74d0b3124c88958d5c0db4266e4e38f37,/,/,    MINOR: update JavaDoc for simple helper interfaces of KStream and KTable operators,/,/
+2e1bcf661df8f22ee05f5bd883a8b501588fc4e2,KAFKA-4575,Test,Transient failure in ConnectDistributedTest.test_pause_and_resume_sink in consuming messages after resuming sink connector,system tests,Major
+d3572648b6c3524784fc3f60964a7f28817cbd55,/,/,    MINOR: Remove stray comma from PartitionInfo.toString,/,/
+cea2a669b34b2f94d445aace2b6e95e70af7e2f6,KAFKA-4561,Bug,Ordering of operations in StreamThread.shutdownTasksAndState may void at-least-once guarantees,streams,Major
+d6b0b520fc0755fa560af84f5fc4c9f86699739c,KAFKA-3600,Sub-task,Enhance java clients to use ApiVersion Req/Resp to check if the broker they are talking to supports required api versions,None,Major
+a9687bc0d8ddab27c83f7e6f3e87d9e74e32c8df,KAFKA-4529,Bug,tombstone may be removed earlier than it should,None,Major
+f10ef2720b03b247883db7e02afb767203176ea3,/,/,    remove SNAPSHOT suffix for RC1 release,/,/
+70499381658e85cfdcfc4f0cd65424b92a8620cd,/,/,    MINOR: Reenable streams smoke test,/,/
+1ba2ee80e06470aed367e3b0dcae6d13f1240a75,KAFKA-4431,Bug,HeartbeatThread should be a daemon thread,clients,Major
+859113786957a36381222f21287a940767e92f1c,KAFKA-4509,Bug,Task reusage on rebalance fails for threads on same host,streams,Major
+67f1e5b91bf073151ff57d5d656693e385726697,KAFKA-4390,Improvement,Replace MessageSet usage with client-side equivalents,None,Major
+62e043a86565cc9bc485658d6c6d176e9aff620f,KAFKA-4140,Improvement,Update system tests to allow running tests in parallel,None,Major
+5b869e7ee4c6b554787330c386988b5447b127ca,KAFKA-4497,Bug,log cleaner breaks on timeindex,log,Critical
+67b0a94fa2856928809435ad8f442dd3c96ba544,KAFKA-6054,Bug,ERROR &quot;SubscriptionInfo - unable to decode subscription data: version=2&quot; when upgrading from 0.10.0.0 to 0.10.2.1,streams,Major
+e944956a35d30ba4e393be887f873f12106efe75,KAFKA-5150,Bug,LZ4 decompression is 4-5x slower than Snappy on small batches / messages,consumer,Major
+9eb0cdb546a6ec7792cce12a0ceb6cd30afc88ad,KAFKA-4317,Improvement,RocksDB checkpoint files lost on kill -9,streams,Critical
+f239f1f839f8bcbd80cce2a4a8643e15d340be8e,KAFKA-5477,Bug,TransactionalProducer sleeps unnecessarily long during back to back transactions,None,Blocker
+7647b97f317ad8231a2b77c71ccf7e3ddb29a4cd,KAFKA-5413,Bug,Log cleaner fails due to large offset in segment file,core,Critical
+028b939daa30f57894a86480dbeaac066a2b1bc1,KAFKA-5290,Bug,docs need clarification on meaning of &apos;committed&apos; to the log,documentation,Major
+43fe077e9250f113a625c76546df2e9f3c2459db,/,/,    MINOR: Add serialized vagrant rsync until upstream fixes broken parallelism,/,/
+bc6a3bc6f8c74df5437005f0c1da7822fa10ed2b,/,/,    HOTFIX: Improve error handling for ACL requests,/,/
+9fe07b9652e7c32020a193948ae17d904e29cc29,KAFKA-5449,Bug,Flaky test TransactionsTest.testReadCommittedConsumerShouldNotSeeUndecidedData,unit tests,Blocker
+ad0acb6c74bbacd2feb57e8ded9f05ba68a7dfb7,/,/,    MINOR: Add random aborts to system test transactional copier service,/,/
+8a40e8c85935cef7c43e033b54c0fb7f8e7edded,KAFKA-5443,Sub-task,Consumer should use last offset from batch to set next fetch offset,producer ,Major
+227ab597d8da2f0a5bb75b3d9763fbd3049835ad,/,/,    HOFIX: Introduce max wait time for retry-and-backoff while creating tasks,/,/
+18c6ca92e8acba91eb61d8f2378f740a0c4f855f,KAFKA-5361,Bug,Add EOS integration tests for Streams API,unit tests,Blocker
+fe8e968c6af3893c5bb909f54c50d9dc6614f41b,KAFKA-5274,Sub-task,Review and improve AdminClient Javadoc for the first release (KIP-117),None,Major
+27b8f63ad4fb830558737f17c40ae2bcec0a26f2,/,/,    MINOR: Temporarily remove the apiVersions API for 0.11,/,/
+b45440fe86ab1a5036b13a9e2337989f279463b5,/,/,    MINOR: Add unit tests for PluginDesc in Connect.,/,/
+d98993bc1583f37492d1d7fda094f792c4d8c2c2,/,/,    MINOR: Avoid calling interceptors.onSendError() with null TopicPartition,/,/
+eef121f2fd5d688427a789e73a39eb00a6f6a01f,KAFKA-5404,Bug,Add more AdminClient checks to ClientCompatibilityTest,None,Major
+c2890ff006b9c1314112cb4042c5f08703e6bb4c,KAFKA-5362,Bug,Add EOS system tests for Streams API,system tests,Blocker
+d1acbe9f80e43a89629a7c309685be6bd45291f8,KAFKA-5385,Bug,Transactional Producer allows batches to expire and commits transactions regardless,None,Blocker
+5363cd4c6242673c5079520f3ed4abfec68f83ed,/,/,    MINOR: set group initial rebalance delay to 0 in server.properties,/,/
+b18ca2543762f7a3c93794307a272e86adb65fe4,KAFKA-5395,Bug,Distributed Herder Deadlocks on Shutdown,KafkaConnect,Critical
+296dfb5bf48863c77d49fbece3a87b163c86ce4f,/,/,    MINOR: Remove redundant volatile write in RecordHeaders,/,/
+a30513a53961cb494ec919b2c7cf6c7ad8927eee,KAFKA-5374,Bug,AdminClient gets &quot;server returned information about unknown correlation ID&quot; when communicating with older brokers,admin,Blocker
+2223d13893bc6ef6405ec4f1bb31e04a14033fff,/,/,    MINOR: Reuse decompression buffers in log cleaner,/,/
+ ,KAFKA-5150,Bug,LZ4 decompression is 4-5x slower than Snappy on small batches / messages,consumer,Major
+84709861055f677123c88b19a5f1bd44576e2a3f,KAFKA-5368,Bug,Kafka Streams skipped-records-rate sensor produces nonzero values when the timestamps are valid,streams,Major
+f5aee9bd5f1229ace6101b28f37dd145d0c3e150,KAFKA-5164,Bug,SetSchemaMetadata does not replace the schemas in structs correctly,KafkaConnect,Major
+bac27673fb47810bbae871c7f5973c7c0eadf516,KAFKA-5345,Bug,Some socket connections not closed after restart of Kafka Streams,streams,Major
+963c423c1923add6c7e71c3bf8a34df6d12c385a,KAFKA-5311,Improvement,Support ExtendedDeserializer in Kafka Streams,streams,Major
+0e36cf763b9796279c43f897756b8cebb9dabb61,KAFKA-5154,Bug,Kafka Streams throws NPE during rebalance,streams,Major
+d5c49d0e09db160e5603fe578ae2280236c8aeb1,KAFKA-5361,Bug,Add EOS integration tests for Streams API,unit tests,Blocker
+e944956a35d30ba4e393be887f873f12106efe75,KAFKA-5150,Bug,LZ4 decompression is 4-5x slower than Snappy on small batches / messages,consumer,Major
+dc15062ea9c8f9db864e6114819966daa40f6a45,KAFKA-5281,Sub-task,System tests for KIP-98 / transactions,None,Blocker
+44e036702e5ffa346fcb493f601f07083aef7913,KAFKA-4956,Sub-task,Add system tests for request quotas,system tests,Major
+def1a768a6301c14ad6611358716ab03de04e76b,KAFKA-6119,Bug,Silent Data Loss in Kafka011 Transactional Producer,producer ,Blocker
+08303f6fbc4e6a6857e35144b014bff92067d476,KAFKA-6134,Bug,High memory usage on controller during partition reassignment,controller,Critical
+b9fc0f2e6892062efa1fff0c6f7bfc683c8ba7ab,KAFKA-6134,Bug,High memory usage on controller during partition reassignment,controller,Critical
+63f47f8fa0fe56cde63527a52ed2379208ea2230,KAFKA-6131,Bug,Transaction markers are sometimes discarded if txns complete concurrently,core,Major
+109a60c77a56d4afed488c3ba35dc8459fde15ce,KAFKA-6100,Bug,Streams quick start crashes Java on Windows ,streams,Major
+6bfc3d2522eb4bac084c5cdd61f51f72922c3ceb,/,/,    MINOR: Add missing semicolon to example jaas configuration,/,/
+91eb178e95abd71b68dd03ee25c77482087bd9bb,/,/,    MINOR: reset state in cleanup  fixes jmx mixin flakiness,/,/
+472c8974f2c67924350beaf2812593c3ce61e59a,/,/,    HOTFIX: poll with zero millis during restoration,/,/
+e0fcc7191266245e2b1a14c5b140bd5bb99a30f8,/,/,    HOTFIX: Poll with zero milliseconds during restoration phase,/,/
+33640106b430c1b19954dc076a500530ecd29992,KAFKA-5140,Bug,Flaky ResetIntegrationTest,unit tests,Major
+dd7ec7e23fcfc6be4bb6723fb559a40c4f2543f4,KAFKA-5140,Bug,Flaky ResetIntegrationTest,unit tests,Major
+4701d4cc7cc281a6a88856d85d97dafa12994885,KAFKA-6042,Bug,Kafka Request Handler deadlocks and brings down the cluster.,None,Blocker
+3d35294b18e01394ff611d8ca06f0e192504e799,KAFKA-6104,Test,Add unit tests for ClusterConnectionStates,unit tests,Trivial
+51bb83d0dce8110b941891eddedba1fe3abdf658,/,/,    MINOR: Use ObjectName.quote instead of URL-encoding for JMX metric tags,/,/
+4e532c4850b43393bcc27ee22c0a53059c016a08,KAFKA-6087,Bug,Scanning plugin.path needs to support relative symlinks,KafkaConnect,Blocker
+fdc9b553aab5186a8d5cd786b3c92893fc3e4f28,KAFKA-6069,Bug,Streams metrics tagged incorrectly,streams,Minor
+cdb5975bbeb1416fcc70214d5b777f780e2e9e5b,/,/,    MINOR: Correct KafkaProducer Javadoc spelling of property 'max.in.flight.requests.per.connection',/,/
+bdf05529f37a604d3e5c5769e24dbaee7c61a3d0,/,/,    MINOR: update exception message for KIP-120,/,/
+d798c515992bdfd57b0a958d5b430d1e1a3e296e,/,/,    MINOR: reduce partition state machine debug logging,/,/
+34e48d11327b23b749387bc8d377371f72b905c7,/,/,    MINOR: add unit test for StateStoreSerdes,/,/
+531dfd7268a5642f97e2bf79453b43ba307b9c0f,/,/,    MINOR: Push JMX metric name mangling into the JmxReporter (KIP-190 follow up),/,/
+e671c1cd36caf3b767fb9cc4af58c25918292afe,/,/,    MINOR: Avoid some unnecessary collection copies in KafkaApis,/,/
+ ,KAFKA-5547,Improvement,Return topic authorization failed if no topic describe access,None,Major
+dadae0a35e4e77c195c5655bc066ccf6e155f4ed,KAFKA-6027,Bug,System test failure: LogDirFailureTest,None,Blocker
+2cbb6b860285846d34b9a2add2174e19ab6eebce,KAFKA-6026,Bug,KafkaFuture timeout fails to fire if a narrow race condition is hit,admin,Blocker
+ae4f647dd2e2ea47220ed06b61f9a58ab317c637,KAFKA-6030,Bug,Integer overflow in log cleaner cleanable ratio computation,None,Major
+3c96f9128af8ddc5d50c64af380827f7a0038287,KAFKA-6003,Bug,Replication Fetcher thread for a partition with no data fails to start,replication,Blocker
+12c77b4b08aa0eb39320915a2796444420a05392,KAFKA-5651,New Feature,KIP-182: Reduce Streams DSL overloads and allow easier use of custom storage engines,streams,Major
+1d026269e1ab0af130b78f1efadaabbc4f5a8552,KAFKA-5903,Sub-task,Create Connect metrics for workers,KafkaConnect,Blocker
+93b71e7deeb9d5c705d654443147f90e45cb11c8,/,/,    MINOR: update streams quickstart for KIP-182,/,/
+ab554caee561e522e3eb63163177a68088960169,KAFKA-5970,Bug,Deadlock due to locking of DelayedProduce and group,clients,Blocker
+11afff09908035166febf9b75c410112693ff98c,KAFKA-5990,Sub-task,Add generated documentation for Connect metrics,KafkaConnect,Blocker
+9949e1ed1be8293ba60dcab10345fbcce8d61e36,KAFKA-6004,Improvement,Enable custom authentication plugins to return error messages to clients,security,Blocker
+51ea8e76baa687411163ac3763877b0dce42a545,KAFKA-5967,Bug,Ineffective check of negative value in CompositeReadOnlyKeyValueStore#approximateNumEntries(),streams,Minor
+5383f9bed0ec4fda86b74a94d9d1ba595a2a1c8a,/,/,    MINOR: Use SecurityProtocol in AuthenticationContext,/,/
+05357b7030c784a6548453f533d3c00e19548ba2,KAFKA-5902,Sub-task,Create Connect metrics for sink tasks,KafkaConnect,Blocker
+4f4f99532557439c6e85b18a23df59c2ae45a71b,KAFKA-5746,New Feature,Add new metrics to support health checks,metrics,Major
+fae2d23868e22ee2e6cd59809db0a6defc3734bc,KAFKA-5986,Bug,Streams State Restoration never completes when logging is disabled,None,Critical
+3107a6c5c8d1358b8e705c5d5a16b7441d2225a6,KAFKA-5986,Bug,Streams State Restoration never completes when logging is disabled,None,Critical
+021d8a8e9698dce454e0e801092460b98f0a8a4d,KAFKA-5746,New Feature,Add new metrics to support health checks,metrics,Major
+89ba0c1525b8f8a4e36d1e1b486ca660d5c24a7b,KAFKA-5901,Sub-task,Create Connect metrics for source tasks,KafkaConnect,Blocker
+e5f2471c548fc490a42dd0321bcf7fcdd4ddc52d,KAFKA-5949,Sub-task,User Callback Exceptions need to be handled properly,streams,Major
+73cc416664dbc8e1442f70cb3c4cd8f4d365ea50,KAFKA-5900,Sub-task,Create Connect metrics common to source and sink tasks,KafkaConnect,Blocker
+84bc74a4a8f559e9f572c045c2dea5d9d7a8b6e9,/,/,    MINOR: Update Jetty to 9.2.22.v20170606,/,/
+271f6b5aec885d2eb348dea4de637ac269d3e1ca,KAFKA-5862,Bug,Remove ZK dependency from Streams reset tool,tools,Major
+1fd70c7c94b20b82299ac1004e0ee01777b7beab,/,/,    MINOR - Adding New York Times logo to streams page,/,/
+3cda636973e4c1bd303a7913da55d7d66c201d3d,/,/,    MINOR: Fix ClassCastException in ConsumerGroupCommand,/,/
+f4a1ca347bd21cacf5906887f56001bce61c4544,KAFKA-5899,Sub-task,Create Connect metrics for connectors,KafkaConnect,Critical
+ ,KAFKA-2376,Improvement,Add Kafka Connect metrics,KafkaConnect,Blocker
+d60f011d77ce80a44b02d43bf0889a50a8797dcd,KAFKA-5920,Improvement,Handle SSL authentication failures as non-retriable exceptions in clients,security,Major
+a2da064cbf01558d0af64adc9d6fc9444cd744ec,KAFKA-5922,Sub-task,Add SessionWindowedKStream,streams,Major
+69d2a177101eb1c29b59b4c64d8c22f6d5e3d281,KAFKA-5854,New Feature,Handle SASL authentication failures as non-retriable exceptions in clients,clients,Major
+239dad1b9fb6803842067dd588f679ba6ae5efe7,KAFKA-5358,Improvement,Consumer perf tool should count rebalance time separately,None,Major
+f16fc68ecd0e0c4f408d864308e6d1270e6c4c4a,/,/,    MINOR: Adding See how Kafka Streams is being used section to Streams page,/,/
+bd0146d984dd5df82fb19aa936e8f4ff9ca40030,/,/,    MINOR: various random minor fixes and improve KafkaConsumer JavaDocs,/,/
+c8f1471992c98e0104e3a7b2e093adc21b2d2a6f,KAFKA-5921,Sub-task,Add Materialized overloads to WindowedKStream,streams,Major
+0cf7708007b01faac5012d939f3c50db274f858d,/,/,    MINOR: Move request/response schemas to the corresponding object representation,/,/
+f46d414c1643e15bc5b7a152b8df475aacd1e66d,KAFKA-5833,Bug,Reset thread interrupt state in case of InterruptedException,streams,Major
+1df1084214febcfeef89372292983cf1b0ba6358,/,/,    MINOR: Fix KafkaConsumer.commitSync() javadoc @throws declarations,/,/
+f2b74aa1c36bf2882006c14f7cbd56b493f39d26,KAFKA-5873,Sub-task,Add Materialized overloads to StreamBuilder,streams,Major
+f305dd68f6524abc25c4ed88983f0e78b4e6c243,KAFKA-5754,Improvement,Refactor Streams to use LogContext,streams,Major
+8fca432223da521b78e60e0cf8fa881ced19589c,KAFKA-4764,Improvement,Improve diagnostics for SASL authentication failures,security,Major
+dfd625daa36de2e34e6c596967775394c55bc605,/,/,    MINOR: Remove unused SecurityProtocol.TRACE,/,/
+b95a6bf61ae5c763ff054902a3c2d7cf205496e0,/,/,    MINOR: Bump version in streams quickstart archetype pom.xml,/,/
+3b5d88febb186c4b92cc514fa2338de7bc338f67,KAFKA-5783,Improvement,Implement KafkaPrincipalBuilder interface with support for SASL (KIP-189),None,Major
+b0708c4acda6157460fdacc1da9e9079d1d9708a,/,/,    MINOR: update tutorial doc to match ak-site,/,/
+f47996ccbd9ad873230b509a1fef724989d2f1e8,/,/,    MINOR: Fix typo in test log4j.properties,/,/
+2098fef9175104917fdfc95b05cc9ccb285f2af3,/,/,    MINOR: Un-hide the tutorial buttons on web docs,/,/
+90b4b07e6e3b44edfa41eebea83a674cb6f61922,KAFKA-4468,Bug,Correctly calculate the window end timestamp after read from state stores,streams,Major
+8bd2a68b5020f0bf8f79cbe59676d649eebf170f,KAFKA-5655,Sub-task,Add new API methods to KGroupedTable,streams,Major
+08063f50a04fda3e40c6060a432a97f49bb68c8c,/,/,    KAFKA:5653: add join overloads to KTable,/,/
+3c05c44f2277aad613a0ecece6cccb91f724bc39,/,/,    MINOR: Fix encoder config to make DynamicBrokerReconfigurationTest stable (#4764),/,/
+62ee1fda2f1c38fd8ef82e8f69d285429a0a054b,KAFKA-6683,Bug,ReplicaFetcher crashes with &quot;Attempted to complete a transaction which was not started&quot; ,replication,Critical
+e3b2ec114239b148e69c84a6b3eafe585ac23347,/,/,    MINOR: Fix flaky TestUtils functions (#4743),/,/
+cd087f9f32a4edebf2ddfd252412f1bda7589525,/,/,    MINOR: Updated SASL Authentication Sequence Docs (#4724),/,/
+fcc03c01dcd24ae2de91b16f427e83ec3d7bff7e,/,/,    MINOR: KafkaFutureImpl#addWaiter should be protected (#4734),/,/
+e5205897d4957ebdea5f248e5367b71c69fc12b6,KAFKA-6676,Bug,System tests do not handle ZK chroot properly with SCRAM,None,Major
+11e4d09f2356e8f9a8f1333af5e70debedbf1666,KAFKA-6676,Bug,System tests do not handle ZK chroot properly with SCRAM,None,Major
+7e594eead2503f906d4b37fe9dffeb9b576d06e3,/,/,    MINOR: Use log start offset as high watermark if current value is out of range (#4722),/,/
+e7265933fe658fb4e679caaec40df72baed4f452,/,/,    MINOR: fix flaky Streams EOS system test (#4728),/,/
+5e9557ad7edcef6e04787b824563ad89368e90f3,KAFKA-6672,Bug,ConfigCommand failing to alter configs,None,Major
+d0186377e8a35d28e90caff72667bd7495b4333f,KAFKA-6672,Bug,ConfigCommand failing to alter configs,None,Major
+c5c5beb5b614c1cf97f2cc2f66d68d33c6cfe07a,KAFKA-6663,Bug,Expression for GlobalKTable is not correct,streams,Minor
+cd096e49cbc65025987c69d5e7e7a715f5bd3836,KAFKA-6663,Bug,Expression for GlobalKTable is not correct,streams,Minor
+c544a88779b1198597418fb19bee3b38666e4b4b,KAFKA-6661,Bug,Sink connectors that explicitly &apos;resume&apos; topic partitions can resume a paused task,KafkaConnect,Critical
+4cb883ea21d511df2c0bf3a2755b85cd6f4aeb26,KAFKA-6106,Improvement,Postpone normal processing of tasks within a thread until restoration of all tasks have completed,streams,Major
+ca836774c7bfa1e17f4ed0dd8f6780db3dd74c64,KAFKA-6656,Bug,Use non-zero status code when kafka-configs.sh fails,None,Major
+a3c70315090b96769afef7e2af9aa505cb7d1837,KAFKA-6640,Improvement,Improve efficiency of KafkaAdminClient.describeTopics(),None,Major
+882b0ec98d12352442aaf84cb3199f4eb32f59fc,KAFKA-3978,Bug,Cannot truncate to a negative offset (-1) exception at broker startup,None,Critical
+77137e993b15ad4272972f05f61e7faee36a1914,KAFKA-3978,Bug,Cannot truncate to a negative offset (-1) exception at broker startup,None,Critical
+cc0881d7b6e171b8b65d67826eeba39333883de0,KAFKA-3356,Bug,Remove ConsumerOffsetChecker  deprecated in 0.9  in 0.11,tools,Blocker
+c7bdec74bad366f485d055a68e910dd55cc65728,KAFKA-6634,Improvement,Delay initiating the txn on producers until initializeTopology with EOS turned on,streams,Major
+6da326f8ddec80f7c5eabb1e24d1621596e66520,/,/,    MINOR: Streams doc example should not close store (#4667),/,/
+5499e2e54746cf4e2a57a1d4d032afb61965de88,/,/,    MINOR: Tag AWS instances with Jenkins build url (#4657),/,/
+6910c01e4f9887bf9d3d13b2e21d88b503247303,/,/,    MINOR: Tag AWS instances with Jenkins build url (#4657),/,/
+5778059a91ff3144c228eb4c12f725c89e1e87a6,/,/,    MINOR: Fix deadlock in ZooKeeperClient.close() on session expiry (#4672),/,/
+3935464202e6898bdc63f1eca005da2b92100c07,KAFKA-6622,Bug,GroupMetadataManager.loadGroupsAndOffsets decompresses record batch needlessly,None,Major
+348c98fd6a1106f5d3f59d07b5a9903d768bcbe9,KAFKA-6622,Bug,GroupMetadataManager.loadGroupsAndOffsets decompresses record batch needlessly,None,Major
+dd14bac7cfc21a9408b00cf051330eed185b1c84,/,/,    MINOR: Fix record conversion time in metrics (#4671),/,/
+d3c4456e2bec11e802a603145c29f5c190087f40,/,/,    MINOR: clean stateDirectory in TopologyTestDriver (#4655),/,/
+18c290c7f31c7aeccb9c4b964c0c129fa8321afb,/,/,    MINOR: Fix incorrect references to the max transaction timeout config (#4664),/,/
+3c71bf8b6bc7722afa66bb69bb0080eda658113d,KAFKA-6606,Bug,Regression in consumer auto-commit backoff behavior,consumer,Blocker
+a53c7ef858c06992e34ca7291d70a9e48365b0be,/,/,    MINOR: update release.py (#5374),/,/
+9ae24a2ab55eb71c0b0ee6b5d4b29d1193368244,/,/,    MINOR: add upgrade note for KIP-336,/,/
+672cc578ef0407ff0fe0ae3a8ed33a4d9683635e,KAFKA-7503,Task,Integration Test Framework for Connect,KafkaConnect,Minor
+9951bf911125c51a2574ac0dbb9913bc0500b594,KAFKA-7620,Bug,ConfigProvider is broken for KafkaConnect when TTL is not null,KafkaConnect,Major
+51dc648e4f0b788c3f3495c93edd446dc72b3225,KAFKA-7576,Bug,Dynamic update of replica fetcher threads may fail to start/close fetchers,core,Major
+b3b0ed637238375739c76fc5237f8c8414453875,KAFKA-7916,Improvement,Streams store cleanup: unify wrapping,streams,Major
+c823204ee5edda3b5ebe56df17c1a96b88e08383,/,/,    MINOR: improve stabilty of ProcessorStateManagerTest (#6240),/,/
+a569a81a6c6cce47261200fe1b0e75085b4e409d,KAFKA-8304,Bug,Connect susceptible to deadlock while registering REST extensions,KafkaConnect,Blocker
+6c74506728af0b03c1aae167f6957efe4b128173,KAFKA-7895,Bug,Ktable supress operator emitting more than one record for the same key per window,streams,Blocker
+259cc77f3bc71ae5f69f66a9f001c32a74acbeba,KAFKA-8014,Improvement,Extend Connect integration tests to add and remove workers dynamically,None,Major
+da39763a31cab9a2c177a33a7e3ae6457a223154,KAFKA-8340,Bug,ServiceLoader fails when used from isolated plugin path directory,KafkaConnect,Major
+ ,KAFKA-8819,Bug,Plugin path for converters not working as intended,KafkaConnect,Major
+ ,KAFKA-8340,Bug,ServiceLoader fails when used from isolated plugin path directory,KafkaConnect,Major
+ ,KAFKA-8819,Bug,Plugin path for converters not working as intended,KafkaConnect,Major
+0efcee084dc095bc079c22e9eefa5941def05ec1,KAFKA-8945,Bug,Incorrect null check in the constructor for ConnectorHealth and AbstractState,KafkaConnect,Major
+ ,KAFKA-8947,Bug,Connect framework incorrectly instantiates TaskStates for REST extensions,KafkaConnect,Major
+6ae60fd9bda901cc36829659085033130939e332,KAFKA-8602,Bug,StreamThread Dies Because Restore Consumer is not Subscribed to Any Topic,streams,Critical
+722e854bfea3586e9366981f7b4a794e048a2cbc,KAFKA-8347,Improvement,Choose next record to process by timestamp,streams,Major
+7d36773fb79bb84609a58033b5dd0c8974dd18eb,KAFKA-8340,Bug,ServiceLoader fails when used from isolated plugin path directory,KafkaConnect,Major
+ ,KAFKA-8819,Bug,Plugin path for converters not working as intended,KafkaConnect,Major
+ ,KAFKA-8340,Bug,ServiceLoader fails when used from isolated plugin path directory,KafkaConnect,Major
+ ,KAFKA-8819,Bug,Plugin path for converters not working as intended,KafkaConnect,Major
+4d0cc439eea0c57aba508fae257c366edfd39028,KAFKA-8788,Bug,Optimize client metadata handling with a large number of partitions,None,Critical
+90386e89be4d294baf63911af9012493a3faa35a,/,/,    MINOR: Correct typo in test name `TimetampedSegmentsTest` (#7210),/,/
+8d70218de2ab8637f922a43993020216e57404c8,KAFKA-8391,Bug,Flaky Test RebalanceSourceConnectorsIntegrationTest#testDeleteConnector,KafkaConnect,Critical
+0f0093c1693d6ea4091228cd3a87db0219d028a2,KAFKA-8620,Bug,Race condition in StreamThread state change,streams,Major
+ff12de576c64596b29320fe4998e1444e4b8d48b,/,/,    MINOR: Updated StreamTableJoinIntegrationTest to use TTD (#7722),/,/
+a7485bac5f6d030a7c8d08c63a05b49b1c7bafe7,KAFKA-9051,Bug,Source task source offset reads can block graceful shutdown,KafkaConnect,Major
+1be8fb9e3781533dc2c0d269979ef6a18aa56a6b,KAFKA-8962,Bug,KafkaAdminClient#describeTopics always goes through the controller,None,Major
+f37060cab3e29bb8722f69803d7789ab0b3f2ff0,KAFKA-10049,Bug,KTable-KTable Foreign Key join throwing Serialization Exception ,streams,Blocker
+ea14a20febfdfa5d1139545c32ccbff872cdc296,KAFKA-9848,Bug,Avoid triggering scheduled rebalance delay when task assignment fails but Connect workers remain in the group,KafkaConnect,Major
+40449d4512f12e1eb619d4870d21060b92d743e7,KAFKA-9851,Bug,Revoking Connect tasks due to connectivity issues should also clear running assignment,KafkaConnect,Major
+ ,KAFKA-9184,Bug,Redundant task creation and periodic rebalances after zombie worker rejoins the group,KafkaConnect,Blocker
+31dd984cbe5bd14f52e488712b737887c691b7d6,KAFKA-9724,Bug,Consumer wrongly ignores fetched records &quot;since it no longer has valid position&quot;,consumer,Major
+c5fb266df1c3c5626e9d4221120e99e03d4d07f4,KAFKA-9854,Bug,Re-authenticating causes mismatched parse of response,None,Critical
+67df232bec296eaf76650b01088049c11aa2a168,KAFKA-10268,Bug,dynamic config like &quot;--delete-config log.retention.ms&quot; doesn&apos;t work,log cleaner,Major
+7f9187fe399f3f6b041ca302bede2b3e780491e7,KAFKA-10191,Test,fix flaky StreamsOptimizedTest,unit tests,Major
+49ce932187b98fa989d3e6940f4bbcb7e7d93c9a,KAFKA-10274,Bug,Transaction system test uses inconsistent timeouts,None,Major
+ ,KAFKA-10235,Bug,Fix flaky transactions_test.py,None,Major
+ ,KAFKA-9802,Bug,Fix flaky system test `TransactionsTest.test_transactions`,None,Major
+ef49076bc683a018b3a6b48ef5c6db580580ad7a,KAFKA-10295,Test,ConnectDistributedTest.test_bounce should wait for graceful stop,KafkaConnect,Minor
+7c0d87b6b3225778dd8e6a6f7c24983181d53a5d,KAFKA-10295,Test,ConnectDistributedTest.test_bounce should wait for graceful stop,KafkaConnect,Minor
+f93056ea3064d9a67e817dbb136f150bbe0b035d,KAFKA-10286,Test,Connect system tests should wait for workers to join group,KafkaConnect,Minor
+2020262ea58f08593eecb4663efec29f53f45d8c,/,/,    MINOR: Fix flaky system test assertion after static member fencing (#9033),/,/
+448719dc99a19793d55aaaa8b64282ed3fb3197d,/,/,    Bump version to 2.7.0,/,/
+101ba2844f92451f633d11fd2ad3813f15d4a4f3,/,/,    MINOR: Update jackson databind to 2.10.5.1 (#9702),/,/
+8bcb05d604e611d2396c4d22cc4573488e9edb6a,KAFKA-10017,Bug,Flaky Test EosBetaUpgradeIntegrationTest.shouldUpgradeFromEosAlphaToEosBeta,streams,Blocker
+bd9c925db693d77c8171862514ee2b9efb6a7176,/,/,    MINOR: Do not print log4j for memberId required (#9667),/,/
+6a67d715573f62eb6c52f7eac2c244bc5499061a,/,/,    MINOR: Do not print log4j for memberId required (#9667),/,/
+4c831fe02bc9151617a5cf3c934b00bec61d65d8,/,/,    throw corresponding invalid producer epoch (#9700) (#9723),/,/
+c82c05f7282c66208aa9970d922e297c06982bd1,KAFKA-10811,Bug,System exit from MirrorConnectorsIntegrationTest#testReplication,mirrormaker,Major
+6736c2accb18f45c1b883b84df79180c390ed7b1,KAFKA-10811,Bug,System exit from MirrorConnectorsIntegrationTest#testReplication,mirrormaker,Major
+7aaca71b7459b1739b84231bd872d2a0fa528c7a,KAFKA-8147,Improvement,Add changelog topic configuration to KTable suppress,streams,Minor
+3c6161ac23f9093c46f347ed68beaa20567e2160,KAFKA-10792,Bug,Source tasks can block herder thread by hanging during stop,KafkaConnect,Major
+d8b60939b6e14b8cd47e92520b9299ce5dfde5e5,KAFKA-10792,Bug,Source tasks can block herder thread by hanging during stop,KafkaConnect,Major
+24867c34b4ed180a5f8f1ba531b2fd47d9bef772,KAFKA-10799,Bug,AlterIsr path does not update ISR shrink/expand meters,None,Blocker
+dc3276cd1843aa46bc9f8ef27eb3467b6db6cc87,/,/,    MINOR: Fix KTable-KTable foreign-key join example (#9683),/,/
+9351e1e410d3bf340a78f8cdc8f0f7f7bf7dad35,/,/,    MINOR: fix listeners doc to close <code> properly (#9655),/,/
+6da2de704ffac5961cc0c11c34663330b9ad94c3,KAFKA-10758,Bug,Kafka Streams consuming from a pattern goes to PENDING_SHUTDOWN when adding a new topic,streams,Blocker
+fd532edf66ff13486df8420c7035d637ba0edb21,KAFKA-10755,Bug,Should consider commit latency when computing next commit timestamp,streams,Blocker
+0b7c490a6cbed7e711b320be64a75aa7ac6584ca,KAFKA-10706,Bug,Liveness bug in truncation protocol can lead to indefinite URP,None,Major
+f641ecd7edab1881497252e15db66577ef1f1cb2,KAFKA-10706,Bug,Liveness bug in truncation protocol can lead to indefinite URP,None,Major
+3fe933bb61bba3a190c374ae3e00c16e39084415,KAFKA-10755,Bug,Should consider commit latency when computing next commit timestamp,streams,Blocker
+e25c6c9885a655a6d147d8781e4e522fc6f89d8b,KAFKA-10687,Bug,Produce request should be bumped for new error code PRODUCE_FENCED,None,Blocker
+df17166072d61be410da48c46db0a87e7e99a51f,/,/,    MINOR: Update jetty to 9.4.33,/,/
+41c0243b10e8342d5e1e116556cf9425e6550ebc,/,/,    MINOR: Add back section taken out by mistake (#9544),/,/
+dbdd1b1bb72ab0e012f7a746cefb6e593da44683,/,/,    MINOR: Move upgraded docs from site to Kafka docs (#9565),/,/
+edc2c4fd8d1e91237b08c8df70628e74637e4e47,KAFKA-10669,Task,ListOffsetRequest: make CurrentLeaderEpoch field ignorable and set MaxNumOffsets field to 1,None,Blocker
+ ,KAFKA-9627,Sub-task,Replace ListOffset request/response with automated protocol,None,Major
+0e8fcb61c20c6c7d3c08269a30245822886f466f,KAFKA-10454,Bug,Kafka Streams Stuck in infinite REBALANCING loop when stream &lt;&gt; table join partitions don&apos;t match,streams,Major
+c9033ffddb1aa5c740921137e21a78597788dcd9,/,/,    MINOR: Move upgraded docs from site to kafak docs (#9532),/,/
+aa306b8acbe41461b9748ee62275897a109989ab,KAFKA-10664,Bug,Streams fails to overwrite corrupted offsets leading to infinite OffsetOutOfRangeException loop,streams,Blocker
+db947b749e518aaeb6b019f649311433ec01222e,KAFKA-10664,Bug,Streams fails to overwrite corrupted offsets leading to infinite OffsetOutOfRangeException loop,streams,Blocker
+520090571ebde29e4f93ffeebc6be7ffdbaa690b,/,/,    MINOR: Fix verification in StreamsUpgradeTest.test_version_probing_upgrade (#9530),/,/
+90ea8c47cebd6041c52a3be41dad7b61ec4266e6,/,/,    MINOR: Fix verification in StreamsUpgradeTest.test_version_probing_upgrade (#9530),/,/
+54dc27c81306228ecdfbaa6abcee9d730420ea7b,KAFKA-10515,Bug,NPE: Foreign key join serde may not be initialized with default serde if application is distributed,streams,Critical
+18449480a4608b817be868106aa797bb55c711cb,KAFKA-10638,Bug,QueryableStateIntegrationTest fails due to stricter store checking,streams,Major
+ ,KAFKA-10598,Bug,KafkaStreams reports inappropriate error message for IQ,streams,Major
+54dd2fb02009717ce7a2493c7ae58642d2cc4911,/,/,    MINOR: Add Jenkinsfile to 2.6 (#9471),/,/
+35eea09acd4bef587d56e9a7852d0b4e67931aaf,KAFKA-10592,Task,system tests not running after python3 merge,system tests,Major
+1cbc4da0c9d19b25ffeb04cb2b52d827fbe38684,/,/,    MINOR: Pin ducktape to version 0.7.10,/,/
+3bbea88c597ec780533c042cf60d65fb1da23f26,/,/,    Update docs/documentation.html to point to 2.7 release and add links for 2.6.x documentation,/,/
+535efa4c2cbef3dd4d99a57ef9bcd08e726809c0,KAFKA-10284,Bug,Group membership update due to static member rejoin should be persisted,consumer,Critical
+a7ec00514bac6239b3896293831f854cc92c803f,/,/,    MINOR: distinguish between missing source topics and internal assignment errors (#9446),/,/
+de22b86f5ccd2a36326573191df40a94a7ccd43d,/,/,    MINOR: Fix JDK8 compatibility issue in Snappy (#9460),/,/
+c4b41bc725a635906ca6c400871a1c9de5dc4f26,KAFKA-10564,Bug,Continuous logging about deleting obsolete state directories,streams,Minor
+f6f315f89ffe8891011ef6604d7456d26a57dede,/,/,    MINOR: Clean-up client javadoc warnings (#9463),/,/
+e7043add7a427e1814925f9fbff8c638e6502852,KAFKA-10426,Bug,Deadlock in KafkaConfigBackingStore,KafkaConnect,Critical
+190acf7453fe3b58d46138611055c188b4752c97,KAFKA-10605,Sub-task,KIP-478: deprecate the replaced Processor API members,streams,Blocker
+80e601184e31e9e95c238b7e1e73b3522d92f392,KAFKA-10455,Bug,Probing rebalances are not guaranteed to be triggered by non-leader members,streams,Blocker
+99d08f73a975b29c75f5def63e649100cc498711,KAFKA-10455,Bug,Probing rebalances are not guaranteed to be triggered by non-leader members,streams,Blocker
+9aa261a6422fdda319fefb7183adfb17d17b6e1f,KAFKA-10332,Bug,MirrorMaker2 fails to detect topic if remote topic is created first,mirrormaker,Major
+09e52824d0996074b476ceca7d05dba0c17ce548,KAFKA-10332,Bug,MirrorMaker2 fails to detect topic if remote topic is created first,mirrormaker,Major
+a0210aaa14301071eae60b8d9300719237a32194,KAFKA-10600,Bug,Connect adds error to property in validation result if connector does not define the property,KafkaConnect,Major
+1c1f3ea0b032850b1291390b6fc8928ef7195359,KAFKA-10559,Bug,Don&apos;t shutdown the entire app upon TimeoutException during internal topic validation,streams,Blocker
+7a2f41f6e24216b7c803e6040b285389c277eb85,KAFKA-10602,Bug,DLQ Reporter throws NPE when reporting from different thread,None,Major
+3bd478cc29dafcfdb3d30390e603db412f9726e0,KAFKA-10340,Bug,Source connectors should report error when trying to produce records to non-existent topics instead of hanging forever,KafkaConnect,Major
+73bdf12ed50a859cdc5e4d44b4086aae2dc9131c,KAFKA-10437,Sub-task,KIP-478: Implement test-utils changes,streams,Major
+da4c410289a51b4a1abd1513ba5cac7a7aae06a0,KAFKA-10574,Bug,Infinite loop in SimpleHeaderConverter and Values classes,KafkaConnect,Major
+d262e63729115695ed13b8047fe7d91f28656604,KAFKA-10598,Bug,KafkaStreams reports inappropriate error message for IQ,streams,Major
+ccff7227ce11747c758c0903b34ee1d84119b9f9,KAFKA-10271,Bug,Performance regression while fetching a key from a single partition,streams,Major
+889fd31b207b86db6d059792131d14389639d9e4,/,/,    HOTFIX: fix shouldNotAccessJoinStoresWhenGivingName,/,/
+3d399a51da3415ea3a58760402ba665950390732,KAFKA-7334,Improvement,Suggest changing config for state.dir in case of FileNotFoundException,streams,Major
+2a8fc8dd74a753ee108258185791322e1cfc4b81,KAFKA-10271,Bug,Performance regression while fetching a key from a single partition,streams,Major
+939018174d79742de3e01cda251faffd740177c4,KAFKA-9929,Improvement,Support reverse iterator on WindowStore,streams,Major
+8d4bbf22ad1918dd03300fa48221b71563286f8e,/,/,    MINOR: trivial cleanups  javadoc errors  omitted StateStore tests  etc. (#8130),/,/
+e4540fec7cf310b47ddcb81ec27d2e5c2046c7ff,KAFKA-10564,Bug,Continuous logging about deleting obsolete state directories,streams,Minor
+ ,KAFKA-6647,Bug,KafkaStreams.cleanUp creates .lock file in directory its trying to clean (Windows OS),streams,Minor
+fb4f297207ef62f71e4a6d2d0dac75752933043d,KAFKA-10028,Sub-task,Implement write path for feature versioning scheme,None,Major
+af27c2ddfc87ece60d8b4e4e16e14d1fbc3c4ba4,/,/,    MINOR: Don't publish javadocs for raft module (#9336),/,/
+919dbb0f6c41e818442b1c0a1abba60a54a08e75,KAFKA-10188,Bug,Sink task preCommit method gets called after task is stopped,KafkaConnect,Major
+7be8bd8cbfea5cc19f815a142c4689e97728ea4b,KAFKA-10338,New Feature,Support PEM format for SSL certificates and private key,security,Major
+c77183dbb323d1aa4b72ebcfedeac9947c3c76d0,KAFKA-6733,Improvement,Support of printing additional ConsumerRecord fields in DefaultMessageFormatter,tools,Minor
+701bfe67895a87f1dc7e17357bfd941fdedb0ea4,/,/,    MINOR: Annotate test BlockingConnectorTest as integration test (#9379),/,/
+b8410a4df01f1a0d8fa107495019a234b45920b7,KAFKA-10556,Task,NPE if sasl.mechanism is unrecognized,None,Minor
+75d755006d9a2d2fe1b83efa368e9a9bbffd0f25,KAFKA-10439,Bug,Connect&apos;s Values class loses precision for integers  larger than 64 bits,KafkaConnect,Major
+e0f215bbd3d1da21e97ad03c4375f4e7225b1a82,/,/,    MINOR: Add proper checks to KafkaConsumer.groupMetadata (#9349),/,/
+4576fdc42b42d8a53872ad57cc5aaee76d99d806,KAFKA-10531,Bug,KafkaBasedLog can sleep for negative values,core,Major
+69790a1463bafc1f63e3c288a6636b3f4586c1b4,KAFKA-10535,Sub-task,KIP-478: Implement StateStoreContext and Record,streams,Major
+6b95f1ec57c303b758f0bea4cc96943108adce2c,KAFKA-10048,Bug,Possible data gap for a consumer after a failover when using MM2,mirrormaker,Major
+6c58f0d4819e390f771c84a15ca52c2ecdc52b26,KAFKA-10477,Bug,Sink Connector fails with DataException when trying to convert Kafka record with empty key to Connect Record,KafkaConnect,Major
+ca559a2dcf1a2a29f635401111c743b5da1bd81d,KAFKA-10477,Bug,Sink Connector fails with DataException when trying to convert Kafka record with empty key to Connect Record,KafkaConnect,Major
+54cea1eccdc0bb1fc3c96de48917940fbc61cab8,KAFKA-10557,Bug,Missing docs when describing topic configs including documentation,None,Major
+57c221689998d99a200d91320a1c33d37169b7dd,KAFKA-10478,Improvement,advertised.listeners should allow duplicated ports,core,Major
+74e6fe715e35439f0c82f34eccdc45d2cd7e8227,KAFKA-10134,Bug,High CPU issue during rebalance in Kafka consumer after upgrading to 2.5,clients,Blocker
+901bf57c0825f4ae88d057a99020344b4b26baab,KAFKA-10503,Improvement,MockProducer doesn&apos;t throw ClassCastException when no partition for topic,producer ,Minor
+2fda4458b4d8e65cee255879f1a0a9cf858506a3,KAFKA-6585,Improvement,Consolidate duplicated logic on reset tools,None,Minor
+a93de873a51601c66cc6fd3fb8b18a52085a3e8b,/,/,    MINOR: Do not swallow exception when collecting PIDs (#8914),/,/
+dbe3e4a4cccce06836b59c2f3853669e008eb58f,KAFKA-10511,Sub-task,Fix minor behavior difference in `MockLog`,None,Major
+3767ea6eed948acffb4f8693c7cf0a192ba44720,KAFKA-10218,Bug,DistributedHerder&apos;s canReadConfigs field is never reset to true,KafkaConnect,Major
+17fa3d92967c8d3493e4636a7e394db371afb18f,KAFKA-10218,Bug,DistributedHerder&apos;s canReadConfigs field is never reset to true,KafkaConnect,Major
+ac8bd4ecd0e957e7f8e12021e51b9e54d24ea9f8,KAFKA-9584,Bug,Removing headers causes ConcurrentModificationException,streams,Minor
+18f70835a39381967b4d0d57effa14a91e44ac74,KAFKA-10502,Bug,Threadlocal  may can not set null because it may create a memory leak,None,Major
+0aaca796cf8222475f5573e8ca077a6f6367e8c0,KAFKA-10505,Improvement,[SystemTests] streams_static_membership.py and streams_upgradet_test.py fails,system tests,Major
+466f8fd21c6651ea5daa50154239e85fa629dbb4,/,/,    MINOR: Use the automated protocol for the Consumer Protocol's subscriptions and assignments (#8897),/,/
+89485fe137588531744752bd772aabe78cd4f374,KAFKA-10516,Sub-task,Implement Topic Command changes,None,Major
+785de1e3d459b26c3ce383986827719388be7c6f,KAFKA-9627,Sub-task,Replace ListOffset request/response with automated protocol,None,Major
+b7c8490cf47b0c18253d6a776b2b35c76c71c65d,KAFKA-10492,Sub-task,Core Raft implementation,None,Major
+e64c209567fa3e27ac1b8d2bc50b72b39860ea06,KAFKA-9161,Bug,Close gaps in Streams configs documentation,streams,Major
+90517d15c0fb09f09168e77aff7ad30f234b1091,KAFKA-10068,Task,Verify HighAvailabilityTaskAssignor performance with large clusters and topologies,streams,Blocker
+ac89e49bf217941d436e2160732f8c045d2a4d3b,/,/,    MINOR: Use `Map.forKeyValue` to avoid tuple allocation in Scala 2.13 (#9299),/,/
+23f9890e0e173f4ddbf91e6e088b15abacfbe6af,KAFKA-10401,Bug,GroupMetadataManager ignores current_state_timestamp field for GROUP_METADATA_VALUE_SCHEMA_V3,offset manager,Critical
+9fda3d206fb6b4ff58792f6dcebd9275e46427f7,/,/,    MINOR: Remove unused variable (#9303),/,/
+ea8649822e9b72799d7bed21b62b6da4f11a3831,/,/,    MINOR: Fix now that kafka.apache.org resolves to 3 IP addresses (#9294),/,/
+634c9175054cc69d10b6da22ea1e95edff6a4747,KAFKA-10435,Sub-task,Fetch protocol changes for KIP-595,None,Major
+e8ea6f1e8c07371e40c8e6ab7ab6e2d6cb3a8804,KAFKA-10292,Sub-task,fix flaky streams/streams_broker_bounce_test.py,system tests,Major
+7d0086e0c35d827a46e82956f42af57f6a6539f1,KAFKA-10447,Sub-task,Migrate tools module to JUnit 5,None,Major
+16ec1793d53700623c9cb43e711f585aafd44dd4,KAFKA-10134,Bug,High CPU issue during rebalance in Kafka consumer after upgrading to 2.5,clients,Blocker
+ ,KAFKA-10122,Improvement,Consumer should allow heartbeat during rebalance as well,None,Major
+09d1498e3065eccc26a2d396ea13e7c8b553b974,KAFKA-10436,Sub-task,Implement KIP-478 Topology changes,streams,Major
+8e9cf0e0cb1f875df27ec0cf624ad245bd780723,/,/,    MINOR: mirror integration tests should not call System.exit (#9200),/,/
+4ea709dc454a2c2635ef65ebf835025d82f177de,KAFKA-10403,Improvement,Replace scala collection by java collection in generating MBeans attributes,None,Minor
+bbccf5d448496f595b58c06f0afa5086978c1da5,KAFKA-10432,Bug,LeaderEpochCache is incorrectly recovered on segment recovery for epoch 0,None,Major
+e8524ccd8fca0caac79b844d87e98e9c055f76fb,KAFKA-10259,New Feature,KIP-554: Add Broker-side SCRAM Config API,None,Major
+1e31354557f49ab4a887aac0b71916da53b22d50,KAFKA-10355,Improvement,Handle accidental deletion of source-topics as exceptional failure,streams,Major
+85b6545b8159885c57ab67e08b7185be8a607988,KAFKA-5636,Improvement,Add Sliding-Window support for Aggregations,streams,Major
+9da32b6bd014f1bdeeee5da8fcd00995a5916323,KAFKA-9924,Improvement,Add RocksDB Memory Consumption to RocksDB Metrics ,streams,Major
+b6ba67482f9365ec982f88e4b456859696099e33,KAFKA-10384,Bug,Separate converters from generated messages,None,Major
+2bc3532e8d57ff6833ef9e4d60fd2e7293342b27,KAFKA-10395,Bug,TopologyTestDriver does not work with dynamic topic routing,streams,Major
+dc2b7d6f8898d1d01bdda50a356ba9552c36a4d7,KAFKA-10407,Improvement,add linger.ms parameter support to KafkaLog4jAppender,logging,Minor
+232a0f48d3a2629578090937fb3b5097b78bd617,KAFKA-9309,Improvement,Add the ability to translate Message classes to and from JSON,None,Major
+b7856df21b22605eaa548d450885638932d87b26,/,/,    MINOR: Include security configs for topic delete in system tests (#9142),/,/
+9b900a6be2f1c369d12b782cb7b710900ff20550,/,/,    HOTFIX: use Exit.exit instead of System.exit (#9198),/,/
+077984690132c6ecfe2514359450342101437032,KAFKA-10395,Bug,TopologyTestDriver does not work with dynamic topic routing,streams,Major
+1c6281a7f4a2fd3f601ef4a2e992d60231179e1e,/,/,    MINOR: Use new version of ducktape,/,/
+e8b2dcdee6f25e9344d52b84e86328ec616bf819,KAFKA-10023,Improvement,Enforce broker-wide and per-listener connection creation rate (KIP-612  part 1),core,Major
+46de22e8a130e9a424a103092d8e4efbd83337e0,KAFKA-10387,Bug,Cannot include SMT configs with source connector that uses topic.creation.* properties,KafkaConnect,Critical
+e034fedbd369461c7a673fa877b67638c7b1d952,KAFKA-10387,Bug,Cannot include SMT configs with source connector that uses topic.creation.* properties,KafkaConnect,Critical
+c3957ba88651896194cf7bac2fbbe0ef9807eb12,KAFKA-10404,Test,Flaky Test kafka.api.SaslSslConsumerTest.testCoordinatorFailover,unit tests,Major
+f7a4fe7c1447a4c0c8465e6f695ad72ea145eec9,/,/,    MINOR: fix the way total consumed is calculated for verifiable consumer (#9143),/,/
+f17a4122820954d63464f7fbdb140af1b10cea45,KAFKA-9516,Bug,Flaky Test PlaintextProducerSendTest#testNonBlockingProducer,unit tests,Critical
+153db488660575e8c033c3c4424211a6f567bb57,KAFKA-9273,Test,Refactor AbstractJoinIntegrationTest and Sub-classes,streams,Major
+d0800b3f7c135c97ec8632c247fc02946527c0a2,KAFKA-10391,Bug,Streams should overwrite checkpoint excluding corrupted partitions,streams,Major
+fe0279026bd3d854a7291f5bf99503469e900038,/,/,    MINOR: Ensure same version of scala library is used for compile and at runtime (#9168),/,/
+7fed816f03ef65105e93fd18c722c506a7b4b36f,/,/,    MINOR: Add ableegoldman and cadonna to asf whitelist (#9171),/,/
+28b3666a639021ba42f9541704f737e3428c2090,KAFKA-10173,Bug,BufferUnderflowException during Kafka Streams Upgrade,streams,Blocker
+b937ec75677f8af13bf6fda686f07e9c62cdd20f,KAFKA-9911,Sub-task,Implement new producer fenced error,producer ,Major
+9ebc71e3d7d1e361b3844d907c4ae935fcda1240,/,/,    MINOR: bump 2.5 versions to 2.5.1 (#9165),/,/
+7915d5e5f826a71c11e1c9183c84702410f7209a,KAFKA-9450,Improvement,Decouple inner state flushing from committing,streams,Major
+3e6dcb14dd9716f07d1ba96b1b06b78e55e92de1,/,/,    MINOR: Improve checks for CogroupedStreamAggregateBuilder (#9141),/,/
+c675e43c31c1ebbcf5694d5aa2b0c8f061945cf4,/,/,    MINOR: Ensure a single version of scala-library is used (#9155),/,/
+990301323cc5a774e17b0a5d373aff8439cda489,KAFKA-9274,Improvement,Gracefully handle timeout exceptions on Kafka Streams,streams,Major
+6effff6b06717dea95639fe97b5dd5c477c72e3d,/,/,    MINOR: fix HTML (#9127),/,/
+b351493543b7e26aa345df3b568d0dc08a8c8d91,KAFKA-9274,Improvement,Gracefully handle timeout exceptions on Kafka Streams,streams,Major
+1b7b8d40efe514c9ead452ffeae94fbc23359691,/,/,    MINOR: Streams integration tests should not call exit (#9067),/,/
+26a217c8e75b238bbba5f1799b7d91b5b4910123,/,/,    MINOR: Streams integration tests should not call exit (#9067),/,/
+e9ebe39e7c693ef595c68cfe91ce4e3a68788e2c,/,/,    MINOR: add additional shutdown log info (#9124),/,/
+ebb1d6e21cc9213071ee1c6a15ec3411fc215b81,/,/,    Bump version to 2.8.0,/,/
+60266bed05e1ce4b0330eb02bde191c358222fa7,KAFKA-12655,Bug,CVE-2021-28165 - Upgrade jetty to 9.4.39,None,Major
+f05d1ce3592626addee1fdf8d556131920530749,KAFKA-12658,Bug,bin/kafka-metadata-shell.sh cannot find or load main class org.apache.kafka.shell.MetadataShell,core,Blocker
+060f451323cca46aaf86f6e4c194df15e52d6227,/,/,    MINOR: Improve description of `max.poll.records` config (#10506),/,/
+0e9ee4220366d365b4c7d15fea1689ef7d27e8dd,/,/,    MINOR: Improve description of `max.poll.records` config (#10506),/,/
+232cd33f1d49e5b3143040869d8954c018805d03,KAFKA-9831,Bug,Failing test: EosIntegrationTest.shouldNotViolateEosIfOneTaskFailsWithState[exactly_once_beta],unit tests,Major
+e399a802c9f961bca36766a6367645290127b32b,KAFKA-12619,Bug,Ensure LeaderChange message is committed before initializing high watermark,None,Major
+77ae47d85b310eaf2902bc9843d870faf44203f3,KAFKA-13258,Improvement,AlterClientQuotas response does not include an error when it failed,None,Blocker
+df0d57a63ec2de3311fd07e08b255f42eccdc94b,KAFKA-13277,Bug,Serialization of long tagged string in request/response throws BufferOverflowException,clients,Blocker
+2e819a7208fa4e0933c7942d07c54130bd12c119,KAFKA-13270,Bug,Kafka may fail to connect to ZooKeeper  retry forever  and never start,None,Blocker
+e9b72b13c8a9b4cb8eaa2a9b0a9207acb40edfc9,KAFKA-9747,Bug,No tasks created for a connector,KafkaConnect,Major
+0eb09d307757cbce42bfe2bb96451b3d5909ede3,KAFKA-13234,Bug,Transaction system tests should check URPs between broker bounces,None,Major
+fda8e07734765302cd313e4d64d38d03d1d27cd5,KAFKA-13231,Bug,`TransactionalMessageCopier.start_node` should wait until the process if fully started,None,Major
+c1cac91856208f46a2970266ddfea06be347a701,/,/,    MINOR: Add missing license entry for jline in LICENSE-binary (#11260),/,/
+6c62600ba0b6a484232ff1e8ac28fef8e7c199e4,KAFKA-13214,Bug,Consumer should not reset group state after disconnect,None,Critical
+b4529ac6dab00dd5003d27e9288e50b7970133d1,KAFKA-13219,Bug,BrokerState metric not working for KRaft clusters,kraft,Blocker
+805aa5ffdafb6f5ce54e49bce44b6cd541272768,/,/,    HOTFIX: Fix null pointer when getting metric value in MetricsReporter (#11248),/,/
+0f27bc1f6e3c17a9856ba7673fb67ae90020a826,/,/,    MINOR: Add missing licenses and update versions in LICENSE-binary for 3.0 (#11232),/,/
+3d764ed38709aa0516e226afa8f4dac682bffb59,KAFKA-13081,Bug,Port sticky assignor fixes (KAFKA-12984) back to 2.8,consumer,Blocker
+5f483f13fb84475c7a7f9a7920d1891973a87b20,KAFKA-13198,Bug,TopicsDelta doesn&apos;t update deleted topic when processing PartitionChangeRecord,replication,Blocker
+4d1efc90af02a090e6313f86577cfbb4714597a5,KAFKA-13207,New Feature,Replica fetcher should not update partition state on diverging epoch if partition removed from fetcher,core,Critical
+0867e9169d3d54513ed0a329cb6e5c96e4e0ea3a,KAFKA-13209,Improvement,Upgrade jetty-server to fix CVE-2021-34429,None,Major
+fe7bced3f690b96fc1e973ee6867989d8a2dcd5e,KAFKA-13173,Bug,KRaft controller does not handle simultaneous broker expirations correctly,None,Blocker
+de416f6b1c1b115dd4875a500f5bd7cb0c34fb00,/,/,    MINOR: update the branch(split) doc and java doc and tests (#11195),/,/
+fb241c1aef0339427701e5b1e65fd134279b6203,KAFKA-13161,Bug,Follower leader and ISR state not updated after partition change in KRaft,None,Blocker
+49d2d13ef0a6941c61c73680d6e6ac0ec43ce278,KAFKA-12890,Bug,Consumer group stuck in `CompletingRebalance`,None,Blocker
+aaf56bea53b8fd05328d01185e71e6bd751fab85,/,/,    MINOR: Note that slf4j-log4j in version 1.7.35+ should be used (#12114),/,/
+742de94e03e6e9f08fc2e62b32addcc1b4113966,KAFKA-13255,Bug,Mirrormaker config property config.properties.exclude is not working as expected ,mirrormaker,Major
+50d88ab8d838e3f5b6fb8f5d27ca80e181178cdb,KAFKA-13794,Bug,Producer batch lost silently in TransactionManager,None,Major
+b068124aef261848c0bb0af0b903c798499015ef,KAFKA-13794,Bug,Producer batch lost silently in TransactionManager,None,Major
+1181825b79fc98f7a816616c5d1fd9037159f547,KAFKA-13761,Bug,KafkaLog4jAppender deadlocks when idempotence is enabled,log,Major
+134c432d6452de1bfb99d0f6b455a58c16bc626a,KAFKA-13794,Bug,Producer batch lost silently in TransactionManager,None,Major
+f059c82e6eb8d92316b0ae97b8e811b3c3bf8afc,/,/,    MINOR: Fix support for custom commit ids in the build (#12014),/,/
+94025d8939c7eef2df9961ea8268c310931aafeb,/,/,    3.1.1 release notes (#12001),/,/
+e17e2045f4128e71469509659e93588c3695de72,KAFKA-13794,Bug,Producer batch lost silently in TransactionManager,None,Major
+b52a22b0e121a0bbd18c053cdd39b14a1934e6d7,KAFKA-13782,Bug,Producer may fail to add the correct partition to transaction,None,Blocker
+72809cce9656fa1238c4247c9edb0a1c4c74ff82,/,/,    MINOR: Fix an uncompatible bug in GetOffsetShell (#11936),/,/
+05601f42cdbb67c6608e37c6f965608fd926d07f,KAFKA-13748,Bug,Do not include file stream connectors in Connect&apos;s CLASSPATH and plugin.path by default,KafkaConnect,Major
+42c804005e196ee6218d570c4394614613fe1fb9,KAFKA-13748,Bug,Do not include file stream connectors in Connect&apos;s CLASSPATH and plugin.path by default,KafkaConnect,Major
+640145267ca90a2a26bf0a2d4df65f707de45701,KAFKA-13660,Bug,Replace log4j with reload4j,logging,Major
+f2920b2477d77fd52d3d828012c600e4c2ed20a5,KAFKA-13719,Bug,connector restart cause duplicate tasks,KafkaConnect,Critical
+e714cb5dbb92bf3905550daca0053a18ec53426d,KAFKA-13418,Bug,Brokers disconnect intermittently with TLS1.3,clients,Minor
+ ,KAFKA-13779,Test,System test verifying key updates with TLS 1.3,None,Major
+3f59718fb9c7246dadfbf70bf042b386d7e9ee4a,KAFKA-13770,Bug,Regression when Connect uses 0.10.x brokers due to recently added retry logic in KafkaBasedLog,KafkaConnect,Blocker
+ ,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+e176f4b2443f221d467c7985ecb9387a626751bf,KAFKA-13770,Bug,Regression when Connect uses 0.10.x brokers due to recently added retry logic in KafkaBasedLog,KafkaConnect,Blocker
+ ,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+30c74ae045b044632f589f6389b5b1e9f4365323,/,/,    MINOR: Add extra notice about IQv2 compatibility (#11944),/,/
+8e1edef9bfdfb6013c473fb61dfeb23c479dfd8d,KAFKA-13761,Bug,KafkaLog4jAppender deadlocks when idempotence is enabled,log,Major
+bde8cf30ae75ae0758a554336ce71841208c050f,KAFKA-13714,Bug,Flaky test IQv2StoreIntegrationTest,streams,Blocker
+9656bbd463424d631cfa973aad43e64f91844f02,KAFKA-13759,Bug,Disable producer idempotence by default in producers instantiated by Connect,KafkaConnect,Major
+802e285e0737bca0a0c6823480ef3681b3da0edd,KAFKA-7077,Improvement,KIP-318: Make Kafka Connect Source idempotent,KafkaConnect,Major
+ba3692c110d06c68eba1cdc49223cd095f4fab42,/,/,    MINOR: Fix class comparison in `AlterConfigPolicy.RequestMetadata.equals()` (#11900),/,/
+cb0784e440319b4ccd3fb21dca9e45a5a8eb9e4b,/,/,    MINOR: Fix class comparison in `AlterConfigPolicy.RequestMetadata.equals()` (#11900),/,/
+52910e48f01ecb6f36bee4d7cab7d7588d79f57d,KAFKA-13752,Improvement,Using `equals` instead of `==` when Uuid compare in Java,clients,Minor
+8d6968e8322d74ebb0fde513113d42bef69fb72b,KAFKA-13682,Task,Implement auto preferred leader election in KRaft Controller,kraft,Major
+43bf46423245383238998031b8c5b4294335cff6,KAFKA-13497,Improvement,Debug Log RegexRouter transform,KafkaConnect,Minor
+4b08ad5705a95101c673fd2620ee5ee195d31df2,/,/,    MINOR: Fix `ConsumerConfig.ISOLATION_LEVEL_DOC` (#11915),/,/
+df963ee0a98c3107093b22c670a6bc8d8f459e05,/,/,    MINOR: Fix incorrect log for out-of-order KTable (#11905),/,/
+2d3c92a1230cf121fac32d15d7bda0b1ec5967a2,KAFKA-13750,Bug,Client Compatability KafkaTest uses invalid idempotency configs,None,Major
+fbe7fb941173c0907792a8b48e8e9122aabecbd8,KAFKA-9847,Improvement,Add config to set default store type,streams,Minor
+b68463c250ec99d86ffacdbd45e58059d0ca51e1,KAFKA-6718,New Feature,Rack Aware Stand-by Task Assignment for Kafka Streams,streams,Major
+bda5c34b030207f542c7987a5e0f9bcb23406c18,/,/,    MINOR: refactor how ConfigurationControl checks for resource existence (#11835),/,/
+648de325d08e8876724168a30dc045bcce5de4bd,KAFKA-13727,Bug,Edge case in cleaner can result in premature removal of ABORT marker,None,Major
+76d287c96771159d9b86dcf2fa193ff69198dd5b,KAFKA-13727,Bug,Edge case in cleaner can result in premature removal of ABORT marker,None,Major
+fe52a95f50b17713b80a27e5f4d33b3fb18d6101,KAFKA-13721,Bug,Left-join still emit spurious results in stream-stream joins in some cases,streams,Major
+b916cb40bd7bfe7077ce9fd1c2b4270b1b97b5ed,KAFKA-13690,Bug,Flaky test EosIntegrationTest.shouldWriteLatestOffsetsToCheckpointOnShutdown[at_least_once],streams,Major
+7f284497cb46366cc266ec6abac4661e6e3a839d,KAFKA-13438,Sub-task,Replace EasyMock and PowerMock with Mockito for WorkerTest,None,Major
+63ea5db9ec2e93ded483025649f48565f056242d,/,/,    KIP-825: Part 1  add new RocksDBTimeOrderedWindowStore (#11802),/,/
+17988f471032d9e2df56a3800a8b0ec5a4aa02af,/,/,    MINOR: fix flaky EosIntegrationTest.shouldCommitCorrectOffsetIfInputTopicIsTransactional[at_least_once] (#11878),/,/
+bc07cb00dd081d8333f08aea1e495ba406cc9842,/,/,    MINOR: unpin ducktape dependency to always use the newest version (py3 edition) (#11884),/,/
+9c7d8577134559437c67cc2d24154023993a901f,KAFKA-12648,Sub-task,Experiment with resilient isomorphic topologies,streams,Major
+c4f84c842961f076ec7962a3f89b50a8ee8cbf61,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+d2d49f6421639bb1d5c655b46d7212dff2616b96,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+020902d1649d2575ed154d675c52a23fc21d3df9,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+ddcee81043dd892776a36657db3eb1771e7bc017,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+d95647bcc890c4f7a7572102f84d1759ef53281e,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+ ,KAFKA-12339,Bug,Add retry to admin client&apos;s listOffsets,None,Blocker
+ ,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+ ,KAFKA-12339,Bug,Add retry to admin client&apos;s listOffsets,None,Blocker
+717f9e2149d6e273c6d4e5457dc6bc067691269f,/,/,    MINOR: Restructure ConsistencyVectorIntegrationTest (#11848),/,/
+7802b45cdde770f1409e6bc2a98f604b5fcdf2ee,/,/,    MINOR: Fix flaky test cases SocketServerTest.remoteCloseWithoutBufferedReceives and SocketServerTest.remoteCloseWithIncompleteBufferedReceive (#11861),/,/
+6f54faed2d0792f3a36534fd7e6d00b6603253a8,KAFKA-12648,Sub-task,Experiment with resilient isomorphic topologies,streams,Major
+7c29c5013dd16597727ea5483c89b60b2b517bde,/,/,    (docs) Add OIDC Javadocs (#11846),/,/
+f5d8fb2b0bf2049800fd7745ac0e2c7e239dce68,/,/,    (docs) Add JavaDocs for org.apache.kafka.common.security.oauthbearer.secured (#11811),/,/
+b7f289ecad40de5c7fefcde83cd3ef49dfd6abc5,KAFKA-13673,Improvement,disable idempotent producer when acks/retries/max.in.flight config conflicts,None,Major
+029a14b530dcaab980faee4fa18c925b95db3122,KAFKA-13510,Bug,KIP-769: Connect APIs to list all connector plugins and retrieve their configuration definitions,None,Major
+066cdc8c621dfc4d26e12ee539368d6c1eb2707f,KAFKA-10000,New Feature,Atomic commit of source connector records and offsets,KafkaConnect,Blocker
+62e646619b208098c07e4d044c1ed7fcd44bf6f9,KAFKA-6718,New Feature,Rack Aware Stand-by Task Assignment for Kafka Streams,streams,Major
+67e99a42361b8f0febc3e691488c668ebfe257e9,/,/,    MINOR: Ensure LocalLog.flush is thread safe to recoveryPoint changes (#11814),/,/
+f514b9e44649b56e0d436dba9f332b5e7569f93f,KAFKA-13579,Bug,Upgrade vulnerable dependencies  ,None,Major
+2dc4d5d95ee6204aa2c0597bdbb9592a3329ba9e,/,/,    MINOR: Add links to connector configs in TOC (#11794),/,/
+26f1c5f91e6d479889dfe5a897ae2de96c576ec0,/,/,    MINOR: Clarify logging behavior with errors.log.include.messages property (#11758),/,/
+4c23e47bd5b04d49e1ef55b8a33ba18e72a818e2,/,/,    MINOR: move non-management methods from TaskManager to Task Executor (#11738),/,/
+dd36331a817d5db8b595d0cec6e03d747af3b760,/,/,    MINOR: Enable kraft in ApiVersionTest (#11667),/,/
+0243ef192a5e022cf5903fd8bd905860e5dc04d9,/,/,    MINOR: Clarify producer idempotence default in upgrade docs (#11757),/,/
+99310360a589ccb28f7636b714e98e2e7c5a5110,KAFKA-12939,Sub-task,After migrating processors  search the codebase for missed migrations,None,Major
+fc20c551d6b4f5c675d9bd80876950e23d194933,/,/,    MINOR: Clearer field names for ProducerIdsRecord and related classes (#11747),/,/
+63ca77ef67ce8beadb90047103d0920660fa6e39,KAFKA-13661,Bug,KRaft uses the wrong permission for adding topic partitions,None,Major
+4da515da94623e54cab359f1b3df9dae8b4ab7a7,/,/,    MINOR: Fix storage meta properties comparison (#11546),/,/
+b294119baf951efd1e49c5e92d41ddd1485348df,KAFKA-13636,Bug,Committed offsets could be deleted during a rebalance if a group did not commit for a while,offset manager,Major
+d35283f011a797902fc9c4d896a1a6f039eb7d06,KAFKA-13646,Improvement,Implement KIP-801: KRaft authorizer,None,Major
+61b0014ec968b396af502742bacfb0675deb055d,/,/,    MINOR: Move `ext` block above `allprojects` block in `build.gradle` (#11741),/,/
+c761ee034844414016c27d4e8689cc4e6b105df2,/,/,    MINOR: reload4j build dependency fixes (#12144),/,/
+2a656aea27c7ed63acb40dae1ce710ddea50f46d,/,/,    MINOR: fix typo for QUORUM_FETCH_TIMEOUT_MS_DOC (#12132),/,/
+1d9a09c58694458dabf7e551461a4e3093783959,/,/,    Merge tag '3.2.0-rc1' into 3.2,/,/
+df507e56e2d782b347fe51537153c33b599da55f,KAFKA-13793,Improvement,Add validators for serialization and deserialization related configuration,config,Major
+e3202b99999ef4c63aab2e5ab049978704282792,/,/,    MINOR: Fix RecordContext Javadoc (#12130),/,/
+e566e53204beff5f40c06bdc5790d4f676da73f2,/,/,    MINOR: Fix link to old doc in quickstart (#12129),/,/
+3b08deaa761c2387a41610893dc8302ab1d97338,KAFKA-13785,Improvement,Support emit final result for windowed aggregation,streams,Major
+18b84d0404d891263420628e12a2ce4f2ac85806,/,/,    MINOR: Fix typos in configuration docs (#11874),/,/
+aaf56bea53b8fd05328d01185e71e6bd751fab85,/,/,    MINOR: Note that slf4j-log4j in version 1.7.35+ should be used (#12114),/,/
+a673f2124218e524335ea13337bd3b49f52c52a3,KAFKA-12380,Bug,Executor in Connect&apos;s Worker is not shut down when the worker is,KafkaConnect,Minor
+50d88ab8d838e3f5b6fb8f5d27ca80e181178cdb,KAFKA-13794,Bug,Producer batch lost silently in TransactionManager,None,Major
+e026384ffb3170a2e71053a4163db58b9bd8fba6,/,/,    HOTFIX: Only measure in nano when producer metadata refresh is required (#12102),/,/
+e51c43c049e8ef7d37ff25ed78dfe265938c086e,KAFKA-12841,Bug,NPE from the provided metadata in client callback in case of ApiException,clients,Major
+fa0324485b1e76388bb15ea98170cfb9202aab1f,KAFKA-13654,Improvement,Extend KStream process with new Processor API,None,Major
+adf5cc5371db6253e070b11dc78dedc99c8065f9,KAFKA-13769,Bug,KTable FK join can miss records if an upstream non-key-changing operation changes key serializer,streams,Major
+5991baecdc59deffbb34bbddc2ecfee4b9d29eb9,/,/,    MINOR: Make link in quickstart dynamic (#12057),/,/
+77cd8271047d5d099dde104e912161e0787a0f18,/,/,    MINOR: Move some TopicCommand and ConfigCommand integration tests to unit tests (#12024),/,/
+b87c12fc1b4e09c2175e8358c46856894c5b29f4,/,/,    [MINOR] Update upgrade documentation for 3.2 (#12055),/,/
+f49cff412d3e15c5e7427b7ec09a89b3d157b2ec,/,/,    MINOR: Remove redundant conditional judgments in Selector.clear() (#12048),/,/
+5f1e8e4d493a146321aa159a7314f21a41b8a716,/,/,    MINOR: Update LICENSE-binary (#12051),/,/
+55ff5d360381af370fe5b3a215831beac49571a4,KAFKA-13823,Sub-task,Remove &quot;max&quot; version level from finalized features,None,Major
+a6d86b9998b4cdcdda40cedc5da2f7e695e39ee1,/,/,    MINOR: Verify stopReplica if broker epoch not stale (#12040),/,/
+75b4d06043d1524f53ecd8a6c8321c5c5c135f52,KAFKA-13542,Task,Utilize the new Consumer#enforceRebalance(reason) API in Streams,streams,Blocker
+c93b717836b6d92d0f2e9fb101ea6ff3e823ffca,KAFKA-13542,Task,Utilize the new Consumer#enforceRebalance(reason) API in Streams,streams,Blocker
+4e7cc335ee007c90d8fc7b3b61f42b1de81f98af,KAFKA-13828,Bug,Ensure reasons sent by the consumer are small,None,Blocker
+b9fc8935468e3eaa0385d35e2892d9df228701ec,/,/,    MINOR: Correct Connect docs on connector/task states (#11914),/,/
+821275e6b3af146de8bab65107985c65c863f09f,KAFKA-10405,Test,Flaky Test org.apache.kafka.streams.integration.PurgeRepartitionTopicIntegrationTest.shouldRestoreState,streams,Major
+317fff9bb05fd7c7932f481fd200e56bff761459,/,/,    MINOR: Re-use counter in mocking of LogSegment.size (#12021),/,/
+1181825b79fc98f7a816616c5d1fd9037159f547,KAFKA-13761,Bug,KafkaLog4jAppender deadlocks when idempotence is enabled,log,Major
+6e9cd0c7f58a24b5ecef9746881ebcccd7633a7e,/,/,    MINOR: A few code cleanups in DynamicBrokerConfig (#12015),/,/
+1483a86591e9143f0f2ffe097e068e5a5e493092,KAFKA-13794,Bug,Producer batch lost silently in TransactionManager,None,Major
+9596c7b9cfacb6aba961a328023c6572e8800837,KAFKA-13794,Bug,Producer batch lost silently in TransactionManager,None,Major
+424fbc938153b68e35d4b82e4a0dd5049eb3f227,/,/,    MINOR: Fix DescribeLogDirs API error handling for older API versions (#12017),/,/
+ ,KAFKA-13527,Bug,Add top-level error code field to DescribeLogDirsResponse,None,Major
+7a5f0cfaefb57cefa70c81d63c60316075c6dd97,/,/,    MINOR: Fix DescribeLogDirs API error handling for older API versions (#12017),/,/
+ ,KAFKA-13527,Bug,Add top-level error code field to DescribeLogDirsResponse,None,Major
+f059c82e6eb8d92316b0ae97b8e811b3c3bf8afc,/,/,    MINOR: Fix support for custom commit ids in the build (#12014),/,/
+b964c07a68fa385b1cce715e1814477e1e26ad39,/,/,    MINOR: Upgrade build and test dependencies (#11984),/,/
+210b98ad4551ba22ae6434eb45d4a849585cea89,KAFKA-13748,Bug,Do not include file stream connectors in Connect&apos;s CLASSPATH and plugin.path by default,KafkaConnect,Major
+88e5f133b5a572ba2ee786d10e74360fd62a104c,KAFKA-13763,Improvement,Improve unit testing coverage and flexibility for IncrementalCooperativeAssignor,KafkaConnect,Minor
+e17e2045f4128e71469509659e93588c3695de72,KAFKA-13794,Bug,Producer batch lost silently in TransactionManager,None,Major
+62ea4c46a9be7388baeaef1c505d3e5798a9066f,KAFKA-13749,Bug,TopicConfigs and ErrorCode are not set in createTopics response in KRaft,kraft,Major
+6b2a0bcf8c76e6387f0f5ec13d1a7f00341ba110,KAFKA-13785,Improvement,Support emit final result for windowed aggregation,streams,Major
+90bd03a0a27b1595a035f575daeb9041b4b054b6,/,/,    fix: make sliding window works without grace period (#kafka-13739) (#11928),/,/
+3c279b63fa862671330b568f5f58df69f9352c35,/,/,    fix: make sliding window works without grace period (#kafka-13739) (#11928),/,/
+0f25205ab48d110d56f4d068daafd297fb8e5b82,KAFKA-13772,Bug,Partitions are not correctly re-partitioned when the fetcher thread pool is resized,core,Minor
+430f9c99012d1585aa544d4dadf449963296c1fd,KAFKA-13772,Bug,Partitions are not correctly re-partitioned when the fetcher thread pool is resized,core,Minor
+ce86a54bdc925ea5a62a7b0ba61fbe99300754ad,KAFKA-13783,Bug,Remove reason prefixing in JoinGroupRequest and LeaveGroupRequest,None,Blocker
+ce7788aadaf989214c70e4df7ec286ed080e8cd1,KAFKA-13783,Bug,Remove reason prefixing in JoinGroupRequest and LeaveGroupRequest,None,Blocker
+72809cce9656fa1238c4247c9edb0a1c4c74ff82,/,/,    MINOR: Fix an uncompatible bug in GetOffsetShell (#11936),/,/
+b2cb6caa1e9267c720c00fa367a277ee8509baea,/,/,    MINOR: Move `KafkaYammerMetrics` to server-common (#11970),/,/
+42c804005e196ee6218d570c4394614613fe1fb9,KAFKA-13748,Bug,Do not include file stream connectors in Connect&apos;s CLASSPATH and plugin.path by default,KafkaConnect,Major
+dd62ef2eda571576a222d757beabcd7690dd8c16,KAFKA-13748,Bug,Do not include file stream connectors in Connect&apos;s CLASSPATH and plugin.path by default,KafkaConnect,Major
+77574381b3a9d67004b8aaa711b1eabc13bda7d9,KAFKA-13660,Bug,Replace log4j with reload4j,logging,Major
+ecb0e8eece0b47a1376643a11056c77d0aa5ad6e,KAFKA-13660,Bug,Replace log4j with reload4j,logging,Major
+12734b14462dc9d2947d5a06af40b16017d74904,/,/,    Upgrade RocksDB from 6.27.3 to 6.29.4.1 (#11967),/,/
+76ca62a39673f90c7cb65d90f27f68ba035a164f,KAFKA-13775,Bug,CVE-2020-36518 - Upgrade jackson-databind to 2.12.6.1,None,Major
+f2920b2477d77fd52d3d828012c600e4c2ed20a5,KAFKA-13719,Bug,connector restart cause duplicate tasks,KafkaConnect,Critical
+3904652b3e2dd2908ee30cff228041ce80508548,/,/,    Upgrade RocksDB from 6.27.3 to 6.29.4.1 (#11967),/,/
+ecff741c6d1b382aaf1a11b7a27631a449441fb8,KAFKA-13418,Bug,Brokers disconnect intermittently with TLS1.3,clients,Minor
+ ,KAFKA-13779,Test,System test verifying key updates with TLS 1.3,None,Major
+f2aa0c439cb0045e6505d1bbdf8bbbb731a253ca,/,/,    MINOR: Disable SocketServerTest.closingChannelWithBufferedReceives and SocketServerTest.remoteCloseWithoutBufferedReceives (#11960),/,/
+3143e7f13e9a1e03e9fd35d6cc528e6ec4a3f106,KAFKA-6718,New Feature,Rack Aware Stand-by Task Assignment for Kafka Streams,streams,Major
+35ae4f248b34cc60a522bc856a42158e503d20b7,KAFKA-6718,New Feature,Rack Aware Stand-by Task Assignment for Kafka Streams,streams,Major
+f3eab7b827b96fc69b4679b0e11656e00af776b7,KAFKA-13767,Improvement,Fetch from consumers should return immediately when preferred read replica is defined by the leader,core,Minor
+7243facb8d69a7252e6b9556b5eaee13e41bab7f,/,/,    MINOR: Fix stream-join metadata (#11952),/,/
+ac11383365771895d8ca4bce8fb8f0882621a38f,KAFKA-13600,Bug,Rebalances while streams is in degraded state can cause stores to be reassigned and restore from scratch,streams,Major
+0586f544ef5a3e2ffa263babc811568ce672dfa1,KAFKA-10405,Test,Flaky Test org.apache.kafka.streams.integration.PurgeRepartitionTopicIntegrationTest.shouldRestoreState,streams,Major
+3f59718fb9c7246dadfbf70bf042b386d7e9ee4a,KAFKA-13770,Bug,Regression when Connect uses 0.10.x brokers due to recently added retry logic in KafkaBasedLog,KafkaConnect,Blocker
+ ,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+ce883892270a02a72e91afbdb1fabdd50d7da474,KAFKA-13770,Bug,Regression when Connect uses 0.10.x brokers due to recently added retry logic in KafkaBasedLog,KafkaConnect,Blocker
+ ,KAFKA-12879,Bug,Compatibility break in Admin.listOffsets(),admin,Major
+30c74ae045b044632f589f6389b5b1e9f4365323,/,/,    MINOR: Add extra notice about IQv2 compatibility (#11944),/,/
+12bb23157c5dd6e305ce93dd28efcb2ba4782d98,/,/,    MINOR: A few cleanups in BrokerToControllerChannelManager (#11937),/,/
+5d3af5cc5f1cf4112b91ca9754d3de7d6ad40630,KAFKA-13672,Bug,Race condition in DynamicBrokerConfig,None,Blocker
+e8f09007e4259d8a6adcba162b0385b66783a7f8,KAFKA-13672,Bug,Race condition in DynamicBrokerConfig,None,Blocker
+bde8cf30ae75ae0758a554336ce71841208c050f,KAFKA-13714,Bug,Flaky test IQv2StoreIntegrationTest,streams,Blocker
+322a065b9055649c713baf43f154052d45cd1588,KAFKA-13714,Bug,Flaky test IQv2StoreIntegrationTest,streams,Blocker
+3686f0069ca5ae7a5edaba9643e3552f504d0da7,/,/,    MINOR: fix flaky integrations tests by using 60s default timeout for startup (#13141),/,/
+c991a2da421bfeb6fb290d981b8f7ba0f9de64c8,KAFKA-14279,Task,Add 3.3.1 to broker/client and stream upgrade/compatibility tests,system tests,Blocker
+79c19da68d6a93a729a07dfdd37f238246653a46,KAFKA-14493,Sub-task,Zk to KRaft migration state machine in KRaft controller,None,Major
+347042ccca23ee325ee0bc66011abad31756f6a1,KAFKA-14458,Sub-task,RPC Handler to ZkBrokers from KRaft Controller,None,Major
+3b59843bed96ee0fcf8a7ac8d2fe1b11d417dd30,/,/,    MINOR Fix checkstyle failures in streams/examples module. (#13055),/,/
+e52837f6ab8730c78a7158fc71adf748964e5628,/,/,    MINOR: fix expected version in streams upgrade test (#13022),/,/

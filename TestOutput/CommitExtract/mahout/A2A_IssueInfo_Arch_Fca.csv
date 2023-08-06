@@ -1,0 +1,203 @@
+bee952edafdfb517191d3013d8d29a7d574c6a51,/,/,    mahout goes tlp;,/,/
+6ebe4f4b82e23a8544e348ba1fe75255a3f011f3,MAHOUT-190,Improvement,Make all instance fields private,None,Minor
+288156fb37e851730047230ab8a040193981b17a,MAHOUT-157,New Feature,Frequent Pattern Mining using Parallel FP-Growth,None,Major
+0b8a660387cee5bb573892efeeec2c31ff3cbfbb,MAHOUT-138,Improvement,Convert main() methods to use Commons CLI for argument processing,None,Minor
+c7ed48699d97618399044cea050ecb4405469194,MAHOUT-138,Improvement,Convert main() methods to use Commons CLI for argument processing,None,Minor
+254af094d6a7dc7fcc63a0bf4a991bd8894aa60d,/,/,    Code tweaks per style  practice discussions,/,/
+1970d8829a0290533db5d03c75c40e5c84c0d269,MAHOUT-138,Improvement,Convert main() methods to use Commons CLI for argument processing,None,Minor
+a2d1b8050942e0213828d2bc7f1e782cbe51128b,MAHOUT-138,Improvement,Convert main() methods to use Commons CLI for argument processing,None,Minor
+287b72b3d6358a24cb725627461aa06c1fa3f0ff,MAHOUT-145,New Feature,PartialData mapreduce Random Forests,Classification,Minor
+8c37a844c7dc2f67c7dc88ea42604efe324aa8be,MAHOUT-122,Task,Random Forests Reference Implementation,Classification,Major
+b11989c85e8afe871e0c2b595968f2e319f44cde,MAHOUT-138,Improvement,Convert main() methods to use Commons CLI for argument processing,None,Minor
+89607ffb61c19068b1f06ea4804ebfed835acc92,MAHOUT-178,Improvement,Rationalize &apos;utils&apos; and &apos;common&apos; stuff,None,Minor
+18d1a48178dee6d930c29e444c5352b6e9a548f2,MAHOUT-138,Improvement,Convert main() methods to use Commons CLI for argument processing,None,Minor
+da03b2302af2f51253685da4030a59f5144a2ba4,MAHOUT-174,Task,Unify Pair implementation  Random number generation,None,Minor
+9125a01281b9e90412e362da9758f6b361eabb91,MAHOUT-124,New Feature,Online Classification using HBase,Classification,Major
+d86c96740b02cb7651991984d6a3b4d80f7fbb2b,/,/,    Remove User/Item abstractions. Preference values are now floats. Lots of API changes to reflect and rationalize these changes. Replace Preference[] with PreferenceArray implementations for memory efficiency.,/,/
+0a949d84fff3d1592b27676e04ca6bb889c0920a,MAHOUT-149,Improvement,The Great User/Item Removal Phase 1: de-generify implementations,Collaborative Filtering,Major
+ ,MAHOUT-150,Improvement,The Great User/Item Removal Phase 2,Collaborative Filtering,Major
+1c1e2785caafb4c22a641ec110c63ad4c9f8fd01,/,/,    Initial cut at MySQLJDBCItemSimilarity,/,/
+9acbff2a8c8b09ca713a562a738d6849c0268abf,/,/,    Convert Fuzzy KMeans to CLI2  hook in random initialization option  refactor random stuff slightly to improve consumability,/,/
+5ba24cb62939b35f5336ad3aa24119c0a74313f2,MAHOUT-138,Improvement,Convert main() methods to use Commons CLI for argument processing,None,Minor
+3e7c67bd6121919ca4d19f746b07d6575ff413c3,MAHOUT-65,New Feature,Add Element Labels to Vectors and Matrices,Math,Major
+43b810ea022387cd97b8fc07d68bf00fadd1b08b,/,/,    git-svn-id: https://svn.apache.org/repos/asf/lucene/mahout/trunk@770768 13f79535-47bb-0310-9956-ffa450edef68,/,/
+a3228d9f4a43f7a15a68d5b96d36579fa719097f,/,/,    [maven-release-plugin] prepare release mahout-0.1,/,/
+7a786023136ab3c6443f6aca4556a71e093b5ff2,/,/,    mahout goes tlp;,/,/
+ebf9a4d9c26c182c26d5fdb3ea4b1f12ed19a7bb,MAHOUT-275,Improvement,Create a separate collections library,Math,Major
+fa9b2b1b24568176255b9406ac17ef0708d9dd42,MAHOUT-275,Improvement,Create a separate collections library,Math,Major
+251f0e920403f47e83764e6d6cb7816f91985afb,MAHOUT-237,New Feature,Map/Reduce Implementation of Document Vectorizer,None,Major
+4f91f4458bef5854c6af5a051c0ef788c0e0f774,/,/,    Sorry about the montser commit  but I was on a roll.,/,/
+ ,MAHOUT-269,Bug,Vector.maxValue() returns Double.MIN_VALUE for vectors with all negative entries.,Math,Minor
+ ,MAHOUT-268,Bug,Vector.getDistanceSquared() is incorrect for both SparseVector varieties,None,Major
+ ,MAHOUT-267,Bug,Vector.norm(x) uses incorrect formula for both x == POSITIVE_INFINITY and x == 1,Math,Minor
+ ,MAHOUT-263,Improvement,Matrix interface should extend Iterable&lt;Vector&gt; for better integration with distributed storage,Math,Major
+ ,MAHOUT-209,Improvement,Add aggregate() methods for Vector,Math,Minor
+ ,MAHOUT-265,Bug,Error with creating MVC from Lucene Index or Arff,None,Major
+ ,MAHOUT-208,Bug,Vector.getLengthSquared() is dangerously optimized,Math,Major
+ ,MAHOUT-211,Bug,DenseMatrix.getRow() and getColumn() return deep copies of the data,Math,Minor
+ea6519794d19f11cd2540b6e46f56f765cec74c8,MAHOUT-217,Improvement,Tidy up generated data after unit tests are run,None,Major
+0308bb821691c00d8cbbf4dce01e489745463a41,MAHOUT-251,Improvement,Generalize Dirichlet models and model distributions to handle n-d and sparse vectors,Clustering,Major
+434cdff2176906edf5d6bfd8c66980b423fa0c47,/,/,    All test cases extend MahoutTestCase  and related updates to use of RandomUtils to ensure in test mode that all RNGs are deterministic. Minor code style changes. Unit tests now do not fork a JVM per test.,/,/
+a51dd9e2e16a6286aa894a9f5be23f5c046b60e3,MAHOUT-229,Improvement,Clean up and templatize the primitive list containers,Math,Major
+fdd8ca2a2afc84395abaaaeeea16515b58e52f5c,MAHOUT-226,Task,Velocity-based code generation support to support more primitive type collections,Math,Major
+a435efb1a63b8530bdf120ba9965f33fda9db92f,MAHOUT-225,Improvement,Rename mahout-matrix to mahout-math,Math,Major
+bccccbcbee9a924187b8305270257bac4a1e04e9,/,/,    Reorganize CF Hadoop jobs in preparation for more. Fix up small issue in SparseVector readData(). Add skeleton of new item-based job -- in progress.,/,/
+eba097da79dfc33502becdbd84a8070666ae0bd4,MAHOUT-204,Improvement,Better integration of Mahout matrix capabilities with Colt Matrix additions,None,Major
+f49424ede69e469aed8f9822e76c22142ef73852,MAHOUT-204,Improvement,Better integration of Mahout matrix capabilities with Colt Matrix additions,None,Major
+ ,MAHOUT-165,Improvement,Using better primitives hash for sparse vector for performance gains,Math,Major
+bd5593f8d027fff0c8d0e4d879d35c9876dd649f,MAHOUT-165,Improvement,Using better primitives hash for sparse vector for performance gains,Math,Major
+7550a10b3725cf97dcfb9206499e854473520510,MAHOUT-165,Improvement,Using better primitives hash for sparse vector for performance gains,Math,Major
+410d9e199e224480e5fc46df16bf2aa3e807708e,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+581bc60406bf2e89b03eb5c925c3466b5ae8bd50,/,/,    [maven-release-plugin]  copy for tag mahout-0.4,/,/
+10d666390968cba134b31b78d6c3c99b0b6164cd,MAHOUT-521,New Feature,Add option to DictionaryVectorizer to create (tf and tfidf) vectors on-the-fly using a given dictionary ,None,Major
+48d069f4559da3870ee1e3b36df757b29b781885,MAHOUT-363,Task,Proposal for GSoC 2010 (EigenCuts clustering algorithm for Mahout),Clustering,Major
+3c9538a43c1c02567f6018cf3bafbeadb49b7b65,MAHOUT-513,Bug,ClusterEvaluator inter-cluster density returns NaN,Clustering,Major
+61ae2e77f725bbc71c2ed9899f8b91fd6f422242,/,/,    Daily checkstyle/PMD change,/,/
+1619a3f3fb5692ac36805e18a617870989cf85ce,/,/,    Replacing some unnecessarily seeded RNGs with regular ones  mostly for consistency,/,/
+c69893b5c99758e176525dc03c9ea724a397173a,/,/,    Fix breakage  test depended on old particular sequence of random numbers,/,/
+3f1450a35e058c5353004affd12f3ddd7e7327e8,/,/,    Another run at checkstyle/PMD,/,/
+c8270dc4e72930ae4f1e993fbcfe44ddaf61e3b8,MAHOUT-236,New Feature,Cluster Evaluation Tools,Clustering,Major
+6510938993147374125229bf833dc676a5aeae84,MAHOUT-294,Improvement,Uniform API behavior for Jobs,Math,Major
+ff79ff48c3a7228dc7ea89f917b2e9db87048728,/,/,    Big-bang change to move tests to JUnit 4 and standardize a bit along the way.,/,/
+c0c8d9f64563d092506407f49addff96846a04cb,/,/,    Delete some unused math code. More style stuff. Perhaps make a few tests deterministic.,/,/
+f13030431a0c1ab2a9ce434a932a96104108000e,MAHOUT-460,Improvement,Add &quot;maxPreferencesPerItemConsidered&quot; option to o.a.m.cf.taste.hadoop.similarity.item.ItemSimilarityJob,Collaborative Filtering,Major
+bd927c9fa965fcdca99cc0f525b3f3e439fbbe66,MAHOUT-228,New Feature,Need sequential logistic regression implementation using SGD techniques,Classification,Major
+4c96b79ae7196ba48c36c8ae59018f061b91e9ee,MAHOUT-228,New Feature,Need sequential logistic regression implementation using SGD techniques,Classification,Major
+024261a3f609d4d40f090369d80fd1cda3d5ef9e,/,/,    Another assault on style issues,/,/
+f4c8f73fce2f184612db3a837a180c9c2689b889,/,/,    Reverting mouse slip checkin,/,/
+91456bb2aab251b8512b41b48726fe0550d25cfa,MAHOUT-228,New Feature,Need sequential logistic regression implementation using SGD techniques,Classification,Major
+f7dd64cedc905f6941bdb3bd794140d070d6d893,MAHOUT-294,Improvement,Uniform API behavior for Jobs,Math,Major
+a14c9cb094b7b5745ecd82110fc759c6466d41c0,MAHOUT-294,Improvement,Uniform API behavior for Jobs,Math,Major
+571a6e9a0117726b5d15f83d7bcd46ff0cc580a9,/,/,    More refactoring to clean up the clustering display examples,/,/
+93a672ca0d1d7e0cb1cf53fcba9999c167830f50,MAHOUT-420,Improvement,Improving the distributed item-based recommender,Collaborative Filtering,Major
+1ec084c1bff93440ce33bd1460260b36373399a9,MAHOUT-374,New Feature,GSOC 2010 Proposal Implement Map/Reduce Enabled Neural Networks (mahout-342) ,Classification,Major
+639f2dee3e127c737f3e47c821b6238bcec9fd34,MAHOUT-418,New Feature,Computing the pairwise similarities of the rows of a matrix,Math,Major
+7455cab2a8cc433836f800c25d0bc3628f87fccd,MAHOUT-167,Improvement,Convert code to Hadoop 0.20 API,Classification,Major
+71850f26e96311afcf9d1029a62ac47d07cdf0d8,/,/,    Another pass at removing old Hadoop API,/,/
+69ee3e552f9319f5fb6a8475ab55e80534146d8e,MAHOUT-167,Improvement,Convert code to Hadoop 0.20 API,Classification,Major
+b5707dda706b8e4be4c941f4bdc9fa06e7489116,MAHOUT-167,Improvement,Convert code to Hadoop 0.20 API,Classification,Major
+de75a29fc4849dd5a700410aaa40674eaa724575,/,/,    Remove load test  hard to get it to be meaningful on Hudson,/,/
+06bc65709052fa88eebb07032cf3db0b2765f1d5,/,/,    Move the collections codegen and collections itself into their own trunk/tags/branches universes.,/,/
+3d4bfb1e08e36491cfb04a54742131709988a659,/,/,    - added -w options to DirichletDriver  CanopyDriver and MeanShiftCanopyDriver,/,/
+f73d4002aec1844622829f2c2822ea4765ec73b9,/,/,    mahout goes tlp;,/,/
+16937e1fd3cbf15109ecc68a34e36b95df0a8d94,MAHOUT-302,Task,Change tests to use temp directories instead of output  testdata,Math,Major
+2951ca4f74fcb3636baf57d5b3599f3aa1bdea61,MAHOUT-236,New Feature,Cluster Evaluation Tools,Clustering,Major
+680648282c980320eeb204db428a4b01e8cde68c,/,/,    Overhauled implementation entirely  now distributes the matrix multiply more,/,/
+1deba16f7d1309e0981b3400ad96f46d77e08dbe,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+467bf1839b82b80d017e7a1cabd642a1c2b0b778,/,/,    [maven-release-plugin]  copy for tag mahout-0.5,/,/
+4dd8881bff84519df3b90d8da3d4d53dea1f4b9b,MAHOUT-479,Improvement,Streamline classification/ clustering data structures,Clustering,Major
+f3609730fc992b310afe36f0fd08e4183bd53188,MAHOUT-683,Improvement,LDA Vectorization,Clustering,Minor
+ ,MAHOUT-682,Improvement,The LDA output does not include the topic-probability distribution per document (p(z|d)). It outputs only the topics and corresponding words.,Clustering,Major
+522ee0b5dbf30156745e9d66abb70149c4ec4cfb,MAHOUT-319,Improvement,SVD solvers should be gracefully stoppable/restartable,Math,Major
+ece4db69918406abb86c65cd422d3f9edf71be24,MAHOUT-681,Improvement,Remove AsymmetricSampledNormal  SampledNormal  L1  Normal Models and Distributions,Clustering,Minor
+933e22a2afa9bfe6a38f1f33d6adb0cee6cc38aa,MAHOUT-479,Improvement,Streamline classification/ clustering data structures,Clustering,Major
+172bb3bd8c83c45ba50a255621ddade9c8e8d1af,MAHOUT-479,Improvement,Streamline classification/ clustering data structures,Clustering,Major
+f3a9cc138cf2e4e64436d24eda06d32d335aff85,/,/,    More use of Guava  more tweaks like copyright headers,/,/
+80366ee59bc003a5cf18910340bd3d2a08d87de5,MAHOUT-661,Improvement,Finish iterator overhaul by using Google Guava,Integration,Minor
+c439f53c74d6c8589ced4c89c1a312bbf70d8d62,MAHOUT-657,New Feature,Sample code to apply SVD to the KDD data,Collaborative Filtering,Major
+35032b8b4e08e8873ac02d96cb2a63f5b19daae3,MAHOUT-510,Task,Standardize serialization mechanisms,None,Major
+3d4e6f287302a1d1e6371688829a2c007f971592,MAHOUT-369,Bug,Issues with DistributedLanczosSolver output,Math,Major
+be09d7347223baab6bc217502661e4caa69de3a4,MAHOUT-641,Bug,DistributedRowMatrix hadoop jobs ignore Configuration set via setConf(),Math,Major
+a13b4b7fae76062d7db63aebbde750fce6daed70,MAHOUT-633,Improvement,Add SequenceFileIterable; put Iterable stuff in one place,Collaborative Filtering,Minor
+f29a874f803f76c090c55db9ef02a85113773964,MAHOUT-636,Improvement,Remove CompactRunningAverage,Collaborative Filtering,Minor
+af775ba7dd35ba27f836de39a2610c1c1e82afde,MAHOUT-542,New Feature,MapReduce implementation of ALS-WR,Collaborative Filtering,Major
+466f319cead11e9733dbfd0d25a343627e102aad,MAHOUT-590,Improvement,add TSV (Tab Separate Value) input file support to SequenceFilesFromDirectory,Integration,Minor
+6aa2bdbd288919f6ac2c97feae8a066b921c0150,MAHOUT-628,New Feature,Add an option to prune away users with less than a given number of preferences to ItemSimilarityJob and RecommenderJob,Collaborative Filtering,Major
+f5bb6b7eadaf63e07a79e5c13a1cbbe59576538d,MAHOUT-616,Bug,Cannot use MahalanobisDistanceMeasure with Dirichlet clustering,Clustering,Minor
+d25dd2069df700169753952a2dec44879a5178c2,/,/,    Iterate more on KDD Cup support code now that I've tried it a bit and see it could be better,/,/
+7a9e99ec4ac53d32d598b63412ee470fc8a03c2e,/,/,    Example code to parse and run recs on Yahoo's KDD Cup data set (and some associated changes to enable the example),/,/
+3a1adb7b5b84f5ea4ce2aee7ca99e55b459266d0,/,/,    Attack on PMD / findbugs warnings,/,/
+5a5765179fb8e97990f6a5b04bc018b7a9cee389,MAHOUT-564,Bug,KMeansClusterer does not use distanceThreshold parameter in testConvergence(Iterable&lt;Cluster&gt; clusters  double distanceThreshold) method,Clustering,Major
+85ec3a32bfd7b337c8cd45aecac7494c429c462f,MAHOUT-575,Task,Remove most deprecated/unused mahout-math code,Math,Major
+7892be34c11990b514b3e24237b04b5116efc2d3,MAHOUT-572,New Feature,Non-distributed implementation of ALS-WR matrix factorization,Collaborative Filtering,Major
+bbb43bda144803b5c8a306324aaee7a1a27d7822,/,/,    Style / analysis changes  mostly correctly using the efficient nextLong() and @Override,/,/
+cf12948b2c48dab276264c3a3667bc2088bfc677,/,/,    Tiny utility changes,/,/
+bade960ad6b0b51335cab2ffef9702ef9affe46b,/,/,    Utility classes useful in periodically reloading DB data into memory  for simple recommenders,/,/
+ce337a9c20c48c52c1680a4d1074a943c57c2107,/,/,    [maven-release-plugin]  copy for tag mahout-0.4,/,/
+581bc60406bf2e89b03eb5c925c3466b5ae8bd50,/,/,    [maven-release-plugin]  copy for tag mahout-0.4,/,/
+33592c1a38c48efd2b9cbb042a31f94236e0b89b,MAHOUT-890,Bug,Performance issue in FPGrowth,None,Major
+ ,MAHOUT-920,Improvement,Remove a mapreduce job from parallel FPGrowth workflow,None,Minor
+ ,MAHOUT-921,Improvement,FPG uses a lot of boxed primitives - this patch eliminates a bunch of List&lt;Integer&gt; ,None,Minor
+ ,MAHOUT-927,Improvement,FPG saves a mapping from from feature to mining group  when this can be calculated on the fly,None,Minor
+6290deb496f0974fc9a776463b810a3bb5fd947a,MAHOUT-840,New Feature,Decision Forests should support Regression problems,Classification,Major
+d8e91f904e3306651743e1ad2a2c48e4f3745248,MAHOUT-688,Improvement,High Document Frequency pruning for seq2sparse,None,Minor
+4fbfbc694a956c6e4923af27fbd42eb26467bb9f,MAHOUT-913,Improvement,Style changes / discussion,None,Minor
+131eb4a1f8d2865e62c97779ac59dedc365d2988,MAHOUT-897,New Feature,New implementation for LDA: Collapsed Variational Bayes (0th derivative approximation)  with map-side model caching,Clustering,Major
+4fbab15638e53ce494796260f6c291bb2926ad19,MAHOUT-891,Improvement,LoadEvaluationRunner and Recommender stats,None,Minor
+08e65f66279f03caaa46f789f20d17d1db36c78f,MAHOUT-879,Task,Remove all graph algorithms with the exception of PageRank,None,Major
+8a2c0f3e24424e533b253b7110615c2ce75b043e,MAHOUT-851,Improvement,Add SGD to build-asf-email.sh example,None,Minor
+fd0d1951e1b6737f249b27070966c917ca4309c5,/,/,    Clear defunct threaded evolutionary process,/,/
+d491f69bc2a6e2d0d369d84c03b46338fe886b42,MAHOUT-859,Improvement,Move Decision Forests to classifier package,None,Minor
+e0ec7c1be9cf1141123b00841c9502e85f5ae426,/,/,    Another run at style. The feature here is clearing out some ugliness in use of reflection and newInstance(). Fixed up some copyright headers.,/,/
+52ce4129a013933836b4bc6ba1bde282810f1959,MAHOUT-859,Improvement,Move Decision Forests to classifier package,None,Minor
+6c86257f784d8e142039d5d8ff3da260c739b662,MAHOUT-857,Improvement,Rework 20 NewsGroup shell script example to include SGD Example,None,Major
+f533aefdc3562f578f16a6dd27bbe6a08a77d130,MAHOUT-857,Improvement,Rework 20 NewsGroup shell script example to include SGD Example,None,Major
+95736dde4a5285f53dcfdae41dbcb9e00996d417,MAHOUT-857,Improvement,Rework 20 NewsGroup shell script example to include SGD Example,None,Major
+4194a28a7fd44438f0277c55deff67509bb9fcc4,/,/,    Style changes (dead code  license  moving vars  privatizing  finalizing  more),/,/
+ac83cf3753a1948364de2d1639aa8aeb2c5c76dc,MAHOUT-835,Improvement,Don&apos;t compute out of bag error for Decision Forests,Classification,Major
+29a7f38810270fa45a17bdf2418c896c1594d43c,MAHOUT-798,New Feature,Add Examples for the ASF Mail Archive,None,Minor
+bd654ca4fa9311d3a4b9db83642cbb11318c7c1e,MAHOUT-818,Improvement,Canopy Emits Too Many Trivial Clusters,Clustering,Major
+149941141dcc05cd92c154139ad04c2d4529bc2a,/,/,    Style stuff,/,/
+c3496d1b4a5a3012d546e73079a07a137788a5c6,MAHOUT-773,New Feature,Implement Random Walk with Restarts,None,Major
+845cbcdd860ee1aa8817259b9b6a5415a5196275,MAHOUT-767,Improvement,Improve RowSimilarityJob performance,Collaborative Filtering,Major
+ffc7fabb57ecb08220e53ceaafc6ac8b4d665860,MAHOUT-796,Improvement,Modified power iterations in existing SSVD code,Math,Major
+b59e46855e589f31a5a6e831a90beeed34e03c89,MAHOUT-763,New Feature,Map-Side Distance Comparison,None,Minor
+69e3a649a0580f0c02536fdb9a6a79a82821475f,MAHOUT-742,New Feature,Pagerank implementation in Map/Reduce,None,Major
+a515335bbe063f612c9c09b1e0360cc5848ad396,MAHOUT-696,Improvement,Command line program for AdaptiveLogiscticRegression,Classification,Major
+b722041e31c83db3935256bec94ed4c8120e7f1a,MAHOUT-747,New Feature,Entropy implementation in Map/Reduce,Math,Major
+d0dbdfb7bb33326e6157cc69c0292a40dee1d10a,MAHOUT-734,New Feature,Command-line utils for HMM,Classification,Minor
+9101588c917614dc5ff9c589a7bb935042236d0b,MAHOUT-708,Task,Update to Hadoop 0.20.203.0,Collaborative Filtering,Major
+a8fb97ebd61ff4a67fa32e063e0779bdc2d46396,MAHOUT-736,Improvement,Save one pass through the data in ItemSimilarityJob and RecommenderJob by intelligently using counters,Collaborative Filtering,Major
+0de31cb5d92f79abdf1f82b4b0a0847b5f8e757f,MAHOUT-597,Improvement,Kernels in Mean Shift,Clustering,Minor
+4ef41c7748e23e3dfc3c90d52092b92dcb088653,/,/,    Consistently select Lucene 3.1 behavior. Make BloomTokenFilter final since Lucene requires it,/,/
+50fd693770212294b1c14eb9ec10324c7d99a303,MAHOUT-699,Improvement,Rename taste-webapp module to integration; move integration code there from examples,Collaborative Filtering,Major
+8b18401cae445111de6af7c3cd50c19d3cf12e03,/,/,    [maven-release-plugin]  copy for tag mahout-0.5,/,/
+467bf1839b82b80d017e7a1cabd642a1c2b0b778,/,/,    [maven-release-plugin]  copy for tag mahout-0.5,/,/
+35fa73f05fa65905e4b9e26f8fdbea51d2e945f4,MAHOUT-768,Improvement,Duplicated DoubleFunction in mahout and mahout-collections (mahout.math package).,Math,Minor
+39b8c2d006a2df6c1e919d883a4d220148908cec,MAHOUT-1010,Task,Remove the old naive bayes implementation (org.apache.mahout.classifier.bayes) from the codebase,Classification,Major
+0a80b544349320c89b495fc2f78588297359d929,MAHOUT-1012,Task,Remove watchmaker from codebase,None,Minor
+b06077a7217548e3c3a7c5748dc03bf9e52015b6,MAHOUT-1010,Task,Remove the old naive bayes implementation (org.apache.mahout.classifier.bayes) from the codebase,Classification,Major
+1b7d47acd8392ca5ac632a8ff6d331ac27301160,MAHOUT-988,Sub-task,Convert K-means buildClusters to use new ClusterIterator,Clustering,Major
+ ,MAHOUT-989,Sub-task,Convert fuzzy-K-means buildClusters to use new ClusterIterator,Clustering,Major
+fd355fe7b249b552160eba3ce72aee3a09ee08e8,MAHOUT-984,Sub-task,Refactor Fuzzy K Means Clustering into a separate post process with outlier pruning,Clustering,Major
+ba81a9322c8006217df919e89e212e7723cbb9a2,MAHOUT-981,Sub-task,Refactor KMeans Clustering into a separate post process with outlier pruning,Clustering,Major
+ ,MAHOUT-983,Sub-task,Refactor Dirichlet Clustering into a separate post process with outlier pruning,Clustering,Major
+3eba6f26486dcb9e2ec03702b60a38de399e738f,MAHOUT-933,Improvement,Implement mapreduce version of ClusterIterator,Clustering,Major
+63f3118f8aa2e21bb030d209e706f03046ed9a1e,/,/,    a few more cleanups to make Jenkins happier,/,/
+8d102ea2cea0e43c91e867362ec842fbc286fb26,/,/,    Minor namespace reorganization of ClusterIterator and related classes. All tests run,/,/
+175701cb6261ef2f5eab9878d92ba10baec32496,MAHOUT-817,New Feature,Add PCA options to SSVD code,None,Major
+a28cf1dc0d4191ccd4b4798a2cdb27348a3d96dd,MAHOUT-933,Improvement,Implement mapreduce version of ClusterIterator,Clustering,Major
+2153bb95b1dcd1ada274c99bdf1a5a049f7aa3f8,MAHOUT-933,Improvement,Implement mapreduce version of ClusterIterator,Clustering,Major
+b35e54fb71bfcbd5563d06eea5145fab5ec9ad1d,MAHOUT-1214,Improvement,Improve the accuracy of the Spectral KMeans Method,Clustering,Major
+bbf536942a6044048b6f909dfe346268f5370df9,MAHOUT-1103,Bug,clusterpp is not writing directories for all clusters,Clustering,Major
+a8d3dbd11adf6bb1255cc8c949ef004a78bddee2,MAHOUT-1202,Improvement,Speed up Vector operations,Math,Major
+50349a6053bdc71cae1ab6ccab3ec281b22456dc,/,/,    one more fix,/,/
+f9baeba30c31ad6f9d2f9b7172589d7c45998c25,/,/,    small fixes and javadoc,/,/
+700224140ffb5cda4517f2d32261612b3d29bace,MAHOUT-1401,Bug,Resurrect Frequent Pattern mining,None,Critical
+ed2321df8ada6e1c1d219186da99301073846810,MAHOUT-1289,Improvement,Move downsampling code into RowSimilarityJob,Math,Major
+e90d90134e9b2d32ab61a6ab31a05f84d0b816d7,MAHOUT-1289,Improvement,Move downsampling code into RowSimilarityJob,Math,Major
+b60c9090cf6823b04b8608b4b21b003e3d5367d6,MAHOUT-1296,Improvement,Remove deprecated algorithms,None,Major
+bc8eafdd518b121fc79377b67537f7b0b08d38c7,MAHOUT-1281,Improvement,Wean distributed SSVD from apache-math dependency.,None,Trivial
+b988c493b562ceeaa5f82027f108c67d06c1fc19,MAHOUT-1655,Improvement,Refactor module dependencies,mrlegacy,Critical
+0844e69d6cbdc7bbfd54ba01dc9c829764eaeb6d,MAHOUT-1576,Bug,Do a quick style pass to knock down some accumulated warnings,None,Major
+88bddb08ab014df9d1d14b75fc96f6a8380b4545,/,/,    Removing references to deprecated canopy clustering tests and examples.,/,/
+5b0b559cb9985a10f3a206f4dc557d817bd0d085,MAHOUT-1498,Bug,DistributedCache.setCacheFiles in DictionaryVectorizer overwrites jars pushed using oozie,None,Major
+524fc62e706bc71230860ff52688b2a15f01949b,MAHOUT-1533,Task,Remove Frequent Pattern Mining,None,Major
+9a5bab5ef9328ec5e527f8dcfe08439d11971058,MAHOUT-1519,Improvement,Remove StandardThetaTrainer,Classification,Major
+1a42d852daa75cf9b6a78013544647be2ec2a8e3,MAHOUT-1511,Task,Renaming core to mrlegacy,None,Major
+7afd9f4cf51c6ebde450d57ad756d7fd7e13b326,MAHOUT-1427,Bug,Convert old .mapred API to new .mapreduce,Integration,Minor
+0dc7b5cdebe24b9dd309d0c08a2049245d30d0a3,/,/,    Refactoring. Moved Hadoop related code out of CanopyClusterer.,/,/
+52432040ec77bb22374268f9b3e33f72cf360121,/,/,    [maven-release-plugin]  copy for tag mahout-0.9,/,/
+545648f6a8f69139757f0328e924c6b16a839441,/,/,    NO-JIRA Trevors updates,/,/
+7b0b27b903c415e13ad7de7ea379553cddcafa79,/,/,    Fixed Spelling.,/,/
+49ad8cb457079301a87b02e71ba1273c62585bed,MAHOUT-2033,Bug,MR can&apos;t find OpenIntHash and other things like that,None,Major
+410ed16af1fc587999868dd4990cebfa7d14633e,/,/,    NO-JIRA Clean up MR refactor,/,/
+e0573de33887e9d0909f1a5c34313680916b5aee,MAHOUT-2042,Bug,Delete directories no longer in use,None,Major
+ ,MAHOUT-2045,Bug,delete refactor-readme.md,None,Major
+02f75f997bbc01083a345287072e821bfe4f1558,MAHOUT-2034,Improvement,Add &quot;examples&quot; module,None,Major
+5a1d85f59f3503102298b410a0b81c2acb458a76,/,/,    NO-JIRA fix markdown and update intro to recommenders page,/,/
+eff8b1fd6a5c871331345d40bc1c9061b7ea2a40,MAHOUT-2039,Bug,Add maven-enforcer plugin,None,Major
+ ,MAHOUT-2047,Improvement,Version bump JDK to 1.8,None,Major
+edb29e5f2e7b4acf288cf106b7a58d0b3b80c965,/,/,    NO-JIRA fix typos closes #356,/,/
+5eda9e1fdd390a94fe7740ff196b5de155d9e3d6,/,/,    end of day 6-2-2018,/,/
+33d1a6e699c688191fe079bfa427f89dbbe532e4,/,/,    end of day,/,/

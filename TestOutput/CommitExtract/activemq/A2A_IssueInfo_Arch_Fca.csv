@@ -1,0 +1,533 @@
+1f5f98d1892a0f56882eb5c2678db676bc7c2fd2,/,/,    ActiveMQ moving to TLP,/,/
+da7478d9d534eefd979404417d0dbb9e7fd84a36,/,/,    Eliminated AbstractConnection by inlining it into TransportConnection.  The synchronization complexity between the two was making my head spin.  Now that they are consolidated  we can try to simply them a little more.,/,/
+ae687a1182452d6939b48ae34e79b16745ddd9cd,/,/,    moved StoreByteArray stream methods to util,/,/
+330e73140a1188424d64f031434c825fa8f2ea64,/,/,    moved utility methods for reading byte streams to utils package from Kaha,/,/
+49e10d36fc5a3317ee6a3e7a42787c913da5234d,/,/,    added support for a simple message based command agent so that you can send management commands to the broker over JMS,/,/
+d9ad0437ffb16da04cc215e852816cfdf511f9da,/,/,    added the dependency on the command line console,/,/
+cb9e5013764d56b202e6bfe0e4e42dcfc9d52a30,/,/,    Tagging 4.0.2 release,/,/
+a191115187a07585d30222bddf4a14c86fa24dea,/,/,    Merged in revision 467478 from 4.0 branch,/,/
+b2efb2458b726e3854bb5c67a941a89186d641c9,/,/,    removing activecluster from assembly since it's moved modules,/,/
+e73f5aabf61468d431d4ac18c1840c90d85820ff,/,/,    minor refactor to make it easier for derivations to expose exceptions on initialization,/,/
+6429b1d01b370dbf8485b010ca4a49b25505b8b2,/,/,    porting change 467015 from trunk,/,/
+29459ed41474b5447214696146508c7f75244293,/,/,    Add missing xbean annotation on ActiveMQManagedConnectionFactory,/,/
+c0454ac32545dc637cb63f70065aecd3cb52871d,/,/,    Merged in revision 465987 from trunk,/,/
+c3f41326ef161ac322444558c750decaf296db78,/,/,    Adding some java keystore and truststore files so that we can configure an ssl connector out of the box.,/,/
+ef8320b2e96fff367380ed20f0a616cd809b58b4,/,/,    Added headers to the jaas config files,/,/
+4e98feca9209559ccb8105b9bdc4dd2878a972b4,/,/,    Updated to resolve over -eager clearing of old data files,/,/
+0cc41ce86ce31e64b7729fff90276dd27f24a89d,/,/,    using properties for repo locations so that they can be overriden on the command line,/,/
+8cf0a390c5e2fc99f30f63f52d9be4e93f8b05da,/,/,    port of licence fixes from 4.0,/,/
+55867a9a3a93ed6ae000d124b7c8412f0bf88d9d,/,/,    Added missing licence files and copyright headers,/,/
+d287bb1d498bb2e8aabc350bffd3f6d9fd5b78b3,AMQ-980
+7da6f3a9745f147a89c2f00b963fe212e656f90a,/,/,    Backported changes for r465258 to add explicit licenses to javascript & css files,/,/
+f2dbca05d7f32401446888b794504cce69a5bfac,/,/,    Use the jetty6 plugin in the web demo.,/,/
+51135a727ae439104ec69a3b3de5ad062cfd68d4,AMQ-983,Bug, Inactivity Monitor causes a InterruptedException in broker when connection is disconnected,None,Major
+7416155e42d81d71c6c72566c997eda0e3108785,/,/,    Test case to see how long it takes to run out memory for a Queue with no subscribers,/,/
+9ca56a0049e2009f1725aaf0e7afdf6e4d21d6ee,AMQ-976,Improvement,Abstract the Transport and TransportListener Interfaces so that the move around Objects instead of Command and Response objects.,None,Major
+19812e7e290d09e56b888ae60f4eff6873134256,/,/,    Fixed failing test cases: - a few problems had been there for a while,/,/
+a20de10f4aa89969900417cb4fc671f81aad8dd1,/,/,    Subscribers shout have unique ObjectNames - so use the ConsumerId,/,/
+6e8044251947ebb95ad504646144c85228d9711b,AMQ-876,Bug,Kaha DB cannot locate queue data files,Message Store,Major
+17946e532570199820b019b947c9110cc28155a0,AMQ-876,Bug,Kaha DB cannot locate queue data files,Message Store,Major
+fa4279c43341154ba1bf632190291df0e1f6e0e1,AMQ-953,Bug,ActiveMQ standalone sever does not start in Windows,Broker,Major
+8f0490178bf96f8ed921f8ea09b2fcdfbe0021d4,/,/,    these two modules moved outside of the activemq module into a top level sandbox module.,/,/
+e8bae06604e3d1dee6007b9a23b5476fcdcde5d0,AMQ-936,Bug,Expired Messages being delivered,None,Major
+039c2310c41349aa7ef82364c6f2621dde50d133,AMQ-948,Bug,Bug in 4.0 branch where the AMQ classpath is incorrectly determined.,Broker,Major
+3c441d03aed96f092ec686e2666f2d264d0af51e,/,/,    Added test case for JmsLogAppender,/,/
+ ,AMQ-935,New Feature,Port the JmsLogAppender API from ActiveMQ 3.2.4 to ActiveMQ 4.1,None,Major
+766bf5021551ed4e7f66b4e95e494b9dc26a6136,AMQ-945,Bug,jaas and jdbm twice on project.xml,None,Minor
+77f1ed2207804238cd01e0b47dc1e11b42d7a5e6,/,/,    Set the eol style on the generated marshallers,/,/
+5de5a0647916578f49f582c39380d093bcbba13f,/,/,    RC 4 of the 4.0.2 release,/,/
+2b11b8c36d29bc5f444b081fdf54e3974c5468a1,AMQ-851,Improvement,move the XPath filtering components out of the activemq-core module into activemq-optional to reduce the dependencies of the activemq-core POM to only minimal stuff,None,Minor
+cd4e31881a7fce0a216a3fdae0ed53d4cd97b226,/,/,    backporting license addition,/,/
+d90b781b00b52cd7e840fb8dd596044998281dc0,/,/,    Applied patch from Bruce Snyder to port AMQ 3.x LogAppender utility to AMQ 4.x.,/,/
+ ,AMQ-935,New Feature,Port the JmsLogAppender API from ActiveMQ 3.2.4 to ActiveMQ 4.1,None,Major
+83c8c1bd5962ca9b5b561ce0215730d5e33cabf8,/,/,    Removed the following module since they are being independently versioned in a different source tree.,/,/
+3df5af05ecd7bbcb60cc2ea55d8cdd7113fb485b,/,/,    Removed parent pom since it was adding the rsync repo to the distribution list  and reformated,/,/
+9388d7c96c2cdd8fcba77394dc0570b3a6e4a470,/,/,    Backporting license headers  license files and notice file changes from http://svn.apache.org/viewvc?view=rev&rev=449694 http://svn.apache.org/viewvc?view=rev&rev=449726,/,/
+ef5fd15b8470c91470c63917b570c4ef6ae7671e,AMQ-938,New Feature,Support extending the activemq classpath with the ACTIVEMQ_CLASSPATH variable and overriding of the SUNJMX,Broker,Major
+c6475bf5dcf5342ec7ad54838de9ad08f5253bfd,AMQ-938,New Feature,Support extending the activemq classpath with the ACTIVEMQ_CLASSPATH variable and overriding of the SUNJMX,Broker,Major
+2e7aa919e8a2fef10ec47cf606adbb3a5fd44d1f,/,/,    Fixed up the poms to include the maven plugins,/,/
+0d3ff77e264ed9b9a45c879e337807d01036c2fb,AMQ-933,Bug,ssl:// protocol broken on the client side: get a java.net.SocketException: Unconnected sockets not implemented,Transport,Major
+1a88ac6ac383eccf8a026368c894f8f21646cd3c,AMQ-912,Improvement,ActiveMQ support for SSL authentication and authorization,Transport,Major
+c9b89056f771d351f0a3a4cfbe8976011290e63f,AMQ-922,Improvement,Add the ability to remove transport connectors dynamically,None,Major
+220ad62a5057fec622eb073fb97e0c2a76b2e586,AMQ-915,Bug,Failover transport does not replay all the transaction operations on failover.,None,Major
+295850da01be27b59f90674527af28c5a6dbbab1,/,/,    Rolling back commit 443271 since it is breaking the build,/,/
+beb72f6403711596a287b0756c9a76a10d80c6d3,AMQ-918,Bug,Inactivity Monitor timeout does not on disconnected client does not cause blocked dispatch to client to fail.,None,Major
+4eef609524f4831de2d294a50f534d112875c556,AMQ-845,Bug,Sending messages to a topic with an inactive durable subscription will hang producers,Broker,Blocker
+72cc9e9aa0e7d943ecf651ced3db1596c1fbdf7a,/,/,    Better NOITCE file.,/,/
+125fbfed53eab5cb7b60a632a40af54a7467bd33,/,/,    Better NOTICE file,/,/
+13277055fb57b9312831598777d52b01bd6d8348,/,/,    Doing repository re-organization discussed here:,/,/
+a02fd05f57fafe250c49b032039add7673d9c11d,AMQ-886,Bug,Timing bug could cause duplicate client id exception in network code.,None,Major
+5b530832748c8ffe49e40cde535e8faf9a2b2380,AMQ-911,Bug,Transient connection failure with Failover transport can cause InvalidClientIDException,None,Major
+861a08912b7ee525496978c0119cd0f84bc7bed6,AMQ-913,Bug,Wireformat negociation needs to negociate to to the minimum version supported by both sides.,Transport,Major
+2bdded210e2ceb0da5c16fd5cbc99fa35ed9f972,/,/,    Applied new source header boiler plate per http://www.apache.org/legal/src-headers.html,/,/
+de62efbc78bb235e0fe436ebbb2a14d4dd190ddd,/,/,    Applied new source header boiler plate per http://www.apache.org/legal/src-headers.html,/,/
+802296d5d90da499ed7d442f62f0c4d2da9c12bc,/,/,    Fix broken test case: ConfigTest,/,/
+cde8b34227709d91a6d0006ce70e56b555d2a46c,AMQ-891,Bug,InterruptedException handling tweaks,Broker,Minor
+88acb0ede755808266ee9748fcf3d04ee6415e3d,AMQ-907,Improvement,Make the ActiveIO dependency and optional dependency.,Broker,Major
+bfaff9b37c815c32ec18911bf038d03724c753d4,AMQ-877,Improvement,Patch: refactoring to allow alternative (using different storage interface) Destinations implementations.,Broker,Major
+e8c8abcd5bd1d8fe28a6afd84e818ba0bda062c1,AMQ-889,Bug,Broker &apos;loses&apos; messages and leaks resources when handling duplicate connections,Broker,Major
+6a12e9cdebfcfbd4bc3aab767e56e4bc9cc60cb4,AMQ-887,New Feature,Allow temp destination message bridging to be disable across demand based bridges.,None,Major
+7b8c1b10be1fc1dfe3a8e924f1cd8b9fca0f4bfc,AMQ-888,Bug,Licence headers missing from several source files.,None,Major
+07c1e65c225415b09302a058dcade55c3adcab36,AMQ-888,Bug,Licence headers missing from several source files.,None,Major
+935859a63d5fefbd7e49daa111c232c9980eb1aa,AMQ-888,Bug,Licence headers missing from several source files.,None,Major
+7d4cddd4524508f760177901904e881b07b52177,/,/,    Stomp should now not pass through headers with null values in the AMQ message (correlation-id  reply-to  etc),/,/
+e427cc99a68852a1b24fb05c16363369336aeaa6,AMQ-792,Improvement,allow asynchronous dispatch to consumers in the broker for non-durable topics,Broker,Major
+492952b4bb25451fd85b294e504dd1d85212af3b,/,/,    made it easier to specify the port to use for running jetty,/,/
+1c0e39f7c942cae683225138e85eae7e34cb3a4b,/,/,    Adding a transport context variable.. see: http://www.nabble.com/Where-to-add-new-SSL-BrokerService-functionality-tf2088221.html,/,/
+c26d8a9d0d58beac27d2e7033a6c65ef452e8a98,/,/,    Added openwire v2 marshallers,/,/
+1ff804699006659048cf78625e1780a9f898bda1,/,/,    Adding initial marshaller for v2,/,/
+dd55c215aaaf1e3a55b6576e5dc720c714045446,/,/,    moved the tooling to a directory matching the pom,/,/
+cab35d7553a284a52dca655241196c6f84c4e5df,/,/,    added a better exception message if we get a binding exception,/,/
+b7e322d832b13b66463e2682fbab7f5be9dfcd0c,/,/,    4.0.2 release,/,/
+cc5f94d4ed4898bce6020c1ed7b53705f04da337,/,/,    Adding derby NOTICEs to our notices,/,/
+353ba22e31af4b3d7e46811b9a3143a9efb12dde,/,/,    Adding derby NOTICEs to our notices,/,/
+902a8ea864d4a8bda65d7ea76f12411f3104202d,/,/,    Allow the local destination name to be set -,/,/
+75e0c114786dfdcb2d017827d02ae5391e107c49,/,/,    Consolidated license info,/,/
+f998bc73981050d1cc69364df5e337ad7dd91bb8,/,/,    Lets not move up to 2.6 yet,/,/
+cc004efa3e65f75af5c24224258179de25764ab4,/,/,    This allow spring 2.0 to work with xbean-2.5,/,/
+4c1cc956cc72b600a5fc4764b343d23183e45bd0,/,/,    This allow spring 2.0 to work with xbean-2.5,/,/
+b7446c45b1dfae15c4ae3522e91971726aa84efb,/,/,    This allow spring 2.0 to work with xbean-2.5.,/,/
+cb77064b88d3ce3558ac6bd91ee7cc8b5abd3a7c,AMQ-839,Bug,Opening a connection after closing a connectoin with the same clientid sometimes fails,Broker,Major
+d44765df12783f96c663192d5803ff03ade0b1ce,/,/,    Fixing eol-style,/,/
+c36ea1aa9b11ab1cf8763ba6744b79df1cae6460,AMQ-849,Bug,Not all properties of the Message are copied during a call to Message.copy(Message),Broker,Major
+a23f329fb78613bc67d7c6660c818e3018e3ec6c,/,/,    did a few svn propset svn:eol-styl native,/,/
+57b494132549ebef6877bf47da3c3d5d776286e0,/,/,    Applied new source header boiler plate per http://www.apache.org/legal/src-headers.html,/,/
+7eff7f008cca5796d86c362ffb1cd53d0fb61e78,AMQ-848,Improvement,Consolidate all LICENSE files to a single file.,None,Major
+4ae7e1cedefd7effd84d78a2ae978a6b8d97db3d,/,/,    added test cases for composite destinations (which are kinds of virtual destinations) - see http://incubator.apache.org/activemq/virtual-destinations.html,/,/
+da67a386967bd03bd21af1e3dff3b89f72fc8cc9,/,/,    refactored the previous implementation of virtual topics to use DestinationInterceptors instead so that there is no cost to virtual topics unless you are using them. Also added support for CompositeQueue/CompositeTopics too,/,/
+f2a80acac5f0f8b38e7abbc7f197c44d8fd34f7c,/,/,    added NOT NULL contraint for ID column in ACTIVEMQ_LOCK table,/,/
+3372966d2001eff5cf846fa8062d2456956a1b97,AMQ-847,Bug,Memory Leaks,Broker,Major
+8176dca67fe93c4b0fcb09fa333270a249ae18d7,AMQ-846,Improvement,Change the maven pom group id to org.apache.activemq and the version to be 4.1-incubator-SNAPSHOT,None,Major
+643a1cad0b33e6b1a2fc5ba2cf4ccd158146647a,/,/,    Prepared 4.0.2 release here,/,/
+95fec7d0db7381fa0f06b736f746d5d0e13267f5,AMQ-824
+b5f54e500b638804e174fa2cfc873507042eb36a,AMQ-788,Improvement,MapMessage should support largs String values,None,Major
+90d0c4b38b715e5fca91126e8fc673e7e9c67bf2,AMQ-831,New Feature,provide a JDBC based exclusive lock so that if just using the JDBCPersistenceAdapter (without the journal) we can have failover of brokers,Broker,Major
+a0e3831ab8228c273a570bf2af14f9ab90ec88dd,/,/,    Applying patch to activemq-cpp client for AMQ 818,/,/
+ac6e8fc52245e65f12b4e8cfc26563ede76200d8,/,/,    backporting the r424237 patch from Matthew Xie. For background see: http://www.nabble.com/Message-recieved-but-can%27t-removed-from-the-amq-server-problem-tf1964193.html#a5429771,/,/
+1bcd631bf913558d6213ce1e66946444a88a7a16,/,/,    increase the max amount of time we wait for reconnect since the default network reconnect delay could be up to 5 seconds,/,/
+c59908b429998374b15822cb32e6cd3809a77f9c,AMQ-789,Bug,WireFormatNegotiator could hang a client or server connection if the peer disconnects before sending the wire format info,None,Major
+2fc3e8ee7f672cf75e8a028bd72780d923287ab4,/,/,    Adding some network reconnect tests.  These are used to validate the our network connections get re-established after a broker restart.,/,/
+a2630500ba05f19ecefc227e6470105c90deb148,/,/,    Adding some network reconnect tests.  These are used to validate the our network connections get re-established after a broker restart.,/,/
+f2d90cd97cc457d63b066ed53a231ccccd5ab449,AMQ-701,Improvement,Unix scripts in distro should have mode 755,Broker,Major
+f3e1ea888820fed858c1682282fe68a49b048fe2,AMQ-719,Bug,OpenWire ActiveMQTextMessage not sharable between JMS client and dotNet client,JMS client,Major
+f2f428101bd3f35c30c2433f38eeaeba6dc4bf64,/,/,    Better debug logging of stack traces,/,/
+91e6c64f1e9f70ac4033d800110e1ddd6e53ae42,AMQ-773,Bug,Build ships without incompatitable commons-logging and log4j,Broker,Major
+afba7231914cd9cac32be3e7a870f0871d73c57f,AMQ-814,Task,Remove the Maven 1 build files since maven 2 is now the prefered way to build ActiveMQ,None,Major
+ca60ebbf73e551f8d4d45405593609f9934f5ce0,AMQ-608,Improvement,Change logging level of some DemandForwardingBridge log messages.,Broker,Major
+6722a0327ea311f7710273371056f66a6bc8e204,/,/,    failover not needed anymore.,/,/
+79527ce44bb1248e8352bc09179f960d0cb87047,/,/,    don't need to use failover anymore.,/,/
+ad2546fa8d3982f6671e8022e05e3fb21f32227c,/,/,    Fixed Network Connection failure recovery.,/,/
+ ,AMQ-802,Bug,Broker Network connections over SSH tunnels do not get established.,Broker,Major
+ ,AMQ-805,Improvement,Restart network bridges if they ever get stopped,None,Major
+f4de30d2d979dff284844c325fa612e10a5d79dc,/,/,    Fixed Network Connection failure recovery.,/,/
+ ,AMQ-802,Bug,Broker Network connections over SSH tunnels do not get established.,Broker,Major
+ ,AMQ-805,Improvement,Restart network bridges if they ever get stopped,None,Major
+75fde7165e9541da926ecc9763c905b9783f4c82,AMQ-810,Bug,When using Topics with consumers with selectors over a network of brokers  only the first consumer gets messages delivered.,None,Major
+8432e7a790523d8a37e612e37398562d4f36369a,AMQ-810,Bug,When using Topics with consumers with selectors over a network of brokers  only the first consumer gets messages delivered.,None,Major
+1250a6d023092e739700ca8260ecfdc3c6a20cc6,/,/,    Added reconnect logic.,/,/
+ ,AMQ-803,New Feature,The static discovery agent should include reconnect logic when it is notified that one of it&apos;s sevices failed.,None,Major
+4b3b6186a46dd69ff85e4d5fa99d4b11128a5782,/,/,    Added reconnect logic.,/,/
+ ,AMQ-803,New Feature,The static discovery agent should include reconnect logic when it is notified that one of it&apos;s sevices failed.,None,Major
+d6c75ee25ec7c9cf3955d1610208d70445fdf619,/,/,    No need to be so verbose when disposing a service.  If we need to find out why something is going wrong we can enable debug logging.,/,/
+fd6ae201af136082394dc55332ae874d6132374e,/,/,    No need to be so verbose when disposing a service.  If we need to find out why something is going wrong we can enable debug logging.,/,/
+40958b688fc5fc028fcbd4eef9aa0301d9374414,/,/,    Impoved error logging and throw an exception if the transport is being used when it has been disconnected.,/,/
+c69b9becc78ba1a859566e2762fe87aa0528740d,/,/,    Impoved error logging and throw an exception if the transport is being used when it has been disconnected.,/,/
+87666fa1948d22b89fd8cf547d5b4ef86044b9d7,AMQ-809,Improvement,Make it easier to just enable the command trancing of the TransportLogger.,None,Major
+43cba856e40ed9ccfb2c0dc988a825ec6b242b2f,AMQ-809,Improvement,Make it easier to just enable the command trancing of the TransportLogger.,None,Major
+cf5ee40d6397ad5e6106e74612620c797561cbd9,AMQ-808,Bug,The DestinationMap removeAll is removing too many nodes out of the map.,Broker,Major
+eafa72d7cb39e80b5ef3e5cebb5b031da9aded84,AMQ-808,Bug,The DestinationMap removeAll is removing too many nodes out of the map.,Broker,Major
+ff30070bea5bdeb12deaf3d59cf639087033c8b8,AMQ-806,New Feature,Support a ?trace=true option on the http client side transport,Transport,Minor
+ ,AMQ-807,Bug,JMS connections using the http:// protocol may not detect connections failures correctly.,None,Major
+23e80fdbc14cac424109cef69ef823c444157a9c,AMQ-806,New Feature,Support a ?trace=true option on the http client side transport,Transport,Minor
+ ,AMQ-807,Bug,JMS connections using the http:// protocol may not detect connections failures correctly.,None,Major
+2fe01ce355cfa527f24e9c787b9a2fcc8697713b,/,/,    Make the tests more reliable by explicity creating and shutting down the brokers.  Also wait for the brokers to be setup before running the tests,/,/
+fe3785c9baf467c8b74f17e20769cfef30795f41,/,/,    Make the tests more reliable by explicity creating and shutting down the brokers.  Also wait for the brokers to be setup before running the tests,/,/
+288f8767c3c22b5c30ade4f844d23f498824c415,AMQ-801,Bug,activemq-jaas is not in the release distro,None,Major
+a677c21240ac154a9fdd4cb1aca9001a5cb16472,/,/,    moved the tests across from the assembly module that can be run inside the activemq-core module,/,/
+d320676ae1d031f61f7ee099b5aedf844a874296,AMQ-800,New Feature,Expand the examples shipped with ActiveMQ to also be able to test request reply message exchanges.,None,Trivial
+251b25de928a7cc7dc93629a658bc380e47c4e17,AMQ-800,New Feature,Expand the examples shipped with ActiveMQ to also be able to test request reply message exchanges.,None,Trivial
+16d403f5354ff7428e54f78ea0fbd360b54259b1,AMQ-799,Bug,Handle async ConnectionError that may happen between brokers using a network bridge.,Broker,Major
+27b58d6f61379bc69d0f984cf01d5ce886aea1f4,AMQ-799,Bug,Handle async ConnectionError that may happen between brokers using a network bridge.,Broker,Major
+5b26cd83c91b34e9eeddd50b21d8803e89eb5918,/,/,    Preserve the original META-INF data of each bundled jar.  Only inlucde "jar" artifacts,/,/
+1b0a344feac82eccd163a21633146db2a794021c,/,/,    Fix 1.5 dependency,/,/
+104305bac0b2f7f5d75631938eb0287f9f96bbde,/,/,    Fix 1.5 dependency,/,/
+371e892e2c733e06718a5c10d1c26a9b4abfeb0f,/,/,    Removed java 1.5 dependency,/,/
+4493e89ed71634a5e115b7097d477fa46c475eac,/,/,    Echo the linker command being used and add a dependency on the activemq libary to the test executables.,/,/
+80c76a8882dbc4d0fdc037bc3ef375ffebca5c3d,AMQ-793,Bug,problem with auto-ack and messages being redelivered in Stomp clients,None,Major
+a4070b6315982322c5961771f50928960f38af20,AMQ-793,Bug,problem with auto-ack and messages being redelivered in Stomp clients,None,Major
+1f6aa57df62ae72d75a44ad61d859d499f6ca196,/,/,    Removing old stomp implementation since the new one seems to be working better and has been verified to have fixed some bugs.,/,/
+c250fa5f6c7d43dbfe04773fc03d5018b8b857fd,AMQ-792,Improvement,allow asynchronous dispatch to consumers in the broker for non-durable topics,Broker,Major
+0d7597d4c93ff75846c8dce68905bb219c85bd56,/,/,    Fixed version number in builds,/,/
+0d9c764bf5411770a4b63a3c29f9788f457f403f,/,/,    NPE checking,/,/
+81b9a08d55564795cfc05fc8b7ce2cc74e3623fe,AMQ-665,Bug,Error while using management interface on messages with binary data.,None,Minor
+530884a2d99104a864531b27132e2a0ae825f996,/,/,    Better protocol error handling.,/,/
+ ,AMQ-649,Bug,Error frames are not pushed out immediately,Transport,Major
+4213222264ca82d9f6e71711c3c1b14426daaf54,AMQ-724,Bug,Stomp client is not removed from the broker on client disconnect,Transport,Major
+dc98d967b59397aa1e977e4006c78fda4297a367,/,/,    Added a new/highly refactored version of the STOMP protocol implementation.,/,/
+6a9d59658be8f383bd8a0614517882fb61a0405a,/,/,    Added apache copyright headers,/,/
+5143a2ad0556adf20357191631e0c20699c5a7d4,AMQ-786,Improvement,Eliminated an unneed Thread.currentThread().interrupt() in ResponseCorrelator.java,Broker,Minor
+9c135637f90e0a6dc78201db9e79fb370e334344,/,/,    Eliminated an unneed Thread.currentThread().interrupt();,/,/
+1ca2d6f57a3135cb154dca1c513c07114697c687,AMQ-781,Improvement,Suppress the MulticastDiscoveryAgent error message during shutdown regarding: failed to process packet:,None,Minor
+f5ffb392437d7f04979f4ed2ce75a907380b6eb9,AMQ-781,Improvement,Suppress the MulticastDiscoveryAgent error message during shutdown regarding: failed to process packet:,None,Minor
+f7f2a22712103aaf601b05de0bc160eb2534d2c0,AMQ-780,Improvement,Suppress logging client exceptions on the broker when the broker is shutting down.,Broker,Minor
+a6f93512b426f121f67c5758cd99a454f777fe22,/,/,    - Modify delimiters for cpu sampler data,/,/
+586d9ef320194e6a2e886a1776f745bbcee62e03,/,/,    applied 415827 416324 416640 416641,/,/
+b3748b4fd8acd595c6bd59c68e82b0b3bf863ca3,AMQ-759,Improvement,Removed the gbean modules as they have moved to the Geronimo project source tree,Geronimo Integration,Trivial
+944f9d60d71f3a7c1531b7a0d41ff9e17dc344bf,AMQ-754,New Feature,Be nice to have a DestinationView.browse that could accept a message selector string,Broker,Major
+c971df54774e26d56fdbaecf1651b4dfd9d681f0,AMQ-710,Bug,Can&apos;t compile the AMQ4.0 release source cann&apos;t find the reliant package.,None,Major
+dee685f73c67a87b731135146daddedb9cc47cee,AMQ-725,Bug,Messages Sent by JMS that contain header properties cause error when STOMP client registers a Subscriber,Transport,Blocker
+784d69ff806ff30d205322d537507d63eb3e028e,AMQ-749,Bug,ConnectionDotFileInterceptor not thread safe.,None,Critical
+75270affd846c5ef6ae0c0a81ba4af1d5cd71ac8,AMQ-749,Bug,ConnectionDotFileInterceptor not thread safe.,None,Critical
+e437092be2bcb2baf80c01054fa5358a371eaff5,AMQ-752,Bug,fix the uberjar to tidy up the notice/license files to make it absolutely clear whats going on,None,Blocker
+6355225b133d3eded826077b6071931615612e24,/,/,    Set the clientID of the connection for durable subscribers.,/,/
+1e47d1ba034d7910a62346e1858a0e6339a2fbb4,AMQ-608,Improvement,Change logging level of some DemandForwardingBridge log messages.,Broker,Major
+789d2da20c0d304a68017c389d99f5ff191ac50c,AMQ-702,Improvement,`bstat --help` should display something useful,None,Major
+396c25dc16c45e16c14cb509cf57fd2b90a2e1a8,/,/,    - Backported some fix to the command line scripts.,/,/
+ ,AMQ-702,Improvement,`bstat --help` should display something useful,None,Major
+e264e6f9d1e8e5bcea7d1e30df8793731c608451,AMQ-682,Improvement,several functions spelled wrong  impairs code readability,None,Trivial
+142f2ea67068d8e45ff6b1fa041565801b5bc5e8,AMQ-734,Bug,Network connections do not reconnect when using static: with failover=true,Connector,Critical
+7dafbb582fbba60c1797cf15af298c7ab6cc8913,AMQ-734,Bug,Network connections do not reconnect when using static: with failover=true,Connector,Critical
+568bdc4bd47113100a702bd0b013cd06bb1f3819,AMQ-714,Bug,Wildcard support for policy entries produces unexpected results,Broker,Major
+fcc9ae70b15082ee67815a58feb3b1c36db454cf,/,/,    disabled another multicast test to get the m2 gbuild working,/,/
+4624a3a3cb4ee00f601dc8c7129aa84bf9a369b2,/,/,    backported a trivial snippet macro change as a test for the activemq-backport.sh script,/,/
+54515313716733ae95d17044d2cc26456c3bcc6b,/,/,    updated snippet macro,/,/
+10302dd92e1820d794ad9a364739c815f3127637,AMQ-732,Bug,Infinite recovery loop.,Broker,Major
+a1ba6e0325f5af18f958104b603779635e9064ed,/,/,    Updates:,/,/
+3756ee2d3a1409e3b2345a2c603377893da77576,AMQ-731,Bug,Redeliveries don&apos;t work with resource adapter and Jencks,Connector,Major
+2054392af21a510ad0eda28f361e511432b16b88,/,/,    systest  to check for memory leak,/,/
+73c4d4d7c2a13e3d154c103f4bebc2f4d6dcd539,AMQ-741,Improvement,Remove the onSendPrepareMessageBody property on the ActiveMQ Connection and ConnectionFactory,None,Major
+bf310ef475f17b25cb0a191f634b1a3b32ac1177,/,/,    added a helper class to make writing new broker plugins easier (its just one POJO) together with adding a simple LoggingBrokerPlugin,/,/
+51daeeeeda587e7aaf0d7d15e99aa2f724dd0b5f,/,/,    Added a custom IOException so that apps interested in the Locked journal condition can more easily trap the error.,/,/
+dfd0436c1f3f9490de961f3ad2638ad9a6c1b0a9,AMQ-741,Improvement,Remove the onSendPrepareMessageBody property on the ActiveMQ Connection and ConnectionFactory,None,Major
+c085df44f8b0663a7ee59737e31b2cc49e533882,/,/,    updated javadoc comments,/,/
+6cb4828e51d6ea1829171b3539cc1ece615bc492,AMQ-740,Bug,java.lang.UnsupportedOperationException thrown when creating a consumer,None,Major
+a0397468fae85c038e8a20458501e71c9439c59b,/,/,    minor refactor to reuse the lazy construction logic of the DataSource across the journaled and pure JDBC persistence adapter,/,/
+2b0279a9af096cd2d2e655ce95308a3212f0dbdc,AMQ-724,Bug,Stomp client is not removed from the broker on client disconnect,Transport,Major
+17741208271801d810afb865736ff4907768f474,AMQ-711,Bug,commit() should not be called while in auto-commit mode,Broker,Major
+b8facc37b4ecb58fed3da08b5ba507222d977b68,/,/,    Module for performance testing. Temporarily used Tools from activemq-optional.,/,/
+da46dac7bce6d813a1570670b798bd8d66291fdd,/,/,    Merged in change 405806 from trunk,/,/
+8c9bd680da5d74d51c0fc66df3dcc04c56162b79,/,/,    Creating the 4.0 branch,/,/
+a522d3abf739bcf2f544f378b3f6e4d440ef0eaa,/,/,    Implementing a Rapid store which is a mix of the QuickJournal and the Kaha store.,/,/
+7947655e5f7b2142de869b95a02900826298855a,/,/,    Honnor the QoS requested by the client when replicating to the slave broker.,/,/
+a08344e04d8e10763d355974f53c7a0a12a2b8e7,AMQ-1618,Bug,Improper handling of container restrictions in creation of sessions,Geronimo Integration,Major
+fe8bc3317c5362c1634253f13659f6a500cbf796,/,/,    The VM transport could deadlock between the iterate() method and the oneway() method when the async message buffer used by the transport fills up.  Change the synchronization logic to make use the a Valve to avoid needing to lock mutexes for so long.,/,/
+2cb21198141c8980a0d84b697809053a6ad36f35,AMQ-1467,Bug,Deadlock between FilePendingMessageCursor and MemoryUsage,Broker,Critical
+f06585433b693562f83cbad3a4cb286dc1ea9718,AMQ-1302,Sub-task,Backport for the 4.1 branch,Broker,Minor
+3d024d6b4f6f72b5d731d3242699d5325160ca43,/,/,    Make amq 5.x compatible again with 4.x clients,/,/
+16556f17aaf2b98e7d364627cefae35d91e26671,/,/,    clientMaster should default to true,/,/
+5f968392593ca773a949c1bbdf1537cb0a3af5c0,/,/,    Moved the camel-activemq module into the activemq-core module to break the circular dependency between the activemq and camel projects.,/,/
+0d0dd4587dea3e49d5976ddecf34c81c256e5ea2,/,/,    use potentially shorter container name for the topic subscriber references,/,/
+197845c0466575c9018bfac1b86e4d5c8b4d38f2,/,/,    Adding missing files that did not get commited in last patch applicaiton.,/,/
+d97054b1c236b152cf3503b2e0eb61b9dd6b3a72,AMQ-1365,Bug,Username and password field got swapped when calling PooledConnection.createConnection,JMS client,Major
+960f4a7706ca4fdae9a51df5578089e8cba0f891,AMQ-1365,Bug,Username and password field got swapped when calling PooledConnection.createConnection,JMS client,Major
+6d8e2c5b3a4054f537308a5be9eac9254a57a17a,/,/,    UpdateManager changed to account for Store and Temp data usage as well as memory usage,/,/
+625cd7cdb6e503eceb70cb4f8266775c36aa448a,/,/,    UpdateManager changed to account for Store and Temp data usage as well as memory usage,/,/
+74a7a8bbfc8012bf0842b1eec891a8545f9944cb,/,/,    More checkstyle fixes,/,/
+230a86c4897e10fbc5e7384b064cc526395d47e5,/,/,    Fixing a bunch of checkstyle violations,/,/
+35ba427ec963c8b29401599e67c4042894a8ae69,AMQ-920,Improvement,Two TCP connection requirement for bidirectional message flow ...,Connector,Major
+3b73e602335bfa26dfe164ceb10f300f10e1134b,AMQ-1348,Bug,StoreTest.testLock() fails due to java.io.IOException: The process cannot access the file because another process has locked a portion of the file on Windows,Message Store,Major
+97a591f08f01666f4e9e3fa132d74ff86abe2faa,AMQ-1341,Improvement,Improve the InvalidClientIDException message so that we know where the previous connection was established from. ,Broker,Major
+8f6fac7f1b8d90c2b979a989a667823df2afafd5,AMQ-1339,Improvement,Give the connection dispatcher threads names that are easy to associate with the peer.,None,Major
+9b5acf4fa166467b5846a810aca4ad0c976ccaf5,AMQ-1320,Bug,Advisory Consumer could be not closed down properly,Broker,Minor
+993f78caac9dfb63ab2e89e1eab51ad9195eb243,/,/,    persist in-progress XA transactions - in order to speed up recovery,/,/
+2438ada6ade5b314016255b32fcb27f8004afbc4,/,/,    Split out Transaction class from AMQTrandactionStore -,/,/
+7029d9b058282cd114afcf52fede7b7dd168f434,AMQ-1306,Bug,Remove reference to LogicBlaze from ActiveMQ --version command ,None,Major
+bb4a890b7a80c42709ee86983a972437cc7574d4,AMQ-1306,Bug,Remove reference to LogicBlaze from ActiveMQ --version command ,None,Major
+dd1d6601492e3d16a22e7de3d3762f0663dc83e3,/,/,    Added dup detection capability,/,/
+08b638da13f8efafd53bbd6c2570663ead88373e,AMQ-1302,Sub-task,Backport for the 4.1 branch,Broker,Minor
+56be6b93d3ef52270e5ea4e889dc506188f430d5,/,/,    make sure we properly close down the advisory consumer; great catch by Manuel!,/,/
+eb9f1d02c727c7ce5cb5980a7370ab591b82c37a,AMQ-1300,Sub-task,Patch for the 4.1 branch,Broker,Minor
+ec6e6a55a7477dc67d7dc4cd42f9caa64f8de654,AMQ-1299,New Feature,Display the establised Neteowork Connector Bridges via JMX,None,Major
+0ef421d14ab9b43dbcfc8d10588d55b33ca4b038,/,/,    - Change the perfharness-activemq.sh to refer to 5.0-SNAPSHOT,/,/
+a9223e42ebc04d420b2e62e9e57450408ee9f513,AMQ-1167,Bug,The example does not work under JVM 1.4,None,Minor
+78761dde4e1f462c08cb228e71b4854624796eb7,/,/,    added xsddoc report,/,/
+6fcaaaed925448d7df49e874a9daa89fd93e3443,AMQ-1274,Bug,Service Wrapper Installer does not work when ActiveMQ is installed on path that contains a spaces,None,Major
+8f764144143ab687c5958d930ff14e9e89574a93,AMQ-1274,Bug,Service Wrapper Installer does not work when ActiveMQ is installed on path that contains a spaces,None,Major
+e5a41a148acdaa3fdc535667ed88b25b18e56997,/,/,    Backported spring configuration fix to 4.1.,/,/
+ ,AMQ-1276,Bug,need the spring.schemas file backporting to 4.1 to use the new 4.1.2 generated schema,Broker,Major
+4474eb8a1b3e376af5ad14a5a69e7bcc97480f23,AMQ-1014,Bug,Invalid Schema URL for example config file,Test Cases,Major
+4161819944641cebd15b015c3a06aaa55aded4a8,AMQ-1014,Bug,Invalid Schema URL for example config file,Test Cases,Major
+8f8ff58f8ce0b3b117ac9dbf68aac1811b36e605,/,/,    Updated the pom version from 4.2-SNAPSHOT to 5.0-SNAPSHOT,/,/
+dc8cd476694af283e8fd0e80234b2c324cac4f22,/,/,    Updated the branch to use xbean-3.0 and also ported the spring test,/,/
+415f35b2081321db85bcc9f2d382c74887b9aa06,/,/,    fix for https://issues.apache.org/activemq/secure/CommentAssignIssue!default.jspa?action=5&id=25384,/,/
+7fe3d964feb0eb7b30598fb00b6d9d857de5acdb,AMQ-1266,Bug,Topics allways created from the activemq-web module,None,Major
+87f75b2de77aa57c4e708cee181725ade8227ca4,AMQ-1241,Improvement,Make WebConsole run as a standalone WAR,None,Major
+6641ef3ae7e76d672700f6fc7e862b3fa8e12713,/,/,    Added support for microsofts JDBC driver,/,/
+148a2a0437c22c57e1c4074b0ebcebb6b39d8424,AMQ-1235,Bug,Scheduler.cancel uses incorrect argument to shutdown threads,None,Critical
+9f7fff73652871d2db2f3c263177a11f0315e6d0,AMQ-1235,Bug,Scheduler.cancel uses incorrect argument to shutdown threads,None,Critical
+fb72e6cc7281aab7c54a3e143249671020d712a8,AMQ-1236,Bug,Failing to acquire exclusive lock - MySQL and other strange errors,Message Store,Critical
+2b0bd44cbbd5b917098c05d114c258238374e63c,/,/,    Updated javadoc groups,/,/
+16f7f2f9a242b33e16204e9782bbe0dc2794e2ee,/,/,    Fix compile problem by adding log4j to list of dependencies,/,/
+e6d20f3932b556377218ac2e353a2cc99d26d1ea,AMQ-1075,New Feature,support for BlobMessage interface to support in-band and out-of-band file transfer,Broker,Major
+5dde5562a9115dae3700255f9a8f4c021bca7ebf,/,/,    Use a latch so that the getBrokerName() call is moreforgiving of connection establishment timing issues.,/,/
+98376dd3be560278aaa3af502bac89bc45ff28c2,AMQ-1218,Bug,activemq-ra pom.xml&apos;s xbean plugin missing version,None,Minor
+538b23bdeb938eaa3a31c09e3f88c778f3512807,AMQ-1218,Bug,activemq-ra pom.xml&apos;s xbean plugin missing version,None,Minor
+d301cea84c9c34d7b5769d5d6ff29e9dec33fc10,/,/,    Make the test more forgiving of thread schedualing variations,/,/
+64669eda8b6483c97163fdbbdb48f6ff0461bfb3,/,/,    Make the test more forgiving of thread schedualing variations,/,/
+4443d32e5d48bc8dbc4c1763697b9f96dd6c5200,/,/,    tidied up the logging to reduce clutter & make it easier for users to see the URLs they can click on,/,/
+04c5a67344d0e8c7dab5c3ad95c44f279fe7ffc0,AMQ-992,Bug,MySQL doesn&apos;t honor lock in JDBC Master Slave configuration?,None,Major
+ae73f860b99f30256a3f2b30d4e5bfdb0beec74e,AMQ-920,Improvement,Two TCP connection requirement for bidirectional message flow ...,Connector,Major
+4741136695f6871fa035c44c65a59e0d1ffe829f,/,/,    add method to retrieve the URI used by the local VMTransport,/,/
+cb3becf3c4db10c952d14fda83de55bb30cac878,/,/,    avoid NPE I was getting in the web console,/,/
+5ef2a30e91353d1064f67c609ca820d54dc144b8,/,/,    Removed incubating disclaimer,/,/
+e39a679d2ff30935261307f0baccb0daf7ae0a8d,/,/,    fix broken test case,/,/
+cb9118e80ad729ce1e635cdd33172d4770eb9867,/,/,    Puting the test-jar in a test scope,/,/
+ebfe94e07771af083c583147671d6eb3e57a404a,/,/,    Organized imports,/,/
+0ffac9b22bf4e856191b36d4b5d29b8145614ce9,/,/,    Set the eol-style to native,/,/
+1a3f54c93f54f946342cc307848bb29722bfe8ae,/,/,    Expose the wire format protocol to the ActiveMQConnection and TransportConnection objects,/,/
+ec14f6569d7c9b0dcffbb799a7fa19aafa25a210,/,/,    Added a new windowSize field to the ProducerInfo command and added a new ProducerAck command.  These will be needed to implement better producer flow control,/,/
+dfdbfd0c1cb949b75275a6b3f718bdce27dd833f,AMQ-1189,Bug,java.lang.ClassCastException: org.apache.activemq.ActiveMQConnectionConsumer  when trying to publish to a topic,None,Blocker
+f7db42a8353b95279bedab6b3b9ba12f0569b24a,AMQ-1189,Bug,java.lang.ClassCastException: org.apache.activemq.ActiveMQConnectionConsumer  when trying to publish to a topic,None,Blocker
+0b9c3da7a4bf4da32b1fe4eb6775e3631fbaf510,AMQ-1189,Bug,java.lang.ClassCastException: org.apache.activemq.ActiveMQConnectionConsumer  when trying to publish to a topic,None,Blocker
+05de2b1f475ec37820ed7064119655b0f5c248f9,/,/,    Merged rev 515282 from 4.1 branch which add enhanced stomp tracing support,/,/
+2f1e430c26094e33573f20d761576d1316533767,/,/,    Better Stomp protocol trace logging support.  When the ?transport.trace=true,/,/
+985b4ce0df17acf06c8046b6e2ecb80f88c31713,/,/,    Make AMQPersistenceAdaptor the default persistence engine for ActiveMQ 5.0,/,/
+759fd2829ce147105c45962cb9d9d56bf5ff51c8,/,/,    Deleted store implementations rapid and quick  as they are replaced by the AMQStore implementation,/,/
+84eb9f8b6975ccdf1fe7aa7c666fcc59ceb91ac7,/,/,    performance tuning,/,/
+4089d75fb74d7dbbb49434063a2e1be558442a7f,/,/,    fix for failing test,/,/
+49abc1b954e754e804f2366713ae995f3346c01b,/,/,    Disabled a couple more tests that'll get fixed in trunk,/,/
+167f99a3a1f17a83aec2ff4e31a5a096bcb72909,AMQ-1121,Bug,Kaha DB hangs on restart,Message Store,Blocker
+8780dba3f4fff19ee86e36957092e01777930316,/,/,    Disabled some maven reports to avoid CI servers running out of memory,/,/
+ad8c06116b3555404d935113be78ce108e02df23,/,/,    Disabled some reports to avoid heap exhaustion on the CI boxes,/,/
+b53e51061c67b8bc2549691e40767c428f13fff8,/,/,    Disabled another test from the 4.1 branch which will be fixed in trunk,/,/
+eb19487b669838127429e5e1e0c50fe1391b20af,/,/,    If thread context class loader is null use the class loader of the FactoryFinder class,/,/
+b47be19b5fb3b4828795b1041b23f85dc236a4e1,/,/,    Disabled a couple more tests that'll get fixed in trunk,/,/
+44bafc3e0340c60d78d533959aebc79e409f3ff1,/,/,    added a little helper method to make it easy to wait on a broker being shut down in Java code,/,/
+db811a5016f453c911bb2ec3be6e7c3cb3e5c855,/,/,    removed incubator from version numbers and removed the incubating disclaimers,/,/
+9ba5e1921cba0888218948b4f3eca9297c1d0bd2,/,/,    tidy up the setting of the default policy,/,/
+179cfd833d7a2b394de18fb893e0c12c5cfefbdd,/,/,    Disabled tests with timing issues in them for 4.1 branch; they will get fixed in trunk,/,/
+274f677ecb8de58404d85a79b8e7c3812fa9572d,AMQ-1165,Bug,RegionBroker resets JMS Timestamp,None,Major
+429c24b146f5a900a707f9557078ef326e1f50be,AMQ-1165,Bug,RegionBroker resets JMS Timestamp,None,Major
+611ecd2a0126ffc2e450eb6b28e94ea1bbfe98fd,/,/,    removed dead file,/,/
+df4309b45db630a669694e4237a4a3fd7d2322dd,AMQ-1099,Improvement,HttpClientTransport does not allow configuring http proxy host/port,Transport,Minor
+63b2d6837d7e29250b537b892c95610a0756fa9c,AMQ-1099,Improvement,HttpClientTransport does not allow configuring http proxy host/port,Transport,Minor
+669415cfa209d0b304379aa5e1b614b486955312,AMQ-1128,Bug,create=false for vm://localhost causes Exception,None,Major
+c3fd0a65b1fd1b056c4a91fad4d59e1df48e745a,AMQ-1128,Bug,create=false for vm://localhost causes Exception,None,Major
+810a54fea89c18919a82835b538700154e439ba2,AMQ-1119,Bug,Deadlock in MutexTransport on shutdown with high volume of messages,Transport,Major
+05a8cba7d06d4c2c0843238edae54af0b483b52a,AMQ-1075,New Feature,support for BlobMessage interface to support in-band and out-of-band file transfer,Broker,Major
+26198c209486e8ad1956c1a8b0a38d1633e360f3,AMQ-1165,Bug,RegionBroker resets JMS Timestamp,None,Major
+e04bd6f0e12496b861faad85a9e0e4de990948a0,/,/,     r238@34:  chirino | 2007-02-23 14:48:37 -0500,/,/
+f3b154992184daf3160d943bd10a21c391493b0a,/,/,     r234@34:  chirino | 2007-02-23 14:47:41 -0500,/,/
+8cf4795b94da83e09b94612c654315956c862677,AMQ-1075,New Feature,support for BlobMessage interface to support in-band and out-of-band file transfer,Broker,Major
+f7e9206ae55068b9c6cc5928741f849f3df19fbf,/,/,    Add a default policy entry  now that FixedSizeSubsctionRecoveryPolicy is no longer set by default on a Topic.,/,/
+f92e5b587a71ddebbbc1213ab487df0e6316e25c,/,/,    repeater test,/,/
+b006e61e4f515c304aca5deaf4d2180f83adc864,/,/,    Handle duplicate destinations & concurrency issues better,/,/
+7b317ba7adca4499c7813a760a4a4eb92cf66899,/,/,    Log the error that caused the rollback,/,/
+5b7d073b4ef2bd5303f0bffc818387df185b230e,/,/,    Protect against npe,/,/
+a32448486756bc4f71646eff9ddc4dcee8d6fc6d,/,/,    amq store - just like the quick store (cut n' paste) - difference is optimizations for recoverying in flight messages,/,/
+6e7e3abf5da3f59b5a365f71a3c92516db4844c6,/,/,    fix some problems in Quick Journal - now message containers are using Kaha maps instead of lists,/,/
+93c67fe701cd4fb7f3ad88e87c707dd81ba10d88,/,/,    Addition of Indexes based on BTree and Hashing,/,/
+a01a002069de21b7899f11af33fcd05cc1c4b0f8,/,/,    Addition of Indexes based on BTree and Hashing,/,/
+80aba76121355cb88e5bddabcd0be6153a177469,/,/,    ActiveMQ moving to TLP,/,/
+be35271fdc0f73e0fc53f62fbc31bee311b96f04,AMQ-1140,Bug,Compression not working ,Broker,Major
+89d39bbf271eefd25d02be5d1d4785d74a9b4ee9,AMQ-1140,Bug,Compression not working ,Broker,Major
+b54ff7acff55ec6ec3bceaad29d00944b5d42d48,/,/,    Updated support for configurable Cursor types from the Destination Policy Map,/,/
+0c0be94a312fd432f3076fbe8ab91a2080e65043,/,/,    Updated support for configurable Cursor types from the Destination Policy Map,/,/
+f0d9464da03efd554371bac2c9c7d528ea616a8f,/,/,    remove the caching (as was causing memory leaks) in the ListContainer,/,/
+0aac7f5d5c4ecf014a2d944663d71f707f5c132d,AMQ-1134,Bug,stomp connections in the broker don&apos;t get cleared up if the socket dies,Broker,Major
+f19a3a66d62acd7765c744b02e82c4ecebf1ea78,/,/,    Tidied up the async dispatch option,/,/
+e30a9dddde94245184c891b5febf08eba6610eef,/,/,    Added a JPA based ReferenceStoreAdapter implementation,/,/
+75b1c94ddcb535779340538945d9b0032a84d151,/,/,    Fixed a ton of Quick store bugs that were found when running the QuickStoreLoadTester.,/,/
+481fc1ee3a408117526a90922d9b839a363a2c24,/,/,    - Big refactor of the QuickJournal:,/,/
+b1c94aa00b883f505018928dd4bcb50b45948692,/,/,    Provide a more robust implementation  and one that deletes messages after they have been consumed,/,/
+2550bc44b7718a7bfdb8844d3e928a58368a271d,AMQ-1107,Bug,Upgrade to xbean 2.8 to fix invalid generated schemas,None,Major
+9a14a4bbf87a3f8c3d26523260e17c3f13447462,AMQ-1107,Bug,Upgrade to xbean 2.8 to fix invalid generated schemas,None,Major
+2b903d446ad57e0ab84cee7556a9a68542d72d29,AMQ-1106,Bug,PooledBrokerFactoryBean incorrectly compares broker config resources,Broker,Major
+213ffce94def0a858a4513f31058cf8b0374537f,AMQ-1106,Bug,PooledBrokerFactoryBean incorrectly compares broker config resources,Broker,Major
+958c41a12b64d9107f4514092c61cb31ed4013eb,/,/,    stop destinations when stoping a region,/,/
+08a32a93b9e168a8cd912cd1aaa1474b9adde49f,/,/,    Remove system.out call,/,/
+0a361e504ac78d7b79ae9232844e59be787ce09c,/,/,    getting rid of the 'Embedded error: The attribute Extension-Name may not occur more than once in the same section',/,/
+fc9ebeb00552019dc5dc928982ad1aa4f1c178d7,/,/,    Changed CI notification,/,/
+415d46cf466067411d3a52a1ca8206fb456470ed,/,/,    log which Persistence Adaptor we are using,/,/
+5bb32abe03bfe22a4179cae02b023afc5fcdc75e,AMQ-1078,Bug,Messages consumed with the Resource Adapter are intermittently not delivered,Connector,Major
+4597dddf79cf250c5b29e2d59cb4f7457bc62ea1,/,/,    Setting the Store based cursor as the default for Durable Subscribers,/,/
+5c587a2f1319474aed07671faa5801cfc271edbb,/,/,    Ensure store is properly deleted  even if not initialized,/,/
+9eb343b322a25c0e1acf337d99e26b956901f4df,/,/,    Back ported the Atomikos test case,/,/
+3bf0245e763d74b5489ba0f872b09303fef8c7d7,/,/,    implementation of store based cursors for Queues and Durable Subscribers ,/,/
+ ,AMQ-845,Bug,Sending messages to a topic with an inactive durable subscription will hang producers,Broker,Blocker
+ ,AMQ-1062,Bug,Closing consumer does not free server memory  server heap overflows,Broker,Critical
+ ,AMQ-1061,Bug,Memory usage jumps &gt; 100% with durable subscription and stays there,None,Critical
+ ,AMQ-493,Improvement,Improve queue and durable subscription recovery performance.,Broker,Major
+ ,AMQ-914,Bug,OutOfMemoryError,None,Major
+e00678027f52d17cc2670e5a965f52a39049d631,/,/,    support for different message storage cursor types for Queue destination policies,/,/
+e78a6f7ee952ebd32f03f22eb8109c712860b7bb,/,/,    added yield back into dispatch() - but with a counter - so not so much of a performance hog,/,/
+2eba7ef00af114e53745917f2bd5802c0480823f,AMQ-1029,Bug,TransportConnector get duplicated when used with JMX,Broker,Minor
+878b9645ce9b0538816c0dca715843c87496f4ec,/,/,    Updated Rapid Persistence Adaptor to do batching for cursors,/,/
+f4a7b26f2826a26fb6db20f6c7e1bd4b41fb89ec,AMQ-1042
+ea66d50338aa912063e815e32f988509e1c4ba5d,/,/,    Output the # of producers and consumers running in perf test,/,/
+2e44c7e98c0339f7a140f936ab2f699e0432559a,AMQ-959,Bug,Wrong message removed from store when using composite destinations,Broker,Major
+5367f1ecb078074ac02e673a8a911d8aed6ed3ec,/,/,    fixed some timing issues using the Kaha Persistence Adaptor,/,/
+ea3456e791d047e551aaa30f1b5995c0b845b29b,AMQ-1006,Bug,RoundRobinDispatchPolicy divides uneven,Broker,Minor
+b02ca01826b297f833258968aefe004938bdd40e,AMQ-1006,Bug,RoundRobinDispatchPolicy divides uneven,Broker,Minor
+45b71de844bb59891edfebaa39192b8c5e8994cb,AMQ-967,Bug,setting maximumRedeliveries to -1 is equivalent to maximumRedeliveries=0  but doc says otherwise,Connector,Major
+e0fdce4f01acb4e7e669bb7a228d25f9cf59a8de,/,/,    Ehanced these performance tests so that the producers are running in their own threads.,/,/
+e8e8b43b76acb0f6bd7992834b452e5493b44b51,AMQ-1057,Bug,consumer queue is empty when running requester,None,Minor
+629bc81fb2ab21f8ee4bd879b53e3dda0e459226,/,/,    Adding persitent cursor support for Queues,/,/
+849d2f330ea978f959b6632523db10126457fb6f,/,/,    The async writer is now working and enabled by default.,/,/
+f08fccc5cbc440f6ecacfc39117421bf8fb700c1,AMQ-1050,Bug,browse -QTopic=* does not seem to return anything...,Broker,Major
+a58d36b9b3665b3493fd252e28996c849174fd95,AMQ-1056,Improvement,Expire messages at the Broker,Broker,Major
+415b561cf26fea311870d352c14f236c21fe44ea,AMQ-1036,Bug,web-console broken (queue browsing).,None,Major
+fc6ab9c6877c83d5dbcf95c5da4cf04e50f389bb,/,/,    change Queue message store in Kaha store adaptor to use memory efficent list instead,/,/
+9260e941f951462c1234795f7e7a75650b7fb871,/,/,    use a temporary queue so replies can be sent to the client when they send to admin topics like ActiveMQ.Agent,/,/
+af416908d42ceb0f334e816d2c20d4d2f6f025f1,/,/,    Added source assemblys,/,/
+ba476b36f05a9f2fdd7fe39c513d2ddbe43967a5,/,/,    Setting some svn eol-styles and improving source distro assembly,/,/
+6b29b8b3ddceae67ece519579da672e15f580c7b,/,/,    Setting some svn eol-styles,/,/
+0101b8879ce30e3007ba8b86b2e52bbd514ec4ad,AMQ-2415,Improvement,Move the activemq-jpa-store module into the sandbox until it&apos;s ready for prime time.,None,Major
+b97dbff52ac698284cb1a232b8a94b711717522c,AMQ-1763,Bug,Acknowledgment of Messages consumed from VirtualTopic consumer queues fails,Broker,Major
+d2dbe18cfbb36b6df142bb94c0c80396571084fc,AMQ-1928,New Feature,Limit the maximum number of connections to a Broker,None,Major
+d20da4460d914ff771a2de1e2e76a2182088c512,/,/,    temporary fix for durable consumer test,/,/
+36eaff08aefe22ebee8db212ea6ff001f9c6dd93,AMQ-1928,New Feature,Limit the maximum number of connections to a Broker,None,Major
+a49ba6c040f3ac07694cf7d8eb54a5c914c28494,AMQ-2224,Improvement,Enable Tracing of Messages in a network of brokers,None,Minor
+d185430ffeadeea3a188019184e5c80b3b2a8bf4,AMQ-2086,Bug,Duplex network connector policies are not honrred while consuming,Broker,Major
+b514d3fb4b71621ea0cbc180ba0e64534d0d4621,AMQ-1324,Improvement,Allow to view connections and consumers in the WebConsole,Broker,Major
+675afd696210db795532a09747244c56e2f0909f,/,/,    holder test to verify steady enqueue rate of store,/,/
+3b08860f10a12b8753e24756cf66f4a8d66b270e,AMQ-2087,Bug,Redelivery after rollback does not seem to work well ,None,Major
+f62737be7caa75e179dee1f6b081632668dd06af,/,/,    Moving stuff around so that activemq-core can depend on kahadb instead of kahadb depending on activemq-core.  This step allows kahadb to be used as the default,/,/
+63e3f41af28db87f80bc68823d8a9b2e469ab408,AMQ-1842,Bug,HashIndex leaks file handles when destination is removed,Message Store,Critical
+301203e6254aae3f792ddd4bc0ffea904fab61f5,AMQ-2030,Bug,Topics Delivering Duplicate Messages when have cyclic network of brokers w/multicast discovery,Broker,Major
+d7f34d9a6f544549cbfa3b86fc9400a2f6d18223,AMQ-2020,Bug,Messages are arriving out of sequence with large message volumes,Broker,Major
+456a2ba5cf570b4b6d61893c54bbb1b58b677405,/,/,    Moving the kahadb work from the sandbox into trunk now that 5.2 has been released.,/,/
+7bd2cbc9af33c4a60035d27cac5f451a4b8ee109,/,/,    copy for tag activemq-5.2.0,/,/
+6b4509cdea61f78c2ecc013929c8c54da0f38341,AMQ-2774,Bug,Network of brokers : Multicast discovery stopped to work,None,Major
+9ecc679b3864dc37b3ec6be104ce2634d0ca033f,AMQ-2849,Improvement,Fanout: unable to apply parameters to discovered brokers,Transport,Minor
+f206a1bd11dfe8265faacfdbbb74113894069d28,AMQ-2580,Bug,Durable subscribers receives nothing when reconnecting with a prefetch size less than the number of messages that don&apos;t match a message selector,Selector,Major
+a6a6a708ff26c8ddba966107d2add4186e173ba4,AMQ-2800,Bug,JDBCMessageStore message audit suppresses composite destination and DLQ messages as duplicates,Message Store,Major
+9807ee3253200e8ed25407d95bf06ec13ee7be8a,AMQ-2098,Bug,Advisory messages are empty when received with a Stomp subscription,Transport,Major
+00879cf6836ee20da9796d5475593889f370d661,AMQ-2791,Sub-task,Add Message Priority support into PendingMessageCursor,Broker,Major
+c14dc3a06fb4b25db3e69f232ea565a4ff161824,AMQ-2790,Sub-task,Add  Support for Message priority to JMS Client,JMS client,Major
+1a5ad284ed67d1742237c337072635f29aae5f9c,AMQ-2620,Improvement,Make KahaDB the default persistent store for ActiveMQ,None,Major
+ ,AMQ-2568,Bug,Embedded broker not shutting down cleanly because of lingering threads,JMX,Major
+8b6a0c7237a61353b9947c43e7a52e8d82955738,AMQ-2667,Improvement,Make fileserver app jetty-neutral,None,Major
+eb6fec879fc14a7fb9b45610eeeae3ab254713bf,AMQ-2667,Improvement,Make fileserver app jetty-neutral,None,Major
+3af93f18984053f67ea929a24ef4acb61dad3a51,AMQ-2732,Bug,FTP Blob send should fail if file store fails,None,Major
+a34c80858e17ad8e2b627b33836514ad651a8c6f,AMQ-2732,Bug,FTP Blob send should fail if file store fails,None,Major
+c3a64a8eb30cf9368dba12ce3d02c72d39a9641c,/,/,    add little test to validate load balancing in a simple network,/,/
+f206410b3da9e690b815ee88090644f9b66510e7,AMQ-2710,Improvement,Validate camel route to pull from DLQ and reroute to destination after a delay,Test Cases,Major
+789789f06b8af1c1a9abd1631dcb8ebfafb0bceb,AMQ-2697,Improvement,Temp destinations need ability to have policies like advisoryForConsumed  etc,Broker,Critical
+05f82a9b6d74f4bc88517a78b934b781a2baa706,AMQ-2691,Bug,Durable Subscriptions have messages replayed (duplicate messages) after network broker restart,Broker,Major
+c22ea7fab0f3b08fb515146a144047e730f33afc,/,/,    ACTIVEMQ-2384 remove hard dependency on spring,/,/
+9822d58d04abe22f059b85b418478a4f80592322,AMQ-2384,Bug,The activeMQ port supports low and medium strength ciphers ,Connector,Major
+d9145485593e8cc23327a7ad0c6692b4ca4369ce,AMQ-2656,Bug,ActiveMQInitialConnectionFactory cannot return an XAConnectionFactory,JMS client,Major
+063285ca8e142480b435c2c294f5163d1afddd5a,/,/,    remove duplicate nested release tag,/,/
+cd2c5dd3d040b039cc611773dcf0f063e01df68a,/,/,    [maven-release-plugin]  copy for tag activemq-5.5.0,/,/
+c42d8de03489baa6d6d5a3c6af42324bf4e0f37b,AMQ-2852,Bug,Memory leak when undeploying webapp with ActiveMQ client,Transport,Major
+88c10842dff97f7a8e599cae09a993ea91a4a34b,AMQ-3238,Bug,Topic-Messages not redelivered to durable subscription after rollback and reconnect,Broker,Major
+e10f75c33d57041083c95d08dd16635eeafe4ba9,AMQ-3236,New Feature,In the case of DLQ processing due to an exception from onMessage  provide the exception string as a message property ,Broker,Major
+008b3e551c1d8763cbfaa5e18cf7cb6dc1932366,AMQ-3204,New Feature,Support non-standard destination path separators,None,Major
+93e2bd355b6320b1a105620617d1e4260721d3ca,AMQ-3196,Improvement,Speed up initial message delivery for offline durable sub with keepDurableSubsActive=true and JDBC store,Message Store,Major
+f38908eb52380688aff3c73406d9ac1b32ce28bb,AMQ-3195,Improvement,NetworkConnector initialization should be backed by an executor,Connector,Minor
+56f8e368d5c3002695d896b9556fbfd9b2744749,AMQ-2929,Bug,Compressed text message received by consumer uncompressed,Broker,Major
+6595dc4a62d53744a4ba3fa5ff3841280ecbd1ab,AMQ-3185,Bug,Closing a VMTransport can cause all other VMTransports to be prematurely closed,Transport,Critical
+a6c51a45322dd59973cc7743aed7790258aac209,AMQ-2736,Bug,KahaDB doesn&apos;t clean up old files,None,Critical
+7a7b380def879593935759308fa5bd3978fdb01a,/,/,    allow tests to run if port 1099 is in use,/,/
+89f22dacac4d786c04d4b0fe3ab7b6ae6d3b3557,AMQ-3646,Improvement,Allow KahaDB to run without disk syncs  higher through put without the jms persistence guarantee,Message Store,Major
+0b6bf7ec1ba9df68ae6492408d482c984849c31c,AMQ-1853,Wish,Optional non-blocking redelivery,Broker,Major
+f33f32e892e8b40e0cd4888aadef9b3035265611,AMQ-3481,Bug,Possible Stomp deadlock,None,Major
+3576fbe97a8eacb6d9ab8a31b84d7369ff1f4c48,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+c43b5e5ef45c631c30947f01df013910a43b71cf,/,/,    [maven-release-plugin]  copy for tag activemq-5.7.0,/,/
+8dc1c1240b6a7afd1c2d14e4b4a7b067081e9787,AMQ-4062,Bug,durableTopicPrefetch attribute in policyEntry in activemq.xml dont take effect,Broker,Minor
+1802116df8831a86ab538e94310921cc9bc1cef1,AMQ-4011,Improvement,Refactor IntrospectionSupport to avoid using java bean property editors,Broker,Major
+0b01996efb0e1866415a8bee694daafd684b6ca8,AMQ-3451,Bug,Tomcat 6.0.32 complains that ActiveMQ 5.5 doesn&apos;t shutdown a thread,JMS client,Major
+32d3fd51b4aa8ce4290cf2389d1bdb2ca34d8d3f,AMQ-1885,Bug,The jdbc lockKeepAlive thread should be started only if current broker instance successfully started and became a master,Broker,Major
+5219fa1a177aba188a48c0d2447dbad17ead9e1e,/,/,    Fix warnings from use of deprecated asserts etc.,/,/
+7e87cf26851c149c84d1fe8ef633f371aa167ffd,AMQ-4285,Bug,NetworkFailoverTest failing ,Test Cases,Minor
+ef24cc9a045da960161fd0ee9f6839b2164e9333,AMQ-4280,Task,Rename module activemq-core,Broker,Minor
+6e363216693a83225df878dc6b38027759b6101b,AMQ-4163,Task,Remove old cruft from activemq-camel component such as the kaha journal component,Camel,Major
+7d7d6fa08a9831d81b18a9818dc4bb0d962336ac,/,/,    fix typo in utility class name,/,/
+63a660ac04affba1d6f48da21b5de80b63a31a0a,AMQ-4237,Improvement,JMX ObjectNames do not follow JMX Best practices to use a Hierarchical format,Broker,Major
+69d825830811e0088bfe61f57794defa2331e0d7,/,/,    fix up master advisory  advisories are only fired after broker is fully started so the nowMaster advisory needs to ocurr after start rather than as part of persistence adapter start  resolves org.apache.activemq.broker.ft.QueueMasterSlaveTestSupport#testAdvisory failures,/,/
+a1a973ca340a408dad358ab250c24d0a73736f12,AMQ-4220,Bug,PageFile is not loaded when recreating queue and perDestination=&quot;true&quot;,Broker,Major
+3016b392493a8eb55e57ce9e730c1b3de4caf36e,/,/,    Moved the JMS mapping logic into a proton module.,/,/
+54a11b96dec51ec0a2c6bca9f5b76b4baa2755f4,/,/,    move the Kaha store tests into the activemq-amq-store module,/,/
+6010bd3d979bb1547cb066491e91bc89b45391c2,/,/,    Move some of the KahaDB tests from core into the KahaDB store module,/,/
+9a1ad8c8b32a90ec45bb4ade507bc0168550e259,/,/,    Split out the activemq-http and activemq-log4j-appender modules from the activemq-optional module.,/,/
+9c39f4e40a2f4ef842e8b5e570232358e752361d,/,/,    Refactored out the legacy openwire marshalers to a new module.,/,/
+c5cf03806d646045e01f6cd382504fa73dedfeee,/,/,    Refactored out the remaining plugins in the activemq-core module into their own modules.,/,/
+58aca869816e893e7a2f34f0708c1d7fcbdca0f5,/,/,    Refactor all the core broker classes from the activemq-core module into the activemq-broker module.,/,/
+9a8f6e415db43a4e43ad42a87b3617b3641aa07d,/,/,    Refactored the classes needed to run an ActiveMQ JMS client out from the activemq-core module to the activemq-client module.,/,/
+1aab71b2a7f6402b8b8749cfe8a5806f99f546cd,/,/,    Move the kahadb disk IO classes under org.apache.activemq.store.kahadb.  Drop redundant util classes.,/,/
+539781ceef979a0eda08b452de7a1b3c626c7e6d,AMQ-4054,Task,@deprecate axis support and remove it in AMQ 5.8,None,Minor
+cfe5e98da30193c70befcba461213edfa8f0f71a,AMQ-4137,New Feature,Create a store import/export command line tool to covert between store types,Message Store,Major
+e6285b74267903476b90e1fc826fd8ac8788f698,AMQ-4133,Bug,Different behaviour with similar connectors with identical option  URI validation would be nice to have,Transport,Minor
+0fffe2172005f337412d5ec172cd92822395e239,AMQ-3996,Bug,NIO + SSL: Client certificates are null,None,Major
+b24dfb908b902caca1aa350b815a0e1ceb1922f1,AMQ-4094,Bug,offline durable subs with selectors can lead to page leaks in the index and bloat of db.data in kahadb,None,Major
+cdd5150340e69a27402fdf73d1726299b0b30854,/,/,    Initial rough cut of AMQP protocol support using the QPID proton project.,/,/
+1005fc50628d18a2536cec3ebad337d62d0035b8,AMQ-4091,Improvement,Allow a memory limit to be configured on a temp topic,Broker,Major
+0b0ed9f84da0c9de632fcf2706629d1f5ebf0e63,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+c43b5e5ef45c631c30947f01df013910a43b71cf,/,/,    [maven-release-plugin]  copy for tag activemq-5.7.0,/,/
+2ecf41d02f8f858ef1af91fc06e9c276bd667753,/,/,    Porting apollo examples structure to ActiveMQ 5.9.,/,/
+f88f2803ac0a2a984137caa86ca9ef2b1199fbe9,AMQ-4788,Bug,Add support for allowing the broker to partition client client load across a broker cluster using a partitioning config,Broker,Major
+e1bbde7302d7d169bec978633d2dd85eba2e19cc,AMQ-4721,Improvement,Update slf4j library to latest version (1.7.5 currently),Broker,Minor
+634a81898c4db442222ba58ec3ef779f2868dfd4,AMQ-4682,New Feature,runtime configuration - allow selective application of changes to xml configuration without broker restart,Broker,Major
+f71e2fe21a93552bf762f63fc0dc6605499143f8,AMQ-4697,New Feature,Add the ability to show average message size per destination,None,Major
+0d98623b7b2d768e4374aead79e652856d6cbe5e,AMQ-4697,New Feature,Add the ability to show average message size per destination,None,Major
+56070afa01fe1720f1790699a9810e1d28b2d414,/,/,    tidied up the javadocs for MessageBrokerView and added a test case for BrokerDestinationView,/,/
+8f4ebbb40eec530669fed031a3fc397b490caac6,/,/,    Added Interceptor to support,/,/
+ ,AMQ-4690,New Feature,create a camel component for intercepting messages as they pass through the Broker,Camel,Major
+fec73ddbc1376f3bc5b323829d0d407142cfad9c,/,/,    Better debug settings for when working /w amqp.,/,/
+a581d010aa96a5e98e107435a242fc55679042a9,AMQ-5160,Bug,Wildcard subscriptions bypass Authentication / Authorization,MQTT,Critical
+bcb60a482cdc1cd2d2de9b4dba6a38ef831b2fa4,AMQ-5160,Bug,Wildcard subscriptions bypass Authentication / Authorization,MQTT,Critical
+c5c1495330dbad20c2f25e4b44f017005fb97a42,AMQ-5136,Bug,MemoryUsage is not decremented on a JMS topic when rolling back a transacted session,Broker,Major
+1999ddfd01a4ea12fbe73c2e2f93488590da23f7,AMQ-2354,Improvement,Default the ServerUrl to vm://brokerName?create=false when an embedded broker is specified with brokerXmlConfig,JCA Container,Minor
+9494fe85966f4dc0993b7f9fd521f35a89b28f7a,/,/,    Update spring.schemas for the 5.9.1 release,/,/
+3424e04fad09ef69eaa72715669ebba40bb45019,AMQ-3758,New Feature,Recover scheduler database option,Message Store,Major
+e3d218a97ab3f502366b7cc1fc62fc212a5591c5,AMQ-5381,Bug,ActiveMQBytesMessage mishandles restoration of old message contents,JMS client,Major
+b41f92127c30f0d185a8c0dde03788b32b270b5e,AMQ-5311,Bug,XAException message should encode the xaErrorCode,JMS client,Major
+07bfc1ef0e5887e7d4ec7c1e8768d2e0cca4e254,AMQ-5290,Improvement,MQTT clients using durable subscriptions on networked brokers received duplicates,MQTT,Major
+fc244f48e48596c668a7d9dc3b84c26e60693823,AMQ-3758,New Feature,Recover scheduler database option,Message Store,Major
+a2c5c22ec5e5f30816f0cf3d0f1d192267f7e25e,AMQ-5513,Bug,redelivery count incremented in error for unconsumed prefetched messages,JMS client,Major
+0d815642c1c441b3bbca69c4987430a14e28c441,/,/,    Add a jetty9 profile to help with testing,/,/
+c6542a921b7b9fd09ca965761cfb90f2cffca930,AMQ-5748,New Feature,Add the ability to get Message Size from a Message Store,Broker,Minor
+a49d46e3ca689af6f2cb721c457be97d654b2492,AMQ-5748,New Feature,Add the ability to get Message Size from a Message Store,Broker,Minor
+0a12bcb928f151b5ace9a0cffc34ec717b6a8e9c,AMQ-2191,Bug,Incorrect handling of interruptions during commit or rollback of a transaction,None,Major
+8f30866fdf89f25188a358f1b1c161b2f06de3f5,AMQ-6063,Bug,NullPointerException during KahaDB index recovery,Broker,Major
+a38c3d4b6b9a4e828c80e88dd5a33c86fae99a06,AMQ-5898,Bug,Physical queues forwarded from many virtual destinations no longer supported,None,Major
+cc6213ebf25a129b278a2ff0d7c32c25edd71eaa,AMQ-5712,Bug,Broker can deadlock when using queues while producers wait on disk space,Broker,Major
+e5c46df48c153129b6085301018ccda620d15ebc,AMQ-6055,Bug,SASL PLAIN auth with AMQP doesn&apos;t take authzid into account,Security/JAAS,Blocker
+ce5628a389b5491975fda0493ab9073cca6cb87e,AMQ-6055,Bug,SASL PLAIN auth with AMQP doesn&apos;t take authzid into account,Security/JAAS,Blocker
+d9a79d172be3646ce64349fe4a0454df9e382424,/,/,    release the connection even if broker communication fails,/,/
+934f3cea7effdff3b43ddabc9d0f03535fa44e5f,/,/,    release the connection even if broker communication fails,/,/
+81ef5efdc749d9af2fc4150f92195132b1298423,/,/,    Use the new 3.2.2 relese of commons-collections to fix its security issues.,/,/
+11ac3d9d85a32b5f58e9fdbdb11e9354dc9c689e,AMQ-6045,Sub-task,AMQP: update to proton-j 0.11.0,AMQP,Major
+7875e978cdea617b22b95d40755b8f761a8be1f7,AMQ-6000,Bug,Pause/resume feature of ActiveMQ not resuming properly,JMX,Major
+cc81680e10e5c7140ec3e28091df23e9d3c3233b,AMQ-6027,New Feature,Dynamic network demand should support Virtual Destination consumers,Broker,Major
+82a5839fc733c24cef6e2178b52d8fb649b69879,/,/,    NO-JIRA Update test client to have no real linkage to the activemq,/,/
+fd0f71a4c82f1189bed6bd31efa4b17c297816f7,AMQ-6033,Bug,mkahaDB shared-file-locker - broker not shutting down when it loses the lock,Message Store,Major
+42065035b66a48782b361528a82a6d2bd9abd9ba,AMQ-6032,Bug,Properties on scheduled messages can get lost on dispatch,Job Scheduler,Major
+014d5594d605515e84f935eea3fcd1a201648653,AMQ-6032,Bug,Properties on scheduled messages can get lost on dispatch,Job Scheduler,Major
+a0aa3583bc7f0a787471d894370809749cf2cbee,AMQ-6031,Bug,AMQP: use System.nanoTime() when deriving time to tick the transport with for idle-timeout handling,AMQP,Major
+4d73b089230e40c003d16dbf2f3171f1e8bf07f1,AMQ-5957,Task,Update outdated dependencies used by broker.,Broker,Minor
+547914cabcc95e424640559c8bdbbd317bf399ae,AMQ-6020,Bug,Webconsole does not work in karaf,Web Console,Major
+43c3cae2c069c98215e2c0f1ff19e883fd6c0b86,AMQ-5915,New Feature,Support a Java API for the RuntimeConfigurationPlugin,Broker,Major
+e100638244c4ca5eb2a1f16bcdc671c9859c2694,AMQ-6013,Bug,Restrict classes that can be serialized in ObjectMessages,None,Major
+796397a7e9f2098968fb8889af082f98664fbe24,AMQ-6015,Improvement,AMQP: Report more meaningful error conditions when an incoming send fails,None,Major
+e8a0d042d8897cffd904697ac8febae7824ddc18,/,/,    NO-JIRA - Fix some warnings from unused imports and use of deprecated,/,/
+95a9a8035145bea04126e924a38ba133a2d6f7e4,AMQ-6010,Bug,AMQP SSL Transport &quot;leaking&quot; currentTransportCounts,AMQP,Major
+e73ab348375db71116624326d29398e0088d7334,AMQ-6383,New Feature,Add a flag to allow forcing network subscriptions to be durable,Network of Brokers,Major
+ ,AMQ-6373,New Feature,Add a command to synchronize durable subscriptions over a network bridge,Network of Brokers,Major
+1a598277cf76e9bace980dfa87982584b5879710,AMQ-6377,New Feature,Introduce a periodic disk sync mode for KahaDB journal,KahaDB,Major
+dd0ed17e59da3ac19f9e528c8b071322d3035404,AMQ-6377,New Feature,Introduce a periodic disk sync mode for KahaDB journal,KahaDB,Major
+3953b9aaefaee914bdd0702f27aef47c021ceb27,AMQ-6373,New Feature,Add a command to synchronize durable subscriptions over a network bridge,Network of Brokers,Major
+e05db7cb5c82660d83e913fa6df77a9e23d0eb8f,AMQ-6273,Bug,ReconnectionPolicy.getNextDelay(int attempt) always returns zero when maxReconnectAttempts/maxInitialConnectAttempts == ReconnectionPolicy.INFINITE,Connector,Major
+4fc16630ea94a8eda96ffa99a8e559ca4355c02a,AMQ-6366,Bug,A duplex bridge will not properly honor dynamicOnly and restart subscriptions,Network of Brokers,Major
+a82bd3cf721e32272b2cf3dee3aa1afcc726c3cb,AMQ-6366,Bug,A duplex bridge will not properly honor dynamicOnly and restart subscriptions,Network of Brokers,Major
+39184e2fb052fc73c69934890a16b333f1ea31d5,AMQ-6366,Bug,A duplex bridge will not properly honor dynamicOnly and restart subscriptions,Network of Brokers,Major
+cd5ea6c27fa92a57dc68cd9632572a77b36c446c,AMQ-6361,Bug,Message can remain inflight after consumer side expiration acknowledgements,Broker,Major
+b547e46131baf31f1cad6c79b4a5444ae82842fc,AMQ-6359,Improvement,AMQP: Add support for exclusive and retroactive consumers,AMQP,Major
+5901d9a6f0b66f68de75944638f23f4b9676a319,AMQ-7505,Bug,Missing license header in some files,None,Major
+03454466fa38a3872a1d54d8eeef32b9ae17f910,AMQ-7505,Bug,Missing license header in some files,None,Major
+7c5a4bd9401f54635d4723a11ffe944e1783f10f,AMQ-7505,Bug,Missing license header in some files,None,Major
+4358f38e8c3d3d177d1360a7489db51e069ae1ad,AMQ-7504,Improvement,Add rat plugin in the apache-release profile,None,Major
+7db424758f9a3b04bde3dfe6319345049651e617,AMQ-7087,Improvement,Add Java 11 Support (runtime),Broker,Critical
+a51184e415480b48d66a6dc48183aeb6d01a7e30,AMQ-7450,Improvement,Put some restrictions on the URLs that are allowed in BlobMessages,JMS client,Major
+88525ce650e0843b555b1ef45834435ef719d2f6,AMQ-7121,Bug,IntrospectionSupport.setProperty should call method.setAccessible(true),None,Minor
+59059e4ee76b8084c728205fbff2f85d7fc4afeb,AMQ-7493,Task,ThreadPoolExecutor in BrokerService throws unneeded exception,Broker,Minor
+4e1df1979b963de468d873d19ec046361d18a039,AMQ-7493,Task,ThreadPoolExecutor in BrokerService throws unneeded exception,Broker,Minor
+18e8ce18da0323809b3d5d68cb31c92ea2d14208,AMQ-7499,Improvement,Add pause/resume operation of a queue in web console,Web Console,Major
+1a1cabdfcea80fc19ba3c8f7f6acedaeecda1d95,AMQ-5687,Improvement,Remove old ant-based examples,None,Major
+ed4110175534f63e0fac834a63a05440d509752c,AMQ-7497,Bug,RAR xaResource needs to support reconnect,XA,Major
+23af2edcc54e69721a4d2d2ef46c3fe9b37d5bb1,AMQ-7496,Improvement,Inflight message size counter is not decremented on message expiration,Broker,Major
+d539ff77b96f3a8ae646c448c2eeba50c6684429,AMQ-7496,Improvement,Inflight message size counter is not decremented on message expiration,Broker,Major
+1be7873a35aab1ee1d6f14b8c47def83cc56cd45,AMQ-7496,Improvement,Inflight message size counter is not decremented on message expiration,Broker,Major
+cc0bcdd5dc6856c655d5e40e179db5b455a7efb1,AMQ-7496,Improvement,Inflight message size counter is not decremented on message expiration,Broker,Major
+ccfed53c8dc2d5c552a698d82a46aca59e39ad8a,AMQ-7495,Task,Update to Proton-J 0.33.5 and Qpid JMS 0.52.0,AMQP,Minor

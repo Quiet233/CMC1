@@ -1,0 +1,894 @@
+dd533822a54a8d682bacb6c6a2ad1e8c6b1debdf,/,/,    Moving as part of ZooKeeper TLP changes,/,/,0
+82627a641750383bc7380c568291839bbea5c26e,ZOOKEEPER-5,New Feature,Upgrade Feature in Zookeeper server.,server,Major,1
+ea54ef0825c6670cc6714e749d391f477420b118,ZOOKEEPER-136,Bug,sync causes hang in all followers of quorum,None,Major,1
+0254f868ca34105308ac3524c73111d8d770091e,ZOOKEEPER-38,New Feature,headers (version+) in log/snap files,server,Major,1
+931322a7c7287a715b4aa7046d4af4f42ddd5cd3,ZOOKEEPER-132,Sub-task,Create Enum to replace CreateFlag in ZooKepper.create method,java client,Major,1
+4cdb4305ad4acd8189b4f771b30f05d4cf68703e,ZOOKEEPER-134,Improvement,findbugs cleanup,None,Major,1
+ed70d2edcb78a7e30ae60170ea986fb85e862b4b,ZOOKEEPER-82,Improvement,Make the ZooKeeperServer more DI friendly,server,Major,1
+cfd2ecb8d049c1b51b2c1e6d5fd02edd5d3c26e8,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+98b153609b00157bb02ba75814f49a9bd46dc26d,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+1da34580995bbce1cc56d2a7f822aa55e169670c,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+f1e02be300aee5e0174419526c697b5bdf7da4eb,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+94ea75adeca9109d127735fd00138e530770552c,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+67c653cf38015db23940c4229ea66509cbd2b2be,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+daa66b7c180c4342ce7acc7b595106fa3a49a12d,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+be031cb42c842f5c5362b2333b6155f4985000fc,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+03f3e5f76692d134f630be726557120ee8706212,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+083aaac1bb6f2d56f1034ca6c53e7c5cb4115c5a,ZOOKEEPER-45,Task,Restructure the SVN repository after initial import,build,Major,1
+23e39b5a8797d2be1b1ed0420d67f26983887c84,/,/,    [ 1937078 ] Passing a watch object to read requests,/,/,0
+64446e306628a007f401c24fdfc1aa2d0dd2d02f,/,/,    git-svn-id: https://svn.apache.org/repos/asf/hadoop/zookeeper/tags/2.2.1@670965 13f79535-47bb-0310-9956-ffa450edef68,/,/,0
+f1dd874ed7ddd42f006600319dd5e896ed8ac349,/,/,    [ 1913998 ] JMX instrumentation,/,/,0
+942b970c4c29af6285d97ff92b00c815ff422f15,/,/,    fixed the build.xml test targets to properly handle failure (fail the,/,/,0
+b90e6668fdc15b92f8f1272a832be94c780ebf4f,/,/,    made a copy,/,/,0
+e1e8bffbc2f3bcb28cd59b4a54568c26cf92cc8e,/,/,    Committed changes of patches: 1956509 and 1955134.,/,/,0
+888e0c5fc576415a7949a938bf1aad4be74984eb,/,/,    [ 1949253 ] Move to log4j for logging.,/,/,0
+edc4bf7ec225bba914037a89cf04c6601a8b9c33,/,/,    [ 1942451 ] build optimization: uptodate check on jute,/,/,0
+7f56417f9404afb0f8975b0fe616433ab75a5de8,/,/,    code refactoring for JMX enablement. Added ServerStats and QuorumStats classes. Bug fixes: OutOfMemory under heavy load  disk I/O now uses buffered streams  NIOServerCnxn.Factory shuffles the selector keys to avoid starvation. Lots of formatting: replaced tabs with whitespaces  DOS eol style converted to UNIX,/,/,0
+d56cc9b9acb453945257a8e3b0cf8d88e5a36d35,/,/,    Leader election patch.,/,/,0
+ca3993e5b10ed20ddfe04d0c57c2fb149223804b,/,/,    Must ignore the bin and generated dirs,/,/,0
+87be48dc97ad6e6a0e49d6b665df56d4f86b6808,/,/,    Moved generated jute code from under the build/ dir to the language specific directories (i.e. $basedir/c/generated and $basedir/java/generated),/,/,0
+4703e5c264decefeddb25e523a49d23378a84a36,/,/,    Moving as part of ZooKeeper TLP changes,/,/,0
+a4c675afff3b26171efd78ced4916e2f5fb25eb4,ZOOKEEPER-231,New Feature,Quotas in zookeeper,None,Major,1
+bdcdc82e97512d6094ea25775a8d77c1597e1223,ZOOKEEPER-252,Bug,PurgeTxnLog is not handling the new dataDir directory structure,server,Critical,1
+892b0941c13f3680a5e3cfc32d51694ac4861289,ZOOKEEPER-215,New Feature,expand system test environment,tests,Major,1
+85fc47a95dc4cd72a5ea79bcb3ab87613fa8535b,ZOOKEEPER-16,Bug,Need to do path validation,server,Major,1
+a1ac465be361ff478f9b66147731e588fef64ff3,ZOOKEEPER-276,New Feature,Bookkeeper contribution,None,Major,1
+7d8d199a4662ab710c8f3a12745b86dbdb4c7520,ZOOKEEPER-275,Bug,Bug in FastLeaderElection,leaderElection,Major,1
+e5b90d600c69107da88d1758c1e66eba7cc1abad,ZOOKEEPER-267,Bug,java client incorrectly generating syncdisconnected event when in disconnected state,java client,Major,1
+da1e988798fd0336a893e16e94d699e6b156c941,ZOOKEEPER-234,Improvement,Eliminate using statics to initialize the sever.  Should allow server to be more embeddable in OSGi enviorments.,server,Major,1
+950586dc900653ecd2521291c76ba01084c7d2da,ZOOKEEPER-256,New Feature,support use of JMX to manage log4j configuration at runtime,jmx,Major,1
+2e135ab9287f8babeeeddcfb7cd362f4d2b4278f,ZOOKEEPER-250,Bug,isvalidsnapshot should handle the case of 0 snapshot files better.,None,Major,1
+9f7759d73f44901226873cdf2da685877fa06f62,ZOOKEEPER-251,Bug,NullPointerException stopping and starting Zookeeper servers,server,Blocker,1
+4e482a0e8c2e79ea39ac98a422b604d5bd861250,ZOOKEEPER-249,Bug,QuorumPeer.getClientPort() always returns -1,None,Trivial,1
+985e99aae133a45035ae438ca1b4a97c6d78985f,/,/,    ZooKeeper 3.0.1 release.,/,/,0
+a399144537dfef4468a96971641bc372a3d8a76f,ZOOKEEPER-64,Improvement,We should log system env information when intializing client/server,server,Major,1
+f7673ae440408e4107c3a7874caf3e4df91b078c,ZOOKEEPER-212,Bug,snapshot is synchronous in 3.0,None,Critical,1
+72650a5ada970304bab63d775c70edc174a58e34,/,/,    Moving as part of ZooKeeper TLP changes,/,/,0
+2ddeb2ed2c80100dd21a3dd81981448621e09944,/,/,    Moving as part of ZooKeeper TLP changes,/,/,0
+f34209ab9e2e9b0efbf9263590c4132052b9123d,ZOOKEEPER-582,Bug,ZooKeeper can revert to old data when a snapshot is created outside of normal processing,server,Blocker,1
+880e23d161b3537da945f79f2b0eb9a6d9ebd4b2,ZOOKEEPER-562,Bug,c client can flood server with pings if tcp send queue filled,c client,Blocker,1
+0057dcb78313be28ae16b7e84c873191471dceee,ZOOKEEPER-417,Bug,stray message problem when changing servers,None,Blocker,1
+e0316743684e9ef208cfe68efc28929ecfad5e67,ZOOKEEPER-356,Improvement,Masking bookie failure during writes to a ledger,contrib-bookkeeper,Major,1
+cbd8be492393d9409ac0ee8c2dbb7c1bbad3cab3,ZOOKEEPER-446,Bug,some traces of the host auth scheme left,None,Major,1
+ba65c32347b12607cfa8160088b442e2f56a837e,ZOOKEEPER-383,New Feature,Asynchronous version of createLedger(),contrib-bookkeeper,Major,1
+1cd080633bff3e8668f62149316d416698582b35,ZOOKEEPER-36,New Feature,REST access to ZooKeeper,contrib,Major,1
+c41bd3f83e6ad99f03261ba21295eed5151eadda,ZOOKEEPER-380,Improvement,bookkeeper should have a streaming api so that its easier to store checpoints/snapshots in bookkeeper.,contrib-bookkeeper,Major,1
+1e1ccdcfb19a60e50b9393feac7c0322048e20e1,ZOOKEEPER-367,Bug,RecoveryTest failure - &quot;unreasonable length&quot; IOException,server,Critical,1
+b6320b80a4c08958d5b5028cf065cbcc57894a86,ZOOKEEPER-343,Improvement,add tests that specifically verify the zkmain and qpmain classes,tests,Major,1
+f36e174ebe11ec7b3da2cfd5b4226d61e1d3f642,ZOOKEEPER-326,Bug,standalone server ignores tickTime configuration,server,Minor,1
+3ba0a5450cb5340a39154f872d920a580648de3c,ZOOKEEPER-596,Bug,The last logged zxid calculated by zookeeper servers could cause problems in leader election if data gets corrupted.,None,Major,1
+c1eb73fd1dd7635b4fcaf1b4ece84b57e7bbc5e6,ZOOKEEPER-630,Bug,Trunk has duplicate ObserverTest.java files,tests,Major,1
+a8a73362bd9a3967c46011ded1ed831a586acd2e,ZOOKEEPER-599,Improvement,Changes to FLE and QuorumCnxManager to support Observers,None,Major,2
+ ,ZOOKEEPER-506,Improvement,QuorumBase should use default leader election,leaderElection,Major
+5d2fc116d431aa62b1ca9afff6525225df87308d,/,/,    ZooKeeper 3.2.2 release.,/,/,0
+6b85723d2db06b94af82b9e10d4c742838b2222e,ZOOKEEPER-615,Bug,wrong javadoc for create with a sequence flag,None,Major,1
+2896f0702d8575add16ce3e14990b3174dd0724e,ZOOKEEPER-597,Bug,ASyncHammerTest is failing intermittently on hudson trunk,tests,Critical,1
+170dd6bb5952baef7b8299d819c82dc806e8e25a,ZOOKEEPER-597,Bug,ASyncHammerTest is failing intermittently on hudson trunk,tests,Critical,1
+509b191e2eaa6282bb7b042c9762347531712c1c,/,/,    Preparing for release 3.2.2,/,/,0
+a62d0245c91f3ed70f0ee0833e3ec3799a24e377,ZOOKEEPER-582,Bug,ZooKeeper can revert to old data when a snapshot is created outside of normal processing,server,Blocker,1
+03cf976814c6bca832451fdb1b78d429061ec8a0,ZOOKEEPER-582,Bug,ZooKeeper can revert to old data when a snapshot is created outside of normal processing,server,Blocker,1
+dd06b9e4595b18e8b877460e9721fb1ad1d55957,ZOOKEEPER-576,Bug,docs need to be updated for session moved exception and how to handle it,None,Major,1
+a0d54f6edb1b08bc15637050ab52e1d48dd29771,ZOOKEEPER-420,Bug,build/test should not require install in zkpython,contrib-bindings,Major,1
+788c15be7363e475e8b050260623ec46c9ef8257,ZOOKEEPER-368,New Feature,Observers: core functionality ,quorum,Major,1
+8db75b7fc3c911e3d039bb54715d0d1af28ec480,ZOOKEEPER-532,Bug,java compiler should be target Java 1.5,None,Major,1
+7c168447d7b32098e350427f9eba64d7c95a5860,ZOOKEEPER-547,Bug,Sanity check in QuorumCnxn Manager and quorum communication port.,server,Major,1
+47c4bdb0c3c40d756ec0ced91a39c771351e826a,ZOOKEEPER-566,Bug,&quot;reqs&quot; four letter word (command port) returns no information,None,Critical,1
+6dddf00c821abc9b4c9933b175e68407c279d290,ZOOKEEPER-570,Bug,AsyncHammerTest is broken  callbacks need to validate rc parameter,tests,Critical,1
+0957b8404e1ecfc5703d7c2827752773b7dc23be,ZOOKEEPER-549,Improvement,Refactor Followers and related classes into a Peer-&gt;Follower hierarchy in preparation for Observers,server,Major,1
+5784f3af3d6e5958d8429dfaccc9ed780df9b951,ZOOKEEPER-498,Bug,Unending Leader Elections : WAN configuration,leaderElection,Critical,1
+a45c0e1b11ef8791778512ea23eebe21211f393d,ZOOKEEPER-483,Bug,ZK fataled on me  and ugly,None,Major,1
+fa3d048390db6697d4e8cb2315a07416fd6fa576,ZOOKEEPER-477,Bug,zkCleanup.sh is flaky,scripts,Major,1
+94dabe199c1cfa6513d90b2f238bcb753846fd2a,ZOOKEEPER-477,Bug,zkCleanup.sh is flaky,scripts,Major,1
+bdaa0cdc27e87ca0b5e8f73bf7044538f063e8cc,ZOOKEEPER-499,Bug,electionAlg should default to FLE (3) - regression,tests,Blocker,1
+d26abefde17d4e168a32146238036e5515267655,ZOOKEEPER-499,Bug,electionAlg should default to FLE (3) - regression,tests,Blocker,1
+30fe838bb0d0a728eb99f962094dcc115c9990d4,ZOOKEEPER-501,Bug,CnxManagerTest failed on hudson,None,Major,1
+d13dd389ef407acb87d869cecc8c5a77d8ad7550,ZOOKEEPER-490,Bug,the java docs for session creation are misleading/incomplete,None,Major,1
+8d14195dd1c20e5ed8d648eee6ab5702a7a8e86a,ZOOKEEPER-490,Bug,the java docs for session creation are misleading/incomplete,None,Major,1
+217541366ae884126ea80660a8af8d6a5117db95,ZOOKEEPER-484,Bug,Clients get SESSION MOVED exception when switching from follower to a leader.,server,Blocker,1
+9107bbaf5f94ea0c70bcaae458538c95aeb61454,ZOOKEEPER-484,Bug,Clients get SESSION MOVED exception when switching from follower to a leader.,server,Blocker,1
+e73373d2ae1d9804467b48fbca56a15d652b6f4c,ZOOKEEPER-311,Improvement,handle small path lengths in zoo_create(),c client,Minor,1
+d3bed4d6ff788cd800aca503d9d6a57e0cf75da9,ZOOKEEPER-311,Improvement,handle small path lengths in zoo_create(),c client,Minor,1
+32442f01e83302cd4de5cf455057010acc97c316,ZOOKEEPER-493,Bug,patch for command line setquota ,java client,Minor,1
+c11645f17c5266d7577ea58cb244a3d6eaaff0e0,ZOOKEEPER-493,Bug,patch for command line setquota ,java client,Minor,1
+017eca317e768782fedc78fede76f450c3ffeb22,ZOOKEEPER-447,Improvement,zkServer.sh doesn&apos;t allow different config files to be specified on the command line,None,Minor,1
+afaebe7331b1cc249ee8fce3372c9a4b47184f0e,ZOOKEEPER-447,Improvement,zkServer.sh doesn&apos;t allow different config files to be specified on the command line,None,Minor,1
+c1277084d79c182242c495ba10b9409416f333d5,ZOOKEEPER-491,Bug,Prevent zero-weight servers from being elected,leaderElection,Major,1
+358f5122485b7ffa9dcc2e46e0751e88711f2ad9,ZOOKEEPER-491,Bug,Prevent zero-weight servers from being elected,leaderElection,Major,1
+19179b9d02d94be71cff46d0c0933d3ef9f24d6f,ZOOKEEPER-480,Bug,FLE should perform leader check when node is not leading and add vote of follower,None,Major,1
+930380c9407184ba159181c0d8cd08d21ce90766,ZOOKEEPER-480,Bug,FLE should perform leader check when node is not leading and add vote of follower,None,Major,1
+34644835b844bc6f167d47d27fddef8ccd22e6fa,ZOOKEEPER-466,Bug,crash on zookeeper_close() when using auth with empty cert,c client,Major,1
+e944652982bf75ae148020cd96338765391efc55,ZOOKEEPER-466,Bug,crash on zookeeper_close() when using auth with empty cert,c client,Major,1
+705a04dfdb4da26659b9b48a9209b0a38a0f3fed,ZOOKEEPER-479,Bug,QuorumHierarchical does not count groups correctly,quorum,Major,1
+a92959ed01dc7425cc4fad14950dc1604934f6e2,ZOOKEEPER-479,Bug,QuorumHierarchical does not count groups correctly,quorum,Major,1
+63f1fa23c25da97fa9020e1695a924e665bbba3d,ZOOKEEPER-481,Bug,Add lastMessageSent to QuorumCnxManager,leaderElection,Major,1
+1bc05ce6a3363206fbcf0a4bc6c9bbdee1d361f0,ZOOKEEPER-481,Bug,Add lastMessageSent to QuorumCnxManager,leaderElection,Major,1
+ef082d18a3cd73bfc9d0d25e4b40197aa9a8b441,ZOOKEEPER-457,Bug,Make ZookeeperMain public  support for HBase (and other) embedded clients,None,Major,1
+0a1f589b1ce96c09eb71b5492ece6bc99bfeec13,ZOOKEEPER-457,Bug,Make ZookeeperMain public  support for HBase (and other) embedded clients,None,Major,1
+316eb7843c8587bfc05fe1ffb216c243e6618573,ZOOKEEPER-487,Bug,setdata on root (/) crashes the servers.,server,Blocker,1
+f884f500b035946775edb18baff564eaf5a69fad,ZOOKEEPER-487,Bug,setdata on root (/) crashes the servers.,server,Blocker,1
+98693193a9e98c52a72c4e0e104913103fba0847,ZOOKEEPER-482,Bug,ignore sigpipe in testRetry to avoid silent immediate failure,tests,Minor,1
+e4801d85185d436a09bb257c0dd175a0f999b2c2,ZOOKEEPER-482,Bug,ignore sigpipe in testRetry to avoid silent immediate failure,tests,Minor,1
+a9c113e8d6ec21ee1bf4f34c33b4d58c3e9df963,ZOOKEEPER-467,Bug,Change log level in BookieHandle,contrib-bookkeeper,Major,1
+e6f0ba517168c4af11355bad793b4f481a66d4a0,ZOOKEEPER-488,Improvement,to fix src/c/tests/zkServer.sh script to add clover in classpath,scripts,Major,1
+de345ea78eb006b70908ef8de7b31dd8335d4295,ZOOKEEPER-460,Bug,bad testRetry in cppunit tests (hudson failure),tests,Major,1
+e84c8267713c44a067dd17a249bb262c533b1bb9,/,/,    ZOOKEEPR-460. bad testRetry in cppunit tests (hudson failure) (giri via mahadev),/,/,0
+caee992662dced3635c236acf69d3965622c35dd,ZOOKEEPER-470,Bug,include unistd.h for sleep() in c tests,c client,Minor,1
+27df3be388c6f67fe493c355f6695b4f19db32d2,ZOOKEEPER-470,Bug,include unistd.h for sleep() in c tests,c client,Minor,1
+b60b8c6538514591ccbacc041910b7bcf1c1c954,ZOOKEEPER-471,Improvement,update zkperl for 3.2.x branch,contrib,Minor,1
+a8675ad07878bfaf7a75fe39aa9e1b0bb70a1cb9,ZOOKEEPER-471,Improvement,update zkperl for 3.2.x branch,contrib,Minor,1
+60987c4f73f87b39f486df0787470d2132dfb05c,ZOOKEEPER-469,Bug,make sure CPPUNIT_CFLAGS isn&apos;t overwritten,c client,Major,1
+a44fae6243a6363d0e07f3ba1275f8ecd3f5deb5,ZOOKEEPER-473,Improvement,cleanup junit tests to eliminate false positives due to &quot;socket reuse&quot; and failure to close client,tests,Major,1
+26bfb7929bc129e27f8296b1a611dca8a26ddcbf,ZOOKEEPER-1277,Bug,servers stop serving when lower 32bits of zxid roll over,server,Critical,1
+31e29d599764b59d14ba7a076e11a612040968c3,ZOOKEEPER-1089,Bug,zkServer.sh status does not work due to invalid option of nc,scripts,Major,1
+2109aca0fa091222434a8895e2533a26b770ad05,/,/,    ZooKeeper 3.4.0 release.,/,/,0
+094925092c5625b42804c2d33e91680d36a790cb,ZOOKEEPER-1301,Improvement,backport patches related to the zk startup script from 3.4 to 3.3 release ,None,Major,1
+bea47d0fe7ca358ff145fd2c0c68fbf1748960e0,ZOOKEEPER-1239,Improvement,add logging/stats to identify fsync stalls,server,Major,1
+b2e3ce4ab986310f2d075daae09bcfd63b064c61,ZOOKEEPER-1208,Bug,Ephemeral node not removed after the client session is long gone,None,Blocker,1
+d1b00b32b5b5525dc47d795853f78403ecff1f6b,ZOOKEEPER-1192,Bug,Leader.waitForEpochAck() checks waitingForNewEpoch instead of checking electionFinished,server,Critical,1
+505b01249e7452fa2f34b2dce1361b0fd3913aa2,ZOOKEEPER-1271,Bug,testEarlyLeaderAbandonment failing on solaris - clients not retrying connection,java client,Blocker,1
+3926cb41e43629d1fea88b13cd8b0a9e5a4acec8,ZOOKEEPER-1268,Bug,problems with read only mode  intermittent test failures and ERRORs in the log,server,Blocker,1
+a3fca96fe96fed29a29ba3bd63a2f009cbbacad1,ZOOKEEPER-1264,Bug,FollowerResyncConcurrencyTest failing intermittently,tests,Blocker,1
+13dade11ad4b31b88c526bd7ea17d9cdb4bee48e,ZOOKEEPER-1086,Bug,zookeeper test jar has non mavenised dependency.,None,Major,1
+5de425299320610f07fe627a3a2bf6167e73db5d,ZOOKEEPER-1049,Bug,Session expire/close flooding renders heartbeats to delay significantly,server,Critical,1
+ac5a3202ca0f77c91a25fe4283d228f041a6a089,ZOOKEEPER-1212,Bug,zkServer.sh stop action is not conformat with LSB para 20.2&#160;Init&#160;Script&#160;Actions,scripts,Major,1
+e4f6b1be388a00bfc368252ce0c5cb33ad9e8e8e,ZOOKEEPER-1206,Bug,Sequential node creation does not use always use digits in node name given certain Locales.,server,Minor,1
+76a17b6c360b1cccc7eea597d7b53afb171d90eb,ZOOKEEPER-1203,Bug,Zookeeper systest is missing Junit Classes ,tests,Major,1
+f44574915d78b124511493cd89127fab34a93a02,ZOOKEEPER-1203,Bug,Zookeeper systest is missing Junit Classes ,tests,Major,1
+3e0f530825ec613d4d527afb311f43e1d164298c,ZOOKEEPER-1185,Bug,Send AuthFailed event to client if SASL authentication fails,java client,Major,1
+cf1607be8328eca81709d16067f5ecdcd9b26028,ZOOKEEPER-1189,Bug,For an invalid snapshot file(less than 10bytes size) RandomAccessFile stream is leaking.,server,Major,1
+f91e30d39d4a7772df5101ddcb374f1c8fed7a85,ZOOKEEPER-1189,Bug,For an invalid snapshot file(less than 10bytes size) RandomAccessFile stream is leaking.,server,Major,1
+fdb6064291c7cc40330fcec5f15c380db6603ff5,ZOOKEEPER-961,Bug,Watch recovery after disconnection when connection string contains a prefix,java client,Critical,1
+43776e4fa233eeda2bdbbb3ca4db5030d2a51a9d,ZOOKEEPER-1136,Bug,NEW_LEADER should be queued not sent to match the Zab 1.0 protocol on the twiki,None,Blocker,1
+7b3e97a39e34c8329d391de25ef73e689c4adf97,ZOOKEEPER-961,Bug,Watch recovery after disconnection when connection string contains a prefix,java client,Critical,1
+864d055ce287e14a046c50fc2246e29b74e7f89d,ZOOKEEPER-1160,Sub-task,test timeouts are too small,tests,Major,1
+0552fada75967960542932fa2579abfa9b350dfe,ZOOKEEPER-1154,Bug,Data inconsistency when the node(s) with the highest zxid is not present at the time of leader election,quorum,Blocker,2
+ ,ZOOKEEPER-1156,Bug,Log truncation truncating log too much - can cause data loss,server,Blocker
+a209e60eb5337f1855ed2a9d6a038ee2c5afb79c,ZOOKEEPER-999,New Feature,Create an package integration project,build,Major,1
+ed7a4098c18407b8c6e5a18580c68f15977d8455,ZOOKEEPER-1117,Bug,zookeeper 3.3.3 fails to build with gcc &gt;= 4.6.1 on Debian/Ubuntu,c client,Minor,1
+06e55faf96236117930667cfa9bfec26aeefcaaf,ZOOKEEPER-1076,Bug,some quorum tests are unnecessarily extending QuorumBase,tests,Minor,1
+2b282f03fdebe2f4d7ccc5413aac04638bdc20a6,ZOOKEEPER-992,New Feature,MT Native Version of Windows C Client ,c client,Major,1
+167afb81c802817e76f9e3f7c0d6fab5eb8c8201,ZOOKEEPER-1069,Bug,Calling shutdown() on a QuorumPeer too quickly can lead to a corrupt log,server,Critical,1
+7f5105dd07539d70b8b7a25717503c64101301a7,ZOOKEEPER-1074,Bug,zkServer.sh is missing nohup/sleep  which are necessary for remote invocation,scripts,Major,1
+ef356b19468c8d3a35c93145c0d56e86625659cd,ZOOKEEPER-1097,Bug,Quota is not correctly rehydrated on snapshot reload,server,Blocker,1
+eb51de49f723542a17e722fa817d81605a04c74c,ZOOKEEPER-1046,Bug,Creating a new sequential node results in a ZNODEEXISTS error,server,Blocker,1
+5c36633a51ecae838123db701e6f4937ac0915fc,ZOOKEEPER-1103,Improvement,In QuorumTest  use the same &quot;for ( .. try { break } catch { } )&quot; pattern in testFollowersStartAfterLeaders as in testSessionMove.,tests,Minor,1
+f6cb87e368b414a99c1270d3683ccbed2c49d8ce,ZOOKEEPER-1103,Improvement,In QuorumTest  use the same &quot;for ( .. try { break } catch { } )&quot; pattern in testFollowersStartAfterLeaders as in testSessionMove.,tests,Minor,1
+903a71fe7c0c171b89f3dbce285ac44ade41e5df,ZOOKEEPER-1103,Improvement,In QuorumTest  use the same &quot;for ( .. try { break } catch { } )&quot; pattern in testFollowersStartAfterLeaders as in testSessionMove.,tests,Minor,1
+d5036dad6041cc0d12d3e2d1d1c49a29c4f731e0,ZOOKEEPER-1087,Bug,ForceSync VM arguement not working when set to &quot;no&quot;,scripts,Blocker,1
+bb3430952d1863fb8fa3c962960fea72426bf3a4,ZOOKEEPER-1087,Bug,ForceSync VM arguement not working when set to &quot;no&quot;,scripts,Blocker,1
+1538d107efb36b9f39617d33e883260c1a7e2027,ZOOKEEPER-1094,Improvement,Small improvements to LeaderElection and Vote classes,quorum,Minor,1
+5c169076171b6ccc2e4bb69ae303e1c6fd2bdaa5,ZOOKEEPER-1046,Bug,Creating a new sequential node results in a ZNODEEXISTS error,server,Blocker,1
+776db7808e27624aa125f1314b7fbb2196837507,ZOOKEEPER-335,Bug,zookeeper servers should commit the new leader txn to their logs.,server,Blocker,3
+ ,ZOOKEEPER-1081,Sub-task,modify leader/follower code to correctly deal with new leader,server,Major
+ ,ZOOKEEPER-1082,Sub-task,modify leader election to correctly take into account current epoch,server,Major
+7e10b209801bccc90f7f1e94f989fccfb4118523,ZOOKEEPER-1086,Bug,zookeeper test jar has non mavenised dependency.,None,Major,1
+b916b3bbb643d6de07b962452685b8c5929f84b6,ZOOKEEPER-1069,Bug,Calling shutdown() on a QuorumPeer too quickly can lead to a corrupt log,server,Critical,1
+a4414196b310dbe62ee9e6e7e0c2a91fcd85c465,ZOOKEEPER-1046,Bug,Creating a new sequential node results in a ZNODEEXISTS error,server,Blocker,1
+a2763e3cf5cca5301aa8eac25dfb61c9501e4724,ZOOKEEPER-784,Sub-task,server-side functionality for read-only mode,server,Major,1
+7faeaa12f4da8dd076e1b7ac2e2c9ce288936e58,ZOOKEEPER-1038,Sub-task,Move bookkeeper and hedwig code in subversion,contrib-hedwig,Major,1
+ea1baf0e285722ae8f7d65d7fed85104d7d1230a,ZOOKEEPER-1013,Bug,zkServer.sh usage message should mention all startup options,server,Trivial,1
+d2f3fdc3453f7df3a88f05a71ab0956bbb0fecf6,ZOOKEEPER-1006,Bug,QuorumPeer &quot;Address already in use&quot; -- regression in 3.3.3,tests,Minor,1
+5cd2fb1b82039a8b3b58b225ba917c8a9df18987,ZOOKEEPER-983,Bug,running zkServer.sh start remotely using ssh hangs,scripts,Minor,1
+60476c454b0cc8d7b88f7cf52a5ef6608c8a6f6c,ZOOKEEPER-960,1
+575c53253bf9f548f342c3371d05bc00d2c2363d,ZOOKEEPER-985,Bug,Test BookieRecoveryTest fails on trunk.,contrib-bookkeeper,Major,1
+f1ef22637452541431ad4f1154f631037f9c8f84,ZOOKEEPER-712,New Feature,Bookie recovery,contrib-bookkeeper,Major,1
+4bbdfaf41ee86b55eb19073d1ec848eda1377290,ZOOKEEPER-902,Bug,Fix findbug issue in trunk &quot;Malicious code vulnerability&quot;,server,Minor,1
+71bcbd899568e628e619d934d4f57454f8c071d7,ZOOKEEPER-962,Bug,leader/follower coherence issue when follower is receiving a DIFF,server,Critical,2
+ ,ZOOKEEPER-882,Bug,Startup loads last transaction from snapshot,server,Minor
+c93433291d6f82dbcbdef0342eb9cc12bf7d376d,ZOOKEEPER-500,Improvement,Async methods shouldnt throw exceptions,contrib-bookkeeper,Major,1
+e58e53f47fbc04ac333b7b7a5d100e04193b0590,ZOOKEEPER-963,Bug,Make Forrest work with JDK6,documentation,Major,1
+6450175d43af5cad35f137ab9e2c69b4f022731a,ZOOKEEPER-963,Bug,Make Forrest work with JDK6,documentation,Major,1
+1031d0b8ab8fbd95288c888ba74c97eb7925c733,ZOOKEEPER-888,Bug,c-client / zkpython: Double free corruption on node watcher,contrib-bindings,Critical,1
+0f44ca750b5de683734b1eb22c31117512d5e6f0,ZOOKEEPER-958,Bug,Flag to turn off autoconsume in hedwig c++ client,contrib-hedwig,Major,1
+a9cff2f2f7c48f3a98c5468b87c61a3d091082a8,ZOOKEEPER-957,Bug,zkCleanup.sh doesn&apos;t do anything,None,Major,1
+18c58fa390c47b74d2af7ffca7b87610568b37f5,ZOOKEEPER-836,Sub-task,hostlist as string,java client,Major,1
+fb9247c617f158f39612bf4dfc7343f101d98a1e,/,/,    Moving as part of ZooKeeper TLP changes,/,/,0
+5272c26683e211b036aa75c1e36f9f75e090c89b,/,/,    Moving as part of ZooKeeper TLP changes,/,/,0
+c7ab72d2dce6ab4cd8916e3e4105fadf9092a694,ZOOKEEPER-916,Bug,Problem receiving messages from subscribed channels in c++ client ,contrib-hedwig,Major,1
+f5809bcd42a7e817e4376ef6de115727edd25ea9,/,/,    Preparing for release 3.3.2,/,/,0
+9ef18fd3788eb37c90888e2cd12c84251e4db1aa,ZOOKEEPER-884,Bug,Remove LedgerSequence references from BookKeeper documentation and comments in tests ,contrib-bookkeeper,Major,1
+744ff25f99bc2cad834b6d89a7044e5444ac4aee,ZOOKEEPER-907,Bug,Spurious &quot;KeeperErrorCode = Session moved&quot; messages,None,Blocker,1
+dad9d5791ba9f8db74e9c94ae9a063a7919cf8ef,ZOOKEEPER-907,Bug,Spurious &quot;KeeperErrorCode = Session moved&quot; messages,None,Blocker,1
+5090dab0efa977c568f40ad25a321aefd89997c1,ZOOKEEPER-898,Bug,C Client might not cleanup correctly during close,c client,Trivial,1
+5e530bd830f1ad39a3431dd8bd44a83632de2f1c,ZOOKEEPER-898,Bug,C Client might not cleanup correctly during close,c client,Trivial,1
+db407a9715962f9d577cbc79b322f9650fa4660e,ZOOKEEPER-897,Bug,C Client seg faults during close,c client,Major,1
+8030fe25eaa4a8dc50c28f464c448575da4f9ad4,ZOOKEEPER-904,Bug,super digest is not actually acting as a full superuser,server,Major,1
+5ac6097590e04d7b546c1dc2fbbca06bcb897696,ZOOKEEPER-800,Bug,zoo_add_auth returns ZOK if zookeeper handle is in ZOO_CLOSED_STATE,c client,Minor,1
+519a45264453bf788a166d99e276869ced913daa,ZOOKEEPER-800,Bug,zoo_add_auth returns ZOK if zookeeper handle is in ZOO_CLOSED_STATE,c client,Minor,1
+c88f6d75278607be50bb4fcebd5491f356c58164,ZOOKEEPER-794,Bug,Callbacks are not invoked when the client is closed,java client,Blocker,1
+d43038a0c8b8881fb4624ef20a7b30b8511e6b24,ZOOKEEPER-794,Bug,Callbacks are not invoked when the client is closed,java client,Blocker,1
+db19c363c23f146f756585a9a102585bd1b663d8,ZOOKEEPER-820,Bug,update c unit tests to ensure &quot;zombie&quot; java server processes don&apos;t cause failure,None,Critical,1
+478c37213eedcaa4e9a55990f0d99c633300a5b1,ZOOKEEPER-820,Bug,update c unit tests to ensure &quot;zombie&quot; java server processes don&apos;t cause failure,None,Critical,1
+2437cc39a7d34d1a98558ab401dad2cf7cad8c72,ZOOKEEPER-804,Bug,c unit tests failing due to &quot;assertion cptr failed&quot;,c client,Critical,1
+6858c10334bce9d00c1445af35488f484a0d5140,ZOOKEEPER-804,Bug,c unit tests failing due to &quot;assertion cptr failed&quot;,c client,Critical,1
+c2bd802f6855044d7842e36429d66ead9695d4ad,ZOOKEEPER-893,Bug,ZooKeeper high cpu usage when invalid requests,server,Critical,1
+aa46cbd04b8bef569575a8fe9932c74dda10995e,ZOOKEEPER-855,Bug,clientPortBindAddress should be clientPortAddress,documentation,Trivial,1
+58b5c9c80720510d91309e9ca2c98fd36afed8f3,ZOOKEEPER-881,Bug,ZooKeeperServer.loadData loads database twice,server,Trivial,1
+b1d9f0a3ca379d5fbc5543bfd2c4bb875517357e,ZOOKEEPER-864,Improvement,Hedwig C++ client improvements,None,Major,1
+f427447d7bec5d05d10b91310bbb2d1e63cd2c6b,ZOOKEEPER-822,Bug,Leader election taking a long time  to complete,quorum,Blocker,1
+472048297814559b81251dcca98ee662ea09f14d,ZOOKEEPER-822,Bug,Leader election taking a long time  to complete,quorum,Blocker,1
+da3d2c5c89144560b8216bfb23d3d94b67abb805,ZOOKEEPER-844,Bug,handle auth failure in java client,java client,Major,1
+b6c3c7a94bbe873afcf7e25f98344d5dcb25b2d0,ZOOKEEPER-844,Bug,handle auth failure in java client,java client,Major,1
+3324b33d7d1137854500fa2ff336ff1b477c1f8f,ZOOKEEPER-804,Bug,c unit tests failing due to &quot;assertion cptr failed&quot;,c client,Critical,1
+51cc82c2fe2848eebb8c1537efe775d24aa713aa,ZOOKEEPER-804,Bug,c unit tests failing due to &quot;assertion cptr failed&quot;,c client,Critical,1
+35ca46631c597c9d3449b1e1a1be2b95bc174910,ZOOKEEPER-846,Bug,zookeeper client doesn&apos;t shut down cleanly on the close call,java client,Blocker,1
+575dcbb4ece807662af3b38fdffb6ad512025a63,ZOOKEEPER-870,Bug,Zookeeper trunk build broken.,None,Major,1
+68601a9a4dc3c49aeb13b8a7a4fca9472cde64b9,/,/,    Zookeeper 3.3.1 shouldn't infinite loop if someone creates a server.0 line (part 2),/,/,0
+46c1493fac179d12acd5ac33aadae6549a0dd2fd,ZOOKEEPER-785,Bug, Zookeeper 3.3.1 shouldn&apos;t infinite loop if someone creates a server.0 line,server,Major,1
+c46f933881b784ad2b9651f0229928a6fe6ca1ed,ZOOKEEPER-785,Bug, Zookeeper 3.3.1 shouldn&apos;t infinite loop if someone creates a server.0 line,server,Major,1
+a4f6dc7cbc951b9520347a773c09d60721b1cab0,ZOOKEEPER-854,Bug,BookKeeper does not compile due to changes in the ZooKeeper code,contrib-bookkeeper,Major,1
+f050cb8a5f8cfb1aeba0c79f14887175ecf44229,ZOOKEEPER-792,Bug,zkpython memory leak,contrib-bindings,Major,1
+c16f5b46bc8ab67fd66d789bddfe5eb092542ea6,ZOOKEEPER-775,New Feature,A large scale pub/sub system,contrib,Major,1
+30cff66e5efe6b99b7e7a2293061f0eea0def02f,ZOOKEEPER-733,Improvement,use netty to handle client connections,server,Major,1
+09165ab0f7d7992bcf8cc43b734d91c728e42bad,ZOOKEEPER-808,New Feature,Web-based Administrative Interface,contrib,Major,1
+803a4c87647327fd8cb5d1746dff326c94d90b21,ZOOKEEPER-795,Bug,eventThread isn&apos;t shutdown after a connection &quot;session expired&quot; event coming,java client,Blocker,1
+b4337499e5c2864adcade4fbdab77cef93dad1b1,ZOOKEEPER-809,Improvement,Improved REST Interface,contrib,Major,1
+7a699e2798d06b4e508c70fa7e651a374f728002,ZOOKEEPER-772,Bug,zkpython segfaults when watcher from async get children is invoked.,contrib-bindings,Major,1
+2678baf5c1e0789d3acead9e91ac7f64e70d7e48,ZOOKEEPER-790,Bug,Last processed zxid set prematurely while establishing leadership,quorum,Blocker,1
+d18f02955db4644aeec2ba06e13e6917e06ca5fc,ZOOKEEPER-790,Bug,Last processed zxid set prematurely while establishing leadership,quorum,Blocker,1
+2ae181498d46d0b5393157a63f3a9fcf71c667bd,ZOOKEEPER-783,Bug,committedLog in ZKDatabase is not properly synchronized,server,Critical,1
+e0e65d8f57e1360b94fa4f05d466812b03c82148,/,/,    fixed version string in build.xml to be consistent with prior releases,/,/,0
+957b54a6a0f0b221ef463cf856d2f8d8e0095be2,ZOOKEEPER-821,Improvement,Add ZooKeeper version information to zkpython,contrib-bindings,Trivial,1
+10a1f58bf11e6fe5ef5dfd6da1522430e2524bae,ZOOKEEPER-790,Bug,Last processed zxid set prematurely while establishing leadership,quorum,Blocker,1
+a59f144fbc1990ec5a6a1394ab893d55094acbfb,ZOOKEEPER-798,Sub-task,Fixup loggraph for FLE changes,contrib,Minor,1
+4c85fcf25f6d20a155efb6aa7bc36e8a05bbf28d,ZOOKEEPER-789,Improvement,Improve FLE log messages,None,Major,1
+6bb8b641c65185eefd252e1fe38a933fe11bbceb,ZOOKEEPER-773,Improvement,Log visualisation,contrib,Minor,1
+001cdf3b5d180c58561940b6fa1b251928181f12,ZOOKEEPER-464,New Feature,Need procedure to garbage collect ledgers,contrib-bookkeeper,Major,1
+38592a9e79e8c5f8ba8d6a709c7c28e7084030fc,ZOOKEEPER-464,New Feature,Need procedure to garbage collect ledgers,contrib-bookkeeper,Major,1
+0bda25168c3328e1eba68bd10a27e7f3b5cbfa69,ZOOKEEPER-766,Bug,forrest recipes docs don&apos;t mention the lock/queue recipe implementations available in the release,recipes,Minor,1
+2f4e80d0172ada5cca58800b479889ee43f43ee4,ZOOKEEPER-766,Bug,forrest recipes docs don&apos;t mention the lock/queue recipe implementations available in the release,recipes,Minor,1
+16c31c9a4e92c5ee89895b04e93be32d447be0c5,ZOOKEEPER-763,Bug,Deadlock on close w/ zkpython / c client,contrib-bindings,Major,1
+472c93adc6e4dfc7dbb7b5a95d211dce09cc154f,ZOOKEEPER-764,Bug,Observer elected leader due to inconsistent voting view,quorum,Major,1
+01d8f73bc39935e9796964c51e0ec456bc11a73a,ZOOKEEPER-737,Bug,some 4 letter words may fail with netcat (nc),server,Blocker,1
+28ef0625fde431d911a47de90bc9eb655812c657,ZOOKEEPER-747,New Feature,Add C# generation to Jute,jute,Major,1
+9cdf11c1ecec645cae9a5db85fa30d562d47f644,ZOOKEEPER-758,Bug,zkpython segfaults on invalid acl with missing key,contrib-bindings,Major,1
+dd8f018c05d06ae33f524f45a77bafdd4a64ba11,ZOOKEEPER-758,Bug,zkpython segfaults on invalid acl with missing key,contrib-bindings,Major,1
+714a4b42b64b65cd7ba12324bd6498b5edaf91a7,ZOOKEEPER-749,Bug,OSGi metadata not included in binary only jar,build,Critical,2
+ ,ZOOKEEPER-750,Bug,move maven artifacts into &quot;dist-maven&quot; subdir of the release (package target),build,Major
+2e4157ccb3e6c060ef5a54a15df359a87ab29277,ZOOKEEPER-749,Bug,OSGi metadata not included in binary only jar,build,Critical,2
+ ,ZOOKEEPER-750,Bug,move maven artifacts into &quot;dist-maven&quot; subdir of the release (package target),build,Major
+142e7d3c97fd69880328ff54dab9549f230a28e0,ZOOKEEPER-754,Task,numerous misspellings &quot;succesfully&quot;,documentation,Major,1
+2c161ea40a6dea6cc5b10de518371f0a15fdbc74,ZOOKEEPER-754,Task,numerous misspellings &quot;succesfully&quot;,documentation,Major,1
+59a3cc5c2bcd8bdd790e091471695ab19b42ba24,ZOOKEEPER-734,Bug,QuorumPeerTestBase.java and ZooKeeperServerMainTest.java do not handle windows path correctly,tests,Major,1
+7ecd589c1511770b96bf034a5cd7d322bbe56bc5,ZOOKEEPER-734,Bug,QuorumPeerTestBase.java and ZooKeeperServerMainTest.java do not handle windows path correctly,tests,Major,1
+cff0c0c1d2cf79283e4b5fa432072588c52df0a9,ZOOKEEPER-738,Bug,zookeeper.jute.h fails to compile with -pedantic ,c client,Major,1
+4e820e33bf4d1fb4c3d1c0fab981f6ba0c363a03,ZOOKEEPER-631,Improvement,zkpython&apos;s C code could do with a style clean-up,contrib-bindings,Minor,1
+4d4785632fd42d1f39a072bfcf69c9c1ace3bbc3,ZOOKEEPER-631,Improvement,zkpython&apos;s C code could do with a style clean-up,contrib-bindings,Minor,1
+6ad91e3ff0b8f6b956c4d5cac596562c46947c96,ZOOKEEPER-741,Bug,root level create on REST proxy fails,contrib,Critical,1
+0196b6ff961665d4061cb14d6403d5aebddfff6f,ZOOKEEPER-741,Bug,root level create on REST proxy fails,contrib,Critical,1
+1c07468bf45581bc17b19ba16fae0cc785a3d356,ZOOKEEPER-722,Bug,zkServer.sh uses sh&apos;s builtin echo on BSD  behaves incorrectly.,scripts,Minor,1
+ee9490444d02431a62e04982908d5a08ced9ec0f,ZOOKEEPER-722,Bug,zkServer.sh uses sh&apos;s builtin echo on BSD  behaves incorrectly.,scripts,Minor,1
+7ac6891efbf48f12a1b89df4127e56708cc8519b,ZOOKEEPER-720,Bug,Use zookeeper-{version}-sources.jar instead of zookeeper-{version}-src.jar to publish sources in the Maven repository,build,Trivial,1
+0844ebe2b9635dc748a76cd5f78727aa29e4a14d,ZOOKEEPER-735,Bug,cppunit test testipv6 assumes that the machine is ipv6 enabled.,tests,Major,1
+78269a99bc9eb74f99d267017033ea1d13531c5a,ZOOKEEPER-724,Improvement,Improve junit test integration - log harness information,tests,Major,1
+7291e47cb8a41f369a41e30e16f7780d419fb832,ZOOKEEPER-3032,Sub-task,Step 1.6 - Create zk-server maven structure,scripts,Major,1
+c0aa3b3f3bd7754c21010a007442f6f5686a3865,ZOOKEEPER-3032,Sub-task,Step 1.6 - Create zk-server maven structure,scripts,Major,1
+29cc5c1a7743cf126e3f9b7badb19cf3e80b69e6,ZOOKEEPER-3080,Sub-task,Step 1.5 - Separate jute structure,scripts,Major,1
+63aaf0a186bc20ac7ce47c1060c83de53966bd01,ZOOKEEPER-3030,Sub-task,Step 1.3 - Create zk-contrib maven structure,scripts,Major,1
+e5b4b94de6fa56fecda8520a01212176edd699cb,ZOOKEEPER-3033,Sub-task,Step 1.2 - Create zk-recipes maven structure,scripts,Major,1
+f271dac9f994770ef3ae389484f2d1519cc9f259,ZOOKEEPER-1622,Bug,session ids will be negative in the year 2022,None,Trivial,1
+7e1c76814a267d52c4392c7c181e116b3eb31233,ZOOKEEPER-1839,Bug,Deadlock in NettyServerCnxn,server,Critical,1
+32d900b1d439f1ef52c69185e5bc6f73d272ed0b,ZOOKEEPER-1839,Bug,Deadlock in NettyServerCnxn,server,Critical,1
+63b1f92102877757815eec5e0866b7a143868e2d,ZOOKEEPER-1382,Bug,Zookeeper server holds onto dead/expired session ids in the watch data structures,server,Critical,1
+cdee4002b4b7d14413a5ed447dbbd146c5a99eee,ZOOKEEPER-1382,Bug,Zookeeper server holds onto dead/expired session ids in the watch data structures,server,Critical,1
+b666d3bccc2e8a0851c4b68024a4c3ac2d97713c,ZOOKEEPER-1834,Sub-task,Catch IOException in FileTxnLog,None,Major,1
+95d4897e7794be975210789c437f06ee28489608,ZOOKEEPER-1834,Sub-task,Catch IOException in FileTxnLog,None,Major,1
+4822626f958742baf98303fd9cdfcb51ce95cb46,ZOOKEEPER-1019,Improvement,zkfuse doesn&apos;t list dependency on boost in README,contrib,Major,1
+de87a016c6de64b825d2edbeebd621c7baced9b4,ZOOKEEPER-1019,Improvement,zkfuse doesn&apos;t list dependency on boost in README,contrib,Major,1
+f23b85bde1bf53b284a85a8ec6c6251cd63e9feb,ZOOKEEPER-1459,Sub-task,Standalone ZooKeeperServer is not closing the transaction log files on shutdown,server,Major,1
+65348e6224b802376d88202ed760f6cd472bfca4,ZOOKEEPER-1459,Sub-task,Standalone ZooKeeperServer is not closing the transaction log files on shutdown,server,Major,1
+a1cdea63de42ed1eaba224570ad0304c224b21c1,ZOOKEEPER-1632,Bug,fix memory leaks in cli_st ,c client,Minor,1
+133f1c48b0c5fa8a10f0832d2857ecab8f66cb2c,ZOOKEEPER-1632,Bug,fix memory leaks in cli_st ,c client,Minor,1
+605c8d1b0db0baa57582bb39229c80bfec832ae3,ZOOKEEPER-1821,Bug,very ugly warning when compiling load_gen.c,c client,Major,1
+595bf52d2f66e3b09149cfc0cad6a240a5bfd30b,ZOOKEEPER-1821,Bug,very ugly warning when compiling load_gen.c,c client,Major,1
+7f069c0e084a74f6de661267b828ff3fde30bd11,ZOOKEEPER-1817,Sub-task,Fix don&apos;t care for b3.4,None,Blocker,1
+23852655a6d41f675b8a9cca66387fca9bfe4e12,ZOOKEEPER-1815,Improvement,Tolerate incorrectly set system hostname in tests,tests,Trivial,1
+6503f12e144bc6b0652f7adf558bdc28c984e6c0,ZOOKEEPER-1786,Bug,ZooKeeper data model documentation is incorrect,documentation,Minor,1
+d5d0164a60150d2ad2885f938ef7b215f12b8cbc,ZOOKEEPER-1786,Bug,ZooKeeper data model documentation is incorrect,documentation,Minor,1
+bf1814b9943588ac25b46aa158d994f5900b9202,ZOOKEEPER-1798,Bug,Fix race condition in testNormalObserverRun,None,Blocker,1
+dd31b9d9c5fdc608e269dd2f9b38d12afbecbef0,ZOOKEEPER-1798,Bug,Fix race condition in testNormalObserverRun,None,Blocker,1
+ffd23df5f0f5038bee5c3b05f54f12a80f8098b1,ZOOKEEPER-1666,Improvement,Avoid Reverse DNS lookup if the hostname in connection string is literal IP address.,java client,Major,1
+6ce15c7bcf685a111fcd049953382409898ec0c9,ZOOKEEPER-1812,Bug,ZooInspector reconnection always fails if first connection fails,contrib,Minor,1
+2bdf4678c70ff7639761c459708922cb2309b078,ZOOKEEPER-1812,Bug,ZooInspector reconnection always fails if first connection fails,contrib,Minor,1
+08014e67410fa8a5235e91f57ad302efeedb43a1,ZOOKEEPER-1666,Improvement,Avoid Reverse DNS lookup if the hostname in connection string is literal IP address.,java client,Major,1
+3dae9c4770f77e28fa6bba07e58133f1530f381a,ZOOKEEPER-1798,Bug,Fix race condition in testNormalObserverRun,None,Blocker,1
+4fe97763c2e765c5140071906f7f70d0727abb5d,ZOOKEEPER-1499,Bug,clientPort config changes not backwards-compatible,server,Blocker,1
+a752eee7837d241d79151fa6053571df7a00761e,ZOOKEEPER-1744,Bug,clientPortAddress breaks &quot;zkServer.sh status&quot; ,scripts,Critical,1
+bac5a6bfbb4134c7c41bb6521d1199b7ca8127a1,ZOOKEEPER-1744,Bug,clientPortAddress breaks &quot;zkServer.sh status&quot; ,scripts,Critical,1
+8aa5794e74f469088d3c77035f17c120c53026ab,ZOOKEEPER-1557,Bug,jenkins jdk7 test failure in testBadSaslAuthNotifiesWatch,tests,Major,1
+10abb60db7ca7eed540dc637ecfd638dce4edc40,ZOOKEEPER-1557,Bug,jenkins jdk7 test failure in testBadSaslAuthNotifiesWatch,tests,Major,1
+e0d3b8fc689a6cbc6fbd111a2707b1af08fd0b94,ZOOKEEPER-1180,Improvement,New entry for files ignored by svn.,None,Minor,1
+3ec0ca950f58667c568e1d5bb9f5ea65e1a8165b,ZOOKEEPER-1180,Improvement,New entry for files ignored by svn.,None,Minor,1
+b410a1f3a0323f7fe9046f6c11f4913eb1a3d947,ZOOKEEPER-1799,Bug,SaslAuthFailDesignatedClientTest.testAuth fails frequently on SUSE,tests,Minor,1
+ec36884c2d49e4256f1d439efce3347c0a92800c,ZOOKEEPER-1667,Bug,Watch event isn&apos;t handled correctly when a client reestablish to a server,server,Blocker,1
+7192b8dac65d27f813f6fcbb5bf8a0e4f57e98e9,ZOOKEEPER-1667,Bug,Watch event isn&apos;t handled correctly when a client reestablish to a server,server,Blocker,1
+c6ee0139d58250ac07ddfa3692c9adec488339bf,ZOOKEEPER-1732,Bug,ZooKeeper server unable to join established ensemble,leaderElection,Blocker,1
+d91f65c07692875932c15e563f5596727bda0fca,ZOOKEEPER-1558,Sub-task,Leader should not snapshot uncommitted state,quorum,Blocker,1
+fe3824a993d02c61e82e3baf5b315776a28eb375,ZOOKEEPER-1646,Bug,mt c client tests fail on Ubuntu Raring,tests,Blocker,1
+01e35751f88c5d7509d47c24b264d36223bf4d72,ZOOKEEPER-1715,Improvement,Upgrade netty version,None,Major,1
+f9e2f5105e411e01b29f79e8ee0aebcae769cfec,ZOOKEEPER-1610,Bug,Some classes are using == or != to compare Long/String objects instead of .equals(),quorum,Critical,1
+2cfb6cc4a2f78c35d6cd9d840c7b28d31f4ff80a,ZOOKEEPER-1610,Bug,Some classes are using == or != to compare Long/String objects instead of .equals(),quorum,Critical,1
+8b4cc5290fe83094d2f5798a129c5306ebb0abcb,ZOOKEEPER-1624,Bug,PrepRequestProcessor abort multi-operation incorrectly,server,Critical,1
+51cd9ed37bea20aeb10c8c80ad3279bbca6f5582,ZOOKEEPER-1624,Bug,PrepRequestProcessor abort multi-operation incorrectly,server,Critical,1
+7451ab2a72c6ac1a32619d20fb626e3f43e171d9,ZOOKEEPER-1627,Improvement,Add org.apache.zookeeper.common to exported packages in OSGi MANIFEST headers,None,Major,1
+b71191f514a2eec512f795e43a25c64d48f0e4c7,ZOOKEEPER-1147,Improvement,Add support for local sessions,server,Major,1
+01d4e780adb67f7feb98f1e4b1c1c3cff92d497f,ZOOKEEPER-1509,Task,Please update documentation to reflect updated FreeBSD support.,None,Major,1
+631872e79957461e70eac0f4e7d033c769fc8a6c,ZOOKEEPER-877,Bug,zkpython does not work with python3.1,contrib-bindings,Major,1
+19b0b8f0308d5a5bf80d91b02e7c51ea8cc4bf81,ZOOKEEPER-877,Bug,zkpython does not work with python3.1,contrib-bindings,Major,1
+67148f0f0c5deb34c57712ceb2f0ca9bf21596b9,ZOOKEEPER-1771,Improvement,ZooInspector authentication,contrib,Minor,1
+b74c78067fc6754f3a56cff0b2b6136f0a973b11,ZOOKEEPER-1774,Bug,QuorumPeerMainTest fails consistently with &quot;complains about host&quot; assertion failure,tests,Blocker,1
+ad7113ed56f58f3d2c308addf2c5785114cb9899,ZOOKEEPER-1781,Bug,ZooKeeper Server fails if snapCount is set to 1 ,quorum,Minor,1
+28246a44ef4653515708937fc2a9c5d51baa0937,ZOOKEEPER-1781,Bug,ZooKeeper Server fails if snapCount is set to 1 ,quorum,Minor,1
+cf5781ddf0922842a871988872acdf8627505e40,ZOOKEEPER-1551,Bug,Observers ignore txns that come after snapshot and UPTODATE ,server,Blocker,1
+0e3441598e4ca9103f86e6f5b72a59e24848c008,ZOOKEEPER-732,Bug,Improper translation of error into Python exception,contrib-bindings,Minor,1
+48deaf657120a1d076dc86d016e09c29be7aa236,ZOOKEEPER-732,Bug,Improper translation of error into Python exception,contrib-bindings,Minor,1
+88b11f243b4a51eba3a6b0522bc58dd4bd34f921,ZOOKEEPER-1733,Bug,FLETest#testLE is flaky on windows boxes,None,Major,1
+33f17b51e8cba14dadf7522833d0088ac15b2dcb,ZOOKEEPER-1770,Bug,NullPointerException in SnapshotFormatter,None,Minor,1
+f6db73a0374f756043ad3b99b994c61cdbd30152,ZOOKEEPER-1655,Bug,Make jline dependency optional in maven pom,build,Major,1
+84faeefab2694792e07d24e07b00f51ac8c3bddf,ZOOKEEPER-1670,Bug,zookeeper should set a default value for SERVER_JVMFLAGS and CLIENT_JVMFLAGS so that memory usage is controlled,None,Major,1
+4e82aebecc6338b5668742c87ebd0d913c08410c,ZOOKEEPER-1769,Bug,ZooInspector can&apos;t display node data/metadata/ACLs,contrib,Minor,1
+6c0655b1ae1a6ee182ef56d9849f73d7a3362f89,ZOOKEEPER-1758,Improvement,Add documentation for zookeeper.observer.syncEnabled flag,None,Minor,1
+0e97f2359dbc38e01b7e1410415f7bf03423d6f0,ZOOKEEPER-1758,Improvement,Add documentation for zookeeper.observer.syncEnabled flag,None,Minor,1
+f4fb6a2a5a8912b0e5a8fec65f0079d28ce9dd0a,ZOOKEEPER-1552,Improvement,Enable sync request processor in Observer,server,Major,1
+5891c35930d85dbcabd1dc85194dbbbe877a14c8,ZOOKEEPER-1552,Improvement,Enable sync request processor in Observer,server,Major,1
+6177dd957378c5420f19f7eb86dabfcf10be3ff8,ZOOKEEPER-1759,Improvement,Adding ability to allow READ operations for authenticated users   versus keeping ACLs wide open for READ,server,Major,1
+77377b5b683b536c9ceb3bfdec567150e0ef18d0,ZOOKEEPER-1696,Bug,Fail to run zookeeper client on Weblogic application server,java client,Critical,1
+625b53c1ca89daf2aeb914eb66ed009bd2b994af,ZOOKEEPER-1696,Bug,Fail to run zookeeper client on Weblogic application server,java client,Critical,1
+a8fe3f3be3b77273950d9e10bc2c51aadd1902dc,ZOOKEEPER-87,Bug,Follower does not shut itself down if its too far behind the leader.,quorum,Critical,1
+eb1cb72922b1e974eadb8936df965d630261bd47,ZOOKEEPER-87,Bug,Follower does not shut itself down if its too far behind the leader.,quorum,Critical,1
+dc3267b0ec40abdd67833a86e7a6051e0b468a4d,ZOOKEEPER-1696,Bug,Fail to run zookeeper client on Weblogic application server,java client,Critical,1
+72eb405829a9173966d6b29e229c56c95ace0524,ZOOKEEPER-1096,Improvement,Leader communication should listen on specified IP  not wildcard address,server,Minor,1
+e3a488b11e4e0e8a124c7387dad98ecd286ee1eb,ZOOKEEPER-1096,Improvement,Leader communication should listen on specified IP  not wildcard address,server,Minor,1
+000b7dfa2fd3339af95870b95c1e12acc8313cf6,ZOOKEEPER-1753,Bug,ClientCnxn is not properly releasing the resources  which are used to ping RwServer,java client,Major,1
+d1eff7a27be156a5b4a37bd6aff4da446dd3813e,ZOOKEEPER-1753,Bug,ClientCnxn is not properly releasing the resources  which are used to ping RwServer,java client,Major,1
+885bac190a4e2cb34949fc9f3182200e95fa8d62,ZOOKEEPER-1657,Bug,Increased CPU usage by unnecessary SASL checks,java client,Major,1
+a8df46db76ee725411ff4774debf8a6352d12c6a,ZOOKEEPER-1657,Bug,Increased CPU usage by unnecessary SASL checks,java client,Major,1
+a00d174d986386b19b0bf285918b06f2fcf55a2f,ZOOKEEPER-1751,Bug,ClientCnxn#run could miss the second ping or connection get dropped before a ping,None,Major,1
+973665c48a176227a681998587f1bd14f0ea9578,ZOOKEEPER-1751,Bug,ClientCnxn#run could miss the second ping or connection get dropped before a ping,None,Major,1
+67dd6fc9df3d33e40570095b52cd6858621c3ae0,ZOOKEEPER-1754,Bug,Read-only server allows to create znode,server,Critical,1
+a69b56620a12ab4be2147dab6b45a92c85bca1f2,ZOOKEEPER-1750,Bug,Race condition producing NPE in NIOServerCnxn.toString,server,Minor,1
+46cbf07c4e6da3d9897ecc2373f9a0996ed730d2,ZOOKEEPER-1664,Bug,Kerberos auth doesn&apos;t work with native platform GSS integration,server,Major,1
+579c7a4736ee03183e6cba25d7d20dedb6f892dc,ZOOKEEPER-1664,Bug,Kerberos auth doesn&apos;t work with native platform GSS integration,server,Major,1
+62dcea67c7a3d12bdb5fa014936f465fadb1e3df,ZOOKEEPER-1448,Bug,Node+Quota creation in transaction log can crash leader startup,server,Critical,1
+33550d6ce719b2cedfd0fa8650c4311dd9077d97,ZOOKEEPER-1448,Bug,Node+Quota creation in transaction log can crash leader startup,server,Critical,1
+7a996de098b8abf095f6479c3d9ba77329cefe21,ZOOKEEPER-1670,Bug,zookeeper should set a default value for SERVER_JVMFLAGS and CLIENT_JVMFLAGS so that memory usage is controlled,None,Major,1
+fb01942d1ffa59e64bbc874abb00b9494a7d42ad,ZOOKEEPER-1379,Bug,&apos;printwatches  redo  history and connect &apos;. client commands always print usage. This is not necessary,java client,Minor,1
+4eb31cf5359d59b7af2bc83467a311f7341bca4f,ZOOKEEPER-1713,Bug,wrong time calculation in zkfuse.cc,None,Trivial,1
+89fe3cda9b40fc457afecec313661e35e28cde16,ZOOKEEPER-1713,Bug,wrong time calculation in zkfuse.cc,None,Trivial,1
+363f5f50f27f28855ed77f362ea7c9736f295325,ZOOKEEPER-1400,Improvement,Allow logging via callback instead of raw FILE pointer,c client,Major,1
+c3809a4187275f14790b1f84808389d55f01ec80,ZOOKEEPER-1731,Bug,Unsynchronized access to ServerCnxnFactory.connectionBeans results in deadlock,None,Critical,1
+c0051fd8368dffdcb82b5a43ff6751f136a05016,ZOOKEEPER-1629,Bug,testTransactionLogCorruption occasionally fails,tests,Major,1
+a4211cadba07476bc4a3a49a837af992dee21a7b,ZOOKEEPER-1629,Bug,testTransactionLogCorruption occasionally fails,tests,Major,1
+baa95e16a9d52fe95f347e242458d0debd14dd13,ZOOKEEPER-1629,Bug,testTransactionLogCorruption occasionally fails,tests,Major,1
+ab720e321cff0e237b45e4b8d00ebf61cf66ab0b,ZOOKEEPER-1702,Bug,ZooKeeper client may write operation packets before receiving successful response to connection request  can cause TCP RST,java client,Major,1
+9f102d311e0d68a2e0a212b1c870a6f999a128a5,ZOOKEEPER-1413,Improvement,Use on-disk transaction log for learner sync up,server,Minor,1
+38e3a782acc746e8d7aef56983c21c13e6486c2b,ZOOKEEPER-1719,Bug,zkCli.sh  zkServer.sh and zkEnv.sh regression caused by ZOOKEEPER-1663,None,Major,2
+ ,ZOOKEEPER-1663,Bug,scripts don&apos;t work when path contains spaces,scripts,Minor
+aec7dd83aaadc8c99a072936062467471458ddfd,ZOOKEEPER-1719,Bug,zkCli.sh  zkServer.sh and zkEnv.sh regression caused by ZOOKEEPER-1663,None,Major,2
+ ,ZOOKEEPER-1663,Bug,scripts don&apos;t work when path contains spaces,scripts,Minor
+a29816358f6ab72d47aa100ba3c8ca37ab360a21,ZOOKEEPER-1714,Bug,perl client segfaults if ZOO_READ_ACL_UNSAFE constant is used,contrib-bindings,Minor,1
+1b66c34ea897ccd18ffe94d66778e2f208686ec9,ZOOKEEPER-1417,Bug,investigate differences in client last zxid handling btw c and java clients,java client,Major,1
+b1f252d4bc795dbd4f39e40f00398bd6a9b9d0c1,ZOOKEEPER-1663,Bug,scripts don&apos;t work when path contains spaces,scripts,Minor,1
+4db12a94adfbdfa7f0b9c1e418a81bbac4d8dfae,ZOOKEEPER-1663,Bug,scripts don&apos;t work when path contains spaces,scripts,Minor,1
+aeda031727655806523fffec84973cd65d4bae62,ZOOKEEPER-1642,Bug,Leader loading database twice,None,Major,1
+8b4520f77760b2a7d35708f556dd23a05c95c6f7,ZOOKEEPER-1324,Improvement,Remove Duplicate NEWLEADER packets from the Leader to the Follower.,quorum,Critical,1
+f26bda98b95e5c3fc35c177cf8fb7a3898773d70,ZOOKEEPER-1706,Bug,Typo in Double Barriers example,documentation,Minor,1
+e1574fad8afabd0df5ff9433c5d968679c3d6f1d,ZOOKEEPER-1697,Bug,large snapshots can cause continuous quorum failure,server,Critical,1
+a51d8a94bc1150b55cd9fb6992cc5187e600184b,ZOOKEEPER-1697,Bug,large snapshots can cause continuous quorum failure,server,Critical,1
+925599c72bc35edb5ffa25c6cc839932573b01aa,ZOOKEEPER-1700,Bug,FLETest consistently failing - setLastSeenQuorumVerifier seems to be hanging,quorum,Critical,1
+b8306fa5a9e16da6981a2fdf2df059149687c7e4,ZOOKEEPER-1633,Bug,Introduce a protocol version to connection initiation message,server,Major,1
+5428cd4bc963c2e653a260c458a8a8edf3fa08ef,ZOOKEEPER-107,Improvement,Allow dynamic changes to server cluster membership,server,Major,1
+59358ab8833c83551c7f08dd91181c26d7e3b38f,ZOOKEEPER-1597,Bug,Windows build failing,c client,Major,1
+85f8053448871b9777e54e546a968f9c4d19ebbc,ZOOKEEPER-1647,Bug,OSGi package import/export changes not applied to bin-jar,None,Major,1
+e111d7ee149761a1e87dac2bebd6c7ebfe6cdcc3,ZOOKEEPER-1647,Bug,OSGi package import/export changes not applied to bin-jar,None,Major,1
+7b4847231e4d890b7c4b256f2995993b821d697d,ZOOKEEPER-1606,Bug,intermittent failures in ZkDatabaseCorruptionTest on jenkins,tests,Major,1
+684549caaa2bf6c741eea713b59336dfd2e9747d,ZOOKEEPER-1606,Bug,intermittent failures in ZkDatabaseCorruptionTest on jenkins,tests,Major,1
+36724d557a18fa9ee47873b18f6e963516930dbd,ZOOKEEPER-1648,Bug,Fix WatcherTest in JDK7,tests,Minor,1
+5676ddd01e4842ddd071eca657b73677a185b653,ZOOKEEPER-1641,Bug,Using slope=positive results in a jagged ganglia graph of packets rcvd/sent,contrib,Minor,1
+da74b8df26a4c80f405bd2ba37cac4dc7a594b4a,ZOOKEEPER-1645,Bug,ZooKeeper OSGi package imports not complete,None,Major,1
+c35f9b0303b3b4fae62802f43707a06528013906,ZOOKEEPER-1572,Improvement,Add an async interface for multi request,java client,Major,1
+2bbba7b876dab45f8d36888890cc37942f220cf2,ZOOKEEPER-1562,Bug,Memory leaks in zoo_multi API,c client,Trivial,1
+4d06d8dc96d964706064d80a0235d3d8a9ade52e,ZOOKEEPER-1601,Improvement,document changes for multi-threaded CommitProcessor and NIOServerCnxn,documentation,Major,1
+6386376b9bc5ff0d3e92f49cba3010a0f39f1226,ZOOKEEPER-1613,Bug,The documentation still points to 2008 in the copyright notice,documentation,Trivial,1
+00f754ec3e64778ba9319fdc69af15ebf17fc117,ZOOKEEPER-1613,Bug,The documentation still points to 2008 in the copyright notice,documentation,Trivial,1
+094d6a8a7741e816222b7d5582a83f9ff84c67e4,ZOOKEEPER-1615,Improvement,minor typos in ZooKeeper Programmer&apos;s Guide web page,documentation,Trivial,1
+a5b39b7f075cf0ee1f08ed295f85a18ad0abca89,ZOOKEEPER-1597,Bug,Windows build failing,c client,Major,1
+b200af37a7ddeae44bf74fcc96829625bf926a44,ZOOKEEPER-1495,Bug,ZK client hangs when using a function not available on the server.,server,Minor,1
+bb857582bab316abea48588375df98de51df9115,ZOOKEEPER-1495,Bug,ZK client hangs when using a function not available on the server.,server,Minor,1
+36b1c43ea1056084729489031bc100706ecec173,ZOOKEEPER-1625,Bug,zkServer.sh is looking for clientPort in config file  but it may no longer be there with ZK-1411,scripts,Major,1
+055e8e71767e287c4073efdbdfef944a7225ec5d,ZOOKEEPER-1324,Improvement,Remove Duplicate NEWLEADER packets from the Leader to the Follower.,quorum,Critical,1
+21ef61aa9663284e1e8fa82974514c8e84265ae2,ZOOKEEPER-1324,Improvement,Remove Duplicate NEWLEADER packets from the Leader to the Follower.,quorum,Critical,1
+af4d8207f372eb3b6e7a929017c4cdd035fae11c,ZOOKEEPER-1535,Bug,ZK Shell/Cli re-executes last command on exit,scripts,Major,1
+6206b495e0c7a8ff3bb7a30cbddf2dd8f02f6dfc,ZOOKEEPER-1504,Improvement,Multi-thread NIOServerCnxn,server,Major,1
+70a01502f040ce102dfeb82eaff0505c376d95ff,ZOOKEEPER-1334,Bug,Zookeeper 3.4.x is not OSGi compliant - MANIFEST.MF is flawed,None,Major,1
+e4d07112a6f1f68a6866a27e6bfec9b4e415c743,ZOOKEEPER-1578,Bug,org.apache.zookeeper.server.quorum.Zab1_0Test failed due to hard code with 33556 port,None,Major,1
+e179d718709afc61e4acfa0247679cd8e34684d0,ZOOKEEPER-1578,Bug,org.apache.zookeeper.server.quorum.Zab1_0Test failed due to hard code with 33556 port,None,Major,1
+ebc9340426143caf9b9452be4b93aae227abe5fc,ZOOKEEPER-1602,Bug,a change to QuorumPeerConfig&apos;s API broke compatibility with HBase,server,Blocker,1
+c800b4c9cb411ca5fa0e6a24e02a9776da937ee2,ZOOKEEPER-1584,Improvement,Adding mvn-install target for deploying the zookeeper artifacts to .m2 repository.,build,Minor,1
+75d592d0e4bdfcade93636d6f43563699741c788,ZOOKEEPER-1584,Improvement,Adding mvn-install target for deploying the zookeeper artifacts to .m2 repository.,build,Minor,1
+7db3ef7fab350d5a5c6c51088ad76af0089ce51e,ZOOKEEPER-1387,Bug,Wrong epoch file created,quorum,Minor,1
+c84f7ef14542dc1d3291e932932e6b6faf536944,ZOOKEEPER-1387,Bug,Wrong epoch file created,quorum,Minor,1
+57ee42b35cc7ada5ed87483e1bed1d80919100d9,ZOOKEEPER-1478,Bug,Small bug in QuorumTest.testFollowersStartAfterLeader( ),tests,Minor,1
+848898ee7bdb3f9a4e4f416f7fc64417083fc498,ZOOKEEPER-1478,Bug,Small bug in QuorumTest.testFollowersStartAfterLeader( ),tests,Minor,1
+3e4534d77dd0734c6d2dce0ba7f41f699d8ce180,ZOOKEEPER-1583,Improvement,Document maxClientCnxns in conf/zoo_sample.cfg,documentation,Critical,1
+4dc3c07561b6ef6e36b8189909ef6b2aaf8655fc,ZOOKEEPER-1583,Improvement,Document maxClientCnxns in conf/zoo_sample.cfg,documentation,Critical,1
+e11c460e05ff9051e06d4c6a78d7ebf802fa9bb8,ZOOKEEPER-1553,Bug,Findbugs configuration is missing some dependencies,build,Minor,1
+95468116d9366b3fffcd8ccf555951c5476b165f,ZOOKEEPER-1553,Bug,Findbugs configuration is missing some dependencies,build,Minor,1
+ba0a4eee5c5c7f9e54d4c2d15d918f15d2ad24cd,ZOOKEEPER-753,Bug,update log4j dependency from 1.2.15 to 1.2.16 in branch 3.4,None,Major,1
+179fda77564cd67f9756bbb7902d5a2a3eb67767,ZOOKEEPER-721,Improvement,Minor cleanup related to the log4j version change from 1.2.15 -&gt; 1.2.16,build,Minor,1
+8f2bc0523ce0638de19cbc3cb6ba1d2ae7b46cf4,ZOOKEEPER-1598,Improvement,Ability to support more digits in the version string,build,Major,1
+4ed40f05a649783c855b63d09a1b485eff2b9555,ZOOKEEPER-1598,Improvement,Ability to support more digits in the version string,build,Major,1
+6d7f3e08238e47fe2b66764ccee9c74deec99da9,ZOOKEEPER-1581,Bug,change copyright in notice to 2012,build,Major,1
+46a3dd2e240e069217d1779a366f88a9cfcca46f,ZOOKEEPER-1581,Bug,change copyright in notice to 2012,build,Major,1
+c50168a1ccd4396db05b781c36ee3a497a6ca370,ZOOKEEPER-1513,Bug,&quot;Unreasonable length&quot; exception while starting a server.,server,Major,1
+df984c4c438971f1fea05d9d1cb00742c0eb64e7,ZOOKEEPER-1513,Bug,&quot;Unreasonable length&quot; exception while starting a server.,server,Major,1
+b3892c673120e7fd8859f6d2c5f4d67d581ef658,ZOOKEEPER-1596,Bug,Zab1_0Test should ensure that the file is closed,None,Major,1
+8052a710bb3373adb5777e3f19037b0ee8c05608,ZOOKEEPER-1596,Bug,Zab1_0Test should ensure that the file is closed,None,Major,1
+b87749ab29e0d37d97f7c7dd8e916a94cb2e845a,ZOOKEEPER-1564,Improvement,Allow JUnit test build with IBM Java,tests,Major,1
+e8d3e1d74eab7234d5a31e1201819b8686bf4499,ZOOKEEPER-1505,Improvement,Multi-thread CommitProcessor,server,Major,1
+05acd0a720935baefc62d4f09c20edf5942b2100,ZOOKEEPER-1591,Bug,Windows build is broken because inttypes.h doesn&apos;t exist,c client,Major,1
+1bfa4c32be7eeda081024616b53bed5229d65c63,ZOOKEEPER-1474,Bug,Cannot build Zookeeper with IBM Java: use of Sun MXBean classes,build,Major,1
+ed622598737b8e8d374a4a883ccd9a966377dbff,ZOOKEEPER-1355,New Feature,Add zk.updateServerList(newServerList) ,java client,Major,1
+6682c8c66d9d6e67e0d3e76ac6d6d970c2ce95db,ZOOKEEPER-1560,Bug,Zookeeper client hangs on creation of large nodes,java client,Major,1
+6e5a25670346ddf5e4bc3b1598f8ec5e52699c09,ZOOKEEPER-1560,Bug,Zookeeper client hangs on creation of large nodes,java client,Major,1
+749e7be3368e6f23fdfca205cb2b7a98603b5c6e,ZOOKEEPER-1550,Bug,ZooKeeperSaslClient does not finish anonymous login on OpenJDK,java client,Blocker,1
+0aefdaa7b7d70dc3b1dbf69a0ce2a660d7f362e8,ZOOKEEPER-1238,Bug,when the linger time was changed for NIO the patch missed Netty,server,Major,1
+10705ba6e763eade42e8a2e54acabc181f5b2400,ZOOKEEPER-1496,Bug,Ephemeral node not getting cleared even after client has exited,server,Critical,1
+139d1d9c4b78424708b01f239211ed83e9279fc6,ZOOKEEPER-1496,Bug,Ephemeral node not getting cleared even after client has exited,server,Critical,1
+cbdb503206029dcecd227b24cbaac94602da06c2,ZOOKEEPER-1105,Bug,c client zookeeper_close not send CLOSE_OP request to server,c client,Major,1
+146441c55963f84b74033caad8439f22f1a3fa12,ZOOKEEPER-1105,Bug,c client zookeeper_close not send CLOSE_OP request to server,c client,Major,1
+c7d5d7625200caebe8614fc2f8f6bc1a174829d3,ZOOKEEPER-1483,Bug,Fix leader election recipe documentation,documentation,Major,1
+97b3c20cb8ab2f133572c9ec53c1ef2df57754c4,ZOOKEEPER-1483,Bug,Fix leader election recipe documentation,documentation,Major,1
+116e593ece0dc2b924130e31fd9a366891763d94,ZOOKEEPER-1494,Bug,C client: socket leak after receive timeout in zookeeper_interest(),c client,Major,1
+987635edac8aa374a04ea130dfd81a03a635bf0d,ZOOKEEPER-1437,Bug,Client uses session before SASL authentication complete,java client,Major,1
+cae51455dede772b8cca5f73052e955028fe3b96,ZOOKEEPER-1437,Bug,Client uses session before SASL authentication complete,java client,Major,1
+6742b20263138e1ff824cd291301d6b26a3ae278,ZOOKEEPER-1501,Bug,Nagios plugin always returns OK when it cannot connect to zookeeper,contrib,Major,1
+fae9cf72bd1d6be3eef15a1b8dd1a6556750e4a1,ZOOKEEPER-1501,Bug,Nagios plugin always returns OK when it cannot connect to zookeeper,contrib,Major,1
+9d52877a46776ab4bd3df919dd303992fddda4c9,ZOOKEEPER-1380,Bug,zkperl: _zk_release_watch doesn&apos;t remove items properly from the watch list,contrib-bindings,Major,1
+06e2871214d08ad36c6dbf69ae31d8ebad649e38,ZOOKEEPER-1105,Bug,c client zookeeper_close not send CLOSE_OP request to server,c client,Major,1
+b962fb16c797dce7db8a08ad0344eee999563a44,ZOOKEEPER-1328,Test,Misplaced assertion for the test case &apos;FLELostMessageTest&apos; and not identifying misfunctions,leaderElection,Major,1
+76159a4e0e349de530f66af1734acaf4ba76521f,ZOOKEEPER-1481,Improvement,allow the C cli to run exists with a watcher,c client,Major,1
+72291ee63d3bb4e5bdaa562bf26f744fb42f0760,ZOOKEEPER-1481,Improvement,allow the C cli to run exists with a watcher,c client,Major,1
+f1660f4af5f88405efe2a10c9f00fd4bf9bc451e,ZOOKEEPER-1536,Bug,c client : memory leak in winport.c,c client,Major,1
+b2fab8ac4a7b651885729b4e8dfb8999a4544bf1,ZOOKEEPER-1536,Bug,c client : memory leak in winport.c,c client,Major,1
+c89295cf05eef61ef7972cc35414cd6b505ead10,ZOOKEEPER-1497,Improvement,Allow server-side SASL login with JAAS configuration to be programmatically set (rather than only by reading JAAS configuration file),server,Major,1
+5a612b32100070866717d02bed5706baba8b8f12,ZOOKEEPER-1533,Bug,Correct the documentation of the args for the JavaExample doc.,documentation,Minor,1
+e57238c7328f6121c6908098cca227c15f4f8a6c,ZOOKEEPER-1514,Bug,FastLeaderElection - leader ignores the round information when joining a quorum,quorum,Critical,1
+6b79710224533848b99c2a0297591d29c06583a0,ZOOKEEPER-1514,Bug,FastLeaderElection - leader ignores the round information when joining a quorum,quorum,Critical,1
+0a080a18d4d827dbc72b324b68c34374c370110d,ZOOKEEPER-1510,Improvement,Should not log SASL errors for non-secure usage,java client,Minor,1
+60a702955b96c2373d2b87ad02bd952e2e7dcf5f,ZOOKEEPER-1510,Improvement,Should not log SASL errors for non-secure usage,java client,Minor,1
+a9d0ec71682811ececc47c776b8cb1144cb21e15,ZOOKEEPER-1510,Improvement,Should not log SASL errors for non-secure usage,java client,Minor,1
+62a4165a376c7aff4675e43d7624ed5accf3dcf9,ZOOKEEPER-1510,Improvement,Should not log SASL errors for non-secure usage,java client,Minor,1
+5ed71e34307d4cd763058a3c9a7302c8650ef437,ZOOKEEPER-1503,Improvement,remove redundant JAAS configuration code in SaslAuthTest and SaslAuthFailTest,None,Major,1
+13e537edc65866cb019db72c89414537d9d28258,ZOOKEEPER-1503,Improvement,remove redundant JAAS configuration code in SaslAuthTest and SaslAuthFailTest,None,Major,1
+63542a1390b8e13039187492fea301cc8c2e8bd4,ZOOKEEPER-1522,Bug,intermittent failures in Zab test due to NPE in recursiveDelete test function,tests,Major,1
+0679a863ae20345c3b928743a9b42dfbf14a0738,ZOOKEEPER-1522,Bug,intermittent failures in Zab test due to NPE in recursiveDelete test function,tests,Major,1
+d3923877494182b42d6ba677713a800b8ec84a93,ZOOKEEPER-1493,Bug,C Client: zookeeper_process doesn&apos;t invoke completion callback if zookeeper_close has been called,c client,Major,1
+3c906d668041a13fc6ff4ccf5ab7b9a6c85eda0f,ZOOKEEPER-1493,Bug,C Client: zookeeper_process doesn&apos;t invoke completion callback if zookeeper_close has been called,c client,Major,1
+10d8f6e3e26de0549defdb22d67ca4231811e543,ZOOKEEPER-1521,Bug,LearnerHandler initLimit/syncLimit problems specifying follower socket timeout limits,server,Critical,1
+319190660ccc69544de1f36ade16be9c38b8d3e2,ZOOKEEPER-1521,Bug,LearnerHandler initLimit/syncLimit problems specifying follower socket timeout limits,server,Critical,1
+ca4b3f356af910b225d3a739bd9393c7663b2693,ZOOKEEPER-1489,Bug,Data loss after truncate on transaction log,server,Blocker,1
+43eedab16b074f7b87da98ac0af60092bb0c52fd,ZOOKEEPER-1489,Bug,Data loss after truncate on transaction log,server,Blocker,1
+8d40a27467396ee1e86725d0fdb551ace1b5184b,ZOOKEEPER-1427,Bug,Writing to local files is done non-atomically,server,Critical,1
+e2ad1053563537bd815dad63482b61bd34d5143d,ZOOKEEPER-1427,Bug,Writing to local files is done non-atomically,server,Critical,1
+a67fc848f0da853802de083c4a89959c68d31b58,ZOOKEEPER-1465,Bug,Cluster availability following new leader election takes a long time with large datasets - is correlated to dataset size,leaderElection,Critical,1
+7cd7a41704d36186db29a9e201255e94fe77bb18,ZOOKEEPER-1454,Improvement,Document how to run autoreconf if cppunit is installed in a non-standard directory,c client,Trivial,1
+30272b57234fbf79daacfbe0a4220fd1c686212c,ZOOKEEPER-1471,Bug,Jute generates invalid C++ code,jute,Minor,1
+a17ca1544fabfa9fa93ba7d7da7efa7ce3b96efc,ZOOKEEPER-1236,Bug,Security uses proprietary Sun APIs,server,Major,1
+aece51d51b3e98177610d164e8039f24b38af868,ZOOKEEPER-1236,Bug,Security uses proprietary Sun APIs,server,Major,1
+3ddd007e1fb6f7b63e864f6d0d375c62d1b50015,ZOOKEEPER-1210,Bug,Can&apos;t build ZooKeeper RPM with RPM &gt;= 4.6.0 (i.e. on RHEL 6 and Fedora &gt;= 10),build,Minor,1
+b5dc0ec3c64a85cf194ef14e7dc5dda4140306cd,ZOOKEEPER-1490,Bug, If the configured log directory does not exist zookeeper will not start. Better to create the directory and start,scripts,Minor,1
+7921c4d4c663c22d3f233f2762d3ddab13214860,ZOOKEEPER-1490,Bug, If the configured log directory does not exist zookeeper will not start. Better to create the directory and start,scripts,Minor,1
+9e2acc07bbba575074b638d9ebc2b17c1a8a063d,ZOOKEEPER-1466,Bug,QuorumCnxManager.shutdown missing synchronization,quorum,Blocker,1
+51aba88122c95aa295beed3d23d57871c0567291,ZOOKEEPER-1466,Bug,QuorumCnxManager.shutdown missing synchronization,quorum,Blocker,1
+1f80586b87f8a713ab17e163f92562a41ad484ff,ZOOKEEPER-1163,Bug,Memory leak in zk_hashtable.c:do_insert_watcher_object(),c client,Major,1
+e969c29dcd9fcd0b470ef68b4b0b08387a471746,ZOOKEEPER-1431,Bug,zkpython: async calls leak memory,contrib-bindings,Major,1
+62260696bff73b1f680ca52ae2fd79b2e875fe24,ZOOKEEPER-1431,Bug,zkpython: async calls leak memory,contrib-bindings,Major,1
+136215a230a52a2bda8879bc1edce14fb52b99a1,ZOOKEEPER-1318,Bug,In Python binding  get_children (and get and exists  and probably others) with expired session doesn&apos;t raise exception properly,contrib-bindings,Major,1
+bc7ca9b2aaa351d040e46a94237c6b8368e3f208,ZOOKEEPER-1339,Bug,C clien doesn&apos;t build with --enable-debug,c client,Major,1
+a7b48e56f5de8e623502b8e3333ef1e4070aac84,ZOOKEEPER-1048,Bug,addauth command does not work in cli_mt/cli_st,c client,Major,1
+45610e9d83a005f2beb8b56a04954a70dedb171c,ZOOKEEPER-1048,Bug,addauth command does not work in cli_mt/cli_st,c client,Major,1
+7bf199eb4df4537adca112c7962e200a87d2666d,ZOOKEEPER-1411,Sub-task,Consolidate membership management  distinguish between static and dynamic configuration parameters,server,Major,1
+e68d6002688f02051d6d3e8e6f88a7e411d85f9e,ZOOKEEPER-1450,Task,Backport ZOOKEEPER-1294 fix to 3.4 and 3.3,server,Major,2
+ ,ZOOKEEPER-1294,Bug,One of the zookeeper server is not accepting any requests,server,Major
+1e63b65bfe6e35ef80e11e682071be9e9fc84e5c,ZOOKEEPER-1432,Improvement,Add javadoc and debug logging for checkACL() method in PrepRequestProcessor,server,Major,1
+1d5b5b9799e8bb255d5ea5a45d29d9580048038a,ZOOKEEPER-1395,Bug,node-watcher double-free redux,contrib-bindings,Critical,1
+58970ee5dd534a685cd0a73c9d3ffba8fc73bfe9,ZOOKEEPER-1395,Bug,node-watcher double-free redux,contrib-bindings,Critical,1
+aa3bf1b886931f890b7b955c922c1da9a8eb5a63,ZOOKEEPER-1433,Improvement,improve ZxidRolloverTest (test seems flakey),tests,Major,1
+9eed31c5d9d8285a89b5cd10d2ae0a0627d010b5,/,/,    cap space usage of default log4j rolling policy (phunt via henryr),/,/,0
+1b4bee7a2489928555712aa709bf06b5a4242ed8,ZOOKEEPER-1256,Bug,ClientPortBindTest is failing on Mac OS X,tests,Major,1
+e5a51ead53813843ad8b9448845fd2332757c757,ZOOKEEPER-1419,Bug,Leader election never settles for a 5-node cluster,leaderElection,Blocker,1
+69a921d45cf0217ff5acc78acf1206265572f60e,ZOOKEEPER-1384,Bug,test-cppunit overrides LD_LIBRARY_PATH and fails if gcc is in non-standard location,tests,Minor,1
+f0113e70c35418b6d7136a80d4ed3b715c043684,ZOOKEEPER-1384,Bug,test-cppunit overrides LD_LIBRARY_PATH and fails if gcc is in non-standard location,tests,Minor,1
+ea075da3f240226ccce2a80ba997e31dc97b36ee,ZOOKEEPER-1377,Improvement,add support for dumping a snapshot file content (similar to LogFormatter),server,Major,1
+bc38ec61b24cca95757ce31bd37e76919a3d04c2,ZOOKEEPER-1377,Improvement,add support for dumping a snapshot file content (similar to LogFormatter),server,Major,1
+a56a41ee813e5b62002fa375018bc452496ea5e5,ZOOKEEPER-1403,Bug,zkCli.sh script quoting issue,scripts,Minor,1
+647740f30ef9f72b92fd5f2864884f52732fcd2c,ZOOKEEPER-1403,Bug,zkCli.sh script quoting issue,scripts,Minor,1
+99a6dfe2a75694a6a46892c99f3db88b14d99e55,ZOOKEEPER-1406,Bug,dpkg init scripts don&apos;t restart - missing check_priv_sep_dir,scripts,Major,1
+ddd1481372d49988289f5032777885ae5910b157,ZOOKEEPER-271,Improvement,Better command line parsing in ZookeeperMain.,java client,Minor,1
+03157aae3ed48b3e4462126efa453dcf29603e61,ZOOKEEPER-1397,Improvement,Remove BookKeeper documentation links,None,Major,1
+960f23b681f21b5f86e85c2571770d2f42b2cbe9,ZOOKEEPER-1390,Improvement,some expensive debug code not protected by a check for debug,server,Major,1
+53cbcc6086b8170e7f7671c5ddbb474c41893c02,ZOOKEEPER-1390,Improvement,some expensive debug code not protected by a check for debug,server,Major,1
+00d9708df5eb531225cbf82707da08f7cfe9d334,ZOOKEEPER-1307,Bug,zkCli.sh is exiting when an Invalid ACL exception is thrown from setACL command through client,java client,Minor,1
+9ab32ca0dfe9ba49a26c08560d39d444fd775e4a,ZOOKEEPER-1307,Bug,zkCli.sh is exiting when an Invalid ACL exception is thrown from setACL command through client,java client,Minor,1
+acd5072862024c295cbcea3481896a160bb87588,ZOOKEEPER-1344,Bug,ZooKeeper client multi-update command is not considering the Chroot request,java client,Critical,1
+cbe58afeeccca6acd532968ddb32833ed65021b8,ZOOKEEPER-1344,Bug,ZooKeeper client multi-update command is not considering the Chroot request,java client,Critical,1
+6126fa94ec7f0ae7fdd917f2d3f08d62e7634104,ZOOKEEPER-1412,Bug,java client watches inconsistently triggered on reconnect,server,Blocker,1
+655b2e3f0a047d6b6db9e4cdb581a84a54f5366c,ZOOKEEPER-1412,Bug,java client watches inconsistently triggered on reconnect,server,Blocker,1
+a0ef2911dcef777dcfd0a4d5e8d63cdf280c9b60,ZOOKEEPER-1277,Bug,servers stop serving when lower 32bits of zxid roll over,server,Critical,1
+0ddcea51e8107dee09107d4c09fe049a9ecb5733,ZOOKEEPER-1161,New Feature,Provide an option for disabling auto-creation of the data directory,server,Major,1
+683667ac693f4b1f4a5d7f94e6f4125eb5641b90,ZOOKEEPER-1354,Bug,AuthTest.testBadAuthThenSendOtherCommands fails intermittently,tests,Major,1
+257a00aa97cd21c967ad620c3119a86295f1b794,ZOOKEEPER-1361,Bug,Leader.lead iterates over &apos;learners&apos; set without proper synchronisation,None,Major,1
+375779d52ca424a2c7319c5b55d19f70cc18661d,ZOOKEEPER-1386,Bug,avoid flaky URL redirection in &quot;ant javadoc&quot; : replace &quot;http://java.sun.com/javase/6/docs/api/&quot; with &quot;http://download.oracle.com/javase/6/docs/api/&quot; ,documentation,Minor,1
+6fbafc38df5cfe451670dce6d70da2fd43747ccb,ZOOKEEPER-1386,Bug,avoid flaky URL redirection in &quot;ant javadoc&quot; : replace &quot;http://java.sun.com/javase/6/docs/api/&quot; with &quot;http://download.oracle.com/javase/6/docs/api/&quot; ,documentation,Minor,1
+a1d17f2c50dd2d4f3074e7a5f7cccba4ab27034c,ZOOKEEPER-1389,Improvement,it would be nice if start-foreground used exec $JAVA in order to get rid of the intermediate shell process,server,Major,1
+1c3ac516c2f355576d3787cb6763f86b46c9df78,ZOOKEEPER-1389,Improvement,it would be nice if start-foreground used exec $JAVA in order to get rid of the intermediate shell process,server,Major,1
+aac445463b7f4842863eec9ab2661cfa8a7ea33e,ZOOKEEPER-1321,Improvement,Add number of client connections metric in JMX and srvr,None,Major,1
+78a36341311f7846d3e78ef748e52fcf9b484114,ZOOKEEPER-1321,Improvement,Add number of client connections metric in JMX and srvr,None,Major,1
+380f215748cec7772cee5bb4165cd098e88abc30,ZOOKEEPER-1338,Bug,class cast exceptions may be thrown by multi ErrorResult class (invalid equals),java client,Major,1
+e657907115bc2bb53c72e7c696ff949e1db21a02,ZOOKEEPER-1338,Bug,class cast exceptions may be thrown by multi ErrorResult class (invalid equals),java client,Major,1
+c7641688a59babe0ba9069d4324034f3c7847feb,ZOOKEEPER-1337,Test,multi&apos;s &quot;Transaction&quot; class is missing tests.,java client,Minor,1
+fad4d0ac5221715942304bae0d2ff63cd9bd7afe,ZOOKEEPER-1337,Test,multi&apos;s &quot;Transaction&quot; class is missing tests.,java client,Minor,1
+a804b0a810501e2359bb901d1f510bae041ba110,ZOOKEEPER-1374,Bug,C client multi-threaded test suite fails to compile on ARM architectures.,c client,Minor,1
+da05446a9fc849fba0c27f77478c8762e86bfb03,ZOOKEEPER-1374,Bug,C client multi-threaded test suite fails to compile on ARM architectures.,c client,Minor,1
+67c9a3b06e8959500d1e0677c0b9e1e327040d5a,ZOOKEEPER-1340,Bug,multi problem - typical user operations are generating ERROR level messages in the server,server,Major,1
+477ebb005617d6bd9862aea59e84e85c5b4fbacf,ZOOKEEPER-1340,Bug,multi problem - typical user operations are generating ERROR level messages in the server,server,Major,1
+0b50488351af8395034f7ac28182d7984582307d,ZOOKEEPER-1327,Bug,there are still remnants of hadoop urls,None,Major,1
+6465986efec9588492f55081778c6b7b09a114f4,ZOOKEEPER-1327,Bug,there are still remnants of hadoop urls,None,Major,1
+2c2df31a65f4684488fead999687569dcb995a1d,ZOOKEEPER-1336,Bug,javadoc for multi is confusing  references functionality that doesn&apos;t seem to exist ,java client,Major,1
+60ff341b8b2080c6ffae5be887a3897ca201aafb,ZOOKEEPER-1336,Bug,javadoc for multi is confusing  references functionality that doesn&apos;t seem to exist ,java client,Major,1
+93821df1aa83099b680ed9cda0b1fd1c8e073cc8,ZOOKEEPER-1352,Bug,server.InvalidSnapshotTest is using connection timeouts that are too short,tests,Major,1
+97bdb8e94963857be25fd69eada9212c2d6f19d1,ZOOKEEPER-1352,Bug,server.InvalidSnapshotTest is using connection timeouts that are too short,tests,Major,1
+498ac802ef7e1051414925cf77fdcd7d248fb2bb,ZOOKEEPER-1322,Improvement,Cleanup/fix logging in Quorum code.,server,Major,1
+5ddc24bf36fcc1e509302d0caef074f9c827e0b1,ZOOKEEPER-1322,Improvement,Cleanup/fix logging in Quorum code.,server,Major,1
+7e60b96abb558b77cee78d78442952ec1506638a,ZOOKEEPER-1373,Bug,Hardcoded SASL login context name clashes with Hadoop security configuration override,java client,Major,1
+f910c936e37505a31ed8c140daa5bbee448c444f,ZOOKEEPER-1373,Bug,Hardcoded SASL login context name clashes with Hadoop security configuration override,java client,Major,1
+500e7b4943c138c4665b026aad542d4ba7d0161c,ZOOKEEPER-1353,Bug,C client test suite fails consistently,tests,Minor,1
+676fde7642711bc729e0dd00e644f9d6659db97e,ZOOKEEPER-1353,Bug,C client test suite fails consistently,tests,Minor,1
+1b7c4fe9f3fbc4c0a16cc083792878b8938740f3,ZOOKEEPER-1367,Bug,Data inconsistencies and unexpired ephemeral nodes after cluster restart,server,Blocker,1
+73af50a8a91cee9d3d95a373df7ecb12825f5545,ZOOKEEPER-1367,Bug,Data inconsistencies and unexpired ephemeral nodes after cluster restart,server,Blocker,1
+28a72efde5ee00bccbfe3ebfed388cc921221baa,ZOOKEEPER-973,Bug,bind() could fail on Leader because it does not setReuseAddress on its ServerSocket ,server,Trivial,1
+568940921eb9c79e7f99d096970521c96cdf5588,ZOOKEEPER-973,Bug,bind() could fail on Leader because it does not setReuseAddress on its ServerSocket ,server,Trivial,1
+7ac9e2593a943f64898413423250c6c476ac1ad9,ZOOKEEPER-1351,Bug,invalid test verification in MultiTransactionTest,tests,Major,1
+4ccd368e4fd6982c73b3c18c5eb27d63cc9608d0,ZOOKEEPER-1351,Bug,invalid test verification in MultiTransactionTest,tests,Major,1
+c85c3a1790f281f58e57e73a2a2e078ec2b31651,ZOOKEEPER-1358,Bug,In StaticHostProviderTest.java  testNextDoesNotSleepForZero tests that hostProvider.next(0) doesn&apos;t sleep by checking that the latency of this call is less than 10sec,None,Trivial,1
+f7409be3355720638e6416bfebac128c97e2eaeb,ZOOKEEPER-1050,Bug,zooinspector shell scripts do not work,contrib,Trivial,1
+bacc7aad8006a26330a3a46d6eff6f587add8694,ZOOKEEPER-1343,Bug,getEpochToPropose should check if lastAcceptedEpoch is greater or equal than epoch,None,Critical,1
+1a556bd13b9a1e250ec2279fb3ba92dc9ba2d69c,ZOOKEEPER-1343,Bug,getEpochToPropose should check if lastAcceptedEpoch is greater or equal than epoch,None,Critical,1
+0d9b77c62b029a29066a86048d0bdf501b3d5372,ZOOKEEPER-1345,Improvement,Add a .gitignore file with general exclusions and Eclipse project files excluded,build,Trivial,1
+00a6861f922b55cbfeec3eb928be2b57ddf99780,ZOOKEEPER-1089,Bug,zkServer.sh status does not work due to invalid option of nc,scripts,Major,1
+afecb3a1af0260c1cacce52d8149d94360569125,ZOOKEEPER-1089,Bug,zkServer.sh status does not work due to invalid option of nc,scripts,Major,1
+aa52c5de1f5f72eb95d5cc3472a82cc4bd0b6354,ZOOKEEPER-1292,Improvement,FLETest is flaky,leaderElection,Major,1
+97979b7f150b137aedecb2d3560f87ec545d8912,/,/,    Preparing for release 3.4.2,/,/,0
+c85f61aee240e03fdebb31ce094f5b7c07619e34,ZOOKEEPER-1333,Bug,NPE in FileTxnSnapLog when restarting a cluster,server,Blocker,1
+779f15dc05487b02ffe56fe2f2c9d1f0e5a977b4,ZOOKEEPER-1333,Bug,NPE in FileTxnSnapLog when restarting a cluster,server,Blocker,1
+595c94c20d0787bbd0a1fcb7f094dd368687f67f,ZOOKEEPER-1232,Improvement,remove unused o.a.z.server.util.Profiler,None,Minor,1
+5309ab461cc817ad878b6d6379d00b39c8365945,ZOOKEEPER-1323,Bug,c client doesn&apos;t compile on freebsd,c client,Major,1
+5040b7eb0e5f2917789a2119da0e3cdbc30bd8c1,ZOOKEEPER-1220,Bug,./zkCli.sh &apos;create&apos; command is throwing ArrayIndexOutOfBoundsException,scripts,Major,1
+fba536ba82fa3678d93ada4f501f22f3d3104ce9,ZOOKEEPER-1269,Bug,Multi deserialization issues,server,Major,1
+e44601d1249ea70b5bfa514082c714640c6217dd,ZOOKEEPER-1269,Bug,Multi deserialization issues,server,Major,1
+09112fa12a462ea0be8a1637c1db60615f40002f,ZOOKEEPER-1319,Bug,Missing data after restarting+expanding a cluster,None,Blocker,1
+22e2d238cdae7ff77ae69bcad3876d2f0fd3dd84,ZOOKEEPER-1319,Bug,Missing data after restarting+expanding a cluster,None,Blocker,1
+6043fda33e86a1129a9767483ab70df6f0490173,ZOOKEEPER-1317,Bug,Possible segfault in zookeeper_init,c client,Minor,1
+2ba1042522f4dd686b2287acb55b1a53c289e5a1,ZOOKEEPER-1317,Bug,Possible segfault in zookeeper_init,c client,Minor,1
+7be8837d34cfa8da501cb2edf3186d8acd8ce7c3,ZOOKEEPER-1315,Bug,zookeeper_init always reports sessionPasswd=&lt;hidden&gt;,c client,Minor,1
+f5bd98679876cef7b2509650a44c78442a694071,ZOOKEEPER-1315,Bug,zookeeper_init always reports sessionPasswd=&lt;hidden&gt;,c client,Minor,1
+b73b1f14628054c06da78f2d6a9cdd2a614a1cbc,ZOOKEEPER-1316,Bug,zookeeper_init leaks memory if chroot is just &apos;/&apos;,c client,Minor,1
+c159afdac6fc0ebf22fcf1daf7af93c0bc8985f3,ZOOKEEPER-1262,Bug,Documentation for Lock recipe has major flaw,documentation,Major,1
+9ddd18ea1ada2342da3a7b339356259f4cd39473,ZOOKEEPER-1305,Bug,zookeeper.c:prepend_string func can dereference null ptr,c client,Major,1
+73b1dee463d2a51faeb03ceaae9eaedd13c6b79c,ZOOKEEPER-1311,Bug,ZooKeeper test jar is broken,None,Blocker,1
+37650121dfca510dc34d2560c9f5354ce1700186,ZOOKEEPER-1299,Bug,Add winconfig.h file to ignore in release audit.,None,Major,1
+15ab2a328c0cebd5eca7266d6c31a368b60f696b,ZOOKEEPER-1299,Bug,Add winconfig.h file to ignore in release audit.,None,Major,1
+92b4bd14c5279670bd9f54306434d56295243d07,/,/,    Preparing for release 3.4.0 take 3,/,/,0
+dad9038097c9ae699a32f812c6aa4410bf63b735,ZOOKEEPER-1239,Improvement,add logging/stats to identify fsync stalls,server,Major,1
+bea47d0fe7ca358ff145fd2c0c68fbf1748960e0,ZOOKEEPER-1239,Improvement,add logging/stats to identify fsync stalls,server,Major,1
+fa9e821e91d5c007593f830dcc4553a3f05b1038,ZOOKEEPER-1208,Bug,Ephemeral node not removed after the client session is long gone,None,Blocker,1
+d28208909bb3564c86279729e0849b1493974ac4,ZOOKEEPER-1208,Bug,Ephemeral node not removed after the client session is long gone,None,Blocker,1
+5b9c8d14c1ec18b3e405c30ec3e141df8b82e265,ZOOKEEPER-1251,Sub-task,call checkSession at begin of PrepRequestProcessor.pRequest,None,Major,1
+051c2848f96b46bbab989ba49b5b9fc04c94faf6,/,/,    Preparing for release 3.4.0 - take 2,/,/,0
+f8f15de5fe447409a2987262b8e878be224dab25,ZOOKEEPER-1264,Bug,FollowerResyncConcurrencyTest failing intermittently,tests,Blocker,3
+ ,ZOOKEEPER-1282,Sub-task,Learner.java not following Zab 1.0 protocol - setCurrentEpoch should be done upon receipt of NEWLEADER (before acking it) and not upon receipt of UPTODATE,server,Major
+ ,ZOOKEEPER-1291,Sub-task,AcceptedEpoch not updated at leader before it proposes the epoch to followers,server,Major
+288830d3157d310fb3d66fc036ef3a80dc6dcdd1,ZOOKEEPER-1270,Bug,testEarlyLeaderAbandonment failing intermittently  quorum formed  no serving.,server,Blocker,1
+73674f77cc30b9b0ed36f0032193362363c54bdd,ZOOKEEPER-1270,Bug,testEarlyLeaderAbandonment failing intermittently  quorum formed  no serving.,server,Blocker,1
+605a4e23d0cf3aabe17739c569d8ccd91db90a1e,ZOOKEEPER-1271,Bug,testEarlyLeaderAbandonment failing on solaris - clients not retrying connection,java client,Blocker,1
+736e27df12ffab4139aec95207c7fef1ca114509,ZOOKEEPER-1271,Bug,testEarlyLeaderAbandonment failing on solaris - clients not retrying connection,java client,Blocker,1
+50851134a2b4c79f1cd33f0064f2ab641569cdc5,ZOOKEEPER-1246,Sub-task,Dead code in PrepRequestProcessor catch Exception block,None,Blocker,1
+48d66e2e0d207727ba70396efa9ba559f63febd7,ZOOKEEPER-1246,Sub-task,Dead code in PrepRequestProcessor catch Exception block,None,Blocker,1
+aa786021bc3939ee79f8fde0a3fbcfbdeff69272,ZOOKEEPER-1268,Bug,problems with read only mode  intermittent test failures and ERRORs in the log,server,Blocker,1
+3926cb41e43629d1fea88b13cd8b0a9e5a4acec8,ZOOKEEPER-1268,Bug,problems with read only mode  intermittent test failures and ERRORs in the log,server,Blocker,1
+3994a2aa08ef1f5b7de7da9ebcbe61554dac07e4,ZOOKEEPER-1264,Bug,FollowerResyncConcurrencyTest failing intermittently,tests,Blocker,1
+d00f43a19bd42060ee2375ffbcab4653f6927778,ZOOKEEPER-1264,Bug,FollowerResyncConcurrencyTest failing intermittently,tests,Blocker,1
+9ac5756b18d377774f49064e6e1de3f39d059b87,ZOOKEEPER-1216,Sub-task,Fix more eclipse compiler warnings  also in Tests,None,Minor,1
+36cf6e64f92a57588a19a26c4652157b4e6e265f,/,/,    Preparing for release 3.4.0,/,/,0
+f5dcbad128356f8b5065311243f8c357d699bac7,ZOOKEEPER-1241,Bug,Typo in ZooKeeper Recipes and Solutions documentation,documentation,Minor,1
+4e2ed1fe356c0ea5f04a19386dc93d7ed31c5eff,ZOOKEEPER-1181,Bug,Fix problems with Kerberos TGT renewal,server,Major,1
+2dfda92bd1290fe7326191b66c5b7c1db9d7e073,ZOOKEEPER-1193,Task,Remove upgrade code,None,Minor,1
+13dade11ad4b31b88c526bd7ea17d9cdb4bee48e,ZOOKEEPER-1086,Bug,zookeeper test jar has non mavenised dependency.,None,Major,1
+9ea4f145f21fb4920e45962db3e1b0c8c9ef7bec,ZOOKEEPER-1226,Sub-task,extract version check in separate method in PrepRequestProcessor,None,Major,1
+6e7b73e04ee965c2692ea325251b90be4139621a,ZOOKEEPER-1190,Bug,ant package is not including many of the bin scripts in the package (zkServer.sh for example),build,Blocker,1
+2bde61ba9287a97a4c38ab48a4a270789cebad15,ZOOKEEPER-1190,Bug,ant package is not including many of the bin scripts in the package (zkServer.sh for example),build,Blocker,1
+ac5a3202ca0f77c91a25fe4283d228f041a6a089,ZOOKEEPER-1212,Bug,zkServer.sh stop action is not conformat with LSB para 20.2&#160;Init&#160;Script&#160;Actions,scripts,Major,1
+a83e0382c1c6b1de6f7d602bcfdbbf69c69cc015,ZOOKEEPER-1212,Bug,zkServer.sh stop action is not conformat with LSB para 20.2&#160;Init&#160;Script&#160;Actions,scripts,Major,1
+13fbec9cedefbdcb6e9f9dfeefd164308bf97dc0,ZOOKEEPER-1206,Bug,Sequential node creation does not use always use digits in node name given certain Locales.,server,Minor,1
+7307c9825187d3f3debf3b252ad5590965d9b56d,ZOOKEEPER-1206,Bug,Sequential node creation does not use always use digits in node name given certain Locales.,server,Minor,1
+e14e50ff4736224212bfc8f1ba038b595fc5759a,ZOOKEEPER-1201,Sub-task,Clean SaslServerCallbackHandler.java,None,Blocker,1
+c09f6b1a62dcd74345d8ba05b2a8ba564985d267,ZOOKEEPER-1201,Sub-task,Clean SaslServerCallbackHandler.java,None,Blocker,1
+a3d8b27678e27e8fec3172e5b5538807e0c191e5,ZOOKEEPER-1174,Bug,FD leak when network unreachable,java client,Critical,1
+6ac2b1c478346922ddd95aad0931ab5db833d5a7,ZOOKEEPER-1203,Bug,Zookeeper systest is missing Junit Classes ,tests,Major,1
+3e0f530825ec613d4d527afb311f43e1d164298c,ZOOKEEPER-1185,Bug,Send AuthFailed event to client if SASL authentication fails,java client,Major,1
+7e64875f9d18cb043adbddc53c73e563886942ea,ZOOKEEPER-1185,Bug,Send AuthFailed event to client if SASL authentication fails,java client,Major,1
+f91e30d39d4a7772df5101ddcb374f1c8fed7a85,ZOOKEEPER-1189,Bug,For an invalid snapshot file(less than 10bytes size) RandomAccessFile stream is leaking.,server,Major,1
+336888446c310494f1ae1e39b81dc5a60cb5576f,ZOOKEEPER-1176,Task,Remove dead code and basic cleanup in DataTree,None,Major,1
+f31947ab7266202c5af695890fbbec5de787b3da,ZOOKEEPER-1182,Task,Make findbugs usable in Eclipse,None,Minor,1
+36c523da2a315327554f4194578b114ab8d8554c,ZOOKEEPER-2223,Improvement,support method-level JUnit testcase,tests,Minor,1
+6eb87047bfbffddad60bb902c11c4ef70a4b1fa0,ZOOKEEPER-2140,Improvement,NettyServerCnxn and NIOServerCnxn code should be improved,None,Major,1
+1e71c47b02292d6f25ca88ee7343d276fdc4b809,ZOOKEEPER-1366,Bug,Zookeeper should be tolerant of clock adjustments,None,Critical,1
+b7efd9790b5305b88b41718f21cead2ab060e1d6,ZOOKEEPER-1994,Improvement,Backup config files.,server,Major,1
+43d71c2eaf7692940c374800300d886b712643bb,ZOOKEEPER-3032,Sub-task,Step 1.6 - Create zk-server maven structure,scripts,Major,1
+26012313d3cb020ee3097a3b4cf46c9f6ae109c7,ZOOKEEPER-3113,Bug,EphemeralType.get() fails to verify ephemeralOwner when currentElapsedTime() is small enough,server,Critical,1
+3ce1b18b7c385e6e364bfdb1347b46e02ace537d,ZOOKEEPER-3032,Sub-task,Step 1.6 - Create zk-server maven structure,scripts,Major,1
+d69c3c201c5401d7baa040b5fa529aced273e318,ZOOKEEPER-3080,Sub-task,Step 1.5 - Separate jute structure,scripts,Major,1
+eab8c1eb2769e9321834a0ba5eff47bafa9292e0,ZOOKEEPER-3030,Sub-task,Step 1.3 - Create zk-contrib maven structure,scripts,Major,1
+602cbe07f3179dff1f3f6a7605d3aa42c0380024,ZOOKEEPER-3097,Improvement,Use Runnable instead of Thread for working items in WorkerService to improve the throughput of CommitProcessor,server,Minor,1
+f70716164481e535693840945598ae4fb8be745d,ZOOKEEPER-2993,Bug,.ignore file prevents adding src/java/main/org/apache/jute/compiler/generated dir to git repo,build,Minor,1
+049ac3322a1c0028b1bbd67020302537a56b7476,ZOOKEEPER-3911,Bug,Data inconsistency caused by DIFF sync uncommitted log,server,Critical,1
+31032cf9818559da3500607378525b631aae02ab,ZOOKEEPER-3911,Bug,Data inconsistency caused by DIFF sync uncommitted log,server,Critical,1
+1332b0d049f60239cc3001f9bf49b83444ec8cab,ZOOKEEPER-3737,Bug,Unable to eliminate log4j1 transitive dependency,server,Major,1
+1fba111142c224104a3879af6dd97ac74efda965,ZOOKEEPER-3734,Task,upgrade jackson-databind to address CVE-2020-8840,security,Blocker,1
+c01aef824b556f68085a8bbeeaf379172c2bf8a4,ZOOKEEPER-3734,Task,upgrade jackson-databind to address CVE-2020-8840,security,Blocker,1
+d4681c7bda159fac7aa864b0c71074ce95feaf38,ZOOKEEPER-3720,Improvement,Rolling upgrade failure due to invalid protocol version,None,Major,3
+ ,ZOOKEEPER-3188,Improvement,Improve resilience to network,None,Major
+ ,ZOOKEEPER-3720,Improvement,Rolling upgrade failure due to invalid protocol version,None,Major
+824d26f92b4b5577e4386d7d8798c47830287bd1,ZOOKEEPER-3710,Bug,[trivial bug] fix compile error in PurgeTxnTest introduced by ZOOKEEPER-3231,tests,Trivial,3
+ ,ZOOKEEPER-3231,Bug, Purge task may lost data when the recent snapshots are all invalid,server,Major
+ ,ZOOKEEPER-3710,Bug,[trivial bug] fix compile error in PurgeTxnTest introduced by ZOOKEEPER-3231,tests,Trivial
+80947563c892e084569a05f4f1c2637c08379172,ZOOKEEPER-3715,Improvement,Kerberos Authentication related tests fail for new JDK versions,None,Major,1
+5bf63d7773b3f20a5da56ba94b839ee977dfcd98,/,/,    Update release notes for 3.6.0rc2,/,/,0
+e45b5a873aa1e238c753413e73ff81962ab991d4,ZOOKEEPER-3703,Improvement,Publish a Test-Jar from ZooKeeper Server,tests,Major,3
+ ,ZOOKEEPER-102,Improvement,Need to replace Jute with supported code,None,Major
+ ,ZOOKEEPER-3703,Improvement,Publish a Test-Jar from ZooKeeper Server,tests,Major
+4d36edeb13701f91c5154d086cb47b1a9153270d,ZOOKEEPER-3716,Bug,upgrade netty 4.1.42 to address CVE-2019-20444 CVE-2019-20445,server,Blocker,1
+58eca43a201362167eb33b501f452bc37d36b5f3,ZOOKEEPER-3708,Improvement,Move Logging Code into Logging Guard in Learner,None,Minor,1
+955b4bf1ac037a7d0f53956ba637df0c7be69c1a,ZOOKEEPER-3695,Task,Source release tarball does not match repository in 3.6.0,build,Blocker,1
+7dd25bb8bf3925c3da1eb452b8916a6b2becfe61,ZOOKEEPER-3701,Bug,Split brain on log disk full,None,Blocker,1
+2c232e3a8a330d5804ec6f121536629c37b530ed,/,/,    Update release notes before 3.6.0rc1,/,/,0
+33f98a215abeb52825fc76ddaf8d867c200ae4a4,ZOOKEEPER-1105,Bug,c client zookeeper_close not send CLOSE_OP request to server,c client,Major,3
+ ,ZOOKEEPER-2122,Sub-task,Impplement SSL support in the Zookeeper C client library,c client,Trivial
+ ,ZOOKEEPER-1105,Bug,c client zookeeper_close not send CLOSE_OP request to server,c client,Major
+9b6badb5b43d6b6d2ef5c84ad5659d48cf968558,ZOOKEEPER-3701,Bug,Split brain on log disk full,None,Blocker,1
+49cf7ec1a7238d677eb92fcdb6c022684a043a25,ZOOKEEPER-1105,Bug,c client zookeeper_close not send CLOSE_OP request to server,c client,Major,1
+2a6f1e34d93668bd24a21c37f1f0c5367c7c798a,ZOOKEEPER-3567,Improvement,Add SSL support for the zk python client,contrib,Major,1
+42ebbc8aca7ee8f5cae0c1e57c874996b00602c8,ZOOKEEPER-3704,Task,upgrade maven dependency-check to 5.3.0,security,Major,1
+8352f78e752a019387c1eb6095085152e7d1d4ad,ZOOKEEPER-3698,Bug,NoRouteToHostException when starting large ZooKeeper cluster on localhost,None,Major,1
+bf0474a2dba33dc3595a4f560d563af2c7f9c48a,ZOOKEEPER-3699,Bug,upgrade jackson-databind to address CVE-2019-20330,security,Blocker,1
+b0debb06dd88e6097021160c9effe3cbfbd3d5f3,ZOOKEEPER-3699,Bug,upgrade jackson-databind to address CVE-2019-20330,security,Blocker,1
+8d2f798c4d3eab4513743b3bf8828d061e7e1b90,ZOOKEEPER-3482,Improvement,SASL (Kerberos) Authentication with SSL for clients and Quorum,server,Major,1
+ad425cea0fae18619653154a48a7699b8f40ed0a,ZOOKEEPER-3669,Task,Use switch Statement in ClientCnxn SendThread,None,Minor,1
+458b67f3dd63ffad195a602b67613dbd2ea1ed36,ZOOKEEPER-3613,Bug,ZKConfig fails to return proper value on getBoolean() when user accidentally includes spaces at the end of the value,server,Minor,1
+1066de70f21e31f394be57b970d6d4b079a04e4d,ZOOKEEPER-3613,Bug,ZKConfig fails to return proper value on getBoolean() when user accidentally includes spaces at the end of the value,server,Minor,1
+4a20176e4c48fe32c60272ba4bd6aeac490bc0e7,ZOOKEEPER-3667,Bug,set jute.maxbuffer hexadecimal number throw parseInt error,java client,Major,1
+261f8b8b913fdf3fb42d0a0fc5763b51abd3f830,ZOOKEEPER-3667,Bug,set jute.maxbuffer hexadecimal number throw parseInt error,java client,Major,1
+df1dc8204fdb79276f10169fbd115f24012f4b21,ZOOKEEPER-3677,Task,owasp checker failing for - CVE-2019-17571 Apache Log4j 1.2 deserialization of untrusted data in SocketServer,security,Major,1
+3aa3029868b03e92ecf20376eb7d947629afca7a,ZOOKEEPER-2083,Improvement,Remove deprecated LE implementations,None,Major,1
+59337e7ec8ab67fecf7cfc1b8c5b76397c02bfd6,ZOOKEEPER-3638,Improvement,Update Jetty to 9.4.24.v20191120,None,Major,1
+59f7bbf478151ad5bbce6610bff78dc3d7671eb6,ZOOKEEPER-3668,Task,Clean up release package for 3.6.0,license,Blocker,1
+a314855f0733c620dd1c690f05c13fafd9a1a1c4,ZOOKEEPER-3644,Bug,Data loss after upgrading standalone ZK server 3.4.14 to 3.5.6 with snapshot.trust.empty=true,server,Blocker,1
+034bcda589ae9d64ab3467b254179ed37f9b1635,ZOOKEEPER-3512,Sub-task,Real time data integrity check during broadcast time,server,Major,1
+20f5986b0d4b9e191cb25338d15d59eb3e1c6db3,ZOOKEEPER-3056,Bug,Fails to load database with missing snapshot file but valid transaction log file,server,Critical,1
+dbe29a9cffb0a6616e74df9c3f81e45cdc90e87a,ZOOKEEPER-3056,Bug,Fails to load database with missing snapshot file but valid transaction log file,server,Critical,1
+61c1a45c9c9c464e8c8847fcd7ff08d1b310a376,ZOOKEEPER-3648,Improvement,remove Hadoop logo in the ZooKeeper documentation,documentation,Major,1
+a21632bf3b38fbf41fe3b0aba9b801dc31f8c12e,/,/,    ZooKeeper 3.6.0 release notes draft,/,/,0
+61d24141b02efa1ae7b09fe9e0295cf5f047b1c2,/,/,    Add ZooKeeper 3.5.6 release notes,/,/,0
+be57cc255918b6e015d08bfd1203a6f04b20212e,ZOOKEEPER-3653,Bug,Audit Log feature fails in a stand alone zookeeper setup,audit,Major,1
+56a82caac3f978a2bb400145d7644fe15f8fad8f,ZOOKEEPER-3627,Improvement,Update Jackson to 2.9.10.1 and the Owasp plugin to 5.2.4,None,Major,1
+66e9eda68539c7eda5c67af4f12003382aba8529,ZOOKEEPER-3651,Bug,NettyServerCnxnFactoryTest is flaky,None,Major,1
+f21f951fe063bd30914db9a65721320bb8554fad,ZOOKEEPER-3388,Improvement,Allow client port to support plaintext and encrypted connections simultaneously,server,Minor,1
+b0556c20a4331de29476faf845e8fca18e8820fe,ZOOKEEPER-3595,Improvement,Fsync parameter for serialize method is ingnored,server,Minor,1
+3dd56ff4210648753fe08c323159e5260b815467,ZOOKEEPER-3633,Bug,AdminServer commands throw NPE when only secure client port is used,None,Major,1
+8e8905069f4bff670c0492fe9e28ced0f86bca00,ZOOKEEPER-3188,Improvement,Improve resilience to network,None,Major,6
+ ,ZOOKEEPER-3296,Bug,Cannot join quorum due to Quorum SSLSocket connection not closed explicitly when there is handshake issue,server,Major
+ ,ZOOKEEPER-3385,Improvement,Add admin command to display leader,server,Trivial
+ ,ZOOKEEPER-3398,Improvement,Learner.connectToLeader() may take too long to time-out ,quorum,Minor
+ ,ZOOKEEPER-3386,Improvement,Add admin command to display voting view,server,Trivial
+ ,ZOOKEEPER-3188,Improvement,Improve resilience to network,None,Major
+8625c363aa23ac0c14447ce6291bea17bda3293f,ZOOKEEPER-4251,Sub-task,Flaky test: org.apache.zookeeper.test.WatcherTest,None,Major,1
+a4036107f71d089362b123a65387dfa20a244e7c,/,/,    ZooKeeper 3.7.0: Release notes,/,/,0
+545b223bc512eb03106b7b48f79fe1dfdeaa05ba,ZOOKEEPER-4205,Bug,Test fails when port 8080 is in use,tests,Major,1
+0ac80c8a7178a3a584e2b5d31c0f7ce56a11292d,ZOOKEEPER-4227,Bug,X509AuthFailureTest is failing consistently,tests,Minor,1
+579aa3417273ed13a0679344a96538bacb8d2eaf,ZOOKEEPER-1871,Improvement,Add an option to zkCli to wait for connection before executing commands,None,Major,1
+842973ee36d975021912a64491ea0b82f2690276,ZOOKEEPER-1871,Improvement,Add an option to zkCli to wait for connection before executing commands,None,Major,1
+cf306c07182e642bdbeb26b2a4e90fdda8f8dd5e,ZOOKEEPER-4230,Bug,Use dynamic temp folder instead of static temp folder in RestMain,None,Minor,1
+2a88476bf84bcca9ab5d62404e85521b04636fd7,ZOOKEEPER-4230,Bug,Use dynamic temp folder instead of static temp folder in RestMain,None,Minor,1
+732a3d3d8f0338a787a91fa4b1975c63e56d48a4,ZOOKEEPER-4227,Bug,X509AuthFailureTest is failing consistently,tests,Minor,1
+4f89853db4d1f8601684928575c65da24c9d4bf1,ZOOKEEPER-4232,Bug,InvalidSnapshotTest corrupts its own test data,None,Major,3
+ ,ZOOKEEPER-367,Bug,RecoveryTest failure - &quot;unreasonable length&quot; IOException,server,Critical
+ ,ZOOKEEPER-4232,Bug,InvalidSnapshotTest corrupts its own test data,None,Major
+c78d926cc94de0710a8a7f07dd1f7f1138a3e8cc,ZOOKEEPER-4233,Task,dependency-check:check failing - Jetty 9.4.35.v20201120 - CVE-2020-27223,server,Blocker,2
+ ,ZOOKEEPER-4023,Task,dependency-check:check failing - Jetty 9.4.34.v20201102 - CVE-2020-27218,server,Blocker
+9722488872802c546d1f8a3bb0ea349e5309f806,ZOOKEEPER-3781,Bug,Zookeeper 3.5.7 not creating snapshot,None,Major,1
+3a7c945e80690fb9ce0e95f9b09dfc0fbc0312f3,ZOOKEEPER-2307,Bug,ZooKeeper not starting because acceptedEpoch is less than the currentEpoch,server,Major,2
+ ,ZOOKEEPER-4222,Bug,Backport ZOOKEEPER-2307 to branch-3.6,server,Major
+184fb984c08c7b3b8dba291ad529b80b8a073ac7,ZOOKEEPER-4200,Bug,WatcherCleanerTest often fails on macOS Catalina,None,Major,1
+2a475fe5571b400df4a4d44d49e7db15fef26cac,ZOOKEEPER-4209,Task,Update Netty version to 4.1.53.Final on 3.5 branch,None,Major,1
+5ae153c193781cf97a53499de85b0612caef49cf,ZOOKEEPER-3987,Bug,Build failures when running surefire tests concurrently due to bind address already in use,tests,Major,1
+8b4be143d654c0034c6f4d58da05d9ec72757db1,ZOOKEEPER-4207,Bug,New CI pipeline checks out master in branch builds too,build-infrastructure,Major,1
+2a1f58ac4fdf4ed7cbfbe89662aa1a88a024762d,ZOOKEEPER-3301,New Feature,Enforce the quota limit,None,Major,6
+ ,ZOOKEEPER-1383,New Feature,Create update throughput quotas and add hard quota limits,server,Major
+ ,ZOOKEEPER-2593,New Feature,Enforce the quota limit,server,Major
+ ,ZOOKEEPER-451,Improvement,ZK should enforce quota,server,Major
+ ,ZOOKEEPER-1383,New Feature,Create update throughput quotas and add hard quota limits,server,Major
+ ,ZOOKEEPER-3301,New Feature,Enforce the quota limit,None,Major
+183e38308d985981a94af16663860d7649621702,ZOOKEEPER-4048,Improvement,Upgrade Mockito to 3.6.28 - allow builds on JDK16,tests,Minor,1
+2acfc733949b3a01255edcce672d6f4335901026,ZOOKEEPER-4056,Task,Update copyright notices from 2020 to 2021,None,Major,3
+ ,ZOOKEEPER-3745,Bug,Update copyright notices from 2019 to 2020,None,Major
+ ,ZOOKEEPER-4056,Task,Update copyright notices from 2020 to 2021,None,Major
+b995c559e6a567deaeb5b87c136aaa97d574d8de,ZOOKEEPER-4056,Task,Update copyright notices from 2020 to 2021,None,Major,3
+ ,ZOOKEEPER-3745,Bug,Update copyright notices from 2019 to 2020,None,Major
+ ,ZOOKEEPER-4056,Task,Update copyright notices from 2020 to 2021,None,Major
+4e1c6d50238dff87fce2bfc00ec3ef25c85d5a44,ZOOKEEPER-4055,Bug,Dockerfile can&apos;t build Zookeeper C client library,build,Major,1
+4e82a8be889d91dde46a11b38c8a20e82f3220f2,ZOOKEEPER-3264,New Feature,The benchmark tools for zookeeper,server,Major,1
+ae606bf09c158c35c1748aeac811796b469f3cf1,ZOOKEEPER-4045,Bug,CVE-2020-25649 - Upgrade jackson databind to 2.10.5.1,None,Major,1
+676d10b2fad97c69e4083619cb1db223ed1896a4,ZOOKEEPER-4045,Bug,CVE-2020-25649 - Upgrade jackson databind to 2.10.5.1,None,Major,1
+fa63a2bbf4caffe60c444e74c1646346da73cc68,ZOOKEEPER-3671,Improvement,Use ThreadLocalConcurrent to Replace Random and Math.random,None,Minor,1
+a67272a0ad8b1138c61306a02563fc39a0c79101,ZOOKEEPER-4033,Improvement,Remove unnecessary judgment of null,None,Major,1
+8f6e13a8bf3c27f11a49071cd6b158baacd677cb,ZOOKEEPER-4023,Task,dependency-check:check failing - Jetty 9.4.34.v20201102 - CVE-2020-27218,server,Blocker,1
+59c87413ddc6774a22b98ba8aabb5855e049efe9,ZOOKEEPER-4023,Task,dependency-check:check failing - Jetty 9.4.34.v20201102 - CVE-2020-27218,server,Blocker,1
+d5ef4e562d44553e1b1a874569097a0d85c171cd,ZOOKEEPER-4017,Task,Owasp check failing - Jetty 9.4.32 - CVE-2020-27216,server,Blocker,1
+efbd660e1c4b90a8f538f2cccb5dcb7094cf9a22,ZOOKEEPER-3642,Bug,Data inconsistency when the leader crashes right after sending SNAP sync,server,Major,1
+6169a67451b7057b05baf50e5223c06b53284e63,ZOOKEEPER-3992,Bug,addWatch api should check the null watch,java client,Minor,1
+ea3042d5c4d17b7e645d07a73d0cb9e832d0e9f0,ZOOKEEPER-3989,Improvement,GenerateLoad needs to use log for protecting sensitive data,tests,Major,1
+96f65c8bb5217a514f24f52ebca5ca147b7d8337,ZOOKEEPER-4011,Bug,Maven build fails on branch-3.6 because of jUnit 5 usage in DIFFSyncConsistencyTest,tests,Major,1
+12b4e6821997534e1ff58e2e29b9df0beab817d3,ZOOKEEPER-3874,New Feature,Official API to start ZooKeeper server from Java,server,Major,1
+00071dd3532f47c16e0973cc5af03cccec7ba9ab,ZOOKEEPER-3978,Improvement,Adding additional security metrics to zookeeper ,server,Minor,1
+b2b06dca8ecffcfaa35ba5797d3c8d82045cbe08,ZOOKEEPER-3994,Bug,disconnect reason wrong,server,Major,1
+d8561f620fa8611e9a6819d9879b0f18e5a404a9,ZOOKEEPER-3979,Bug,Clients can corrupt the audit log,server,Major,1
+7655bb83990753c30f564dedba79cd545e442740,ZOOKEEPER-3991,Bug,QuorumCnxManager Listener port bind retry does not retry DNS lookup,quorum,Minor,1
+58e0a7741533ec3598c619c526208f8a90f5756c,ZOOKEEPER-3991,Bug,QuorumCnxManager Listener port bind retry does not retry DNS lookup,quorum,Minor,1
+9b2b72abc5d9be866337972b1cd45790cdad792e,ZOOKEEPER-3911,Bug,Data inconsistency caused by DIFF sync uncommitted log,server,Critical,1
+a6ca5f307e20df1e62ce5415d84235ec00f57286,ZOOKEEPER-3969,New Feature,Add whoami  API and Cli command,None,Major,1
+79a91b95341bf417f3237d33846db19b39831712,ZOOKEEPER-3981,Task,Flaky test MultipleAddressTest::testGetValidAddressWithNotValid,tests,Minor,1
+3ff30a6427fdc2f13e60ff530800eca55ff02c9a,ZOOKEEPER-3981,Task,Flaky test MultipleAddressTest::testGetValidAddressWithNotValid,tests,Minor,1
+bd1c7b64b26cb49410e026d0e6a72b8650238bee,ZOOKEEPER-3983,Bug,C client test suite hangs forever &apos;sss&apos; is configured in /etc/nsswitch.conf,tests,Major,1
+1af3dcc633d4829864da74ca6b030428448fcc16,ZOOKEEPER-3561,Improvement,Generalize target authentication scheme for ZooKeeper authentication enforcement.,server,Major,1
+0783a9c5d7c91d0a204a97159cb72e9007de504b,ZOOKEEPER-3980,Task,Fix Jenkinsfiles with new tool names,build-infrastructure,Blocker,1
+4432f5b44359f56007f1ea5be5de2a9829c97e5c,ZOOKEEPER-3948,New Feature,Introduce a deterministic runtime behavior injection framework for ZooKeeperServer testing,tests,Major,1
+697ec978104c5b6811923f544392f27df2806723,/,/,    Remove deprecated sudo setting on Travis,/,/,0
+7cc7c12bc6bf374fc2eb9bec085591e2f9014e38,ZOOKEEPER-3955,Bug,added a shebang or a &apos;shell&apos; directive to lastRevision.sh,None,Major,1
+fae62f521a5cf36e2d35f5646aa34d2ed3ae3415,ZOOKEEPER-3955,Bug,added a shebang or a &apos;shell&apos; directive to lastRevision.sh,None,Major,1
+4f6c88fef1b7b37ad9fb8c116ac7f0a518bec5c4,ZOOKEEPER-3808,Improvement,correct the documentation about digest.enabled,documentation,Minor,1
+3ca408d05c4cc2e038dced1065df844174ac69cf,ZOOKEEPER-3962,Task,Create .asf.yaml file for ZooKeeper repo,None,Major,1
+0806d80dbf94be13c783c11df470be4695786b4e,ZOOKEEPER-3960,Improvement,Update ZooKeeper client documentation about key file format parameters,None,Minor,1
+83d79d16d683dbf07a8a1b52ed97558530f92f89,ZOOKEEPER-3956,Improvement,Remove json-simple from ZooKeeper,server,Major,1
+6e89a4da65cae2e5009c99223f41a4f61a417666,ZOOKEEPER-3957,Task,Create Owasp check build on new Jenkins instance,build,Major,1
+391bb7e636300fba24da185b8d0c4e0b854dc8b6,ZOOKEEPER-3957,Task,Create Owasp check build on new Jenkins instance,build,Major,1
+82f43bf85b1341ab0b5f3ffeb830c7fc7aefb64f,ZOOKEEPER-3952,Improvement,Remove commons-lang from ZooKeeper,server,Minor,1
+c1f2025abd87db5b44982e15fbc1b79e12ec47a9,ZOOKEEPER-4468,Improvement,Backport BCFKS key/trust store format support to branch 3.5,None,Major,1
+254275b2fac900c0d5e7341f26d021137fdf6c99,/,/,    ZooKeeper 3.8.0 release notes,/,/,0
+965571e43ee9f40ac445dfe4d46c9b5d91aff7d2,ZOOKEEPER-4315,Task,Fix NOTICE file in the source distribution,license,Blocker,1
+04c7ad115e298387e4a75dfe14013f6c6aa68a6d,ZOOKEEPER-4461,Sub-task,Migrate zookeeper-contrib and -recipes projects.,None,Major,1
+d4bcb4206011458468c60e51a10f6784055a31a0,ZOOKEEPER-4462,Improvement,Upgrade Netty TCNative to 2.0.48,None,Major,1
+b2c1b5af36a196ca2e9080750d212aa1a0550f7c,ZOOKEEPER-4396,Improvement,Read Key/trust store password from file,security,Major,1
+510088be1bdd154e84f365fcf87a57ed7e493edb,ZOOKEEPER-4454,Task,Upgrade Netty to 4.1.73,server,Blocker,1
+d45d5df963cc3f7641d6dec2920bb22cfe8d0a76,ZOOKEEPER-4454,Task,Upgrade Netty to 4.1.73,server,Blocker,1
+ec0ade3053fd56113df0f4cab9f1996d83152ff7,ZOOKEEPER-4453,Improvement,NettyServerCnxnFactory: allow to configure the early TLS connection drop feature,server,Critical,3
+ ,ZOOKEEPER-3682,Improvement,Stop initializing new SSL connection if ZK server is shutting down,server,Minor
+ ,ZOOKEEPER-4453,Improvement,NettyServerCnxnFactory: allow to configure the early TLS connection drop feature,server,Critical
+85551f9be5b054fa4aee0636597b12bda2ecb2e8,ZOOKEEPER-4427,Improvement,Migrate to Logback,other,Major,1
+56f807f909f2b7799ced0fcdd4c1073c9a1acc0d,ZOOKEEPER-3988,Bug,org.apache.zookeeper.server.NettyServerCnxn.receiveMessage throws NullPointerException,server,Major,1
+7b75017bbb70c9f159b35f7399e29dc53bdc3d97,ZOOKEEPER-4437,Improvement,Bump Jackson version from 2.10.5.1 to 2.13.1,None,Minor,1
+13b09990ecd42de9565512b0047f5ebb46868986,ZOOKEEPER-4429,Task,Update jackson-databind to 2.13.1,None,Major,2
+ ,ZOOKEEPER-4414,Task,Update Netty to 4.1.70.Final,build,Major
+8d82be71dfce6b6752717ca0a68a77ec3c03032b,ZOOKEEPER-4267,Bug,Fix check-style issues,None,Minor,1
+1d79ab4b16593f426b258f4c364fc59dee693b04,ZOOKEEPER-4414,Task,Update Netty to 4.1.70.Final,build,Major,1
+f4f0bed00dd254e34aedfe408799f557d60fd0e7,/,/,    fix a typo in zookeeper.h,/,/,0
+713a65620d89eb9667d68104acffabe71221c2a9,ZOOKEEPER-4362,Bug,ZKDatabase.txnCount logged non transactional requests,server,Major,2
+ ,ZOOKEEPER-4366,Improvement,Make NIOServerCnxnFactory&apos;s javadoc more readable after rendering,server,Major
+4f015139e73986c13d6ecfc8dd18a00e6f8a3485,ZOOKEEPER-4402,Improvement,Added Hyperlink At LOGO,documentation,Minor,1
+86c12634d22bbfee8cf9f5434c49eebe3ffa84c0,ZOOKEEPER-4377,Bug,KeeperException.create has NullPointerException when low version client requests the high version server,server,Minor,1
+cb899167421d7a24f1e6c3f06aa4a621391df15f,ZOOKEEPER-4349,Improvement,delete the useless oraclePath directory generated by test suit,tests,Minor,1
+7d96fa79474683a871f505b5518e1ee157b98522,ZOOKEEPER-4382,Improvement,Update Maven Bundle Plugin in order to allow builds on JDK18,build,Major,1
+2dcc64d9411e7b24402222437215ab2fe1e59c2e,ZOOKEEPER-4372,Bug,Zookeeper lock recipe doesn&apos;t parse negative sequence numbers correctly,recipes,Major,1
+e2f1ab165b2c1ed052ebb0fddac08bbd08bd1da5,ZOOKEEPER-4367,Bug,Zookeeper#Login thread leak in case of Sasl AuthFailed.,kerberos,Critical,1
+d6b50ad739a49226e97ff28d68be605e1fa36fe5,ZOOKEEPER-4367,Bug,Zookeeper#Login thread leak in case of Sasl AuthFailed.,kerberos,Critical,1
+a15f0b2248d0eb0e4520fdb32e5fa64a2611906d,ZOOKEEPER-4384,Task,Fix &apos;se[r]ver&apos; typo in ClientCnxn class.,None,Trivial,1
+531bddd5b43d2f0b3afbe0051642830c47030652,ZOOKEEPER-4384,Task,Fix &apos;se[r]ver&apos; typo in ClientCnxn class.,None,Trivial,1
+75093668ef1201905a7001c4d50e9f9d86ed092f,ZOOKEEPER-4380,Improvement,Avoid NPE in RateLogger#rateLimitLog,None,Major,1
+1e74a3395a9c3c4d67093f9a073bffb5a176916c,ZOOKEEPER-4301,Improvement,fix typo,None,Major,1
+0eb1a54fd36bcbb3a14f69f846d28f49ba032536,ZOOKEEPER-4360,Bug,Avoid NPE during metrics execution if the leader is not set on a FOLLOWER node ,metric system,Major,1
+4f515673464e540fa8555b7a3ac85c5d1abe41fb,ZOOKEEPER-4360,Bug,Avoid NPE during metrics execution if the leader is not set on a FOLLOWER node ,metric system,Major,1
+726ec30fdd47bccd2a2be021cf6a6b848e9ee28b,ZOOKEEPER-4343,Bug,OWASP Dependency-Check fails with CVE-2021-29425  commons-io-2.6,server,Major,2
+ ,ZOOKEEPER-4337,Task,CVE-2021-34429 in jetty 9.4.38.v20210224 in zookeeper 3.7.0,security,Major
+84166e18906d6e611b64d8128fefddc14d86da14,ZOOKEEPER-4337,Task,CVE-2021-34429 in jetty 9.4.38.v20210224 in zookeeper 3.7.0,security,Major,1
+561231f8bfe910e63dbd8c281cb25033a0e7d7a5,ZOOKEEPER-4337,Task,CVE-2021-34429 in jetty 9.4.38.v20210224 in zookeeper 3.7.0,security,Major,1
+e920633e69389e99770ec07e3cc99577e6eec7e6,ZOOKEEPER-4356,Bug,Code blocks do not render correctly in ZK docs site,documentation,Major,1
+2797116b33a505c8b36b396216c26afd7f7ba28c,ZOOKEEPER-4356,Bug,Code blocks do not render correctly in ZK docs site,documentation,Major,1
+9ab9b795040899edaa37ef4962c0482cd732fc8b,ZOOKEEPER-4355,Improvement,ZK documentation side bar and welcome page are out of sync,documentation,Minor,1
+24808051c78f06af22014cb8055e3f7f8fe08065,ZOOKEEPER-4355,Improvement,ZK documentation side bar and welcome page are out of sync,documentation,Minor,1
+34917819b38377723fcc875ec52b1e09f2a1ec62,ZOOKEEPER-4327,Sub-task,Flaky test: RequestThrottlerTest,None,Major,1
+1f5e4fe258707f9b82448a5f97c931c392d011ca,ZOOKEEPER-4327,Sub-task,Flaky test: RequestThrottlerTest,None,Major,1
+fbb740f0a8833bf864833e15d1872d5ee30a21da,ZOOKEEPER-4342,Bug,Robustify C client against errors during SASL negotiation,c client,Blocker,1
+f72ef97b66bc890ce8366533eac5be393558a8fb,ZOOKEEPER-4346,Improvement,remove never used field,server,Minor,1
+434c54d7501f9cbb15126561d3ca3d16aeace076,ZOOKEEPER-4345,Bug,Avoid NoSunchMethodException caused by shaded zookeeper jar,None,Major,1
+3cdc62c132846a6e5fd06782730a986b3e5ea144,ZOOKEEPER-4340,Test,Add tab unit test for StringUtils#split,tests,Minor,1
+726bc55c9575b57375274565f355524a12f839bd,ZOOKEEPER-4331,Bug,zookeeper artifact is not compatible with OSGi runtime,build,Major,1
+b05ea1a8454d806394e1ecdfca550e8c709d4c21,ZOOKEEPER-4211,New Feature,Expose Quota Metrics to Prometheus,metric system,Major,1
+ddecda522df8d39407cd5782dbe7778221cb8bd1,ZOOKEEPER-4204,Bug,Flaky test - RequestPathMetricsCollectorTest.testMultiThreadPerf,tests,Major,1
+7a368b4b196af02190e6e57f18f56598ee32a626,ZOOKEEPER-4204,Bug,Flaky test - RequestPathMetricsCollectorTest.testMultiThreadPerf,tests,Major,1
+2f68294f9ea5859c84a470b8f737f4651aae3e98,ZOOKEEPER-4333,Test,QuorumSSLTest - testOCSP fails on JDK17,tests,Major,1
+e642a325b91ab829aefa47708c7b4b45811d2d23,ZOOKEEPER-3961,Improvement,Inaccurate Error Message,None,Trivial,1
+203de65823bb12420fd0a030705f632e7ae5d814,ZOOKEEPER-4284,Improvement,Add metrics for observer sync time,metric system,Major,1
+525a28bd1cb864a5783593c64908cfe0ddcba65f,ZOOKEEPER-4208,Improvement,Adding more labels to asf.yaml file to position more to the ZooKeeper Project,documentation,Minor,1
+7048d3a583eff4fff88d5071f5427a2ad36c1acf,ZOOKEEPER-4309,Bug,QuorumCnxManager&apos;s ListenerHandler thread leak,server,Major,1
+78550453204e89a13aee87d86b6d94c458c9dd63,ZOOKEEPER-4309,Bug,QuorumCnxManager&apos;s ListenerHandler thread leak,server,Major,1
+18dedf6345b3e34d7dab9dcbdb4db2b37a3495b1,ZOOKEEPER-4312,Improvement,ZooKeeperServerEmbedded: enhance server start/stop for testability,server,Major,1
+c499202a2c470e2e365ef109c8e49784cb043367,ZOOKEEPER-4298,Improvement,Update http to https in zoo_sample.cfg,None,Trivial,1
+b227c4d0b95948c2a372f7b91a24f399d8748cd7,ZOOKEEPER-3970,Task,Enable ZooKeeperServerController to expire session,tests,Minor,3
+ ,ZOOKEEPER-3948,New Feature,Introduce a deterministic runtime behavior injection framework for ZooKeeperServer testing,tests,Major
+ ,ZOOKEEPER-3970,Task,Enable ZooKeeperServerController to expire session,tests,Minor
+b79abb2014db9684c00afd7d98c0a7cb69ce6c8b,ZOOKEEPER-4054,Improvement,Make prometheus listen host can configure,metric system,Major,1
+f8ebf1a25281b2c7f48e08011918c72643313209,ZOOKEEPER-3889,Bug,Add volatile for variable finished in ReadOnlyRequestProcessor,None,Minor,1
+1a4cf4d6735f497ee127b9e0783e019e84888d0e,ZOOKEEPER-4281,Improvement,Packet length sanity check is inconsistent,None,Major,1
+1590a424cb7a8768b0ae01f2957856b1834dd68d,ZOOKEEPER-4281,Improvement,Packet length sanity check is inconsistent,None,Major,1
+0d60bd2d97bad43678341fbd9de0e644dade5465,ZOOKEEPER-4275,Bug,Slowness in sasl login or subject.doAs() causes zk client to falsely assume that the server did not respond  closes connection and goes to unnecessary retries,java client,Minor,1
+c583a6e79654359b5daad5093d1730e370d3b75b,ZOOKEEPER-4275,Bug,Slowness in sasl login or subject.doAs() causes zk client to falsely assume that the server did not respond  closes connection and goes to unnecessary retries,java client,Minor,1
+7c37cd9c89c92811da96e378c1b6ff81796b172d,ZOOKEEPER-4247,Bug,NPE while processing message from restarted quorum member,server,Major,1
+7fdadf7273f34dd0552db25a3771cf55b65e9208,ZOOKEEPER-3764,Improvement,Add High Availability Guarantee Into Docs,documentation,Trivial,1
+9612e2a2c2823c655808c490aa37749a2dbca4a8,ZOOKEEPER-4278,Bug,dependency-check:check failing - netty-transport-4.1.60.Final CVE-2021-21409 ,None,Blocker,1
+925b5b28a0aa9e7749da9672de92eab5b95578f0,ZOOKEEPER-4278,Bug,dependency-check:check failing - netty-transport-4.1.60.Final CVE-2021-21409 ,None,Blocker,1
+6192e0aee32a1c234047f149f22d1382417f2220,ZOOKEEPER-4277,Task,dependency-check:check failing - jetty-server-9.4.38 CVE-2021-28165,None,Blocker,1
+061438e83e61692fc9e06e057a739db5327d42b9,ZOOKEEPER-3961,Improvement,Inaccurate Error Message,None,Trivial,1
+3b44589f3fb41678eb3cb09ac7fd382131373bfc,ZOOKEEPER-4266,Bug,Correct ZooKeeper version in documentation header,documentation,Minor,1
+ad5513b8dd15637c6c95585603a4e055dabad56d,ZOOKEEPER-4266,Bug,Correct ZooKeeper version in documentation header,documentation,Minor,1
+e892430a2c72188193300e44be9e0724caee41e9,ZOOKEEPER-4269,Bug,acceptedEpoch.tmp rename failure will cause server startup error,None,Major,1
+cdddda4c55acf29d4e0b2bc8f3de7b5c676e8ffc,ZOOKEEPER-4269,Bug,acceptedEpoch.tmp rename failure will cause server startup error,None,Major,1
+97d0ad0a0cd87847878af87b21259be0098a3124,ZOOKEEPER-4272,Task,Upgrade Netty library to &gt; 4.1.60 due to security vulnerability CVE-2021-21295,security,Major,1
+9213f7353b1e6ce4d0fdbc1dca963ace1fd32cec,ZOOKEEPER-4272,Task,Upgrade Netty library to &gt; 4.1.60 due to security vulnerability CVE-2021-21295,security,Major,1
+c517b04f90b76596da59fcc61b8d18cfc312260a,ZOOKEEPER-4270,Sub-task,Flaky test: QuorumPeerMainTest#testLeaderOutOfView,tests,Minor,1
+3961bcc7d6eabfe0723c9dab653d9bb83da7f8f8,ZOOKEEPER-4270,Sub-task,Flaky test: QuorumPeerMainTest#testLeaderOutOfView,tests,Minor,1
+e2f31086965f0d9d13898bbc72c57f378b438edf,ZOOKEEPER-4257,Sub-task,learner.asyncSending  learner.closeSocketAsync and leader.closeSocketAsync should be configurable in zoo.cfg,None,Minor,1
+670da71f121ec532b262de39496042cefccf2120,ZOOKEEPER-4231,Improvement,Add document for snapshot compression config,None,Minor,3
+ ,ZOOKEEPER-3179,Improvement,Add snapshot compression to reduce the disk IO,None,Major
+ ,ZOOKEEPER-4231,Improvement,Add document for snapshot compression config,None,Minor
+166a01045d9e3abbe8a0fd2310f05b17f61d8b3e,ZOOKEEPER-4194,Bug,ZooInspector throws NullPointerExceptions to console when node data is null,contrib,Major,1
+4edbbea5566925390b32702a97c17f7a76e32de5,ZOOKEEPER-4194,Bug,ZooInspector throws NullPointerExceptions to console when node data is null,contrib,Major,1
+dfa262bfa9dd04ea5017fa29bd68f19800a07d32,ZOOKEEPER-3128,Bug,Get CLI Command displays Authentication error for Authorization error,server,Minor,3
+ ,ZOOKEEPER-3891,Bug,ZKCli commands give wrong error message &quot;Authentication is not valid&quot; for insufficient permissions,None,Major
+ ,ZOOKEEPER-3128,Bug,Get CLI Command displays Authentication error for Authorization error,server,Minor
+de726d0a824582e482d4a725210fcd6051cb3bd0,ZOOKEEPER-3128,Bug,Get CLI Command displays Authentication error for Authorization error,server,Minor,3
+ ,ZOOKEEPER-3891,Bug,ZKCli commands give wrong error message &quot;Authentication is not valid&quot; for insufficient permissions,None,Major
+ ,ZOOKEEPER-3128,Bug,Get CLI Command displays Authentication error for Authorization error,server,Minor
+862d846d25a4a53e46e576b9d69f3a2f4c144761,ZOOKEEPER-3887,Bug,In SSL-only server zkServer.sh status command should use secureClientPortAddress instead of clientPortAddress,scripts,Major,1
+51be692523b65afc21cfb0edaa4a5e60ab996aa2,ZOOKEEPER-3887,Bug,In SSL-only server zkServer.sh status command should use secureClientPortAddress instead of clientPortAddress,scripts,Major,1
+3d7f374c89f1bb0959e3a3b2f2b66818aa704d32,ZOOKEEPER-4251,Sub-task,Flaky test: org.apache.zookeeper.test.WatcherTest,None,Major,1
+461aada6b015078b9a14f787dd1f526488490df9,ZOOKEEPER-4251,Sub-task,Flaky test: org.apache.zookeeper.test.WatcherTest,None,Major,1
+3a084f2f20dc771455c4825f4fbf4ff1f641793a,ZOOKEEPER-4259,Improvement,Allow AdminServer to force https,security,Minor,2
+ ,ZOOKEEPER-2512,Improvement,Allow Jetty dependency to use HTTPS and Basic Auth,server,Major
+0b6862e3aadbb8980a09a673c08c438ae5da2e81,ZOOKEEPER-4259,Improvement,Allow AdminServer to force https,security,Minor,2
+ ,ZOOKEEPER-2512,Improvement,Allow Jetty dependency to use HTTPS and Basic Auth,server,Major
+785d7fec6fffae4a68675c2cc9d2af9b07c57627,ZOOKEEPER-4205,Bug,Test fails when port 8080 is in use,tests,Major,1
+c74658d398cdc1d207aa296cb6e20de00faec03e,ZOOKEEPER-4205,Bug,Test fails when port 8080 is in use,tests,Major,1
+834fb00b91472a59c3c266a8a7fbedab662bba38,ZOOKEEPER-1871,Improvement,Add an option to zkCli to wait for connection before executing commands,None,Major,1
+2e400114fdee9a870170749f6573d4499e1a850f,ZOOKEEPER-1871,Improvement,Add an option to zkCli to wait for connection before executing commands,None,Major,1
+9afa065cf55d9b93351efe8c988ba850cb4cc246,ZOOKEEPER-4230,Bug,Use dynamic temp folder instead of static temp folder in RestMain,None,Minor,1
+f52918abd066d85a423d38917e58fc950d4e9d09,ZOOKEEPER-4227,Bug,X509AuthFailureTest is failing consistently,tests,Minor,1
+85e926510085e55605255010245b7669513c906f,ZOOKEEPER-4233,Task,dependency-check:check failing - Jetty 9.4.35.v20201120 - CVE-2020-27223,server,Blocker,3
+ ,ZOOKEEPER-4023,Task,dependency-check:check failing - Jetty 9.4.34.v20201102 - CVE-2020-27218,server,Blocker
+ ,ZOOKEEPER-4233,Task,dependency-check:check failing - Jetty 9.4.35.v20201120 - CVE-2020-27223,server,Blocker
+1944f77aab458c79de0aee91c766b3c04c0d6417,ZOOKEEPER-4210,Bug,Zookeeper c client: detect connection loss during opportunistic async send,c client,Minor,1
+4a19dd12ed50bca4ae17f1fa0ce01c551d9d4915,ZOOKEEPER-4232,Bug,InvalidSnapshotTest corrupts its own test data,None,Major,3
+ ,ZOOKEEPER-367,Bug,RecoveryTest failure - &quot;unreasonable length&quot; IOException,server,Critical
+ ,ZOOKEEPER-4232,Bug,InvalidSnapshotTest corrupts its own test data,None,Major
+f39caf6fd717acced2e8eb2bbdf98e92395858c5,ZOOKEEPER-2693,Bug,DOS attack on wchp/wchc four letter words (4lw),server,Blocker,1
+ba94493c63005b4f7c7efc0aa9c35a2b39c00305,ZOOKEEPER-4220,Bug,Potential redundant connection attempts during leader election,server,Major,1
+6022e03177b21606575152ac323205af3fbbe9d8,ZOOKEEPER-4220,Bug,Potential redundant connection attempts during leader election,server,Major,1
+679cc2b1015db6a0b41cf9223c826a4b565387e9,ZOOKEEPER-3781,Bug,Zookeeper 3.5.7 not creating snapshot,None,Major,1
+1214d3bf611d153ae8c3987523da01d3d6c82686,ZOOKEEPER-3781,Bug,Zookeeper 3.5.7 not creating snapshot,None,Major,1
+f49aeef86d0cc6a909b2125e7ac03e1ecec61ee0,ZOOKEEPER-3877,Bug,JMX Bean RemotePeerBean should enclose IPV6 host in square bracket same as LocalPeerBean ,jmx,Minor,1
+b4f9aab099880ba8ef08eaff697debe6cdeae057,ZOOKEEPER-3922,New Feature,Add support for two server ZooKeeper with hardware oracle,None,Major,1
+190a227aa9d4655ebfe6ba9f5c2da426da8c5d98,ZOOKEEPER-3301,New Feature,Enforce the quota limit,None,Major,6
+ ,ZOOKEEPER-1383,New Feature,Create update throughput quotas and add hard quota limits,server,Major
+ ,ZOOKEEPER-2593,New Feature,Enforce the quota limit,server,Major
+ ,ZOOKEEPER-451,Improvement,ZK should enforce quota,server,Major
+ ,ZOOKEEPER-1383,New Feature,Create update throughput quotas and add hard quota limits,server,Major
+ ,ZOOKEEPER-3301,New Feature,Enforce the quota limit,None,Major

@@ -1,0 +1,268 @@
+653d86c48623abc6fb29ae8b3a759039a7f07afc,/,/,    Fix generic types  removing a lot of SuppressWarning annotations,/,/
+fb13db8095329f6b0aa9654d8f59e11025e40ba8,RANGER-1333,Bug,Enable Incremental Sync by default when sync source is ldap for fresh install of ranger usersync,usersync,Major
+bedbc4bda97b54113e166307596d8c62ce5d329f,RANGER-1332,Task,Ranger TLP : Source Code / Script changes,documentation,Major
+fe48d911e2a6829a30cdb0ced3d0e52c6865ac0c,RANGER-1197,Improvement,Provide API to get policyVersion in use by Ranger plugins,plugins,Major
+6f89b16fb53886d0dda9e286b6b21ba4ce493f06,/,/,    Updating year in NOTICE,/,/
+a99e377d39bce90b39b9fd7f2cc1068e1856fd1c,RANGER-1214,Bug,Export/Import of policies in Ranger,admin,Major
+f303c1bd419b457e7fb2190cd8c56c4d54d36d43,RANGER-1296,Bug,Rename usersync unit tests to be uniform with other unit tests naming,usersync,Minor
+9dfde6de92799d7d923cf8eb11bbdc8788d6664c,RANGER-1261,Bug,Fix path matching inconsistencies and wildcard treatment,Ranger,Major
+05e179d442192b6e64d174a6786de0a90716ba8a,RANGER-696,Improvement,Option to use custom &quot;admin&quot; username,admin,Major
+115f9d434894097b295efdf4a73e31ae560de508,RANGER-1094,Bug,One way SSL (when Kerberos is enabled) for Ranger and its plugins,Ranger,Major
+c4b0542896714b71bdac0d5e8398354b22e133ed,RANGER-1269,Bug,Make MiscUtil.getGroupsForRequestUser more robust,None,Minor
+d6308e68ad66211731f7d3949f5b219d7ba015cc,RANGER-1237,Bug,Ranger permissions do not load when there are bulk users,Ranger,Critical
+4b9497b62fdd2b7f0bd2c57b0331fe815ae928b8,RANGER-1246,Bug,Update UI hints for wildcards in search filters,admin,Major
+f2990fe78260b08144a204697770ad374d1a3d6b,RANGER-1189,Bug,Enhance and provide APIs to getAllpolicies with different filter options,Ranger,Critical
+83674c7d54d78821edc4a5e72e9ec8dae68fb4ea,RANGER-1248,Bug,for Knox policy activation time is 0,Ranger,Critical
+200dd5a7336fe84443e7e4a9079cb93fd7393735,RANGER-1254,Bug,HiveAuthorizer should deny access to URI operations if there are any exceptions ,Ranger,Major
+651be2b08ec009f4e7bfc6be6f760db7ab840870,/,/,    updated docs site,/,/
+2fcd7f7cc175c0734443638b99c359e24c0f88ff,RANGER-1229,Bug,RangerResourceMatcher for Hdfs and Yarn resources does not correctly handle policy containing only one resource whose value is &quot;*&quot;,plugins,Major
+35ff7ee79a5c18f50e62d4f78ff7a5a03598fe05,RANGER-1225,Bug,Unit tests for Ranger Hive Policies ,Ranger,Major
+ffbb138d1809d5c800a7f916c05ab5cd2a1581a6,RANGER-1229,Bug,RangerResourceMatcher for Hdfs and Yarn resources does not correctly handle policy containing only one resource whose value is &quot;*&quot;,plugins,Major
+ccd0badd900f4358b9d1db4c8441a4fbd61c63a0,RANGER-1228,Task,Remove unused TagFileStore  ServiceFileStore and ServiceRESTStore classes and unused Store APIs from Ranger codebase,Ranger,Minor
+f70fdbf7947509c0975bd3c61b96b63f9b5daaa4,RANGER-1181,Bug,HDFS Plugin does not allow removal of a non-empty directory if the directory is allowed to be removed by HDFS  but the file inside the directory is allowed to be removed by Ranger,plugins,Major
+37512c121ac19eb059c512a89c9294bbff824098,RANGER-1193,Task,Release Ranger 0.6.2,None,Major
+8b3f0e60eb9d48ee0a89546b009ee84e7013759e,RANGER-1190,Bug,User has access to a database via tag-based policy - but &apos;show databases&apos; does not include the database,None,Major
+01326be73368a0700dce2c13e1850d620112780c,RANGER-1199,Improvement,Optimize tag-download to include only tags that have policies,admin,Major
+3b7cf3ae6bec6514d2e38a87a286ec92e3bd3deb,RANGER-1159,Task,fix Apache v2 license in the NOTICE file - based on suggestions from Justin McLean  during IPMC review of 0.6.1 release ...,None,Major
+08a94c741bdfd60c124f824143f476b25bc96167,RANGER-1159,Task,fix Apache v2 license in the NOTICE file - based on suggestions from Justin McLean  during IPMC review of 0.6.1 release ...,None,Major
+fb95d3e3fad21a51206d3a3113d703bfe267c808,RANGER-1169,Bug, The global audit settings specified by Ranger configuration parameter values should always be honored by the plug-ins.,plugins,Minor
+d4fd0277a125d9b5c657dd77cff20a58d91dae04,RANGER-1188,Test,Create tests for the Kafka plugin,None,Major
+ecfa86caa1fea9e58c8d175bb48e667a64077397,RANGER-1126,Bug,Authorization checks for non existent file/directory should not be recursive in Ranger Hive authorizer,plugins,Major
+1f138601aaf8da82c9ba04f39ff0131d70b33ed8,/,/,    Fixing some whitespace issues,/,/
+26bfd13115db5ce45d192c8291af3363c087950f,RANGER-1170,Bug,Improvement of Unit Test coverage in Ranger,Ranger,Major
+1b728ebeab2e90dcb169599ff67dcc7b039fdcf9,RANGER-1170,Bug,Improvement of Unit Test coverage in Ranger,Ranger,Major
+53fb16a60aeb9557d56d76003831e9e442351244,RANGER-1170,Bug,Improvement of Unit Test coverage in Ranger,Ranger,Major
+1c441f798e1c5da54f6bb9faf211eadb5f10b6b5,RANGER-1170,Bug,Improvement of Unit Test coverage in Ranger,Ranger,Major
+74959da1617f65bdf74048ecd714dc3aa1d384e9,RANGER-1177,New Feature,Ranger tagsync to support Atlas notification for HDFS path,tagsync,Major
+868c62b729bb67b8b9db3f2146db1ea442b53ea8,RANGER-1174,Test,Add tests for KMS Service and plugin,None,Major
+4a332a93ea05cc953ac4a7063f437f2609112a37,RANGER-1175,Bug,Create policy fails for updated servicedef,admin,Major
+0af4131570f8a1c97a11c0f22ce69d6613442096,/,/,    Minor cleanup stuff,/,/
+5fa2e8877f835c7b3e114daded6b56ed1e1361f8,RANGER-1162,Bug,Tag lookup optimization: use prefix lookup to reduce number of evaluators attempted,plugins,Major
+caba857008b3e0087a276fc2030e13f951cde624,RANGER-1107,Bug,Performance trace to measure policy download performance in plugins,plugins,Major
+b323f9088ae0b73db492c03aa48bcc178be4e9b1,RANGER-1129,Bug,Ability to specify &apos;audit all accesses&apos; via Ranger admin configuration,plugins,Major
+ed3f214b2bb44278b27826e7e5de5990df4f62eb,/,/,    Adding row masking test for Hive,/,/
+6d30412d4cb2215c5a49e4eb21d946f005a64852,RANGER-1173,Bug,Improve Ranger database schema import logic and make it more robust,Ranger,Major
+68541c92afe3b6500ef28b3a6ee01149a337ad20,RANGER-1173,Bug,Improve Ranger database schema import logic and make it more robust,Ranger,Major
+bf7188031c715196a3e9a7f3f23c700d2deb427c,RANGER-1171,Bug,Invert authorization logic in RangerKafkaAuthorizer,None,Major
+1115ca8e9bb339b8f8e23909945eb314624e8d4c,RANGER-1171,Bug,Invert authorization logic in RangerKafkaAuthorizer,None,Major
+064c4f87a69e4f9220ed46d8a8aff13f704664d0,RANGER-1166,Bug,Auto complete wait time needs to be increased on Ranger UI,admin,Major
+3eba2a1edadf7d1c706997401ba46cf13595e82a,RANGER-1166,Bug,Auto complete wait time needs to be increased on Ranger UI,admin,Major
+2dea1f91c259a52b5f90b23c8469b26ed542d418,RANGER-1100,Bug,Hive authorizer does not block update when row-filter/column-mask is specified on the table for the user,None,Major
+a39c00f952267bacec5388880f33e694bdd467c1,/,/,    Finished test PMD coverage,/,/
+0bc79e9fb794feb0f7460284c6c355d08dc9de6a,RANGER-1160,Bug,Ranger installation is failing for MSSQL db flavor,Ranger,Major
+00e07f22b592d0d08f706fad0239fd860e8562a7,RANGER-1160,Bug,Ranger installation is failing for MSSQL db flavor,Ranger,Major
+ff4e2e7b6847679388a13ddd8396e191e0106f18,RANGER-1162,Bug,Tag lookup optimization: use prefix lookup to reduce number of evaluators attempted,plugins,Major
+7729373dea5a560f5cb4b24433d12b25a9dc7519,RANGER-1133,Test,Add tests for the Storm plugin,None,Major
+f734393e68de75dfa37e73ad158aae7e92f04fb2,/,/,    Updating site for 0.6.1 release,/,/
+cad64cec34245e3eeff5edff9358aafc98603aab,RANGER-1158,Task,Update version from 0.6.1 to 0.6.2-SNAPSHOT for branch-0.6,build-infra,Critical
+250c50daa59412d7a8b519a3b615f1b00c048589,RANGER-1109,Bug,Address IPMC feedback raised during Ranger 0.6.0 release,None,Major
+dcb93b5b9d71a4d08cad1ccce24d0699426b3958,RANGER-1151,Task,Release Ranger 0.6.1,None,Major
+cc1bb5a95c36e5d5579742127c13d252b46154a8,RANGER-1148,Bug,Ranger needs to map Storm ACL- debug  setLogConfig   getLogConfig to  getTopologyInfo,Ranger,Major
+d6912887437e6d3bdb7fa141801a708629363d06,RANGER-1124,Bug,Good coding practices in Ranger recommended by static code analysis,Ranger,Major
+7993a622e9501521f2dd9d3af19b8704bb499ce1,RANGER-1103,Bug,Build fails due to missing &quot;security/pam_appl.h&quot;,None,Major
+c202a20c1a46aa1c120b654c3e53fbd6bef02606,RANGER-1124,Bug,Good coding practices in Ranger recommended by static code analysis,Ranger,Major
+d9a661cfefd6b5c13486bc7d16e66e98dcf05bcd,RANGER-1122,Improvement,Remove ranger_solrj module,None,Major
+f452c640ce84d2e7709056c20295aaef72a47449,RANGER-1118,Improvement,Consolidate on a single Hadoop version,None,Minor
+1b2b32be2e103c845f3183aa66c2aa08db635189,/,/,    Typo,/,/
+1aad349874b3afffb1432736420dd41eddde0c6a,/,/,    RangerSolrAuthorizer creating unnecessary lists,/,/
+cc02a5de76bab4b65e41654a0d8bdb4a174a8252,RANGER-1095,Bug,Invert authorization logic in RangerSolrAuthorizer,None,Major
+55c55ca7a1aae73c70db7cab5b39dcf72ae3ef4e,RANGER-1093,Task,Release Ranger 0.6.0,None,Major
+6da9fe4618363da23be9a11408cf68325693dfe3,RANGER-1093,Task,Release Ranger 0.6.0,None,Major
+3c8b40fcf317235bc5597b4d6ffe535c7a5baa34,RANGER-1107,Bug,Performance trace to measure policy download performance in plugins,plugins,Major
+44b3738480032c5304aa3f1c2d75e6808d31cc65,RANGER-1972,New Feature,Ability to label policies  filter/search and show policies by labels,Ranger,Major
+6e6e42b0bffb67ad5613b99bf8f6dadbfeeca90b,RANGER-1810,New Feature,Ranger supports plugin to enable  monitor and manage apache Sqoop2,plugins,Major
+23046e9e81941060df0faa76984a64832a42f516,RANGER-1819,Bug,Not able to delete group that is having special character(ampersand) from ranger admin,Ranger,Major
+2c57feaf8b53f719d889f07a21cbdfafe6608dc4,RANGER-1636,Bug,Remove the pmd check error,Ranger,Minor
+f26bac88fdce0faa0309a7b13e93990af3838a47,RANGER-1628,Bug,Good coding practice suggested by static code analysis,Ranger,Major
+47ce2df14dfcd817606457bd961930785edbc030,RANGER-1622,Bug,Error installing Knox plugin using KNOX_HOME,plugins,Major
+9a943f1bf915247c01c1ac4322e8e56e63386a04,RANGER-1493,Sub-task,Policy engine updates to support tag-based masking policies,plugins,Major
+d28acf0af1fea237257a46178459a45ffb4814c9,RANGER-1619,Bug,Ranger Hive Plugin fails to check the URI when the location doesn&apos;t exist,Ranger,Major
+bac22f2216022a4b56b5a90eee0b928bb03d1dc9,RANGER-1619,Bug,Ranger Hive Plugin fails to check the URI when the location doesn&apos;t exist,Ranger,Major
+f604e53d17607e9bccf3c5819a3291874672cc57,RANGER-1619,Bug,Ranger Hive Plugin fails to check the URI when the location doesn&apos;t exist,Ranger,Major
+bc4ab70bf4e4c32882392366bc653dde64a253f4,RANGER-1620,Bug,Fix kafka-ranger-env.sh script to not throw error when it is sourced from bash,plugins,Critical
+eb386c33c5a796a0e535598e5d71afa60fe2aa7f,RANGER-1619,Bug,Ranger Hive Plugin fails to check the URI when the location doesn&apos;t exist,Ranger,Major
+0da1b424f3cf9574e31375251b4c78ee1f0e10a0,RANGER-1619,Bug,Ranger Hive Plugin fails to check the URI when the location doesn&apos;t exist,Ranger,Major
+4e1eb0e98061de204bfdf339f2b593c8b219dfb5,RANGER-1618,Bug,PasswordUtil is not thread-safe,plugins,Major
+dffbad4af43018438faf00b156acf593ab47839c,RANGER-1618,Bug,PasswordUtil is not thread-safe,plugins,Major
+cf01599b8724e080bcb760ef207fcf9fe9943396,RANGER-1612,Bug,When servicedef is accessed  one of the properties &quot;enableDenyAndExceptionsInPolicies&quot; is returned as &quot;false&quot; if there is no value set for it.,Ranger,Major
+75ff18b1265e91890302398286ae9dfa1b2e3148,RANGER-1570,Improvement,Finish cleaning up Mockito stubs,admin,Major
+7e223f90b319795c23225b447aded71f74546331,RANGER-1575,New Feature,Some users hope that the pid file of the Ranger Admin can be unified management when they integrate Ranger into the big data platform or business systems to uniform install and run Ranger.,admin,Minor
+ca53a68e4b0c22f17db8faa4313d37fa360d5ee2,RANGER-1584,Bug,Allow tagsync to support log directory from Ambari configuration,tagsync,Minor
+d7c0b7a43e1fb1caaaa372495ba8b16a27243197,RANGER-1605,Bug,These invalid codes that were copied have not been deleted in db_setup.py for the Ranger admin,admin,Minor
+a3c8de04f19b984e16cc8a828ac0c3ac99683e00,RANGER-1607,Bug,Ranger service check failed on SLES11.3 cluster with sslv3 alert handshake failure,Ranger,Major
+56e28489607eb7e7da68a76edf98c5f8ca78eb6c,RANGER-1602,Bug,Include / Exclude toggle not working for same level resources,Ranger,Major
+69bb80df27bc49e1544a3b3bbe87c3d00cd921da,RANGER-1602,Bug,Include / Exclude toggle not working for same level resources,Ranger,Major
+e26bcce249ec1852e4b55daf8e9f78f754e30343,RANGER-1592,Bug,Do code improvement for static  fields and Log  in the  AtlasClient.java,plugins,Minor
+7164cfc4c43ee2411b12e3b5d7dc6cfeb388b2ab,RANGER-1603,Bug,Code improvement as recommended by good coding practices,plugins,Major
+e22ee9607206ad387572e3cac0aac32a562c57d5,RANGER-1596,Bug,The log name is incorrect in Log4JAuditDestination.java.,audit,Minor
+0765c215d6fa1a70734a32e6f37f6fc77dc718d5,RANGER-1583,Bug,Test connections are failing for plugins after upgrade,Ranger,Major
+cbfe184c3b08e2ad4c1090b6a76ca09d92507852,RANGER-1590,Improvement,Modify code for the error logs in ranger\knox-agent\src\main\java\org\apache\ranger\services\knox\client\KnoxClient.java,plugins,Major
+cc6ce72e8fdcb7079204ca403334b8c3f7add04d,RANGER-1581,Bug,Ranger plugins need to support additional date formats for tag attribute values,plugins,Major
+b451c34d96a37985085c840cef61608fc39ee07b,RANGER-1586,Bug,There is &quot;cannot resolve symbol &apos;serviceName&apos;&quot; error in ServiceSolrClient class.,plugins,Trivial
+c6af51547e4e8bc0511b538a3f9af2362978eb86,RANGER-1581,Bug,Ranger plugins need to support additional date formats for tag attribute values,plugins,Major
+e05276f05a615590f7bb737bd6bcc8e4763822f1,RANGER-1579,Bug,WASB policy edit page is not opening,Ranger,Major
+b8738de30bc49b64858b2d09e0eb033e04a326a6,RANGER-1577,Bug,Update Ranger-WASB servicedefinition to remove Execute permission and disallow policies with a trailing slash,Ranger,Major
+fe999c662ff15640502c3378b9ce50be41612dec,RANGER-1577,Bug,Update Ranger-WASB servicedefinition to remove Execute permission and disallow policies with a trailing slash,Ranger,Major
+4c54b13b78f775b2e2e564f86f63c54c372850cf,RANGER-1576,Bug,Show attribute values to tags column in audit log,Ranger,Major
+55329a3e13580f014e282d319dc3168bb3e55507,RANGER-1576,Bug,Show attribute values to tags column in audit log,Ranger,Major
+3afd64e4f4088df4c1f6d6493a9d8506c224900b,RANGER-1578,Bug,Ranger plugins should use default service-def when it fails to obtain from Ranger Admin or cache,plugins,Major
+a8b4976ded4c4f980c351dd5c90f990c437107cd,RANGER-1574,Bug,The XAAUDIT.DB.PASSWORD property had been deleted in RANGER-900. The related redundant code should be deleted for plugin installer.,plugins,Minor
+ ,RANGER-900,New Feature,Remove support for DB based auditing,None,Major
+3999d5b6a2f93ef72bdf1deea45d7abbe4268652,RANGER-1571,Bug,Code Improvement To Follow Best Practices,Ranger,Major
+a3a5e2a7bc6209f6e93b66858d1f62a44e119d4e,RANGER-1498,Test,Remove unnecessary mockito stubs,admin,Major
+0ba3e129a068cf68ea8c2a77f003e112d0d54e08,RANGER-1562,Bug,HDFS test connection is failing due to null pointer exception,Ranger,Major
+9aad8d6e7649fe40909a74af8865fff3e28e3ebc,RANGER-1562,Bug,HDFS test connection is failing due to null pointer exception,Ranger,Major
+095c358b5aac6178cd60d73a429f2d6f7bd10cdc,RANGER-1541,Bug,The assignment logic is inconsistent for the value of the RANGER_ADMIN_HOME variable in Ranger Admin. It will cause a serious failure.,admin,Major
+db075f111c89ce19e9dbb68886eb6c487ab6bd36,RANGER-1554,Bug,Ranger AD search filter is not get honored when logging into admin UI,Ranger,Major
+c324ece1144b90cff6e43bf9e2c40fcb07888e0a,RANGER-1544,Bug,Misaligned input boxes and cleanup on Reports Search,admin,Trivial
+ada188bb60fa358ff7e143ceec74190458580c7d,RANGER-1561,Bug,Good coding practice in Ranger recommended by static code analysis,Ranger,Major
+87bc2e786cc2159aae274998c8ae52719b06b798,RANGER-1540,New Feature,Log is very important for big data platform. The main purpose of log analysis is that we need to know who is running the service  in which machine running service  which service out of the problem. The ranger security admin should support the feature.,admin,Major
+2fabba3f6af06b79c012841c886eb639a6307b40,RANGER-1513,Bug,Add Support for S3 authorization in Ranger Hive Plugin,plugins,Major
+02f83498e11754dcbc478ec0946a1ecc582640fe,RANGER-1513,Bug,Add Support for S3 authorization in Ranger Hive Plugin,plugins,Major
+ca69b58ca9b634dcc90b49fe6f4a580df3c49213,RANGER-1560,Bug,Code Improvement To Follow Best Practices,Ranger,Major
+58116e0118909b7ef495c3721575ba866a919c3a,RANGER-1500,Bug,Add support to exclude/disable SSL protocols.,Ranger,Critical
+07fc810408d1b5772925357413795dd7d93bdc8e,RANGER-1500,Bug,Add support to exclude/disable SSL protocols.,Ranger,Critical
+ba122d3adc0722e62df8abe61319bea23a784a66,RANGER-1557,Bug,Add Nifi as default in supported component list,Ranger,Major
+43998e11326998dc373d115dcd658ec16a46e7fb,RANGER-1475,Bug,some users missed to be sync if they are syncd from openldap If deltasync is enabled,Ranger,Major
+93ccc5237384a378416489d68e9e7d4234d07f73,RANGER-1556,Bug,Provide keyadmin user with privileges to read ranger kms audits,Ranger,Major
+2ae1346e36853271c531d753408cfc16ce0dfb53,RANGER-1535,Bug,Add tag attributes to audit log record,Ranger,Major
+c23b3743fa432fb242bd57da7693d88e1f8033bc,RANGER-1554,Bug,Ranger AD search filter is not get honored when logging into admin UI,Ranger,Major
+0c7798f336ebb72da32d4ecc8d84c677dbb785ca,RANGER-1431,Bug,Do some code improvement in Java method AuthSessionService.mapEntityToViewBean,admin,Minor
+cd9d1a49105d42eeb3a7aa65205b6f1d3018a180,RANGER-1553,Bug,Audit log record for &apos;show databases&apos; hive command contains all tags,Ranger,Major
+4ff214e0bcc43e737783461f99cf63123ea56f63,RANGER-1550,Bug,HDFS test connection and resource lookup failing,Ranger,Major
+501e05f1a1225dfbcc16bf4d2c0d86e55d4a928e,RANGER-1548,Bug,Display detailed error messages in Ranger for Audit store issues,Ranger,Major
+5e858afc6e3e140f9b07eca98787019672c6b137,RANGER-1546,Improvement,Code Improvement To Follow Best Practices,Ranger,Major
+f1117f5fe6cd2749b913986ea7529f99e9706caa,RANGER-1546,Improvement,Code Improvement To Follow Best Practices,Ranger,Major
+a7bb8e732b840bbcdcf48c49b21a8e17ea97293c,RANGER-1522,Bug,Update consolidated db schema script for SQLServer DB flavor to reduce execution time,Ranger,Major
+c01d01f54622286de7ef17b302ae0a734664a9d1,RANGER-1522,Bug,Update consolidated db schema script for SQLServer DB flavor to reduce execution time,Ranger,Major
+1a461ecfb7b4c0e8005d06e8d9d2dfb7c65a1497,RANGER-1471,Improvement,Remember filters on all tabs of Ranger Audits page,Ranger,Major
+ac24f705fb7d1902c8f8553ed98b988ac59678ec,RANGER-1481,Bug,Capture cluster name in ranger audit info,Ranger,Major
+70dcd590701f581f864ee847f7a28c41620349a8,RANGER-1483,Bug,Ranger hive service definition to use hive metastore directly,Ranger,Major
+9a1d5b49bf4c22b8a7847b4637e86bdbe9de9a0c,RANGER-1478,Improvement,Refactor RangerPolicyEngineOptions  RangerConfiguration is looked up too many times,plugins,Minor
+27bd3fe5c5e0c147d386f1c4441253d92f122b30,RANGER-1531,Bug,Good coding practice while parsing XML documents in Ranger,usersync,Major
+7665dcfd7843e0b999f821fa362de7461aeadf7b,RANGER-1530,Bug,NPE in HadoopConfigHolder,plugins,Major
+a3d9b0f91d2113a1d1977e6f527d70b76c447f08,RANGER-1526,Improvement,Error class names in the printed logs,Ranger,Minor
+9911429927df041cd9f193ee7052d2eb8e7e6207,RANGER-1531,Bug,Good coding practice while parsing XML documents in Ranger,usersync,Major
+3362acea8fa966eafa6a61147ed93142475bcb1e,RANGER-1527,Improvement,Make curator dependencies consistent,kms,Major
+af035198cc7d7a943a6b13e997c0973b482f2019,RANGER-1497,Improvement,Improvement of unit test coverage for ranger ,Ranger,Major
+79a8d7c86038f4bd67d7d6078d5b17bebf7ec771,RANGER-1497,Improvement,Improvement of unit test coverage for ranger ,Ranger,Major
+cdde1b6e86fcdd92c681b66b9ac291384e41bba5,RANGER-1495,Bug,Good coding practices recommendation by static code analysis,Ranger,Major
+f3e8b2fe7bb58f11445b7a7fd902de4331d8e86f,RANGER-1495,Bug,Good coding practices recommendation by static code analysis,Ranger,Major
+bdf0b61c0f6e109c2f4e0459676dda71f0265aeb,RANGER-1484,Bug,RangerUI: Escape of policy condition text entered in the policy form.,Ranger,Major
+ceb556ee1c12227d6a50ece1fee7a1c8a6d7dd8f,RANGER-1482,Bug,&apos;Ranger KMS&apos; repo is not getting created in manual installation,Ranger,Major
+6cfb01883fb97bd98e5e5b7baacb3cdd85a15b68,RANGER-1483,Bug,Ranger hive service definition to use hive metastore directly,Ranger,Major
+d60ae8fe4ad36ad4e7340e8781bf0d85e2962f76,RANGER-1474,Bug,On SP12  hive policy page opens up with UDF as default under resources  rather than table.,Ranger,Major
+5cab3e2be54a2660148c31432ea0a86764020d67,/,/,    Remove a lot of not used code - found because Boolean.getBoolean must be wrong,/,/
+aeb1ade1c54da6cb95ae1c95068ad37a8bf610cc,RANGER-1477,Bug,&apos;show databases&apos; fails with access-denied when user doesn&apos;t have access to some of the databases,Ranger,Major
+18abc714ba48dde9f11d930a94a1ce59c292d77f,RANGER-1467,Bug,The password is not set after the user is created by install program during installing Ranger Policy Admin. We should set password like db user.,admin,Minor
+b47e4d43577e260f74dd5b299d7fad2858d9b797,RANGER-1476,Bug,External users not editable through Ranger UI,Ranger,Critical
+37c95f703aa0ae87bb943fc48249b4b302a2cba4,RANGER-1476,Bug,External users not editable through Ranger UI,Ranger,Critical
+04be201cc561efccf7b2c37bff1858dddcdcfbc9,RANGER-1392,Bug,Hive test connection is failing even if jdbc.url configured is correct in Ranger 0.7.0,Ranger,Major
+a2291f0a821e9c51f4fb5779fae1eb5a9b13f733,RANGER-1470,Bug,The logic of the solr_for_audit_setup installer parsing the properites file is inconsistent with the other installers. It treated these attributes as environment variable. There are security risks in the solr_for_audit_setup installer.,admin,Major
+b0e364cde56ccab3daf1fb1c7f0554db181361a6,RANGER-1472,Bug,tag downloads fail with error &quot;XXServiceResourceElement.findTaggedResourcesInServiceId&quot;,Ranger,Major
+2f8c7f27af7137a36eff68db1c02544916bdc37a,RANGER-1462,Bug,Fix the spelling error in Solr Authorization,plugins,Major
+61999ef5cf8c83328ba7ad1b5870f84c09670db6,RANGER-1463,Bug,Good coding practices per static code analysis,Ranger,Minor
+d534b16379bcc9b3f48a8c3bf07551ced974909f,RANGER-1463,Bug,Good coding practices per static code analysis,Ranger,Minor
+a44c04e436caadbe391cad957e9f4d70f66eb51e,RANGER-1459,Bug,Ranger update policy API is failing on Postgres / Oracle for case sensitive ACLs,admin,Major
+1ca8de3f4a322e8bc15cd948d616d015bf63625a,RANGER-1458,Bug,Starting Yarn failed after installing Ranger Yarn Plugin,plugins,Major
+73ceb8b57ac9e788b83985fb176ceccdf3ff110b,RANGER-1460,Bug,Hdfs authorizer uses hadoop-acls to allow access with one allowing tag policy and no resource policy,plugins,Major
+786bb3a22deaab1338f56893841804fc8134da1c,RANGER-1451,Bug,Incorrect error message for hadoop security authentication,plugins,Major
+c9e94357028234db1b1ff9be57ecf13ae29f5d87,RANGER-1321,Bug,Provide a mechanism to create service-specific default policies,Ranger,Major
+a1c9fee705d668b62f3998aab55e11074a9a1ce8,RANGER-1453,Bug,Ranger KMS failed to start with Exception: More than one Master Key exists,Ranger,Major
+e6fd8e4e8e817c897f6ccbb4e666bd40c93d1aec,RANGER-1453,Bug,Ranger KMS failed to start with Exception: More than one Master Key exists,Ranger,Major
+01f57d4c469577e31402bf837d1de906c9e07a40,RANGER-1448,Bug,Change of import / export icons on Ranger UI,admin,Major
+85ddb48e2c7a795969e908ebce377ab4666aecce,RANGER-1321,Bug,Provide a mechanism to create service-specific default policies,Ranger,Major
+14853bdc61d97fa8d33aa0ab806f8d8abf01bc09,RANGER-1447,Bug,Enable ranger-hbase-plugin failed after execute enable-hbase-plugin.sh,plugins,Major
+68d48941d36ed7f8f2aa1cf6b30a2881326b3f5c,/,/,    Ranger-1446: Ranger Solr Plugin does not work when the collection list in the request is empty,/,/
+29eda27ef32146bd490d5005633f06bf68ee8d2a,RANGER-1430,Bug,There are some duplicate keys in some js files,admin,Minor
+f81da73092e246531791657a2462033d58f91c03,RANGER-1435,Bug,Allow different files to be specified for unix based usersync,usersync,Major
+8da88797371c8316ea7539051176e610cfff5125,RANGER-1435,Bug,Allow different files to be specified for unix based usersync,usersync,Major
+8f825cad14ede10bfd090e53a1d05c39fbabc6b5,RANGER-1440,Bug,Improve install script to retry failing statement,Ranger,Major
+284ca416a60533139889a0c3f68f20ae12fdd3cc,RANGER-1440,Bug,Improve install script to retry failing statement,Ranger,Major
+852e89cda3f54cf322a695cd511b015f31a335c0,RANGER-1428,Bug,In certain scenario user data contains junk email-id,Ranger,Major
+d5e5ad5f892dea696740bd6834b3c96b213498e1,RANGER-1439,Bug,Spelling error for &quot;fileStats&quot; in the hdfs-agent\src\main\java\org\apache\ranger\services\hdfs\client\HdfsClient.java. &quot;fileStatus&quot; instead of &quot;fileStats&quot;.,plugins,Minor
+6ec7d9659d26925795ecb65bd5e3c8a89982116a,RANGER-1434,Bug,Enable Group Search First causes issues when &quot;Enable Group Sync&quot; is disabled,usersync,Major
+a15a0bd8157fba6b946ea701589f401dcd914475,RANGER-1392,Bug,Hive test connection is failing even if jdbc.url configured is correct in Ranger 0.7.0,Ranger,Major
+6d96b21a300ddb03ffc72a74b13d268e7ccf45fb,RANGER-1392,Bug,Hive test connection is failing even if jdbc.url configured is correct in Ranger 0.7.0,Ranger,Major
+b2a2516d21095046ad9d1c1748e8ee38985f0e17,RANGER-1431,Bug,Do some code improvement in Java method AuthSessionService.mapEntityToViewBean,admin,Minor
+4307d3b84e3480cc80663bd2c8f61c83d2ddf42a,RANGER-1392,Bug,Hive test connection is failing even if jdbc.url configured is correct in Ranger 0.7.0,Ranger,Major
+7d929b4750f200366ddfc9bf3e620dd8b87b905b,RANGER-1392,Bug,Hive test connection is failing even if jdbc.url configured is correct in Ranger 0.7.0,Ranger,Major
+976142edefb2cc09c6178f36dec909fdeffcbe83,RANGER-1422,Bug,Ranger Knox Plugin audit doesn&apos;t have the access type populated.,plugins,Major
+6854f4d3c7624a340a26e4df194effc7d792dbf1,RANGER-1419,Improvement,Do some code improvement in Java method XTrxLogService.searchXTrxLogs,admin,Minor
+ffadac96cd9be789d8cbed04c5e0dccf4f87c384,RANGER-1405,Bug,groups are not shown if exact user name is passed in search filter,Ranger,Major
+f3473d23fc2c87ff03fc5c2c826a26155742e791,RANGER-1378,Bug,Update MySQL Schema to fix issues related to only_full_group_by restriction of MySQL 5.7 version,admin,Major
+fa98f45ff26bb67d7685b10a0e17496ba37a5f6b,RANGER-1378,Bug,Update MySQL Schema to fix issues related to only_full_group_by restriction of MySQL 5.7 version,admin,Major
+362a548efbcf3ca4ea9e60878440265f9c4aa305,RANGER-1420,Bug,Some error log information in ranger policy module,admin,Major
+bf1cdd1a3265912df818e351ef198af3cc5c9aae,RANGER-1416,Bug,SunX509 is the hardcoded Algorithm for SSL,plugins,Major
+6a602cadc520d47ec4342161d4db2a5240e40155,/,/,    Fix generic types in RangerAuditFields,/,/
+29fedc53fdc4a9df9f5857e754cf6fdcad488cef,RANGER-2138,Bug,Add unit tests for org.apache.ranger.service package,Ranger,Major
+f54723676d416001b6fb26f5ea281de0b392ec06,RANGER-2126,Sub-task,Improve ranger coverage of unit tests for REST layer.,Ranger,Major
+ce725f500ffb826f8d121ddef2514f7052013577,RANGER-2117,Bug,RangerKafkaAuthorizer to support new resources and operations which are in Apache Kafka 1.0.0,Ranger,Major
+84513334719958539fbddfbd12e3c95e4804a1fb,RANGER-2107,Bug,Use Spring to inject DAOs,admin,Major
+3b510f8c07271e2e51b5a9151a0d26f7084e3792,RANGER-2080,Bug,Add json-smart explicitly to security-admin/pom.xml ,Ranger,Major
+57e01bab63a5d4972886954399e8e4fc240d4431,RANGER-2039,Bug,Allow access to Audit tab for all users of role Keyadmin and KMS Auditor ,Ranger,Major
+c994a111fef904775a51490f20a1cb2b1131b2d9,RANGER-2019,Improvement,Handle upgrade scenario to rename the old ATLAS service def and use the new service def,Ranger,Major
+ad426c24c04e36ff6b7fc286501b4b737b317ad3,RANGER-1991,Bug,Fix problems detected by static code analysis,admin,Blocker
+c79aad4362b6f806da47462ec84e35108ba8eb1f,RANGER-2006,Bug,Fix problems detected by static code analysis in ranger usersync for ldap sync source,usersync,Minor
+a7d51d496d860715577d1a77117313748c611397,RANGER-2010,Improvement,Ranger Tagsync should use cookie based authentication for subsequent requests to Ranger admin,tagsync,Major
+79d177be7bc6d511e8902d963802c9550608bebf,RANGER-2014,Bug,Unable to see policy detail in view policy mode after updating recursive flag,Ranger,Major
+2b1143abac2a665bbefbbfcd17b57390094a7a2b,RANGER-1672,New Feature,Ranger supports plugin to enable  monitor and manage apache kylin,plugins,Major
+83321916e246315cdb125f92b7600bff46422f2b,RANGER-1963,New Feature,Show actual hive query on ranger audit UI.,Ranger,Major
+8888b6285fba7373df8b00a0dd5b0ac0c4b17aea,RANGER-1985,New Feature,Auditing for Ranger Usersync operations,usersync,Major
+4a99dab9ca2af75f67d8f6e68841060d469b77a3,RANGER-1983,Bug,Remove LZ4.*jar from ranger admin dependency,Ranger,Major
+c85ef54762b94b77fe7ef7b71a97a7acea7e8b26,RANGER-1963,New Feature,Show actual hive query on ranger audit UI.,Ranger,Major
+2bd65a0785a66934d2f15e7750bfadd6bd5ceec2,RANGER-1326,Bug,Fix remaining licensing issues,None,Major
+809a78b4a9549ac1d28ae600fc23e769c50ede20,RANGER-1998,Bug,Add ability to specify passwords for admin accounts during ranger install only.,Ranger,Major
+743e66f88af24501d6d3bb1a4495424946c7098c,RANGER-1512,Bug,Ranger installer fails if hostname contains upper case letter ,Ranger,Minor
+e1346179aae59ffc3b3319cfa643f39e9aef863b,RANGER-1512,Bug,Ranger installer fails if hostname contains upper case letter ,Ranger,Minor
+72ed7d398fa3cdb93f8868e553323c27801b2e83,RANGER-1948,Bug,Support for Read-only Ranger Admin users,Ranger,Major
+1d4afbe57a86bf025b00b0e2c93793d355a9096d,RANGER-2000,New Feature,Policy effective dates to support time-bound and temporary authorization,Ranger,Major
+024a3e392ba23b6d3a13f64b8159d54d062e4478,RANGER-2006,Bug,Fix problems detected by static code analysis in ranger usersync for ldap sync source,usersync,Minor
+a9fbbcafa75b48ccfac28544c624bdef7b6ae081,RANGER-2006,Bug,Fix problems detected by static code analysis in ranger usersync for ldap sync source,usersync,Minor
+36b1286e88e577a43f6b548dd8e8220b1c6ea890,/,/,    Merge branch 'ranger-1.0' of https://git-wip-us.apache.org/repos/asf/ranger into ranger-1.0,/,/
+0ae46b7467594bb01038dac0bc240743cfb4f5ef,RANGER-2005,Improvement,Remove invalid packages and import commands package to installer to fixed RANGER-1469 defect.,usersync,Critical
+ ,RANGER-1469,Bug,The user group would be duplicate created if the user group existed during installing Ranger Policy Admin.,admin,Trivial
+5439720fd909ec6c78bbc72e7ae743bdcebbd097,RANGER-2007,Bug,ranger-tagsync&apos;s Kerberos ticket fails to renew,tagsync,Major
+f96a9276f1b3ed920735e550a5c1cfe5cf560fe7,RANGER-2007,Bug,ranger-tagsync&apos;s Kerberos ticket fails to renew,tagsync,Major
+81a6d5e433d0f9a6080e7afb0cec541d2b0efdd2,RANGER-1967,New Feature,The Ranger support the Kafka 1.0.0,plugins,Major
+844315cdbc5e4589f5a4f873c33533d8f7bb014e,RANGER-2000,New Feature,Policy effective dates to support time-bound and temporary authorization,Ranger,Major
+9a3d4e306b5e536e294cb20fb67664e2e0b7a7f8,RANGER-2004,Improvement,Update Ranger Atlas Authorizer for the authorization model changes in Atlas,plugins,Major
+6cc62086795a212516b69fd09a1c2ef7a6761e5d,RANGER-1999,Improvement,Policy evaluation to support multiple values for accessed resource,plugins,Major
+fdce224fa1aa63eba2fec2dce52f3d5ac3532df6,RANGER-1991,Bug,Fix problems detected by static code analysis,admin,Blocker
+dcba4bc40a795156fbac8b747e339dc34a23bec7,RANGER-2001,Improvement,Similar to RANGER-1469  we should check whether the user or group has existed before the installer create a new user or group when user install usersync,usersync,Major
+ ,RANGER-1469,Bug,The user group would be duplicate created if the user group existed during installing Ranger Policy Admin.,admin,Trivial
+61d624c2d4cdc4fa4a8f2652f66f53f30e33eb28,RANGER-1993,Bug,Improvement on permission module for listing modules,Ranger,Major
+2626e5ccf03860de96b25b428eb4e64a4447cb8c,RANGER-1996,Bug,Change Atlas version from 0.8.2 to 1.0.0-SNAPSHOT,Ranger,Major
+218c06ff54f389a2ee57d80e156ecbf7364a51ec,RANGER-3397,Bug,Update ACL computation to (optionally) expand Ranger Roles to users and groups and include chained-plugins in ACL computation,Ranger,Major
+8cf1668c165c9a981d47597a4cfc693169debf18,RANGER-3343,Bug,Ranger policy cache is incorrect in some scenario,Ranger,Major
+0184d93d3a0185dc589a5ed1226f418305371fb3,RANGER-3195,Improvement,Atlas Ranger Authorizer changes to add/update/remove classification on entities.,plugins,Major
+4a87e3203ad18155e82b172e9754aa0fdc3554e7,RANGER-3309,Improvement,Support batch upload of tags to Ranger,Ranger,Major
+1fbd0a31527d87a5d2d0bb239ac4ca9be3a58b57,RANGER-3172,Bug,Patch to migrate old policy to use new Policy Ref table ,Ranger,Major
+7cdbe14bc065df408130a0b117a37943a1055648,RANGER-3156,Bug,RangerResouceTrie.add() and RangerResourceTrie.delete() do not work correctly for the resources containing wildcards,Ranger,Major
+63434dd53cb7aed13b9cb7fbf0c83ca2ff3ae0e2,RANGER-3055,Improvement,Make Ranger source code FIPS complaint,Ranger,Major
+0b9694d5e7382fac95df12a30be598bd7dd4168a,RANGER-3070,Bug,Add Support for using {OWNER} placeholder in Ozone Ranger Plugin,Ranger,Major
+60e453f754cca269455608be41e253d322b4d528,RANGER-3075,New Feature,Add new authorization privilege - &quot;admin-audits&quot; in Ranger-Atlas service.,plugins,Major
+a73ced56850d6858abe4dcc3d63c3c211b9203b1,RANGER-2948,Improvement,Ranger plugins to support a hook to register plugin chains,plugins,Major
+03d4b3e1a053f0a79899051e1064213d2b66286a,RANGER-2929,Improvement,Update Atlas Ranger Authorizer for &quot;type-read&quot; accessType changes done in ATLAS-3898,plugins,Major
+39bb22ec0dac0a9a7b13389c89df1616a3ba23e7,RANGER-2948,Improvement,Ranger plugins to support a hook to register plugin chains,plugins,Major
+20561472eba2fc484f33801c5c07fdc9b8edd9d9,RANGER-2917,Bug,Avoid recursive audit log in ES Plugin by user elasticsearch when plugin is enabled for ranger_audits index,Ranger,Major
+cf1e3ef8dcd5a4adc046a3895f49c9deb3069015,RANGER-2634,New Feature,Add ElasticSearch audit support,audit,Major
+91a00f42062bfe01600fd477a4d57d5b1a6b8b06,RANGER-2814,Bug,RangerServiceResource signature should not include service-specific information,Ranger,Major
+99c15149dc250d56e5145996bc944f0b32e6ac56,RANGER-2775,Bug,Pagination not working for role in Ranger admin UI page,Ranger,Major
+daeda7ab8aefcfdbe5869ff7c5852fe1ee351635,RANGER-785,Improvement,Ranger plugins should support a formal notion of super user,plugins,Major
+10f4cff27b703ffbb18e77ac9bd08d4b61e63813,RANGER-2758,Improvement,Option to create missing users/groups while creating/updating roles ,Ranger,Major
+6d8f9179d60f7d5f70852e13779fb096adfcf714,RANGER-2753,Improvement,Optimize populating user group mappings from DB.,Ranger,Major
+d6e0e9af2446d023e68df1e21221d8bf1190615d,RANGER-2660,Bug,Option to create missing users/groups/roles while creating/updating/importing policies,Ranger,Major
+fa0dff146399b97554d4e745e6e2dcbd7510d988,RANGER-2657,Improvement,Upgrade Hive version from 3.1 to 3.1.2,Ranger,Major
+6cd9e7b9efe7a799ce4d5c3faa6d1d9491dcf1c1,RANGER-2654,Improvement,refactor RangerBasePlugins to remove static servicePluginsMap ,plugins,Major
+3fca183e7bd2212489513ced5fa550fe7259e140,RANGER-2652,Improvement,Refactor policy engine,Ranger,Major
+0a7f809880c38190596945e0c30ac713bf0deeb2,RANGER-2652,Improvement,Refactor policy engine,Ranger,Major
+3105b94c03ac2176955dedb2d4ac78ebb4665cf6,RANGER-2646,Improvement,Refactor: replace references to static configuration instance,plugins,Major
+cd1e9b71a523e12e612e608a3dff15ecd773f652,RANGER-2646,Improvement,Refactor: replace references to static configuration instance,plugins,Major
+1893a36d64a78e3d18cf74e74bf6a88649d15515,RANGER-2499,Bug,Improve bulk create/update policy performance,Ranger,Major
+1eeb40a7102a717257f045bf81483552bf6d7720,RANGER-3553,Test,Unit test coverage for XUserMgr and UserMgr class,Ranger,Major
+7a4310e25e1214b077d4482f07577f8d4c76fdf2,RANGER-3502,Bug,Make GET zone APIs accessible to authorized users only,Ranger,Major
+869ec42f3718fcb4a7f8c463cbbb884f7216e9d9,RANGER-3023,Improvement,Permission tab takes longer time to load with large number of users and group_users data,Ranger,Major
+fb764e6910830f138ab1513b65f7689599ff0307,RANGER-3615,Improvement,Issue with exported audit json builder while writing events to log4j,Ranger,Major
+52a855892fab138652255b9f492c06725c82d7be,RANGER-3550,Improvement,support for using user/tag attributes in row-filter expressions and conditions,plugins,Major
+911bdc88c86e316a04e8ae7719fc5a967425648e,RANGER-3508,Improvement,Enable easier access to user/group/tag/resource attributes in condition expressions,plugins,Major

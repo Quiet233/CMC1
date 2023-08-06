@@ -1,0 +1,1071 @@
+e3de092688e7c627cddb72ad6a76718a16d3b0fd,FLUME-1752,Sub-task,Update CHANGELOG for flume 1.3.0 rc6 to include latest changes,None,Major
+89e9c2e3a7a7d058fedde5d0028b64709ef86a53,FLUME-1750,Bug,File spooling client uses -D as command line option,None,Major
+1b3eb8bd371bae5c876c61c4f68ac190d9ad925b,FLUME-1751,Bug,User Guide Examples for File Channel encryption are broken in 1.3 rc5,Docs,Major
+35d2c131d7d9e12ec01d4844d2fd47bed65ea84c,FLUME-1749,Sub-task,.gitignore and elipse related files should not be included in source tarball,None,Major
+3274ef45085f1fb31b4e0521c05ab705fb913db0,FLUME-1747,Sub-task,Update CHANGELOG for flume 1.3.0 rc6 to include FLUME-1740,None,Major
+ ,FLUME-1740,Improvement,Remove contrib/ directory from Flume NG,None,Major
+e1f6e42cb7f5d3ab4785c8e5a66007d1b175ed96,FLUME-1740,Improvement,Remove contrib/ directory from Flume NG,None,Major
+a6bfb2c8bf4d2761d241f53fe3b0b3be798435a0,FLUME-1746,Sub-task,Update CHANGELOG for flume-1.3.0 rc6,None,Minor
+bd3fd638313371901861ca19abe974ad60c81f5d,FLUME-1743,Bug,Multiport syslog tcp source does not load (v1.3 rc5),Sinks+Sources,Blocker
+48085cedb0719a1dbf05c5d68d62cc8f11064b3c,FLUME-1713,Improvement,Netcat source should allow for *not* returning &quot;OK&quot; upon receipt of each message,Easy,Minor
+54330dcc62aa91d8c4d27dbf7135d9972ac7af84,FLUME-1730,Improvement,HDFSEventSink testCloseOnIdle appears to be racy,None,Minor
+b43824a0f1362f02aec9ad0eba6a2a861275f39d,FLUME-1736,Improvement,JSR-305.jar is listed as ASL2 when it&apos;s actually BSD-3 clause,None,Major
+08a1eed94172cb661c3ae960cf26bd17c076a814,FLUME-1729,Sub-task,Add sign profile to sign/calculate hash of jars,None,Major
+10e489919a9418c83f859901af215a52251fc552,FLUME-1728,Sub-task,Upate CHANGELOG for flume-1.3.0 rc4 to include FLUME-1660,None,Minor
+ ,FLUME-1660,Improvement,Close &quot;idle&quot; hdfs handles,None,Minor
+c908e4f65da3d9f76acca0b67737333cd5a50060,FLUME-1727,Sub-task,Update CHANGELOG for rc4,None,Minor
+e356446ccb04f7c464093b00594b952289e4f4c0,FLUME-1736,Improvement,JSR-305.jar is listed as ASL2 when it&apos;s actually BSD-3 clause,None,Major
+395a06dfeeed0d2222933cc88ebf450cf1a725e6,FLUME-1660,Improvement,Close &quot;idle&quot; hdfs handles,None,Minor
+0bea755f415ae3fe8cb8dbdccdccdb03a0896691,FLUME-1719,Bug,Example export command in README do not properly close the string,None,Trivial
+d5446d613e75d4a731535ff5f87c04890565272c,FLUME-1723,Bug,AsyncHBase and Avro bring in different versions of Netty,Build,Blocker
+c1183e1abc2bcfa7408bf5f617d5cb766278178e,FLUME-1720,Bug,LICENSE file contain entry for protobuf-&lt;version&gt;.jar  however proper artifact name is protobuf-java-&lt;version&gt;.jar,None,Trivial
+656e049981df62316e0a817382087297209bf2f3,FLUME-1716,Sub-task,Update CHANGELOG for rc3,None,Major
+a2f7c8ef8082b27af0e7ea193e739b38d50f1471,FLUME-1711,Bug,Update Flume User Guide,Docs,Blocker
+f432c571ebca03f3c1fc2050d7b2be6d75351da2,FLUME-1712,Bug,Regex Extractor Interceptor tests have timezone issues,None,Minor
+77c366894e3421f4f601fe14dbd13233e9883f5b,FLUME-1657,New Feature,Regex Extractor Interceptor,Easy,Minor
+dfca887ac71b84946374a7af539bb393934c1753,FLUME-1657,New Feature,Regex Extractor Interceptor,Easy,Minor
+f68ab7124bd9c98d701e738bdd6c2c144dae19b6,FLUME-1657,New Feature,Regex Extractor Interceptor,Easy,Minor
+5483e5c0a92c6b55635f129505619b3a4b662fca,FLUME-1707,Bug,Update FlumeDevGuide,Docs,Blocker
+27c9737cfc94851d6782a087111dabae52d1c1a6,FLUME-1706,Sub-task,Website for 1.3 fails to build,None,Blocker
+2b20f52d55ad5c79515228b7882b80dc6a6b8d9d,FLUME-1705,Bug,SpoolDirectory short name points at the wrong class,None,Blocker
+c0659f25d5881c7a7abcc59d4dcc3bd00f96c07c,FLUME-1701,Sub-task,StagedInstall has -dist hard coded,None,Major
+9636067d4e1241032749c0d2fdf8b61d3237b1ca,FLUME-1698,Sub-task,Update RELEASE-NOTES,None,Major
+d7e989e97350588b7053d0cbe0bfe93c86f37b8b,FLUME-1697,Sub-task,Update CHANGELOG after 1.3.0 RC0,None,Major
+d01480fd4c1b350ac26c756019172c34aacdb0f0,FLUME-1696,Sub-task,Update build instructions as Flume build requires more memory,None,Major
+08cae54b1bff5d8c895a116f4c83ec08274415e5,FLUME-1696,Sub-task,Update build instructions as Flume build requires more memory,None,Major
+36dfc0941abbd5114c709231cda0cb38e3b230d1,FLUME-1694,Sub-task,Fix LICENSE file for binary artifacts,None,Major
+8b748e3851f9378bc319af0c8b08c9ff0a044c1b,FLUME-1693,Sub-task,Update release notes,None,Major
+c3bc356196056bebebfd64927f12d04e3b4c0553,FLUME-1692,Improvement,MultiportSyslogTCPSource user documentation and nickname,None,Major
+f71559067339db3128a0e29b72764311557f46f8,FLUME-1277,Bug,Error parsing Syslog rfc 3164 messages with null values,Sinks+Sources,Minor
+7bf6859dd4159f980767d7f50faaced4ac082d87,FLUME-1689,Improvement,BodyTextSerializer should allow an option not to add a newline to each serialized event,None,Minor
+86bedaeb861af1a86d26967bb22aa4b77db62113,FLUME-1655,Bug,Doc update needed for Regex Filtering Interceptor,Configuration,Major
+9c96fb2a89a958a5f83bbaac072ed955cf519865,FLUME-1690,Bug,Elastic Search Sink doesn&apos;t run it&apos;s unit tests,Sinks+Sources,Major
+1aefb13a5ad2362f9d41e8cf85b593745a813668,FLUME-1656,Bug,flume-ng script disregards stderr  from hadoop command when finding hadoop jars,None,Major
+d25e7cd856f2cf36f60175de74f5ba50bf035944,FLUME-1684,Improvement,Re-enable empty file unit test,None,Minor
+a2f3728e6de8fda5d6c95d89cc89cd027c1d058c,FLUME-1683,Bug,Fix Time Granularity Bug in SpoolingFileLineReader,None,Major
+f25d2679cd99c38a36d027b28980db5623dfe20a,FLUME-1681,Improvement,Disable empty-file unit test for Spooling File Reader,None,Major
+9628170e891b406b9f1d5501c6ed60bee35b351b,FLUME-1673,Bug,MonitoredCounterGroup publishes this reference to platform MBean server in constructor,None,Major
+d02f943682dd329177269df50066014b988482ee,FLUME-1675,Improvement,Ignore netbeans config files in rat &amp; git,None,Minor
+5ad522c1e392dcbb07aca5d0015e5302ce29a203,FLUME-1671,Bug,Add support for custom components to MonitoredCounterGroup,None,Major
+dc99a7455be6b9203447c730cafe4763032749df,FLUME-1653,Bug,Update Hadoop-23 profile to point to hadoop-2 alpha artifacts ,Build,Major
+73ebd2774d1e6c196fbaba50f12a0043b771e1d3,FLUME-946,Improvement,Allow multiplexing channel selector to specify optional channels.,None,Minor
+1bb0a80ab5157fdebda96fa0da66be39e5e3dde5,FLUME-1659,Bug,JSON Handler should return simple events  not JSONEvents.,None,Major
+6ea3a1596ee8a6052c08032c12d87660ff15dbf2,FLUME-1645,Improvement,add hdfs.fileSuffix property to HDFSEventSink,Sinks+Sources,Major
+c9fcf2e09073c79b185031522f79d4d258eef531,FLUME-1371,New Feature,ElasticSearch Sink,Sinks+Sources,Major
+acd8223c7d34691b5172792388df9717c26883dc,FLUME-1664,Bug,Logutils.getLogs remove unneeded directory check,None,Minor
+1ee1ce49e6b609649ef4790e7708ed8663baac76,FLUME-1652,Improvement,Logutils.getLogs could NPE,None,Minor
+af711b3d8e4c0e12656aaaeffb505a1c035eee83,FLUME-1662,Bug,Convert null body in events into zero length arrays.,None,Major
+b05e15de124a8f5f83611b286dfb55d3a68fa66e,FLUME-1337,Improvement,Add IDEA files to .gitignore,None,Minor
+878b136541023d6b58f381796644a0f3b04910e4,FLUME-1620,Bug,Update flume user guide for LoadBalancingSinkProcessor with the backoff changes.,None,Major
+6d22b6b0980377f41122018b183cd442b9818472,FLUME-1622,Bug,MemoryChannel throws NPE if the event has no body,Channel,Major
+8ae4e9e3f055b87404b60f777fc9a36cbbc89b4b,FLUME-1638,Bug,LoadBalancingRpcClient depends on com.google.common.collect.Maps,None,Minor
+39f0ec8a99a28b0a9c5cf15e716fdd0e91c6ec01,FLUME-1651,Bug,in the hadoop-0.23 profile HBase version needs to be at least 0.94.2 ,Sinks+Sources,Blocker
+9e039637220cf12d8a0b73cd22128cea25397a16,FLUME-1650,Bug,Fix flume-ng-hbase-sink compilation against Hadoop 2.X,Sinks+Sources,Blocker
+d1a7dbdd1dd5e7a5d65b95d045c85f885f1fe64f,FLUME-1515,Bug,Fix flume-1.3.0 branch test failures on ASF Jenkins.,Test,Minor
+a7e276fb61908fa81522951619b5e7f93ffca7cd,FLUME-1642,Umbrella,Umbrella JIRA for 1.3.0 release,None,Major
+8fb07e3c07c7b5fe37d629cee9100cab54a79819,FLUME-1609,Improvement,FileChannel detecting when the underlying file systems are full could provide cleaner error recovery,Channel,Minor
+1dea8ec9d9359665f11b1e580fc4ea21e985d004,FLUME-1631,Improvement,Retire hdfs.txnEventMax in HDFS sink,Sinks+Sources,Minor
+653ce78cc232756305ac95aeedeca06bf1af4c64,FLUME-1569,Improvement,MemoryChannel uses an Integer as a lock,None,Trivial
+fff91b4ba5c8529e5e1acd31c04e12464994aad0,FLUME-1535,Improvement,Ability to specify the capacity of MemoryChannel in bytes,Channel,Major
+cdddf5aa8f1ec05ddab2aaa3d0d393b81bdcd844,FLUME-1616,Bug,FileChannel will lose data in when rollback fails with IOException,Channel,Major
+1039b4c8b3776516eef351b023c5af1b2d9ea2bf,FLUME-1615,Improvement,HBaseSink writes byte[] address instead of columnFamily name in the exceptions message,Sinks+Sources,Trivial
+c6312211e07501cd59e7e0df6e580f3775b0dde7,FLUME-1567,Bug,Avro source should expose the number of active connections through JMX,None,Major
+11de7fefee63dce1fb7954e7e1a74080097525ad,FLUME-1613,Bug,All of the sink examples in the user guide are broken,Docs,Minor
+56ba7ba2701daeeb2879ce37ced7e6fa79e679cc,FLUME-1611,Bug,LogUtils regex can be precompiled,Channel,Major
+9abd3d53da64e1dea137fd461d9d17875c8b72d7,FLUME-1547,Bug,avro-sink example is wrong in user guide,None,Major
+4dea8489e1264e633151ab7e558271bdffce9a69,FLUME-1610,Bug,HDFSEventSink and bucket writer have a race condition,Sinks+Sources,Major
+892521fd5b216d9691cec235fa12822e9dfa7e87,FLUME-1606,Bug,Rollbacks of Put transactions does not clear the transaction from inflight puts.,None,Major
+a221a8e99155e06c3740d91c9e54d4f150044830,FLUME-1600,Improvement,FileChannel metadata files should be written to a temp file and then moved over existing files,Channel,Minor
+3f49bef221cc74ae237d6f9c1ea153bc6f671a4b,FLUME-1603,Improvement,FileChannel capacity reached message is unclear,Channel,Major
+e25d6d8b5a41b97e408780135969010d07b7243a,FLUME-1599,Improvement,FileChannel error message and documentation is stale,Channel,Major
+dcc8a080317e83e7207bc6f3ec958dc83b3d0c77,FLUME-1590,Improvement,ExecSource doesn&apos;t kill it&apos;s child when shutting down,Sinks+Sources,Major
+b6686e7d953209f6f1bb8f11c0b989c7b661958e,FLUME-1595,Bug,HDFS SequenceFile implementation is not durable due to not using syncFs(),None,Major
+a51e40421077c8f13f89376789dad5713cfbfca0,FLUME-1570,Bug,StressSource batching does not work unless maxTotalEvents is specified,Sinks+Sources,Major
+19d815e4971ca0c35f0039f7c261751067998e9a,FLUME-1582,Bug,flume-ng script should set LD_LIBRARY_PATH ,None,Major
+5d4903a93e1bcdbc852db03197d2887b9428552f,FLUME-1385,New Feature,Add a multiport syslog source,None,Major
+e697bd168bbc08c613f95d3b566486b03e5b5647,FLUME-1578,Bug,Proposal to modify file channel encryption config,Channel,Major
+8222c4f9b7ba60852882c5db3cec32c9db6e988f,FLUME-1537,New Feature,Dump RollingFileSink&apos;s counter status when agent stops,None,Major
+abf5f2392531b281752a3366db52f70dc771efae,FLUME-1575,Improvement,FIleChannel Encryption should disallow a null key,Channel,Minor
+cb418c9bb86173c64ff5a6ae37adb723796ad222,FLUME-1577,Bug,CHECKPOINT_INCOMPLETE should be synced to disk before starting the checkpoint.,Channel,Major
+2a8c3450cf00c7b45125cad541d2b27f600b12f7,FLUME-1572,Bug,Add batching to FILE_ROLL sink,None,Major
+65f58c4319a9c2fd28b14b147d43af5c7f0508da,FLUME-1488,New Feature,Load Balancing RPC client should support exponential backoff of failed nodes,None,Major
+d5636f432c4949d42f69ab56c4d1b320eeab606c,FLUME-1538,Improvement,Channels should expose channel fill ratio through JMX,None,Major
+ee25a3bc60e492b0f856fb1fd005d916fefcbfed,FLUME-1565,Bug,FileChannel Decryption in RandomReader is not thread safe,Channel,Major
+31309887a37fa1e76afaa6ad8f19b6fe9b7587b5,FLUME-1564,Improvement,FileChannel log file creation could be clarified and tested,Channel,Minor
+d4a66bebd34c86e5a338071c0da77a601269ddb6,FLUME-1557,Bug,It would be nice if SequenceGeneratorSource could do batching,None,Minor
+8b9e51324ff2571f52f448d1ea69eb0701c5dfe7,FLUME-1470,Bug,Syslog source does not parse facility correctly,None,Major
+c2d58c56a6d9f40f4edd4587fdb0d5ae02490655,FLUME-1563,Improvement,FileChannel Encryption KeyProvider configuration properties should be more consistent,Channel,Minor
+52bbce20ee735ddd9cd18e2f3fae150f8d185daa,FLUME-1554,Improvement,FileChannel fails to build on machines with old protocol buffer compiler,Build,Major
+aaf7f7ab61e80afbea97aa8567a0522bb7baa223,FLUME-1562,Bug,TestLoadBalancingSinkProcessor.testRoundRobinBackoffFailureRecovery is flaky  fails every once in a while...,None,Major
+fff0372f2232b70e427a890d34190d62b51cd4cd,FLUME-1553,Bug,TestFileChannelEncryption should be refactored to use TestFileChannelBase,Test,Minor
+cf8399c898c9a16770f2f7ea15af5a08ccf9db9b,FLUME-1556,Improvement,It would be nice if NullSink logged the number of event processed every 10K or so,Sinks+Sources,Trivial
+c9d0760f3f21f9338eef23a1a54b66fb89f62ce5,FLUME-1480,Improvement,Replace object descriptor with detailed component type plus name,Easy,Minor
+268223e034170cf79d2fa1119c0ee3e530c395bd,FLUME-1519,Improvement,LifecycleController prints tons of DEBUG messages,Configuration,Minor
+c64975d602aea69b4f27764a29144b0b899559a2,FLUME-1555,Bug,StressSource outputs bad log messages that reference (Sequence generator),Sinks+Sources,Trivial
+7d8499ef3088566a8e834a5d9b973b8d1a0f61cb,FLUME-1552,Bug,TestFileChannelEncryption fails without a high encryption policy file,Test,Critical
+93da4dc9e16b84f96facf0da80f779448feefd73,FLUME-1536,Improvement,Support for batch size in StressSource,None,Major
+e593970638aebd9f0db1e0f1cb04d6d8f3daad94,FLUME-1550,Improvement,Use maven-antrun-plugin to save version,Build,Major
+20655831756b7a0fcf05951c0f2762d6010980de,FLUME-1548,Improvement,Build dies due to older protocol buffers compiler,Channel,Major
+102105c1201c8ff98ef9eb52d0c3e02fbfda7637,FLUME-1544,Bug,Update dev guide to reflect the protoc requirement,None,Major
+54fd3e682c80d1cbadd5243c2afd0c20fc55eac5,FLUME-1546,Improvement,File channel encryption: trim() passwords and warn user if he doesn&apos;t have JCE policy file,None,Major
+975231474533e37bce3efc67faed90366a4b7269,FLUME-1545,Bug,File channel missing implicit dependency on commons-lang,None,Minor
+752f70f4fd053fa53650c0d7673a99c7610464f9,FLUME-1541,Bug,Implement a SinkSelector for LoadBalancingSinkProcessor that includes failover mechanics,Sinks+Sources,Major
+939bf1074ebcae345608288306d274687c97fc8d,FLUME-1509,Improvement,Flume HDFS sink should allow for the use of different timezones when resolving sink paths,None,Major
+a7553e4bda294d0dd6f58d06f8c164d352add9af,FLUME-1526,Improvement,LogFile log message is scary when no harm has been done,None,Minor
+c8a93e4a588cc226bfbc803faead11eec2741364,FLUME-1507,Improvement,Have &quot;Topology Design Considerations&quot; in User Guide,None,Major
+6b8c8d70b773535e9815b6323e9b0bcbdf82ccd1,FLUME-1534,Bug,CheckpointRebuilder$ComparableFlumeEventPointer#equals does not work correctly.,None,Major
+a4763a7d7367f6d639567315a486675d20794ad5,FLUME-1532,Bug,Increase test timeouts even further.,None,Major
+43f04894654925e0a5472ac99d3cde689545a61d,FLUME-1531,Improvement,Flume User Guide should provide more details on configuring the timestamp interceptor,Docs,Minor
+5673e06086c535dd6606f313b68a28f46796db3d,FLUME-1528,Improvement,File Channel replay when no checkpoint is present can be faster.,None,Major
+52f67c2dad6598faced14dba4c98bfae7b291714,FLUME-1527,Bug,Seed TransactionID/WriteOrderID in the case no logs need to be replayed,Channel,Major
+fc282f7ea44839437fc34a026d8fb7e59d53466d,FLUME-1496,Improvement,TestFileChannel is bloated,Channel,Minor
+e8740532ecf4eb818621cdd11c0cc2c5aecd7906,FLUME-1525,Bug,On some (slow) machines TestFileChannel can fail,Test,Minor
+1e3599a9fab62b61a0abcade67fa7328240b83b4,FLUME-1523,Improvement,Allow -X java opts to be passed to the agent on the command line,None,Minor
+81effe2e3e1e6741d468c9de949e8e0329e90131,FLUME-1524,Bug,TestMonitoredCounterGroup is flaky,None,Major
+f5f199f38cffc7b4b6672a7242f46dde010eb07c,FLUME-1513,Bug,File Channel log close() method should not be synchronized,None,Major
+40af97b9b6892fe24a59a76100879b0ab6258550,FLUME-1428,Bug,File Channel should not consider a file as inactive until all takes are committed.,Channel,Major
+ede734b4d9dc7eb6709844693f73adaf3e4b1120,FLUME-1512,Bug,File Channel should not stop during a checkpoint.,None,Major
+c8895dd874b1e02efa8a28a24453cef73efa2fa3,FLUME-1500,Bug,Upgrade flume to use latest version of Avro - v1.7,None,Major
+d80a7d6830c3143b2b400da4ace15da739de7221,FLUME-1492,Test,Create integration test for file channel,Test,Major
+c2367713ee9d6a4b88483bedf955ea6028f77206,FLUME-1489,Bug,scribe-source sources not included in packaged source tarball,None,Major
+ab7ccae3253e23cb209d1527ba2a7c7b3d9fcb39,FLUME-1505,Improvement,TestFileChannel needs to be able to force a checkpoint,Test,Minor
+4f42f04f42088f417d42aceb7dab25e864fd5b6b,FLUME-1504,Bug,Test file channel times out randomly,None,Major
+29b62f33b3403a8c680b1db7d9733bb4c5175e90,FLUME-1498,Bug,File channel - Log updates and queue updates should be atomic,None,Major
+cf3c16f4b08663d408f01506015e1cf5be6c3d73,FLUME-1437,Bug,Checkpoint can miss pending takes.,Channel,Major
+3cac43e59f693fd1cc46c3a9df3ea00ec9858232,FLUME-1382,New Feature,Flume adopt message from existing local Scribe,Sinks+Sources,Minor
+e01403004af5aa5964f1df3312549c7bb9e2c686,FLUME-1430,Improvement,FileChannel Log.writeCheckpoint needs better documentation and variable names,None,Minor
+716b1e2d3e928bde9ddaf75f958bea06f4707824,FLUME-1482,Bug,Flume should support exposing metrics via HTTP in JSON/some other web service format.,Sinks+Sources,Major
+1e414de8c5624f9585d86c8cf8e93b9e92b7fac3,FLUME-1482,Bug,Flume should support exposing metrics via HTTP in JSON/some other web service format.,Sinks+Sources,Major
+d656fae3f492b40281b875ba36793a8e488b5e8d,FLUME-1482,Bug,Flume should support exposing metrics via HTTP in JSON/some other web service format.,Sinks+Sources,Major
+b5ac9b8f4679a812924d46c6b7a02348167094df,FLUME-1432,Bug,FileChannel should replay logs in the order they were written,Channel,Major
+cf474b4d5eaad8ee045b3eadcd0ebb19c1c55f9c,FLUME-1432,Bug,FileChannel should replay logs in the order they were written,Channel,Major
+525fb2336a6ccf049b9297384fa8bc90146f130f,FLUME-1434,Improvement,Distinguish background worker with channel name ,Channel,Minor
+303076f2c4e87e5b37c84e6fe9c666eeb60dbf49,FLUME-1418,Improvement,Improvement for Log4j configuration,Build,Major
+2a55d67f5bf16a296c019c6b27b89943d356c8b4,FLUME-1434,Improvement,Distinguish background worker with channel name ,Channel,Minor
+b9960ab5ff33086c9923abe6d03700cd11146ffc,FLUME-1417,Bug,File Channel checkpoint can be bad leading to the channel being unable to start.,None,Major
+be6c13bdd3384d04001b234b2bb5d1e1e28aec52,FLUME-1422,Bug,Fix &quot;BarSource&quot; Class Signature in Flume Developer Guide,None,Major
+eaee4225a0cc8fa4c22f40cf6a47f282c3498865,FLUME-1421,Bug,PollableSourceRunner does not name it&apos;s thread,None,Trivial
+d389b50c2d145edd1d0a14f850d473c31f2a88f2,FLUME-1416,Bug,Version Info should have hardcoded git repo address,None,Major
+e261fd905942b0f4bd86013fbe7f8251b44cf483,FLUME-1414,Bug,VersionInfo should not create a log instance,None,Major
+40738b30296758b707ce7e496b20ba6ececd9186,FLUME-1412,Bug,Commons collections is used in file channel - even though it is not in pom.xml,None,Major
+1c84ab3e4b1ed63d0578e1f439fba38a0b841d33,FLUME-1389,Bug,Flume gives opaque error if interceptor type not specified,None,Major
+dd1880231b7f8f64e2a0d4a43ebf7e95e0196562,FLUME-1391,Bug,Use sync() instead of syncFs() in HDFS Sink to be compatible with hadoop 0.20.2,Sinks+Sources,Major
+a0a55703c875b79f7851fbc91ab22c96b27b6162,FLUME-1408,Improvement,ScheduledExecutorService does not log uncaught Throwables  we should log them,None,Minor
+5c3d966a7923b983271de882363cb1258460978e,FLUME-1401,Bug,Asynchbase sink should be configurable to support timeout,None,Major
+8cf91191a760e59e454b54a0d8f736fdcea1fdcd,FLUME-1354,Bug,Update docs to show that recoverable memory channel is deprecated,None,Major
+81797b23ce3b9815ebc3b33b9c443da7e55af2c6,FLUME-1392,Bug,Inactive channels get added to source channels list causing NPE,Sinks+Sources,Major
+d6e5a2dcb6b67db665eba95b4a99bcd34f58ba70,FLUME-1358,Improvement,Add a regex-based filtering interceptor,None,Major
+165d99a8677a96760336b00d852c6451bb215ab7,FLUME-1383,Improvement,Improve various log messages in FileChannel and HDFSSink,None,Minor
+7c5fa8985ce4812c71a2f34aac5ddec11ef3a94b,FLUME-1387,Improvement,Ganglia graphs should work with Flume,None,Major
+b5f7b0b71e13e869b36041e2f1768e3fb97c7a6e,FLUME-1386,Bug,Ganglia metrics plugin should filter MBean name,Technical Debt,Minor
+df3280bd03104a6bcfa544744ef09fd90227a647,FLUME-1360,Improvement,Provide documentation for static interceptor,Docs,Minor
+d81ffde48552cd3b3750a0b1b308513578040f52,FLUME-1380,Bug,File channel log can record the op code and not the operation in some cases,None,Major
+5c22b171d65e236636f01b5c8d5d7a1b9b49a14a,FLUME-1376,Bug,StaticInterceptor doc update,Docs,Minor
+61491f82974760ac5342861b31a9cd30c6a4c5d5,FLUME-1369,Bug,Code and user guide documentation out of sync for interceptors,None,Major
+17509e2a28fa8db1a15c111a95c22ca489742f2c,FLUME-1368,Bug,In user guide  property sink.directory for file roller sink should be bold,None,Trivial
+acf02618c4413587de7182cc9d0299b46a9ff3b8,FLUME-1362,Bug,Port retrying in TestThriftLegacySource not working,None,Major
+5929cc2dec7234372c39c7c9263a4093071ca849,FLUME-1364,Bug,Document the necessity of the timestamp header when using time-related escapes for hdfs sink paths,None,Minor
+7606cdaaee2da69861a780570a4d1dc526412441,FLUME-1363,Bug,flume-ng-node - TestNetcatSource doesn&apos;t try multiple ports,None,Minor
+2674347803f6273faeb5cb57fcd4273328a87aef,/,/,    Flume 1.2.0 release tag for RC1,/,/
+d17f0a46ae8faa88729fc0d3568d262b26b9d464,/,/,    Add MAVEN_OPTS build workaround to DEVNOTES for 1.2.0,/,/
+5271aacf872a44d522e23e9211b27aaa05577adb,/,/,    Update LICENSE file with binary artifacts included in 1.2.0 release.,/,/
+e611d43965b13722505dc402bd3ad15dea9f3ff2,/,/,    DISCLAIMER file is gone. Also  remove empty directory.,/,/
+cfcc5514ac58d30a58f203303891ab729b0bd2d0,/,/,    Different versions of servlet-api jar getting pulled in,/,/
+d3956855bab839061b4af36ae0a4eda7b9512834,FLUME-1359,Task,Update main pom.xml file with regards to Flume TLP promotion,None,Minor
+2c486a309235120d197c8b36f93c15a51d97a8cf,/,/,    Add MAVEN_OPTS build workaround to DEVNOTES for 1.2.0,/,/
+6641c324d39c98c6353168e942aad993bf009054,/,/,    Update LICENSE file with binary artifacts included in 1.2.0 release.,/,/
+9aa0c23845f9b87cfc21d1c1e1e7690e839f5682,/,/,    DISCLAIMER file is gone. Also  remove empty directory.,/,/
+16bc151bde9806fa1986615855325f45a5d75a30,/,/,    Different versions of servlet-api jar getting pulled in,/,/
+6dba9f74476438a0608e79077a99b6df0042d817,FLUME-1361,Improvement,Add event batching to ExecSource,None,Major
+fe90d425cd677ad5cc726883ceaaf8da821d293b,FLUME-1310,Bug,Make Asynch hbase sink test work with other versions of Hbase,None,Major
+4d01c814b2321bad986b0aba177f849f93b0710e,FLUME-1359,Task,Update main pom.xml file with regards to Flume TLP promotion,None,Minor
+2f9604bf681af058bd0a308590f637fb9d7548e4,FLUME-1276,Bug,Create a static header interceptor,None,Major
+aaed5dbd69d57391307afcb17381c72521f60d43,/,/,    Update changelog for 1.2.0,/,/
+e5cd28c80f4d0d69962ec1357308296636f7dae9,/,/,    Update changelog for 1.2.0,/,/
+45da0aac5e556528ed39db8e1bd30798c92d3ce8,FLUME-1297,Bug,Flume tests should wait for a few seconds for agent to start.,None,Major
+0646a1588bd3459369c8eee95b62d4210d1592c6,FLUME-1355,Bug,Improve user guide section about sink processors,Docs,Major
+30bdddb2944419e442e50e951e8b52a28c9e1f1c,FLUME-1297,Bug,Flume tests should wait for a few seconds for agent to start.,None,Major
+ce8527267f14ea59dffabdde6fc113385c2924af,FLUME-1355,Bug,Improve user guide section about sink processors,Docs,Major
+353c778e71425e956196a3e4b60f420807dcccc8,FLUME-1356,Bug,Document interceptors,Docs,Major
+1da1e59f631ced58dfcc6066ca3bbfefd86bf500,/,/,    APACHE-BUILD. Update various files to prepare for 1.2.0 release.,/,/
+88cda028ab08c564b1b839070ac45944a699fcfc,/,/,    APACHE-BUILD. Update changelog for 1.2.0 release candidate.,/,/
+33c05d2f7440e948ead1e9dd5b93436550bbac91,FLUME-1356,Bug,Document interceptors,Docs,Major
+58411b2481c9521270a1f1cc99a4280c57403d35,/,/,    APACHE-BUILD. Update doc versions to 1.2.0,/,/
+5dbcf2370120aa48e2e757a7a255297c9b5c3bcf,FLUME-1353,Task,Ensure license headers are consistent,None,Minor
+ef78fec7785b2431d9ae63b1d81828c5cedbd01b,FLUME-1347,Bug,Deprecate RecoverableMemoryChannel,Channel,Major
+2ec5abdbb1a16e8b01332bdf7847d574e1647d69,FLUME-1352,Bug,Add documentation for HDFS path rounddown.,Sinks+Sources,Major
+b6f263cc6defaabe7c2f20d1cfb42d74275e8e3d,FLUME-1351,Improvement,Add release version to Flume documentation,Docs,Minor
+8049c70aabe28ba9aa7e056314ea8abb61b2b42b,FLUME-1348,Bug,Update the documentation  correcting links and removing incubation.,None,Major
+0c5dc92c43bac3bb047dde1cb280af6c51ffecaa,FLUME-1349,Bug,Document Hbase sinks.,Docs,Major
+3ec147e70745936b0723137ff158d4b74a80c3b5,/,/,    Updated README file to test mailer configuration.,/,/
+afae07009a26118071ddd4ca21f0cfb1a277965c,/,/,    FLUME TLP: Test commit,/,/
+4a9151bbf2ccf122d04f2030c7e17e2b89d922b3,/,/,    APACHE-BUILD. Updated copyright year in NOTICE file.,/,/
+2bcc1d469bda0ada1358e66db3692ba2a69d51c9,/,/,    APACHE-BUILD. Update various files to prepare for 1.2.0 release.,/,/
+b4740e05ad0b3de48f22d66a8e34e1f0853d199a,/,/,    APACHE-BUILD. Update changelog for 1.2.0 release candidate.,/,/
+19c770e365ee165d76166dc66ef7679abae6143d,FLUME-1353,Task,Ensure license headers are consistent,None,Minor
+e03a4e3c08a150f4b362acbe468fd7b4b62780bc,FLUME-1347,Bug,Deprecate RecoverableMemoryChannel,Channel,Major
+efe5bf033b6de360f9ec90209f9cecc5cf2efbd4,FLUME-1352,Bug,Add documentation for HDFS path rounddown.,Sinks+Sources,Major
+3953bb90b0fbf481c533be0df429a45b601e42bf,FLUME-1351,Improvement,Add release version to Flume documentation,Docs,Minor
+caf617344e63231f0f5a9780edd8a3c681505f4f,FLUME-1348,Bug,Update the documentation  correcting links and removing incubation.,None,Major
+9f61713342d1e3fa71bc7ae2cc6006b6aa235e42,FLUME-1349,Bug,Document Hbase sinks.,Docs,Major
+9aacbd077bbabcf556abcdc5a85e87b3d1488c15,/,/,    Updated README file to test mailer configuration.,/,/
+0efbeb7c08b9506f9377b456d7de434a14cd6076,/,/,    FLUME TLP: Test commit,/,/
+56c0c721a59df382c988b67cf6d899a035c40fe6,/,/,    Updated copyright year in NOTICE file.,/,/
+88be1c274ec906a724578b51a0b2faa5eca0a7c7,/,/,    Flume is a TLP INFRA-4986,/,/
+c736fe92f2923390f960760634cf05bd1637c934,/,/,    Flume is a TLP INFRA-4986,/,/
+92a7a0e1cff3b7e4297dd1856ec190904a99a722,FLUME-1346,Bug,Build warning from missing maven-sphinx version in reporting section,Build,Minor
+829d289a1f90b4876d7b890d9efab69e66f4594c,FLUME-1345,Improvement,Use apache-flume for the artifact instead of flume-ng-dist,Build,Major
+97f999b8f901d8cb87efa0f785c21ff799eec9fb,FLUME-1346,Bug,Build warning from missing maven-sphinx version in reporting section,Build,Minor
+7186bd13a71faa9487bd62c7afe4f8e20273c727,FLUME-1345,Improvement,Use apache-flume for the artifact instead of flume-ng-dist,Build,Major
+24d43259b4d43dacc25b4e17173202eff337b917,FLUME-1343,Improvement,Improve user guide,None,Major
+2259b42d7f50534fe4e0169b9216c1a61c2e7248,FLUME-1344,Bug,AvroSink JMX does not report connection created count accurately,None,Major
+55f4b96e1ef1e83abacf77784bb13dbb009e886d,FLUME-1287,Improvement,Add Standalone Example to Docs,None,Minor
+ffeec7ee65fa4390f1b83bcd068644ad9936daeb,FLUME-1341,Bug,Build fails on jenkins because a file exists in the environment,None,Major
+06dafa44264a76fa72e706f4647e2c99d15b26fe,FLUME-1331,Bug,Start method of components throwing NoClassDefFoundError are not caught,Sinks+Sources,Major
+b2b05a102026631c2bc219dc8b0b1ee043cfa2ed,FLUME-1316,Bug,AvroSink should be configurable for connect-timeout and request-timeout,Sinks+Sources,Major
+a87e4d2fcea8e6fdccff0867aa04ffa29f353876,FLUME-1343,Improvement,Improve user guide,None,Major
+999dda2d1fcb3332eadb6531c64787c5f112efd3,FLUME-1344,Bug,AvroSink JMX does not report connection created count accurately,None,Major
+6da647173efb6f83141a11dbef9298a5487212e4,FLUME-1287,Improvement,Add Standalone Example to Docs,None,Minor
+71c01c119c84207702583eee6410a28cdd092edc,FLUME-1341,Bug,Build fails on jenkins because a file exists in the environment,None,Major
+851235755de06bda588574d950d51b1a2e622be4,FLUME-1331,Bug,Start method of components throwing NoClassDefFoundError are not caught,Sinks+Sources,Major
+a397a9cafa160ebbf5cecf3f81df9982e42485c0,FLUME-1316,Bug,AvroSink should be configurable for connect-timeout and request-timeout,Sinks+Sources,Major
+6b5d21a13f0f30f677b0dcd19f825ff8ea0b4f1c,FLUME-1338,Improvement,Produce helpful error message in case that timestamp header is missing when time based bucketing is in use,None,Minor
+abe3fc458df70e4a6c70cabf476d386473994447,FLUME-840,Task,Update project committers in pom file,Build,Trivial
+f29b409e6da41f374f8730fb31498043afa42bd6,FLUME-840,Task,Update project committers in pom file,Build,Trivial
+7ead0f695b9fca88bef425fd9f7439aa37d65167,/,/,    Updating trunk to version 1.3.0-SNAPSHOT. Also  updating dist.xml to pick up,/,/
+9b85dd2ef4775abb3175557e1731ca912f265d60,/,/,    Committing build fixes for 1.2.0 branch.,/,/
+80af387521a3a1aaa558df2741aa0fa92e34a9f1,/,/,    Change javadoc goal to aggregate-jar to temporarily fix the build,/,/
+b1ca0f1631fa01c6922f0d303e6c1df5f618412f,/,/,    Correct branch name,/,/
+756924e96ace470289472a3bdb4d87e273ca74ef,FLUME-2108,Sub-task,Update RELEASE-NOTES and CHANGELOG for 1.4.0 release,None,Major
+3664472f8985c8903d51eb13a44c29fcbff0b180,FLUME-2108,Sub-task,Update RELEASE-NOTES and CHANGELOG for 1.4.0 release,None,Major
+d917769d6e68e3e4cbdaaf35b37ff86d68f3337c,FLUME-2107,Sub-task,Update 1.4.0-SNAPSHOT to 1.4.0 for release,None,Major
+00f1236b9073844475e51a09d4f51430538eb6be,FLUME-2105,Improvement,Add docs for MorphlineSolrSink,Sinks+Sources,Major
+80721571514937c1a3cd147edcd15cf0ea549dcf,FLUME-2102,Sub-task,Update LICENSE file for Flume 1.4.0,None,Major
+baf97df5991542b449b19a00cc2bc3c60d723e01,FLUME-2100,Improvement,Increase default batchSize of Morphline Solr Sink,Sinks+Sources,Major
+8c8e1e99709fe868db1f3c260d073b480da373e0,FLUME-2094,Task,Remove the deprecated - Recoverable Memory Channel,Channel,Major
+33d44248c9c7fa2fa61a972924721ff6ffe2c75e,FLUME-2076,Improvement,JMX metrics support for HTTP Source,None,Major
+eb46fe93a3af9dd113bc2f798bd0ef6361ae8dab,FLUME-1874,Improvement,Ship with log4j.properties file that has a reliable time based rolling policy,None,Major
+9691e3639fd000fdb392f33ab6649e57e0ffc424,FLUME-1285,Bug,FileChannel has a dependency on Hadoop IO classes,None,Critical
+ee2f6c0ba43055c236497c79525428376b70bade,FLUME-1917,New Feature,FileChannel group commit (coalesce fsync),File Channel,Major
+a7b9b7eb3b19281a22d8fa914e4e34bb58520624,FLUME-2026,Bug,TestHTTPSource should use any available port rather than a hardcoded port number,None,Major
+c587e0688913c52606363641ffd10abe7fe62fa3,FLUME-2005,Improvement,Minor improvements to Flume assembly config,None,Minor
+e175349d58b0b243900ee8395089498910e64884,FLUME-1677,Improvement,Add File-channel dependency to flume-ng-node&apos;s pom.xml,Build,Minor
+e6cacd09392a4220757f47fd90463952e8a833de,FLUME-1621,Documentation,Document new MemoryChannel parameters in Flume User Guide,Channel,Major
+f17c3fef2349d1c97e644cd9d20a80495d128cfe,FLUME-1741,Bug,ElasticSearch tests leave directory data/elasticsearch/nodes/ lying around,Sinks+Sources,Blocker
+b478154b1d9e43cd166c29da88ed0cc6730ed5da,FLUME-2098,Bug,Make Solr sink depend on the CDK version of morphlines,Build,Blocker
+723fadaeaa2176a6682baf770b2a6c16a58b42f2,FLUME-2098,Bug,Make Solr sink depend on the CDK version of morphlines,Build,Blocker
+32944dce2d9c4e0fb6ead685c35d1a821f98139f,FLUME-2049,Improvement,Compile ElasticSearchSink with elasticsearch 0.90,Sinks+Sources,Major
+47dd06182e0419ecd189ed7bb7a6c66df77ca796,FLUME-1975,Bug,Use TThreadedSelectServer in ThriftSource if it is available,None,Major
+2479bbfa8aeb2499d7372ea1e88c10697c6cbea1,FLUME-1924,Bug,Bug in serializer context parsing in RollingFileSink,None,Major
+eb17987a6c5da2995e81b1a7e494ecabd66a78ea,FLUME-2051,Bug,Surefire 2.12 cannot run a single test on Windows. Upgrade to 2.12.3,Test,Major
+e635e19b4ead2a7a756346912c307f78b76dd9fc,FLUME-2082,Bug,JMX support for Seq Generator Source,None,Major
+c954dfc769850cf4a9675be303b98d33efb8ac45,FLUME-2081,Bug,JMX metrics support for SpoolDir,None,Major
+e488503c17dc9012c9e2284006dec6f3939fc5c6,FLUME-2093,Improvement,binary tarball that is created by flume&apos;s assembly shouldn&apos;t contain sources,Build,Minor
+3ff4b829e4b99068fb0cdbc80d046e42031a623d,FLUME-2048,New Feature,Avro container file deserializer,Sinks+Sources,Major
+0fefd95b88e2b836f871d1f1b1c849e8a97eb760,FLUME-2060,Bug,Failure in TestLog.testReplaySucceedsWithUnusedEmptyLogMetaDataFastReplay test on Windows,Windows,Major
+bac060820a0f50f6173231a2f4a10c2d5c5a2897,FLUME-2057,Bug,Failures in  FileChannel&apos;s TestEventQueueBackingStoreFactory  on Windows,Windows,Major
+f49607c4cf6470a135f661b68c56c971617ca033,FLUME-2083,Bug,Avro Source should not start if SSL is enabled and keystore cannot be opened,None,Major
+4a8b3024ce2230c7d4675ffd9d1bf27c365761e6,FLUME-2025,Bug,ThriftSource throws NPE in stop() if start() failed because socket open failed or if thrift server instance creation threw.,None,Major
+dc613bc22b692fd79a1a0c13f3dca72a86714a12,FLUME-1977,Improvement,JMS Source connectionFactory property is not documented,Docs,Minor
+3598ac538e30859c8e2506948c3d540faf200fe1,FLUME-1976,Improvement,JMS Source document should provide instruction on JMS implementation jars,None,Minor
+fee30380b3fb365cbde6a4efb2a992bf1068741c,FLUME-2032,Bug,HDFSEventSink doesn&apos;t work in Windows,Windows,Trivial
+31d4d57d7ada3d337c2b02e0977b2714210e0bca,FLUME-997,New Feature,Support secure transport mechanism,None,Major
+5e53a056b0ed749d928008278a0949467fefa0d9,FLUME-1586,Improvement,File Channel should support verifying integrity of individual events.,Channel,Major
+48504e8f3e40ba1627b6f7c9393a6515b782901e,FLUME-2072,Bug,JMX metrics support for HBase Sink,Sinks+Sources,Major
+84bdfc7175ded9dabe03456817844528075eaf0c,FLUME-1945,Improvement,HBase Serializer allow key from regular expression group,None,Major
+42fd6a991063b20099dea820d529b8b3d9aaa16e,FLUME-2063,Improvement,Add Configurable charset to RegexHbaseEventSerializer,Sinks+Sources,Minor
+f4239fca168a63bfb58e777397faeff9ef2209f0,FLUME-2062,Improvement,make it possible for HBase sink to deposit event headers into corresponding column qualifiers,Sinks+Sources,Major
+7f66495d91e4d676b4b4dedc5443a52fe3128427,FLUME-2008,Improvement,it would be very convenient to have a fat jar of flume-ng-log4jappender,Client SDK,Major
+f9986bf37c5b05f1c41e2b09ae917d7c45a44a12,FLUME-2054,Bug,Support Version Info  on Windows  and fix failure of TestVersionInfo ,Windows,Major
+079039004b4dc37cfb90ac407557a4853c3a447a,FLUME-1757,Improvement,Improve configuration of hbase serializers,None,Critical
+309e4cf3c127b17fcbe821ea5bff8c6818fbcdd7,FLUME-2046,Improvement,Typo in HBaseSink java doc,Sinks+Sources,Trivial
+3f9408b2c983fa5904f733b053319a1e735b9a0a,FLUME-2044,Bug,HDFS Sink impersonation fails after the first file,None,Major
+4a9786468d40ce1766983f3c45b1ecb8f40532b1,FLUME-2042,Bug,log4jappender timeout should be configurable,None,Major
+062ca69be186894fb4d890ae76aa4b2e243af9f9,FLUME-2043,Bug,JMS Source removed on failure to create configuration,Configuration,Major
+7088803cfbfbb864c429e9ea2a815be15fab7c11,FLUME-1980,Bug,Log4jAppender should optionally drop events if append fails,None,Major
+6ba625c8eb58eb078f87b1c56fda7b61015471a1,FLUME-1688,Bug,Bump AsyncHBase version to 1.4.1,Sinks+Sources,Major
+b2b45eddad92baae6c2d2958b98b4311217f242c,FLUME-1823,Bug,LoadBalancingRpcClient method must throw exception if it is called after close is called.,None,Major
+a0127f6939abe65d89db0063f70e54f051015b0f,FLUME-1981,Bug,Rpc client expiration can be done in a more thread-safe way,None,Major
+bff0c2742e2ccc5545b0f0c17f3268deaa8b9cfb,FLUME-2036,Bug,Make hostname optional for HTTPSource,None,Major
+46eab1d1299ce11aa67143b000ba476f9a55f7f6,FLUME-1893,Bug,File Channel could miss possible checkpoint corruption,None,Major
+8125b762b8cf7b457e87f066223abb9e269d0a15,FLUME-2009,Improvement,Flume project throws error when imported into Eclipse IDE (Juno),Build,Major
+26f3bc18e68b3a35d0cd247d99543683771a110f,FLUME-1867,Bug,There&apos;s no option to set hostname for HTTPSource,Sinks+Sources,Critical
+a4a4eb8b4d6ce0ed83a87a95d66d4e6799f833ab,FLUME-1886,Improvement,Add a JMS enum type to SourceType so that users don&apos;t need to enter FQCN for JMSSource,Configuration,Minor
+c118f6b492714e45e5a4797b9a81ea89c5e39c73,FLUME-2030,Documentation,Documentation of Configuration Changes JMSSource  HBaseSink  AsyncHBaseSink and ElasticSearchSink,Sinks+Sources,Minor
+5f03e1d513bb3a041d7cd2be02816525db55b1d9,FLUME-2027,Bug,Check for default replication fails on federated cluster in hdfs sink,None,Major
+543a5a196b0a31e7bebfabdd511979367d5ab8c8,FLUME-2002,Bug,Flume RPC Client creates 2 threads per each log attempt if the remote flume agent goes down,Client SDK,Major
+0cad6d3e55aa3da00561801d182945046e85015c,FLUME-1889,Improvement,Add HBASE and ASYNC_HBASE enum types to SinkType so that users don&apos;t need to enter FQCNs,None,Minor
+ ,FLUME-1994,Improvement,Add ELASTICSEARCH enum type to SinkType to eliminate need for FQCN in agent configuration files,Sinks+Sources,Minor
+61f487a830ac65c3537ad19a5a26213de3bf2ce4,FLUME-2013,Improvement,Parametrize java source and target version in the main pom file,None,Trivial
+8655387c2249d3e1fcbc5dbea26525de75648d2c,FLUME-1940,Improvement,Log a snapshot of Flume metrics on shutdown,None,Minor
+7652ad86df548ddc7fa52a043315717692c8fbbb,FLUME-2012,Bug,Two tests fail on Mac OS (saying they fail to load native library) with Java 7,None,Major
+bcec83e90121738d3aa489f0569a1a67b05bea3f,FLUME-2011,Bug,&quot;mvn test&quot; fails,Build,Major
+c146e5106c344b4ee438f4f396c3bf8544d31c66,FLUME-1819,Bug,ExecSource don&apos;t flush the cache if there is no input entries,Sinks+Sources,Major
+f31b3947d3afec14ef1bee1dbdbd9a6d713b089b,FLUME-2023,Bug,Flume must login to secure HBase before creating the HTable instance,None,Major
+bb38f0ff096f56594c613c8e3449a4ffd55314fc,FLUME-1993,Bug,On Windows  when using the spooling directory source  there is a file sharing violation when trying to delete tracker file,Sinks+Sources,Major
+7cd07a648185852997496ee1c35381a04d4f2ac4,FLUME-2004,New Feature,Need to capture metrics on the Flume exec source such as events received  rejected  etc.,Sinks+Sources,Minor
+ff4cc5cb11b7b74b08d9315569eb59aed655f55c,FLUME-1979,Documentation,Wrong propname for connection reset interval in avro sink,Configuration,Major
+64b5d6432be3d1348303aaa2be90e477fa17dbb6,FLUME-1262,Bug,Move doc generation to a different profile,Docs,Major
+fb5c5c5145b4821d0bf989a0801a5693907b3282,FLUME-1948,Bug,plugins.d directory(ies) should be separately overridable  independent of FLUME_HOME,Configuration,Major
+e607a302375c7fdeb39be8e9f1e645c699e42498,FLUME-1986,Bug,doTestInflightCorrupts should not commit transactions ,None,Major
+5b9d31f1ad22889042b9ec6010cd1b2c086eb545,FLUME-1974,Bug,Thrift compatibility issue with hbase-0.92,None,Major
+e9b91ee2ab1a72e8af02c3c304aee1cbbe6b942d,FLUME-1516,New Feature,FileChannel Write Dual Checkpoints to avoid replays,File Channel,Major
+542f87e634cef2682eb71ecb52ddcd1cb9358110,FLUME-1866,Bug,ChannelProcessor is not logging ChannelExceptions.,Channel,Minor
+24b73c074f1c63da7f3e426e64c73af452a33108,FLUME-1969,Bug,Update user Guide to explain the purpose of minimumRequiredSpace setting for FileChannel,File Channel,Major
+e9b12c89833b4bea2268bcd8386e9a21d4742ee2,FLUME-1965,Bug,Thrift sink alias doesn&apos;t exist,Configuration,Major
+f8c24a4946d7468f99cf4a5144d1c9545e2bb54c,FLUME-1506,Bug,Child poms pull in specific versions of packages not in top level pom,None,Major
+4527f5d5d28d63d608b23f01074f8c4459bfa93c,FLUME-1964,Bug,hdfs sink depends on commons-io but does not specify it in the pom,None,Major
+8054d0ca17a71cb07f30274bf96c4aab253e17f9,FLUME-1953,Documentation,Fix dev guide error that says sink can read from multiple channels,None,Major
+2fd21e7b2d63f9e401633553c57110465fd399da,FLUME-1962,Documentation,Document proper specification of lzo codec as lzop in Flume User Guide,Docs,Minor
+7d6947d73f05565a0d6c10d461d9b60e1b1482af,FLUME-1910,Documentation,Add thrift RPC documentation,None,Major
+ff6c64e65e1fb4b107b870a77fd31c05e75fa01d,FLUME-1958,Bug,Remove attlasian-ide-plugin.xml from the repo,None,Major
+cf6aed2f9f806a8bc4b82b77183056b129defd8f,FLUME-1787,Bug,Implement Pre-commit testing with Jenkins,None,Major
+d877de5b993cf43e1fe76fb6dfef9943172430c9,FLUME-1955,Bug,fileSuffix does not work with compressed streams,Sinks+Sources,Major
+6ebd267bbfc9e5d176f049172392964ece751d91,FLUME-1932,Bug,no-reload-conf command line param does not work,None,Minor
+835f98f6b681e1b83593d36280e3207c750fb7b7,FLUME-1822,Bug,Update javadoc for FlumeConfiguration,None,Major
+1f4d1400e6c231cb907d6e660730dc525be346f9,FLUME-1686,Task,Exclude target directories &amp; Eclipse files from rat checks,Build,Minor
+d1b9ca17c5062ddbedb8fcd355638ab9e9c47288,FLUME-1511,Bug,Scribe-source doesn&apos;t handle zero message request correctly.,Sinks+Sources,Minor
+84ba0bd84f42c08b6b304821bb2b10fafccc9fba,FLUME-1882,Bug,Allow case-insensitive deserializer value for SpoolDirectorySource,Sinks+Sources,Major
+6b407e1a0a720ccfc85fa496fe3809bbe03d4379,FLUME-1911,Bug,Add deprecation back to the legacy thrift code,None,Major
+72ebe25a1afefe9dc372887e692ab10278ffc1e5,FLUME-1949,Bug,Documentation for sink processor lists incorrect default,None,Trivial
+d66700f81882ddfa0641cbb4ce6751a8a2e0f3f0,FLUME-1943,Bug,ExecSource tests failing on Jenkins,None,Major
+8fad6b880aafb5191b120144d560f20e9ca6cf42,FLUME-1930,Bug,Inflights should clean up executors on close.,None,Minor
+3dc9069a3c28af6174ca659469345a28a99f91a2,FLUME-1926,Improvement,Optionally timeout Avro Sink Rpc Clients to avoid stickiness,None,Major
+113dcdca67c164e6d633fc8d9ce8d8d616e49e63,FLUME-1929,Bug,CheckpointRebuilder main method does not work,None,Minor
+97855decb7143aa612e79660260f434ef440bb50,FLUME-1939,Bug,FlumeEventQueue must check if file is open before setting the length of the file,Channel,Major
+6495c3230cd44def6174c776f89167a27f45b36e,FLUME-1661,Improvement,ExecSource cannot execute complex *nix commands,Sinks+Sources,Major
+7bc4f83e7dcdff7ef16265aad18fb6feec1597ae,FLUME-1937,Bug,Issue with maxUnderReplication in HDFS sink,None,Major
+6e0c2b4985be5b4aa772a839294c03300e50f725,FLUME-1915,Improvement,Enhance NettyAvroRpcClient and the use of NettyServer to optionally use compression,None,Major
+ba71fe768bb8df07538eac25e8c34f15c7689923,FLUME-1931,Bug,HDFS Sink has a commons-lang dependency which is missing in pom,None,Major
+995a7686fafdad9792c2733308dc0384f7ea9b17,FLUME-1916,Bug,HDFS sink should poll for # of active replicas. If less than required  roll the file.,Sinks+Sources,Major
+67d44cd84074ccfbc0ab295053852ea3acdc52dc,FLUME-1925,Bug,HDFS timeouts should not starve other threads,None,Major
+102c5e07dec17740866315d342afc00c19267569,FLUME-1765,Improvement,Add Load Balancing Support to Log4jAppender,Client SDK,Minor
+65d3d63ee03a6e0d3216b98cb6808a414cfe7cfc,FLUME-1785,Bug,Nitpick: Typo in Flume User Guide,Easy,Trivial
+03e21c1c27e9f2f94d4ef8dfc786aaccdd42501c,FLUME-1864,Improvement,Allow hdfs idle callback to clean up closed bucket writers,None,Major
+36c4d2fd41ad43010090ca342c02768da8f83a16,FLUME-1906,Improvement,Ability to disable WAL for put operation in HBaseSink,Sinks+Sources,Major
+b64c8d04089934384e968fb2341fae25c2d12191,FLUME-1918,Bug,File Channel cannot handle capacity of more than 500 Million events,None,Major
+26826757316bf944318f8a09d8cfebce3214a189,FLUME-1898,Sub-task,Implement Thrift Source,None,Major
+be0aa6dc1f30f35acf8f96e9db6bdcedaa3a8ccf,FLUME-1896,Sub-task,Implement Thrift RpcClient,None,Major
+6cbe4a58e243d8d9cf241ba10f958b7eaf52c3dd,FLUME-1891,Bug,Fast replay runs even when checkpoint exists.,None,Major
+2419550b3497d858a2346d8d840229b8cf310dca,FLUME-1890,Bug,Flume should set the hbase keytab and principal in HBase conf object.,None,Major
+3f0971cb9a8c985889739330543a9e3b2a4d0721,FLUME-1880,Bug,Double-logging of created HDFS files,None,Trivial
+7d3e26e2af8693c44bb068950ac052a1b2f4f51f,FLUME-1845,Bug,Document plugin.d directory structure,Docs,Minor
+5876271c0fc7107eb5746d0feae6ffb4137c2bcd,FLUME-1834,Bug,Userguide on trunk is missing some memory channel props,Docs,Major
+272159163e70ad32d3452b97596a13fe32dfdc89,FLUME-1879,Bug,Secure HBase documentation,None,Major
+e1a88154458c3bb990d0085aef8b7dbad1316536,FLUME-1835,Bug,Flume User Guide has wrong prop in Load Balancing Sink Selector,Docs,Major
+6d5ef28ecfa1c6141c7869facb70a53c7557fa8d,FLUME-1872,Bug,SpoolingDirectorySource doesn&apos;t delete tracker file when deletePolicy is &quot;immediate&quot;,None,Major
+a4c86933d5c148c5327c8f5d5a1912cc24a9c341,FLUME-1847,Improvement,NPE in SourceConfiguration,None,Major
+05e8ebc352b0f8f96747bd1046ac22caf09e1890,FLUME-1800,Improvement,Docs for spooling source durability changes,None,Major
+d7b474c375d2531aee33570c6bb9ef7ccae5501b,FLUME-1878,Improvement,FileChannel replay should print status every 10000 events,None,Minor
+e8cbcd43368e286f66b54cedf831591af754bef4,FLUME-1876,Improvement,Document hadoop dependency of FileChannel when used with EmbeddedAgent,None,Minor
+b7144d53c94b9719bd540b55dae97df110419ff1,FLUME-1852,Bug,Issues with EmbeddedAgentConfiguration,None,Major
+244709b7187b67af1ec91eb3eb0f0173145cbf4b,FLUME-1854,Bug,Application class can deadlock if stopped immediately after start,None,Major
+90322322b15c45b2f650b18551c919241a69a8a5,FLUME-1870,Bug,Flume sends non-numeric values with type as float to Ganglia causing ganglia to crash,None,Major
+f00492f211820ee5f386857c7000cfe3b3b39d3a,FLUME-1868,Bug,FlumeUserGuide mentions wrong FQCN for JSONHandler,Docs,Major
+352729ba740cd293fa5515cfc974e40dbea72bd4,FLUME-1869,Bug,Request to add &quot;HTTP&quot; source type to SourceType.java,Sinks+Sources,Major
+747d614f8ceeeae89984338b0ac0580a100f7fe8,FLUME-1863,Bug,EmbeddedAgent pom must pull in file channel,None,Major
+011ff9571e15350d48bc61b68f89d6e0eec32a77,FLUME-1862,Bug,ElasticSearchSink test is flakey,None,Major
+90b5ed744c4544d42e9c13af8a7ecac451a44823,FLUME-1848,Improvement,HDFSDataStream logger is actually for a sequence file,None,Minor
+f098440a8d2ccc3b56767e0192ba422ec89bab4c,FLUME-1855,Improvement,Sequence gen source should be able to stop after a fixed number of events,None,Minor
+3e137a6419f93b3f02e08b8a9b4bc2c41f89aa53,FLUME-1842,Bug,AsyncHBaseSink timeout is not calculated correctly,None,Major
+f7e49c03197598a849cfa60dc089011059846b09,FLUME-1849,Bug,Embedded Agent doesn&apos;t shutdown supervisor,None,Major
+3db85b7946b4886536eabde42d5695579d2481e1,FLUME-1844,Bug,HDFSEventSink should have option to use RawLocalFileSystem,None,Minor
+ddfa991e6c3ef14b45758f8f092d9101d97d013e,FLUME-1818,Bug,Support various layouts in log4jappender,None,Major
+db3984ba6d45bb3b28cb26e429155b2368dacb4a,FLUME-1828,Bug,ResettableInputStream should support seek(),None,Major
+6d63f9778289ff414c0fb79fd661b2019b9b9310,FLUME-1821,Improvement,Support configuration of hbase instances to be used in AsyncHBaseSink from flume config,None,Major
+cd3cf7ef9f0af50e4f0c2a544b1258248290b24c,FLUME-1824,Bug,Inflights can complete successfully even if checkpoint fails,None,Major
+4d9ef89ca0a9d91da1330b041c985a18c5a943ed,FLUME-1820,Bug,Should not be possible for RPC client to block indefinitely on close(),None,Major
+77b5d2885fecb3560a873bd89f49cbac8a010347,FLUME-1810,Sub-task,Update Change log for Flume 1.3.1,None,Major
+f25f72450fd5c030188efeb902cb2cbd873208b2,FLUME-1811,Sub-task,Update RELEASE-NOTES for Flume 1.3.1,None,Major
+8a46d0e78a2ecd4c274347555f96d77f2b5bd2cb,FLUME-1813,Sub-task,Update License file,None,Major
+4be392d2666bff1af2e095f37f20bcb28a23d3c4,FLUME-1812,Sub-task,Update pom files for Flume 1.3.1,None,Major
+8e6c40992bb02b43dcc5d0a2cac9860ae21211a4,FLUME-1811,Sub-task,Update RELEASE-NOTES for Flume 1.3.1,None,Major
+d866ddf8ba6c7d6a32d168cf051f37c4cf821d3e,FLUME-1789,Bug,Unit tests TestJCEFileKeyProvider and TestFileChannelEncryption fail with IBM JDK and flume-1.3.0,Test,Minor
+7d9ec2379dff8bc417619947dd979b084ff81a5b,FLUME-1794,Improvement,FileChannel check for full disks in the background,None,Major
+4ad7bc5b75526f812221f065281b8232a2ee1242,FLUME-1761,Bug,FileChannel can NPE when log metadata file is empty,None,Critical
+bf2676d6bf63baf4cdff1fa7567f587a19afdc1e,FLUME-1795,Bug,Flume thrift legacy source does not have proper logging configured,Test,Minor
+9e4eb91c9dc9c5bb3790cc0d6dedc1077fe8c8a1,FLUME-1790,Improvement,Commands in EncryptionTestUtils comments require high encryption pack to be installed,Test,Trivial
+09dfc2ab77ab898fd38094b3c8c2358f7fd55ffd,FLUME-1571,Improvement,Channels should check for positive capacity and transaction capacity values,None,Major
+16b9cb5ad5da0639dd4d21f08ee67366ea68873a,FLUME-1775,Bug,FileChannel Log Background worker should catch Throwable,None,Major
+9c5a9a8d8f4bac82cec20505f16331b497f480c0,FLUME-1763,Bug,FileChannel Checkpoints should not be done without free space,Channel,Major
+02cc9d4aeef96ef306292b59185c8f15439175b7,FLUME-1773,Bug,File Channel worker thread should not be daemon,None,Major
+31ebd3c38c0616e02b707548850ed3e22ffd0fdb,FLUME-1774,Bug,EventBackingStoreFactory error message asks user to delete checkpoint which is now done automatically,None,Trivial
+542b15622aeabc272700c5d7bcfa80dee0d38cb2,FLUME-1772,Bug,AbstractConfigurationProvider should remove component which throws exception from configure method.,None,Major
+5ab29bdaf7f1838278bc8c2eb0ab7e6ac6f591bc,FLUME-1805,Bug,Embedded agent deps should be specified in dependencyManagement section of pom,None,Major
+37ba6650bf51d128786375114a08b5918206d9b5,FLUME-1756,Improvement,Avro client should be able to use load balancing RPC,None,Major
+f43f61fc7541848fde28618451b7e0963c674b0c,FLUME-1804,Bug,JMS source not included in binary dist,None,Major
+ce5f8847cec04b87b7df5ab665a01e555112a0a2,FLUME-1735,New Feature,Add support for a plugins.d directory,None,Major
+311fdff5defa24c4c2661172c76f6016173221cd,FLUME-1803,Bug,Generated dist tarball is missing flume-ng-embedded-agent,None,Major
+4c3c17725fa940af56249057c203dc52e37f9add,FLUME-1799,Bug,Generated source tarball is missing flume-ng-embedded-agent,None,Major
+2867e4563e4d1e5984e402bbc037c39412abc295,FLUME-1802,Bug,Missing parameter --conf in example of the Flume User Guide,Docs,Minor
+8a3b6357c9e4700db6bf1b9af3ca898a3116e757,FLUME-1789,Bug,Unit tests TestJCEFileKeyProvider and TestFileChannelEncryption fail with IBM JDK and flume-1.3.0,Test,Minor
+9ba2affe9dc9274075586a8bd7db86fb43f9ec92,FLUME-1100,Improvement,HDFSWriterFactory and HDFSFormatterFactory should allow extension,None,Major
+6c6c5c90f7ab7803fd476f60e2896120d29ec3e6,FLUME-1794,Improvement,FileChannel check for full disks in the background,None,Major
+4d03b5411e41c0cc528a0217f214a87410b5d5eb,FLUME-1797,Bug,TestFlumeConfiguration is in com.apache.flume.conf namespace. ,None,Major
+ecec9144be2b7680f9ff2ec28618411e4345d97a,FLUME-1702,Improvement,HDFSEventSink should write to a hidden file as opposed to a .tmp file,None,Major
+474948a20a24ebe45a85b61b9182999714667adf,FLUME-1784,Bug,JMSource fix minor documentation problem and parameter name,None,Minor
+d7fd7432daebc0516609f20779f2aa757ff30ea3,FLUME-1761,Bug,FileChannel can NPE when log metadata file is empty,None,Critical
+d5dccff5e29e960e6c7762e172f29f2fc2f9f783,FLUME-1795,Bug,Flume thrift legacy source does not have proper logging configured,Test,Minor
+60e0d1724cca96f0c47f8d76638d9a5475e2aaa8,FLUME-1788,Bug,Flume Thrift source can fail intermittently because of a race condition in Thrift server implementation on some Linux systems,Test,Minor
+7597980c1dfc086505e574aa2f5e1a0a8e3203d1,FLUME-1790,Improvement,Commands in EncryptionTestUtils comments require high encryption pack to be installed,Test,Trivial
+42b8d908dd753bbe40d6d5b17412430b9b6f6faa,FLUME-1791,Bug,SourceConfiguration contains an extraneous debugging println,Configuration,Trivial
+7781f887dbeb86f8c9cfe9cf5cc30e671c6e52d9,FLUME-1778,Bug,Upgrade Flume to use Avro 1.7.3,None,Major
+a96dc82c4255a080abcdce52681147f77b6c7165,FLUME-1676,Bug,ExecSource should provide a configurable charset,None,Major
+b632436f578038d4d9bb14ee5546fcaee1b91a86,FLUME-1776,Bug,Several modules require commons-lang but do not declare this in the pom,None,Major
+dfdf95579450acf06d0ebea4e477474d233a3357,FLUME-1571,Improvement,Channels should check for positive capacity and transaction capacity values,None,Major
+4b485d1f7447ff3264b2ff05585cb2f01cf82640,FLUME-1775,Bug,FileChannel Log Background worker should catch Throwable,None,Major
+219dac017c8137f7bb9fea901ce393bf63caa995,FLUME-1763,Bug,FileChannel Checkpoints should not be done without free space,Channel,Major
+ff011264343009f57baa63fbe9e8c99f9aa83a24,FLUME-1773,Bug,File Channel worker thread should not be daemon,None,Major
+0b681df5f2684d1e75522a2bccb75a580687bf87,FLUME-1745,Improvement,FlumeConfiguration Eats Exceptions,Configuration,Critical
+1ad702d29bcaa40b79674988527995bea7d33242,FLUME-1774,Bug,EventBackingStoreFactory error message asks user to delete checkpoint which is now done automatically,None,Trivial
+fc53e9ae2882bdd234f0f75d3ac33fffc385f671,FLUME-1296,Bug,Lifecycle supervisor should check if the monitor service is still running before supervising,Node,Major
+c9de68584533efe1ff5a7c49c917f71559367b17,FLUME-1762,Improvement,File Channel should recover automatically if the checkpoint is incomplete or bad by deleting the contents of the checkpoint directory,None,Major
+7e54c801e3ee1c1a22ca73533e30b60606116308,FLUME-1769,Improvement,Replicating channel selector should support optional channels,None,Major
+1ba41f383bd3b0eca3e5e7fc79de298707599cbb,FLUME-1768,Improvement,Multiplexing channel selector should allow optional-only channels,None,Major
+9856df98ef97892a439c502ccf034e7f4170155e,FLUME-1766,Bug,AvroSource throws confusing exception when configured without a port,Sinks+Sources,Minor
+284fc6e5e2552e3e3e50640943f461c9568b39a8,FLUME-1175,Bug,RollingFileSink complains of Bad File Descriptor upon a reconfig event,Sinks+Sources,Critical
+bfbab628664b9386ec24833b287f1a62ac45b694,FLUME-1626,Sub-task,Support Hbase security in Hbase sink,Sinks+Sources,Major
+9fb173e4353bf1323d7d70b421575e1a6343df3a,FLUME-1755,Bug,Load balancing RPC client has issues with downed hosts,Client SDK,Major
+2dcd33c720fbfdb92ad906fb4dd80638e08eeaa9,FLUME-1748,Bug,HDFS Sink should check if the thread is interrupted before performing any HDFS operations,None,Major
+5efc2d62f49a9aea9a006b74bbb27cdea56219af,FLUME-1709,Bug,HDFS CompressedDataStream doesn&apos;t support serializer parameter,Sinks+Sources,Minor
+e3de092688e7c627cddb72ad6a76718a16d3b0fd,FLUME-1752,Sub-task,Update CHANGELOG for flume 1.3.0 rc6 to include latest changes,None,Major
+523b6b4462a5a3b2db0f950be78d11eef57ef626,FLUME-1752,Sub-task,Update CHANGELOG for flume 1.3.0 rc6 to include latest changes,None,Major
+89e9c2e3a7a7d058fedde5d0028b64709ef86a53,FLUME-1750,Bug,File spooling client uses -D as command line option,None,Major
+25adfbda53c02fe7ffa29c20cd6628f626af7b16,FLUME-1750,Bug,File spooling client uses -D as command line option,None,Major
+1b3eb8bd371bae5c876c61c4f68ac190d9ad925b,FLUME-1751,Bug,User Guide Examples for File Channel encryption are broken in 1.3 rc5,Docs,Major
+29186a8fd8f418ad21e6d5964c528eed766939ad,FLUME-1751,Bug,User Guide Examples for File Channel encryption are broken in 1.3 rc5,Docs,Major
+35d2c131d7d9e12ec01d4844d2fd47bed65ea84c,FLUME-1749,Sub-task,.gitignore and elipse related files should not be included in source tarball,None,Major
+989ec3abe44c3449aa73b642770975daf352c588,FLUME-1749,Sub-task,.gitignore and elipse related files should not be included in source tarball,None,Major
+3274ef45085f1fb31b4e0521c05ab705fb913db0,FLUME-1747,Sub-task,Update CHANGELOG for flume 1.3.0 rc6 to include FLUME-1740,None,Major
+ ,FLUME-1740,Improvement,Remove contrib/ directory from Flume NG,None,Major
+c3ad3cde3a89392a5f0908a8341bb06176517924,FLUME-1747,Sub-task,Update CHANGELOG for flume 1.3.0 rc6 to include FLUME-1740,None,Major
+ ,FLUME-1740,Improvement,Remove contrib/ directory from Flume NG,None,Major
+e1f6e42cb7f5d3ab4785c8e5a66007d1b175ed96,FLUME-1740,Improvement,Remove contrib/ directory from Flume NG,None,Major
+ceb900b2831eb15200dcc76d161baf7aa5792c4c,FLUME-1740,Improvement,Remove contrib/ directory from Flume NG,None,Major
+a6bfb2c8bf4d2761d241f53fe3b0b3be798435a0,FLUME-1746,Sub-task,Update CHANGELOG for flume-1.3.0 rc6,None,Minor
+7cd38bb907058bc418b504b9a4ab26edcbc44e06,FLUME-1746,Sub-task,Update CHANGELOG for flume-1.3.0 rc6,None,Minor
+bd3fd638313371901861ca19abe974ad60c81f5d,FLUME-1743,Bug,Multiport syslog tcp source does not load (v1.3 rc5),Sinks+Sources,Blocker
+3b3a453844bbd5e10494f0e7cfcbb17c6b9d7d6f,FLUME-1743,Bug,Multiport syslog tcp source does not load (v1.3 rc5),Sinks+Sources,Blocker
+48085cedb0719a1dbf05c5d68d62cc8f11064b3c,FLUME-1713,Improvement,Netcat source should allow for *not* returning &quot;OK&quot; upon receipt of each message,Easy,Minor
+b535aa93b6768257bd5d7f3133392be07c83ae04,FLUME-1713,Improvement,Netcat source should allow for *not* returning &quot;OK&quot; upon receipt of each message,Easy,Minor
+54330dcc62aa91d8c4d27dbf7135d9972ac7af84,FLUME-1730,Improvement,HDFSEventSink testCloseOnIdle appears to be racy,None,Minor
+90280e96def00d4384ad851c88703b3ddc96a271,FLUME-1730,Improvement,HDFSEventSink testCloseOnIdle appears to be racy,None,Minor
+b43824a0f1362f02aec9ad0eba6a2a861275f39d,FLUME-1736,Improvement,JSR-305.jar is listed as ASL2 when it&apos;s actually BSD-3 clause,None,Major
+31043fb054d580978585777b8c12a3ae0a1d2cfe,FLUME-1736,Improvement,JSR-305.jar is listed as ASL2 when it&apos;s actually BSD-3 clause,None,Major
+ae0fb181f1bee9147c7f02ba10e991a0f381736b,FLUME-1699,Improvement,Make the rename of the meta file platform neutral,None,Major
+08a1eed94172cb661c3ae960cf26bd17c076a814,FLUME-1729,Sub-task,Add sign profile to sign/calculate hash of jars,None,Major
+16093762600f7695157fc646119f40afab47b5c6,FLUME-1729,Sub-task,Add sign profile to sign/calculate hash of jars,None,Major
+10e489919a9418c83f859901af215a52251fc552,FLUME-1728,Sub-task,Upate CHANGELOG for flume-1.3.0 rc4 to include FLUME-1660,None,Minor
+ ,FLUME-1660,Improvement,Close &quot;idle&quot; hdfs handles,None,Minor
+77b8dd63acab7eb1c152b31d7c90daad8994d1e7,FLUME-1728,Sub-task,Upate CHANGELOG for flume-1.3.0 rc4 to include FLUME-1660,None,Minor
+ ,FLUME-1660,Improvement,Close &quot;idle&quot; hdfs handles,None,Minor
+c908e4f65da3d9f76acca0b67737333cd5a50060,FLUME-1727,Sub-task,Update CHANGELOG for rc4,None,Minor
+df674e34b8690d036d7e96596294e43f2faf3ec8,FLUME-1727,Sub-task,Update CHANGELOG for rc4,None,Minor
+e356446ccb04f7c464093b00594b952289e4f4c0,FLUME-1736,Improvement,JSR-305.jar is listed as ASL2 when it&apos;s actually BSD-3 clause,None,Major
+3d899a744168e386ad58761c4c23cae05f73526b,FLUME-1736,Improvement,JSR-305.jar is listed as ASL2 when it&apos;s actually BSD-3 clause,None,Major
+395a06dfeeed0d2222933cc88ebf450cf1a725e6,FLUME-1660,Improvement,Close &quot;idle&quot; hdfs handles,None,Minor
+3c48288a40b7b74b343f97052ed58ddb479511c0,FLUME-1660,Improvement,Close &quot;idle&quot; hdfs handles,None,Minor
+701e45fa8debdae8c3a407679212204bbeff4481,FLUME-1719,Bug,Example export command in README do not properly close the string,None,Trivial
+0bea755f415ae3fe8cb8dbdccdccdb03a0896691,FLUME-1719,Bug,Example export command in README do not properly close the string,None,Trivial
+d5446d613e75d4a731535ff5f87c04890565272c,FLUME-1723,Bug,AsyncHBase and Avro bring in different versions of Netty,Build,Blocker
+ecf10426fc3a8eb7268254a9990bb5143536bfad,FLUME-1723,Bug,AsyncHBase and Avro bring in different versions of Netty,Build,Blocker
+c1183e1abc2bcfa7408bf5f617d5cb766278178e,FLUME-1720,Bug,LICENSE file contain entry for protobuf-&lt;version&gt;.jar  however proper artifact name is protobuf-java-&lt;version&gt;.jar,None,Trivial
+d3866bdd7f454c4c5e1f7bc20efe58340dd57cdc,FLUME-1720,Bug,LICENSE file contain entry for protobuf-&lt;version&gt;.jar  however proper artifact name is protobuf-java-&lt;version&gt;.jar,None,Trivial
+656e049981df62316e0a817382087297209bf2f3,FLUME-1716,Sub-task,Update CHANGELOG for rc3,None,Major
+4a4eb35aee2c00b672077f46a47c135e29424c80,FLUME-1716,Sub-task,Update CHANGELOG for rc3,None,Major
+a2f7c8ef8082b27af0e7ea193e739b38d50f1471,FLUME-1711,Bug,Update Flume User Guide,Docs,Blocker
+868a9a1cdf7843b0be6cf02b329bc539d65061d7,FLUME-1711,Bug,Update Flume User Guide,Docs,Blocker
+f432c571ebca03f3c1fc2050d7b2be6d75351da2,FLUME-1712,Bug,Regex Extractor Interceptor tests have timezone issues,None,Minor
+a657432ecfca9a97e4688520eec8e258764a1840,FLUME-1712,Bug,Regex Extractor Interceptor tests have timezone issues,None,Minor
+77c366894e3421f4f601fe14dbd13233e9883f5b,FLUME-1657,New Feature,Regex Extractor Interceptor,Easy,Minor
+56f1d3e095b466da42114faaefcd2418a8ed2e37,FLUME-1657,New Feature,Regex Extractor Interceptor,Easy,Minor
+a033efd2735cbe439b62bbe09a0b245305eb0702,FLUME-1657,New Feature,Regex Extractor Interceptor,Easy,Minor
+dfca887ac71b84946374a7af539bb393934c1753,FLUME-1657,New Feature,Regex Extractor Interceptor,Easy,Minor
+f68ab7124bd9c98d701e738bdd6c2c144dae19b6,FLUME-1657,New Feature,Regex Extractor Interceptor,Easy,Minor
+100036c580848d2060ebc5728717096eb509777b,FLUME-1657,New Feature,Regex Extractor Interceptor,Easy,Minor
+153f220cc1e44776d07c1bfaa9c60c0e4e833674,FLUME-1707,Bug,Update FlumeDevGuide,Docs,Blocker
+5483e5c0a92c6b55635f129505619b3a4b662fca,FLUME-1707,Bug,Update FlumeDevGuide,Docs,Blocker
+371d6c8e1e861b231310f115510cea98c694a8fe,FLUME-1706,Sub-task,Website for 1.3 fails to build,None,Blocker
+27c9737cfc94851d6782a087111dabae52d1c1a6,FLUME-1706,Sub-task,Website for 1.3 fails to build,None,Blocker
+491157104cda0e3fbd3dece2c6f3baf5e72308f5,FLUME-1705,Bug,SpoolDirectory short name points at the wrong class,None,Blocker
+2b20f52d55ad5c79515228b7882b80dc6a6b8d9d,FLUME-1705,Bug,SpoolDirectory short name points at the wrong class,None,Blocker
+c0659f25d5881c7a7abcc59d4dcc3bd00f96c07c,FLUME-1701,Sub-task,StagedInstall has -dist hard coded,None,Major
+49e76e89e70292e0dde5eb65e053c788cf03c871,FLUME-1701,Sub-task,StagedInstall has -dist hard coded,None,Major
+9636067d4e1241032749c0d2fdf8b61d3237b1ca,FLUME-1698,Sub-task,Update RELEASE-NOTES,None,Major
+99a17248fbfb76dbae50573ac064c0a8de357a2b,FLUME-1698,Sub-task,Update RELEASE-NOTES,None,Major
+d7e989e97350588b7053d0cbe0bfe93c86f37b8b,FLUME-1697,Sub-task,Update CHANGELOG after 1.3.0 RC0,None,Major
+4ae47b6682762b346775362559fd8eb29c46d065,FLUME-1697,Sub-task,Update CHANGELOG after 1.3.0 RC0,None,Major
+a74e05b765089ecdd074e48c2f8069ecc5ab2e82,FLUME-1696,Sub-task,Update build instructions as Flume build requires more memory,None,Major
+d01480fd4c1b350ac26c756019172c34aacdb0f0,FLUME-1696,Sub-task,Update build instructions as Flume build requires more memory,None,Major
+08cae54b1bff5d8c895a116f4c83ec08274415e5,FLUME-1696,Sub-task,Update build instructions as Flume build requires more memory,None,Major
+7643f0ff2968dbfe46b6a4019b227c01618bfb40,FLUME-1696,Sub-task,Update build instructions as Flume build requires more memory,None,Major
+94b239d71eb8bb65187df25c5dfad573a6e0c706,FLUME-1694,Sub-task,Fix LICENSE file for binary artifacts,None,Major
+36dfc0941abbd5114c709231cda0cb38e3b230d1,FLUME-1694,Sub-task,Fix LICENSE file for binary artifacts,None,Major
+b09a910942fc55bfb70f8493724cbbe4b2e0c348,FLUME-1693,Sub-task,Update release notes,None,Major
+8b748e3851f9378bc319af0c8b08c9ff0a044c1b,FLUME-1693,Sub-task,Update release notes,None,Major
+c3bc356196056bebebfd64927f12d04e3b4c0553,FLUME-1692,Improvement,MultiportSyslogTCPSource user documentation and nickname,None,Major
+cc18d699e4dddd22f11820fbe41262a09ac19a36,FLUME-1692,Improvement,MultiportSyslogTCPSource user documentation and nickname,None,Major
+64b73dfa381cdc0dfc744e7283471279ef26b2aa,FLUME-1277,Bug,Error parsing Syslog rfc 3164 messages with null values,Sinks+Sources,Minor
+f71559067339db3128a0e29b72764311557f46f8,FLUME-1277,Bug,Error parsing Syslog rfc 3164 messages with null values,Sinks+Sources,Minor
+7bf6859dd4159f980767d7f50faaced4ac082d87,FLUME-1689,Improvement,BodyTextSerializer should allow an option not to add a newline to each serialized event,None,Minor
+9dade66ae867a0df1b9c1327c62a9e26e41a625c,FLUME-1689,Improvement,BodyTextSerializer should allow an option not to add a newline to each serialized event,None,Minor
+ddd0a9365d924389de4b1ce413001d34c50f8fc6,FLUME-1655,Bug,Doc update needed for Regex Filtering Interceptor,Configuration,Major
+86bedaeb861af1a86d26967bb22aa4b77db62113,FLUME-1655,Bug,Doc update needed for Regex Filtering Interceptor,Configuration,Major
+9c96fb2a89a958a5f83bbaac072ed955cf519865,FLUME-1690,Bug,Elastic Search Sink doesn&apos;t run it&apos;s unit tests,Sinks+Sources,Major
+84e472141b6f9375afe712f0d7259d20983dd93a,FLUME-1690,Bug,Elastic Search Sink doesn&apos;t run it&apos;s unit tests,Sinks+Sources,Major
+0d7ab0a7d5a35aeb68879ab3c582ab92a00829b7,FLUME-1656,Bug,flume-ng script disregards stderr  from hadoop command when finding hadoop jars,None,Major
+1aefb13a5ad2362f9d41e8cf85b593745a813668,FLUME-1656,Bug,flume-ng script disregards stderr  from hadoop command when finding hadoop jars,None,Major
+41a621f399a363c054e37b2273e9694f612d53e2,FLUME-1684,Improvement,Re-enable empty file unit test,None,Minor
+d25e7cd856f2cf36f60175de74f5ba50bf035944,FLUME-1684,Improvement,Re-enable empty file unit test,None,Minor
+14eac1aa692f6547b20896c0e2a97a8184599c67,FLUME-1629,Sub-task,Add Audience/Stability annotations,None,Major
+a2f3728e6de8fda5d6c95d89cc89cd027c1d058c,FLUME-1683,Bug,Fix Time Granularity Bug in SpoolingFileLineReader,None,Major
+d7dc14295f08c33444c8996d348bc059f607414b,FLUME-1683,Bug,Fix Time Granularity Bug in SpoolingFileLineReader,None,Major
+f25d2679cd99c38a36d027b28980db5623dfe20a,FLUME-1681,Improvement,Disable empty-file unit test for Spooling File Reader,None,Major
+2bc828e871207a340c1997b9b47850ce496d0aa7,FLUME-1681,Improvement,Disable empty-file unit test for Spooling File Reader,None,Major
+b4402d9b7a1be17f02dd9e7aeff13e29de7b2502,FLUME-1425,New Feature,Create a SpoolDirectory Source and Client,None,Major
+f5eb9bbb09d7b3222f13fbdd10ce1511dc309c49,FLUME-1673,Bug,MonitoredCounterGroup publishes this reference to platform MBean server in constructor,None,Major
+9628170e891b406b9f1d5501c6ed60bee35b351b,FLUME-1673,Bug,MonitoredCounterGroup publishes this reference to platform MBean server in constructor,None,Major
+a1e948d000acf92cdb58c03da73d7745db384892,FLUME-1675,Improvement,Ignore netbeans config files in rat &amp; git,None,Minor
+d02f943682dd329177269df50066014b988482ee,FLUME-1675,Improvement,Ignore netbeans config files in rat &amp; git,None,Minor
+5ad522c1e392dcbb07aca5d0015e5302ce29a203,FLUME-1671,Bug,Add support for custom components to MonitoredCounterGroup,None,Major
+f380af8acd410ede6f095c2b266166a358913596,FLUME-1671,Bug,Add support for custom components to MonitoredCounterGroup,None,Major
+dc99a7455be6b9203447c730cafe4763032749df,FLUME-1653,Bug,Update Hadoop-23 profile to point to hadoop-2 alpha artifacts ,Build,Major
+830dba74066013d81580962e260e78f2b3600fd8,FLUME-1653,Bug,Update Hadoop-23 profile to point to hadoop-2 alpha artifacts ,Build,Major
+73ebd2774d1e6c196fbaba50f12a0043b771e1d3,FLUME-946,Improvement,Allow multiplexing channel selector to specify optional channels.,None,Minor
+0e8bd19d5e648dca614fbaafaa511b747582a5d2,FLUME-946,Improvement,Allow multiplexing channel selector to specify optional channels.,None,Minor
+1bb0a80ab5157fdebda96fa0da66be39e5e3dde5,FLUME-1659,Bug,JSON Handler should return simple events  not JSONEvents.,None,Major
+5c65867cfbdb21c4690e7eb5c1b02b8d739fb818,FLUME-1659,Bug,JSON Handler should return simple events  not JSONEvents.,None,Major
+5d7bcd85d524fc949678e4e311c9c66160a5acd5,FLUME-1645,Improvement,add hdfs.fileSuffix property to HDFSEventSink,Sinks+Sources,Major
+6ea3a1596ee8a6052c08032c12d87660ff15dbf2,FLUME-1645,Improvement,add hdfs.fileSuffix property to HDFSEventSink,Sinks+Sources,Major
+c9fcf2e09073c79b185031522f79d4d258eef531,FLUME-1371,New Feature,ElasticSearch Sink,Sinks+Sources,Major
+2cc975e53fa5f9ac1d7d5089b3d3c57dcda6c985,FLUME-1371,New Feature,ElasticSearch Sink,Sinks+Sources,Major
+30d9ca3135d29d764ac1de07aa4274c6db0d8978,FLUME-1664,Bug,Logutils.getLogs remove unneeded directory check,None,Minor
+acd8223c7d34691b5172792388df9717c26883dc,FLUME-1664,Bug,Logutils.getLogs remove unneeded directory check,None,Minor
+1ee1ce49e6b609649ef4790e7708ed8663baac76,FLUME-1652,Improvement,Logutils.getLogs could NPE,None,Minor
+715e8e6d185766721751abffe3c239ede50386c1,FLUME-1662,Bug,Convert null body in events into zero length arrays.,None,Major
+af711b3d8e4c0e12656aaaeffb505a1c035eee83,FLUME-1662,Bug,Convert null body in events into zero length arrays.,None,Major
+f3b64e79796d63b15be980d83840c0c68ff3dc87,FLUME-1652,Improvement,Logutils.getLogs could NPE,None,Minor
+80fe9324f8a6b00a9afbaf4c658c3650469a0aca,FLUME-1199,New Feature,Add HTTP Post Source,Sinks+Sources,Major
+ba7a42ad18be18cce25d9611ff5fe14871dfa025,FLUME-1337,Improvement,Add IDEA files to .gitignore,None,Minor
+b05e15de124a8f5f83611b286dfb55d3a68fa66e,FLUME-1337,Improvement,Add IDEA files to .gitignore,None,Minor
+3daeab6feeabd1eea85a1771eb5861e8b06d91a9,FLUME-1620,Bug,Update flume user guide for LoadBalancingSinkProcessor with the backoff changes.,None,Major
+878b136541023d6b58f381796644a0f3b04910e4,FLUME-1620,Bug,Update flume user guide for LoadBalancingSinkProcessor with the backoff changes.,None,Major
+7157802eb86f83f9b9467827b6cc6d7387cc21bb,FLUME-1622,Bug,MemoryChannel throws NPE if the event has no body,Channel,Major
+6d22b6b0980377f41122018b183cd442b9818472,FLUME-1622,Bug,MemoryChannel throws NPE if the event has no body,Channel,Major
+218f2400c8a75ffaa98aee9289420034242b1aea,FLUME-1638,Bug,LoadBalancingRpcClient depends on com.google.common.collect.Maps,None,Minor
+8ae4e9e3f055b87404b60f777fc9a36cbbc89b4b,FLUME-1638,Bug,LoadBalancingRpcClient depends on com.google.common.collect.Maps,None,Minor
+9ad20d39e82e0936a0cb316cd5c47efd59f6fea3,FLUME-1651,Bug,in the hadoop-0.23 profile HBase version needs to be at least 0.94.2 ,Sinks+Sources,Blocker
+39f0ec8a99a28b0a9c5cf15e716fdd0e91c6ec01,FLUME-1651,Bug,in the hadoop-0.23 profile HBase version needs to be at least 0.94.2 ,Sinks+Sources,Blocker
+84c4586bda367b44e041a4b7c6a3d4843b39106d,FLUME-1650,Bug,Fix flume-ng-hbase-sink compilation against Hadoop 2.X,Sinks+Sources,Blocker
+9e039637220cf12d8a0b73cd22128cea25397a16,FLUME-1650,Bug,Fix flume-ng-hbase-sink compilation against Hadoop 2.X,Sinks+Sources,Blocker
+ee595f6c41e285b21b3ca2d7fb4a41ef2ab11e02,FLUME-1515,Bug,Fix flume-1.3.0 branch test failures on ASF Jenkins.,Test,Minor
+d1a7dbdd1dd5e7a5d65b95d045c85f885f1fe64f,FLUME-1515,Bug,Fix flume-1.3.0 branch test failures on ASF Jenkins.,Test,Minor
+a7e276fb61908fa81522951619b5e7f93ffca7cd,FLUME-1642,Umbrella,Umbrella JIRA for 1.3.0 release,None,Major
+110ee34ce6b136eb401e28aae05280fcd468a072,FLUME-1647,Sub-task,Update trunk docs to 1.4.0-SNAPSHOT,None,Major
+9b3f9f1c91764326fe8d8b0d9ac88c4755f080c8,FLUME-1609,Improvement,FileChannel detecting when the underlying file systems are full could provide cleaner error recovery,Channel,Minor
+8fb07e3c07c7b5fe37d629cee9100cab54a79819,FLUME-1609,Improvement,FileChannel detecting when the underlying file systems are full could provide cleaner error recovery,Channel,Minor
+8633220df808c4cd0c13d1cf0320454a94f1ea97,FLUME-2366,Bug,Release 1.5 Umbrella jira,None,Major
+9c02a9cc9f466f0c36f0d81ea6872ea0808c164a,FLUME-2368,Sub-task,Update CHANGELOG,None,Major
+58e043b7347598d700525f5e0277c93ea2be3b71,/,/,    Adding default version for thrift,/,/
+ae62ea5e95baa820d0a94a642e3ff20bbc7bc3bf,FLUME-2366,Bug,Release 1.5 Umbrella jira,None,Major
+127929b48da2d3d2c19f535208e6b4a869671178,FLUME-2366,Bug,Release 1.5 Umbrella jira,None,Major
+cba804fd5ed14ac561d7c5e349e2ea8fdacd473f,FLUME-2368,Sub-task,Update CHANGELOG,None,Major
+ff7d5827c1adf02683f1c81db84ff7ef7ecf76d1,FLUME-2381,Bug,Upgrade Hadoop version in Hadoop 2 profile to 2.4.0,None,Major
+7cf6746ed63018188b530118535c144ff6682201,FLUME-2181,Improvement,Optionally disable File Channel fsyncs ,None,Major
+964ce67a839df164004219bda47f397e923f6ad8,FLUME-2350,Bug,Consume Order tests need to space out file creation,None,Major
+9df1abb84a17874a3e658fcea155aa865506aff7,FLUME-2309,New Feature,Spooling directory should not always consume the oldest file first.,None,Minor
+636031253a42e8bb5822cb2b52598e21fe4a40a9,FLUME-2347,Bug,Add FLUME_JAVA_OPTS which allows users to inject java properties from cmd line,None,Major
+042f53a5f45391a064aa96cba16d9f7f0866db1e,FLUME-2225,New Feature,Elasticsearch Sink for ES HTTP API,None,Major
+bf89b590ed8654153df7d04b67bdf14a3ed67d8e,FLUME-2345,Bug,Update to Kite 0.12.0 dependency,Sinks+Sources,Major
+164f28e2b29bee38f4bf24af2d093cc761686d8a,FLUME-2263,Bug,Bump Hadoop 2 version to 2.3.0,None,Major
+38d8377e912768e63fb518bbf6f65ede19b14618,FLUME-2151,Bug,Windows:  Update TestExecSource to use native commands on Windows,Windows,Major
+b292d24a868cd67645c4ef423e1717706cddc202,FLUME-2343,Improvement,Add user impersonation to DatasetSink,Sinks+Sources,Major
+839e8e67fd75b2f2af9898b4b82f9570981e329c,FLUME-2252,Bug,Add null check before closing table in HbaseSink,Sinks+Sources,Minor
+aacd016a9dadd70cc5d3ce49c21c95f7c3483268,FLUME-2243,Improvement,AvroSource to use TransceiverThreadFactory for Thread naming while initializing NioServerSocketChannelFactory,Sinks+Sources,Minor
+5a06871c78102b87ca5b53993cc7b95e66292bad,FLUME-2338,Bug,Support coalescing increments in HBaseSink,Sinks+Sources,Major
+ae022cf054280045de57f64bce3d63f910fa57fc,FLUME-2338,Bug,Support coalescing increments in HBaseSink,Sinks+Sources,Major
+cb3d84d354acc0cd7cac213c3a5190d74a190c12,FLUME-2338,Bug,Support coalescing increments in HBaseSink,Sinks+Sources,Major
+529aa7cf96bd2bd48f3442b9a8c1f8e09a4569ea,FLUME-2336,Bug,HBase tests that pass in ZK configs must use a new context object,None,Major
+5be704c283a2eb553f9e8d37e15d8ab54315e20e,FLUME-2335,Bug,TestHBaseSink#testWithoutConfigurationObject() must delete the table at the end of the test,None,Major
+962f5fbe2039773cc00928ac2e42ee813669270a,FLUME-2324,Bug,Support writing to multiple HBase clusters using HBaseSink,None,Major
+6b72df25c102937eb57eba92243598a0bcfa2e8b,FLUME-2329,Bug,Add an alias for the Morphline Solr Sink,None,Major
+a345f611ba814c3689420edf4c2cc9b69ba3ac70,FLUME-2283,Bug,Spool Dir source must check interrupt flag before writing to channel,None,Major
+c9598caa322532bf8a2f484ceb04899d43a26129,FLUME-2323,Bug,Morphline sink must increment eventDrainAttemptCount when it takes event from channel,None,Major
+6d3d0cd8e23026a63b6ce05f14ae92a251654903,FLUME-2328,Bug,FileChannel Dual Checkpoint Backup Thread not released on Application stop,File Channel,Major
+bff74a347d9ed6b95437a3f10d4a121c3531eeb1,FLUME-2334,Bug,Upgrade Asynchbase to 1.5.0 as this include hbase 0.96.x support,None,Major
+d5805c8598be4eec85de8973b4c98ecdd7ffe6d3,FLUME-1227,New Feature,Introduce some sort of SpillableChannel,Channel,Major
+2fc69f54b45588a40fca06942d4530eb17ce51a0,FLUME-2320,Bug,Deadlock in DatasetSink,Sinks+Sources,Major
+3f5db796fe0239e4885cc3ae3233e1224cfb3fb8,FLUME-2325,Bug,BucketWriter might throw BucketClosedException incorrectly,Sinks+Sources,Minor
+323a46614cc8b17a9d74394237b6bc8fbaa41f39,FLUME-2319,Documentation,Incorrect property name of Ganglia Reporting documentation,Docs,Trivial
+0cb6ce69140f137af947de4e0828ff73a623f042,FLUME-2307,Bug,Remove Log writetimeout,Channel,Major
+3e31e3a87a3745c9457f47a7479f380c2ac99dbd,FLUME-2314,Bug,Upgrade to Mapdb 0.9.9,None,Major
+5de9a8af4d0f859bd88e65996e7543302fd9eb1f,FLUME-2130,Improvement,Handle larger payloads via SyslogUDPSource,None,Major
+db1abb0a82c46bd7c8dd44629f4a1c98e01abf9e,FLUME-2311,Bug,Use standard way of finding queue/topic,None,Major
+ffa9fae3045908b304dbe13dfa5526b40e667ae4,FLUME-2312,Bug,Add utility for adorning HTTP contexts in Jetty,None,Major
+251478f2e937330d302abdcfd529ce0a6732b9af,FLUME-2305,Bug,BucketWriter#close must cancel idleFuture,None,Major
+8467f8e315ba4f2004e0b7e1711c70367d5b0b45,FLUME-1892,Bug,IRC Sink NPE,Sinks+Sources,Minor
+973f304634f3f3e0604468eaa84d5d445755cffd,FLUME-2304,Bug,DatasetSink test fails unexpectedly,Sinks+Sources,Major
+2b0233906e50ac99c1d22020c86d03c11fe13220,FLUME-2302,Bug,TestHDFS Sink fails with Can&apos;t get Kerberos realm,None,Major
+c5745df73af088c634c67e6fc5bababa4bd8b0f1,FLUME-2303,Bug,HBaseSink tests can fail based on order of execution,None,Major
+0994eb27a91eb7ea8996acf5e8938b3ee79fbc30,FLUME-2294,New Feature,Add a sink for Kite Datasets,Sinks+Sources,Major
+4bb2658348f836e0e03b14f5a949a05663b54bfe,FLUME-2301,Bug,Update HBaseSink tests to reflect sink returning backoff only on empty batches,None,Major
+12bb474f2a627619cdff50c36eda5decda566c76,FLUME-2292,Improvement,Upgrade mapdb to 0.9.8,None,Major
+01d3b13d99af4f37a5f26bd943bda59c98c865d4,FLUME-2289,Bug,Disable maxUnderReplication test which is extremely flakey,None,Major
+d1b85bd8ed27e376c762d6514a9b874e5ac8810f,FLUME-2275,Improvement,Improve scalability of MorphlineInterceptor under contention,Sinks+Sources,Major
+c6117b50d998d8989890bd1dca911cdf402ba1a2,FLUME-2265,Bug,Closed bucket writers should be removed from sfwriters map,None,Major
+a7703d0b02f4ce3518b6a8b05e542b4ab1994c49,FLUME-2278,Documentation,Incorrect documentation for write-timeout of File Channel,Docs,Trivial
+7cc8b8f6078b0eca318c1cb295e74dad362901db,FLUME-2270,Bug,Twitter Source Documentation Does not load properly,Docs,Trivial
+77fd194bf403aeb187a973b8854d09a5beac780d,FLUME-2056,New Feature,Allow SpoolDir to pass just the filename that is the source of an event,None,Minor
+bf917dd96eaf8e044d05f4ecf40c93296e117e2f,FLUME-2267,Improvement,Increase default transactionCapacity for FileChannel to 10000 from 1000,Channel,Minor
+583038a18ddb4c9e887dbe77342469cbe722224c,FLUME-2239,Bug,Clarify File Channel&apos;s  dataDirs setting in User Guide,File Channel,Major
+044df0614db786dee4bb86ca21ee6217c2896c48,FLUME-2264,Bug,Log4j Appender + Avro Reflection on string results in an invalid avro schema,None,Major
+4424dc6c74bdeae6138c3961ab78777ee9b4fb7c,FLUME-1679,Bug,Add dependency on Guava to flume-ng-elasticsearch-sink POM,Sinks+Sources,Major
+4a994c3b4a1fa0c338f6b14db1acc835fff46f70,FLUME-2155,Improvement,Improve replay time,None,Major
+c1f41d0e757cd73729f844903457a7801be1c45c,FLUME-2266,Bug,Update Morphline Sink to kite-0.10.0,Sinks+Sources,Major
+7d64d60a30c2a510bf24a605118904cc4e0179a1,FLUME-2217,Improvement,Preserve priority  timestamp and hostname fields in MultiportSyslogTcp and Udp sources,Sinks+Sources,Major
+a0e29ebd792e5dd5867364cda919ba6a776e45be,FLUME-2209,Bug,AsyncHBaseSink will never recover if the column family does not exists for the first start ,Sinks+Sources,Critical
+209169bb561f65d58a7140d952c34163d31ab825,FLUME-2238,Bug,Provide option to configure worker threads in NettyAvroRpcClient,Sinks+Sources,Major
+e371d565bd179ab000b5cfd9d771b5b38fc19cc3,FLUME-2262,Bug,Log4j Appender should use timeStamp field not getTimestamp,None,Major
+d2d7d7f968c2eb78eda46822fd503d8772d69d7a,FLUME-2255,Bug,Spooling Directory Source cannot handle channel exceptions,None,Major
+ad612c28bec3845775e12d6bc51ef724e6f78f06,FLUME-2235,Bug,idleFuture should be cancelled at the start of append,None,Major
+b17626f72ec4e9afd99bf36a5898dfdb4ea13711,FLUME-2231,Improvement,Add details in Flume Ganglia config in User Guide,Docs,Minor
+b7ef76b16bc4b585341a54876a9272dc5c6e758c,FLUME-2065,Documentation,Regex Extractor Interceptor config agent name inconsistent with rest of docs,Docs,Trivial
+7fc23d7d41757ce75058cead963b5bd54c395727,FLUME-2229,Bug,Backoff period gets reset too often in OrderSelector,None,Major
+e1dbe0eb1179af81c46a7774a3bfc0efd4705ce2,FLUME-2206,Improvement,ElasticSearchSink ttl field modification to mimic Elasticsearch way of specifying TTL,Sinks+Sources,Minor
+93de6b83758a5b517d16cb4b727a6d09ea5c824d,FLUME-1851,Documentation,User Guide grammar mistake,Docs,Trivial
+9b9c0831ee15afe118e5ab53872ea52989fa4275,FLUME-2192,Bug,AbstractSinkProcessor stop incorrectly calls start,Sinks+Sources,Major
+933617039b81e1ade6593d96ef39508d78d8a518,FLUME-2210,Bug,UnresolvedAddressException when using multiple hostNames in Elasticsearch sink configuration,Sinks+Sources,Major
+443ea3b8929ec34e5b2c8645aafe0cb397d273f6,FLUME-2064,Documentation,Typo/Grammar in flume main user doc under Scribe,Docs,Trivial
+b1f122f23d05aa55492941b11a4a1f7b5a7b5dfe,FLUME-2213,Improvement,MorphlineInterceptor should share metric registry across threads for better (aggregate) reporting,Sinks+Sources,Major
+4416d5b69a5dca21564a07f37f559a3e435cce74,FLUME-2212,Improvement,upgrade to Morphlines-0.8.0,Sinks+Sources,Major
+8742d591770e2bf1505c9228e36a26479350b8f8,FLUME-1666,Bug,Syslog source strips timestamp and hostname from log message body,Sinks+Sources,Major
+e278a3f1f45c8dd38a00a17a1ffe0ab342a95520,FLUME-2208,Bug,Jetty&apos;s default SocketSelector leaks File descriptors,None,Major
+ea0a80bc27ee0c7b8630ea402a6e3fac7ff1b64c,FLUME-2200,Bug,HTTP Source should be able to use &quot;port&quot; parameter if SSL is enabled,None,Major
+5bfed347df4ea63dac8bb90016044af806003819,FLUME-2191,Bug,HDFS Minicluster tests failing after protobuf upgrade.,None,Blocker
+46e365dcb6504f7cbefa084c8a66a4c2d28a4854,FLUME-2202,Improvement,AsyncHBaseSink should coalesce increments to reduce RPC roundtrips,None,Major
+e272d11295c55abab76412f28a80be00ef69c04e,FLUME-2198,Bug,Avro Source should disable itself if ipFilterRules contains invalid rules,None,Major
+eb99bb41ea813ab9cdd3e9ec76d54bd6d3628a82,FLUME-2182,Bug,Spooling Directory Source will not ingest data completely when a wide character appears at the edge of a buffer,Sinks+Sources,Critical
+2cecd8f7479a4c510b2cae68738563ec982c92de,FLUME-2190,Improvement,add a source capable of feeding off of the Twitter Streaming API,Sinks+Sources,Major
+30d9d56c13f7a14606c9baa31dee15de16ebe9ba,FLUME-2189,New Feature,Add support for IP filtering on AvroSource,None,Major
+9ef11916c8f3f7922b673f72c2ae6a410b26b48d,FLUME-2185,New Feature,Upgrade morphlines to 0.7.0,Sinks+Sources,Major
+dee057863602c28bf3a109139a1ce1bb8286af14,FLUME-2172,Bug,Update protocol buffer from 2.4.1 to 2.5.0,Sinks+Sources,Major
+56275cb225e5ed20952e26087ea6a005cdcd9e77,FLUME-2184,Bug,flume-ng-morphline-solr-sink Build failing due to incorrect hadoop-common dependency declaration,Sinks+Sources,Minor
+f1af0e96b525af5ce91bdcb8ad41da7da2ebba20,FLUME-2174,Bug,Integration of morphline solr sink puts Lucene/Solr dependencies on the default classpath,Docs,Major
+0bcd27e42f0130310cc92251aa8b21909f62df64,FLUME-2161,Bug,Flume does not support spaces in -X java-opt command line args,None,Major
+2ba2503903698e13404d1d6a588838016c7648e0,FLUME-2156,Bug,Unregister then re-register MonitoredCounterGroup JMX MBeans on reconfigure,None,Major
+7bb4fc0465c0ba39c8151df6de92c62f3049655a,FLUME-2157,Bug,Spool directory source does not shut down correctly when Flume is reconfigured,Sinks+Sources,Major
+96602b9fccf3849f67d8b09798772dc1d1dbdcf3,FLUME-2154,Improvement,Reducing duplicate events caused by reset-connection-interval,None,Minor
+58acf8c01bcaf0052e0a89dfcb83b0771b706ea2,FLUME-2134,Bug,AsyncHbase Sink bugfix plus tests errors on Windows,Windows,Major
+3b3576ceded622d03f4660fc8a7b4b18652ea406,FLUME-2142,Bug,HTTPS tests for http source,None,Major
+19d55367811bbcfc1843b609e0ae3f76baec42f7,FLUME-2139,Improvement,upgrade morphline library dependency to a 0.5.0 release,Build,Major
+60424456952527a27e1d672148edb3d7a1193936,FLUME-2109,Bug,HTTPS support in HTTP Source,None,Major
+1a0e8e8e8e23846ad0de51cf7967177b6196089f,FLUME-2007,Bug,HDFS Sink should check if file is closed and retry if it is not.,None,Major
+c200cbe4c560bcf22e3d195661c0b96e6be5a39e,FLUME-2121,Bug,Upgrade Flume to log4j 1.2.17 to be in sync with HDFS/HBase,None,Major
+f8358f22ad090bfe2f2be4799a517c38f56f34da,FLUME-2124,Bug,Upgrade Morphline Solr Sink to CDK 0.4.1,Sinks+Sources,Major
+2d506844ab41a666893f301016f8438622a8f29e,FLUME-2110,Bug,Scribe Source must check if category is null before inserting the headers,None,Major
+368cf270ee590b6901034c4045d79cd310697f01,FLUME-2088,Bug,Minor typo in Flume User Guide JSON Reporting section,Docs,Minor
+f91f844b0bd98eb135a5d0b7dc5b2b745a3d6ea1,FLUME-2108,Sub-task,Update RELEASE-NOTES and CHANGELOG for 1.4.0 release,None,Major
+756924e96ace470289472a3bdb4d87e273ca74ef,FLUME-2108,Sub-task,Update RELEASE-NOTES and CHANGELOG for 1.4.0 release,None,Major
+3450859af11a63c25144f985cb88b5c38f13c883,FLUME-2108,Sub-task,Update RELEASE-NOTES and CHANGELOG for 1.4.0 release,None,Major
+3664472f8985c8903d51eb13a44c29fcbff0b180,FLUME-2108,Sub-task,Update RELEASE-NOTES and CHANGELOG for 1.4.0 release,None,Major
+d917769d6e68e3e4cbdaaf35b37ff86d68f3337c,FLUME-2107,Sub-task,Update 1.4.0-SNAPSHOT to 1.4.0 for release,None,Major
+1d0e38ab444018d010e659051578942a8d421a92,FLUME-2106,Sub-task,Update 1.4.0-SNAPSHOT to 1.5.0-SNAPSHOT on trunk,None,Major
+8f62b779edb838799acb939d05ee7302ad410647,FLUME-2105,Improvement,Add docs for MorphlineSolrSink,Sinks+Sources,Major
+00f1236b9073844475e51a09d4f51430538eb6be,FLUME-2105,Improvement,Add docs for MorphlineSolrSink,Sinks+Sources,Major
+80721571514937c1a3cd147edcd15cf0ea549dcf,FLUME-2102,Sub-task,Update LICENSE file for Flume 1.4.0,None,Major
+2bb8d50231d654c335bacc32fcf041f210a30e97,FLUME-2102,Sub-task,Update LICENSE file for Flume 1.4.0,None,Major
+baf97df5991542b449b19a00cc2bc3c60d723e01,FLUME-2100,Improvement,Increase default batchSize of Morphline Solr Sink,Sinks+Sources,Major
+5210b3163032e295d44416aa867cd5c5bbdb459a,FLUME-2100,Improvement,Increase default batchSize of Morphline Solr Sink,Sinks+Sources,Major
+8c8e1e99709fe868db1f3c260d073b480da373e0,FLUME-2094,Task,Remove the deprecated - Recoverable Memory Channel,Channel,Major
+08843202f78e0539e7ebb48c1d1a3fe7986db899,FLUME-2094,Task,Remove the deprecated - Recoverable Memory Channel,Channel,Major
+33d44248c9c7fa2fa61a972924721ff6ffe2c75e,FLUME-2076,Improvement,JMX metrics support for HTTP Source,None,Major
+c059c916e32e53215dbbe55f7163c5ce833a8909,FLUME-2076,Improvement,JMX metrics support for HTTP Source,None,Major
+eb46fe93a3af9dd113bc2f798bd0ef6361ae8dab,FLUME-1874,Improvement,Ship with log4j.properties file that has a reliable time based rolling policy,None,Major
+2f90fd8b08bfda9c7b41d2f7a2ac03da10d6f057,FLUME-1874,Improvement,Ship with log4j.properties file that has a reliable time based rolling policy,None,Major
+9691e3639fd000fdb392f33ab6649e57e0ffc424,FLUME-1285,Bug,FileChannel has a dependency on Hadoop IO classes,None,Critical
+97170aebf4240e1f7c628650b621f3f4c3178dc0,FLUME-1285,Bug,FileChannel has a dependency on Hadoop IO classes,None,Critical
+ee2f6c0ba43055c236497c79525428376b70bade,FLUME-1917,New Feature,FileChannel group commit (coalesce fsync),File Channel,Major
+b8c4b003a8273b17e8641a9e5bcafd2357fbd370,FLUME-1917,New Feature,FileChannel group commit (coalesce fsync),File Channel,Major
+a7b9b7eb3b19281a22d8fa914e4e34bb58520624,FLUME-2026,Bug,TestHTTPSource should use any available port rather than a hardcoded port number,None,Major
+15f280f75135f69778f04557ed67e230dea7e2bd,FLUME-2026,Bug,TestHTTPSource should use any available port rather than a hardcoded port number,None,Major
+c587e0688913c52606363641ffd10abe7fe62fa3,FLUME-2005,Improvement,Minor improvements to Flume assembly config,None,Minor
+171310fb1ab9316dd1d72126acbefd4ef4727043,FLUME-2005,Improvement,Minor improvements to Flume assembly config,None,Minor
+e175349d58b0b243900ee8395089498910e64884,FLUME-1677,Improvement,Add File-channel dependency to flume-ng-node&apos;s pom.xml,Build,Minor
+83e4fe5f7a15ac0c4c8b5aee5e910169e189b051,FLUME-1677,Improvement,Add File-channel dependency to flume-ng-node&apos;s pom.xml,Build,Minor
+e6cacd09392a4220757f47fd90463952e8a833de,FLUME-1621,Documentation,Document new MemoryChannel parameters in Flume User Guide,Channel,Major
+4c9e85ab5582f50e2faba9ab1f01d60395c5fc90,FLUME-1621,Documentation,Document new MemoryChannel parameters in Flume User Guide,Channel,Major
+f17c3fef2349d1c97e644cd9d20a80495d128cfe,FLUME-1741,Bug,ElasticSearch tests leave directory data/elasticsearch/nodes/ lying around,Sinks+Sources,Blocker
+1e2261ce04c9725256b5e99812e04cc1ceb3d636,FLUME-1741,Bug,ElasticSearch tests leave directory data/elasticsearch/nodes/ lying around,Sinks+Sources,Blocker
+b478154b1d9e43cd166c29da88ed0cc6730ed5da,FLUME-2098,Bug,Make Solr sink depend on the CDK version of morphlines,Build,Blocker
+5e53866c30388cb9abc8dc33307827f9e57f642b,FLUME-2098,Bug,Make Solr sink depend on the CDK version of morphlines,Build,Blocker
+723fadaeaa2176a6682baf770b2a6c16a58b42f2,FLUME-2098,Bug,Make Solr sink depend on the CDK version of morphlines,Build,Blocker
+53649f06fef8852c28a87376cb1bfe365b4df8d8,FLUME-2098,Bug,Make Solr sink depend on the CDK version of morphlines,Build,Blocker
+32944dce2d9c4e0fb6ead685c35d1a821f98139f,FLUME-2049,Improvement,Compile ElasticSearchSink with elasticsearch 0.90,Sinks+Sources,Major
+a06a56085bd810929f27764925eb1b3f6006fb01,FLUME-2049,Improvement,Compile ElasticSearchSink with elasticsearch 0.90,Sinks+Sources,Major
+47dd06182e0419ecd189ed7bb7a6c66df77ca796,FLUME-1975,Bug,Use TThreadedSelectServer in ThriftSource if it is available,None,Major
+9f3a530f6ec9dcaa297fe77d4ef8b648b8f5873d,FLUME-1975,Bug,Use TThreadedSelectServer in ThriftSource if it is available,None,Major
+2479bbfa8aeb2499d7372ea1e88c10697c6cbea1,FLUME-1924,Bug,Bug in serializer context parsing in RollingFileSink,None,Major
+139e95c9529d256e015d9edb32955832b7f5508e,FLUME-1924,Bug,Bug in serializer context parsing in RollingFileSink,None,Major
+eb17987a6c5da2995e81b1a7e494ecabd66a78ea,FLUME-2051,Bug,Surefire 2.12 cannot run a single test on Windows. Upgrade to 2.12.3,Test,Major
+b22f0415c0e73ce5a98cbdbbaa23bcdd932f15af,FLUME-2051,Bug,Surefire 2.12 cannot run a single test on Windows. Upgrade to 2.12.3,Test,Major
+e635e19b4ead2a7a756346912c307f78b76dd9fc,FLUME-2082,Bug,JMX support for Seq Generator Source,None,Major
+7d131b6a0d123b7d7f515cc6a9da001626263a17,FLUME-2082,Bug,JMX support for Seq Generator Source,None,Major
+c954dfc769850cf4a9675be303b98d33efb8ac45,FLUME-2081,Bug,JMX metrics support for SpoolDir,None,Major
+862c83187a1ea443142b49df8e86671e55d927d6,FLUME-2081,Bug,JMX metrics support for SpoolDir,None,Major
+e488503c17dc9012c9e2284006dec6f3939fc5c6,FLUME-2093,Improvement,binary tarball that is created by flume&apos;s assembly shouldn&apos;t contain sources,Build,Minor
+b455486c283ed048f0fb2ebffe115c04a8f81894,FLUME-2093,Improvement,binary tarball that is created by flume&apos;s assembly shouldn&apos;t contain sources,Build,Minor
+3ff4b829e4b99068fb0cdbc80d046e42031a623d,FLUME-2048,New Feature,Avro container file deserializer,Sinks+Sources,Major
+ad68350ffcc9a6cb47b7b555b9ebf6dacfa7c129,FLUME-2048,New Feature,Avro container file deserializer,Sinks+Sources,Major
+e60de9322fbd4bd7ae96034ef86af0b65a180da6,FLUME-2060,Bug,Failure in TestLog.testReplaySucceedsWithUnusedEmptyLogMetaDataFastReplay test on Windows,Windows,Major
+0fefd95b88e2b836f871d1f1b1c849e8a97eb760,FLUME-2060,Bug,Failure in TestLog.testReplaySucceedsWithUnusedEmptyLogMetaDataFastReplay test on Windows,Windows,Major
+cbd4c6580f83147511459fa7443f54ac4f1b847f,FLUME-2057,Bug,Failures in  FileChannel&apos;s TestEventQueueBackingStoreFactory  on Windows,Windows,Major
+bac060820a0f50f6173231a2f4a10c2d5c5a2897,FLUME-2057,Bug,Failures in  FileChannel&apos;s TestEventQueueBackingStoreFactory  on Windows,Windows,Major
+f49607c4cf6470a135f661b68c56c971617ca033,FLUME-2083,Bug,Avro Source should not start if SSL is enabled and keystore cannot be opened,None,Major
+b8cf789b8509b1e5be05dd0b0b16c5d9af9698ae,FLUME-2083,Bug,Avro Source should not start if SSL is enabled and keystore cannot be opened,None,Major
+9efb9f23edf29a9fd76872ac3a58834a509a244d,FLUME-2010,New Feature,Support Avro records in Log4jAppender and the HDFS Sink,Sinks+Sources,Major
+81df41de97b889adfb67e778074df976b8fc0f11,FLUME-2070,New Feature,Add a Flume Morphline Solr Sink,Sinks+Sources,Major
+4a8b3024ce2230c7d4675ffd9d1bf27c365761e6,FLUME-2025,Bug,ThriftSource throws NPE in stop() if start() failed because socket open failed or if thrift server instance creation threw.,None,Major
+296fc9f92b51bbe9c674cede560ab7be8a03e161,FLUME-2025,Bug,ThriftSource throws NPE in stop() if start() failed because socket open failed or if thrift server instance creation threw.,None,Major
+dc613bc22b692fd79a1a0c13f3dca72a86714a12,FLUME-1977,Improvement,JMS Source connectionFactory property is not documented,Docs,Minor
+337e5fc3768af2d26a9a9dbfaa1e5afa30ae26bf,FLUME-1977,Improvement,JMS Source connectionFactory property is not documented,Docs,Minor
+3598ac538e30859c8e2506948c3d540faf200fe1,FLUME-1976,Improvement,JMS Source document should provide instruction on JMS implementation jars,None,Minor
+7eb9acc503b01b8c298f457b6d95575022af821d,FLUME-1976,Improvement,JMS Source document should provide instruction on JMS implementation jars,None,Minor
+fee30380b3fb365cbde6a4efb2a992bf1068741c,FLUME-2032,Bug,HDFSEventSink doesn&apos;t work in Windows,Windows,Trivial
+a97c04657b4735d6759f7b66bc9b4df451ab3aab,FLUME-2032,Bug,HDFSEventSink doesn&apos;t work in Windows,Windows,Trivial
+31d4d57d7ada3d337c2b02e0977b2714210e0bca,FLUME-997,New Feature,Support secure transport mechanism,None,Major
+a964e7ab3cfacbafb7e086d49ae2b94195b9c0df,FLUME-997,New Feature,Support secure transport mechanism,None,Major
+5e53a056b0ed749d928008278a0949467fefa0d9,FLUME-1586,Improvement,File Channel should support verifying integrity of individual events.,Channel,Major
+c57ebd1d2296fd1c0c8f84eecb16799de2a73e35,FLUME-1586,Improvement,File Channel should support verifying integrity of individual events.,Channel,Major
+48504e8f3e40ba1627b6f7c9393a6515b782901e,FLUME-2072,Bug,JMX metrics support for HBase Sink,Sinks+Sources,Major
+791f443fae173054cf29ac52fee8e9cf7fe70dc7,FLUME-2072,Bug,JMX metrics support for HBase Sink,Sinks+Sources,Major
+84bdfc7175ded9dabe03456817844528075eaf0c,FLUME-1945,Improvement,HBase Serializer allow key from regular expression group,None,Major
+e442c29a646723a75d67fe4dd189cc304dfd4af4,FLUME-1945,Improvement,HBase Serializer allow key from regular expression group,None,Major
+42fd6a991063b20099dea820d529b8b3d9aaa16e,FLUME-2063,Improvement,Add Configurable charset to RegexHbaseEventSerializer,Sinks+Sources,Minor
+d63c378b551bba338677d50a36d254dd8c62fe4a,FLUME-2063,Improvement,Add Configurable charset to RegexHbaseEventSerializer,Sinks+Sources,Minor
+f4239fca168a63bfb58e777397faeff9ef2209f0,FLUME-2062,Improvement,make it possible for HBase sink to deposit event headers into corresponding column qualifiers,Sinks+Sources,Major
+eefefa941a60c0982f0957804be0cafb4d83e46e,FLUME-2062,Improvement,make it possible for HBase sink to deposit event headers into corresponding column qualifiers,Sinks+Sources,Major
+7f66495d91e4d676b4b4dedc5443a52fe3128427,FLUME-2008,Improvement,it would be very convenient to have a fat jar of flume-ng-log4jappender,Client SDK,Major
+1e66428c6414af8c83f24c810bd770c292f0fb5a,FLUME-2008,Improvement,it would be very convenient to have a fat jar of flume-ng-log4jappender,Client SDK,Major
+f9986bf37c5b05f1c41e2b09ae917d7c45a44a12,FLUME-2054,Bug,Support Version Info  on Windows  and fix failure of TestVersionInfo ,Windows,Major
+8594feba3bca657887957613910dffe42b0f9221,FLUME-2054,Bug,Support Version Info  on Windows  and fix failure of TestVersionInfo ,Windows,Major
+079039004b4dc37cfb90ac407557a4853c3a447a,FLUME-1757,Improvement,Improve configuration of hbase serializers,None,Critical
+669e5d327720021391245949d6a947b4e963b728,FLUME-1757,Improvement,Improve configuration of hbase serializers,None,Critical
+309e4cf3c127b17fcbe821ea5bff8c6818fbcdd7,FLUME-2046,Improvement,Typo in HBaseSink java doc,Sinks+Sources,Trivial
+a13e9e6a8b78ae0ea4ac7794ad121d2a1f9b25ab,FLUME-2046,Improvement,Typo in HBaseSink java doc,Sinks+Sources,Trivial
+3f9408b2c983fa5904f733b053319a1e735b9a0a,FLUME-2044,Bug,HDFS Sink impersonation fails after the first file,None,Major
+34621d7ea81b3472ffac4bf03c2cece5a86da30f,FLUME-2044,Bug,HDFS Sink impersonation fails after the first file,None,Major
+e9719a8897b7cce196aabbac84c207a1c906886f,FLUME-2042,Bug,log4jappender timeout should be configurable,None,Major
+4a9786468d40ce1766983f3c45b1ecb8f40532b1,FLUME-2042,Bug,log4jappender timeout should be configurable,None,Major
+062ca69be186894fb4d890ae76aa4b2e243af9f9,FLUME-2043,Bug,JMS Source removed on failure to create configuration,Configuration,Major
+51da4db4daded80c3c2ce1a7d69ea8482c769199,FLUME-2043,Bug,JMS Source removed on failure to create configuration,Configuration,Major
+7088803cfbfbb864c429e9ea2a815be15fab7c11,FLUME-1980,Bug,Log4jAppender should optionally drop events if append fails,None,Major
+40040326763cdc655ea2707d8cb90a46791192c8,FLUME-1980,Bug,Log4jAppender should optionally drop events if append fails,None,Major
+2b66fb8d33d86bd7dabbb1b4f911c38c892dbdaa,FLUME-2015,Improvement,ElasticSearchSink: need access to IndexRequestBuilder instance during flume event processing,Sinks+Sources,Major
+6ba625c8eb58eb078f87b1c56fda7b61015471a1,FLUME-1688,Bug,Bump AsyncHBase version to 1.4.1,Sinks+Sources,Major
+c2f559482f60cea4899dc0dc57a88c7087755823,FLUME-1688,Bug,Bump AsyncHBase version to 1.4.1,Sinks+Sources,Major
+b2b45eddad92baae6c2d2958b98b4311217f242c,FLUME-1823,Bug,LoadBalancingRpcClient method must throw exception if it is called after close is called.,None,Major
+cdb4766f1a907a8dfedc1f7a55b3b4edbe3cdaea,FLUME-1823,Bug,LoadBalancingRpcClient method must throw exception if it is called after close is called.,None,Major
+a0127f6939abe65d89db0063f70e54f051015b0f,FLUME-1981,Bug,Rpc client expiration can be done in a more thread-safe way,None,Major
+d4c1bc07bc33e10cfdc5eca11b085e269dbea60d,FLUME-1981,Bug,Rpc client expiration can be done in a more thread-safe way,None,Major
+bff0c2742e2ccc5545b0f0c17f3268deaa8b9cfb,FLUME-2036,Bug,Make hostname optional for HTTPSource,None,Major
+458a1a2f758fa03b56c46246f830354151089c16,FLUME-2036,Bug,Make hostname optional for HTTPSource,None,Major
+46eab1d1299ce11aa67143b000ba476f9a55f7f6,FLUME-1893,Bug,File Channel could miss possible checkpoint corruption,None,Major
+7a6e3db005dfc7848eeb62b6e66b91dc00a7f726,FLUME-1893,Bug,File Channel could miss possible checkpoint corruption,None,Major
+3efb93f280d603aee4bbcf23ee130826af1c213c,FLUME-2009,Improvement,Flume project throws error when imported into Eclipse IDE (Juno),Build,Major
+8125b762b8cf7b457e87f066223abb9e269d0a15,FLUME-2009,Improvement,Flume project throws error when imported into Eclipse IDE (Juno),Build,Major
+26f3bc18e68b3a35d0cd247d99543683771a110f,FLUME-1867,Bug,There&apos;s no option to set hostname for HTTPSource,Sinks+Sources,Critical
+71df908d05c63095ad12082b9ecf1390ee98a400,FLUME-1867,Bug,There&apos;s no option to set hostname for HTTPSource,Sinks+Sources,Critical
+a4a4eb8b4d6ce0ed83a87a95d66d4e6799f833ab,FLUME-1886,Improvement,Add a JMS enum type to SourceType so that users don&apos;t need to enter FQCN for JMSSource,Configuration,Minor
+838135885e9382a36395eace89aa8cdb04926dbf,FLUME-1886,Improvement,Add a JMS enum type to SourceType so that users don&apos;t need to enter FQCN for JMSSource,Configuration,Minor
+c118f6b492714e45e5a4797b9a81ea89c5e39c73,FLUME-2030,Documentation,Documentation of Configuration Changes JMSSource  HBaseSink  AsyncHBaseSink and ElasticSearchSink,Sinks+Sources,Minor
+821591f503d28b9d6cdc1fac39078006e00254f8,FLUME-2030,Documentation,Documentation of Configuration Changes JMSSource  HBaseSink  AsyncHBaseSink and ElasticSearchSink,Sinks+Sources,Minor
+5f03e1d513bb3a041d7cd2be02816525db55b1d9,FLUME-2027,Bug,Check for default replication fails on federated cluster in hdfs sink,None,Major
+fac09aa5f543f251acbe3aa205b470562b93b344,FLUME-2027,Bug,Check for default replication fails on federated cluster in hdfs sink,None,Major
+543a5a196b0a31e7bebfabdd511979367d5ab8c8,FLUME-2002,Bug,Flume RPC Client creates 2 threads per each log attempt if the remote flume agent goes down,Client SDK,Major
+2e1b7c23c4964b8860b876cc5c8c3642c4d74ab9,FLUME-2002,Bug,Flume RPC Client creates 2 threads per each log attempt if the remote flume agent goes down,Client SDK,Major
+0cad6d3e55aa3da00561801d182945046e85015c,FLUME-1889,Improvement,Add HBASE and ASYNC_HBASE enum types to SinkType so that users don&apos;t need to enter FQCNs,None,Minor
+ ,FLUME-1994,Improvement,Add ELASTICSEARCH enum type to SinkType to eliminate need for FQCN in agent configuration files,Sinks+Sources,Minor
+93f03ab440f8381bf940f1ddd41fdc2d91712fc2,FLUME-1889,Improvement,Add HBASE and ASYNC_HBASE enum types to SinkType so that users don&apos;t need to enter FQCNs,None,Minor
+ ,FLUME-1994,Improvement,Add ELASTICSEARCH enum type to SinkType to eliminate need for FQCN in agent configuration files,Sinks+Sources,Minor
+61f487a830ac65c3537ad19a5a26213de3bf2ce4,FLUME-2013,Improvement,Parametrize java source and target version in the main pom file,None,Trivial
+1149740d0e34b7a2d7197c943e0be97009d93777,FLUME-2013,Improvement,Parametrize java source and target version in the main pom file,None,Trivial
+8655387c2249d3e1fcbc5dbea26525de75648d2c,FLUME-1940,Improvement,Log a snapshot of Flume metrics on shutdown,None,Minor
+215d75eb15362f34cd3246107cbea7ace247af10,FLUME-1940,Improvement,Log a snapshot of Flume metrics on shutdown,None,Minor
+7652ad86df548ddc7fa52a043315717692c8fbbb,FLUME-2012,Bug,Two tests fail on Mac OS (saying they fail to load native library) with Java 7,None,Major
+1da1e53248910efb18ad9207df963335da4d19de,FLUME-2012,Bug,Two tests fail on Mac OS (saying they fail to load native library) with Java 7,None,Major
+bcec83e90121738d3aa489f0569a1a67b05bea3f,FLUME-2011,Bug,&quot;mvn test&quot; fails,Build,Major
+ea87b1192a839cd376075eba351da7514cb66952,FLUME-2011,Bug,&quot;mvn test&quot; fails,Build,Major
+c146e5106c344b4ee438f4f396c3bf8544d31c66,FLUME-1819,Bug,ExecSource don&apos;t flush the cache if there is no input entries,Sinks+Sources,Major
+609a190e3f26462e540a0f25fdb56acd79af8ddc,FLUME-1819,Bug,ExecSource don&apos;t flush the cache if there is no input entries,Sinks+Sources,Major
+f31b3947d3afec14ef1bee1dbdbd9a6d713b089b,FLUME-2023,Bug,Flume must login to secure HBase before creating the HTable instance,None,Major
+496b7c2da4e3bcde836968f823c67c57b85f1ede,FLUME-2023,Bug,Flume must login to secure HBase before creating the HTable instance,None,Major
+fcf638fc33e7ead6de7919da85e7f10b68de6c82,FLUME-2014,Bug,Race condition when using local timestamp with BucketPath,None,Major
+6662b34c03511be65cdad8ead04860f7b0ab5fa6,FLUME-1993,Bug,On Windows  when using the spooling directory source  there is a file sharing violation when trying to delete tracker file,Sinks+Sources,Major
+bb38f0ff096f56594c613c8e3449a4ffd55314fc,FLUME-1993,Bug,On Windows  when using the spooling directory source  there is a file sharing violation when trying to delete tracker file,Sinks+Sources,Major
+7cd07a648185852997496ee1c35381a04d4f2ac4,FLUME-2004,New Feature,Need to capture metrics on the Flume exec source such as events received  rejected  etc.,Sinks+Sources,Minor
+41ca44be52e65845b359307f637282d794a345e4,FLUME-2004,New Feature,Need to capture metrics on the Flume exec source such as events received  rejected  etc.,Sinks+Sources,Minor
+ff4cc5cb11b7b74b08d9315569eb59aed655f55c,FLUME-1979,Documentation,Wrong propname for connection reset interval in avro sink,Configuration,Major
+1074fd05bb9693561b17602bb1497b805d14fd7c,FLUME-1979,Documentation,Wrong propname for connection reset interval in avro sink,Configuration,Major
+64b5d6432be3d1348303aaa2be90e477fa17dbb6,FLUME-1262,Bug,Move doc generation to a different profile,Docs,Major
+66e707fe8e38ac8a28058b845bc28164442d55f6,FLUME-1262,Bug,Move doc generation to a different profile,Docs,Major
+fb5c5c5145b4821d0bf989a0801a5693907b3282,FLUME-1948,Bug,plugins.d directory(ies) should be separately overridable  independent of FLUME_HOME,Configuration,Major
+961b995a0432a58d43a01a3ca537ecb153d99b22,FLUME-1948,Bug,plugins.d directory(ies) should be separately overridable  independent of FLUME_HOME,Configuration,Major
+4aaf4a3f86d8ede60dc85a69e8131d2bd8581fca,FLUME-1986,Bug,doTestInflightCorrupts should not commit transactions ,None,Major
+e607a302375c7fdeb39be8e9f1e645c699e42498,FLUME-1986,Bug,doTestInflightCorrupts should not commit transactions ,None,Major
+5b9d31f1ad22889042b9ec6010cd1b2c086eb545,FLUME-1974,Bug,Thrift compatibility issue with hbase-0.92,None,Major
+c72a3b1a5a2548f9157fe7913611c4318ce5e64d,FLUME-1974,Bug,Thrift compatibility issue with hbase-0.92,None,Major
+e9b91ee2ab1a72e8af02c3c304aee1cbbe6b942d,FLUME-1516,New Feature,FileChannel Write Dual Checkpoints to avoid replays,File Channel,Major
+6ca616800ec897551fbb14959ce3a5f0c1d69aed,FLUME-1516,New Feature,FileChannel Write Dual Checkpoints to avoid replays,File Channel,Major
+542f87e634cef2682eb71ecb52ddcd1cb9358110,FLUME-1866,Bug,ChannelProcessor is not logging ChannelExceptions.,Channel,Minor
+df7a197a51bdb326149255fdad4db01ca886ba57,FLUME-1866,Bug,ChannelProcessor is not logging ChannelExceptions.,Channel,Minor
+24b73c074f1c63da7f3e426e64c73af452a33108,FLUME-1969,Bug,Update user Guide to explain the purpose of minimumRequiredSpace setting for FileChannel,File Channel,Major
+35356530fd9fa8bc1fa3fd3a22692d5fac25d037,FLUME-1969,Bug,Update user Guide to explain the purpose of minimumRequiredSpace setting for FileChannel,File Channel,Major
+e9b12c89833b4bea2268bcd8386e9a21d4742ee2,FLUME-1965,Bug,Thrift sink alias doesn&apos;t exist,Configuration,Major
+612a5199a551fddeffcffa48cee9f3e679d5459a,FLUME-1965,Bug,Thrift sink alias doesn&apos;t exist,Configuration,Major
+f8c24a4946d7468f99cf4a5144d1c9545e2bb54c,FLUME-1506,Bug,Child poms pull in specific versions of packages not in top level pom,None,Major
+4527f5d5d28d63d608b23f01074f8c4459bfa93c,FLUME-1964,Bug,hdfs sink depends on commons-io but does not specify it in the pom,None,Major
+7c8e0bdabd7ee4af0b08e366baa282cb95fdbd69,FLUME-1964,Bug,hdfs sink depends on commons-io but does not specify it in the pom,None,Major
+8054d0ca17a71cb07f30274bf96c4aab253e17f9,FLUME-1953,Documentation,Fix dev guide error that says sink can read from multiple channels,None,Major
+172355c0aa3cf488375739a106cd248637608cab,FLUME-1953,Documentation,Fix dev guide error that says sink can read from multiple channels,None,Major
+2fd21e7b2d63f9e401633553c57110465fd399da,FLUME-1962,Documentation,Document proper specification of lzo codec as lzop in Flume User Guide,Docs,Minor
+44d899643a1a033d7aa002e243891f2c43ecbe1b,FLUME-1962,Documentation,Document proper specification of lzo codec as lzop in Flume User Guide,Docs,Minor
+3f4298cd5ffeb645c73585d0fc346ac9eb73deb7,FLUME-1910,Documentation,Add thrift RPC documentation,None,Major
+7d6947d73f05565a0d6c10d461d9b60e1b1482af,FLUME-1910,Documentation,Add thrift RPC documentation,None,Major
+ff6c64e65e1fb4b107b870a77fd31c05e75fa01d,FLUME-1958,Bug,Remove attlasian-ide-plugin.xml from the repo,None,Major
+30da63bd669b8089b65acde7c2bab3534bf1b583,FLUME-1958,Bug,Remove attlasian-ide-plugin.xml from the repo,None,Major
+cf6aed2f9f806a8bc4b82b77183056b129defd8f,FLUME-1787,Bug,Implement Pre-commit testing with Jenkins,None,Major
+c0c4947b295013d051dad98c07b87deaa9427af2,FLUME-1787,Bug,Implement Pre-commit testing with Jenkins,None,Major
+d877de5b993cf43e1fe76fb6dfef9943172430c9,FLUME-1955,Bug,fileSuffix does not work with compressed streams,Sinks+Sources,Major
+2f6fea50965e5a8ae059d179b0b25be738696cef,FLUME-1955,Bug,fileSuffix does not work with compressed streams,Sinks+Sources,Major
+6ebd267bbfc9e5d176f049172392964ece751d91,FLUME-1932,Bug,no-reload-conf command line param does not work,None,Minor
+4c5220bb7fe00fafcb203d230eb6edb2d1f2b660,FLUME-1932,Bug,no-reload-conf command line param does not work,None,Minor
+835f98f6b681e1b83593d36280e3207c750fb7b7,FLUME-1822,Bug,Update javadoc for FlumeConfiguration,None,Major
+8feadf734e19952ced9aa9155e8e8f48a7d07f8c,FLUME-1822,Bug,Update javadoc for FlumeConfiguration,None,Major
+1f4d1400e6c231cb907d6e660730dc525be346f9,FLUME-1686,Task,Exclude target directories &amp; Eclipse files from rat checks,Build,Minor
+3b29a3c07cbd6e5ac70cc55e506ffaf7ceecfbe2,FLUME-1686,Task,Exclude target directories &amp; Eclipse files from rat checks,Build,Minor
+46dadc63e540bca52fe87557762506ed55cd5a3a,FLUME-1511,Bug,Scribe-source doesn&apos;t handle zero message request correctly.,Sinks+Sources,Minor
+d1b9ca17c5062ddbedb8fcd355638ab9e9c47288,FLUME-1511,Bug,Scribe-source doesn&apos;t handle zero message request correctly.,Sinks+Sources,Minor
+84ba0bd84f42c08b6b304821bb2b10fafccc9fba,FLUME-1882,Bug,Allow case-insensitive deserializer value for SpoolDirectorySource,Sinks+Sources,Major
+4d0814630b328f64f33627dcde12bf8d0b086ead,FLUME-1882,Bug,Allow case-insensitive deserializer value for SpoolDirectorySource,Sinks+Sources,Major
+6b407e1a0a720ccfc85fa496fe3809bbe03d4379,FLUME-1911,Bug,Add deprecation back to the legacy thrift code,None,Major
+fc0b9b8cd27ebe2ff764d10f441cc332a6629f52,FLUME-1911,Bug,Add deprecation back to the legacy thrift code,None,Major
+72ebe25a1afefe9dc372887e692ab10278ffc1e5,FLUME-1949,Bug,Documentation for sink processor lists incorrect default,None,Trivial
+c470e9fd855e0dc9d2e97aad0651ab08ad10a450,FLUME-1949,Bug,Documentation for sink processor lists incorrect default,None,Trivial
+d66700f81882ddfa0641cbb4ce6751a8a2e0f3f0,FLUME-1943,Bug,ExecSource tests failing on Jenkins,None,Major
+84fbbdecf95db1a88245f57eae0c4086ecca96ed,FLUME-1943,Bug,ExecSource tests failing on Jenkins,None,Major
+9204456eee8522201649b31a949a5a77710c1b2e,FLUME-1930,Bug,Inflights should clean up executors on close.,None,Minor
+8fad6b880aafb5191b120144d560f20e9ca6cf42,FLUME-1930,Bug,Inflights should clean up executors on close.,None,Minor
+ce48a126e8ceebe0fb0eb4048c6b6601688e442d,FLUME-1926,Improvement,Optionally timeout Avro Sink Rpc Clients to avoid stickiness,None,Major
+3dc9069a3c28af6174ca659469345a28a99f91a2,FLUME-1926,Improvement,Optionally timeout Avro Sink Rpc Clients to avoid stickiness,None,Major
+082cfb498e95ae95e88d49d357839eab8ab3bf33,FLUME-1929,Bug,CheckpointRebuilder main method does not work,None,Minor
+113dcdca67c164e6d633fc8d9ce8d8d616e49e63,FLUME-1929,Bug,CheckpointRebuilder main method does not work,None,Minor
+97855decb7143aa612e79660260f434ef440bb50,FLUME-1939,Bug,FlumeEventQueue must check if file is open before setting the length of the file,Channel,Major
+8ea3f0fb3d211b7bf18e061bfc3b2dc825285f90,FLUME-1939,Bug,FlumeEventQueue must check if file is open before setting the length of the file,Channel,Major
+6495c3230cd44def6174c776f89167a27f45b36e,FLUME-1661,Improvement,ExecSource cannot execute complex *nix commands,Sinks+Sources,Major
+13b8252bdeb838c606f4453bdf757fb2a1101eb8,FLUME-1661,Improvement,ExecSource cannot execute complex *nix commands,Sinks+Sources,Major
+7bc4f83e7dcdff7ef16265aad18fb6feec1597ae,FLUME-1937,Bug,Issue with maxUnderReplication in HDFS sink,None,Major
+b28b87b58b2b08d31cac055cb3f9f8762f65b469,FLUME-1937,Bug,Issue with maxUnderReplication in HDFS sink,None,Major
+6e0c2b4985be5b4aa772a839294c03300e50f725,FLUME-1915,Improvement,Enhance NettyAvroRpcClient and the use of NettyServer to optionally use compression,None,Major
+e72e559baa589787bcba233e29882e28e0ff43ef,FLUME-1915,Improvement,Enhance NettyAvroRpcClient and the use of NettyServer to optionally use compression,None,Major
+ba71fe768bb8df07538eac25e8c34f15c7689923,FLUME-1931,Bug,HDFS Sink has a commons-lang dependency which is missing in pom,None,Major
+d10a6bd1e3a2f948573ace346a37f1d14ee6d14f,FLUME-1931,Bug,HDFS Sink has a commons-lang dependency which is missing in pom,None,Major
+995a7686fafdad9792c2733308dc0384f7ea9b17,FLUME-1916,Bug,HDFS sink should poll for # of active replicas. If less than required  roll the file.,Sinks+Sources,Major
+17338bf303e617054576813b02d057b98753b6aa,FLUME-1916,Bug,HDFS sink should poll for # of active replicas. If less than required  roll the file.,Sinks+Sources,Major
+ed4cae79f8ab66a71960dfa2bdb848f8141ca6bd,FLUME-1925,Bug,HDFS timeouts should not starve other threads,None,Major
+67d44cd84074ccfbc0ab295053852ea3acdc52dc,FLUME-1925,Bug,HDFS timeouts should not starve other threads,None,Major
+bedfc4e9b606dfad6fa79c507ed97ce0f69e94b7,FLUME-1922,Bug,HDFS Sink should optionally insert the timestamp at the sink,None,Major
+102c5e07dec17740866315d342afc00c19267569,FLUME-1765,Improvement,Add Load Balancing Support to Log4jAppender,Client SDK,Minor
+7006510b89bbb8cde98fbfac0c2fc7d325c63162,FLUME-1765,Improvement,Add Load Balancing Support to Log4jAppender,Client SDK,Minor
+65d3d63ee03a6e0d3216b98cb6808a414cfe7cfc,FLUME-1785,Bug,Nitpick: Typo in Flume User Guide,Easy,Trivial
+17e6f1af786fc37abc57c08bac3b81ccfc9bd765,FLUME-1785,Bug,Nitpick: Typo in Flume User Guide,Easy,Trivial
+03e21c1c27e9f2f94d4ef8dfc786aaccdd42501c,FLUME-1864,Improvement,Allow hdfs idle callback to clean up closed bucket writers,None,Major
+ce05be585f1cb91a3a00ccdfdeaaf5800ada6c35,FLUME-1864,Improvement,Allow hdfs idle callback to clean up closed bucket writers,None,Major
+36c4d2fd41ad43010090ca342c02768da8f83a16,FLUME-1906,Improvement,Ability to disable WAL for put operation in HBaseSink,Sinks+Sources,Major
+510f63ba39592e7912a85c35effb8be52699057a,FLUME-1906,Improvement,Ability to disable WAL for put operation in HBaseSink,Sinks+Sources,Major
+b64c8d04089934384e968fb2341fae25c2d12191,FLUME-1918,Bug,File Channel cannot handle capacity of more than 500 Million events,None,Major
+d898d7efdf6b16554a07c55ede810ab930ec00c8,FLUME-1918,Bug,File Channel cannot handle capacity of more than 500 Million events,None,Major
+61c5b072620f857f979e43f106c4b9e010f12874,FLUME-1897,Sub-task,Implement Thrift Sink,None,Major
+26826757316bf944318f8a09d8cfebce3214a189,FLUME-1898,Sub-task,Implement Thrift Source,None,Major
+c35b7c947915f7bce4da0b00938ec777d45fee31,FLUME-1898,Sub-task,Implement Thrift Source,None,Major
+be0aa6dc1f30f35acf8f96e9db6bdcedaa3a8ccf,FLUME-1896,Sub-task,Implement Thrift RpcClient,None,Major
+60da3d8606415202f966017a18084cb59d3e64d1,FLUME-1896,Sub-task,Implement Thrift RpcClient,None,Major
+6cbe4a58e243d8d9cf241ba10f958b7eaf52c3dd,FLUME-1891,Bug,Fast replay runs even when checkpoint exists.,None,Major
+d203236b21d350f13c8cb6bb1ef69f2aa5501dcb,FLUME-1891,Bug,Fast replay runs even when checkpoint exists.,None,Major
+001b3824020c5ad36a965d515061353627923bdc,FLUME-1890,Bug,Flume should set the hbase keytab and principal in HBase conf object.,None,Major
+2419550b3497d858a2346d8d840229b8cf310dca,FLUME-1890,Bug,Flume should set the hbase keytab and principal in HBase conf object.,None,Major
+3f0971cb9a8c985889739330543a9e3b2a4d0721,FLUME-1880,Bug,Double-logging of created HDFS files,None,Trivial
+f5d31f7a68e87c8bcc9ca5d43e5a29180d35b47d,FLUME-1880,Bug,Double-logging of created HDFS files,None,Trivial
+7d3e26e2af8693c44bb068950ac052a1b2f4f51f,FLUME-1845,Bug,Document plugin.d directory structure,Docs,Minor
+dca895d80e68513ac2b6840d116824b4d6d0e182,FLUME-1845,Bug,Document plugin.d directory structure,Docs,Minor
+5876271c0fc7107eb5746d0feae6ffb4137c2bcd,FLUME-1834,Bug,Userguide on trunk is missing some memory channel props,Docs,Major
+40043fe2f5ebc74f55c2a50f3ac04bb4f887833d,FLUME-1834,Bug,Userguide on trunk is missing some memory channel props,Docs,Major
+272159163e70ad32d3452b97596a13fe32dfdc89,FLUME-1879,Bug,Secure HBase documentation,None,Major
+f06a44bdc5533e233bf2672b68f23c2d8a44c8bb,FLUME-1879,Bug,Secure HBase documentation,None,Major
+e1a88154458c3bb990d0085aef8b7dbad1316536,FLUME-1835,Bug,Flume User Guide has wrong prop in Load Balancing Sink Selector,Docs,Major
+520de5153456a3a40da688f8e1b6bc5bbf46703f,FLUME-1835,Bug,Flume User Guide has wrong prop in Load Balancing Sink Selector,Docs,Major
+6d5ef28ecfa1c6141c7869facb70a53c7557fa8d,FLUME-1872,Bug,SpoolingDirectorySource doesn&apos;t delete tracker file when deletePolicy is &quot;immediate&quot;,None,Major
+ea5ac469ee31dafe0fb4d300afe9fc6774df278e,FLUME-1872,Bug,SpoolingDirectorySource doesn&apos;t delete tracker file when deletePolicy is &quot;immediate&quot;,None,Major
+f32e8cd4c529b1b334d8adf0282647eac3472294,FLUME-1847,Improvement,NPE in SourceConfiguration,None,Major
+a4c86933d5c148c5327c8f5d5a1912cc24a9c341,FLUME-1847,Improvement,NPE in SourceConfiguration,None,Major
+05e8ebc352b0f8f96747bd1046ac22caf09e1890,FLUME-1800,Improvement,Docs for spooling source durability changes,None,Major
+001d4860e16e690d8135f63bf864200c24b04ee8,FLUME-1800,Improvement,Docs for spooling source durability changes,None,Major
+d7b474c375d2531aee33570c6bb9ef7ccae5501b,FLUME-1878,Improvement,FileChannel replay should print status every 10000 events,None,Minor
+c1e3d5041b065f46cfc78a02ae835ed3711d7955,FLUME-1878,Improvement,FileChannel replay should print status every 10000 events,None,Minor
+e8cbcd43368e286f66b54cedf831591af754bef4,FLUME-1876,Improvement,Document hadoop dependency of FileChannel when used with EmbeddedAgent,None,Minor
+04b21c0b01b356c46b6381df9714ac96e45e188b,FLUME-1876,Improvement,Document hadoop dependency of FileChannel when used with EmbeddedAgent,None,Minor
+b7144d53c94b9719bd540b55dae97df110419ff1,FLUME-1852,Bug,Issues with EmbeddedAgentConfiguration,None,Major
+3df65e12c8d480cd46f190a0bb4addfee4272062,FLUME-1852,Bug,Issues with EmbeddedAgentConfiguration,None,Major
+244709b7187b67af1ec91eb3eb0f0173145cbf4b,FLUME-1854,Bug,Application class can deadlock if stopped immediately after start,None,Major
+d45af178e6f71bea4484fbb0e94d6449f88e0b86,FLUME-1854,Bug,Application class can deadlock if stopped immediately after start,None,Major
+90322322b15c45b2f650b18551c919241a69a8a5,FLUME-1870,Bug,Flume sends non-numeric values with type as float to Ganglia causing ganglia to crash,None,Major
+59c30364d8796a3806c8c2760682391d4eda1bae,FLUME-1870,Bug,Flume sends non-numeric values with type as float to Ganglia causing ganglia to crash,None,Major
+8fa29e3ee0969041b2b3f668d80fbe305729968d,FLUME-1865,Bug,Rename the Sequence File formatters to Serializer to be consistent with the rest of Flume,Sinks+Sources,Major
+f00492f211820ee5f386857c7000cfe3b3b39d3a,FLUME-1868,Bug,FlumeUserGuide mentions wrong FQCN for JSONHandler,Docs,Major
+c7a8ece37e443b54e2450815c4b3e03a011f3363,FLUME-1868,Bug,FlumeUserGuide mentions wrong FQCN for JSONHandler,Docs,Major
+352729ba740cd293fa5515cfc974e40dbea72bd4,FLUME-1869,Bug,Request to add &quot;HTTP&quot; source type to SourceType.java,Sinks+Sources,Major
+07f4516f2d7d703cf1f79bc47624576bf8de9af2,FLUME-1869,Bug,Request to add &quot;HTTP&quot; source type to SourceType.java,Sinks+Sources,Major
+747d614f8ceeeae89984338b0ac0580a100f7fe8,FLUME-1863,Bug,EmbeddedAgent pom must pull in file channel,None,Major
+d95748ca7aa151f8f31dc5cbe9d431e8cf3f9a1e,FLUME-1863,Bug,EmbeddedAgent pom must pull in file channel,None,Major
+011ff9571e15350d48bc61b68f89d6e0eec32a77,FLUME-1862,Bug,ElasticSearchSink test is flakey,None,Major
+4515117d56cff69accdf54ecbca0825ca6d71ab3,FLUME-1862,Bug,ElasticSearchSink test is flakey,None,Major
+90b5ed744c4544d42e9c13af8a7ecac451a44823,FLUME-1848,Improvement,HDFSDataStream logger is actually for a sequence file,None,Minor
+6d9ef1fd6c15748212b75daa628ae3a2a8654e30,FLUME-1848,Improvement,HDFSDataStream logger is actually for a sequence file,None,Minor
+f098440a8d2ccc3b56767e0192ba422ec89bab4c,FLUME-1855,Improvement,Sequence gen source should be able to stop after a fixed number of events,None,Minor
+960d7c4b053669d9eb7c24f032d55a2ff659820b,FLUME-1855,Improvement,Sequence gen source should be able to stop after a fixed number of events,None,Minor
+3e137a6419f93b3f02e08b8a9b4bc2c41f89aa53,FLUME-1842,Bug,AsyncHBaseSink timeout is not calculated correctly,None,Major
+11fada2026e34a704d9f710bdd24766c306d040c,FLUME-1842,Bug,AsyncHBaseSink timeout is not calculated correctly,None,Major
+f7e49c03197598a849cfa60dc089011059846b09,FLUME-1849,Bug,Embedded Agent doesn&apos;t shutdown supervisor,None,Major
+ab0894c7f014769a9b400e6b5cb2f5c055c6b065,FLUME-1849,Bug,Embedded Agent doesn&apos;t shutdown supervisor,None,Major
+11875237420eef3e47ad84e7998e2caff6fc2de6,FLUME-1844,Bug,HDFSEventSink should have option to use RawLocalFileSystem,None,Minor
+2561a23240a71ba20bf288c7c2cda88f443c2080,FLUME-2690,Sub-task,Update ChangeLog for 1.6 Release,None,Major
+30af6e90603d476aa058d2736c2ae154acff4af9,FLUME-2690,Sub-task,Update ChangeLog for 1.6 Release,None,Major
+1c02c779f039d4d90b751d118a74d13ec1de0af3,FLUME-2683,Sub-task,Update License file for 1.6 release,None,Major
+8e175a53e6592ae520fd33a4d599705cae018ee8,FLUME-2680,Bug,HBase-1 is java 7 only - revert hbase-1 commits from 1.6 branch ,None,Major
+d66fe65e3a153b4ea67b690c859d2395481464d9,FLUME-2679,Bug,Make hbase-1 the default profile,None,Major
+e2dbf5a92067281183ed6c9e721476afa38541ba,FLUME-2678,Bug,Upgrade xalan to 2.7.2 to take care of CVE-2014-0107 vulnerability,None,Major
+8ac759e0694b80b3cb3af74aadd5b6e4dba94f78,FLUME-2677,Sub-task,Update versions in 1.6.0 branch,None,Major
+6a64c3bdfc52826a38ce65ad0a270f485fdb09bd,FLUME-2658,Bug,Upgrade to Hbase 1.0,None,Major
+4451eddf7e638bf5e8bcd9b91358681fa86aca6e,FLUME-2673,Bug,Remove unused import in TestLog ,None,Major
+636cff349a0012c2fd56525d0a69eb5a95610ea4,FLUME-2670,Bug,Modify dependencies to not pull hadoop/hive related jars,None,Major
+dbf4828b89a36fda9434163f1835382e2f0c56ba,FLUME-2665,Bug,Update documentation for hdfs.closeTries based on FLUME-2586,Sinks+Sources,Major
+ ,FLUME-2586,Bug,HDFS Sink should have an option to try rename even if close fails,None,Major
+935f9ba7d2e683f73835a7cfc2c02dafde7669ff,FLUME-2148,Bug,Windows : Add  flume-env.ps1,Windows,Major
+2e272d2523d3f98ac0f50d6ff4ab509160a65a7e,FLUME-2668,Documentation,Document SecureThriftRpcClient/SecureRpcClientFactory in Flume Developer Guide,None,Major
+2006a57478c484639ab343bbbf18bfe796d56172,FLUME-2595,Bug,Add option to checkpoint on file channel shutdown,File Channel,Major
+2004b986bbf6e6b7969da584aa3b31550ddf8f79,FLUME-2645,Bug,ipFilter.rules property name is wrong ,Configuration,Major
+ab6d8bf98d993f303545bf85e680f2dafd98c8f5,FLUME-2635,Documentation,Documentation for zookeeper dynamic configuration in flume,Configuration,Minor
+09444b826a251d3fa4cbf9df4794394250aa4cde,FLUME-2664,Bug,Site profile fails due to dependency issues,None,Major
+f7345b87d404e42cce5c600207e06b5f0f7f26b1,FLUME-2649,Bug,Elasticsearch sink doesn&apos;t handle JSON fields correctly,Sinks+Sources,Major
+cc13102a3ba8cb54d2d2c322a5ef149876382f28,FLUME-2654,Bug,Memory channel error message related to byteCapacity needs refining,None,Minor
+04f384576c1a84677d11a693812def519ac57baa,FLUME-1934,Bug,Spoolingdir source exception when reading multiple   zero size files ,None,Major
+851f1744ace4ec78697945c801f43736f72fbca1,FLUME-2657,Bug,Upgrade to Hive 1.0,None,Major
+780663428c9d5515995aeec97b02128ccbe59281,FLUME-2624,Bug,Improve Hive Sink performance,Sinks+Sources,Major
+060d7473a5969aaabf1256867e86726d63315012,FLUME-2630,Documentation,Update documentation for Thrift Src/Sink SSL support and Kerberos support,Sinks+Sources,Major
+d0b7ceb615bec3606ae464a68ff7f173828fdafe,FLUME-2626,Bug,Remove trustmanager-type from Thrift RPC client,None,Major
+f8065ef7a35fa2cb3d5e01f76e00e6474e3c6b4c,FLUME-2642,Improvement,Limit kerberos relogin attempt ,None,Major
+8ccbb0b4b8767c87d680a5c6e5221f0ec280e88e,FLUME-2639,Bug,SecureThriftRpcClient client privileged calls throw IllegalAccessError,None,Major
+fa7ead55c34fe43aa4afd160ca40c61b5fb6be8d,FLUME-2570,New Feature,Add option to not pad date fields,Configuration,Major
+4e840400fa3854d1cfdf70fc4f9f850e20675d8b,FLUME-2633,Bug,Update Kite dependency to 1.0.0,Sinks+Sources,Major
+a52545871381ece4dc5db17cbc5b0e9536a757d3,FLUME-2214,Bug,FileChannelIntegrityTool needs documentation in user guide,File Channel,Major
+25013c48c6d78b02586da2063cc44883cb651a07,FLUME-2574,New Feature,SSL Support for Thrift Rpc,None,Major
+3e75dc58ae85101dcb166d99056c2f3e4523f002,FLUME-2592,Bug,Specify main manifest attribute in flume tools jar,None,Minor
+5dfd3d963762b23add165a9034c5ef93493d2bc7,FLUME-1734,New Feature,Create a Hive Sink based on the new Hive Streaming support,Sinks+Sources,Major
+d47ee46b0f76d61f15e153f159e19387da46cc85,FLUME-2443,Dependency upgrade,org.apache.hadoop.fs.FSDataOutputStream.sync() is deprecated in hadoop 2.4,Technical Debt,Major
+555d8b88da7ec44c8fbaea33964ded0cd7648fe2,FLUME-1334,Improvement,Write an startscript for flume agents on Windows,Windows,Major
+914106c0f12650a7b16ba565e2aaddaad3d95540,FLUME-2591,Improvement,Kite DatasetSink 2.0,Sinks+Sources,Major
+13a03003e7c1817d73451d3b6b1a58250c9469bd,FLUME-2586,Bug,HDFS Sink should have an option to try rename even if close fails,None,Major
+da294a164c27d400dc0b7bc6754c883a4eb5ed24,FLUME-2594,Bug,Close Async HBase Client if there are large number of consecutive timeouts,None,Major
+6e9d1082e44093265af9d8e16f00b725f66ec1dc,FLUME-2568,Bug,Additional fix for TestReliableSpoolingFileEventReader,None,Major
+3eae844f366f770979b7f0cbf4a396f09465f7e4,FLUME-2562,Improvement,Metrics for Flafka components,None,Major
+70ba4a97f11d8afd0f1d3f1eb31f7958ca808f29,FLUME-2578,Bug,Kafka source throws NPE if Kafka record has null key,None,Major
+159178aa6a38ecc116a504b9f09b8de667a25ba4,FLUME-2556,Bug,TestBucketPath.testDateFormatHours fails intermittently,None,Major
+c829d84b0fa63d63578be8aed157ac2e6b08ab06,FLUME-2558,Improvement,Update javadoc for StressSource,None,Minor
+5600b70a09558e84c487c6a8f9f926337ca6c163,FLUME-2488,Bug,TestElasticSearchRestClient fails on Oracle JDK 8,Sinks+Sources,Major
+d5c2cdac0a600355a8dd72b8c805e7dc3e5667be,FLUME-2557,Bug,DatasetSink doesn&apos;t work with Kerberos,Sinks+Sources,Major
+5a6adf8f2e70596024af276ebe2294e4e9b1f5e5,FLUME-2560,Bug,Kafka channel entries missing for output jar generation,None,Major
+4e50b16abed9dfb03b8b870083a05d3320bcd38e,FLUME-2246,Improvement,event body data size can make it configurable for logger sinker,Sinks+Sources,Minor
+6ad8adae6873869e7ef97ea5f1bb79c409055811,FLUME-2480,Bug,Typo in file channel exception: &quot;Usable space exhaused&quot;,File Channel,Trivial
+fdb51b2af879f9fb98ffe209068a95424f700e69,FLUME-2487,Bug,SyslogParser has rounding errors in timestamp parsing,Sinks+Sources,Major
+0b7568229082767259a165b6e29f418d880dec23,FLUME-1521,Improvement,Document the StressSource,Docs,Minor
+2c3ffe0342413e0faedc61b5f5fe17a1a9aeed1b,FLUME-1594,Documentation,Document JMX options,Configuration,Major
+98d1af611f7edcdc97d924ef2d389e286fa0ca42,FLUME-2509,Documentation,Add description for properties in Failover Sink Processor,Docs,Minor
+c53339c028b8d30cf42b208dc259cf61375bbfd5,FLUME-2538,Bug,TestResettableFileInputStream fails on JDK 8,None,Major
+fec1bbc7eba2de3d427449d633e84905513207ed,/,/,    Update CHANGELOG for 1.5.2,/,/
+229442aa6835ee0faa17e3034bcab42754c460f5,/,/,    Update CHANGELOG for 1.5.2,/,/
+4323b8dfdd064bcf7261a9fb16a3ad036deeceb3,/,/,    Update RELEASE-NOTES for 1.5.2,/,/
+80c899c6a1264702150d6a4d8ca22d3d81752163,/,/,    Update docs to 1.5.2,/,/
+08915f957da0593e717b149b4896bf047c9b7f5c,/,/,    Update pom.xml files to version 1.5.2,/,/
+3aceda6eb8f677e457e3322ac2fce9e2719a8c6d,FLUME-2549,Sub-task,Enable SSLv2Hello for HttpSource,None,Major
+2a59111090433a49ef2bad56219c4838277238dc,FLUME-2548,Sub-task,Enable SSLv2Hello for Avro Source and NettyAvroRpcClient,None,Major
+57356c748bd8fdbc73a24344277132cc3159f8c9,FLUME-2551,Improvement,Add dev-support to src tarball,None,Major
+d0a51440149f5c26d483c10203bd6a09752a7072,FLUME-2549,Sub-task,Enable SSLv2Hello for HttpSource,None,Major
+d90fa649d49190658e40f80659d1f555b3de047a,FLUME-2548,Sub-task,Enable SSLv2Hello for Avro Source and NettyAvroRpcClient,None,Major
+c1512241c0104daa80f58c6146ecb759ef6417da,FLUME-2385,Improvement,Flume spans log file with &quot;Spooling Directory Source runner has shutdown&quot; messages at INFO level,None,Minor
+dcc1ce066853a9594508f21a6bd0d7382a4c240e,FLUME-2497,Bug,TCP and UDP syslog sources parsing the timestamp incorrectly,None,Major
+4976f587a76c4d9b7acd291b73cd7a60427be130,FLUME-2505,Bug,Test added in FLUME-2502 is flaky,None,Major
+ ,FLUME-2502,Improvement,Spool source&apos;s directory listing is inefficient,Sinks+Sources,Major
+1905b9cb3c4716154722922ba731d9cfc5f9ffbc,/,/,    Preparing for Flume-1.5.1 Release,/,/
+c74804226bcee59823c0cbc09cdf803a3d9e6920,/,/,    Updating CHANGELOG for 1.5.1 release,/,/
+ab00f5c5d4ab8c3adccbc1ee296a18b2bfa412d3,FLUME-2533,Bug,HTTPS tests fail on Java 6,None,Major
+8229cc38a56a024859625dc1011b0333370c0617,FLUME-2441,Bug,Unit test TestHTTPSource.java failed with IBM JDK 1.7,Test,Minor
+a593cdd60fc1ab5d17c1988207a7e2f6549021ca,/,/,    Preparing for Flume-1.5.1 Release,/,/
+c2b953449d033acaa02e3ced1d9a95e9cdcb5e02,FLUME-2525,Bug,flume should handle a zero byte .flumespool-main.meta file for the spooldir source,Sinks+Sources,Major
+e9633c6c2080f49bc771bf9373e80ae4fc8b14e5,FLUME-2533,Bug,HTTPS tests fail on Java 6,None,Major
+ae2ded9ce6e112f8a423853e6781b1e02862ab3c,FLUME-2523,Task,Document Kafka channel,Docs,Major
+832594a293dd9f4fc3d45164215aa776bea2c1f9,FLUME-2500,Bug,Add a channel that uses Kafka ,None,Major
+0c1ff2fec6c3b815d54f056c629c8744736cccbb,FLUME-2517,Bug,Performance issue: SimpleDateFormat constructor takes 30% of HDFSEventSink.process(),Sinks+Sources,Major
+c6b3fce1749b1ea1d5ed7744b67b2bb54ae922f8,FLUME-2511,Improvement,Allow configuration of enabled protocols in Avro source and Rpc client,Sinks+Sources,Major
+312fbb2b1f2ef81ceb8e3b8efe3cc16c5eb3ea99,FLUME-2486,Bug,TestExecSource fails on some environments,None,Major
+02973a98a223c4b72126b6db3b1b6c1dbdc9239a,FLUME-2499,Improvement,Include Kafka Message Key in Event Header  Updated Comments ,Sinks+Sources,Minor
+25f331d0e1ede0408412eea014b17efa6d7bd24f,FLUME-2502,Improvement,Spool source&apos;s directory listing is inefficient,Sinks+Sources,Major
+150dbc519d0552ea94e1d6de2d1b455eae022155,FLUME-2482,Bug,Race condition in File Channels&apos; Log.removeOldLogs,File Channel,Major
+5093d98189a15e82b223597eb24491cbcb7340db,FLUME-2126,Bug,Problem in elasticsearch sink when the event body is a complex field,Sinks+Sources,Major
+ebde0dac57e0b3cd21319cfdddd4d482d0a9fffd,FLUME-2237,Improvement,Example config in User Guide to use same notation for Agent name,Docs,Minor
+ca86d4f6e8c3a575eff731e0f5f06de6894c0b84,FLUME-2475,Bug,toLowerCase/toUpperCase used without Locale parameter to manipulate Enum,None,Minor
+f6724dbafce2d9ae36bc76c1c7db1ebe2ac0753f,FLUME-2489,Bug,Upgrade Apache Curator to 2.6.0,Node,Minor
+e670cba3f7b4e58b6a4756829ec25de254d5b0cb,FLUME-2472,Bug,SyslogUtils fails when system locale is not English,Sinks+Sources,Minor
+a601c97a2376110b7fbe9a69f653a89f510cd333,FLUME-2346,Bug,idLogFileMap in Log can lose track of file ids,File Channel,Major
+6dbf51562e6c65ec8271b8b5ab44e5b0d269b1f8,FLUME-2466,Bug,Embedded agent name cannot contain spaces,None,Major
+6f3cb541c80b0fb3fe3faf445b52745a588d4993,FLUME-2495,Bug,Kafka Source may miss events when channel is not available,Sinks+Sources,Major
+99736f6eeded760069180693e94588d18eab0680,FLUME-2492,Bug,Flume&apos;s Kafka Source doesn&apos;t account time correctly,None,Major
+c0b3f70ed8b8bac26c5a0fc615e271f592f3b3e3,FLUME-2481,Bug,TestFileChannelEncryption fails with System locale other than en_US,None,Minor
+bd7acb49e13de3a0c8b41e3717f3252f149cb68d,FLUME-1501,Test,Flume Scribe Source needs unit tests.,None,Major
+89e0e53ee60840fc0a50bf62085b83384b754f9f,FLUME-2463,Improvement,Add support for Hive and HBase datasets to DatasetSink,None,Major
+709534a6514b5fe86890058ecaf94a8b6a6ff44a,FLUME-2469,Improvement,DatasetSink should load dataset when needed  not at startup,Sinks+Sources,Major
+94d8ea40a6e08b53ae04b3f056944b5a99cf66d2,FLUME-2470,Bug,Kafka Sink and Source must use camel case for all configs.,None,Major
+56c1b866213aeca3f57d7bbd46d9214e082182ae,FLUME-2470,Bug,Kafka Sink and Source must use camel case for all configs.,None,Major
+d8968a1f6af4067a406dc95912ea083bd3c366b2,FLUME-2455,Task,Documentation update for Kafka Sink,Sinks+Sources,Minor
+57d651105b4f72bcc7ea3ecd235b05bfa975c739,FLUME-2251,Sub-task,Add support for Kafka Sink,Sinks+Sources,Minor
+314688a116c6d1dc7eeef92f60d10ab95d142d4e,FLUME-2462,Improvement,Remove use of deprecated methods in DatasetSink,Sinks+Sources,Major
+e76583db5bda90ecb050761314d2264835070264,FLUME-2337,Bug,export JAVA_HOME in flume-env.sh.template and increase heap size,Shell,Major
+e296f0d7243f766442f8c57cb99bb12537def254,FLUME-1491,Improvement,Dynamic configuration from Zookeeper watcher,Configuration,Major
+c458a838ad3dc68946662050ee96353d36ee4e74,FLUME-2426,New Feature,Support interceptors in the Embedded Agent,None,Major
+49f8eb2a3825878a055858e47b73fb92fb40e692,FLUME-2420,Bug,HDFSEventSink#stop might throw ConcurrentModificationException,Sinks+Sources,Major
+c0364d0a9f89706ce05d310af5af61888d22ce6d,FLUME-2450,Bug,Improve replay index insertion speed.,None,Major
+42d8f95a89c180400abb665b421cf25f5cbc8380,FLUME-2425,Bug,FileChannel should trim data and checkpoint directories,None,Major
+5734a4ab5e1445c5c77c0277c1a22ca7addfdc9d,FLUME-2438,Bug,Make Syslog source message body configurable,None,Major
+adec93ee57ce456f01eaf3a20d221fe16abaaa03,FLUME-2439,Improvement,Update DatasetSink for Kite 0.15.0,Sinks+Sources,Major
+bb380a5f7695054216da94a72db1a3f8769668da,FLUME-1920,Improvement,Test case TestFileChannel fails when flume is built from paths containing the string &quot;hadoop&quot;,Test,Minor
+24962ef3b04f4f2496349d901721622cc9d01bdd,FLUME-2441,Bug,Unit test TestHTTPSource.java failed with IBM JDK 1.7,Test,Minor
+4a0c6c604c16403264435df2b386ca565ca9e781,FLUME-2432,Bug,Update Kite dependency to 0.15.0,Sinks+Sources,Major
+9b3a21836ad468403552fa32234acb763ef15208,FLUME-2431,New Feature,Add simple regex search-and-replace interceptor,None,Major
+1c6775c56d5b88d29ee238d2dc9c5127c5880bf7,FLUME-1793,Bug,Unit test TestElasticSearchLogStashEventSerializer fails with IBM JDK,Test,Minor
+266f48b5fa77604ac36a0be4588863ba16b2d666,FLUME-2401,Improvement,Optionally Compress Backup Checkpoint,File Channel,Minor
+20744dcf6bc14893e89acf1dd44f5208f74e5395,FLUME-2404,Bug,Default maxReadBufferBytes might cause OOM and cause scribe source exit,Sinks+Sources,Major
+4c5b602c5d65b66d2870dd5567d20c167e41dbaf,FLUME-2408,Bug,Remove FLUME-1899 from Flume 1.5.0 change log.,None,Major
+ ,FLUME-1899,Improvement,Make SpoolDir work with Sub-Directories,Sinks+Sources,Minor
+a7f0306919c1c7a80c7e0b586a93840cf9c0ec8e,FLUME-2024,Bug,Add ExecSource flush timeout to Flume User Guide,None,Major
+e3a318a20a5883aee4ba72d4d4dda43546e67490,FLUME-2399,Bug,Flume 1.5.0.1 release,None,Major
+658f7b4b1b3ec4718c757e35e4694d091caab515,FLUME-2359,Sub-task,TestFileChannelIntegrityTool throws exception on class teardown on Windows,Test,Major
+ ,FLUME-2400,Bug,Dataset Sink is not built in hbase-98 profile,None,Major
+ca671b2cb9ab6c8055224ffd0ed2ff0eaef3903d,FLUME-2400,Bug,Dataset Sink is not built in hbase-98 profile,None,Major
+9cb7ed36823dd22b4359c7c38720c48aa6498711,FLUME-2399,Bug,Flume 1.5.0.1 release,None,Major
+ba439111b4102e95d7417d9e7a46a9177a58973a,FLUME-2359,Sub-task,TestFileChannelIntegrityTool throws exception on class teardown on Windows,Test,Major
+ ,FLUME-2400,Bug,Dataset Sink is not built in hbase-98 profile,None,Major
+49d29b55578e106f6d7774793518ca6ecd330660,FLUME-2400,Bug,Dataset Sink is not built in hbase-98 profile,None,Major
+27d1bfa4bca4ead58a46071f022e5f3262215ce4,FLUME-2399,Bug,Flume 1.5.0.1 release,None,Major
+3f72258e90ac53e695bd0fc2295ed2cd6206ce93,/,/,    Updating RELEASE-NOTES for Flume 1.5.0.1,/,/
+c0477b5bd5214668654c81d5b43e46e1f810fa0f,FLUME-2399,Bug,Flume 1.5.0.1 release,None,Major
+34c92a810ea57330fffe0c1effca37141224d5ec,FLUME-2397,Bug,HBase-98 compatibility,None,Blocker
+6dd12343322cf73acddee7c0c4b73e9b94f44ccc,FLUME-2245,Bug,HDFS files with errors unable to close,None,Major
+e62d227415ef271ab804554ea7b62fa3e52aee65,/,/,    Restore correct Asynchbase version,/,/

@@ -1,0 +1,1524 @@
+23182b9ec3ff2a3a3e61c30bad4fc78a30a999c9,/,/,    Pages with only STATUS_DB_GONE were unaccounted for  which caused an NPE.,/,/
+b0c8b61b404328de415f57fe468d7d03eb5cae87,NUTCH-244,Bug,Inconsistent handling of property values boundaries / unable to set db.max.outlinks.per.page to infinite,None,Major
+2ea95cd34ae2ef1bc173fcf3f7142b5cd3ed7401,/,/,    Fix protocol-level redirect code. Patch by Dennis Kubes.,/,/
+0707f4ec39d1af44cfa16f5a276914723dd882b8,/,/,    SelectorInverseMapper needs to implement Mapper  otherwise things break.,/,/
+0d585c5d2878932019f08f76485741463a683dc9,/,/,    Correct javadoc.,/,/
+5c6b4762fe37fb558c14079a7e93741d2fd062bf,/,/,    Ignore Eclipse .settings file.,/,/
+728eeda5481eda68f79f4752a23e5b8469abacb5,/,/,    Use a separate float value for sorting and selecting topN records.,/,/
+ ,NUTCH-240,Improvement,Scoring API: extension point  scoring filters and an OPIC plugin,None,Major
+2730c37ffee8a23aa8e1cf9432d4553bf0535c2d,/,/,    Remove CC license from templates.  Also remove some old links to nutch.org.,/,/
+c73910edd33196e2602fb883fd9aad68ef5b4182,/,/,    no more dump parse-mspowerpoint unit test result to a file for visual checks,/,/
+dd01808de3aa42e180261fec7530f3570eb8fb7a,/,/,    Forgot to properly initialize the score.,/,/
+30997e890ca75e61dd586ea14a3fe93b58cb1e4a,/,/,    Make sure we use new values for score  metadata  fetch interval,/,/
+027c5313bab0f3e82f910129eb48199041fa2a5c,/,/,    Add a -topN option to the reader. This collects the indicated number of,/,/
+0c10d8be5c8ef28c9fade453e93b03d9b413533e,/,/,    Update to Hadoop 0.1.0 release.,/,/
+f5464800e5827c89265e74056fe75d4e1b256c3e,/,/,    Nutch 0.7.2 release.,/,/
+1ec2b4554ed831f69a99b52694573bc096b1ae2b,/,/,    0.7.2 news added,/,/
+ba372da378d8b7067e5799445c5023f4f07d2937,/,/,    Add a common Pluggable interface to all Extension Points and a package description for plugin,/,/
+cccaaeac5c614101973b7b9dd58827dcd579d88e,/,/,    Add query-basic plugin to javadoc,/,/
+b274942cc27cef60b898f87b3a01e1eba3acbeff,/,/,    Fix a bug where TagSoup would sometimes submit invalid index values.,/,/
+7280aa5f13e3c21325b17e81922a340c60f93adb,/,/,    Add some plugins groups in the javadoc,/,/
+292902a434fac911894b578ba8f5eb41fbb7abc0,/,/,    Updated version numbers for 0.7.2 release,/,/
+3fb3f84e62a3bbb536ba0a85ee0dc0347f2227e4,/,/,    DmozParser package name fixed,/,/
+08438d51db849e84db78307ad9b8751397993f77,/,/,    Refactor some plugins packages:,/,/
+9f3c43b3a06488e5e7dca0e999473456bde6c882,/,/,    parse-rss now depends on new lib-xml plugin,/,/
+dd91a83c884a954bd82de7dddededa5a83f320a1,NUTCH-196,Improvement,lib-xml and lib-log4j plugins,None,Major
+2f4619faa12117faffe3c14062bceb45ff665b21,/,/,    main method added to RSSParser,/,/
+f3797052388c19399959d63d90273a4d94899f7e,/,/,    Fix a bug when there are spaces in CWD  as is common on Windows.,/,/
+0558afd94ec7883f20361364a513be2c6758d17e,NUTCH-210,Improvement,Context.xml file for Nutch web application,web gui,Minor
+2a9b49f94f9551acb6760af0c2e2d829e2534580,NUTCH-232,Bug,Search.jsp has multiple search forms creating invalid html / incorrect focus function,web gui,Major
+11919af89da5b49d19b91c52b9e038eea33e4ec2,NUTCH-210,Improvement,Context.xml file for Nutch web application,web gui,Minor
+135861abc47d86841edf9f95a5c53eefce39573b,NUTCH-231,Bug,Invalid CSS entries,web gui,Major
+3577e7a47d7bff975f73e9245564684484058b05,NUTCH-231,Bug,Invalid CSS entries,web gui,Major
+1f2af77496abc0879e09e7adf52ee1b8472736d4,NUTCH-210,Improvement,Context.xml file for Nutch web application,web gui,Minor
+459f74df3bbacacead9753194c944387e8359062,NUTCH-117,Bug,Crawl crashes with java.io.IOException: already exists: C:\nutch\crawl.intranet\oct18\db\webdb.new\pagesByURL,None,Critical
+50f738bf48d6db778cfb349ed2e8c6af0ac99906,NUTCH-239,Improvement,I changed httpclient to use javax.net.ssl instead of com.sun.net.ssl,fetcher,Trivial
+5a326cd4e94820cdcae586074bba8f78f12d82f1,/,/,    Skipping post and nofollow outlinks,/,/
+7d9727f031d8c5d0d0aa91455b9de9e8184319d7,/,/,    Upgrade to latest Hadoop jar.  Add job names to Nutch mapred jobs.  Update OutputFormat implementations to implement new checkOutputSpecs() method.,/,/
+5d4e8511c72b3e8b6f7b860406477cce8f748bac,/,/,    Add a toString method to Metadata,/,/
+58d355cfa035ae850682efe9019d070d1dae827d,/,/,    Set the configuration of the parser used in the main method to fix NPEs,/,/
+37c5ffe04361630c20e287b93f741a0af22e0cb5,/,/,    Add some missing runtime dependencies,/,/
+6de6a15db9372c7e6e120a854c3bcd11cd39d6b3,/,/,    Add an automaton urlfilter rules template,/,/
+8d211bd5637fb1065dab086d6b0565a07124b39b,/,/,    Add lib-regex-filter and urlfilter-automaton to the list of javadoc packages.,/,/
+b9274d5107384abe44133d8833b72ec021cb6243,/,/,    Add an urlfilter based on dk.brics.automaton.,/,/
+2448f558bfbfb3cfcbe93536b407fede2d0e7468,/,/,    urlfilter-regex now use the lib-regex-filter framework.,/,/
+ed09a6b69dcac0f591f778beda1b696f2fcaf09f,/,/,    Add a mini framework plugin for regex url filter plugins.,/,/
+59172d13cf8d69a0cdf825314bd434c56162074c,NUTCH-234,Test,Clustering extension code cleanups and a real JUnit test case for the current implementation.,None,Minor
+928d6739bd7489aedf4efb76d43c33d4168315ca,NUTCH-235,Bug,Duplicate Inlink values,None,Major
+a8d4bbb2b4c18bfb9faa5b0dcb8598017d8d43df,/,/,    Upgrade to current Hadoop.,/,/
+1f1ecb0de9a472d9d090d0daad25ec4171fa947f,/,/,    Document new option "db.score.count.filtered".,/,/
+a75c525658758134920e8dadd38c9287951d19b3,NUTCH-230,Improvement,OPIC score for outlinks should be based on # of valid links  not total # of links.,None,Minor
+88420bc2f65c9cb612b3b0cc6b141093b8d15c93,/,/,    commons-httpclient upgraded to version 3.0,/,/
+3e305c55d3a562b1fadbc441f3ccfb45346e1f96,/,/,    Updated link to jira.,/,/
+c234bd42b2d50a59bdb1bb3e9207519519ad7801,/,/,    Fix NPE if lang is null,/,/
+340c8a05f04da63f577b74d60347a5ac75650fcc,/,/,    Print out the full path of plugins directory. Allow using plugins,/,/
+ ,NUTCH-229,Improvement,improved handling of plugin folder configuration,None,Critical
+423617841a161a2564dbaffe3fcd55f773f62744,/,/,    Reactivate usage of AnalyzerFactory,/,/
+f7d46b34c9424f412956e9d5952ed2b2bafd9234,/,/,    Fix milliseconds dumped by cluster.jsp (Dawid Weiss),/,/
+449ae6a2af59f6ea889996ce5aeee365d34d66ba,NUTCH-228,Bug,Clustering plugin descriptor broken (fix included),None,Minor
+ea9eb16576ed00871e573907e2592d960500f32e,/,/,    Lucene upgraded to 1.9.1,/,/
+a76613ca7a387a6a5ac6cd187556d4759d90ca14,/,/,    Upgrade to latest hadoop jar.,/,/
+a5260d999ff537b85d17b5310bce0f060204c2f3,/,/,    Add boost configuration param for RawFieldQueryFilters,/,/
+9fd371ca329e1baee2e4a3b3e8558fd71f216679,NUTCH-91,Bug,empty encoding causes exception,None,Major
+9e157fde7ebd4ba85cddb6c1a5f79a8bd91b3470,NUTCH-91,Bug,empty encoding causes exception,None,Major
+2676f5f27b5b1edf021b3343bb1ce2b61d613adb,/,/,    Added DOAP file.,/,/
+14c119d8db79e2ccb78006b648033d6aad708cb0,/,/,    Added tutorial for version 0.8,/,/
+421062d61e77f9cee11e21e9a0ee487990e871fb,/,/,    Don't generate URLs that don't pass URLFilters.,/,/
+af9f6865452c7fc3178955aef3e3475c9717dbc6,/,/,    Servlets are initialized by a servlet container through no-args init().,/,/
+c8d9b5816c094b90ba2700d7dab52464318867a2,/,/,    No-arg constructors are required for RPC. Allow the RPC Server to set,/,/
+ea4da6200b79a1c62ebc3b9c8fb2e452f3fcb31b,/,/,    Cache instances of ParsePluginList.,/,/
+6b8b7add2863045589e100f6c8d8550a0eb98da4,/,/,    Upgrade to latest version of Hadoop.,/,/
+ade5c35932483a92d86a15ac3aeb6a0f18f756bd,/,/,    Commiting site rebuilt with forrest 0.7,/,/
+dedac6457c9b875812898c0a7664805ddaa43e84,/,/,    Added mailing list archives and forrest 0.7 compatibility,/,/
+762adc4ad52c13bda023835966bca769f95305ee,NUTCH-221,Task,prepare nutch for upcoming lucene 2.0,None,Minor
+8f4ebf0b9a0e86269db6322538e02f44e73480f9,/,/,    Plugins now assumes that the core is already builded when building nutch,/,/
+ee1a59a3c1b8ca6ab1de0b965ce413852c751461,/,/,    Change the way multi-valued fields are displayed in HitDetails,/,/
+7de262d1b084ebdc77f28f3824e1623464ff4b08,/,/,    Add a microformats rel-tag parser/indexer/searcher plugin (a la technorati),/,/
+8214b7ffc44adfe8ec77a727bd8bb35b4ab13623,/,/,    Upgrade hadoop to latest version with some important mapred bug fixes.,/,/
+aa84ab48dd36684f1fc987471af246eb9c9c33ad,/,/,    Undo unintentional changes made in r381751.  Thanks  Jerome  for catching this!,/,/
+d2397b177c96be0454bcc2276037388d9b43dbdd,/,/,    Disable speculative execution  since input format has side effects.,/,/
+063a250741ecaebc4b3fa7a14d971d95ea29431d,/,/,    Update to latest Hadoop code.,/,/
+ce45896b42e1a13f788461439a9cb3b197a4ec27,/,/,    Fix content.limit inconsistency in http  ftp and file,/,/
+ab88754c0f1041fb2a8fb52802f2bfedf4693523,/,/,    Upgrade to Lucene 1.9.1.,/,/
+269efcc8de8d9f2ceb7725eb59ea951312f0a249,/,/,    Updating hadoop jar.  Includes fixes for Windows.,/,/
+a8a7c5092359d2adca2232fcc36748b93ff2de7a,/,/,    Adding DOAP for Nutch.  Contributed by Chris Mattmann.,/,/
+48ba8d069e105dea79186060a77017a71e79326e,/,/,    Upgrade lucene version to final release.,/,/
+8be6b8c3aa20cc2e95952bc6bd277e08146d9828,/,/,    Remove fake src folder in nutch-extensionpoints and add an empty compile target in its build.xml,/,/
+9c197fabc257159b8e9abb1225a9908132f09ad2,NUTCH-204,Improvement,multiple field values in HitDetails,None,Major
+cb085c13d5abaec6c55d9422cc03b68d283210e6,/,/,    Update hadoop jar  to get recent fixes from that project.,/,/
+7f8505ae3ec8b356a14426005b944304be51e95e,/,/,    Fix to not use 'exec'  but rather 'untar' and 'chmod' which are more portable.,/,/
+29541bb7af3a56b5ce61557f094f258633d9655b,/,/,    Set the configuration early - updateSegments() needs it.,/,/
+ce84f6549fe1e4892ed80272baf53d8375946a4f,/,/,    Modify the cmd-line so that it's possible to perform incremental,/,/
+212c4a127d1e5d1abbe654082c9e166817c73b79,/,/,    Add fr help page,/,/
+43bdb68b45057311d48faf2a6ecbed1416d87335,/,/,    Add it locale (Adriano Palombo),/,/
+d6bfd852b5c66213ee7ad6e378c3572a6ba99aa7,/,/,    Regenerate docs due to sr and sh addition,/,/
+0d08e885cfa90583172a03dcc1cdf1e92b2f9f0d,NUTCH-214,Improvement,Added Links to web site to search mailling list,None,Minor
+1fdab8292b7e0acf2f83adec49ec7b4369a771d7,NUTCH-140,Improvement,Add alias capability in parse-plugins.xml file that allows mimeType-&gt;extensionId mapping,fetcher,Minor
+1c21856c34d4fd24d105cbb06eb80fe05ef4873a,/,/,    Remove dependency on internal Sun classes. This is required to run,/,/
+8b4cd29a23eb209b0b1973d1d035bbd248c0c5c1,/,/,    Adapts parse-mp3 to nutch APIs changes (metadata  parse  protocol  ...),/,/
+a84715ac8886310017f0358f07761a82c80d481c,/,/,    Review plugins building and testing,/,/
+998778cdf98335caa88ce27226a1779312e958ab,/,/,    Adapt parse-rtf to nutch APIs changes (metadata  parse  protocol  ...),/,/
+a62d657b81c35e2d1e744754c0630e6316d1dc84,/,/,    Fixed JUnit test failing due to changes in www.nutch.org.,/,/
+9d6a3f1b808a8778f18c53e0a3e8120d1aac104a,/,/,    Fixed JUnit test failing due to changes in www.nutch.org.,/,/
+6a49038d774a76e44d97f3c02c08609e8bdfc6ca,NUTCH-211,Bug,FetchedSegments leave readers open,None,Critical
+da567c7710dad97e8b3bec4e3ac92e8e557c6243,/,/,    Fix to work with Forrest 0.7  where ext: links seem to no longer work,/,/
+c4d33fdf9ae898967b891e7bb2e311d7357f011e,/,/,    add lib-nekohtml to deploy and clean and force the lib plugins to be builded first,/,/
+261c717d5b810f2f995b3e8f6e0db2864a5c32d9,NUTCH-196,Improvement,lib-xml and lib-log4j plugins,None,Major
+ac38449f574ed4b4160da088bf3d25425042b107,NUTCH-196,Improvement,lib-xml and lib-log4j plugins,None,Major
+49b38982349b4b9d69c7d46115149e48535030d1,/,/,    remove the unused httpclient library declaration,/,/
+5c494e64decc84cc15f48fa6602d2238cd809149,NUTCH-196,Improvement,lib-xml and lib-log4j plugins,None,Major
+8d950b794f72ec15581f7d712d2b5bb76cadb533,/,/,    Ignore logs directory.,/,/
+3f03b45c4f57765938d88538a3741feb103f804b,/,/,    Fix Fetcher to disable speculative exexution  to keep it polite.  Also upgrade to latest hadoop jar that supports this  feature.  Note that Hadoop's environment specification has changed  with all environment variables settable from conf/hadoop-env.sh  and the slaves file is now in conf/  rather than in one's home directory.,/,/
+fb440bc3f5e7c3433f7ee57363058a560587ab8a,/,/,    Upgrade to latest version of Hadoop.,/,/
+5889cf4a50160196cc70002e38557dcf034c4c4d,/,/,    Add a log4j library plugin (lib-log4j),/,/
+82f27ac28668b2eee9f3462116408911c0d6f79c,/,/,    fixed url,/,/
+112323e3111198587ee8b398f2a07b0ae1156861,NUTCH-188,Improvement,Add searchable mailing list links to http://lucene.apache.org/nutch/mailing_lists.html,None,Trivial
+a17a3c0bed2a4b38cc5eb8223335753f01b5ad75,/,/,    Javadoc updates for ms parsers,/,/
+207b1e555016d03dcf773a3677eeb538a0187a8d,/,/,    Make use of lib-parsems in word  powerpoint and excel parsers,/,/
+f030d33350b514b86dcafe57231c7b893c49ca05,/,/,    Add a mini framework for microsoft documents parsing,/,/
+c1fcc22f319ec83407b9d43752836c0b810ae9aa,/,/,    Fix parse-msexcel unit tests,/,/
+6b630462e73129f397b1f43301a2aa9001d60ed8,/,/,    Update Hadoop jar.,/,/
+03c9421b025638bbc4da61f804521523ecfbaae6,/,/,    Add a template for hadoop-site.xml  and the stylesheet for config files.,/,/
+87b79e0fb261765d494cf15ba9803617d3147c88,/,/,    Unpack Hadoop webapps from jar so that they can be used.,/,/
+712191fb5392773d0710ae2087836f39459f30b5,NUTCH-52,Improvement,Parser plugin for MS Excel files,fetcher,Trivial
+c5fc4f3a80b11319288df28ae9a2e41a4a604f99,/,/,    Remove no more used POI libs,/,/
+6441dde2d93b28423d7fd8930f36d0d1874389b9,/,/,    Change Jakarta POI version to 3.0-alpha1,/,/
+6e1b7e5d8e4077b5fa9df0456a71fa40ad959c0f,/,/,    Ensure signature added in content metadata,/,/
+5f7bbe467f6b34e2291e7a820783fd29bd82557b,/,/,    Add metadata to CrawlDatum. Contributed by Stefan Groschupf in,/,/
+ ,NUTCH-192,Improvement,meta data support for CrawlDatum,None,Major
+d6b9755fa599b0036210b38d4a36fe97c7fb106c,NUTCH-209,Improvement,include nutch jar in mapred jobs,None,Minor
+fd671323313228523c9c04fa60e6e9adb167197a,/,/,    Ensure ParseData content metadata contains segment name and score,/,/
+72954c64209f0eba5eb01cb995e5c6e1eb32ce04,/,/,    Updating to latest Hadoop jar  adding now-required close() methods to mapper and reducer implementations.,/,/
+81d840ca7f5e9127b2bf7846a3a81d85dc2869ce,/,/,    - svn:ignore .classpath and .project,/,/
+21907ab55f679c6b31f06d41358df3eeebe9629f,/,/,    Add a default constructor to avoid failure when JobConf tries to instanciate ParseSegment on parse command.,/,/
+085acccad98278fd1187f24be59822f07671e4ad,NUTCH-139,Improvement,Standard metadata property names in the ParseData metadata,fetcher,Minor
+c31ac83e6e365b73292799d4431c0455691fd746,/,/,    Restore accidentally removed file defaults.,/,/
+b1038447b54d43786d282236864f80fa1a814f44,/,/,    Add/Move some plugins javadoc to the Plugins group,/,/
+9e5e87e8392d483c32ea23c444b81deea0b64d91,/,/,    Fix some javadoc errors and warnings,/,/
+eafb6c6197676cdeef15fdc4177917caddfe8be7,/,/,    Add link to Hadoop javadoc and proxy support in javadoc,/,/
+ad5df4a71c0f869bfcb8325766284ab3012d49f9,/,/,    Fix some javadoc issues with lib-http plugin,/,/
+3e1f4329b99a3e783986094dfc175ddb7ee9b52b,/,/,    Restoring jetty to Nutch lib: removed by mistake.,/,/
+2577e4a0586c972cc2b43e3a98b3d0ac347a8466,/,/,    Extract Hadoop's scripts from Hadoop's jar into bin/ directory.,/,/
+baf16551558b0445c106a7a172f2ac58e7437197,/,/,    git-svn-id: https://svn.apache.org/repos/asf/lucene/nutch/trunk@375401 13f79535-47bb-0310-9956-ffa450edef68,/,/
+bfc0e97d96c78e085fc96113e3c365d0ef8019fc,/,/,    javaswf lib rebuilded with jdk 1.4 and containing only core,/,/
+ff5a122af20bbcafa8b770fbc72113c4a17e4da2,/,/,    fixed urls,/,/
+9fa77f7dcd08a3f7344b9119d0ea378da08e425f,NUTCH-81,Bug,Webapp only works when deployed in root,web gui,Major
+0bea9ef47a6efe2ab768b0dd67d249d59c4bf637,NUTCH-200,Bug,OpenSearch Servlet ist broken,web gui,Major
+3878d00f508d3f03c2bb1350a04e18198e7418c1,/,/,    fixes for hadoop split,/,/
+21057e3bf3c8eea148b1ec4839b196813e3f5b13,/,/,    Remove Hadoop config files and update to latest Hadoop jar.,/,/
+0bec3a1e535904605789c5f66b6f4c53fb0294eb,/,/,    Add aliases for some Writable classes for back-compatibility.,/,/
+105207a94a66cd59b0611c539daa361de03ac9f6,/,/,    removed unused imports,/,/
+fd301367725283c4e2b3913247a95068a6ceba9d,/,/,    add hadoop jar to war,/,/
+cb5b7140331855c2857321a0b40d017e675c0944,/,/,    removed unused imports,/,/
+f5c146f70738528cf3000c052df8bd499e8cad6d,/,/,    removed unused imports,/,/
+fe94449ae527c9a3e9d85436c8a3cbe62017cc98,/,/,    fixes for hadoop split,/,/
+d8d6c248d0c4a9a5b675ef6c2121a000e573a8c0,/,/,    Remove vestiges of mapred's webapp.,/,/
+7714edcdaff39543ffd3a145ac58d021fe1157c5,/,/,    Removing unused directory.,/,/
+25437bc825d50715dcc9a289a1b4c8fbbc6aced1,NUTCH-193,Task,move NDFS and MapReduce to a separate project,None,Major
+e0093e6e09eb03d23785502befec066dc008ae24,/,/,    removed unused imports,/,/
+1d47935e78072239bffc39c9436ade75f8e273b6,/,/,    removed unused imports,/,/
+62bf2c2e5c2f3be04e47af5213cb6cd180e95ab4,/,/,    removed unused imports,/,/
+9ebadfc2306d7c2d86b6ae05b1feeda1be1529dc,NUTCH-178,Improvement,in search.jsp must be session creation &quot;false&quot;,web gui,Trivial
+d211867992e34d25293570bf2a7f3509607e590a,NUTCH-81,Bug,Webapp only works when deployed in root,web gui,Major
+e54db4ff45f39d3b46da83212796232d6b98f810,/,/,    Encode the query on links in UTF-8.,/,/
+d6e2d0cb3a175f395bf576ef8e074a854bf92434,/,/,    Add a parse plugin for SWF (Macromedia Flash) files.,/,/
+b6b05637e2124152b77917985734bfa9e3305af9,/,/,      New MapReduce JobTracker internals.  This fixes,/,/
+ ,NUTCH-183
+ddcdad641a90c01eab6471efa623efe36d6c7a51,/,/,    Add functionality to run individual classes in plugins.,/,/
+9d4c8e1b90d0431b446b6573cde131c2c9e86c35,NUTCH-197,Bug,NullPointerException in TaskRunner if application jar does not have &quot;lib&quot; directory,None,Minor
+e0dffdcf520475f4a7d24e8ea0b0cf24c29eb6f3,NUTCH-194,Bug,Nutch-169 introduced two tiny bugs,None,Blocker
+c7b228c24bdb98142bfb22b9c82c0cbb44ca7fdd,/,/,    added some profiles ee  is  no  th  resubmitted all as some profiles did have faulty encoding,/,/
+899eeb7c31dc968d52eb4ee1307217340c277fdc,/,/,    added some profiles ee  is  no  th  resubmitted all as some profiles did have faulty encoding,/,/
+329ff64e9d7295aff108f85e9a8103f5e5f8f398,NUTCH-169,Improvement,remove static NutchConf,None,Critical
+ab2ab7d6b02438a81cd1eb54fdedbe7d8222108b,/,/,    Cache the Signature implementation in the current NutchConf instance.,/,/
+91faa2009c547b7165d42274560dd4fa0374a99a,/,/,    Explicitly specify bash  since this script requires some bash-specific features.,/,/
+7ab2f64165224219f1b9c864893f7bd9b5856b3f,NUTCH-190,Bug,ParseUtil drops reason for failed parse,fetcher,Minor
+2582191cd2e82f9cab2fc9eabe9a28ee4442d64a,NUTCH-45,Improvement,Log corrupt segments in SegmentMergeTool,None,Trivial
+8ed51d22d7b98c6be6369dc5af062e6ebf1eae08,/,/,    Move excessive logging to Level.FINE.,/,/
+a25d1b5d4314c6647dedd1f5a0fbe62270a922ad,/,/,    Document a few more properties.  Contributed by Dominik Friedrich.,/,/
+312ceab3183fb004f4e7e491bb5b56b8c542f27d,/,/,    Switch default to protocol-http  since it seems more reliable than protocol-httpclient.,/,/
+60ffdbbe57ec4863562cc2d88eac3349156aef3f,NUTCH-102,Bug,jobtracker does not start when webapps is in src,None,Minor
+291c66e79470ce2f42d89f6821b5cd41c646c1b9,/,/,    Only set parse properties if we are actually parsing.,/,/
+f8ce08fbea589999983ef230615c5ef13bf66361,/,/,    Add a style for summary highlight and ellipsis,/,/
+8199e747522a6d9e2824f06f7075e599ca7c01ad,/,/,    Make sure we always have the segment name and score values in,/,/
+682a326efdf8fecabfe684dbdf656faabcb4bdea,NUTCH-151,Bug,CommandRunner can hang after the main thread exec is finished and has inefficient busy loop,indexer,Major
+bdab7a0ac93ea7b9f801b42d54d1720c10df7e8d,/,/,    HTMLMetaProcessor now retrieves name  http-equiv and content attributes whatever their case,/,/
+15a31132847757a5c67b9ff9af3dfb8003395e27,NUTCH-160,Improvement,Use standard Java Regex library rather than org.apache.oro.text.regex,None,Major
+443b6e1d602b68ce74dbeec8230046d670be7d55,/,/,    Fix parallel RPC calls to work correctly with methods that return void.,/,/
+a21913be924ec79db1e0717738e586e83d6b8d00,/,/,    Remove deployment of analysis plugins (under dev),/,/
+1af59b89ee343955baeb885b5cdfdd331c2431e5,/,/,    Replace the custom metadata serialization with the one provided by the,/,/
+ea20d5be7a5b576a8ea3680d98f4450be69d9bd9,/,/,    First pass for removing deplicated code between protocol-http and protocol-httpclient plusing.,/,/
+b796daa9f99bc3f660566747a693208c83319517,NUTCH-150,Bug,OutlinkExtractor extremely slow on some non-plain text,None,Minor
+b4a1cd9b02f383ea93fb207293bb567d6eb12222,NUTCH-151,Bug,CommandRunner can hang after the main thread exec is finished and has inefficient busy loop,indexer,Major
+6cb57cb3bb602722837f75373cbd5b5cd0ea616c,/,/,    Make it clearer why this optimization is valid.  For Stefan.,/,/
+f2b977b670aefff850597e68d964d33a738ac57d,/,/,    Fix a bug in LimitedCollector.,/,/
+9669fa70b378d9c87dee6e1ca1cc2704e13e371d,NUTCH-131,Bug,Non-documented variable: mapred.child.heap.size,None,Major
+f3f08f3c3a9a8c0e049a8c37b3d38ef7377f5069,NUTCH-108,Bug,tasktracker crashs when reconnecting to a new jobtracker.,None,Critical
+d4778aa03495a1bf056716d53559e2265ae85e69,/,/,    Fix NegativeArraySizeException.,/,/
+80de699678cc3b19c3657692c60583a9260b7bd4,NUTCH-142,Improvement,NutchConf should use the thread context classloader,None,Major
+4330eef160c9e5e48c89153f7cce90631c8e5c75,/,/,    Update Commons HTTPClient to v. 3.0.,/,/
+1e9b9fdd39d33b33430ef606b4ab4faee9a03ca3,/,/,    Fixed an NPE  in case of a fetch error we don't have a score value,/,/
+dc37909510ee8fb18e97f5d42d925670b144cb12,/,/,    Add index sorter & ability to stop searching after N hits.,/,/
+f10cc3fc75f450f39ec2f5183e2177dd221b9e2d,/,/,    Revert unintended commit.,/,/
+a8765eb6a18493ce464caa22998ebe06d9b8cf50,/,/,    New version of Lucene that includes TopDocCollector.,/,/
+37d3a9764c7da33c96657e83c3978f191ecdf603,/,/,    Fixed JUnit tests after trunk cleanup.,/,/
+b7f45e64fd7fec3ba29c0876196f7d36f960bb66,/,/,    Fix divide by zero error in DeleteDuplicates.java.,/,/
+46295b22a4184301a1b16c33fe2aae78b1a76ae7,/,/,    Not needed anymore.,/,/
+a0c57403359e34039a589596fdeadbc6ef105215,NUTCH-142,Improvement,NutchConf should use the thread context classloader,None,Major
+90a8c7aed5fa2b715c0be559e414b689e17f8d81,/,/,    Fix incorrect package declaration.,/,/
+c4fd3dee5c9219b88488c5a9c2736ad84d4c3860,/,/,    Fix this - the Fetcher API has changed.,/,/
+b11775690d5c4741e719fd9bfa4da799e3db52a0,/,/,    A framework for using different page signature implementations. Ordinary,/,/
+ ,NUTCH-121,Improvement,SegmentReader for mapred,None,Major
+b8bd3f133b29d794833bdcffc1bfd0d41d421066,/,/,    Mega-cleanup patch:,/,/
+6555ac6fc4c79b3c1bfe62f7cdb407d465586eb0,/,/,    Remove traces of the old API FetcherOutput.,/,/
+ae2106328d87574bb52b5113de4f99df1c2faeb7,NUTCH-145,Bug,build of war file fails on Chinese (zh) .xml files due to UTF-8 BOM,web gui,Minor
+5a235572ad6f11be0c84e40cf886dd1c3c5ab75e,NUTCH-146,Bug,mapred.job.tracker.info.port is defined 2 times in the nutch-default.xml,None,Trivial
+bf560b191a49dd42aee43227ebba16845ff45f76,/,/,    Remove remaining calls to static NutchConf.get() in favor of using,/,/
+4ae4e35d2e5bd656e7d172eead542d7f844a5766,/,/,    Fixed distribution build problem with missing empty plugin dirs.,/,/
+2860bf1440cb2875a91b5af30662e70ed28368f6,NUTCH-3,Bug,multi values of header discarded,None,Major
+efaf6597287b5ffde32b6794ef4ac3f83918ba6d,/,/,    Updated with latest changes.,/,/
+5ff747836a666006ff60a9ae3cc0df9924aeaada,NUTCH-3,Bug,multi values of header discarded,None,Major
+1ad3d39a601acc0f6f1d21de330ac382b2a42b3d,NUTCH-3,Bug,multi values of header discarded,None,Major
+5943b9f1d6f17c0c95ca169ac67b7da379d2bef8,/,/,    Merge mapred branch to trunk & remove it.,/,/
+05ddf3977beb48335659330c62368c5622a9d8bf,/,/,    Fixed distribution build problem due to  missing empty dirs for plugin.,/,/
+eb291f39348598403db03f9fc97f1dd8abb6ba5f,NUTCH-141,Bug,jobdetails.jsp doesnt work on webbrowser &quot;safari&quot;,web gui,Trivial
+21139383acf4bdb4338f6c2a21f1fd490fc5aabe,NUTCH-141,Bug,jobdetails.jsp doesnt work on webbrowser &quot;safari&quot;,web gui,Trivial
+9b2a1e9c86b6c219c9fbf1e2b6f39315d26e9bc3,/,/,    Remove hard-coded content-type checking in parsers,/,/
+21523b7fe722f0500c7107429ed3cee89541c602,NUTCH-135,Bug,http header meta data are case insensitive in the real world (e.g. Content-Type or content-type),fetcher,Critical
+9e141ad6b967ceb5ea87266eb1b059afa6af3055,/,/,    Content-Type resolution enhancements:,/,/
+b6e3e6c0a668a788a03d10abb9842a97a4f6632d,NUTCH-112,Bug,Link in cached.jsp page to cached content is an absolute link,web gui,Trivial
+715725e17dcf387e00182aeb216a54f4598b84dd,/,/,    Improvements in plugin circular dependencies detection,/,/
+d36226cac6e3c18202e3195b40a76391855818ba,NUTCH-88,Improvement,Enhance ParserFactory plugin selection policy,indexer,Major
+4c8ab5a7b2b0b82883c951d3c09d7c5232354db8,NUTCH-88,Improvement,Enhance ParserFactory plugin selection policy,indexer,Major
+102d8dfa6e4e8748ecb1fa7f634bf88bd7a466ce,NUTCH-88,Improvement,Enhance ParserFactory plugin selection policy,indexer,Major
+33d603c3823429cc042415f1af51961460b2dada,/,/,    Use mirrors for downloads.,/,/
+6338fe23060c5c90285a3f11592901a78245109b,NUTCH-107,Bug,Typo in plugin/urlfilter-regex/plugin.xml,None,Trivial
+cfa918e9500c704d16d2435df82ed2f20eaa8d1a,NUTCH-107,Bug,Typo in plugin/urlfilter-regex/plugin.xml,None,Trivial
+5165c046762ddff50ef8edbdecc865a21d8b4d6a,/,/,    NutchBean code cleanup. Contributed by Stefan Groschupf.,/,/
+38e7f0a824b87c66cb414ca2bda94b9ecdd54175,/,/,    NutchBean code cleanup. Contributed by Stefan Groschupf.,/,/
+f01227157f85993bab9a50957eebecf668fee462,/,/,    Modifed version number - prepared for next maintenenace release if we would need it,/,/
+7dd4401ad032cd3ab47bcc51fe2c8b4a9082bc91,/,/,    Add parse-ext content-types so that unit tests pass.,/,/
+8736631610a18ff2fb95bb290c2a14d6c4ada5e7,/,/,    Change the way the parse-plugin.xml file is loaded (MalformedURLException reported by Earl Cahill),/,/
+0ec4c9559cf2d722c248259fcf929025da0d942a,/,/,    Documentation regenerated for 0.7.1 release,/,/
+9959893cd106fb8ecea4a06dd01b497f5649bb79,/,/,    Documentation regenerated.,/,/
+4a3234d3b52d705b3eb2326cda4eefd51c0a353e,/,/,    Added news about 0.7.1 release,/,/
+36f26dcbcd5bd2b35505f06d28fadaacacdba520,/,/,    FAQ was moved to Wiki,/,/
+179e9cbd9eb0a2bcee7d3c499abb6ad02c86abfe,/,/,    Updated release date.,/,/
+158a2095e2ff7d2075330c7b351bdf1682fdbb72,/,/,    Updated version number to 0.7.1,/,/
+803c48c49e083d11ded3c45af59caacab98932c2,NUTCH-88,Improvement,Enhance ParserFactory plugin selection policy,indexer,Major
+aec754c4149453dc1111eac4825bee5337226794,/,/,    Updated faq link to point to Wiki,/,/
+bea5ce35ae3c18e4eddeee4d39e7ed2a1959f2d3,/,/,    Updated FAQ link to point to Wiki,/,/
+4cc66e2f0d443be24888ada8747eaef3c251a2b0,NUTCH-88,Improvement,Enhance ParserFactory plugin selection policy,indexer,Major
+3a2e9130cbd2dbb361666bd7f21c9885e4ddbef5,/,/,    CHANGES.txt updated with commit logs for 0.7.1 release.,/,/
+79d4202995ef90f91334635db220d28b72a2a428,/,/,    Renaming maintenance branch for 0.7 release.,/,/
+2359bb8465b97ed66b6c40ab9a4c1c091f573831,/,/,    Reorder to make sure logic correct in case fetcherNPReader.next(),/,/
+7552778047107b1c75a40c370fad7ae17a25ea30,/,/,    minor typo fixes,/,/
+168abf4fe36a48fac75d363e23fdd8e03b9b450f,NUTCH-89,Bug,parse-rss null pointer exception,fetcher,Major
+945af32004c63e23419d23fa3ccd9ab67d23226e,NUTCH-89,Bug,parse-rss null pointer exception,fetcher,Major
+680ebf3774832e878707dbcc159a7c804c3b56a2,/,/,    Updated to PDFBox-0.7.2. Starting with this release PDFBox comes in two,/,/
+ ,NUTCH-85,Bug,pdf parser caused fetcher hangs.,fetcher,Major
+33c59b111f6082f1840d7fe9ad587cc5b389ffa6,/,/,    Updated to PDFBox-0.7.2. Starting with this release PDFBox comes in two,/,/
+ ,NUTCH-85,Bug,pdf parser caused fetcher hangs.,fetcher,Major
+2f183846607a13ae7925a65a8ca4a865a9d76684,/,/,    Update of the clustering plugin  contributed by Dawid Weiss.,/,/
+7695a1e3d961df823d9cbb3bc7979d20df6c8dba,/,/,    Update of the clustering plugin  contributed by Dawid Weiss.,/,/
+da11a28cf6a27471eae8fc9acaae4e5bd77881b7,/,/,    Updated indexer.maxMergeDocs default.,/,/
+5f45c38a051c8673ac56f0a1b71fc32ef884229b,/,/,    French and German analyzers added,/,/
+8f28b49c88877eb2a4ed42b70b0c1b4d5a4351a6,/,/,    Add a lib plugin for lucene analyzers,/,/
+c1099f83e74df7ff0fb8ce72396d5cae9677e395,/,/,    Sorted alphabetically for easy maintenance,/,/
+8db4f78c609694951c93ee79761a67455cf61e7f,/,/,    plugin.auto-activation setted to true by default,/,/
+6843aeacf1b280611347f8b51d91c3a9cc5abed3,/,/,    Add a dependency to nutch-extensionpoints plugin,/,/
+649ebd3eeb5082cc0a75caf06bf39183ff7f0c95,/,/,    Automatically loads active plugins dependencies (add a property  default is on),/,/
+f255eccde285704b669383540b15cefd5b6c3181,/,/,    Fixed failing JUnit test on Windows,/,/
+dcdd5bdc388c2de7daaadbe974d35f42758ff0cd,/,/,    Includes protocol-httpclient plugin (instead of protocol-http) and parse-js erroneously removed during commit of revision 233492,/,/
+e2941278b21d4e0d762b3a8e5729100ec6375dea,/,/,    PowerPoint plugin now uses the lib-jakarta-poi plugin instead of importing its own,/,/
+0921698b6702aa1574b239e0b227d2e8ca8eac3f,/,/,    lib-jakarta-poi added to the list of plugin de deploy/clean,/,/
+4fb80cce5a3f9d804f902e9def98fe3f6bd8c5b0,/,/,    Added lib-jakarta-poi plugin (to be used by parse-ms* plugins),/,/
+d53abe4db530a34c6668c9f764f778cce6d413f9,/,/,    Copying jar file no more fails on error (some plugins do not have jar target),/,/
+ed0feca27cc05904c41ea66ba73eca939c65080c,/,/,    parse-mspowerpoint plugin uses the generic outlink extractor instead of its own (Stephan Strittmatter),/,/
+a1a4ee9effb583af4b3d4a69540062aa917175e2,/,/,    Add support for inter plugin dependencies at compilation time (using plugin.deps path),/,/
+b5126db974cee684af1763aac5d03933376c4523,/,/,    Add support for runtime inter plugin dependencies (using requires section),/,/
+7dcd4f94c7adc53cf66efd7ac995348bad2ba970,/,/,    ASF License added,/,/
+b37151c29db91e7f0809fd7402cebe853f9b386d,/,/,    Use the MimeTypes resolver instead of hard coding it,/,/
+e79930a8e82dc7fb70ff37ef79fa18623a74cb88,NUTCH-53,Improvement,Parser plugin for Zip files,fetcher,Trivial
+01bb1b68f3cff31255073c0574363cff00732665,NUTCH-21,Improvement,parser plugin for MS PowerPoint slides,fetcher,Trivial
+d087bc5ae0cc5cc29b769b1f9f8897b8fdd20c0b,NUTCH-65,Bug,index-more plugin can&apos;t parse large set of  modification-date,indexer,Major
+f2da62a5c56f08e23fb216a356b233115ddc1466,/,/,    Merged 0.7 branch changes 240321:240453 into trunk,/,/
+0d363fae51586fe62f43af758a6e13f795e889f1,/,/,    Fixes some typo (analySer => analyZer),/,/
+8dda2fc6f98a7ce3d82929f31a1fe4d59d130c09,/,/,    No more NullPointerException while logging the doc language if none,/,/
+46e4d4f5bf637ebe3815ec9d176c3dac6302f6ca,/,/,    Updated location of docs to read. Reported by Lukas Vlcek.,/,/
+4e615c8c617d6e9fd8fe7a9e156a4d95846f7070,/,/,    Updated location of docs to read. Reported by Lukas Vlcek.,/,/
+10059a9cd60d9b3458078831e725a3d87216bb5b,/,/,    Add an analysis extension point,/,/
+f57164509ee89d63e1a6337275760fc84bedd2a6,NUTCH-37,Task,Javadoc Warnings,None,Trivial
+c3d1c1d787eb8287e37c035daee70005538f8854,/,/,    Javadoc updates  corrections on input stream reading.,/,/
+451c443b8f46d831169e4d3ff85e062fc25cbc0a,/,/,    Merged trunk changes r233155:240114 into 0.7 branch.,/,/
+511fab9370828fee4bbc5b28027792738d7f9f15,/,/,    Nutch 0.7 release maintenance branch.,/,/
+82254569c86212a377d76bf797eb4e5a76d564a6,/,/,    Fixed failing JUnit test on Windows.,/,/
+c88b191c84d5d8fbad32b29eb77234dbd440c1b2,/,/,    * Add utility to extract urls from plain text (Stephan Strittmatter),/,/
+301022d0f0859aa20d45d8c7c1d574ce939db905,/,/,    Correction in LanguageIdentifier unit test,/,/
+edeb971e65dd97652196ca5534ffc3edab9c8a65,NUTCH-10,Bug,extension points are defined multiple times,None,Minor
+fcba0fd97b080be635b07b2c6ed1bdb0ef376647,/,/,    Bad target name used. Reported by Fuad Efendi.,/,/
+1ce35e053ff78dbaad424849c9a3e6fed5fbe061,/,/,    Gives focus to search query input,/,/
+5007400ff1135687ca9ccbe3a65cddd2f16beba3,/,/,    Add some missing unit tests,/,/
+d3a63dfeb666fc0db677ac52ee967aa4952373e9,/,/,    Fix the issue reported by Andrzej Bialecki in http://www.mail-archive.com/nutch-dev%40lucene.apache.org/msg00065.html.,/,/
+f6dc5c5c5978b51696d228581b7aabd84e1ff04d,/,/,    0.8-dev version started.,/,/
+1742e5a8eee6e30faad250c29be4f1ae138e741c,/,/,    Nutch a tlp  moving svn,/,/
+4f62826994129225e6f8999763677c0e4e29d67e,/,/,    Nutch a tlp  moving svn,/,/
+4dd40032ae99fa8c0c36958064a66eae5c2f0606,/,/,    Nutch 1.0 release.,/,/
+6817388489d57e5912a209a383fa18e84dabd8f8,/,/,    Nutch 1.0 rc2,/,/
+022eeba07ff90a422d8b76fa621eebf852924e47,/,/,    update release date,/,/
+4a72e78ca6a058b3a0cd78e5d5b51dd0701b63e2,NUTCH-722,Bug,Nutch contains jars that we cannot redistribute,None,Blocker
+b1ca8a85ba3e0c121cbd91922bc524010d764495,NUTCH-727,Bug,Add KEYS file to release artifact,None,Major
+9153a3742d58e929fdfe1563d4649b2871e67d3f,/,/,    copy keys to trunk,/,/
+371869b47a5740fc3bf7860817e90dbe85093eec,NUTCH-725,Bug,NOTICE.txt is lacking info that should be there,None,Major
+8cc00b481af03601459b2b296065fa3ad5018a41,NUTCH-723,Bug,LICENCE.txt is lacking info that should be there,build,Major
+a194c418c362412b46f4d8a8904079fcfeac2252,/,/,    record licenses,/,/
+22a24ab776e5ad901e11a5c622b77cffe5d29606,/,/,    record license,/,/
+2eae45991b0747cccdad164d2473d361f31b72d3,/,/,    record license,/,/
+40220140cc728552cbe82de3372d57eb8446abeb,/,/,    record license,/,/
+3551b4e67d98f3d12b62247ab0b7dc8b924a22cd,/,/,    record license,/,/
+85420321b7def8b711e3fe5b734650b36e19f613,NUTCH-725,Bug,NOTICE.txt is lacking info that should be there,None,Major
+8979a442d68415e0b0aa2d61c54561167dbc5612,/,/,    record licenses,/,/
+4e31a10f999e0cd35749415d8d14bf209d79addf,NUTCH-726,Bug,README.txt is lacking info that should be there,build,Major
+797e70361364ec51825c16d6bdf844fc5f1fc834,/,/,    prepare for release,/,/
+46a192a4b5a4394558f5333c35884f9cc0b4efed,NUTCH-715,Bug,Subcollection plugin doesn&apos;t work with default subcollections.xml file,indexer,Major
+6bee302e4b61012a75eb4815786782c89f27a1a1,NUTCH-684,New Feature,Dedup support for Solr,indexer,Major
+913d19abba72a36124f89ef8394d6f733b9ccf39,/,/,    the version is indeed 1.0,/,/
+9ab5c1a5ccf03b461afbda220cc864cb94f7ce2a,/,/,    preparing for release,/,/
+e9ffa7f9d437f9f3c5cf8dc89b380dd9772391bf,NUTCH-711,Bug,Indexer failing after upgrade to Hadoop 0.19.1,None,Minor
+fc37cf3733d24f54cef02338fc7e143bccfa37bf,NUTCH-669,Improvement,Consolidate code for Fetcher and Fetcher2,fetcher,Major
+c487bf73ffd8974a756579d670a8060d80625e2e,NUTCH-700,Bug,Neko1.9.11 goes into a loop,None,Critical
+c8a5ee69b5b7248aad6c776d7eee236b47e41329,/,/,    Commit changes to CHANGES.,/,/
+ad1883440edc4c128f3724f8bd52b633e43308ba,NUTCH-419,Bug,unavailable robots.txt kills fetch,fetcher,Major
+dd4f990e1fbc603e40a6050ecfbb9948d2b2e11d,NUTCH-703,Bug,Upgrade to Hadoop 0.19.1,None,Blocker
+234c2647081aefe8d48403d112026cec44766ba2,NUTCH-699,New Feature,Add an &quot;official&quot; solr schema for solr integration,indexer,Major
+e7aee8b3123e3a57801eac5d91cc92f50d3c3c91,NUTCH-698,Bug,CrawlDb is corrupted after a few crawl cycles,None,Blocker
+3a788815dc1b232afaa44644bfbdb97ef43d068b,NUTCH-247,Bug,robot parser to restrict.,fetcher,Minor
+79cce738b58b5f0360abf409ed483bb0e69f1d5f,NUTCH-626,Bug,fetcher2 breaks out the domain with db.ignore.external.links set at cross domain redirects,fetcher,Major
+f6453510b1068a9dcf0c3a298fb4298e8ef53110,NUTCH-694,Bug,Distributed Search Server fails,None,Blocker
+186c716be986e09d87b2c4d822fc961f74b81e1b,NUTCH-695,Bug,incorrect mime type detection by MoreIndexingFilter plugin,indexer,Major
+4de08e67a204e99513e6158510921b99c5f155ff,/,/,    remove web2 as agreed on nutch-dev,/,/
+910a0b814abf4a5a22a4a4b240dcbdd600470cf5,NUTCH-563,New Feature,Include custom fields in BasicQueryFilter,None,Minor
+8d7c9dc134d3cd7029d2ff8ba03a46718d31adb8,NUTCH-691,Improvement,Update jakarta poi jars to the most relevant version,fetcher,Major
+624c649869693ce95b31dc3fbd2fdf82c4f990ad,NUTCH-687,Improvement,Add RAT,None,Minor
+524f300d71e5812f0649aa7905efe0eee39462cf,NUTCH-688,Bug,Fix missing/wrong headers in source files,None,Blocker
+e30c6ca1ffc56680741714228e29dcb7bb2cb4c3,NUTCH-688,Bug,Fix missing/wrong headers in source files,None,Blocker
+8963a1787186a61fcf5a2a41233f02cd71d9ab6e,NUTCH-687,Improvement,Add RAT,None,Minor
+55a38c3e14fa5b605c141b3a38a07ac127a19feb,NUTCH-631,Bug,MoreIndexingFilter fails with NoSuchElementException,indexer,Blocker
+1f8f06523c37b939a6669539f867dfffa6af769a,/,/,    fix link and name,/,/
+81d300365c69e6f11732aedf118f733d2d4a53e1,/,/,    add apachecon promo,/,/
+a2ba8e229c11792afaabaf7c5dfd511142562ebc,NUTCH-683,Bug,NUTCH-676 broke CrawlDbMerger,None,Minor
+ ,NUTCH-676,Improvement,MapWritable is written inefficiently and confusingly,None,Minor
+7400e1761de61d54b7398b63b948cab8e9186c01,NUTCH-636,Bug,Http client plug-in https doesn&apos;t work on IBM JRE,fetcher,Major
+d22073f277d5b70a911917ae3714368368e3d5d6,NUTCH-643,Bug,ClassCastException in PdfParser on encrypted PDF with empty password,fetcher,Major
+cfc850d1e213a80583229abcdcf87d7ae2753b16,NUTCH-671,Bug,JSP errors in Nutch searcher webapp running with Tomcat 6,web gui,Major
+9f2bd349dafde41d3d39840454433e6c2300f876,NUTCH-279,Improvement,Additions for regex-normalize,None,Major
+29df588d388702394edd07807d9f26e40628b209,NUTCH-682,Bug,SOLR indexer does not set boost on the document,injector,Major
+57102c50a460cabd300b320f6e8c2cd4f2327cfe,NUTCH-571,Bug,parse-mp3 plugin doesn&apos;t always index album of mp3,indexer,Major
+0ed6d64675ff06feeb580a42404614116d2c9916,NUTCH-628,New Feature,Host database to keep track of host-level information,generator,Major
+5387fd042ab32ebb7cfbcc5b7d079ec8286495ee,NUTCH-680,Improvement,Update external jars to latest versions,None,Minor
+f4778c17c8282abaf0c958e3d01b6048b34bfda6,NUTCH-680,Improvement,Update external jars to latest versions,None,Minor
+cfd406b94ef0cf6b12e5c4413c1f7876d2e96d29,NUTCH-579,Bug,Feed plugin only indexes one post per feed due to identical digest,indexer,Major
+de1ea50abc0e0e011f48bfa49b3cb5e3b5ab8be0,NUTCH-676,Improvement,MapWritable is written inefficiently and confusingly,None,Minor
+478c83bdbb1b783a81b8136acda3b59606090f59,NUTCH-681,Bug,parse-mp3 compilation problem,indexer,Major
+edf49a8be85c14346e2b0a89c373b1091fb061b6,NUTCH-678,Bug,Hadoop 0.19 requires an update of jets3t,None,Critical
+0b8915210f7c9e6a3065086b57f6b08796804def,/,/,    - Don't validate sitemap - Forrest 0.9 fails if that's set to true,/,/
+7e9a2d535805d59f5ad529b1f9e94d4468bd1546,NUTCH-627,Improvement,Minimize host address lookup,generator,Major
+69ff5fceb9730089983334ff6e1da8fbc9b98c9f,NUTCH-442,New Feature,Integrate Solr/Nutch,indexer,Major
+6b47f785ee752aba1debd7eb70c97adf0b95d79e,NUTCH-652,Bug,AdaptiveFetchSchedule#setFetchSchedule doesn&apos;t calculate fetch interval correctly,None,Major
+f8a928c6033d56195f1e0cee4179a17d9136145c,NUTCH-442,New Feature,Integrate Solr/Nutch,indexer,Major
+21acba4c11659490ce4f957bb298a4aa208a88f0,NUTCH-442,New Feature,Integrate Solr/Nutch,indexer,Major
+2e44f181dfe4ba0ee6f02825a0bfb438eb3192e8,/,/,    Added a test domain-urlfilter conf file so that it doesn't filter everything,/,/
+3be9e6d9c4fe5a8fe5b988146fcf99212952980f,/,/,    add missing releases,/,/
+2d37cab499c6943fae05a969fd1438de26dc579c,/,/,    add link to 0.9 javadocs in navigation  fix bogus content,/,/
+f77ca03400f0630f4757f859e321a7e4d5c52831,/,/,    - Update with Forrest 0.8,/,/
+60a0fe0d0442205b41c7b58059b3540486884e9b,NUTCH-594,New Feature,Serve Nutch search results in multiple formats including XML and JSON,None,Major
+e9457e66844229f10493e0d5a8fbf15a3c346e00,NUTCH-668,Improvement,Domain URL Filter,None,Major
+2c4b01b74b0275169b42384fa32594543fb5082f,NUTCH-668,Improvement,Domain URL Filter,None,Major
+3cc319ac07640b8836ee9725a2341415933dd727,NUTCH-646,New Feature,New Indexing Framework for Nutch,indexer,Major
+eeb99544daf90942e551e1a75493a822a07d8453,NUTCH-646,New Feature,New Indexing Framework for Nutch,indexer,Major
+a00a4633b488b4e84c63a5085f8cc49df3fb44b4,NUTCH-646,New Feature,New Indexing Framework for Nutch,indexer,Major
+dd0563795271449ab2e65080f8edbf48d1f89d7c,NUTCH-646,New Feature,New Indexing Framework for Nutch,indexer,Major
+574b180befe309ca7d2370cf429d3bba88c77105,NUTCH-662,Improvement,Upgrade Nutch to use Lucene 2.4,None,Major
+80f77888b58c6e581ae07e488305a3d016a42bcc,NUTCH-635,New Feature,LinkAnalysis Tool for Nutch,None,Major
+a753e0b7acc0f98acea58e57982fe7c92e12d718,NUTCH-647,New Feature,Resolve URLs tool,None,Major
+7d0a6c697f45193144a88df5b60cb1edd2424379,NUTCH-667,Improvement,Input Format for working with Content in Hadoop Streaming,None,Minor
+16b29831449897b26fd2b80f1a6421e2e485c8f5,NUTCH-665,New Feature,Search Load Testing Tool,None,Minor
+7aa6ae3bb1c6b4abe1873a9d6e81242347a7bc38,NUTCH-647,New Feature,Resolve URLs tool,None,Major
+f6b4d90933ce32942353c08cf878cdeebc48bba8,NUTCH-647,New Feature,Resolve URLs tool,None,Major
+6fd822ac62705244a64ea1b1d79fb317484dcad7,NUTCH-663,Improvement,Upgrade Nutch to use Hadoop 0.19,None,Major
+92c62720e1628d88e15a017490b4dfb9ae3a095d,NUTCH-662,Improvement,Upgrade Nutch to use Lucene 2.4,None,Major
+efb617d66b59177d29166b81c822e1191b7fcf92,NUTCH-640,Improvement,confusing description &quot;set it to Integer.MAX_VALUE&quot;,documentation,Minor
+ea187218f8973e5b6cc7be07d1c30581fb10770b,NUTCH-654,Bug,urlfilter-regex&apos;s main does not work,None,Trivial
+bf2d8c79d2edf3a51d68b92d107053c1357e6b88,NUTCH-621,Task,Nutch needs to declare it&apos;s crypto usage,None,Blocker
+8625a2b49cd5234e5d0cfd93a1cc890627b120e0,NUTCH-653,Improvement,Upgrade to hadoop 0.18,None,Major
+75b90a275dc7f98f6d6633abfa74cdd1683ec62a,NUTCH-651,Improvement,Remove bin/{start|stop}-balancer.sh from svn tracking,None,Minor
+f789eab53b6d5eabd885b032a47c6d9863fb7831,NUTCH-633,Bug,ParseSegment no longer allow reparsing,None,Minor
+db83035b2448e5869b54821efaea3d907efa3804,NUTCH-375,Bug,Link to 0.8.x apidocs broken on website,documentation,Major
+88ed2067b532517e1a6e88c417c41a2d8ee9c564,NUTCH-651,Improvement,Remove bin/{start|stop}-balancer.sh from svn tracking,None,Minor
+acf73dc6366a5dabe3bfb5be3173395e54d236b3,NUTCH-639,Improvement,Change LuceneDocumentWrapper visibility from private to protected,indexer,Minor
+3ffaa8fb0a6716ba569e2ee1b658e0efb2e6be53,NUTCH-642,Bug,Unit tests fail when run in non-local mode,build,Major
+e2875cbd6341f0b066661f7ca83834da366df242,NUTCH-645,Bug,Parse-swf unit test failing,build,Major
+0c1dbf9d365c5ecf918d01432d2c53f73b3a2e16,NUTCH-641,Bug,IndexSorter incorrectly copies stored fields,indexer,Critical
+ff5c58276b5d395bef9260f559e213034cd70678,NUTCH-634,Improvement,Patch - Nutch - Hadoop 0.17.1,None,Major
+19d60aeece513faaa886eae3e14029c821c685e0,/,/,    Avoid NPE when pocessing empty / corrupted indexes.,/,/
+18c707e302cc6875eb8620ab05d3ba47f229c7cb,NUTCH-618,Bug,Tika error &quot;Media type alias already exists&quot;,None,Major
+72556a46d28054b65410240f8c8f2ac77dc497db,/,/,    - Added Otis Gospodnetic,/,/
+d3d753677a5389aca236887a8b82e8ebbec33de0,/,/,    - Added Javadoc to clarify double meaning of fetchTime,/,/
+636115ff1ddd02e95ce01dcb7742e2e5231b88a3,NUTCH-596,Bug,ParseSegments parse content even if its not CrawlDatum.STATUS_FETCH_SUCCESS,None,Minor
+5ecabe588ba3cab75ebee6f2bd930d9ec0b65db2,/,/,    - Cosmetics,/,/
+f6d9f82436366e17246e2bfa145d758e0d49a7ea,/,/,    - Log an Exception  esp. since 'it should never happen',/,/
+672177f48ed0897387ed12eb5ba720e1220c7c8a,NUTCH-500,Improvement,Add hadoop masters configuration file into conf folder,None,Minor
+59695c9d079e8b9c2151c17a4bd6b906ca5f8599,NUTCH-620,Bug,BasicURLNormalizer should collapse runs of slashes with a single slash,fetcher,Minor
+ef14edda93c1eacbb0a2985c2c79eb8f09d15a5d,NUTCH-598,Improvement,Remove deprecated use of ToolBase  Migration to the new implementation,None,Major
+4ab867ba72c9feec8825f0f43af8e1b3b3dcf317,/,/,    Add missing license file.,/,/
+677ed6d1d9001e2a241314b401631d48cbeca6aa,NUTCH-223,Improvement,Crawl.java uses Integer.MAX_VALUE for -topN where Generator.java uses Long.MAX_VALUE for -topN,None,Trivial
+7189e940e8c05ed2f56813146f573001a3899f82,NUTCH-220,Bug,PDF Box can&apos;t parse document: java.lang.NullPointerException,None,Major
+43386a43ca9c460ca863c3470443cb71e188c663,NUTCH-616,Bug,Reset Fetch Retry counter when fetch is successful,None,Major
+7a67a8a5ea5656e51cd08561a78d48ca8346ce40,NUTCH-615,Bug,Redirected URL are fetched wihtout setting any FetchInterval,fetcher,Major
+258e9281e5f9e8ce3a929e60f865393316d83cf4,/,/,    Don't add Hadoop config files to Nutch job file.,/,/
+17f3fd726b785ce080193e86959c4b6e39f9b75a,NUTCH-126,Bug,Fetching via https does not work with a proxy (patch),None,Major
+0b3e562d3ec60563c487a0789679baf420257b0c,NUTCH-575,Bug,NPE in OpenSearchServlet when summary is null,None,Major
+b7e12d7699072ba7307b30d9cef6c22acd030ee9,NUTCH-601,Improvement,Recrawling on existing crawl directory using force option,None,Minor
+01c312efc33dd22610659853a2caa6ccd524bf4e,NUTCH-612,Bug,URL filtering is always disabled in Generator when invoked by Crawl,generator,Major
+9b3148da4010b5a6f122c6c551c30f5639ebd27e,NUTCH-613,Bug,Empty Summaries and Cached Pages,web gui,Major
+725d97e86c255053cf36e4f2443a8823118e095d,NUTCH-567,Improvement,Proper (?) handling of URIs in TagSoup.,None,Minor
+20efa46b66005d84bf007cd1731f46e331dbabd6,NUTCH-44,Bug,too many search results,web gui,Major
+1add0135722361358e4827e4166f3770dc4df3ac,NUTCH-611,Improvement,Upgrade Nutch to use Hadoop 0.16,None,Major
+083b25cdbe4139341fe55037e5b6ad4718f93e91,NUTCH-603,Improvement,Add more default url normalizations,None,Major
+ff275f33a78667f4d300ef1b0f9e3f51bd481f8a,NUTCH-605,Improvement,Change deprecated configuration methods for Hadoop,None,Major
+760edfb88fe6b8c3e10ccdacb00cb65f3f73d55a,NUTCH-606,Bug,Refactoring of Generator  run all urls through checks,generator,Minor
+fb34dadcf12679e56339257d6b5c584c227725ad,NUTCH-608,Improvement,Upgrade nutch to use released apache-tika-0.1-incubating,None,Major
+931161b01682eb43d992cd74177ef8b39ffe5d30,NUTCH-607,Bug,Update build.xml to include tika jar in war file,None,Major
+9b68fcfcbfe6623637cfbc17fd24197adad99ddf,NUTCH-602,Improvement,Allow configurable number of handlers for search servers,None,Major
+dd5413394c0e841bfabe41ce18ef8fdff78a8328,NUTCH-604,Improvement,Upgrade Nutch to Lucene 2.3.0,indexer,Major
+8cc3bbb9fb021d6cde0a28c851dabfc9ef743f56,NUTCH-587,Improvement,Upgrade Nutch to use Hadoop 0.15.3 release,None,Major
+dbe5f46cb4f6fcbcd426e1e3d5f97af14e28a0c9,NUTCH-587,Improvement,Upgrade Nutch to use Hadoop 0.15.3 release,None,Major
+251a2b45818456f073d67b367f52f50ef738b034,NUTCH-580,Improvement,Remove deprecated hadoop api calls (FS),None,Minor
+d074e30acca243304743d31a83d7a162a5a3390b,NUTCH-584,Bug,urls missing from fetchlist,generator,Major
+264246cd5346e299c9fb07b1486bfc06707b9278,NUTCH-597,Bug,Fetcher2 - java.lang.NullPointerException when host does not exist and fetcher.threads.per.host.by.ip is set to true causes threads to finish.,fetcher,Major
+9eccbdf94af0968d6bdcb891811ce96bbe890190,/,/,    CrawlDbReader: add some new stats + dump into a csv format,/,/
+845b73ab2773037a793302b45ba263b7c69506a5,NUTCH-534,Improvement,SegmentMerger: add -normalize option,None,Major
+f10381127eff805c83d5d7cdd1073bb3994730a1,NUTCH-559,Improvement,NTLM  Basic and Digest Authentication schemes for web/proxy server,fetcher,Major
+7f29db1d07b47e5015455519403585cccb0b8a67,NUTCH-575,Bug,NPE in OpenSearchServlet when summary is null,None,Major
+ca8be904e67cb4f9ed706a51929b8cf372e89272,NUTCH-586,New Feature,Add option to run compiled classes w/o job file,None,Major
+e55f9b64e51ba222defe8a0e69e8923bf27974a2,NUTCH-581,Improvement,DistributedSearch does not update search servers added to search-servers.txt on the fly,None,Minor
+848014c3e17939018a7ad2529002047109120505,NUTCH-552,Improvement,Upgrade Nutch to Hadoop 0.15.x,None,Major
+8f0af3c5de9a3ad958a827f37960f82df4df6876,NUTCH-444,Improvement,Possibly use a different library to parse RSS feed for improved performance and compatibility,fetcher,Minor
+53add0d3c05bb5490d3492d4724a3b8e4caab026,NUTCH-574,Bug,Including inlink anchor text in index can create irrelevant search results.,indexer,Major
+702172f0e4d68a3414a2f30c2020c7dc444e8831,NUTCH-574,Bug,Including inlink anchor text in index can create irrelevant search results.,indexer,Major
+0005f1bdd119b5ee534a2056f28e49fa75a7ae3e,NUTCH-538,Improvement,Delete unused classes under o.a.n.util,None,Trivial
+16df6f4fd794eb422fa815a34dbf62583d9bd5c8,NUTCH-548,Improvement,Move URLNormalizer from Outlink to ParseOutputFormat,fetcher,Minor
+95e7fe003129edb5230d698912a1b262299d46e1,NUTCH-494,Bug,FindBugs: CrawlDbReader and DeleteDuplicates,None,Minor
+3fdaed8baf2b7fefe96755a8114f445d347c54b3,NUTCH-538,Improvement,Delete unused classes under o.a.n.util,None,Trivial
+192f3d92f5c27d132b226e7c53e6e9eff0a97d0f,NUTCH-548,Improvement,Move URLNormalizer from Outlink to ParseOutputFormat,fetcher,Minor
+000ba9534799b79811edbf3751f99ad2f2d9ca25,NUTCH-548,Improvement,Move URLNormalizer from Outlink to ParseOutputFormat,fetcher,Minor
+ef9765d13709a4621d245d88cfe95f9bf82b315b,NUTCH-547,Improvement,Redirection handling: YahooSlurp&apos;s algorithm,fetcher,Major
+45d35fae2c1921cb4dbd22bc8508fbdf2cbe20ba,NUTCH-565,Improvement,Arc File to Nutch Segments Converter,None,Major
+cb4025e17fea0aa410c28cb69fae95d8c3cf827d,NUTCH-552,Improvement,Upgrade Nutch to Hadoop 0.15.x,None,Major
+bebd9a8a784cd190a26df7f910ebaf0198d6eac3,NUTCH-501,Improvement,Implement a different caching mechanism for objects cached in configuration,None,Major
+5d2ecf81998fddb5cd61da64efe83607ed89a3ca,NUTCH-488,Improvement,Avoid parsing uneccessary links and get a more relevant outlink list,None,Major
+40aa24ff6de299b56ffb522b5b8b53c808a19798,NUTCH-562,Improvement,Port mime type framework to use Tika mime detection framework,None,Minor
+38f9df217c25dc31cebcd2a8107984d52c03b18b,NUTCH-508,Bug,${hadoop.log.dir} and ${hadoop.log.file} are not propagated to the tasktracker,None,Major
+d24fc604037252e77d300181c2a17b80b39f01c1,NUTCH-25,New Feature,needs &apos;character encoding&apos; detector,None,Major
+13f6eebad5303b6074d7239e82af5ff6d3178889,NUTCH-25,New Feature,needs &apos;character encoding&apos; detector,None,Major
+c83f319845986290f876b326c43eb21ddb7a1dfb,NUTCH-25,New Feature,needs &apos;character encoding&apos; detector,None,Major
+ ,NUTCH-369,Bug,StringUtil.resolveEncodingAlias  is unuseful.,fetcher,Minor
+ ,NUTCH-487,Bug,Neko HTML parser goes on default settings.,fetcher,Major
+50738f9d8dec622d9f73899ab8f7fbba3d378143,NUTCH-529,Bug,NodeWalker.skipChildren doesn&apos;t work for more than 1 child.,None,Major
+917b6ec0048e494efea5a080df8b940661f89ecc,NUTCH-554,Bug,Generator throws java.io.IOException and dies on injected urls with no protocol ,generator,Major
+d0c3c92ad3108b3b8d5109712d10839327fbdd6d,/,/,    Document a property. Spotted by Emmanuel Joke.,/,/
+bdd8e9989f2114466713ae0d3d0f4c63d732c66b,NUTCH-546,Bug,file URL are filtered out by the crawler,fetcher,Major
+9396ecfed994f2e9d99947b4a6e82b428e73c4e0,NUTCH-546,Bug,file URL are filtered out by the crawler,fetcher,Major
+2dcef0b214d8248f1ce2cb35db89dacf78f28df3,NUTCH-550,Bug,Parse fails if db.max.outlinks.per.page is -1,None,Major
+f1720192339b8c2d8feea59aed2dc499cfaa4364,NUTCH-532,Bug,CrawlDbMerger: wrong computation of last fetch time,None,Major
+8533ffbb9008f17522afef3ae4d0c212c77f62e2,NUTCH-545,Bug,Configuration and OnlineClusterer get initialized in every request.,web gui,Major
+3f724529b4a559c263b09e706eea3fd01ff2b033,NUTCH-545,Bug,Configuration and OnlineClusterer get initialized in every request.,web gui,Major
+2cc1934a1e3d35f2c279bc6a015cc0205699086d,NUTCH-544,Improvement,Upgrade Carrot2 clustering plugin to the newest stable release (2.1),None,Minor
+2865e0e16f3ff8d2f817a727098bf7c85ba4baa2,NUTCH-439,New Feature,Top Level Domains Indexing / Scoring,indexer,Major
+5a30e60153b65fee98b7a5ade651eaf0ac33cf00,NUTCH-536,Improvement,Reduce number of warnings in nutch core,None,Minor
+339fc078890c06c2904b5527fc047d2f6c704410,NUTCH-522,Improvement,Use URLValidator in the Injector,injector,Minor
+d8325971d65bd7dd90ded1118831ac5eb25e5d39,NUTCH-535,Bug,ParseData&apos;s contentMeta accumulates unnecessary values during parse,None,Major
+ed6e143b4c57b33dae6f41677d2689a2a65004b7,/,/,    Plugin summary-lucene's plugin.xml contained a link to non-existant lucene-highlighter jar. Updated plugin.xml to point to new jar.,/,/
+c548f361d5100f02d58a9762199142876c492945,NUTCH-533,Bug,LinkDbMerger: url normalized is not updated in the key and inlinks list,linkdb,Major
+9e37db6a2ea512b00a99e056554e1733632d8566,NUTCH-514,Improvement,Indexer should only index pages with fetch status SUCCESS,indexer,Minor
+7f060aa27531ba55ee0d6b294e499978848ade9d,NUTCH-525,Bug,DeleteDuplicates generates ArrayIndexOutOfBoundsException when trying to rerun dedup on a segment,None,Major
+9d273b9ba6bbcbbf5ee5de5e7dcc8ec3b5166068,NUTCH-516,Bug,Next fetch time is not set when it is a CrawlDatum.STATUS_FETCH_GONE,fetcher,Major
+3ca801d2185db273c410da26e618939af41e7749,NUTCH-518,Bug,Fix OpicScoringFilter to respect scoring filter chaining,indexer,Major
+46ba3251855b8c69ae30f7d6bbe2c6deaa43aaab,NUTCH-517,Bug,build encoding should be UTF-8,None,Major
+f1bebb13da82e5f6847497359080b02b83566904,NUTCH-506,Improvement,Nutch should delegate compression to Hadoop,None,Major
+1f1ee03468f93d58181b8ccc568b455450384c08,NUTCH-515,Bug,Next fetch time is set incorrectly,fetcher,Blocker
+091c0f4aa71b762d8b41e16f1ad666a226f5cfc4,NUTCH-471,Bug,Fix synchronization in NutchBean creation,None,Major
+c62095750b1c477780189825daa68ca0aeb10fad,NUTCH-513,Improvement,suffix-urlfilter.txt does not have a template,None,Trivial
+2200f22b9bde66d226e8cd803bea6505a922dba9,NUTCH-505,Improvement,Outlink urls should be validated,None,Minor
+959e9c885966e19cc608119c90d0acdd14a6d07e,NUTCH-510,Improvement,IndexMerger delete working dir,indexer,Major
+481cca224223bc691ec74128d3e848d9ebc2657a,NUTCH-505,Improvement,Outlink urls should be validated,None,Minor
+93a499e4b9df0561e9290e090190cd6648c607e5,NUTCH-503,Bug,Generator exits incorrectly for small fetchlists ,generator,Major
+fbadd7acbdeda1a2a7113d721330475c9fcec387,NUTCH-507,Bug,lib-lucene-analyzers jar defintion is wrong in plugin.xml,None,Major
+a01d11ec1fa7d2cdeb82b9b4278f76e755bc05e6,NUTCH-498,Improvement,Use Combiner in LinkDb to increase speed of linkdb generation,linkdb,Minor
+159b3c4fb02c4c9ca6812dc90f9c3bc348e40b4a,NUTCH-499,Improvement,Refactor LinkDb and LinkDbMerger to reuse code,linkdb,Trivial
+0e098169657166dc791aa501f6fe72ea0f93e5b8,NUTCH-474,Bug,Fetcher2 sets server-delay and blocking checks incorrectly,fetcher,Major
+982df0086c72359684f4570bb65457e789369e78,NUTCH-497,Bug,Extreme Nested Tags causes StackOverflowException in DomContentUtils...Spider Trap,fetcher,Major
+404a40e7f3a7376f54abaed4e9c6f057c9714106,NUTCH-497,Bug,Extreme Nested Tags causes StackOverflowException in DomContentUtils...Spider Trap,fetcher,Major
+338af99b037026675951c55c5c608588b9ab086d,NUTCH-504,Bug,NUTCH-443 broke parsing during fetching,fetcher,Major
+c0f38bc1400dc22453ffb2bc65a0f94e02947268,NUTCH-468,Improvement,Scoring filter should distribute score to all outlinks at once,None,Minor
+5de25972c7715167fc7fe5f355abb7c40124b7b4,/,/,    Upgrade to Lucene 2.2.0 and Hadoop 0.12.3.,/,/
+629209fa3f53f7187c81929166f15d36f2279cb5,NUTCH-471,Bug,Fix synchronization in NutchBean creation,None,Major
+52b385450b8a3673dc7d89ca697acbe9cd8a34fa,/,/,    Updated jdom.jar in lib-xml to a newer version.,/,/
+9c64d44c04e8caf6580b7e734024d96cba8d9374,/,/,    Adding a template config file for urlfilter-prefix.,/,/
+367b7e05c7c5d4ba9105c519149822deee8c2f89,NUTCH-444,Improvement,Possibly use a different library to parse RSS feed for improved performance and compatibility,fetcher,Minor
+7e7805092d93a87c46618f1d6b598939a09bf126,NUTCH-502,Bug,Bug in SegmentReader causes infinite loop,None,Minor
+5fd9f02bd19bd5887c21209e632c0a82fad56aa0,NUTCH-489,Improvement,URLFilter-suffix management of the url path when the url contains some query parameters,None,Major
+16e0ceca8e061eedd73acf717bb66de98a42dbe3,NUTCH-485,Improvement,Change HtmlParseFilter &apos;s to return ParseResult object instead of Parse object,fetcher,Major
+c7f29f9def6b3fa540b13d09341cdf914c2dae16,NUTCH-443,New Feature,allow parsers to return multiple Parse object  this will speed up the rss parser,fetcher,Minor
+0d409acde80ab582a9169151c863b7f1d64d5921,NUTCH-495,Bug,Unnecessary delays in Fetcher2,fetcher,Minor
+194d0cd6b2b0c2a9df6c3f0b1c0a02cbf0430e6f,/,/,    Added myself (Dogacan G¨¹ney) to the list of committers.,/,/
+35969c829f5dd659d34bbe180fa2ab46bd84e85a,/,/,    remove debug iteration because it seems to block spelling suggestions,/,/
+78b0f9cad6b10d78cb77261fa5327cf2bd434183,NUTCH-392,New Feature,OutputFormat implementations should pass on Progressable,fetcher,Major
+3dc46ce7d60e7b59a5c1e0f13dc5d0219e082ed7,NUTCH-61,New Feature,Adaptive re-fetch interval. Detecting umodified content,fetcher,Major
+26da6449c01bec6ac5f5933a7378bd9d6bd82a05,NUTCH-161,Bug,Change Plain text parser to use parser.character.encoding.default property for fall back encoding,indexer,Minor
+f4d506126d37a64fd4ffb6a26f5343ea363fa88f,NUTCH-483,Bug,remove redundant commons-logging jar from ontology plugin,None,Trivial
+63b48b1800c3144aaacb1719e241a999d28b6667,NUTCH-482,Bug,Remove redundant plugin lib-log4j,None,Trivial
+ff01b7db77b5a308d15485eb28dfc45880b09337,NUTCH-484,Bug,Nutch Nightly API link is broken in site,documentation,Trivial
+5ae900e247054b1ed5b247a84ff20bef513ee3a8,NUTCH-446,Bug,RobotRulesParser should ignore Crawl-delay values of other bots in robots.txt,fetcher,Minor
+5921853252e171438579fd4c0b7c4aa2020ed92f,NUTCH-456,Improvement,parse msexcel plugin speedup,fetcher,Minor
+6365dfaf4f341c995b7da351f017775e3ad4a561,NUTCH-393,Bug,Indexer doesn&apos;t handle null documents returned by filters,indexer,Major
+ff8b30881135b73133b1386605050d6c1445cad8,/,/,    Add missing javadoc and license header.,/,/
+8275b66cd93a60dc628dd4b79aad41f68b853795,/,/,    Add missing file from the last commit. Spotted by Sami.,/,/
+f12d0442ebcf6a028f7ff007bbf9cbca312945f1,NUTCH-443,New Feature,allow parsers to return multiple Parse object  this will speed up the rss parser,fetcher,Minor
+487f87b6cc3566528e51e668bd05a9e20b4ea3ef,/,/,    Prevent NPE when working with small  possibly empty indexes.,/,/
+07e98426464a6eaeb26a295f41c7399faf97d544,NUTCH-474,Bug,Fetcher2 sets server-delay and blocking checks incorrectly,fetcher,Major
+6af4eee8f16eef9a2a39f0b1d868ad6cb51710cb,/,/,    Empty MapWritable would throw an NPE when building a keySet.,/,/
+c568c6959efb1a5463d4f129afc7a93003257def,/,/,    - update for new development  Nutch 1.0-dev,/,/
+ea98496e33d2da78068aeecd6c52370858d348c1,/,/,    - update for new development  Nutch 1.0-dev,/,/
+3988e7cf047fb862264c670979eb52d99c83fbed,/,/,    Nutch 0.9 release,/,/
+8859cb5d63da7196fa72887e6022ba6d1d69bf82,/,/,    Release tag for Apache Nutch 1.3,/,/
+86187abd5cb3490284b32f64416e4f0b05ab7e20,NUTCH-995,Improvement,Generate POM file using the Ivy makepom task ,None,Major
+955ca31b6107d104158f7bba54f85d71b87b4cca,/,/,    Apply finishing touches from NUTCh-955: Generate POM file using the Ivy makepom task,/,/
+5a2916e3494622e717ce96e9c14e33272ecea0da,/,/,    Upgrade to Ivy 2.2.0,/,/
+e779b1cb0d8445e9a6f092c6f149417f16fcf4d7,NUTCH-995,Improvement,Generate POM file using the Ivy makepom task ,None,Major
+9901f132d9efdef6a55623d7ae29b229819f2e37,/,/,    task 'package' does not reflect the new organisation of the code,/,/
+d9ba6a2719b4233925489679468f8fd963211806,/,/,    CHANGES.TXT : added missing change list for 1.2,/,/
+5ba9a5e5d3d82f518509eec1ba8ff614da3890ef,/,/,    Undoing excessive commit,/,/
+a14c6ea415ca18a0bc72ad393585103d7f7d52d6,/,/,    CHANGES.TXT : added missing change list for 1.2,/,/
+54cd07edfa6ba689e276da46e3564b3a4a5c2075,NUTCH-994,Improvement,Fine tune Solr schema,indexer,Major
+f5031bd832399723b17ce925250df934fd39c8e9,NUTCH-997,Improvement,IndexingFitlers to store Date objects instead of Strings,indexer,Major
+85f295ffecf7bf6986f468b391303a6674334ccd,NUTCH-996,Bug,Indexer adds solr.commit.size+1 docs,indexer,Trivial
+764319aa844874cbb5255945025d646f7ad22a35,NUTCH-888,Task,Remove parse-rss,parser,Major
+2d2322b633fff6105d62e4d9bf8da6b5e813c820,/,/,    Fixed TestParserFactory post Nutch-888,/,/
+e436a260d1b58d090ad4f5fa7dbc88e2e4828861,NUTCH-983,Improvement,Upgrade SolrJ,indexer,Minor
+7156531aa1b76df05c9f720ac2706321f7e2abb9,NUTCH-989,Improvement,index-basic plugin doesn&apos;t use Solr date fieldType,None,Major
+341fba280bf308d704a2c67adf00ecd2a4209f0f,NUTCH-888,Task,Remove parse-rss,parser,Major
+2150e90ab0b1ee474cd8016e04f5973a05db88cb,NUTCH-991,Improvement,SolrDedup must issue a commit,indexer,Major
+e47f7ada80f478eeb77fdd2f1e7b470afd29bed9,NUTCH-986,Bug,Dedup fails due to date format (long),indexer,Major
+40b69ee8ef5fded681dde92cae084fce1785ecb2,NUTCH-986,Bug,Dedup fails due to date format (long),indexer,Major
+6a7965ebc6c53fb82f0c096a3e87d1382b1cf67b,/,/,    Prep for 1.3 release candidate,/,/
+ae0608d14e9f7cb56f4b4064ededd8cb1c8c9bea,NUTCH-977,Bug,SolrMappingReader uses hardcoded configuration parameter name for mapping file,None,Major
+17315263fb3a38ffcf3f8966dec90a04d23ce9bc,NUTCH-976,Bug,Rename properties solrindex.* to solr.* ,indexer,Major
+a657ab07d8d1b899d2b49b5a9d492cda13f6d58b,NUTCH-890,Bug,SqlStore doesn&apos;t work with nested types in Avro schema,None,Major
+9b10e6818055b5a4f89f3a7f4cb1aa2aa088c1a5,NUTCH-891,Bug,Nutch build should not depend on unversioned local deps,None,Major
+6e81e6f6f4fc78ccb4c91068da42108b2a927e19,NUTCH-972,Bug,Mergedb doesn&apos;t merge with empty directory  as is the case with merge (for indexes),storage,Minor
+870d868f0ba7a572ce556e90f557b9c946442312,NUTCH-967,Task,Upgrade to Tika 0.9,parser,Major
+337843d6e363b39b2e563561e4eb28192542c74d,NUTCH-975,Task,Fix missing/wrong headers in source files,None,Blocker
+107bf5a2a3f2ab60f38e8d83b678f75c3db8a910,NUTCH-975,Task,Fix missing/wrong headers in source files,None,Blocker
+7acb6c8798618a198de9a1ccc40282ccacfb1115,NUTCH-963,New Feature,Add support for deleting Solr documents with STATUS_DB_GONE in CrawlDB (404 urls),indexer,Minor
+eed2fc844c5814235bf82e1bdb2b71bdbfb3bc8a,NUTCH-963,New Feature,Add support for deleting Solr documents with STATUS_DB_GONE in CrawlDB (404 urls),indexer,Minor
+9272fc6b4e5f9fb91b2bfa1978efb28d055de269,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+ ,NUTCH-825,New Feature,Publish nutch artifacts to central maven repository,None,Major
+bb8625642df06c239ec853badf3c83929d567eae,NUTCH-962,Bug,max. redirects not handled correctly: fetcher stops at max-1 redirects,fetcher,Major
+488aba5cc4a38525483c6ef11c796b7cacc44a0e,NUTCH-921,Improvement,Reduce dependency of Nutch on config files,None,Major
+c3b52bb27d76b96ba153b0e4e5643b1c3e9f28e2,NUTCH-876,Bug,Remove remaining robots/IP blocking code in lib-http,fetcher,Major
+2ed2d7b81f50ecd718d11d0bebb42a3705f20ca8,NUTCH-872,Improvement,Change the default fetcher.parse to FALSE,None,Major
+c4c5b2914b855a040b459f3ac80b07703c370eb1,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+ ,NUTCH-564,Improvement,External parser supports encoding attribute,indexer,Minor
+e48d972429b8e898a34def6c509893db70087afc,NUTCH-964,Bug,ERROR conf.Configuration - Failed to set setXIncludeAware(true),None,Major
+a082800e2e5a8d5949f70b77f1573fbe73ccfd1a,/,/,    Removed unused index.html file and contrib directory,/,/
+66454e4043713c7dded12530d387b579fc5ea84c,NUTCH-957,Bug,fetcher.timelimit.mins is invalid when depth is greater than 1,fetcher,Major
+17fdc291936dac80e4957732cdf7eeb46d0d4b91,NUTCH-824,Bug,Crawling - File Error 404 when fetching file with an hexadecimal character in the file name.,fetcher,Major
+3e960180336a2c8bf9c745186835735c86a1008c,NUTCH-954,Sub-task,Bugfix for Content-Length limit in http protocols,fetcher,Major
+8b232735884acedb3df5976a05d8b66c65430b16,NUTCH-950,Bug,Content-Length limit  URL filter and few minor issues,None,Major
+372dfb29da0b2c2d0ec54b71b1dfee191b8e62c7,NUTCH-935,Improvement,remove unnecessary /./ in basic urlnormalizer,None,Trivial
+7344ba9358eb58067e8164f50ea84a531884b9db,NUTCH-912,Bug,MoreIndexingFilter does not parse docx and xlsx date formats,indexer,Major
+d6d1e2e0fa2ee0cdfa9984f0ea46ac9a0dcd795b,NUTCH-886,Improvement,A .gitignore file for Nutch,build,Trivial
+ ,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+366bea359572a56c4268f5ab8d6d56e8662753f0,NUTCH-930,Improvement,Remove remaining dependencies on Lucene API,None,Major
+ ,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+4412ca47d7c780986c17cc4fcf50c923614f250a,NUTCH-883,Improvement,Remove unused parameters from nutch-default.xml,None,Major
+ ,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+44f313da9a058d30c9e4e72bc72af00547bbb5aa,NUTCH-936,Bug,LanguageIdentifier should not set empty lang field on NutchDocument,indexer,Minor
+8f7c7fffb88b769feef6872ac312926f60378090,NUTCH-855,New Feature,ScoringFilter and IndexingFilter: To allow for the propagation of URL Metatags and their subsequent indexing.,indexer,Major
+f73648c4efbbd29df93382f3fa76de2a6b45da11,NUTCH-855,New Feature,ScoringFilter and IndexingFilter: To allow for the propagation of URL Metatags and their subsequent indexing.,indexer,Major
+d0f099b968668e0d1e00535e49ef19991118254b,NUTCH-901,Improvement,Make index-more plug-in configurable,indexer,Major
+f93d5647602163b922be6bd8c2ca7a5aa566188a,NUTCH-716,Improvement,Make subcollection index filed multivalued,indexer,Major
+dbdd0723ed794c069a39b45bf908128f2b5480ca,NUTCH-905,Improvement,Configurable file protocol parent directory crawling,fetcher,Major
+e27288664b9a8ce4c5f005512310e6b63e2b327b,NUTCH-787,Task,Upgrade Lucene to 3.0.1.,build,Trivial
+f2fd4152b35f091ff8fa008fbae3bb61bdf0a80c,NUTCH-949,Bug,Conflicting ANT jars in classpath ,build,Major
+107508477a6485161eed8ca2d5a3d67a51fa16d0,NUTCH-948,Improvement,Remove Lucene dependencies,None,Major
+224c1cffab10227aac7d2f0abc94f245fef1a2fd,NUTCH-939,Improvement,Added -dir command line option to Indexer and SolrIndexer   allowing to specify directory containing segments,indexer,Minor
+cb6e4d045e8d649530700d3c0e44448e735039cf,NUTCH-935,Improvement,remove unnecessary /./ in basic urlnormalizer,None,Trivial
+985ab8f59f1219503f91fff1ef132a00c29cadf9,NUTCH-912,Bug,MoreIndexingFilter does not parse docx and xlsx date formats,indexer,Major
+771df16604443afbbce351e9240a43dd064b841a,NUTCH-936,Bug,LanguageIdentifier should not set empty lang field on NutchDocument,indexer,Minor
+14e43b4a71dd38365c343ac81f27608dda63dcf8,NUTCH-901,Improvement,Make index-more plug-in configurable,indexer,Major
+9adea98e98b903da5e1dadb4711e0840d9991616,NUTCH-900,Improvement,Confusion in nutch-default between http.content.limit and file.content.limit,None,Trivial
+c4acc8e0651afca49eb52149f1ba86f8bd8506d4,NUTCH-901,Improvement,Make index-more plug-in configurable,indexer,Major
+5c39b8d4106202f06f7b5782452493f77314ddb8,/,/,    Nutch 1.2 release.,/,/
+afc3e91d629d5667a6104bc4264293d4e50cd3d5,NUTCH-901,Improvement,Make index-more plug-in configurable,indexer,Major
+7330d3642964a9fa3565c2dfe03ef3f0b306d398,NUTCH-901,Improvement,Make index-more plug-in configurable,indexer,Major
+1a3b3af9e0b59500f8c1cb8e219c6e5098b05d36,NUTCH-908,Bug,Infinite Loop and Null Pointer Bugs in Searching,None,Major
+4771aae62075996672f8dc5f19c5d276293689f6,NUTCH-906,Bug,Nutch OpenSearch sometimes raises DOMExceptions due to Lucene column names not being valid XML tag names,web gui,Major
+08b38ce79c6384b6b087202a5d96851c3166487b,NUTCH-862,Bug,HttpClient null pointer exception,fetcher,Minor
+39a7aaff6b21a83d2494ea90e1bb73a95f09b51b,NUTCH-862,Bug,HttpClient null pointer exception,fetcher,Minor
+550a5eef330a32985dfd58158a116eb7495640e1,/,/,    Tag 1.2-rc2,/,/
+7a2fd4eef0f3fa81cb7d2b2645d25c226760c742,NUTCH-905,Improvement,Configurable file protocol parent directory crawling,fetcher,Major
+6af78e760626e8aab7a342728fbed6c1c4126a6e,NUTCH-900,Improvement,Confusion in nutch-default between http.content.limit and file.content.limit,None,Trivial
+db795268f94783a9b2ebd84b8c05576b991fa041,NUTCH-877,Improvement,Allow setting of slop values for non-quote phrase queries on query-basic plugin,None,Major
+6a1727ca57d139ffdaf1b1e492752b8a41bc83ec,NUTCH-716,Improvement,Make subcollection index filed multivalued,indexer,Major
+242ed9b787d33b15847702e345f47d09b61923b1,NUTCH-878,Bug,ScoringFilters should not override the injected score ,injector,Major
+2bd1591e4b039a61325d8d0dc6038cfd0c920e2b,/,/,    Nutch 1.2 release,/,/
+f90fa17d4e20b3eb6381eb9abb2ce764199e1658,/,/,    Nutch 1.2 release,/,/
+868b4dd60d08cfe711ce70919b92ff02eb1c1dde,/,/,    Prep for 1.2 RC,/,/
+a67c6703843853b50b5b8783bd1a8f7059ddd5ca,/,/,    Branch and save current Nutch trunk as branch-1.3,/,/
+fec778d7c7ca0f2de93720b5d768b3ac4436ff08,/,/,    - this is about to become branch-1.3,/,/
+2a461083d9093f30c5561cfa5664fc98cb89d7a4,NUTCH-870,Bug,Injector should add the metadata before calling injectedScore,injector,Major
+ab915fb2f8944e07a21c8480ed67b0a977ab4be9,NUTCH-870,Bug,Injector should add the metadata before calling injectedScore,injector,Major
+fc16e95a72d9c6aec27205b83cc17328bc4c7cca,NUTCH-855,New Feature,ScoringFilter and IndexingFilter: To allow for the propagation of URL Metatags and their subsequent indexing.,indexer,Major
+2ac881265fc1ef5fe702c4ed5d3446a8041b7245,NUTCH-858,Bug,No longer able to set per-field boosts on lucene documents,indexer,Major
+1b1153ed47caad551fda072e33f87263c8821905,/,/,    Undo a temporary fix introduced to accommodate parse-tika,/,/
+ ,NUTCH-794,Bug,Language Identification must use check the parse metadata for language values ,parser,Major
+0edfbc611c7a8e9e3a5ea66b0112c8f6718e399a,/,/,    Improvements to Benchmark - produce more detailed stats.,/,/
+6f41716323e00ce88d9897f2b821ea899f1c2d27,NUTCH-869,Improvement,Add back parse-html,parser,Major
+bb4f191f36b08a096c2c766a9eeca9acc488328d,NUTCH-869,Improvement,Add back parse-html,parser,Major
+1bc6a960c4578ad31024b2aa8b45c97597a0457e,NUTCH-863,New Feature,Benchmark and a testbed proxy server,None,Major
+5590eaa1f8f65dc9dc0418877b36408e9a7f5172,NUTCH-863,New Feature,Benchmark and a testbed proxy server,None,Major
+576c15961a95286706f4c7e39912cda4c7efee66,NUTCH-863,New Feature,Benchmark and a testbed proxy server,None,Major
+e2030edd4b5dbf9c519c25897a6b0b0f4c33932a,NUTCH-863,New Feature,Benchmark and a testbed proxy server,None,Major
+141d057643e664734faae4839d9457400ddf09f9,NUTCH-871,Bug,MoreIndexingFilter missing date format,indexer,Minor
+9af14ecb5535bea7b5ef8d3f658fe76b4d2da803,NUTCH-871,Bug,MoreIndexingFilter missing date format,indexer,Minor
+1de50533d5fcef41dde2bc1a8edb2c13874e88dc,NUTCH-696,Wish,Timeout for Parser,parser,Minor
+6a0c40419bc498d47a9b52db6c26533d9c0c1f6b,NUTCH-696,Wish,Timeout for Parser,parser,Minor
+7d23d361b1e25738f9edd34fc2ed0fc15901f256,NUTCH-868,Bug,ParseSegment NullPointerException,parser,Major
+8c59362a43eb95756c0a97d8bbd57a6348d7457a,NUTCH-868,Bug,ParseSegment NullPointerException,parser,Major
+97b1d8396183047a6d2a9b1365c6fb1248b59ac1,/,/,    Fix a silly last-minute error and improve the benchmark.,/,/
+e60eb6e911cd3712ae04f7d4a197cb3ffbb3186c,NUTCH-863,New Feature,Benchmark and a testbed proxy server,None,Major
+85fe3b8bb8726ec114e76080e2de2ffa149d8eae,NUTCH-857,Bug,DistributedBeans should not close their RPC counterparts,None,Major
+e53ece0350b85e6ef6df2919c9d2234fa20530b4,NUTCH-860,Bug,package task fails,build,Major
+ca591b8709739259d8e24b7f272a5859ce599077,NUTCH-855,New Feature,ScoringFilter and IndexingFilter: To allow for the propagation of URL Metatags and their subsequent indexing.,indexer,Major
+8c5e258367454af34b0a3adeb07ac862866dc163,NUTCH-855,New Feature,ScoringFilter and IndexingFilter: To allow for the propagation of URL Metatags and their subsequent indexing.,indexer,Major
+0777aa58df6b7213e867728caa559851ed66d2d7,NUTCH-677,Improvement,Segment merge filering based on segment content,None,Major
+cac66cbbded786d4528be9847233ea30a6149540,NUTCH-677,Improvement,Segment merge filering based on segment content,None,Major
+50e2b3f81b33c097a62246f714d8d6a104aa658e,/,/,    - make this up to date; remove lucene refs; update tutorial links,/,/
+10871906f907bfc84b73079de707efef6949229d,NUTCH-774,Bug,Retry interval in crawl date is set to 0,fetcher,Major
+5463a41dc4d3e61841a98b5bc142b7b5d22cd6ee,NUTCH-774,Bug,Retry interval in crawl date is set to 0,fetcher,Major
+7ca12b1f2710d0fbfa65d2814eaf1803dbe307b8,NUTCH-697,Improvement,Generate log output for solr indexer and dedup,indexer,Trivial
+64f74c971772f08feb1d6f19db7edbe75fa41953,NUTCH-697,Improvement,Generate log output for solr indexer and dedup,indexer,Trivial
+5e690a608d3a70f3b05e8d2ffd934f54a5c45ea9,NUTCH-853,Task,Remove unused parameter files from conf/ ,build,Major
+e0a017f1d6f78529799142280ef04fc2d6992e5e,NUTCH-844,Improvement,Improve NutchConfiguration,None,Major
+8e611de9dacf10a70de381ad353f45a4f70c5c55,/,/,    cleanup commands which have been already removed in 2.0,/,/
+7d79b14955ed4364e8ef19e482982b78088f783a,NUTCH-848,Bug,Error when calling &apos;nutch solrindex&apos; in deployed configuration,None,Blocker
+3d5f0cde474c91edb444eeba7d465940ccb1619c,NUTCH-847,Bug,Wrong version of SOLR in Ivy.xml,indexer,Major
+6e7b5eaef543fc5c591af97eab159497619953c9,NUTCH-850,Bug,SolrDeleteDuplicates needs to clone the SolrRecord objects ,indexer,Major
+89986ead459e95e8aadac55952115ea3d976ed88,NUTCH-850,Bug,SolrDeleteDuplicates needs to clone the SolrRecord objects ,indexer,Major
+783f857cf4c64a10dfa511e3f0b61b9fc122076a,NUTCH-843,Improvement,Separate the build and runtime environments,build,Major
+71a41c6d2a28819222cf217789ad6e11375ba35c,NUTCH-847,Bug,Wrong version of SOLR in Ivy.xml,indexer,Major
+48cf56616d70ec4f1bcd8a9af6e60357a95bf0ee,NUTCH-847,Bug,Wrong version of SOLR in Ivy.xml,indexer,Major
+f39c9d58eca99ff5b9b9c0fc2e4da8594a9f6463,/,/,    Copy-paste error...,/,/
+8707be945416f81e55bd879053de014b308ac234,NUTCH-845,Bug,Native hadoop libs not available through maven,build,Major
+8ae4941bafe7ac8152e42cff91e7f7019a34a18f,NUTCH-834,Task,Separate the Nutch web site from trunk,documentation,Major
+d92d7317384076837d48fb5a8148a1ace1526260,NUTCH-843,Improvement,Separate the build and runtime environments,build,Major
+c3637695b52705ba62501cd275d38074446525d1,NUTCH-821,New Feature,Use ivy in nutch builds,build,Major
+d8074ebc0c105774f5277964e101d8f40cbbe468,NUTCH-821,New Feature,Use ivy in nutch builds,build,Major
+c13525909614ea3d5d8c7a703b3361f6bbbaffab,NUTCH-821,New Feature,Use ivy in nutch builds,build,Major
+9b699860a915e3142798445b31067891dfdd4488,/,/,    Fix 'ant package' target.,/,/
+fd7758bdb963f08a7f184bb2981e5a02e1c91ef6,NUTCH-838,New Feature,Add timing information to all Tool classes,parser,Major
+3bf7de69a6abfb5e7c8e25b2aaa13414d68257a1,NUTCH-838,New Feature,Add timing information to all Tool classes,parser,Major
+1b4ed9dc73b97ebc4d28395c53834fed8bbf33f4,NUTCH-837,Task,Remove search servers and Lucene dependencies ,web gui,Major
+be790fc5bae157e79058df782f249b22d8dbdccd,NUTCH-836,Task,Remove deprecated parse plugins,parser,Major
+cc2ace2f540f23303f9c115e48dab973f0e479dd,NUTCH-836,Task,Remove deprecated parse plugins,parser,Major
+920c5506257b4be0f9b8591e55ded5508252a515,/,/,    Merge from trunk rev. 959629.,/,/
+8392ef63df8f2a038169e0f645a3d482294e0202,NUTCH-835,Bug,document deduplication (exact duplicates) failed using MD5Signature,None,Major
+64b20b912df14fed5954614ed73d08fe922c8828,NUTCH-834,Task,Separate the Nutch web site from trunk,documentation,Major
+db5947b96bd390a182b503f7b76d9fb9d0ec5d0b,NUTCH-831,Improvement,Allow configuration of how fields crawled by Nutch are stored / indexed / tokenized,indexer,Minor
+01e97d75ba0bde7ced4b9ef734ecfa032f412b3f,NUTCH-831,Improvement,Allow configuration of how fields crawled by Nutch are stored / indexed / tokenized,indexer,Minor
+506ad9c6318cddecff9c19216a6ac2b31d542361,/,/,    step (e) from Chris's plan: roll the version # in nutch trunk to 2.0-dev,/,/
+7956daee8ac91180070f92949ecf99deae9b5ef0,/,/,    Prepare for Nutch 1.12 RC#1,/,/
+1604cab7fad59ec4564e1e5f95ce889a5e29cb24,/,/,    Prep for Nutch 1.12 release,/,/
+506540da36c24e92e7cb40cc99215a487f5882b0,/,/,    Prep for Nutch 1.12 release,/,/
+240d7f8e12f7e9b4e9cecd98974b3ca3602cbaa7,/,/,    Prep for Nutch 1.12 release,/,/
+da252eb7b3d2d7b7021480db3bec1d82e6fa564d,NUTCH-2263,Improvement,Support for mingram and maxgram at Unigram Cosine Similarity Model,scoring,Minor
+956538984f20580ffa2350e2fc6319499a120ae9,NUTCH-2248,New Feature,CSS parser plugin,plugin,Major
+6b8586a47ef0ee52ad220f2763d5d9082e69070f,NUTCH-2248,New Feature,CSS parser plugin,plugin,Major
+83890f2af33763ac7fbb1e0c1d26db03449fca3a,NUTCH-2248,New Feature,CSS parser plugin,plugin,Major
+dce7a28c70297208c0d86a572f4c232120e72018,/,/,    Fix compilation errors for CommonCrawlDataDumper,/,/
+71f0471b8e20774f241560440359b8b4702fbac4,NUTCH-2252,Improvement,Allow phantomjs as a browser for selenium options,protocol,Trivial
+7f211ecdc38b15c957be8dd1bb528f40d9218abc,/,/,    Merge and resolve conflicts with Nutch-2252,/,/
+37458a93e27a8c4562d34e83248549e064b07617,/,/,    Record entry for GitHub-106: Option to include inlinks in commonscrawl dump contributed by thammegowda.,/,/
+04d203ad4d8fa66eab5f1bff53eedfe68b2d5310,/,/,    Merge branch 'ccdump-inlinks' of https://github.com/thammegowda/nutch into inlinks,/,/
+f5adbcc3c3bb447110b6733e0851b931e57465c3,/,/,    Code style :  2 spaces instead of tabs,/,/
+298cffc4927eabf310ff65dd57847010ebb8f7f1,/,/,    Fix code format issues,/,/
+0e03daf1139a1a8465d6e2a6b54490e2dfc2a9ef,/,/,    Inconsistent log level,/,/
+6d2bfa98635d8055d56dbe2597efc953f420ed5a,NUTCH-2254,Bug,Charset issues when using -addBinaryContent and -base64 options,indexer,Minor
+a08804913c500b331c9296996ce1ba3d4929d3a8,/,/,    Handling duplicate inlinks,/,/
+6ff1ecbbb8527f760a81a316ffa6ae5b823f980a,/,/,    option to inlcude inlinks in commons crawl dump,/,/
+8572fd9551b430f31a4fdace14738f2d9959b370,NUTCH-2191,New Feature,Add protocol-htmlunit,protocol,Major
+044e8e77e015df051d0345927eca4fa5f38527fd,/,/,    fix conflicts in CHANGES.txt,/,/
+d6bcefd926dffb02d8f6ebfebad8adeea31e8f50,NUTCH-2250,Sub-task, CommonCrawlDumper : Invalid format + skipped parts,commoncrawl,Major
+d953b96f93bcfa3a8644b753c73a34f60675b427,/,/,    added documentation about tested options for selenium & broswer pairings,/,/
+521e325c7509f6afd5c9d8f7bf83afedc232ed9d,/,/,    allowing phantomjs to use the grid,/,/
+7a7362c141155d8fe163667328be204b1f592488,/,/,    added the PhantomJS lib and the calls,/,/
+5d05f2806c2281d82d362ab3993bf0c4d3e12403,/,/,    updated the config options to indicate PhantomJS browser can be used,/,/
+bd9b8afea3c9d2734199138ae7c0c8e9ba9d6c2a,/,/,    updated the documentation accordingly,/,/
+47cc4e27a41a78753ed431685010da1987bca269,NUTCH-2250,Sub-task, CommonCrawlDumper : Invalid format + skipped parts,commoncrawl,Major
+60e5a0e626c50244588db2b097490c816ed1aa3e,NUTCH-2248,New Feature,CSS parser plugin,plugin,Major
+b62f43fda3648bd7a37da550a180c3da5a1e3986,NUTCH-2245,New Feature,Developed the NGram Model on the existing Unigram Cosine Similarity Model,scoring,Minor
+2c42680823079faf87705df4d0698dcf8b43ef66,NUTCH-2245,New Feature,Developed the NGram Model on the existing Unigram Cosine Similarity Model,scoring,Minor
+f52935994dec9468edf6087c5e11b3d9ed2517b1,NUTCH-2191,New Feature,Add protocol-htmlunit,protocol,Major
+3cda222971c970270dcc7525b97dfffe4b818ced,NUTCH-2191,New Feature,Add protocol-htmlunit,protocol,Major
+366104d169ec566004c0c1522b8ee39bc692b86d,NUTCH-2191,New Feature,Add protocol-htmlunit,protocol,Major
+fa33472297aca6a6468461bb6945225c93590d6d,NUTCH-2191,New Feature,Add protocol-htmlunit,protocol,Major
+a9b2491a365a8fbe4ff0750dd99e3f165735152d,NUTCH-2241,Bug,Unstable Selenium plugin in Nutch. Fixed bugs and enhanced configuration,protocol,Major
+230693d6dc648f587e88e59817eea934166c9247,NUTCH-2241,Bug,Unstable Selenium plugin in Nutch. Fixed bugs and enhanced configuration,protocol,Major
+a3e7420494304bc4de7ee1a0b25a5158108856f5,NUTCH-2213,Bug,CommonCrawlDataDumper saves gzipped body in extracted form,dumpers,Critical
+12fc121ce66c2e1795d0206dfe394365eeee5fad,NUTCH-2213,Bug,CommonCrawlDataDumper saves gzipped body in extracted form,dumpers,Critical
+15c583e22437dcde4ec711ef0634614fcf077409,NUTCH-2144,New Feature,Plugin to override db.ignore.external to exempt interesting external domain URLs,fetcher,Minor
+906237ab6136a9118278430490a7e6914d69b286,NUTCH-2144,New Feature,Plugin to override db.ignore.external to exempt interesting external domain URLs,fetcher,Minor
+9a284c0d6d2aec86b00016a8abeddc07e5292ee9,/,/,    Add a sample config,/,/
+2015703cfd32cae98b14d2fd6af5ac4396237c48,NUTCH-2144,New Feature,Plugin to override db.ignore.external to exempt interesting external domain URLs,fetcher,Minor
+f5e430e557cc3768261ab86617b1b1589e120d92,/,/,    fix unit test: CrawlDbFilter stil writes reduce output dirs as part-00000 (not part-r-00000),/,/
+756f2a1c88d638f21515ec472088d8f504d12d44,NUTCH-1712,Improvement,Use MultipleInputs in Injector to make it a single mapreduce job,injector,Major
+0baca7a966dd1031c80caa5e8e4a3e855c1f358e,/,/,    update tests to reflect change of reduce outputs by new API (part-nnnnn -> part-r-nnnnn): all unit tests pass now,/,/
+288dceedb7de28457878eecb03a571d082a48cc2,/,/,    add unit tests based on MRUnit,/,/
+3c691eb2823cb85c9ffe95e9212ce7ac0e564709,NUTCH-1712,Improvement,Use MultipleInputs in Injector to make it a single mapreduce job,injector,Major
+25e879afc9c48981e3daccb055b5389799fae464,NUTCH-2231,Improvement,Jexl support in generator job,None,Major
+9e640679aa0f4b2c79490785222fd015a79595f1,NUTCH-2231,Improvement,Jexl support in generator job,None,Major
+af49ac4d2ee9f55d858a45429381bc94c3ab1cb0,NUTCH-2232,Bug,DeduplicationJob should decode URL&apos;s before length is compared,crawldb,Major
+f7236dfb0092bd0488c728d370741ab14f69ef4e,NUTCH-2229,Improvement,Allow Jexl expressions on CrawlDatum&apos;s fixed attributes,crawldb,Major
+d52526dd84fc141d98910b596897e4c06a012a15,NUTCH-2227,New Feature,RegexParseFilter,parser,Major
+1aa67f78199b4d941f10a82dc6b3504d1b4ea49f,NUTCH-2221,Improvement,Introduce db.ignore.internal.links to FetcherThread,fetcher,Major
+40412a26a411778e2707fd096c714ee22d2fe70d,NUTCH-2220,Task,Rename db.* options used only by the linkdb to linkdb.*,linkdb,Major
+b3a6fb3d950d1128fe2caf26faf557cef3d3b615,NUTCH-2228,Bug,Plugin index-replace unit test broken on Java 8,indexer,Blocker
+a8c8aa74baf458b20355474f608e25f8e3918d9f,NUTCH-2219,New Feature,Criteria order to be configurable in DeduplicationJob,crawldb,Major
+ead7dde0e92a593d85124001c06232e8bce2c526,NUTCH-2218,Improvement,Switch CrawlCompletion arg parsing to Commons CLI,util,Minor
+e4f893f36fb808be04a96aea4f5fcd160d1b878f,NUTCH-2218,Improvement,Switch CrawlCompletion arg parsing to Commons CLI,util,Minor
+5c632f73ed28874aa0e6aeb642301f28ba303e56,NUTCH-2223,Bug,Upgrade xercesImpl to 2.11.0 to fix hang on issue in tika mimetype detection,parser,Major
+b895a9a48c84c0463123b5f62b4b3cb8a88fcd1e,NUTCH-2224,Bug,Average bytes/second calculated incorrectly in fetcher,fetcher,Trivial
+ecce5ab72371466fc4e181a1a1b36d1924c56b04,NUTCH-2225,Bug,Parsed time calculated incorrectly,None,Trivial
+5784b64a5d75559e6e909d0a661feeb0ae089a9f,NUTCH-961,New Feature,Expose Tika&apos;s boilerpipe support,parser,Major
+f2f2ed65b00e707dc72d2d34acf2d0c88cff242e,NUTCH-1233,Improvement,Rely on Tika for outlink extraction,parser,Major
+e2852562ef66840256f4b5e6741174d69194f8e1,NUTCH-2210,Task,Upgrade to Tika 1.12,None,Major
+a39868de6e07be65584643d027e47df88731c518,NUTCH-2209,Improvement,Improved Tokenization for Similarity Scoring plugin,scoring,Major
+ba86ddfcc2431ae41accd8f56cc4ffcba16d1cc3,NUTCH-2213,Bug,CommonCrawlDataDumper saves gzipped body in extracted form,dumpers,Critical
+72ad76184d212a07842fc06d555a631e849a038d,NUTCH-2211,Task,Filter and normalizer checkers missing in bin/nutch,None,Trivial
+156f86d308a9abc8914ce1ea048788718568d667,NUTCH-2197,Improvement,Add solr5 solrcloud indexer support,indexer,Minor
+c2b8299f43ee264f9f9c5a8f51937e479b517e9f,NUTCH-2206,Bug,Provide example scoring.similarity.stopword.file,scoring,Major
+823d3a1faf4abcc13e0443ea537461998f9fd9eb,NUTCH-2206,Bug,Provide example scoring.similarity.stopword.file,scoring,Major
+bf65d2f0eb0e26823ef9c7dbad1e4f49b31d581b,NUTCH-2204,Improvement,Remove junit lib from runtime,build,Trivial
+5f4a293245becafbe756130cc2d79c09971bbbfe,NUTCH-2204,Improvement,Remove junit lib from runtime,build,Trivial
+8bc61c6512cebbef5e5655ccd76b10741fbb8288,NUTCH-2201,Task,Remove loops program from webgraph package,None,Minor
+0484768da1263db2d9229213254d3b7bb2ee9b28,NUTCH-1325,New Feature,HostDB for Nutch,hostdb,Major
+5e90638b979092fa583e13dca580cc4d783f8d53,NUTCH-2203,Bug,Suffix URL filter can&apos;t handle trailing/leading whitespaces,None,Trivial
+80da5d782b7a406cb6108897dfc15644528b8e43,NUTCH-2194,New Feature,Run IndexingFilterChecker as simple Telnet server,None,Minor
+e34f1ff5b0ab2afd7b224e495dd22c971c69e9b6,NUTCH-2196,Improvement,IndexingFilterChecker to optionally normalize,None,Trivial
+51e6704fc27b085e80dd1c1ac12ad45a635c2307,NUTCH-2195,Improvement,IndexingFilterChecker to optionally follow N redirects,None,Trivial
+f4278e4c174ed0b54d7df87bad1aedb47f663cbd,NUTCH-2190,New Feature,Protocol normalizer,crawldb,Major
+bfee8174b1b43ae45045bc8d76b32e477e04b1f5,NUTCH-2190,New Feature,Protocol normalizer,crawldb,Major
+c73707eb22a1a57f6bf89127f33942c07a3ef6fc,NUTCH-1838,New Feature,Host and domain based regex and automaton filtering,None,Major
+c93c24d28133418eac82d6fecbfd3c732d6037c2,NUTCH-2178,Improvement,DeduplicationJob to optionally group on host or domain,None,Major
+43397749996686d741f2516ef5b46430b357b868,NUTCH-1449,Improvement,Optionally delete documents skipped by IndexingFilters,indexer,Minor
+ff137169fc0134fc1f402fadfd6b3010f9a47a9a,NUTCH-2189,Bug,Domain filter must deactivate if no rules are present,None,Major
+c0d94907ea4e1f11f90deb2cd8a9b5595388ef2f,NUTCH-2182,Improvement,Make reverseUrlDirs file dumper option hash the URL for consistency,tool,Major
+fa4ebb821b722a6d974afb78c23cf292436c8489,NUTCH-2183,Improvement,Improvement to SegmentChecker for skipping non-segments present in segments directory,segment,Major
+21be23120e8a0c789c809706dd3368f4f4442c05,NUTCH-2180,Bug,FileDumper dumps data  but breaks midway on corrupt segments,dumpers,Major
+167ba46cf545f5e1eed089f11c1c19e948c0baa6,NUTCH-2042,Bug,parse-html increase chunk size used to detect charset,parser,Minor
+c92d3de9a7582934effae0564ebf2a2543997ca2,/,/,    Update Nutch trunk for new development: 1.11 -> 1.12,/,/
+a2051a2bca408c89233d50a8727cb3c3452c4303,/,/,    Update Nutch trunk for new development,/,/
+b5fa3a811457223e60ece5f31e7d4a6c045a8586,NUTCH-2172,Improvement,index-more: document format of contenttype-mapping.txt,metadata,Minor
+0277fc797fa427e629116c09a811bf00318b093a,/,/,    Fix KEYS for lewismc,/,/
+48a7639be9aaa775b84c0e272753618cfc441d0b,/,/,    Update documents in prep for Apache Nutch 1.11 RC#2,/,/
+a52193dbb9390436140bd781b3e36c84d05aba8f,NUTCH-2176,Bug,Clean up of log4j.properties,None,Trivial
+188962e1328a579597b62b2da9193ed60864620a,NUTCH-2107,Improvement,plugin.xml to validate against plugin.dtd,plugin,Trivial
+f4c063ff59ee05aee05de7098da705b38fad2a39,NUTCH-2177,Bug,Generator produces only one partition even in distributed mode,generator,Blocker
+c318f58303ebe1cbe880c888bddd946e09bd0d7c,/,/,    (Trivial)nutch-default: mentioned AdaptiveFetchSchedule in description of scheduling class config,/,/
+1cfd482e9103b0a4496f7e001959637165e42da9,NUTCH-2158,Task,Upgrade to Tika 1.11,parser,Major
+6176d5f2ad808f1dfa24dea2501bb738804ff3fd,/,/,    Fixed minor issue with description for elastic.port config,/,/
+5aea6674041f34b5042291175bcc8c07e0955c47,NUTCH-2175,Improvement,Typos in property descriptions in nutch-default.xml,None,Trivial
+93b68ebbc260ff8f886f6c31dd126964b72f8547,NUTCH-2069,Improvement,Ignore external links based on domain,parser,Major
+b511a22a1c2098ec7fb6b8ea3daae55f7a31b0de,NUTCH-2173,Bug,String.join in FileDumper breaks the build,tool,Major
+495d92a68eefec264d5388e65b980d0fb5700987,NUTCH-2166,Improvement,Add reverse URL format to dump tool,tool,Major
+7f0f45c7d68c90103abd7c16a1186fc6424cc7f2,NUTCH-2157,Improvement,Parent Issue for Addressing Miredot REST API Warnings ,REST_api,Major
+bad4d3bd675dcd84312863a448c0a1e30634b2e3,NUTCH-2165,Bug,FileDumper Util hard codes part-# folder name,tool,Major
+5a919183be790beb15e7f2bcc4118b450b14f1c3,NUTCH-2167,Sub-task,Backport TableUtil from 2.x for URL reversing,tool,Major
+f08c4f8bb387b792e4bce5cd32e62d7edc6958ba,NUTCH-2167,Sub-task,Backport TableUtil from 2.x for URL reversing,tool,Major
+f41ffc03a5cc7f7722fe80e1d01cf82df571be47,NUTCH-2167,Sub-task,Backport TableUtil from 2.x for URL reversing,tool,Major
+50a0e3d0b3603e2c09ed4044d1ed85a57c09a306,NUTCH-2160,Improvement,Upgrade Selenium Java to 2.48.2,protocol,Major
+a032d202d0949eabbdfe08be93c86e03796cf8bd,NUTCH-2120,Task,Remove MapWritable from trunk codebase,None,Trivial
+8217ac72b4bc9d969aec0f5e04febc037123ff79,NUTCH-2150,Improvement,Add ProtocolStatus Utility,util,Major
+7b87ac998005aad3dab718c15ba5af9953d9332a,NUTCH-1911,Bug,Improve DomainStatistics tool command line parsing,util,Trivial
+dc0210b86b41acd9a7a30003e9131cacc9f094d3,NUTCH-2155,Improvement,Create a &quot;crawl completeness&quot; utility,util,Major
+ed76030117cc17e15be35bda83ad30f5248af5fd,NUTCH-2064,Bug,URLNormalizer basic to encode reserved chars and decode non-reserved chars,None,Major
+28d9fdab0dacf88a58f8b8b9989f962d89e202e0,NUTCH-2159,Bug,Ensure that all WebApp files are copied into generated artifacts for 1.X Webapp,web gui,Blocker
+d61c0b6bf0c56820efdfa1190a66557ca9a0e79e,/,/,    Add new License Key for Miredot and fix formatting for mvn.template,/,/
+610acbf98b887752a0436a7eeba2bc67e886ed0d,NUTCH-2154,Bug,Nutch REST API (DB) suffering NullPointerException,REST_api,Minor
+7906c269401170a8a498f8cb079eaf414180af93,NUTCH-2150,Improvement,Add ProtocolStatus Utility,util,Major
+8cacfbd1ac33f9a57c181ca65f793340ca5c86c6,NUTCH-2146,Bug,hashCode on the Outlink class,parser,Minor
+56cab894436348e7fbb9bbc8f5ff014bd73fdc20,NUTCH-2155,Improvement,Create a &quot;crawl completeness&quot; utility,util,Major
+af65aac660e70ce6f4646421334965c876a95f34,NUTCH-1988,Improvement,Make nested output directory dump optional,dumpers,Minor
+ce423d71bd15ec1e3abec0883db27249d7f27d9a,NUTCH-1800,New Feature,Documentation for Nutch 1.X REST API,REST_api,Major
+895ff047d13e4e3fecd99bd62463a67d69545ed9,/,/,    Prep for 1.11 release candidate #1.,/,/
+5b1965e64511d38877fd68d428bc3047ab7cde25,/,/,    Prep for 1.11 release candidate #1.,/,/
+252eb2a87c219c90fe9a3072234e1efdeb1bfd7e,/,/,    NUTCH 2128 - Refactor config endpoint  this closes #81. (Sujen Shah),/,/
+f46ca417fe47a7d9fbb24eff5e462c4b40d5ae0d,NUTCH-2149,New Feature,REST endpoint to read Nutch sequence files,REST_api,Major
+74c3ce8a6560caac99f5f6b3e37b1e8285b30a4b,/,/,    Updating javadoc for the index-links plugin  this closes #78,/,/
+88afa2775c24fa92d781ae9eeea92ef2797c04e2,NUTCH-2139,Improvement,Basic plugin to index inlinks and outlinks,plugin,Minor
+da6f381e8b745002e6ab7ea79e5b7a9dd8a8cd66,NUTCH-2148,New Feature,Review and update mapred --&gt; mapreduce config params in crawl script,bin,Major
+a8b4a5265b7ada1f09f99803e5d63f93b4f33e75,/,/,    Tickle to close #75.,/,/
+401433e3742bdd88298b0f7e19a5b1bf47f8aa85,NUTCH-2141,Improvement,Change the InteractiveSelenium plugin handler Interface to return page content,plugin,Major
+80c15661ad234bb7a2e7caae6b1835caa695d7ed,NUTCH-2129,Improvement,Track Protocol Status in Crawl Datum,None,Major
+c734ac0aa0cde48bf8016276c34a55036918e369,NUTCH-2142,Bug,Nutch File Dump - FileNotFoundException (Invalid Argument) Error,util,Major
+322b8d79a2ec2e875467a13a761763c38f6c5721,/,/,    Deleted the old NaiveBayesClassifier.java,/,/
+cc7373e27dd34b4b50a0f800fbfb97f5b1ace87b,NUTCH-2137,Task,add changes.txt and ALV2 headers to the Naive Bayes Parse Filter,None,Trivial
+c92b345f85c93d7bbd081b8faac768a0ed9addd3,NUTCH-2136,Improvement,Implement a different version of Naive Bayes Parse Filter,parser,Major
+a567f4d9f07243480eb482b2c48c50fb851f8237,NUTCH-2108,Sub-task,Add a function to the selenium interactive plugin interface to do multiple manipulation of driver and then return the data,fetcher,Major
+91441e1c606c052ab38da539bc3a3a8b450de76b,NUTCH-2108,Sub-task,Add a function to the selenium interactive plugin interface to do multiple manipulation of driver and then return the data,fetcher,Major
+908378bd140fc2b8ba61117121c6a26d74376877,NUTCH-2124,Bug,redirect following same link again and again   max redirect exceed and went db_gone,fetcher,Blocker
+fd91a6f36f07dc9304c8c4b5e865180ab09cb972,NUTCH-2123,Bug,Seed List REST API returns Text but headers indicate/require JSON,REST_api,Minor
+178299c99b73a5c041f832fa18ac1dc16bf806f0,NUTCH-2086,New Feature,Nutch 1.X Webui ,web gui,Major
+40f2218d772b9c14feab8f377bb49fbaa1fffc65,NUTCH-2086,New Feature,Nutch 1.X Webui ,web gui,Major
+c73a416d64a6675e5423ca13be435e284c408ef0,NUTCH-2121,Bug,Update javadoc link for Hadoop 2.4.0 in default.properties,None,Trivial
+83b1b6e42a892953f6f4c7886d22ff4a48bba28b,NUTCH-2119,Bug,Eclipse shows build path errors on building Nutch,None,Trivial
+3130c36343ebc74cea57f7b57aeea23338bd2c21,NUTCH-2117,Improvement,NutchServer CLI Option for CMD_PORT is incorrect and should be CMD_HOST,nutch server,Major
+2885f6cfad5680fc705e35cfbd294c9e9accf983,NUTCH-2115,Improvement,Add total counts to dump stats,util,Minor
+d385fe6c8640d81938d03876fc24bc1e6a9ee97a,NUTCH-2111,Improvement,Delete temporary files location for selenium tmp files after driver quits,plugin,Major
+5d26a98a748a4b75850a189d06cfae6b150d87ff,NUTCH-2095,Improvement,WARC exporter for the CommonCrawlDataDumper,tool,Minor
+4aabfba9b709b3bd2dc0f2b93ef477050dd51b78,NUTCH-2095,Improvement,WARC exporter for the CommonCrawlDataDumper,tool,Minor
+f0bc7223d75d986a8c76c377d59558a2e75440fd,NUTCH-2102,Improvement,WARC Exporter,dumpers,Major
+3c45bd77ecffd7a7ae1aaae9d74c28f0e6eabdc5,NUTCH-2095,Improvement,WARC exporter for the CommonCrawlDataDumper,tool,Minor
+23c7761aff830db82a1e44b84bf81265639c9a26,NUTCH-2095,Improvement,WARC exporter for the CommonCrawlDataDumper,tool,Minor
+1e63bc1349296c7bd8ffdba6eb9eae53d77051c1,NUTCH-2106,Bug,Runtime to contain Selenium and dependencies only once,build,Major
+b25055e9bfb5edd6df4a705a8664ae97c7cce503,NUTCH-2104,Improvement,Add documentation to the protocol-selenium plugin Readme file re: selenium grid implementation,protocol,Trivial
+c4cb1ac201488ff48bf5b6ab468dea053b02559a,/,/,    Tickle and close #58.,/,/
+a8b4f7d05318e238f2922273ccff1cc8f267d694,NUTCH-2099,Sub-task,Refactoring the REST endpoints for integration with webui,web gui,Major
+5b90bc36922c9e604bc7a0df7209ce4d16b7b2d7,NUTCH-2098,Bug,Add null SeedUrl constructor,REST_api,Minor
+b349b85057266a1782acb6b22a77c3780ef2025d,NUTCH-2093,Bug,Indexing filters have no signature in CrawlDatum if crawled via FreeGenerator,indexer,Minor
+315d7006261f1335d961ade960ec8801ff1dab4b,NUTCH-2092,Sub-task,Unit Test for NutchServer,REST_api,Minor
+49dae14e682bafd0a3b5d4b6e55466084b56008a,NUTCH-2096,Improvement,Explicitly indicate broswer binary to use when selecting selenium remote option in config,plugin,Minor
+67ed5b8aaef6936ab39c3c13182b826282c999ba,/,/,    added eclipse codeformat,/,/
+4b93ace638fa14d77593e8038092116f811849fe,NUTCH-2090,Sub-task,Refactor Seed Resource in REST API,REST_api,Minor
+586c221a5660f57d199e44d47be602f6a9679063,NUTCH-2088,Improvement,Add Optional Execution to Interactive Selenium Handlers,plugin,Major
+01d2f52a220af4d6644d7ba9d8057ed99713eb3d,NUTCH-2077,Improvement,Upgrade to Tika 1.10,None,Major
+7f85442f5ad02b0fea1f7d27de56dd0b2bd318e8,/,/,    CloudSearchIndexWriter : (trivial) prevent NPE in close() when running in batch.dump mode,/,/
+6ac77f9cad7b5650e009d4e761f46e604fa3733b,/,/,    CloudSearch indexer,/,/
+9648acc6de88f7fda5e09e9d2c3d37bd393399b1,NUTCH-2085,Task,Upgrade Guava,None,Trivial
+8cc920d4827d692894eac170515885cf2dbda75c,NUTCH-2084,Bug,Track changes in input dirs for SegmentMerger,None,Major
+23c7ceeb09edb1962832dfee4afd3dc27cfdc1bf,NUTCH-2083,Improvement,Implement functionality to shadow nutch-selenium-grid-plugin from Mo Omer,plugin,Major
+845b922c4c38f54894ac9cf47289614deef38565,NUTCH-2049,Improvement,Upgrade Trunk to Hadoop &gt; 2.4 stable,build,Major
+a67cbc7d99c3b4172e690408f0abc54a098348bc,NUTCH-1486,Improvement,Upgrade to Solr 4.10.2,None,Major
+a661afe90361529072c6386f40bc44eab11b2f72,NUTCH-2059,Bug,protocol-httpclient  protocol-http unit test errors on Jenkins,fetcher,Major
+be139b488b9be9b32342256a94e73a217daf7498,NUTCH-2048,Improvement,parse-tika: fix dependencies in plugin.xml,None,Trivial
+2bc07749bf3ec41971bb3df46b22245bd09af549,NUTCH-2066,Sub-task,Parameterize Generate REST endpoint,REST_api,Minor
+d2dad5d346d3ddc3dc6617133135f8e8bbc3ebb5,NUTCH-2072,Bug,Deflate encoding support is broken when http.content.limit is set to -1,protocol,Minor
+a0e411de74e2f5b8b83f8731cc733b811eb74f9e,NUTCH-2062,Improvement,Add Plugin for interacting with Selenium WebDriver,plugin,Major
+747051e37a8d7ccb94d5c54786b4246755afe55e,NUTCH-2062,Improvement,Add Plugin for interacting with Selenium WebDriver,plugin,Major
+d5db6e379506ae47130e1cde3bc51bd5d6a88001,NUTCH-1785,New Feature,Ability to index raw content,indexer,Minor
+b017487ac9e04ed2f0c2473dff8bfd9a924535df,NUTCH-2063,Bug,Add -mimeStats flag to FileDumper tool,dumpers,Major
+a64ec0c751b18136bbbc49318b0e51b4223d6c13,NUTCH-2021,New Feature,Use protocol-selenium to Capture Screenshots of the Page as it is Fetched,protocol,Major
+197d054e1fe7ffdfdb0342b1b500f719a055360b,/,/,    remove duplicate entries,/,/
+9b181be7dd929b32575d43e4d9c55b8359b10d2e,NUTCH-2058,Improvement,Indexer plugin that allows RegEx replacements on the NutchDocument field values,parser,Major
+b183eeb5a9719be8d2d93767b36acf9b66dc0ee5,NUTCH-2059,Bug,protocol-httpclient  protocol-http unit test errors on Jenkins,fetcher,Major
+82d11a6e4e05de3f7c51f5a494e9bf66497ae679,NUTCH-2052,Improvement,Enhance index-static to allow configurable delimiters,indexer,Major
+6fe59f89d7a56caf5b88a8152df77b6010c52f87,NUTCH-2059,Bug,protocol-httpclient  protocol-http unit test errors on Jenkins,fetcher,Major
+e54a5cee6e6f9ade47367f822eccc44ed0b542b1,NUTCH-2052,Improvement,Enhance index-static to allow configurable delimiters,indexer,Major
+c9a18e26a4d664892f4d1e2cf6ae11c2b0e401f6,NUTCH-1980,New Feature,Jexl expressions for CrawlDbReader,crawldb,Major
+5f606e3e669448b352e522a5f03702a407b5639e,NUTCH-1692,Bug,SegmentReader broken in distributed mode,None,Major
+d38220032503d8319731f41da2eb7dded089d095,NUTCH-1684,Improvement,ParseMeta to be added before fetch schedulers are run,crawldb,Major
+3f650b405e39074f499be190af1ad14a888648b6,NUTCH-2038,New Feature,Naive Bayes classifier based html Parse filter (for filtering outlinks),parser,Major
+f17c11f34fb5743465dd3c793577e3fcf2233899,/,/,    Revert botched commits.,/,/
+d87bb73d8d432fc55615d876a9cccd1521285520,NUTCH-2038,New Feature,Naive Bayes classifier based html Parse filter (for filtering outlinks),parser,Major
+0fcda9a6d3e4ef00347e82294f65fc2be118ced4,NUTCH-2038,New Feature,Naive Bayes classifier based html Parse filter (for filtering outlinks),parser,Major
+0974a914be0442ae23a18fe3f13fb5975ce12d77,/,/,    - fix casing of Cosine dir (to be lowercase),/,/
+ad8b299c62ff9e5654b61778d99107c7aec54519,NUTCH-2038,New Feature,Naive Bayes classifier based html Parse filter (for filtering outlinks),parser,Major
+29626cbb318006bb2d2f791f4d880f513a017e6a,NUTCH-2038,New Feature,Naive Bayes classifier based html Parse filter (for filtering outlinks),parser,Major
+6ec1ff7014f7aaa06582c15324f72f4cd812dbd9,NUTCH-2038,New Feature,Naive Bayes classifier based html Parse filter (for filtering outlinks),parser,Major
+8f0a98458f86a0c4616cdaffc2282011ba0c2f7a,NUTCH-2041,Bug,indexer fails if linkdb is missing,linkdb,Major
+b80945ed43bc24db252b3d109cd7d75b2e639cf0,NUTCH-2016,Wish,Remove unused class OldFetcher,fetcher,Trivial
+e04680d5cb78396eec44a9826609b23c3be08428,NUTCH-2000,Bug,Link inversion fails with .locked already exists.,None,Major
+b14a6d53a4367049773436a7e0bba29ef71c8853,NUTCH-2036,Improvement,Adding some continuous crawl goodies to the crawl script,util,Minor
+a29b0aed67ec697814d147de3efd99300f2029fc,/,/,    Lewis worked on this too.,/,/
+dfc87f35ded6e9fe57759b7cd8dc48e6a2fd250f,NUTCH-2039,New Feature,Relevance based scoring filter,None,Major
+b754b90761743e07cd63dd9e8d8713e631d08371,NUTCH-2037,Sub-task,Job endpoint to support Indexing from the REST API,REST_api,Major
+cbf0725fdc536fc26f85589d2ec876ebfd83ff40,NUTCH-2017,Bug,Remove debug log from MimeUtil,None,Trivial
+8397611b49de4aac408806765191fc796ba4b15f,NUTCH-2027,New Feature,seed list REST endpoint for Nutch 1.10,REST_api,Major
+e071831d61318e9f593b7d248193184b6b3da997,NUTCH-2031,Sub-task,Create Admin End point for Nutch 1.x REST service,REST_api,Major
+16b73c1b8be276d596f4f084804435bd93801dc9,NUTCH-2031,Sub-task,Create Admin End point for Nutch 1.x REST service,REST_api,Major
+0ee4f428e6e8095117617b0a5ce42f4ab6413c50,NUTCH-2015,Sub-task,Make FetchNodeDb optional (off by default) if NutchServer is not used,REST_api,Major
+3999d0f3fccc22f5422c21bbec9f9459ba2c2ee7,NUTCH-208,New Feature,http: proxy exception list:,fetcher,Trivial
+2407466fefa310b48831c24c1fa359e364dc6ea8,NUTCH-2007,Bug,add test libs to classpath of bin/nutch junit,bin,Trivial
+9fc98789bdb1bfa26390367c4cec02ebf012ae10,NUTCH-1995,Improvement,Add support for wildcard to http.robot.rules.whitelist,robots,Major
+dfbda722d168c90ee9a25cdf2294bb63bfc8619d,NUTCH-1995,Improvement,Add support for wildcard to http.robot.rules.whitelist,robots,Major
+3ad6393b75656099ff79ddc57944d758badb6fc6,NUTCH-2013,Bug,Fetcher: missing logs &quot;fetching ...&quot; on stdout,fetcher,Major
+79148ddf1d4d3c913bce8fee4ee64e57bf4c2151,NUTCH-2014,Bug,Fetcher hang-up on completion,fetcher,Critical
+529d32f9a330beff573570a8995e90711bd7395d,NUTCH-1854,Bug,./bin/crawl fails with a parsing fetcher,parser,Major
+ ,NUTCH-1973,Sub-task,Job Administration end point for the REST service,None,Major
+2081ef617969f42727b1dcf8b5539a4b34ab8bee,/,/,    This closes #22.,/,/
+eff9ccb4a47effd3602a0c08fa8ca43d77ddd28e,NUTCH-2011,Sub-task,Endpoint to support realtime JSON output from the fetcher,REST_api,Major
+9debd25ff4c8ac6e6667a381d11edd825150898e,NUTCH-2006,Improvement,IndexingFiltersChecker  to take custom metadata as input,None,Minor
+7fa9cef2d6ba0aefdcf4adfd3af9147bc8d34f21,NUTCH-2008,Improvement,IndexerMapReduce to use single instance of NutchIndexAction for deletions,indexer,Trivial
+a2d65b6552192ab5a361ad507d7eecb1329bed94,NUTCH-1998,Improvement,Add support for user-defined file extension to CommonCrawlDataDumper,tool,Minor
+9c98d62f7d6425efb84ab37b46757730e890d877,NUTCH-1927,New Feature,Create a whitelist of IPs/hostnames to allow skipping of RobotRules parsing,fetcher,Major
+f42f144bc1bf16e7b410ea91cbe9c5556acf94a8,NUTCH-1988,Improvement,Make nested output directory dump optional,dumpers,Minor
+e571a165aaa0441aad704fa67d5af45aa2f8189f,NUTCH-2004,Improvement,ParseChecker does not handle redirects,None,Minor
+473add00cd38019e7185639dfd0ac910a25dc6cd,NUTCH-1873,Bug,Solr IndexWriter/Job to report number of docs indexed.,indexer,Minor
+2c230ddf1a0084273613f5d4a3e247784383273c,NUTCH-1934,Improvement,Refactor Fetcher in trunk,fetcher,Major
+2d84fc4a93b9866557836ae4e9db286ac8b12eba,NUTCH-2004,Improvement,ParseChecker does not handle redirects,None,Minor
+42051857bb33e786442c33bea72597df6537dfeb,/,/,    Prepare Nutch trunk for next release development,/,/
+a03415029f68cfe844ade42d1d3f0e604b13675c,/,/,    Nutch 1.10 release.,/,/
+9de589bf22d16e52723e44d66644f551b7e49c37,/,/,    Push updates for 1.10 release,/,/
+7d8b5e5b5d930e0f31ce28c725d53a275d971e22,/,/,    Nutch 2.0 release.,/,/
+86b927017462fc7371a55a73ffc0f0894b78d354,/,/,    trivial commit to add license header and update schema number,/,/
+5adf67b0ae6d380dfdfe89c09189bb59006ded69,NUTCH-1336,New Feature,Optionally not index db_notmodified pages,indexer,Major
+f94f5725f56ce50b4b8628e30730b38dfbaf7cb0,NUTCH-1346,Improvement,Follow outlinks to ignore external,fetcher,Major
+e2a84f90e4a746f5f62e79a9214010f8c50ccb42,NUTCH-1320,Bug,IndexChecker and ParseChecker choke on IDN&apos;s,None,Major
+a0decd20dfb6699f1b794fb98dc0e428ab2127b5,NUTCH-1351,Improvement,DomainStatistics to aggregate by TLD,None,Minor
+ef3bdd04448793ac02dba92991e69cb387b855c1,NUTCH-1381,Improvement,Allow to override default subcollection field name,None,Minor
+4351c65ffc92ca747bbd8639697194fd74ee670c,/,/,    commit to backport ant tar-src and zip-src config to build.xml,/,/
+7a39871fe94b21859322e67045fd9aeaf38d4924,/,/,    commit to backport release1.5 changes to trunk,/,/
+2e129b177131b4858ba5dbf426491c0516fd6884,/,/,    Nutch 2.0 release.,/,/
+dfc9482dca07067c914e8b122e0fe589e45b6846,/,/,    final commit before rolling 2.0RC,/,/
+3532d6b0133e81ed308b2b235d7ec53931a89e15,/,/,    trivial commit to fix renaming of package targets.,/,/
+e0bf5aad9104bba3f8899c69d5a676ac79ade266,/,/,    commit to add new ant targets to build.xml,/,/
+a748da8ae658b0fc571f659801d82dc7cc760ca3,/,/,    commit to bring code up to scratch with trunk w.r.t preparation for the RC,/,/
+ee0edbc8c1ef4d7ae0f6b601574bb0e9820c5eb3,/,/,    trivial commit to remove duplicate Javadoc config,/,/
+68948f029f094d4ece82f62aa7c11a48c144d4fd,/,/,    fix mvn template,/,/
+a78903091a6d7ae6c42af74f22d1fee12e4bb87f,/,/,    Minor changes to the Maven template,/,/
+841d7ccc1246b1683551f1e2d43898c784c938d1,NUTCH-1364,New Feature,Add a counter in Generator for malformed urls,generator,Minor
+7234cdf961e6d83754bc295cd6798987ebc4cc46,NUTCH-1361,Bug,Fix mishandling of malformed urls in generator job ,generator,Major
+8cc25457ffe443ad078296775e08fb50f587ef43,NUTCH-1361,Bug,Fix mishandling of malformed urls in generator job ,generator,Major
+57998748595b5c1aa8be30dd032d3a31420de28e,NUTCH-1360,New Feature,Suport the storing of IP address connected to when web crawling,protocol,Minor
+d3e997ade730cb2257ee34f5695393fbbe0895bd,/,/,    trivial commit to improve Javadoc,/,/
+0fa7f8dc278a2b1c95e381d5d3ec701d41fa2997,/,/,    trivial commit to address issues with RC,/,/
+5a1200ab16cd389d0bf564b4cd2e1682f55b29fc,/,/,    trivial commit to add parserchecker options to CLI,/,/
+a03fb73bb733c3c885cfd91acaade8c1db52a1d2,NUTCH-1366,Improvement,speed up indexing by eliminating the indexreducer,indexer,Major
+2301f1493732387cbd43b0a872586daece56eee6,NUTCH-1362,Bug,Fix error handling of urls with empty fields ,None,Major
+4f0a4e0b85b1303407c38b7e7f234ac14143016c,NUTCH-1026,Bug,Strip UTF-8 non-character codepoints,indexer,Major
+ac3749c7c05c90f1b160cbf81b97f2673fdd56ad,NUTCH-1358,Improvement,Do not accept bogus arguments,None,Minor
+267eb2e46ca37c01656dd70d3ce139b05c594cce,/,/,    trivial commit to bring gora-accumulo-mapping.xml up-to-date.,/,/
+494a8a159c713118ffdb71ff47a573d258aa8ed5,NUTCH-1349,Improvement,Make batchId explcit within debug logging and improve CLI,indexer,Minor
+4536555cf7b33ab14f066b7553ce7cd6acf05f65,NUTCH-1352,Improvement,Improve regex urlfilters/normalizers synchronization,None,Major
+d8b66090de7c339f8708ad5ebe5d9281dee262f5,NUTCH-1356,Improvement,ParseUtil use ExecutorService instead of manually thread handling.,None,Major
+22ba9c3aa33421e098b0060fd1691b004f14608e,NUTCH-1355,New Feature,nutchgora Configure minimum throughput for fetcher,None,Major
+b45c102054c7034918b5338b7d1786125e8412e3,NUTCH-1354,New Feature,nutchgora support fetcher.queue.depth.multiplier property,None,Minor
+0ef6fa7c8d3876c51456b9932f42ab58c0b34acd,NUTCH-1353,Bug,nutchgora DomainStatistics support crawlId  counter bug and reformatting,None,Minor
+9538868c98beb351c64222f24d9755fd6a97d3b3,NUTCH-1350,Bug,remove unused dependancy because of access restriction,None,Trivial
+21f7f0cf26f0b3ee3c2c5e0f65d4b15714f72fee,NUTCH-1205,Improvement,Upgrade gora modules to 0.2 in ivy/ivy.xml,storage,Blocker
+ea909879d60a41eac1ce05eee2ecd3e75a393a09,NUTCH-1205,Improvement,Upgrade gora modules to 0.2 in ivy/ivy.xml,storage,Blocker
+1e294c11467cbc22e34439f0e606a28277006afe,NUTCH-1205,Improvement,Upgrade gora modules to 0.2 in ivy/ivy.xml,storage,Blocker
+3e44765b7c85b6f316d955403c0e0132a6a8954d,NUTCH-902,New Feature,Add all necessary files and configuration so that nutch can be used with different backends out-of-the-box,storage,Major
+cd0ed80f06777e0bd39e41733b2bb5dd7aab4fa5,NUTCH-1189,Sub-task,add commented out default settings to gora.properties files ,storage,Major
+799a403104e4c6959cce904a720ed12065381817,NUTCH-882,New Feature,Design a Host table in GORA,None,Major
+6db445bf25b881231ef9e691f3dd1e72b6373590,NUTCH-1340,Improvement,Increase scalability by only removing markers when they actually exist for DbUpdaterReducer,None,Major
+0522b37f453811962c61c7bb99c82862a04e4fa0,/,/,    new ANT target for packaging binary release,/,/
+f8acfd20552b74d78c6b9055d286e72d3b5b71f6,/,/,    add 'eclipse' to ignore,/,/
+f068598597d83ea23c04e13b661367517b0da869,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+fc8fdabfd6026e9035aac6785d94283fe49fe7df,/,/,    [maven-release-plugin] prepare release release-1.5,/,/
+dbe727843fa768c09f72ed7e4e13c90dd72cca3e,/,/,    Push back to 1.5-SNAPSHOT for mvn release plugin,/,/
+c84bbb199a466099765e37e4bc646f53a83b0086,/,/,    - prep for 1.5 release candidate,/,/
+3c34bf15e745b02b2f8d915e9c55eddd8c5c846e,NUTCH-1333,New Feature,Introduce AvroStore  DataFileAvroStore and Accumulo Datastore implementations,storage,Major
+878802b50f4a6e84e574871c6cad30a272f376fe,/,/,    comment out TestAPI,/,/
+50ba50dd730a01c58451e8b4b145748eaacf4ce1,NUTCH-1208,Improvement,Don&apos;t include KEYS file in bin distribution,build,Minor
+7f44cdc998117eacc04609008fdac4ce1e2bb387,NUTCH-1234,Task,Upgrade to Tika 1.1,None,Major
+e27a0c1d48294e48514ccc007fc3617278570ad8,/,/,    Downgrading dep from 1.1 to 0.10 again. Nutch fails with Status: failed(2 0): Can't retrieve Tika parser for mime-type text/html for version 1.1,/,/
+c32ae97163b0b6297cd4a462030bd6890b06b8b8,/,/,    Upgrade to Tika 1.1,/,/
+d0d711310f08726ab44c767fbe6448ac07f428a0,NUTCH-1305,Bug,Domain(blacklist)URLFilter to trim entries,None,Minor
+91821db3ac46532925e195ce8f44cd4c4ba19062,NUTCH-1234,Task,Upgrade to Tika 1.1,None,Major
+d18d434a7ad8a1e7f59a1acd8ec3bfcdc024ab99,NUTCH-809,New Feature,Parse-metatags plugin,parser,Major
+a479257feebc3fa7db3aba27b4f44fe58be6c3db,/,/,    rollback to -r1302136,/,/
+0541f4605c6af12097b56d2f6bb8286c6aaee0c1,NUTCH-1273,Sub-task,Fix [deprecation] javac warnings,build,Minor
+4284edffb59fb56fb5c7595151bb45e7a842484c,NUTCH-1273,Sub-task,Fix [deprecation] javac warnings,build,Minor
+95c21405416ed2f864e139f0e772a9cca19376c1,/,/,    incremental update to Javadoc,/,/
+347afb77cd00b2f25d75f45606e8ee401fa6c8fa,/,/,    incremental update to Javadoc,/,/
+29b2ead2095ca3047d4bc9cb1bd1081db5d16e78,/,/,    incremental commit to update Javadocs,/,/
+f69972533e03b0e9f67c577769cb7220d95aba62,/,/,    incremental commit to improve Javadoc.,/,/
+85da88497781762182075ddd000b79d4b45f04a3,NUTCH-1312,Improvement,Nutchgora to send HTTP-accept header,None,Minor
+2563a054ba4511992ec3186d048e0a2d2d0e0318,NUTCH-1310,Bug,Nutch to send HTTP-accept header,None,Major
+0b26f0c11deb103fb0f234b47d6542f69c75692e,NUTCH-1311,Bug,Add  response headers to datastore for the protocol-httpclient plugin,fetcher,Minor
+2a1da06519a3c90941950abb76d75fe7f680b826,NUTCH-1305,Bug,Domain(blacklist)URLFilter to trim entries,None,Minor
+9c9f0b6743cdc85ca172bbb13728e923f5015fb7,NUTCH-902,New Feature,Add all necessary files and configuration so that nutch can be used with different backends out-of-the-box,storage,Major
+147446dda7793e14153c5e9aa53b417313d06b27,NUTCH-902,New Feature,Add all necessary files and configuration so that nutch can be used with different backends out-of-the-box,storage,Major
+409629b6ed5c2fdb431efc696c0c96cfea75f7a2,/,/,    commit to add updated configuration to TestGenerator,/,/
+7337544e587fc11a93fff8896391c538bfb979f9,NUTCH-1304,Bug,GeneratorMapper.java dosen&apos;t return when skipping and already generated mark,generator,Minor
+1e4090ca77a450b54e0555ac0c255f327f4f8509,NUTCH-1307,New Feature,Improve formatting of ant targets for clearer project help,build,Trivial
+01306ff537a1f39364d969dc8cdb435b95bebf4a,NUTCH-1307,New Feature,Improve formatting of ant targets for clearer project help,build,Trivial
+b70bf357fbe85a3be9379380eee71225d95f31b3,NUTCH-1305,Bug,Domain(blacklist)URLFilter to trim entries,None,Minor
+1f6c25eec590b90c17335b243643b882efb649f6,NUTCH-1299,Bug,LinkRank inverter to ignore records without Node,None,Major
+5d358b6bb5fb026c08c9df274504984b3149c9cd,NUTCH-1302,Bug,nutchgora job failures should be noticed by submitter,None,Major
+fc0f38290afe6591a239295a9079afef29408cf0,NUTCH-902,New Feature,Add all necessary files and configuration so that nutch can be used with different backends out-of-the-box,storage,Major
+733e6c1a96670de4233927752dd52fc924e43eff,NUTCH-1298,Improvement,Pass numTasks to FetcherJob,fetcher,Minor
+2207380d9524ae4885c1896b1161167ed6a711b8,NUTCH-1289,Bug,In distributed mode URL&apos;s are not partitioned,fetcher,Major
+9f7cbca8361248e23218e0e386faf469d635967e,NUTCH-1292,Improvement,Better exception logging and debugging during fetch.,None,Trivial
+7f0838608b1e12224397e18b46de622bc5663673,NUTCH-1263,Bug,FetcherJob must put &apos;fetchTime&apos; on input,fetcher,Minor
+2f84cbc1967dbcd0962e0a1fb781ceec4617f863,NUTCH-1296,Bug,nutchgora fetcher does not show correct &apos;threads&apos; and &apos;resuming&apos; properties,None,Trivial
+fddd48871648167754d2cf82b39fc931049b1418,NUTCH-1295,Bug,nutchgora restlet dependencies failing when remote repos is down,None,Major
+04c67ab2669a6c2a903635d23283da7c9e174d97,NUTCH-1258,Improvement,MoreIndexingFilter should be able to read Content-Type from both parse metadata and content metadata,indexer,Minor
+78ce9a6cc378cb477900dd721f80f7b121905884,NUTCH-1293,Bug,IndexingFiltersChecker to store detected content type in crawldatum metadata,None,Minor
+213e3ce41887b944aa167f00b05387cd0e661f82,NUTCH-902,New Feature,Add all necessary files and configuration so that nutch can be used with different backends out-of-the-box,storage,Major
+870d866b4fa62004f552ad7c38467b6d21b25462,NUTCH-1291,Improvement,Fetcher to stringify exception on // unexpected exception,fetcher,Trivial
+b405e4625b92c1fa8ce41704ea7f15f68a1b5be6,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+f21f68001fd1ef247144624c7f2345aae84211f6,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+141de37cdc293ddaa0c832e1363d6c4d21c6a3d1,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+04d387a5d2d6c01493aa245f5d34b8e95994f0c2,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+1dc428529fe75a5f0faa37d345721705931f3623,NUTCH-1210,New Feature,DomainBlacklistFilter,None,Major
+efeaf59e52ba67971558c2697cdaad4c60c55333,NUTCH-1210,New Feature,DomainBlacklistFilter,None,Major
+6893fd2477e96fb73b556606b6f97bd6e2a29a97,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+0bd0d62989bbf75d913aca54ef00261ecea40664,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+ef7088745115fe7326501a92616182ce2fc927ac,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+12c106c6d51920056178907f8a59e1f2409b43fe,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+1065a5f80a987bfdd4f2fa3c64deb90ef11bdf69,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+38d1be3aa1083cc35b5f7f4a4673874eb83d9332,NUTCH-965,Improvement,Skip parsing for truncated documents,parser,Major
+0d687506c307824ddb81c90238b0fb5d612847b6,NUTCH-1287,Improvement,Upgrade to hsqldb 2.2.8,None,Trivial
+37f3040acaf833123f26b7b959c3d8fcd821e635,/,/,    Reverting previous commit and going back to r1291279  sorry guys.,/,/
+b1522f36f78decf18a99b2be2fbf2c185c5ce144,/,/,    Reverting previous commit and going back to r1291278  sorry guys.,/,/
+3435b59901ae676d4810bdbb4781d5fb56ea84b7,/,/,    trivial commit to properly annotate fallthrough scenarios in break statements  hence supressing the warnings.,/,/
+09e3cfb2f53bd774f8e27c9d087e54619064b37a,/,/,    trivial commit to properly annotate fallthrough scenarios in break statements  hence supressing the warnings.,/,/
+9d2bfc032bc01beaa42caa52530da799e180db12,NUTCH-1280,New Feature,language-identifier should have option to use detected value by Tika even when uncertain,parser,Minor
+280912d0b66cc8b49d70c6fd7e01f221833290de,NUTCH-1276,Sub-task,Fix [dep-ann],build,Major
+afe6852199cbfa74d4e60759dd9e3503a5a89d0d,NUTCH-1276,Sub-task,Fix [dep-ann],build,Major
+e5d4c2fdf17bc8d48995cd6f2fecbb1567b79751,/,/,    commit to remove unused  LGPL licensed sqlbuilder library.,/,/
+fb2a50852a154f2f875a2f8893c34646df43cae0,NUTCH-1246,Improvement,Upgrade to Hadoop 1.0.0,None,Major
+866591ef627e8741f47432ddce2879f8e8c160d0,NUTCH-1193,Bug,Incorrect url transform to lowercase: parameter solr,fetcher,Trivial
+a9babcad4bf83717edb5e6a24955f37b034fc958,/,/,    commit to remove jackson dependency from trunk ivy.xml as this is included in hadoop 1.0.0.,/,/
+37058885ba8b9f82acb17dc11a6e21334a384da9,/,/,    commit to address trivial update to crawl.gen.delay description.,/,/
+833d052080dccb213fcfeeed9fa93f24244eda5e,NUTCH-1279,Improvement,Check if limit has been reached in GeneraterReducer must be the first check performance-wise.,generator,Minor
+9b61a587679cb8e061b576ab43c9eb50b09f6c2b,NUTCH-1259,Bug,Store detected content type in crawldatum metadata,parser,Major
+47c4a85bebb6563f1405dad49f434e61fc854d77,NUTCH-1272,Bug,Wrong property name in nutch-default.xml,indexer,Trivial
+c24f262e3640ace2ed49ad8efef412ec9b02b8ff,NUTCH-1259,Bug,Store detected content type in crawldatum metadata,parser,Major
+8a336cc89f3cef0b37ff5c7453d36da2358c8484,NUTCH-1266,Improvement,Subcollection to optionally write to configured fields,indexer,Major
+fa6bbddd845797f8ea93eafb7364ac00f2b8b3d1,NUTCH-1005,New Feature,Parse headings plugin,parser,Minor
+a56db08ecca7f1aaa8f9e6bc2c29bd169a20c1ab,NUTCH-1264,Improvement,Configurable indexing plugin (index-metadata) ,indexer,Major
+53dd302418190d8cd79efe8753b0fddfc204d03e,NUTCH-1242,Improvement,Allow disabling of URL Filters in ParseSegment,None,Major
+73a3c317962d1b112c9eb14aca1a2d115331b50b,NUTCH-1256,Improvement,WebGraph to dump host + score,None,Major
+7ca68d4a1fbe1a1b55bdad3f641d35551f270995,NUTCH-1260,Improvement,Fetcher should log fetching of redirects,fetcher,Trivial
+ddcbf82c1c75f8cf2bd1fa0c0e5cbf60efa0a785,NUTCH-1255,Improvement,Change ivy.xml of all plugins to remove &quot;nutch.root&quot; property,None,Minor
+7a6ddd70c23836ea2295f12b936ed61de34623fa,NUTCH-1255,Improvement,Change ivy.xml of all plugins to remove &quot;nutch.root&quot; property,None,Minor
+d5d9e8708e759c6f49c880b50df04060e0167639,/,/,    commit to add commented out properties to gora.properties.,/,/
+d0dec0295666de457c8dce871c7637f1b3ebe766,NUTCH-1176,Improvement,Fix all javadoc warnings from nightly builds,documentation,Minor
+2228658a38c1add6a4236d46986b72d701372865,/,/,    commit to add trailing ';' to Javadoc import.,/,/
+5623c32e12edca9769538bff21b5942cc03078f0,NUTCH-1176,Improvement,Fix all javadoc warnings from nightly builds,documentation,Minor
+d9ba9e916ed00782922516dd3e8f5af0892a5631,NUTCH-1248,Improvement,Generator to select on status,generator,Minor
+a3d903731b82904f96ece7386c8a4903efa455c1,NUTCH-1177,Improvement,Generator to select on retry interval,generator,Minor
+be48024cb91d6d61120941c07df690a97672426a,/,/,    Upgrade to Hadoop 1.0.0,/,/
+6ab0d1dd16e7d5c585c3efebdb1bf840b0490a42,NUTCH-1189,Sub-task,add commented out default settings to gora.properties files ,storage,Major
+9eeb52325088e39ebf2c43df1287d1410a0954f9,NUTCH-1138,Improvement,remove LogUtil from trunk and nutch gora,None,Minor
+8caa2a1a2db00dea750d500d0de5e892ae02f7c3,NUTCH-1139,Improvement,Indexer to delete documents,indexer,Major
+f083ee6339d8941794e9928b8061a23563d2986b,NUTCH-1244,Improvement,CrawlDBDumper to filter by regex,None,Minor
+533ac7f9416972a8f6d8e064bfe7ae8f151b9a0c,NUTCH-1237,Improvement,Improve javac arguements for more verbose output ,build,Major
+0feae8ecbda72eac4d2a1d5f615d0c358a602d98,NUTCH-1237,Improvement,Improve javac arguements for more verbose output ,build,Major
+ec13eec98c905b5e64015f175f715ed6363222e6,NUTCH-1243,Bug,Junit jar removed from lib,build,Major
+5c669c050333fec02c272cedb413147416982e74,NUTCH-1146,Task,Get rid of _success files in webgraph code,None,Trivial
+943aed79faeec1759a3f617b14f9023ec8b84214,NUTCH-1232,Bug,Remove host  field from index-basic,None,Minor
+ef198ffedc31fb4194dee4aaa4d7acd58b0a6a0a,NUTCH-1239,Improvement,Webgraph should remove deleted pages from segment input,None,Major
+d6f1bc2966279bfc1439a76a1031b822b0bc52b3,NUTCH-1238,Improvement,Fetcher throughput threshold must start before feeder finished,fetcher,Trivial
+901c8e101a7c896f3969f2a9b13271d3060e2989,NUTCH-1238,Improvement,Fetcher throughput threshold must start before feeder finished,fetcher,Trivial
+4b9f2fbdc481916b9e8cc2fa627820f323b8d5be,/,/,    trivial commit to completely remove LogUtil from the codebase.,/,/
+98d14efe8c22934db03aa12d28b31ece46a46c67,NUTCH-1138,Improvement,remove LogUtil from trunk and nutch gora,None,Minor
+7ee1bafd16863ad77bd1c97146b2e5383db6a033,NUTCH-1230,Bug,MimeType API deprecated and breaks with Tika 1.0,None,Blocker
+ ,NUTCH-1231,Improvement,Upgrade to Tika 1.0,None,Major
+fa94bbb537421401a6c3fc19ae376e90bd50e69e,NUTCH-1235,Task,Upgrade to new Hadoop 0.20.205.0,None,Minor
+ce186416ddca53bbdaaf58d7b6e2b04f8c92a0b6,NUTCH-1235,Task,Upgrade to new Hadoop 0.20.205.0,None,Minor
+a8664eb055fff5dc40ec91c93f17706d740b0933,/,/,    Reverting Nutch-1125 CrawlDBScanner,/,/
+d38e6c9863be94658e243a6dde51464acea170e7,NUTCH-1217,Improvement,Update NOTICE.txt to drop some copyrights,documentation,Major
+1dcb7bc41ebb7cdb24d2333835398eb37aab3e5a,NUTCH-1217,Improvement,Update NOTICE.txt to drop some copyrights,documentation,Major
+343d4f5280d610acc79fcf307ff7f3c671636bd9,/,/,    Updated pom to reflect Hadoop upgrade,/,/
+2501c9ebb2dd2df4faff665f5fa69b60c6ad0682,NUTCH-1184,New Feature,Fetcher to parse and follow Nth degree outlinks,fetcher,Major
+aab55eabcd2b6e152f64162ba245b116036902ec,NUTCH-1129,New Feature,Any23 Nutch plugin,parser,Minor
+0686a50fd98dfe22be8916f1306b4c63b95af522,NUTCH-1184,New Feature,Fetcher to parse and follow Nth degree outlinks,fetcher,Major
+75355b93d38a7649cac2ca2a1c78a90ab779501d,NUTCH-1225,Sub-task,Migrate CrawlDBScanner to MapReduce API,None,Major
+ea1c47b881521933cee214f1c9843375bbc21518,NUTCH-1222,Improvement,Upgrade to new Hadoop 0.22.0,None,Critical
+e367ff207e3ec105c97e47baf9dde0769c2100ee,NUTCH-1221,Sub-task,Migrate DomainStatistics to MapReduce API,None,Minor
+62f885553694b460b785b309b92de57ed9b5a484,NUTCH-1216,Improvement,Add trivial comment to lib/native/README.txt,documentation,Trivial
+54812bd84f3948233370648ec95295e37aea813d,NUTCH-1216,Improvement,Add trivial comment to lib/native/README.txt,documentation,Trivial
+2c1a291250044dc3b9fc643e3cae55f70dafe7b9,NUTCH-1214,Improvement,DomainStats tool should be named for what it&apos;s doing,None,Trivial
+af62647b13fd9e7a4423c23d235a7f5687a7a747,NUTCH-1213,Improvement,Pass additional SolrParams when indexing to Solr,indexer,Major
+247061d2b33141483b995a3fb6bac997763c9681,NUTCH-1211,Bug,URLFilterChecker command line help doesn&apos;t inform user of STDIN requirements,linkdb,Trivial
+17301406f55b70970e64dfed42ea115deb2a07f2,NUTCH-1211,Bug,URLFilterChecker command line help doesn&apos;t inform user of STDIN requirements,linkdb,Trivial
+dcbbb147ec67c3dcb400fe47b6fe245a0e2bf040,NUTCH-1209,Bug,Output from ParserChecker Url missing a newline,parser,Trivial
+25847b0e570f8514cccc12e02d39037f4cf83bd0,NUTCH-1207,Improvement,ParserChecker to output signature,parser,Trivial
+95ff255014db623116c6230ffdb37182fa05641f,/,/,    Commit to revert final formatting changes to build.xml. Spacing is now set to single line as oppose to tabs.,/,/
+e00a3a468d5e4dd0260b5a695933ed5eae1ebf4e,NUTCH-1198,Improvement,Less verbose logging when unmapped mimetypes are trying to be parsed.,None,Trivial
+1cf8868ef4ea3ad3da97b114efe2f45613537812,NUTCH-1196,Bug,Update job should impose an upper limit on the number of inlinks (nutchgora),None,Major
+fe543003714eede30fa498f58504fa2f0725328f,NUTCH-1196,Bug,Update job should impose an upper limit on the number of inlinks (nutchgora),None,Major
+937177a351009952aa491c886f0f854525348f4b,/,/,    commit to revert some formatiing which was unintentionally changed during one of my previous committs  a big thanks to Ferdy for pointing this out.,/,/
+658bd5181334b4c37dfd25f8f8b82c5ce9e67c29,NUTCH-1090,Improvement,LinkDb (invertlinks) should inform the user when it ignores internal links,linkdb,Trivial
+d41c4082260086db19b906ad4ddfaeeb0be265b3,NUTCH-1174,Bug,Outlinks are not properly normalized,parser,Major
+8874c82546e011af622d41f8f66809f60585ec10,NUTCH-1203,Improvement,ParseSegment to list ms per record,parser,Trivial
+8b04a0c17a479c2a3c08e0d8899148bc1002804f,NUTCH-1155,Bug,Host/domain limit in generator is generate.max.count+1,generator,Trivial
+d7370ae82bad7b22706539a9e2793e472860f795,NUTCH-1185,Task,Decrease solr.commit.size,indexer,Trivial
+db80639e499e776023ed49b86154c62645aa1938,NUTCH-1185,Task,Decrease solr.commit.size,indexer,Trivial
+3c420450481f2203dd35222289301070930f166f,NUTCH-1180,Improvement,UpdateDB to backup previous CrawlDB,None,Minor
+9ef439c2fc5764ce24ad2664ca68a2107dceff5f,NUTCH-1173,Bug,DomainStats doesn&apos;t count db_not_modified,None,Trivial
+5327e966d2a52513206466844018a78dea0f8de0,NUTCH-1155,Bug,Host/domain limit in generator is generate.max.count+1,generator,Trivial
+fc484ba2bb6c76b3850026974d662e7240e3d861,NUTCH-1061,Improvement,Migrate MoreIndexingFilter from Apache ORO to java.util.regex,None,Major
+71282dbd9b09fbec3bca10aea7e1f01136d2e206,NUTCH-1178,Bug,Incorrect CSV header CrawlDatumCsvOutputFormat,None,Trivial
+e874ce94583770b4aecc7d62d408748f8233439f,NUTCH-1142,Improvement,Normalization and filtering in WebGraph,None,Major
+1f666a3276c8ea51ef3267b61144c3da95f850a1,NUTCH-1153,Improvement,LinkRank must not log all hyperlinks,None,Major
+09fc49a48ef91dc63cc402cfe90aaa7de17208c2,/,/,    commit to assign a unique key to build.xml Ant Sonar task.,/,/
+e1d38c09a40a3393000d73a2bc7528e5809aa5e2,/,/,    commit to update the doap file and to configure a unique key for Sonar ant task.,/,/
+c06999625e4eb1c94dd1afd329dc8832334755b6,/,/,    commit to synchronize Nutchgora branch Sonar target with Nutch trunk one.,/,/
+5d682003e45c711ce87a3340b7e12d2823bd308d,/,/,    - prepare for next development iteration.,/,/
+98b9c869c06135bdae46bbaa9284a7eba67a99b9,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+4fdac71243018ed7b16c80dacd8e1a1eb2f0b4ee,/,/,    [maven-release-plugin] prepare release release-1.4,/,/
+4e33781584bcf5d57182ff22835b9a949dd87e6b,/,/,    [maven-release-plugin] rollback the release of release-1.4,/,/
+011c7ec9b781c92e6e677daf83740505b3f8b9ba,/,/,    [maven-release-plugin] prepare release release-1.4,/,/
+cbd35fffba616121b399ecd68fc461398fb9c9f6,/,/,    [maven-release-plugin] rollback the release of release-1.4,/,/
+ce27a8d4c6655c42388380d460c76ffa33767b14,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+833f315172eaf354f9a60536e23e6e9d1b5f34f0,/,/,    [maven-release-plugin] prepare release release-1.4,/,/
+489187ddf5a74fec512b6029659f606a0fa65fa5,/,/,    - inherit from the Apache pom,/,/
+cc1aadb2df9e15ac308881dafab0429c7f0a8d12,/,/,    - ignority,/,/
+b27f067a5d690d82c39797154a8fd8822c5793c9,/,/,    [maven-release-plugin] rollback the release of release-1.4,/,/
+1684b2c482fc232a9a9e06b970cff6138975bc67,/,/,    [maven-release-plugin] prepare for next development iteration,/,/
+587fa04b4b6ce9e74157519545a04ae95daf98f0,/,/,    [maven-release-plugin] prepare release release-1.4,/,/
+18ae3073809fdf8edeb6a237aafb6c5446a7346a,/,/,    - get the POM ready for the 1.4 release,/,/
+9e3b44b2334bf3ea48081663dd0d65abe40e747b,/,/,    - add Ferdy Galema to pom.xml,/,/
+0eff491d3f957f27ca81ff1144b00c9696f80b44,/,/,    - update release date.,/,/
+ee3d1fadd798daa9a1abde69b00097455a5a7f3c,/,/,    commit to reconfigure ant sonar task  again.,/,/
+c8d163fc103cd60ac8160c3e0f4423c8f2d54815,NUTCH-1195,Improvement,Add Solr 4x (trunk) example schema,indexer,Major
+e7514b2319d267d4cc787918e7ff2f4279134fd5,/,/,    commit to make trivial change to working directory configuration for ant sonar target...,/,/
+5cb699b1c42207aa29be65d64d7681c7ffc81741,/,/,    commit to add MySQL driver classpath to sonar analysis target,/,/
+3e3cd0349831f37fea8032056f28f1000afba006,NUTCH-1172,Test,AbstractNuchTest should have a generic testdir instead of specific &apos;inject&apos; dir,None,Trivial
+659e0c48b6089815196c00f5ff25d6b2d4b4add9,NUTCH-1192,Improvement,Add &apos;/runtime&apos; to svn ignore,None,Trivial
+0c18b61c41729a9949db2ac7eeb6c76b9376631a,NUTCH-1192,Improvement,Add &apos;/runtime&apos; to svn ignore,None,Trivial
+89394d3f075c3a552707bd41d9c43781978bc146,NUTCH-1191,Sub-task,Port NUTCH-1102 to nutchgora - consistent use of fetcher.parse,fetcher,Major
+ ,NUTCH-1102,Bug,Fetcher  rely on fetcher.parse directive only,fetcher,Minor
+f81c46becca010b310aea7e8bceb8686692dc95f,/,/,    commit to add (hopefully) final configuration parameters to ant sonar target,/,/
+eb196e166461174d925fce96c0d3c75d7c30120d,NUTCH-1191,Sub-task,Port NUTCH-1102 to nutchgora - consistent use of fetcher.parse,fetcher,Major
+ ,NUTCH-1102,Bug,Fetcher  rely on fetcher.parse directive only,fetcher,Minor
+947b50c519419ed08906da57ea551a4a4d71f1df,NUTCH-1187,Sub-task,Port NUTCH-1028 to nutchgora - log parser keys,parser,Trivial
+ ,NUTCH-1028,Task,Log parser keys,None,Trivial
+af654a010eace6724b548810961d2420b4f6d0bd,NUTCH-1156,Bug,building errors with gora-hbase as a backend; update ivy.xml to use correct dependancies,build,Major
+6aba123faf17bc2fff290476a1ebde6d724a2be9,NUTCH-902,New Feature,Add all necessary files and configuration so that nutch can be used with different backends out-of-the-box,storage,Major
+e7c4c2e84c0a0d630d046854864d5f507462bd53,/,/,    - prep for 1.4 RC1,/,/
+675e968320fdaa5f8931c0e638c5b794cef23012,/,/,    - prep for RC1: 1.4,/,/
+d06f84acb8dc4c5d11aaa98f721c2e908d7df2be,NUTCH-865,Improvement,Format source code in unique style,build,Major
+ccb70fb0475d5d6f3cb4150eb472f2aa49378faa,/,/,     commit to fix upgrade to language-identifier targets which I missed when addressing a previous commit,/,/
+ca8dd6d9dff645ebf9818ec0f12dc103c9619d40,NUTCH-865,Improvement,Format source code in unique style,build,Major
+c7f4f96abf72da692ff27ef366b9e34bbb42265f,NUTCH-1135,Sub-task,Fix TestGoraStorage for Nutchgora,storage,Critical
+bab68ccaf6e22cd85c35b4d0e65885cb54a22378,NUTCH-1156,Bug,building errors with gora-hbase as a backend; update ivy.xml to use correct dependancies,build,Major
+715fcede94b082e8d0d7fe3bc40fc38c045a95ff,NUTCH-1109,Improvement,Add Sonar targets to Ant build.xml,build,Minor
+0a8dace9503fcef464f0bc4a473b5263ee507f82,NUTCH-1097,Bug,application/xhtml+xml should be enabled in plugin.xml of parse-html; allow multiple mimetypes for plugin.xml,parser,Minor
+e71f40e4bf8c9d8eb417dfe6740f56a07cdab1f3,NUTCH-1097,Bug,application/xhtml+xml should be enabled in plugin.xml of parse-html; allow multiple mimetypes for plugin.xml,parser,Minor
+c68420fdc46e07e7698486046622ada39a89f3b5,/,/,    commit to remove src/plugin/languageidentifer.,/,/
+e1808048e97ce0491c86f9148edbf188c3185da6,NUTCH-623,Improvement,Change plugin source directory &quot;languageidentifier&quot; to &quot;language-identifier&quot;,None,Trivial
+469461c2ed395cf9f868e4ea759f707d4a4477eb,NUTCH-1132,Sub-task,Fix TestGenerator for Nutchgora,generator,Critical
+ ,NUTCH-1133,Sub-task,Fix TestInjector for Nutchgora,injector,Critical
+ ,NUTCH-1134,Sub-task,Fix TestFetcher for Nutchgora,fetcher,Critical
+9da17e8c6c0b45556e96090811932740e9c54028,NUTCH-1154,Improvement,Upgrade to Tika 0.10,parser,Major
+8b53cc099734078c5be10a2f5f6b5ba518f28cc0,NUTCH-1152,Improvement,Upgrade to SolrJ 3.4.0,None,Major
+e990031699b766952918c82474472f4dcac27925,NUTCH-797,Bug,URL not properly constructed when link target begins with a &quot;?&quot;,parser,Minor
+b907c46a8dededf1d226ca31df1cc6c3f1976c00,NUTCH-1154,Improvement,Upgrade to Tika 0.10,parser,Major
+1ecf4653351eb06696d41b73856752ae0db6b0c9,NUTCH-1109,Improvement,Add Sonar targets to Ant build.xml,build,Minor
+1a94dd0db7aa7d94a21d6890a57bf3da8a33492c,NUTCH-1152,Improvement,Upgrade to SolrJ 3.4.0,None,Major
+2ae9d555688620bb483a94a665a815d01133773c,NUTCH-1136,Bug,Ant pmd target is broken,build,Major
+14b1087609cbf7da94093f1afa0e564955bcab89,NUTCH-1136,Bug,Ant pmd target is broken,build,Major
+a4566c0a5ceb04d82da4e6a763b5ea7aab36e69f,NUTCH-1058,Task,Upgrade Solr schema to version 1.4,None,Trivial
+01ca2faae653d3da742295e9f4da619cffff55e5,NUTCH-1058,Task,Upgrade Solr schema to version 1.4,None,Trivial
+077b1cb58f25dde4157e3951440121da30000ae9,NUTCH-1137,Bug,LinkDb / invertlinks: command line arguments ignored,linkdb,Minor
+55f184554a164023ecea5ca094e1131fcd69d49c,NUTCH-1141,Improvement,Configurable Fetcher queue depth ,fetcher,Minor
+f69cf12b83894ba94e0c9f871577da19034d5655,NUTCH-1091,Improvement,Remove commons logging dependency from Nutch branch and trunk,build,Minor
+d8939b7d6ebff949b9125a14678f16394d56a2e4,NUTCH-1078,Improvement,Upgrade all instances of commons logging to slf4j (with log4j backend),None,Blocker
+8d78bd326003cb33534875e512d31b2bccf45068,NUTCH-672,New Feature,allow unit tests to be run from bin/nutch,build,Minor
+b179d2042d7256fcc6bea340c440fc577de51d3e,NUTCH-672,New Feature,allow unit tests to be run from bin/nutch,build,Minor
+a4e1fcec276d04d3c7a4af42788ccfc05f7cc61c,NUTCH-937,Improvement,When nutch is run on hadoop &gt; 0.20.2 (or cdh) it will not find plugins because MapReduce will not unpack plugin/ directory from the job&apos;s pack (due to MAPREDUCE-967),build,Minor
+961d9be9e0173f1bafdc1a61d7e2829964c26185,NUTCH-937,Improvement,When nutch is run on hadoop &gt; 0.20.2 (or cdh) it will not find plugins because MapReduce will not unpack plugin/ directory from the job&apos;s pack (due to MAPREDUCE-967),build,Minor
+03cfcea850fa52e7278f52170cc070c0c4235d5e,NUTCH-623,Improvement,Change plugin source directory &quot;languageidentifier&quot; to &quot;language-identifier&quot;,None,Trivial
+c2433d301c5606589eabd597da01a61b3ce5192d,NUTCH-1131,Improvement,Rely on published artefacts for GORA,build,Major
+02e371c24e6a511669d0d0d1c3fbe16f20022a2f,NUTCH-623,Improvement,Change plugin source directory &quot;languageidentifier&quot; to &quot;language-identifier&quot;,None,Trivial
+0460d89188ec5302f78fa8aef3ab94af54d7cde4,/,/,    Replacing current Nutch (Gora) 2.0 trunk with current Nutch 1.4 dev branch. See: http://s.apache.org/Zld for more information.,/,/
+b9c41ebcc44bdf5e69ac46dfdba32c8ff0315438,/,/,    Branching current Nutch (Gora) 2.0 trunk. See: http://s.apache.org/Zld for more information.,/,/
+caa378ba58a9748d37b2af0e4509549be589e3c1,NUTCH-1074,Bug,topN is ignored with maxNumSegments,generator,Major
+7da4d6e4e488dffb0a29b61b975d8ddf513a1311,NUTCH-1115,Improvement,Option to disable fixing of embedded params in DomContentUtils,parser,Major
+ ,NUTCH-1078,Improvement,Upgrade all instances of commons logging to slf4j (with log4j backend),None,Blocker
+3a7f0f0cbb16b50c841f6e7633f1a8bea6565f19,NUTCH-1078,Improvement,Upgrade all instances of commons logging to slf4j (with log4j backend),None,Blocker
+ae2c38d56c636c35780b4e731240ad776b2a1924,NUTCH-1115,Improvement,Option to disable fixing of embedded params in DomContentUtils,parser,Major
+addea9caeecb88c2cd6159de499c29604c80bfbe,NUTCH-1114,Bug,Attr file missing in domain filter,None,Trivial
+7ea9bd77e367ac65d20541c252f3642add2c6129,NUTCH-1067,New Feature,Configure minimum throughput for fetcher,fetcher,Minor
+4d75bfecd2840605dedca889ad36fd833a7b336a,NUTCH-1067,New Feature,Configure minimum throughput for fetcher,fetcher,Minor
+ ,NUTCH-1102,Bug,Fetcher  rely on fetcher.parse directive only,fetcher,Minor
+2c8e6e80f374de2e63908d8848d7362a0ba66a8f,NUTCH-1067,New Feature,Configure minimum throughput for fetcher,fetcher,Minor
+ ,NUTCH-1102,Bug,Fetcher  rely on fetcher.parse directive only,fetcher,Minor
+b500242ccc53c0f5706fb772a012e82bc07eb88f,NUTCH-1110,Bug,Updatedb must not write _SUCCESS file,None,Trivial
+fef914ad42b1b69ed9f59907ef6678b4b9bb7d65,NUTCH-1105,New Feature,MaxContentLength option for index-basic,indexer,Trivial
+59665eb0a36342089860409243023f0175ca420e,NUTCH-940,New Feature,static field plugin,indexer,Minor
+76d2227efc0133439a9723508906c5aab7301254,NUTCH-940,New Feature,static field plugin,indexer,Minor
+c0e6212d7fd20ab6e063d1066d81bc0d49562a98,NUTCH-1101,New Feature,Options to purge db_gone records in updatedb,linkdb,Major
+477d6bc7f8ea6ffde9ac4f7ae27858af213c9104,NUTCH-1096,Bug,Empty (not null) ContentLength results in failure of fetch,fetcher,Minor
+0e948a52a97bee8ce303fe032fd8b0e326adc8bd,NUTCH-1073,Improvement,Rename parameters &apos;fetcher.threads.per.host.by.ip&apos; and &apos;fetcher.threads.per.host&apos;,fetcher,Minor
+bf37c9d5be139dd83b8f453732c3ca24430ab6d9,NUTCH-1089,Bug,short compressed pages caused Exception  ,None,Major
+78292c907f5bf28989c2cbadf9f4960875312475,NUTCH-1085,Improvement,Nutch script does not require HADOOP_HOME,None,Major
+ecb8693048206be7b750a71d336eb1df8c7c3544,/,/,    Trivial change of log message for Generator,/,/
+b45a9aaf8e3abcc143cd92cff064391f184f5aa6,NUTCH-1075,Improvement,Delegate language identification to Tika,parser,Major
+2a007dac5f0258007ef989d948d405b8fcb1c9a5,NUTCH-1049,Improvement,Add classes to bin/nutch,None,Major
+45f8c542ae542f235fa53821de90af7895721efb,NUTCH-1051,Improvement,Export WebGraph node scores for solr.ExternalFileField,None,Major
+637424c7b489afbce199dc236f656d8adb563990,NUTCH-1083,Improvement,ParserChecker implements Tool,parser,Minor
+9470803a72d861bb3e3dca8f46475bca2b6003dc,NUTCH-1082,Bug,IndexingFiltersChecker utility does not list multi valued fields,indexer,Major
+11db90881a41ca281eb833f2ab6e123ec882f674,NUTCH-1004,Bug,Do not index empty values for title field,indexer,Major
+e3e5194d60f56811d679245fc82e00dc066516d5,NUTCH-623,Improvement,Change plugin source directory &quot;languageidentifier&quot; to &quot;language-identifier&quot;,None,Trivial
+60896556d3b7dd24b613b2e2ac47c1f80e39119f,NUTCH-623,Improvement,Change plugin source directory &quot;languageidentifier&quot; to &quot;language-identifier&quot;,None,Trivial
+ ,NUTCH-914,Task,Implement Apache Project Branding Requirements,documentation,Major
+95b449506b6e70a3a06458e042a16c28adb055ab,NUTCH-1069,Bug,Readlinkdb broken on Hadoop &gt; 0.20,linkdb,Minor
+0d4049e17ce44cd4619d92e54392baddfe056aca,NUTCH-1044,Bug,Redirected URLs and possibly all of their outlinked URLs have invalid scores.,parser,Critical
+33fbd55927aa59f16133aee2d0e227d9c401f7e7,NUTCH-1028,Task,Log parser keys,None,Trivial
+d4be397adf3567307a878e0fb8cbcb347a541feb,NUTCH-1065,Task,New mvn.template,build,Trivial
+9e009d4e10c2bc45b2add0336826663cb430269a,NUTCH-1071,Improvement,Crawldb update to total counts per status,None,Trivial
+f0374bb41c8a203665b2f770844d2e8c324f84e3,NUTCH-1072,Improvement,Display number and size of queues in Fetcher status,fetcher,Trivial
+060ebd4d7f1040d6fb57d7af1debf9d10b302eee,NUTCH-1071,Improvement,Crawldb update to total counts per status,None,Trivial
+792f3e845d02e1c2e439cd2bfaa1204c1d9f8bff,NUTCH-1045,Improvement,MimeUtil to rely on default config provided by Tika,None,Minor
+b541d6efca627863f934f068ed194f0623d06263,NUTCH-1066,Task,trivial correction of domain-urlfilter.txt,documentation,Major
+266678bc58421d1e08f70fae16b51938e850b4ea,NUTCH-1057,Improvement,Make fetcher thread time out configurable,fetcher,Major
+4d7851378e920b2b0f9ae3ce618f71f3b60ed025,NUTCH-1037,Improvement,Deduplicate anchors before indexing,None,Major
+d2d88461705fcae9837866595062015703d8b2f7,NUTCH-1050,Improvement,Add segmentDir option to WebGraph,None,Minor
+759f5a2276438fd8cd5e9c16a07d28c46b4027bf,NUTCH-1055,Improvement,upgrade package.html file in language identifier plugin,documentation,Minor
+66aa8ab457999ba7c8e071118a452c5f35cd3f44,NUTCH-1059,Task,Remove convdb command from /bin/nutch,build,Trivial
+1b2c46f855fe9b39cd2725987cd2dfc859d5444e,NUTCH-1043,Task,Add pattern for filtering .js in default url filters,None,Minor
+7e9726f05c22b8e25c5980c09a05729ed842db94,NUTCH-1054,Task,Make linkDB optional during indexing,indexer,Major
+04db6ec142f9e7460f2e9787de9274a67f061aa1,/,/,    Remove patch file.,/,/
+7a3b71a6f27cfc2baaa7e0cf821680536c394859,/,/,    Remove patch file.,/,/
+c6154c6cef7b6c9582802f0e937f442f0c37035d,NUTCH-1023,Improvement,Trivial error in error message for org.apache.nutch.crawl.LinkDbReader,linkdb,Trivial
+e25742de04548cea10385a8c06adbc621affb624,NUTCH-1019,Improvement,Edit comment in org.apache.nutch.crawl.Crawl to reflect removal of legacy,documentation,Trivial
+6f3c6e5daa9103e0e37642adfb6a30b0d4b0b839,NUTCH-1029,Bug,Readdb throws EOFException,linkdb,Critical
+1e2d53117c6fbfd5ec8027253ddf29f2fa0a6f22,NUTCH-987,Improvement,Support HTTP auth for Solr communication,indexer,Major
+8ed07ed014a5cc9d05f80307c84c15c13459f380,NUTCH-987,Improvement,Support HTTP auth for Solr communication,indexer,Major
+ ,NUTCH-1036,Improvement,Solr jobs should increment counters in Reporter,indexer,Major
+2e614d9f3760184e21069cc2b007dfe4def9f01f,NUTCH-1027,Task,Degrade log level of `can&apos;t find rules for scope`,None,Trivial
+0c3d3bfa8eef4aa0f3380c6bab6c24ea4e5863eb,NUTCH-783,New Feature,IndexingFiltersChecker Utility,indexer,Major
+a502692fedf3002d371f9201c487f000368e6cff,NUTCH-1030,Bug,WebgraphDB program requires manually added directories,None,Minor
+6483e3e4f41ab69f989e0998855c0f5e306bee6d,NUTCH-1030,Bug,WebgraphDB program requires manually added directories,None,Minor
+60f0dbff4e5e7f509a3e98a7a41a93fec9f98d6e,NUTCH-1011,Improvement,Normalize duplicate slashes in URL&apos;s,None,Minor
+32f7cafad67f096f25f01140614ab8906334bef4,NUTCH-993,Bug,NullPointerException at FetcherOutputFormat.checkOutputSpecs,fetcher,Minor
+c21feba8d1b62a77d0f6277ba8ba2a3408c0311e,NUTCH-1013,Improvement,Migrate RegexURLNormalizer from Apache ORO to java.util.regex,None,Major
+b49d01901d25eb9f438299669ad8db48136dd87c,NUTCH-1016,Bug,Strip UTF-8 non-character codepoints,indexer,Major
+73bb9f252909974ad0bea0954c18b10b1b9c51a2,NUTCH-1012,Bug,Cannot handle illegal charset $charset,parser,Minor
+98345c96e38096f14670004335edc134ee3deca8,NUTCH-1000,Improvement,Add option not to commit to Solr,indexer,Minor
+0a613b7693a7d2e15cfd381bcea69491ce1b695a,NUTCH-1022,Task,Upgrade version number of Nutch agent in conf,None,Trivial
+532d4b0abe922367d81fb0a1f2105fe010b3dc64,NUTCH-295,Improvement,More description for fetcher.threads.fetch property,fetcher,Minor
+c738668fd47230fc0988277038c911ac11f15fc9,NUTCH-1000,Improvement,Add option not to commit to Solr,indexer,Minor
+c6e6042eaa2d58c6e4d399e313896a4720b2d744,NUTCH-1006,Bug,meta equiv with single quotes not accepted,parser,Major
+c11e5338bbb48aa07ff5b25e3f8aca6736f6a8b7,NUTCH-1010,Bug,ContentLength not trimmed,indexer,Major
+f968e096a5b2bdba5e1ab0048ff3befd71614e09,/,/,    changed version to 1.4-snapshot,/,/
+073e52f7f8d9ca60d701def3da9f81b7b6f4419f,/,/,    Created new branch for 1.4,/,/
+86187abd5cb3490284b32f64416e4f0b05ab7e20,NUTCH-995,Improvement,Generate POM file using the Ivy makepom task ,None,Major
+955ca31b6107d104158f7bba54f85d71b87b4cca,/,/,    Apply finishing touches from NUTCh-955: Generate POM file using the Ivy makepom task,/,/
+5a2916e3494622e717ce96e9c14e33272ecea0da,/,/,    Upgrade to Ivy 2.2.0,/,/
+e779b1cb0d8445e9a6f092c6f149417f16fcf4d7,NUTCH-995,Improvement,Generate POM file using the Ivy makepom task ,None,Major
+9901f132d9efdef6a55623d7ae29b229819f2e37,/,/,    task 'package' does not reflect the new organisation of the code,/,/
+d9ba6a2719b4233925489679468f8fd963211806,/,/,    CHANGES.TXT : added missing change list for 1.2,/,/
+5ba9a5e5d3d82f518509eec1ba8ff614da3890ef,/,/,    Undoing excessive commit,/,/
+a14c6ea415ca18a0bc72ad393585103d7f7d52d6,/,/,    CHANGES.TXT : added missing change list for 1.2,/,/
+54cd07edfa6ba689e276da46e3564b3a4a5c2075,NUTCH-994,Improvement,Fine tune Solr schema,indexer,Major
+f5031bd832399723b17ce925250df934fd39c8e9,NUTCH-997,Improvement,IndexingFitlers to store Date objects instead of Strings,indexer,Major
+85f295ffecf7bf6986f468b391303a6674334ccd,NUTCH-996,Bug,Indexer adds solr.commit.size+1 docs,indexer,Trivial
+764319aa844874cbb5255945025d646f7ad22a35,NUTCH-888,Task,Remove parse-rss,parser,Major
+2d2322b633fff6105d62e4d9bf8da6b5e813c820,/,/,    Fixed TestParserFactory post Nutch-888,/,/
+e436a260d1b58d090ad4f5fa7dbc88e2e4828861,NUTCH-983,Improvement,Upgrade SolrJ,indexer,Minor
+7156531aa1b76df05c9f720ac2706321f7e2abb9,NUTCH-989,Improvement,index-basic plugin doesn&apos;t use Solr date fieldType,None,Major
+341fba280bf308d704a2c67adf00ecd2a4209f0f,NUTCH-888,Task,Remove parse-rss,parser,Major
+2150e90ab0b1ee474cd8016e04f5973a05db88cb,NUTCH-991,Improvement,SolrDedup must issue a commit,indexer,Major
+e47f7ada80f478eeb77fdd2f1e7b470afd29bed9,NUTCH-986,Bug,Dedup fails due to date format (long),indexer,Major
+40b69ee8ef5fded681dde92cae084fce1785ecb2,NUTCH-986,Bug,Dedup fails due to date format (long),indexer,Major
+6a7965ebc6c53fb82f0c096a3e87d1382b1cf67b,/,/,    Prep for 1.3 release candidate,/,/
+ae0608d14e9f7cb56f4b4064ededd8cb1c8c9bea,NUTCH-977,Bug,SolrMappingReader uses hardcoded configuration parameter name for mapping file,None,Major
+17315263fb3a38ffcf3f8966dec90a04d23ce9bc,NUTCH-976,Bug,Rename properties solrindex.* to solr.* ,indexer,Major
+a657ab07d8d1b899d2b49b5a9d492cda13f6d58b,NUTCH-890,Bug,SqlStore doesn&apos;t work with nested types in Avro schema,None,Major
+9b10e6818055b5a4f89f3a7f4cb1aa2aa088c1a5,NUTCH-891,Bug,Nutch build should not depend on unversioned local deps,None,Major
+6e81e6f6f4fc78ccb4c91068da42108b2a927e19,NUTCH-972,Bug,Mergedb doesn&apos;t merge with empty directory  as is the case with merge (for indexes),storage,Minor
+870d868f0ba7a572ce556e90f557b9c946442312,NUTCH-967,Task,Upgrade to Tika 0.9,parser,Major
+337843d6e363b39b2e563561e4eb28192542c74d,NUTCH-975,Task,Fix missing/wrong headers in source files,None,Blocker
+107bf5a2a3f2ab60f38e8d83b678f75c3db8a910,NUTCH-975,Task,Fix missing/wrong headers in source files,None,Blocker
+7acb6c8798618a198de9a1ccc40282ccacfb1115,NUTCH-963,New Feature,Add support for deleting Solr documents with STATUS_DB_GONE in CrawlDB (404 urls),indexer,Minor
+eed2fc844c5814235bf82e1bdb2b71bdbfb3bc8a,NUTCH-963,New Feature,Add support for deleting Solr documents with STATUS_DB_GONE in CrawlDB (404 urls),indexer,Minor
+9272fc6b4e5f9fb91b2bfa1978efb28d055de269,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+ ,NUTCH-825,New Feature,Publish nutch artifacts to central maven repository,None,Major
+bb8625642df06c239ec853badf3c83929d567eae,NUTCH-962,Bug,max. redirects not handled correctly: fetcher stops at max-1 redirects,fetcher,Major
+488aba5cc4a38525483c6ef11c796b7cacc44a0e,NUTCH-921,Improvement,Reduce dependency of Nutch on config files,None,Major
+c3b52bb27d76b96ba153b0e4e5643b1c3e9f28e2,NUTCH-876,Bug,Remove remaining robots/IP blocking code in lib-http,fetcher,Major
+2ed2d7b81f50ecd718d11d0bebb42a3705f20ca8,NUTCH-872,Improvement,Change the default fetcher.parse to FALSE,None,Major
+c4c5b2914b855a040b459f3ac80b07703c370eb1,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+ ,NUTCH-564,Improvement,External parser supports encoding attribute,indexer,Minor
+e48d972429b8e898a34def6c509893db70087afc,NUTCH-964,Bug,ERROR conf.Configuration - Failed to set setXIncludeAware(true),None,Major
+a082800e2e5a8d5949f70b77f1573fbe73ccfd1a,/,/,    Removed unused index.html file and contrib directory,/,/
+66454e4043713c7dded12530d387b579fc5ea84c,NUTCH-957,Bug,fetcher.timelimit.mins is invalid when depth is greater than 1,fetcher,Major
+17fdc291936dac80e4957732cdf7eeb46d0d4b91,NUTCH-824,Bug,Crawling - File Error 404 when fetching file with an hexadecimal character in the file name.,fetcher,Major
+3e960180336a2c8bf9c745186835735c86a1008c,NUTCH-954,Sub-task,Bugfix for Content-Length limit in http protocols,fetcher,Major
+8b232735884acedb3df5976a05d8b66c65430b16,NUTCH-950,Bug,Content-Length limit  URL filter and few minor issues,None,Major
+372dfb29da0b2c2d0ec54b71b1dfee191b8e62c7,NUTCH-935,Improvement,remove unnecessary /./ in basic urlnormalizer,None,Trivial
+7344ba9358eb58067e8164f50ea84a531884b9db,NUTCH-912,Bug,MoreIndexingFilter does not parse docx and xlsx date formats,indexer,Major
+d6d1e2e0fa2ee0cdfa9984f0ea46ac9a0dcd795b,NUTCH-886,Improvement,A .gitignore file for Nutch,build,Trivial
+ ,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+366bea359572a56c4268f5ab8d6d56e8662753f0,NUTCH-930,Improvement,Remove remaining dependencies on Lucene API,None,Major
+ ,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+4412ca47d7c780986c17cc4fcf50c923614f250a,NUTCH-883,Improvement,Remove unused parameters from nutch-default.xml,None,Major
+ ,NUTCH-951,Task,Backport changes from 2.0 into 1.3,None,Blocker
+44f313da9a058d30c9e4e72bc72af00547bbb5aa,NUTCH-936,Bug,LanguageIdentifier should not set empty lang field on NutchDocument,indexer,Minor
+8f7c7fffb88b769feef6872ac312926f60378090,NUTCH-855,New Feature,ScoringFilter and IndexingFilter: To allow for the propagation of URL Metatags and their subsequent indexing.,indexer,Major
+f73648c4efbbd29df93382f3fa76de2a6b45da11,NUTCH-855,New Feature,ScoringFilter and IndexingFilter: To allow for the propagation of URL Metatags and their subsequent indexing.,indexer,Major
+d0f099b968668e0d1e00535e49ef19991118254b,NUTCH-901,Improvement,Make index-more plug-in configurable,indexer,Major
+f93d5647602163b922be6bd8c2ca7a5aa566188a,NUTCH-716,Improvement,Make subcollection index filed multivalued,indexer,Major
+dbdd0723ed794c069a39b45bf908128f2b5480ca,NUTCH-905,Improvement,Configurable file protocol parent directory crawling,fetcher,Major
+e27288664b9a8ce4c5f005512310e6b63e2b327b,NUTCH-787,Task,Upgrade Lucene to 3.0.1.,build,Trivial
+f2fd4152b35f091ff8fa008fbae3bb61bdf0a80c,NUTCH-949,Bug,Conflicting ANT jars in classpath ,build,Major
+107508477a6485161eed8ca2d5a3d67a51fa16d0,NUTCH-948,Improvement,Remove Lucene dependencies,None,Major
+224c1cffab10227aac7d2f0abc94f245fef1a2fd,NUTCH-939,Improvement,Added -dir command line option to Indexer and SolrIndexer   allowing to specify directory containing segments,indexer,Minor
+cb6e4d045e8d649530700d3c0e44448e735039cf,NUTCH-935,Improvement,remove unnecessary /./ in basic urlnormalizer,None,Trivial
+985ab8f59f1219503f91fff1ef132a00c29cadf9,NUTCH-912,Bug,MoreIndexingFilter does not parse docx and xlsx date formats,indexer,Major
+771df16604443afbbce351e9240a43dd064b841a,NUTCH-936,Bug,LanguageIdentifier should not set empty lang field on NutchDocument,indexer,Minor
+14e43b4a71dd38365c343ac81f27608dda63dcf8,NUTCH-901,Improvement,Make index-more plug-in configurable,indexer,Major
+9adea98e98b903da5e1dadb4711e0840d9991616,NUTCH-900,Improvement,Confusion in nutch-default between http.content.limit and file.content.limit,None,Trivial
+c4acc8e0651afca49eb52149f1ba86f8bd8506d4,NUTCH-901,Improvement,Make index-more plug-in configurable,indexer,Major
+08b38ce79c6384b6b087202a5d96851c3166487b,NUTCH-862,Bug,HttpClient null pointer exception,fetcher,Minor
+f3d1202d3932c5cb92485c799ef8d591b8abf8cb,/,/,    Nutch 2.1 release.,/,/
+519e9f82980b8a48e42e47858d44995b2629d925,/,/,    revert gora-cassandra to v0.2,/,/
+403555924bab0965e29d347dc0afa7ec0baf2a7c,NUTCH-1415,Bug,release packages to contain top level folder apache-nutch-x.x,None,Minor
+3b27bc3383638ce59bb0feaf3b7a4eee168684f2,/,/,    prepare branch for tag,/,/
+09d83f0a06872a270bcd504ecab46310be6ae73f,/,/,    Nutch 2.1 branch,/,/
+590ad02aea95c1dcb9c6ad25de1e38a815c7fa82,NUTCH-1432,Bug,property storage.schema does not work anymore  should be storage.schema.webpage and storage.schema.host,None,Major
+19e694e609776a388ce1409a3272a2a15b101222,/,/,    add keyspace reference to NullPointerException on inject before,/,/
+068636631cc73786b150e1ec2cd0be38919890e7,NUTCH-1162,Sub-task,Write JUnit tests for parse-js,parser,Major
+ecb86f4de0209c73e5b00fa0df8d4c6f58c592bf,NUTCH-1468,Bug,Redirects that are external links not adhering to db.ignore.external.links,fetcher,Major
+4369dac176a228d0c9ef729dca89bcff0e097211,NUTCH-1470,Bug,Ensure test files are included for runtime testing,test,Trivial
+32b825c58bcb1647bec548cb1ea17ee4ae522399,NUTCH-1162,Sub-task,Write JUnit tests for parse-js,parser,Major
+e878515c26e1bceaed2555a3cac2402322f27046,NUTCH-1456,Bug,Updater not setting batchId in markers correctly.,None,Major
+c1b68c35ee02d1588786d5767f3feaa71b5393e1,NUTCH-1459,Improvement,Remove dead code (phase2) from InjectorJob,None,Major
+33de245d3211d2be19559870c5a821381e18e9c0,NUTCH-1431,New Feature,Introduce link &apos;distance&apos; and add configurable max distance in the generator,None,Major
+c5e2236f36a881ee7fec97aff3baf9bb32b40200,NUTCH-1448,Improvement,Redirected urls should be handled more cleanly (more like an outlink url),None,Major
+1bb03c759180688f58284189abca787437935647,NUTCH-1463,Bug,Elasticsearch indexer should wait and check response for last flush,None,Trivial
+f7ef04dca1b763e86502a3b23064520ded39181e,NUTCH-1462,Bug,Elasticsearch not indexing when type==null in NutchDocument metadata,None,Major
+b8643b27e63eddee4a6d4355439bc04f2edc6cc9,NUTCH-1395,Bug,Show batchId when skipping within ParserJob,parser,Minor
+6a0f9788641cfae0ba86cca2f71a051eebb0daa3,NUTCH-1365,Bug,Fix crawlId functionalilty by making using of new gora configuration,None,Major
+0a0ddff8f33df9999156f43b70a8a7c423ed8cc9,NUTCH-1442,Bug,indexingfilter.order is property is misread in code,None,Major
+2502315db0cb7a4ce030aed16a63e5f2ea81c112,NUTCH-1450,Improvement,Upgrade to gora deps to 0.2.1,storage,Major
+35f0d6d4685f292b1ada890e1cbfa71714ede407,/,/,    Trivial commit to get nightly target to depend on Javadoc target,/,/
+088977af55ac6841f710a50a3cfc7cff60c9654f,NUTCH-1161,Sub-task,Write JUnit tests for microformats-reltag plugin,None,Major
+2f8da44bbbe81c9f3214e83bd7c60e524fb4aa0a,NUTCH-1160,Sub-task,Write JUnit tests for index-basic,indexer,Major
+7a99d6446f9d580a91623789868f490e4955c434,NUTCH-1159,Sub-task,Write JUnit tests for index-anchor,indexer,Major
+8bf393f510d8cf4f7afbc40e19b4f864d71b08b4,NUTCH-1445,New Feature,Add ElasticIndexerJob that indexes to elasticsearch,None,Major
+5cfe4cb58d1886b75bccf9f16a335f18338fa739,NUTCH-1445,New Feature,Add ElasticIndexerJob that indexes to elasticsearch,None,Major
+13d2eb8e5d23910ad5f6490dd7bc697db3e0fc54,NUTCH-1445,New Feature,Add ElasticIndexerJob that indexes to elasticsearch,None,Major
+2a38a4b420ddb225452f4df451cb5b4f57a66a81,NUTCH-1444,Bug,Indexing should not create temporary files (do not extend from FileOutputFormat),None,Major
+c6f6df399fd68f1cc167a636f92ade2fb8f975de,NUTCH-1443,Bug,Solr schema version is invalid,None,Critical
+d7286c877b4e9f756118f7afc661bee0d2ecc908,NUTCH-1441,Bug,AnchorIndexingFilter should use plain HashSet,None,Minor
+891a436073ff1fb1085d112517344b7c5befb44f,NUTCH-1416,Bug,IndexerMapReduce can index older version of a document instead of latest one,indexer,Critical
+8151e5e24f5fc7e1ee9fb7af1ee549837faf6e1e,NUTCH-1376,Improvement,Add description parameter to every ant task,build,Minor
+5d21ae3bd40cb9c849adbde3ffe917b1e57c73db,NUTCH-1440,Bug,reconfigure non-existent stopwords_en.txt in schema-solr4.xml ,indexer,Major
+a14742ccf5a55b78fd2e54ad6cbe054154e28820,/,/,    copy over solr 4 schema.,/,/
+216e8d4b88b82818a285537ffe836f95183233fe,/,/,    remove unnecessary doap.rdf,/,/
+68e6d42ace0244c422f14f71430f450c44f1a5db,NUTCH-1438,New Feature,ParserJob support for option -reparse,None,Minor
+01dd1e05ecfe5dd2248307a44a124bfeced137a9,NUTCH-1437,Bug,HostInjectorJob to accept lines with or without protocol,None,Minor
+a6f6acd082cd9a654954f82df4a1c61d1d109dca,NUTCH-1435,Bug,Host jobs throw NullPointerException with MySQL,injector,Major
+b6a6a458dd7e26249a235d421c5f0dcd05512d15,/,/,    trivial commit to add nutchserver to nutch CLI,/,/
+741cd00c919f0bbc6cd35190be2b22a7657f792f,NUTCH-1360,New Feature,Suport the storing of IP address connected to when web crawling,protocol,Minor
+b4e0159e784faca9c9e3ace674d4d6fa352069e5,/,/,    update all versions to 2.1-SNAPSHOT,/,/
+2f7c34abdd66bb154223cab8656b4fde7467cd82,NUTCH-1428,Improvement,GeneratorMapper should not initialize filters/normalizers when they are disabled,None,Trivial
+c2fe21190d4b18cc491f78432f337fac46f555be,NUTCH-1427,Improvement,Reuse SelectorEntry in Generator.,None,Minor
+75b7b510d7416936504547f537081b4f2bca23ad,/,/,    Renaming nutchgora branch into 2.x,/,/
+21584d765c363efb30ec5a9c76f453a1dd2ab7a0,NUTCH-1411,Bug,nutchgora fetcher.store.content does not work,None,Minor
+47c4d448c01f7fdbc318237c791304758a7f7eaf,NUTCH-1426,Bug,HostDb close() should close store instead of flush,None,Minor
+0efa91b870d75be2eefd1e12ee1da97cea59de4e,NUTCH-1425,Bug,DbUpdaterJob declares PREV_SIGNATURE on input twice,None,Trivial
+539ff3a356cd7d41793007cd9e61abd5fea57d8b,NUTCH-1424,Bug,fix fetcher timelimit logging ,None,Trivial
+743536db42d2e91d9f9c2bfca7275456621d461e,NUTCH-1423,Bug,Remove unused fields in LanguageIndexingFilter,None,Trivial
+13f5bbf2d406d75c5b0fd339babc4058b659752d,NUTCH-1306,Improvement,Add option to not commit and clarify existing solr.commit.size,indexer,Trivial
+181bd3bda87c16ba4b36350ab78b60486a7f7acf,/,/,    commit to sync pom.xml with ivy.xml,/,/
+1f694d8b3a602d8de1216cded8c5b0a6f3bb8088,NUTCH-1391,Bug,readdb -stats fires java.io.EOFException,crawldb,Major
+625d0dc0e7ddfb128b4adc90494fd40c71b2dbe3,NUTCH-1400,Bug,Remove developer -core option for bin/nutch,build,Trivial
+3f9628c894ce4cde3e055321fe5ef03149ed1683,NUTCH-1399,Bug,TestProtocolHttpClient fails,None,Major
+10125bc41773b64a5cdebf2223c34b5edb2bd245,NUTCH-1404,Bug,Nutch script fails to find job file in deploy mode,None,Major
+6ecf202be8780c0c90e5e94db368a4305d80042e,NUTCH-1401,Improvement,Upgrade to Hadoop 1.0.3,None,Major
+6bcd6e013c9132421966f5b5ee1ae02103df2235,NUTCH-1396,Bug,Upgrade to Tika 1.1,None,Major
+e79b6d8ec7a340e3706765676602ed3e07dbee3c,NUTCH-1392,Bug,-force and -resume arguments being ignored in ParserJob,parser,Major
+12cb34441347593c7ba09a20b66fb7de412c4904,/,/,    trivial commit to correct anomalies identified within RC1,/,/
+fb3584aa02401aabefa886dddfbfd634d78c1909,/,/,    trivial commit to add my details to KEYS file,/,/
+7d8b5e5b5d930e0f31ce28c725d53a275d971e22,/,/,    Nutch 2.0 release.,/,/
+92c3da9d2ddfd08bd2b72948257b44ba11a3202f,/,/,    trivial commit prior to RC#1,/,/
+7104e870fabc97fcbf3c100f26922863308990ff,/,/,    commit to correct ant targets,/,/
+383dc6d6d16e7801b6a2d15c3a058cae775b7e9b,NUTCH-1379,Bug,NPE when reprUrl is null in ParseUtil,None,Major
+3ff30ccb9aa9ec7d5b70046b5f08f084541b3310,NUTCH-1378,Bug,HostDb NullPointerException,None,Major
+0efeb7317d97d25356ef74fdbf303608f6cc7e97,/,/,    commit to update pom.xml,/,/
+2578f9f219b3ecbef52873f7f25bd56b4818c343,/,/,    Nutch 2.3 release candidate,/,/
+db72053488171849fd9563232fa2ec2643b63cc6,/,/,    Push updates for Nutch 2.3 release candidate,/,/
+11a2ec55b57f98f3d4dde123ba8cfe328185ae31,/,/,    Nutch 2.3 branch,/,/
+f2c1900ced01061bd7c1a99cffd668e31338a2c9,NUTCH-1779,Task,Apply formatting to the code,None,Major
+4a3758c907f0ba46f4ac6a77f1a09588bcfdea8a,NUTCH-1907,Bug,Incorrect output of Outlinks to Hosts within HostDbUpdateReducer ,None,Major
+7741852fdbdebc4255397202cc280afd02c79727,NUTCH-1856,New Feature,Document webpage.avsc and host.avsc,documentation,Major
+8db809bba136a7bf601b7702c7688efc12193e08,NUTCH-1834,Bug,GeneratorMapper behavior depends on log level,generator,Major
+5f0439ac18b87d5b9d47764da7704df811a71ff9,NUTCH-1899,Bug,upgrade restlet lib to prevent build failure,build,Major
+55e5737a8b38430031b9078be210bd91756c29e5,NUTCH-1797,Improvement,remove unused package o.a.n.html,None,Trivial
+32146846243bd2472be44ff3d98ca41d65115adc,NUTCH-1888,Improvement,Specify HTMLMapper to use in TikaParser,parser,Minor
+e6c24320abfacb96d7520f3d51df8acaeb54a6e6,NUTCH-1897,Bug,Easier debugging of plugin XML errors,None,Minor
+80216c244e1e2985254bd3a2cf979332ca8015ee,NUTCH-1823,Improvement,Upgrade to elasticsearch 1.4.1,indexer,Major
+dae46dec7ccf1e3e8d097f7572bedc43272b3152,NUTCH-1829,Bug,Generator : unable to distinguish real errors,nutchNewbie,Major
+27a37ee690e8663c5b06b349f1aa67851c4eccfd,NUTCH-1778,Bug,Generator not logging number of URLs in batch correctly,generator,Major
+834a40c8d2fac93ee1bf40c54a3cc697043d3ee5,NUTCH-1877,Bug,Suffix URL filter to ignore query string by default,None,Major
+d423f452206f74b09b79e99c6d2cb61461efffb9,NUTCH-1883,Improvement,bin/crawl: use function to run bin/nutch and check exit value,None,Minor
+25a420178d48450eb71c94c7c9680e1d5f465f1e,NUTCH-1825,Bug,protocol-http may hang for certain web pages,protocol,Minor
+04b2910620aa1e8998b38a060c62e692e278a574,NUTCH-1483,Bug,Can&apos;t crawl filesystem with protocol-file plugin,protocol,Critical
+ ,NUTCH-1879,Sub-task,Regex URL normalizer should remove multiple slashes after file: protocol,protocol,Major
+ ,NUTCH-1880,Sub-task,URLUtil should not add additional slashes for file URLs,protocol,Major
+ ,NUTCH-1885,Sub-task,Protocol-file should treat symbolic links as redirects,protocol,Minor
+f04fbf20d28740a44ceb2a535a408500dd402ff6,/,/,    remove field orig which duplicates 'id',/,/
+7ad91821c71bdeeba549e7e28123da306532d3d3,/,/,    Upgrade to Gora 0.5,/,/
+b6890afefe0bdbf94382f752f994e8da2b712d89,NUTCH-1883,Improvement,bin/crawl: use function to run bin/nutch and check exit value,None,Minor
+79aa573c490875c12ba64871d159e994d10e37a5,NUTCH-1882,Bug,ant eclipse target to add output path to src/test,build,Minor
+5284460a04965d02ba767a9e18a449dcbe7d55dd,NUTCH-1827,Improvement,Port NUTCH-1467 and NUTCH-1561 to 2.x,parser,Minor
+89b3ab7138d7b901c26d28229814d2417e63db90,NUTCH-1876,Improvement,Upgrade to Crawler Commons 0.5,build,Minor
+749dfa760aa4d4bb2775c430d9858eec3b1530b0,NUTCH-1866,Bug,ant eclipse target should not delete runtime,build,Major
+0a8f41d95e288eca7836070269620f6db22e2d73,NUTCH-1859,Task,Make Nutch webapp port configurable,web gui,Major
+ac8d36637373cc3dbc5ecec426a8b41fdcf8d764,NUTCH-1848,Bug,Bug in DashboardPage.html instances counter,web gui,Major
+d37dea1649860a67b8e31b66be1465bbc7d75d6e,/,/,    Uncomment gora-cassandra dependency,/,/
+7051d4d924a81fa771a6d226c766203d28e56857,NUTCH-841,Improvement,Create a Wicket-based Web Application for Nutch,web gui,Major
+402fedfc530e94358567995d3edd8da607dc294e,/,/,    add committer snagel,/,/
+11533d757ef7a3950cb13b5ea982264dfb48d736,NUTCH-1832,Bug,Make Nutch work without an indexer,None,Major
+1860b833cb28c7e5f5cdf3909f86dd0ab9985d1d,NUTCH-1840,Bug,the describe function in SolrIndexWriter is not correct,indexer,Trivial
+faaf4d5f085513196e8e1fe1b17230168fd8ef29,NUTCH-1837,Task,Upgrade to Tika 1.6,parser,Minor
+fa8c9f4eadf1c836dbeb3efa42931ad70e5f838a,NUTCH-1829,Bug,Generator : unable to distinguish real errors,nutchNewbie,Major
+122f3cc3402d5edf158a6f3d7264346674cad4c6,NUTCH-1828,Bug,bin/crawl : incorrect handling of nutch errors,nutchNewbie,Major
+58c10456333ac1f672e83d54c36605ba47f1bf9b,NUTCH-1693,New Feature,TextMD5Signature computed on textual content,None,Minor
+fba0f11762112f456b3df4b749462dad9c1067a6,NUTCH-1409,Improvement,Remove deprecated properties db.{default max}.fetch.interval  generate.max.per.host.by.ip,None,Minor
+c166537896333a2a203e5e13c455eab09e40bbe0,NUTCH-1819,Bug,Check for batchId input in GeneratorJob#run,generator,Minor
+15f578134aa59409a05e43466ca53e61e6bca363,NUTCH-1708,Bug,use same id when indexing and deleting redirects,indexer,Major
+6d5a51dc17d9d483bb4f0a90253b385559d86f27,NUTCH-1817,Task,Remove pom.xml from source,build,Major
+d74cb2d86227cd54fa21b8dd559353c517755097,NUTCH-1811,Bug,bin/nutch junit to use junit 4 test runner,test,Trivial
+13977461205dac54c26089d81cf5e7afe54d8571,NUTCH-1776,Bug,Log incorrect plugin.folder file path,None,Minor
+bc38b83efb8d40d614a2c51ec5a28f6262cf46e4,NUTCH-1566,Bug,bin/nutch to allow whitespace in paths,None,Minor
+32d2ddf68af351ca6ca7171f939a6c5ff6c2df13,NUTCH-1605,Bug,mime type detector recognizes xlsx as zip file,parser,Major
+d7d6eea603d151df2694874355bdf57d4a5227cc,NUTCH-385,Bug,Improve description of thread related configuration for Fetcher,fetcher,Major
+a5c30147b1b0d08633c36cd69bd3da97f60320ae,NUTCH-1798,Bug,Crawl script not calling index command correctly,None,Major
+44e275766f7f8017c688b12ba6394abedab08275,NUTCH-1769,Improvement,REST API refactoring,REST_api,Major
+971dbc27a046b5284404fc5aaededa226ee4f392,NUTCH-1633,Bug,slf4j is provided by hadoop and should not be included in the job file.,build,Minor
+a59d1044b631b6f40682cf8f44b7d8f9ed7f6fc8,NUTCH-1787,Improvement,update and complete API doc overview page,documentation,Minor
+a0a4460018ea39062041066f4a6f4e443e683ced,NUTCH-1767,Bug,remove special treatment of &quot;params&quot; in relative links,None,Minor
+ade06e8cc55b7d56dcae59ee46514beb78be9c0c,NUTCH-1718,Bug,redefine http.robots.agent as &quot;additional agent names&quot;,fetcher,Trivial
+92d4d960d83675275663681632070c54bfb87bbb,NUTCH-1796,Bug,Ensure Gora object builders are used as oppose to empty constructors.,storage,Blocker
+0281760f60aa31b5de7e0dcd644b42997e9eaf9d,NUTCH-1590,New Feature,[SECURITY] Frame injection vulnerability in published Javadoc,documentation,Blocker
+1f358db56fc7f1ab317d7646ecf9feb1da81b12f,NUTCH-1736,Bug,Can&apos;t fetch page if http response header contains Transfer-Encoding&#65306;chunked,protocol,Critical
+9f0908d379f948345f3772858386d1df5ebbea3a,NUTCH-1782,Improvement,NodeWalker to return current node,None,Trivial
+385cbd801e88c0e76894ca87e26cdbc180d82b06,/,/,    Fixing blunder in Nutch-1781,/,/
+88a2ee47a80464c90b476d96c5cf4f3a89263668,NUTCH-1788,Bug,Tika may return multiple values for Title on PDF&apos;s,None,Minor
+2398ce767e1cf85a05c17f7af93a7158dfbd45c3,/,/,    Temporary disable TestGoraStore due to GORA-326 Removal of _g_dirty field from _ALL_FIELDS array and Field Enum in Persistent classes,/,/
+ce295cf454274fcf4f8a0a5a5cbc886a078332ec,NUTCH-1781,Improvement,Update gora-*-mapping.xml and gora.proeprties to reflect Gora 0.4,storage,Critical
+036edd06ea272ee52be482ade2e8a30d351dad8f,NUTCH-1768,Improvement,Upgrade to ElasticSearch 1.1.0,indexer,Major
+cfa10989655c851f0a38deb78b1a46d0e6dfb335,NUTCH-1634,Bug,readdb -stats show the result twice,crawldb,Minor
+3db93dba6186d49750021fc4278a7813935f32fb,NUTCH-1780,Bug,ttl and gc_grace_seconds attributes are missing from gora-cassandra-mapping.xml file,storage,Major
+5d0ecc1ada4bbbb09b61a79f4bc967ec38dcd8e1,NUTCH-1676,Improvement,Add rudimentary SSL support to protocol-http,protocol,Major
+a22051091ae4c7d3a21ef7a206c252cf13b26d2e,NUTCH-1674,Improvement,Use batchId filter to enable scan (GORA-119) for Fetch Parse Update Index,None,Major
+0a36d8f818a7fb2f0a8a63108d9e842870342b1c,NUTCH-1714,Improvement,Nutch 2.x upgrade to Gora 0.4,None,Major
+88bc670e47936339febd479d692c9049262aaeb9,NUTCH-1752,Bug,cache robots.txt rules per protocol:host:port,protocol,Major
+4ce37325a7c42b1a2667af3ebd33f16327695112,NUTCH-1613,Bug,Timeouts in protocol-httpclient when crawling same host with &gt;2 threads and added cookie strings for both http protocols,protocol,Minor
+8443fb7ddf68f6a2c7b0803b86d64658d1a56a8c,NUTCH-1182,Bug,fetcher to log hung threads,fetcher,Minor
+9e7eea7c30a16be5a8153dfaa28294c616c19504,NUTCH-1618,Bug,Turn speculative execution off for Fetching,fetcher,Minor
+bbfc266d2c0a42786089e3e86960de6e0de95283,NUTCH-1657,Bug,ORIGINAL_CHAR_ENCODING and CHAR_ENCODING_FOR_CONVERSION never set in HTMLParser,None,Minor
+eadd8583f818368097dc143adf88f1af3e26f064,NUTCH-1725,Bug,CleaningJob&apos;s reducer does not commit deleted docs. ,None,Major
+9df07ef8486cd753f2f37b22eefc5558ffc9247e,NUTCH-1728,Bug,indexer-solr plugin is not delete docs from solr,None,Major
+06b1e4e3d98cb99642aae14cc97f7fccdd55301b,NUTCH-1753,Bug,Eclipse dependecy problem for 2.x,None,Minor
+b63097ebc35d87579023eec6785e328c3ffb3d91,NUTCH-1720,Bug,Duplicate lines in HttpBase.java,protocol,Trivial
+c7b8991f1c201783c00eba1209784b594f1a1092,NUTCH-797,Bug,URL not properly constructed when link target begins with a &quot;?&quot;,parser,Minor
+192c3a95c58378e7bd6a314f7896c6a195eb64f4,NUTCH-1759,Bug,Upgrade to Crawler Commons 0.4,build,Minor
+9ef91dabfdc4796e1ff901698a1e5ece2e6b2f33,NUTCH-1700,Task,Remove deprecated code in src/plugin/creativecommons/build.xml,build,Minor
+b6b4d3a9a2b48ea4a11a898515e43ab0fb106aff,/,/,    updated list of committers in pom and mvn.template,/,/
+9be1e9006d1a4348f100d5fa957b9e44b577c91a,NUTCH-1761,Bug,Crawl script fails to find job file if not started from inside bin dir,None,Minor
+0bbb1fae9620780f367cd60a507dab7308747578,NUTCH-1603,Bug,ZIP parser complains about truncated PDF file,parser,Trivial
+0f24c500ea689ce80c215567b601c9b6ed9f969c,NUTCH-1743,Improvement,parsechecker to show outlinks,parser,Minor
+c28d5fd3fa06b70046cd92290ff81a491ca240c8,/,/,    Update Developer Information for 2.x Branch,/,/
+42ea244e111c10a252a0b4f68745094129d3285c,NUTCH-1731,Improvement,Better cmd line parsing for NutchServer,REST_api,Minor
+9e25a3702bc4cfe217634183ca1971438b60c824,NUTCH-1751,Bug,Empty anchors should not index,None,Minor
+15e6494b3503f3d61c7ccb6447e65b3a85d2eda5,NUTCH-1733,Bug,parse-html to support HTML5 charset definitions,parser,Major
+56b218a65d33b61eed8feffff7adefa7904bbea6,NUTCH-1727,Bug,Configurable length for Tlds,None,Minor
+617d046ee8328d9fad8dd96e2bf06f801a197680,NUTCH-1738,Bug,Expose number of URLs generated per batch in GeneratorJob,generator,Major
+5423096d1ba553df4fe22e5dbc8da17b5a262a68,NUTCH-1671,Bug,indexchecker to add digest field,None,Trivial
+317e793ea6d7d310523ecbefffebe33c567bb207,NUTCH-1645,Test,Junit Test Case for Adaptive Fetch Schedule class,None,Minor
+be41ee6c85c828785e970095c05492e248cf6a36,NUTCH-1478,Improvement,Parse-metatags and index-metadata plugin for Nutch 2.x series ,parser,Major
+f8b9f42560d0fa7987da5a8cda3e4ad5f7f78241,NUTCH-1253,Bug,Incompatible neko and xerces versions,None,Major
+15cd8fd986f97fe66f64f397480c668696b05a8c,NUTCH-1729,Task,Upgrade to Tika 1.5,parser,Major
+8eeddd27f9c3d4c94aa0f9df9972802f9141892e,NUTCH-1721,Improvement,Upgrade to Crawler commons 0.3,None,Major
+4f7ed9e74bb1d8bdb2503fba9defc516eae7c3ae,NUTCH-1719,Bug,DomainStatistics fails in 2.x because URL is not unreversed,None,Major
+34f5197cfe48fef32e7de8050b6f2381292f87e6,NUTCH-1253,Bug,Incompatible neko and xerces versions,None,Major
+8c0c288d5e14e858b0592354c33006284f5811e0,NUTCH-1715,Bug,RobotRulesParser adds additional &apos;*&apos; to the robots name,fetcher,Major
+cec69a899581757039b1de4ff9eb087816c22cdb,NUTCH-356,Bug,Plugin repository cache can lead to memory leak,None,Major
+4a6f370186044a3941b8b6e67327f7221fd10098,NUTCH-1164,Sub-task,Write JUnit tests for protocol-http,None,Major
+1bcf6ef1055e09ab0fa60de0b1092f1866b30301,/,/,    remove old elastic directory,/,/
+9e9ca11bdc90e1e03c584d8af4768235e13b7828,NUTCH-1710,Improvement,Add gora package logging to log4j.properties,None,Trivial
+d1f41a072903081dd85e5dde4b5633e6e7cb0f15,NUTCH-1655,Sub-task,Indexer Plugin for Elastic Search,None,Major
+92be132856e65dc131b111034fa5c97b98028e91,NUTCH-1699,Bug,Tika Parser - Image Parse Bug,parser,Major
+724543bff09951b33835073975cf6fb5dfe81fa8,NUTCH-1568,Improvement,port pluggable indexing architecture to 2.x,indexer,Major
+0d09f2efe79a0cc2f68a375bf0ed7074ee204ad7,NUTCH-1672,Bug,Inlinks are added twice in DbUpdateReducer,None,Minor
+368096b1741af1209cd50ffcd7b72b1c4dd7d18f,NUTCH-1667,Bug,Updatedb always ignore batchId,None,Minor
+1c3a0c8f9cf791887d73a6ef064b57bff915989d,NUTCH-1695,Improvement,NutchDocument.toString(),None,Trivial
+5f63b4891706e863119404e51b96b6868e205bfe,/,/,    GORA-1696 Enable use of (Gora) SNAPSHOT dependencies,/,/
+f6cd10fa70e757e53aef8be8c179ad638dd73e94,NUTCH-1360,New Feature,Suport the storing of IP address connected to when web crawling,protocol,Minor
+0ab335e9f73194e30dcd5d2065996853067b42f1,NUTCH-1681,Bug,In URLUtil.java  toUNICODE method does not work correctly,None,Major
+7232641bba876a1b423061331bb047be2c4cbf2a,NUTCH-1673,Bug,Title isn&apos;t reset in MoreIndexingFilter,indexer,Major
+c96a55308d639de95083f090494f0a4a36be54e0,NUTCH-1587,Bug,misspelled property &quot;threshold&quot; in conf/log4j.properties,None,Trivial
+38aa2dc51a869215aac52ead46274da582635a37,NUTCH-1621,Bug,Deprecated class o.a.n.crawl.Crawler is still in code base,None,Minor
+01d5123ace23143974d1b9b5d364764c6c073b93,NUTCH-1621,Bug,Deprecated class o.a.n.crawl.Crawler is still in code base,None,Minor
+0429d858a2379cac33fb8f64a39e6d9c0fce5d02,NUTCH-1651,Bug,modifiedTime and prevmodifiedTime never set ,None,Major
+1b15606816bf76dca22df7ff644e36db0e145eb6,NUTCH-1360,New Feature,Suport the storing of IP address connected to when web crawling,protocol,Minor
+de47b8e2e39c250b9cf2c76070b57aa739494d3a,NUTCH-1588,Bug,Port NUTCH-1245 URL gone with 404 after db.fetch.interval.max stays db_unfetched in CrawlDb and is generated over and over again to 2.x,None,Critical
+ ,NUTCH-1245,Bug,URL gone with 404 after db.fetch.interval.max stays db_unfetched in CrawlDb and is generated over and over again,None,Critical
+295ea6bf338a8fd762ca6ba855011bd966222aba,NUTCH-1650,Bug,Adaptive Fetch Scheduler interval Wrong Set,None,Minor
+9bfd1fdd00aee4cb6f5c049e305bde6d3917f573,NUTCH-1413,Improvement,Record response time,fetcher,Minor
+0162aef1ef287292394a2ef078381dbb0f73a659,NUTCH-1125,Sub-task,JUnit test for tld,build,Minor
+25d97ee80cf5815bba35ff929619e5f00f74d39b,NUTCH-1124,Sub-task,JUnit test for scoring-opic,build,Minor
+3a63fe35fb5c1e07d061a33980070110b30660cd,NUTCH-1641,Improvement,Log timings for main jobs,None,Major
+3a0eb5bdcb2a3ab14c4cf1093e50e3e5dc5ffd8b,NUTCH-1556,Improvement,enabling updatedb to accept batchId ,None,Major
+1d62b185abbd6f98c3dd644861bfb44d036bde8a,NUTCH-1556,Improvement,enabling updatedb to accept batchId ,None,Major
+a0030f4ef10f2866ccae90afadc8f3460911f88d,NUTCH-1619,Improvement,Writes Dmoz Description and Title information to db with snippet argument,None,Minor
+33bed204bb922e9d5b3f3d67f2b61757ce3fdd9e,NUTCH-1619,Improvement,Writes Dmoz Description and Title information to db with snippet argument,None,Minor
+936389646645b84816579f30c96077a678de5b1c,NUTCH-1631,Improvement,Display Document Count Added To Solr Server,indexer,Minor
+86c1f5584a49d45ac1d150a8dafedbd2af7351c1,NUTCH-1629,Improvement,there is no need to fail on empty lines in seed file when injecting.,injector,Major
+0508944f9bfbbf5f6b6898a95d156d2977ab3137,NUTCH-1624,Bug,Typo in WebTableReader  line 486,documentation,Minor
+f7a76daaeb0c0f3686ececb1d946529f28f6ff17,NUTCH-1294,Improvement,IndexClean job with solr implementation.,None,Minor
+46dae3c0f754f212f7260d897bbd0785c19cd418,NUTCH-1294,Improvement,IndexClean job with solr implementation.,None,Minor
+d4deef989ffc41b9dd5e77683e73286d81e1178b,NUTCH-911,Bug,recrawls file protocol causes Errors/Exceptions when actually not modified or gone,protocol,Minor
+ccd793cd35768377231d77c01c5e9a9b700694f1,NUTCH-1587,Bug,misspelled property &quot;threshold&quot; in conf/log4j.properties,None,Trivial
+d5cb787bead9589df0fe4f896fbb2ed17f059d9c,NUTCH-1604,Bug,ProtocolFactory not thread-safe,fetcher,Major
+fe9ea2aad1e75e419048d454992a5a56ceac8a1d,NUTCH-1595,Improvement,Upgrade to Tika 1.4,None,Major
+e868ed8d22f0ff69f7fa0da60269d09f30698469,NUTCH-1594,Bug,count variable is never changed in ParseUtil class,parser,Minor
+9728ed2267e359772c6e8aa61f0bde69b7237f2d,/,/,    update for release report,/,/
+7764803091a5880997b4d9308db82ce46242747d,/,/,    Nutch 2.2.1 release.,/,/
+41e9fa5e644f6cf8260f93bd7b5c0e18091c902b,/,/,    commit new pom.xml,/,/
+adfb32122206ea234ac012c84ed7a5faf80ca5e6,/,/,    repare to tag branch 2.2.1,/,/
+fa88ac21de22536c7bd464d59204d8fbf034aa53,/,/,    prepare for new development,/,/

@@ -4,19 +4,14 @@ import java.util.*;
 //提取提交的issue信息
 public class IssueType {
     public static void main(String[] args) throws IOException {
-        String CsvPath = "E:\\Metric-tool\\TestOutput\\avro\\Metric\\commit\\avroMetricResults_release1-2.csv";
+        String CsvPath = "E:\\Metric-tool\\example\\avroMetricResults_release1-2.csv";
         String MapPath = "E:\\Metric-tool\\myproject\\avro\\map\\12Map.txt";
         String Logpath = "E:\\Metric-tool\\myproject\\avro\\log\\avro12_log.txt";
         String Outpath = "E:\\Metric-tool\\TestOutput\\CommitExtract";
         String ProjectName = "avro";
         String XMLPath = "E:\\Metric-tool\\myproject\\SearchRequest\\avro_SearchRequest.xml";
         String mode = "1";//mode 1-- >=98 2-- <98
-//        String CsvPath = args[2];
-//        String MapPath = args[3];
-//        String Logpath = args[4];
-//        String Outpath = args[6];
-//        String ProjectName = args[0];
-//        String XMLPath = args[5];
+
 
         List<Integer> AcdcCommit = new ArrayList<>();//存放ACDC聚类下架构相似度小于90 的commmit号码 以及hash码
         List<Integer> FcaCommit = new ArrayList<>();//存放FCA聚类下架构相似度小于90 的commmit号码

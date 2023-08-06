@@ -1,0 +1,373 @@
+d6f94b998dc3b98308b86c4a6cd11e2a250a8913,/,/,    Hoodie operability with S3,/,/
+4c3b367efb369f6bede4bf0169e682adf1123cc1,/,/,    [maven-release-plugin] prepare release hoodie-0.3.2,/,/
+0e3f635adbc231ad513948c39e8b2d93573a035b,/,/,    remove hardcoding of autoClean,/,/
+f3c851d75487790ab9f4d95817abef2ad2d8ca80,/,/,    Removing hardcoding of autoClean,/,/
+21898907c1d1dd1dd962b441db29c6663756cdb8,/,/,    tool for importing hive tables (in parquet format) into hoodie dataset (#89),/,/
+431a9adc5600387d8960b599a6b046bd4fe25fb3,/,/,    Add config for index parallelism and make clean public,/,/
+6f36e1eaaf6d4a83de3f41e61e650c16db5b4120,/,/,    Implement Savepoints and required metadata timeline (#86),/,/
+69d3950a325a9b3cb22b6948abba1b22145783cf,/,/,    Revamped Deltastreamer  (#93),/,/
+eb46e7c72bbbe3149ebf66a6d90167966ba65938,/,/,    Implement Merge on Read Storage (#76),/,/
+11d2fd34281aa8a7365c46f033a65eab29898042,/,/,    Introduce RealtimeTableView and Implement HoodieRealtimeTableCompactor (#73),/,/
+48fbb0f4258499366477b00e164bccbfacccd792,/,/,    Implement reliable log file management for Merge on read  which is fault tolerant and allows random block level access on avro file,/,/
+ccd8cb240726deda35fabd2860edcbf4adeb1013,/,/,    Take 2: Refactor hoodie-common and create right abstractions for Hoodie Storage V2.0,/,/
+8ee777a9bbe2b995f3f1984c83db1de46e27c104,/,/,    Refactor hoodie-common and create right abstractions for Hoodie Storage V2.0,/,/
+64e0573aca01dfd07b23ec41e20acb307829733e,/,/,    Adding hoodie-spark to support Spark Datasource for Hoodie,/,/
+b1cf097b0cb685ebfb0e507ac8ad777de6baa8ac,/,/,    Add nested fields support for MOR tables,/,/
+a2e0f523a03ddbb6586210bb6726c4c162225ab0,/,/,    Savepoint should not create a hole in the commit timeline,/,/
+86209640f76d64767a24c344ec0e2b22c2a381e6,/,/,    Adding range based pruning to bloom index,/,/
+0b26b60a5c253717d890d658a6e6a55caa310518,/,/,    fix for cleaning log files(mor),/,/
+e8b3ddd7cbf4232d3e02fa9bcb71c100a5aea26f,/,/,    Add note on community engagement to committership guidelines,/,/
+48eedf39f2ed86eab6cc2a13cae5fe6625919a1f,/,/,    HoodieInstant to use FsUtils instead of Files,/,/
+c00f1a9ed972dac9a8c4c238c762cb390b62f54c,/,/,    Refactoring HoodieTableFileSystemView using FileGroups/FileSlices,/,/
+dfc0c61eb7d8ef6e66e96252f0fc89c260786704,/,/,    Support union mode in HoodieRealtimeRecordReader for pure insert workloads,/,/
+75df72f575d67042dcbbfd2123fc304992048ae4,/,/,    Adding a fix/workaround when fs.append() unable to return a valid outputstream,/,/
+04655e9e85e8e4aacc8c66209ccd0f4fb0b28671,/,/,    Adding metrics for MOR and COW,/,/
+c66004d79a2b1d30584df5e99e782d399d0b8ce7,/,/,    Add Support for ordering and limiting results in CLI show commands,/,/
+6c226ca21a84b18bde0ff3a3c569f3e6957a480f,/,/,    Issue-329 : Refactoring TestHoodieClientOnCopyOnWriteStorage and adding test-cases,/,/
+788e4f2d2eeeeee685b9f5d2e09b56be230e34d4,/,/,    CodeStyle formatting to conform to basic Checkstyle rules.,/,/
+987f5d6b965b49e0ba86e5d06ef5e685fb465f2e,/,/,     Making ExternalSpillableMap generic for any datatype,/,/
+1b756db2219352b695b9da28f00f2449d2b1c4f5,/,/,    Adding config for parquet compression ratio,/,/
+3a0044216cb2f707639d48e2869f4ee6f25cfc19,/,/,    New Features in DeltaStreamer :,/,/
+30c5f8b7bd051271de7f9012221c2a47d9f92ea9,/,/,    Ensure Hoodie works for non-partitioned Hive table,/,/
+7243ce40c93f60e8d3e47c2405dc92b4e38e1b10,/,/,    Serializing the complete payload object instead of serializing just the GenericRecord,/,/
+9ef51deb841765e85a1d1c8ab337677a687dfb66,/,/,    Add empty payload class to support deletes via apache spark,/,/
+f1410bfdcde0745625d46b9f3f5e996eb368663f,HUDI-38,Bug,Reduce memory usage on WriteStatus for implicit indexes #408,writer-core,Major
+f2d91a455ec17e66ad319f47a2d5ad45d62c9ca3,/,/,    default implementation for HBase index qps allocator (#685),/,/
+145034c5faebefe51b6f1557f156bc19c787d671,/,/,    Spark Stage retry handling,/,/
+64fec640975b42b0645c75416eb8bbf0b8092c66,/,/,    Timeline Service with Incremental View Syncing support,/,/
+6f2b166005043b85056e23c420195a9e569e443b,HUDI-217,Sub-task,Provide a unified resource management class to standardize the resource allocation and release for hudi client test cases,tests-ci,Major
+6edf0b9defe8c82b0ef0076a6300c00c1641a6e6,HUDI-68,Wish,Automated test for demo query integrations with Presto/Spark/Hive #140,hive,Major
+ ,HUDI-172,Task,Precursor to HUDI-91 : Fix ordering of dependencies and other cleanups in hudi poms,None,Major
+ ,HUDI-68,Wish,Automated test for demo query integrations with Presto/Spark/Hive #140,hive,Major
+a4f9d7575f39bb79089714049ffea12ba5f25ec8,HUDI-123,Sub-task,Rename code packages/constants to org.apache.hudi,Release &amp;amp; Administrative,Major
+722b6be04a0083f96438fe026cafd4cec5ef6093,HUDI-153,Task,Use com.uber.hoodie.common.util.Option instead of Java and Guava Optional ,writer-core,Major
+17e878f721c110f274251d2ba6c7c50fcd58cb8f,/,/,    adding support for complex keys (#728),/,/
+a0d7ab238473f22347e140b0e1e273ab80583eb7,HUDI-70,New Feature,Fix gaps on running Hudi as long running job in streaming mode ,writer-core,Major
+04fc86b43d0afc39b76a7d85e82e8b94dee42923,/,/,    Turn on embedded server for all client tests,/,/
+51d122b5c39525720ce946755f57326ce24f6e38,/,/,    Close Hoodie Clients which are opened to properly shutdown embedded timeline service,/,/
+c2c0f6b13d5b72b3098ed1b343b0a89679f854b3,HUDI-509,Sub-task,Rename &quot;views&quot; into &quot;query types&quot; according to cWiki,code-quality,Blocker
+d09eacdc13b9f19f69a317c8d08bda69a43678bc,HUDI-25,New Feature,Faster Incremental queries on Hoodie #492,hive,Major
+290278fc6cd90c6dad09618275d2016c295c0b0d,HUDI-118,Improvement,Hudi CLI : Provide options for passing properties to Compactor  Cleaner and ParquetImporter ,Common Core,Minor
+c23da694ccbbf1f0ebcc5ed770dd56c74c1e06d7,HUDI-169,Task,Hoodie 2.0 Rollback could be slow if there are too many files needed to rollback for a partition,performance,Major
+1cfd311b40d814b87ede942f770324abdd1affea,/,/,    Changing release version from 0.5.0-incubating-rc6 to 0.5.0-incubating,/,/
+e4c91ed13f16e1d0d55d9d690395bb62ab2b4fa0,HUDI-290,Sub-task,Normalize test class name of all test classes,tests-ci,Major
+71170fafe77e11ea1a458a38e3395a471d94a047,HUDI-554,Task,Restructure code/packages  to move more code back into hudi-writer-common,code-quality,Major
+20ed2516d38b9ce4b3e185bd89b62264b8bd3f25,HUDI-571,Improvement,Modify Hudi CLI to show archived commits,cli,Minor
+379cf0786fe9fea94ec8c0da7d467ae2fb30dd0b,HUDI-1013,Improvement,Bulk Insert w/o converting to RDD,writer-core,Blocker
+539621bd33893d99a07b8f739a1e965ca72acdc9,HUDI-242,Improvement,[RFC-12] Support Efficient bootstrap of large parquet datasets to Hudi,Usability,Major
+ ,HUDI-418,Sub-task,Bootstrap Index - Implementation,Common Core,Blocker
+ ,HUDI-421,Sub-task,Cleanup bootstrap code and create PR for  FileStystemView changes,Common Core,Blocker
+ ,HUDI-424,Sub-task,Implement Hive Query Side Integration for querying tables containing bootstrap file slices,hive,Blocker
+ ,HUDI-423,Sub-task,Implement upsert functionality for handling updates to these bootstrap file slices,writer-core,Blocker
+ ,HUDI-421,Sub-task,Cleanup bootstrap code and create PR for  FileStystemView changes,Common Core,Blocker
+ ,HUDI-425,Sub-task,Implement support for bootstrapping in HoodieDeltaStreamer,deltastreamer,Blocker
+ ,HUDI-899,Sub-task,Add a knob to change partition-path style while performing metadata bootstrap,writer-core,Major
+ ,HUDI-900,Sub-task,Metadata Bootstrap Key Generator needs to handle complex keys correctly,writer-core,Blocker
+ ,HUDI-424,Sub-task,Implement Hive Query Side Integration for querying tables containing bootstrap file slices,hive,Blocker
+ ,HUDI-423,Sub-task,Implement upsert functionality for handling updates to these bootstrap file slices,writer-core,Blocker
+ ,HUDI-420,Sub-task,Automated end to end Integration Test,tests-ci,Blocker
+ccd70a7e486850ca6ce4d7fcc806e396ff0b6aa0,HUDI-472,Improvement,Make sortBy() inside bulkInsertInternal() configurable for bulk_insert,performance,Blocker
+2fc2b01d8647aafe2862db14fc169aa40d4ae3d5,HUDI-394,Sub-task,Provide a basic implementation of test suite,tests-ci,Major
+1ec89e9a94161aa5d48b8f170bf67633b389d997,HUDI-839,Improvement,Implement rollbacks using marker files instead of relying on commit metadata,writer-core,Blocker
+b399b4ad43b8caa69f129e756e51ad4bc8c81de2,HUDI-996,Sub-task,Use shared spark session provider ,tests-ci,Major
+2603cfb33e272632d7f36a53e1b13fe86dbb8627,HUDI-684,Improvement,Introduce abstraction for writing and reading and compacting from FileGroups ,writer-core,Blocker
+f3a701757b9fb838acc4fb2975f378009d71f104,HUDI-696,Sub-task,Add unit test for CommitsCommand,tests-ci,Major
+df2e0c760e7df0bd1b200867b3f0d2ca3a3f1fce,HUDI-942,Bug,Increase minmum number of delta commits for inline compaction,compaction,Minor
+ce0c840ec1425536d7db33c2140497c48a164fdb,/,/,    Bumping release candidate number 2,/,/
+37838cea6094ddc66191df42e8b2c84f132d1623,HUDI-822,Sub-task,Decouple hoodie related methods with Hoodie Input Formats,None,Major
+22cd824d993bf43d88121ea89bad3a1f23a28518,HUDI-494,Test,[DEBUGGING] Huge amount of tasks when writing files into HDFS,None,Major
+937566ee15c6a873258cb22f0cf78623f3c169fc,HUDI-988,Task,Fix unit test flakiness in Hudi,tests-ci,Major
+7d40f19f395460bc78a12ac452831a9f0393ab49,HUDI-515,Sub-task,Resolve API conflict for Hive 2 and Hive 3,None,Major
+84ca5b0cae72d9b33271045efee93a4cf1a0cff5,/,/,    Making few fixes after cherry picking,/,/
+e9cab67b8095b30205af27498dc0b279d188a454,HUDI-988,Task,Fix unit test flakiness in Hudi,tests-ci,Major
+6dcd0a3524fe7be0bbbd3e673ed7e1d4b035e0cb,HUDI-988,Task,Fix unit test flakiness in Hudi,tests-ci,Major
+742c2040995167871db976fc0eb280347401ffc4,HUDI-811,Test,Restructure test packages,tests-ci,Major
+8cb86b4d36de2ee7f8360b715f9f85c635c71a90,/,/,    Added python3 to the spark_base docker image to support pyspark (#1632),/,/
+5a04fc7dc84cf0cc4e4c66703a96de36cfc546ff,/,/,    [MINOR] Fix apache-rat violations (#1639),/,/
+1a9fef48e767c2bb56b9fba5cac48540c5d6c6c1,/,/,    Fixing binary file checks and disclaimer file checks (#1691),/,/
+b43a63ec9ff83f92884b5b5c27d7accbbf3afe47,HUDI-980,Bug,Some remnants after running TestHiveSyncTool is created in local source dir,Release &amp;amp; Administrative,Major
+7fb1251c6ed769ea6877126957a03c5f95d42d8f,HUDI-980,Bug,Some remnants after running TestHiveSyncTool is created in local source dir,Release &amp;amp; Administrative,Major
+7b1a049be9fa3f59da7d881e0fb3ec507f519012,HUDI-973,Bug,RemoteHoodieTableFileSystemView supports non-partitioned table queries,None,Minor
+bde7a7043e100242fec8fc0111e489a269a1d997,HUDI-476,Sub-task,Add a&#160;hudi-examples module,None,Major
+03f136361a5fed594855992ab10bee8bb5060c5b,HUDI-811,Test,Restructure test packages,tests-ci,Major
+6c450957ced051de6231ad047bce22752210b786,HUDI-690,Improvement,filtercompletedInstants in HudiSnapshotCopier not working as expected for MOR tables,None,Major
+0a77a3bbaba64d9b5930429d465b5f4071d494f8,/,/,    Fixing test failures for TestRepairsCommand,/,/
+46572d04c4fed19941cb136882d4895d36b5c2fb,/,/,    [MINOR] Fix PMC tag in doap file (#1666),/,/
+4095de4d45f174b45dd1310a6a99c4fecfb2466a,HUDI-820,Bug,Fix bug in repair corrupted clean files command,cli,Major
+57132f79bb2dad6cfb215480b435a778714a442d,HUDI-705,Sub-task,Add unit test for RollbacksCommand,tests-ci,Major
+5fbb5a76f9ded25e9b6bd15e2db40e1a7c7a0f4d,HUDI-902,Improvement,Avoid exception for getting SchemaProvider when no new input data,deltastreamer,Major
+29edf4b3b8ade64ec7822d6b7b2a125d5ca781c4,HUDI-407,Improvement,Implement a join-based simple index,performance,Blocker
+0d4848b68b625a17d05b38864a84a6cc71189bfa,HUDI-811,Test,Restructure test packages,tests-ci,Major
+295d00beea1c84f83d707f7c6e70292787f1e3e0,HUDI-880,Task,Replace part of spark context by hadoop configuration in HoodieTable,None,Major
+77d7500d3bbcedda81fa182908984e658d6689e5,HUDI-616,Bug,Parquet files not getting created on DFS docker instance but on local FS in TestHoodieDeltaStreamer,tests-ci,Major
+8d0e23173b3f21d7cdb24942913eb1132a111a32,HUDI-820,Bug,Fix bug in repair corrupted clean files command,cli,Major
+f92b9fdcc4d7c0dff9953e42205fca22472525c9,/,/,    [MINOR] Fix hardcoding of ports in TestHoodieJmxMetrics (#1606),/,/
+2e5f6011575cc9fb6adbae822718ea08ac00c4be,HUDI-400,Improvement,Add more checks to TestCompactionUtils#testUpgradeDowngrade,tests-ci,Minor
+fa6aba751d8de16d9d109a8cfc21150b17b59cff,/,/,    [MINOR] fixed building IndexFileFilter with a wrong condition in HoodieGlobalBloomIndex class (#1537),/,/
+0050e00afdc728793f9928cbb594e657c7219c41,HUDI-607,Bug,Hive sync fails to register tables partitioned by Date Type column,hive,Major
+cebce61a3496f8788f5b96d6aedce0a8394fc325,HUDI-629,Improvement,Replace Guava&apos;s Hashing with an equivalent in NumericUtils.java,Utilities,Major
+dd7952ec9de7f9858ded98b49923e8978fd1df78,HUDI-652,Task,Decouple HoodieReadClient and AbstractHoodieClient to break the inheritance chain,None,Major
+e783ab174946a0b767396239c0132c31c8d26458,HUDI-784,Bug,CorruptedLogFileException sometimes happens on GCS,None,Major
+f6c87b56c1f79697428eafde8d167dbcfe93b282,/,/,    Moving to 0.5.3-SNAPSHOT for bug-fix release over 0.5.2,/,/
+f921469afcd03baaf2a4f3266c8ba97e516d6935,HUDI-704,Sub-task,Add unit test for RepairsCommand,None,Major
+19ca0b56296bf89c611406bb86c3626f87d562ee,HUDI-785,Sub-task,Organize compaction/savepoint code under the action executor abstraction,writer-core,Major
+19d29ac7d0ac451324d25bfe85b51b1eca10bc67,HUDI-741,Bug,Fix Hoodie&apos;s schema evolution checks,None,Minor
+644c1cc8bd1965271c4433edccb17aa8fda5f403,HUDI-698,Sub-task,Add unit test for CleansCommand,tests-ci,Major
+661b0b3bab85c8fd958a9e256dab99790ea92713,HUDI-761,Sub-task,Organize Rollback/Savepoint/Restore action implementation under a single package,writer-core,Major
+17bf9303423821483f17785f8536b7bfed45e42e,HUDI-770,Sub-task,Organize ingest API implementation under a single package,writer-core,Major
+4e5c8671ef3213ffa5c40f09aae27aacfa20f907,HUDI-740,Bug,Fix can not specify the sparkMaster and code clean for SparkUtil,cli,Major
+575d87cf7d6f0f743cb7cec6520d80e6fcc3e20a,HUDI-644,Improvement,checkpoint generator tool for delta streamer,deltastreamer,Minor
+e057c27603301d8b49e9b50b78a3ffce247b1059,HUDI-744,Sub-task,Redistribute files in hudi-common utils package,code-quality,Major
+07c3c5d797f612f9b73b2805b65275c2029c2442,HUDI-679,Task,Make io package spark free,None,Major
+8b0a4009a9c662f45a0b7bbbb6f01c2b07c36809,HUDI-678,Task,Make config package spark free,None,Major
+bc82e2be6cf080ab99092758368e91f509a2004c,HUDI-711,Bug,Exporter copy method gets passed wrong file list,Utilities,Minor
+41202da7788193da77f1ae4b784127bb93eaae2c,/,/,    Change version from 0.5.2-incubating-rc2 to 0.5.2-incubating,/,/
+8b00791ef47f708f54ffbfb5789ed65f958740b3,/,/,    [MINOR] cleanup redundant comment and unused variable and fix typo (#1435),/,/
+71b5d92a15844ef1847721f2fac21b8a2956a8b7,HUDI-720,Task,NOTICE file needs to add more content based on the NOTICE files of the ASF projects that hudi bundles,Release &amp;amp; Administrative,Blocker
+a752b7b18c5c74c0c9115168188fa4a15a670225,HUDI-76,Improvement,CSV Source support for Hudi Delta Streamer,incremental-query,Major
+1e321c2fc0f9fedcbb8a0339c90a28a9be5afd64,HUDI-209,New Feature,Implement JMX metrics reporter,None,Major
+55e6d348155f63eb128cd208687d02206bad66a5,HUDI-694,Sub-task,Add unit test for SparkEnvCommand,tests-ci,Major
+cf765df6062f896ad6bf0a8ddf711aad19dbf59b,HUDI-76,Improvement,CSV Source support for Hudi Delta Streamer,incremental-query,Major
+99b7e9eb9ef8827c1e06b7e8621b6be6403b061e,HUDI-629,Improvement,Replace Guava&apos;s Hashing with an equivalent in NumericUtils.java,Utilities,Major
+fb7fba365f89afaf97cc969ecc09f3bbfc4a5dbd,HUDI-646,Test,Re-enable TestUpdateSchemaEvolution after triaging weird CI issue,tests-ci,Major
+a355c7611c55151e6cfd5942c9eb067b622ae57b,HUDI-688,Improvement,Ensure NOTICE contains all notices for the dependencies called out in LICENSE,Release &amp;amp; Administrative,Blocker
+44700d531a74f24762903df2729577a0d96e4ec0,HUDI-344,New Feature,Hudi Dataset Snapshot Exporter,Utilities,Major
+3639241d24178292223996fd591a7d0c6e27a528,HUDI-676,Task,Address issues towards removing use of WIP Disclaimer,Release &amp;amp; Administrative,Blocker
+2137ecfa2296b1b2d281fcd2d2a35a9282d2b477,HUDI-676,Task,Address issues towards removing use of WIP Disclaimer,Release &amp;amp; Administrative,Blocker
+e9f114f3dd8673b8b66b024e62cc1e3e808e7ea9,HUDI-581,Improvement,NOTICE need more work as it missing content form included 3rd party ALv2 licensed NOTICE files,Release &amp;amp; Administrative,Blocker
+ccbf543607db2c3479094a3216f733f6844b6f06,HUDI-654,Sub-task,Rename hudi-hive to hudi-hive-sync,code-quality,Major
+8306205d7abb0acbb73a1d178e3eb90f2bc29a5e,HUDI-332,Improvement,Add operation type (insert/upsert/bulkinsert/delete) to HoodieCommitMetadata,writer-core,Major
+5ca0625b277efa3a73d2ae0fbdfa4c6163f312d2,/,/,    [HUDI 1308] Harden RFC-15 Implementation based on production testing (#2441),/,/
+7ce3ac778eb475bf23ffa31243dc0843ec7d089a,HUDI-1479,Task,Replace FSUtils.getAllPartitionPaths() with HoodieTableMetadata#getAllPartitionPaths(),code-quality,Blocker
+17df517b812c9a37dd64014f0d5c35a3cfac0c4e,HUDI-1510
+ff8313caf1dfe0b13fa9f160489a74600b0e8756,HUDI-1423,Sub-task,Support delete in java client,None,Major
+605b617cfa9a25bff48e618beccfaa7b4eaeee56,HUDI-1434,Bug,MOR table commit metadata has wrong log path,None,Blocker
+6cdf59d92b1c260abae82bba7d30d8ac280bddbf,HUDI-1354,Task,Block updates and replace on file groups in clustering,None,Blocker
+286055ce34bdbbac68c995a2710fc7be07734b12,HUDI-1451,Improvement,Support bulk insert v2 with Spark 3,None,Blocker
+e4e2fbc3bb2c4796c6813114dd1c37ffa5a1e03a,HUDI-1419,Sub-task,Introduce base implementation of hudi-java-client,None,Major
+14d5d1100c69839d2bcfea26af0efdcd2057650d,HUDI-1406,Improvement,Add new DFS path sector implementation for listing date based partitions,deltastreamer,Minor
+236d1b0dec409efb9c7a9febd260b1060da6a9c1,HUDI-1439,Task,Remove scala dependency from hudi-client-common,None,Major
+fce1453fa608fcff5df4d5aca8c88107d4151b09,HUDI-1040,Improvement,Support Spark3 compatibility,None,Blocker
+4d05680038752077ceaebef261b66a5afc761e10,HUDI-1327,Task,Introduce base implementation of hudi-flink-client,None,Major
+33ec88fc3840c47a54b5862e4d276889c4121231,HUDI-1352,Task,Add FileSystemView API to query pending clustering operations,None,Major
+c5e10d668f9366f29bdf7721f7efe4140782527b,HUDI-995,Sub-task,Organize test utils methods and classes,tests-ci,Major
+b58daf29ba7f0100d16deb793757d93d073c9a03,/,/,    [MINOR] remove unused generics type (#2163),/,/
+1f7add92916c37b05be270d9c75a9042134ec506,HUDI-1089,Task,Refactor hudi-client to support multi-engine,Usability,Major
+1277c62398c58690cd5a6aa78048335d5313ca05,HUDI-1653
+f1e0018f12b66770ba3785be7aa8f5f6a80bab6f,HUDI-1704
+74241947c123c860a1b0344f25cef316440a70d6,HUDI-845,New Feature,Allow parallel writing to Hudi tables using Locking service,writer-core,Blocker
+fc6c5f4285098d18cd7f6e81785f59e68a3b6862,HUDI-1684
+20786ab8a2a1e7735ab846e92802fb9f4449adc9,HUDI-1681
+12ff562d2bd77b6dc8676eac79cbd631185dac3c,HUDI-1678
+11ad4ed26b6046201945f0e14449e1cbc5b6f1f2,HUDI-1661
+899ae70fdb70c1511c099a64230fd91b2fe8d4ee,HUDI-1587
+7a11de12764d8f68f296c6e68a22822318bfbefa,HUDI-1632
+617cc24ad1a28196b872df5663e9e0f48cd7f0fa,HUDI-1367,Improvement,Make delastreamer transition from dfsSouce to kafkasouce,None,Major
+2efd0760acb5de06adc0f0a4a045df792ff3b6ab,HUDI-1477,Sub-task,Support CopyOnWriteTable in java client,None,Major
+ffcfb58bacab377bc72d20041baa54a3fd8fc812,HUDI-1486,Improvement,Remove pending rollback and move to cleaner,writer-core,Major
+4c5b6923ccfaaa6616a934a3f690b1a795a42d41,HUDI-1557
+bc0325f6ea0a734f106f21a2fcd4ead413a6cf7b,HUDI-1522
+2ee1c3fb0cb9740dc6d924f5e6e638aec19ed9b3,HUDI-1234,Bug,Insert new records regardless of small file when using insert operation,writer-core,Major
+c8ee40f8ae34607072a27d4e7ccb21fc4df13ca1,/,/,    [MINOR] Update doap with 0.7.0 release (#2491),/,/
+162dc18fc6a1e1d0db420a4735bc8c5a0ba7cf12,/,/,    [MINOR] Update release version to reflect published version  ${RELEASE_VERSION},/,/
+e302c6bc12c7eb764781898fdee8ee302ef4ec10,HUDI-1453,Improvement,Throw Exception when input data schema is not equal to the hoodie table schema,writer-core,Major
+7aeb3ccff33c740c07456d7c9ec22e9d574e6650,/,/,    [HOTFIX] Revert upgrade flink verison to 1.12.0 (#2473),/,/
+641abe8ab7c1c4d9915c6582389476fa5f7ae067,HUDI-1332,Task,Introduce FlinkHoodieBloomIndex to hudi-flink-client,None,Major
+23dca6c237517bc9d9407556af6b1042f09ae76b,HUDI-2268
+9e8308527a3a19bf58397ededfbf91a70568060e,HUDI-1518
+4783176554e7d4ae7b7296cf633d750ae27e65d9,HUDI-1138,Improvement,Re-implement marker files via timeline server,writer-core,Blocker
+0e1c592c697c8e55491d869fb18126c3ff1d87a2,/,/,    [MINOR] Delete useless com.uber.hoodie.hadoop.hive.HoodieCombineHiveInputFormat (#3298),/,/
+21db6d7a84d4a83ec98c110e92ff9c92d05dd530,HUDI-1771
+b4441abcf74951ec0ce28593b96baa84456a97d3,HUDI-2194
+1df5ded433eced3bbb66137bc741e616beab9a70,HUDI-2273
+02331fc223ca1272e3a9039c6563b9d511a8fbef,HUDI-2258
+826a04d1425f47fdd80c293569a359021d1b6586,HUDI-2072
+8fef50e237b2342ea3366be32950a2b87a9608c4,HUDI-2044
+00cd35f90ad0cd96a943edd148bf881fc4b7bb5b,HUDI-2215
+61148c1c43c9ff5ba04b6c174e9e2a006db9e7b3,HUDI-2176
+c89bf1de20a1c9eb7873b4671ad3d37bc7111245,HUDI-2205
+d5026e9a24850bdcce9f6df3686bf2235d7d01c4,HUDI-2161
+50c2b76d725a71608a38217370b1ac45cedae405,HUDI-2087
+75040ee9e5caa0783009b6ef529d6605e82d4135,HUDI-2149
+c8a2033c275e21a752893fc89311e1f6846f5a78,HUDI-2144
+783c9cb3693ff7d82cc3d43a4964c64a4da19436,HUDI-2087
+b4562e86e4b58d6151fdeea12e727b8c8881a213,HUDI-2087
+371526789d663dee85041eb31c27c52c81ef87ef,HUDI-2087
+1d6978cde4c98c82c184f6404f49ef0f4832fbd6,HUDI-2135
+d412fb2fe642417460532044cac162bb68f4bec4,HUDI-89,Improvement,Introduce a HoodieConfig/ConfigProperty framework to bring all configs under one roof,writer-core,Blocker
+aa6342c3c9af53e7064546becf987e26534d0764,HUDI-2036
+ ,HUDI-1955
+0c4f2fdc15982870b59d3458303973af95984266,HUDI-1984
+7261f0850727aea611cd34e1bb07d684b44534f6,HUDI-1929
+57611d10b5ae5cb3580dcbd4abb4cdc131cbd575,HUDI-1743
+441076b2ccf66949310030fc6680bb68c259d8da,HUDI-1950
+afa6bc0b100450b5d80a27bf5b87cbd4a0fbb3a5,HUDI-1723
+081061e14bd54be4ee8f4eef6253d5ec9d395ee7,HUDI-1719
+ad77cf42ba7d8eab086be1f6d91f465bf29164ed,HUDI-1900
+b98c9ab4392727b6b9731aea88deaa5337a91dcf,HUDI-1895
+0a5863939b8da149f6dab3ec0fdb86d77baa9739,HUDI-1821
+920537cac83d59ac05676fb952d5479c41adf757,HUDI-1749
+da65d3cae99e8fee0ede9b5ed8630a3716d284c8,/,/,    [MINOR] Update release version to reflect published version 0.8.0,/,/
+fe16d0de7c76105775c887b700751241bc82624c,/,/,    [MINOR] Delete useless UpsertPartitioner for flink integration (#2746),/,/
+8bc65b93189e249be43fe6cba2387ca83babc2c8,HUDI-1731
+7de5d1760191128c86ef40ac2f9cb57e87328e3e,HUDI-2902,Bug,Metadata table virtual keys are not effective in base files,writer-core,Blocker
+5755ff25a49aa495e418acde7ef8d246e16b4973,HUDI-2814,Task,Address issues w/ Z-order Layout Optimization,index,Blocker
+8340ccb503962876cf83de40949264836f88c04d,HUDI-2005
+435ea1543c034194d7ca0b589b7b043fc49c07ac,HUDI-2793,Bug,Fix copying of deltastreamer checkpoint,None,Blocker
+ca9bfa2a4000575dbaa379c91898786f040a9917,HUDI-2332
+24def0b30dabd3c447fbfbde636868f1913e9074,HUDI-2362
+90f9b4562abaef955cbff54f539ec867d8708b60,HUDI-2685,Improvement,Support scheduling online compaction plan when there are no commit data,flink,Major
+dfe3b84715e8fecfa96ef615c217f5eaf0da94e8,HUDI-2579,Task,Deltastreamer checkpoint metadata is not merged from previous commit instant,writer-core,Blocker
+6d109c6de5078560abab96f96dc2a9bfe9ed8e57,HUDI-2595,Task,Guard all writes to metadata table for a single writer datatable and async operations,None,Blocker
+e0285800fb5609fcf27b523109e369a8d7d6b27d,HUDI-1827
+0223c442ec9a746834d1b2f2582c5267b692823a,HUDI-2502
+e3fc74668fc43fefd73087ff725245b8ed85b4a1,HUDI-2625,Improvement,Fix test failures in TestHoodieLogFormat,None,Blocker
+ ,HUDI-2005
+1bb05325637740498cac548872cf7223e34950d0,HUDI-2005
+5ed35bff836f898d420e9a7ef8c47dc2ded7dca3,HUDI-2501
+aa3c4ecda57c412b5822348d40cdf983c0035fb7,HUDI-2583,Test,Refactor TestWriteCopyOnWrite test cases,flink,Major
+e355ab52db4af71880ac6e9b67991221d4b9c569,HUDI-2578,Improvement,Support merging small files for flink insert operation,flink,Major
+2eda3de7f91335c17458f106f4edde8d8ffbb978,HUDI-2562,Improvement,Embedded timeline server on JobManager,flink,Major
+f0585facd6e8ff8c226e1e6c7b66933eac8ea4c6,HUDI-2474
+440525ccbb001884840efadcb51eda44bba5e624,HUDI-2483
+eeafd24f4c3a65e107867e30eb499b4aec69d7e5,HUDI-2395
+57d5da68aa646adfd327394daea720cb3d592b1d,HUDI-2330
+ ,HUDI-2335
+b8dad628e584e0acfa8ef6ba0056f7cb6efafad0,HUDI-2422
+916f12b7dd4b635c790b17876fa49fb786233e94,HUDI-2433
+9735f4b8efaa3d333e496c1159bd9ae0b222519a,HUDI-2428
+e528dd798ab8ce6e4d444d2d771c107c503e8f25,HUDI-2394
+57c8113ee1941615a03f0efc2e3d46b634e940eb,HUDI-2408
+073c318d9fd83d40b1dde1cc149def617ce31e8f,HUDI-1989
+a60fab3a5c6df1b9b3d32f192d4c6ca4ff1d6f6d,HUDI-2352
+178767948e906f673d6d4a357c65c11bc574f619,/,/,    [MINOR] Update release version to reflect published version 0.9.0,/,/
+ab3fbb88950ca351723f2f46da9f40ba325a03b5,HUDI-2342
+a2c226132fc7a9eb38a0cf946c73b0abe353d380,HUDI-3807,Task,Add separate configs to control multi-modal index usage in write-side indexing ,None,Blocker
+52205897a7fb199d31f44cf6da1a926ebd960848,HUDI-3760,Bug,Rebase ColStats onto fetching Records by Column prefix,None,Blocker
+444ff496a444ff82385421844aef5b4db01d8892,HUDI-2429
+ ,HUDI-2560,New Feature,Introduce id_based schema to support full schema evolution,Common Core,Blocker
+ ,HUDI-2429
+ ,HUDI-2560,New Feature,Introduce id_based schema to support full schema evolution,Common Core,Blocker
+28dafa774ee058a4d00fc15b1d7fffc0c020ec3e,HUDI-2488
+ ,HUDI-3175,New Feature,Support INDEX action for async metadata indexing,metadata,Blocker
+eaa4c4f2e2ccdb42f62d91c001a0350de183e4dc,HUDI-1180,Task,Upgrade HBase to 2.x,writer-core,Blocker
+a1c42fcc0708f1838391e3e5c3cb7541b1fcd78f,/,/,    [minor] Checks the data block type for archived timeline (#5106),/,/
+5f570ea151d0212ab1bb2d1f5693035626b76d31,HUDI-2883,Task,Refactor Hive Sync tool /config to use reflection and move to hudi sync common package,None,Blocker
+799c78e6888ef6a375c6779c3cfe7067756d4be9,HUDI-3665,Improvement,Support flink multiple versions,flink,Major
+7446ff95a7b099d8016b7ca48fdeed9b290d710f,HUDI-2439
+e8918b6c2c30968caccc4fc3c166082503b4cc9d,HUDI-3569,Task,Introduce ChainedJsonKafkaSourePostProcessor to support setting multi processors at once,deltastreamer,Major
+83cff3afee15e129034eb51e68a1734c55d85da2,HUDI-3522,Task,Introduce DropColumnSchemaPostProcessor to support drop columns from schema,deltastreamer,Major
+8859b48b2a13494c89603799684f317f8777726a,HUDI-3383,New Feature,Sync column comments while syncing hive table  especially using spark datasource,None,Major
+548000b0d635067acf7574c4cf5122759e79b52b,HUDI-3568,Task,Introduce ChainedSchemaPostProcessor to support setting multi processors at once,deltastreamer,Major
+575bc6346825796e091a12be5a53b04980f82637,HUDI-3356,Task,Conversion of write stats to metadata index records should use HoodieData throughout,writer-core,Blocker
+ ,HUDI-3203,Task,Meta bloom index should use the bloom filter type property to construct back the bloom filter instant,metadata,Blocker
+c9ffdc493eb8d1971b281e3b84275f4ef5905e4b,HUDI-3525,New Feature,Introduce JsonkafkaSourcePostProcessor to support data preprocess before it is transformed to DataSet,deltastreamer,Major
+4b471772aa130dc4bb577edbd42f2a617f205da0,HUDI-3520,New Feature,Introduce DeleteSupportSchemaPostProcessor to support adding _hoodie_is_deleted column to schema,deltastreamer,Major
+051ad0b033993fcc7c68bdc96368fc6f0b822a55,HUDI-3130,Bug,Hive read fails when different partitions have different schemas,hive,Critical
+3b2da9f13847475be3dcef13b3d25df8818cecc7,HUDI-2631,Improvement,In CompactFunction  set up the write schema each time with the latest schema,flink,Major
+3fdc9332e58930aa8e4fef0d0f85ffbec78c6e7b,HUDI-3516,Improvement,Optimize the memory of HoodieDataBlock for Flink,writer-core,Critical
+c77b2591d057fdc1c014a80284024e19254e3606,HUDI-2439
+ba4e732ba75e12a02d07c09f2662678bdcafbdc2,HUDI-2987,Bug,event time not recorded in commit metadata when insert or bulk insert,writer-core,Critical
+464027ec375b375475999c78c56612506753f77e,HUDI-3239,Task,Convert AbstractHoodieTableFileIndex to Java,writer-core,Blocker
+3f263b82ce6687a8275419ce53ba23348561bdcb,HUDI-3206,Improvement,Unify Hive&apos;s MOR `InputFormat` implementations (Parquet  HFile),None,Blocker
+24f738fe68d03fa15755d8a53aeb6e25921c6e94,HUDI-3360,Task,Add retries to DeltaStreamer on source errors ,deltastreamer,Critical
+b8601a9f58ae4dc5099cc7f828df7fd8d0aeb798,HUDI-2656,Task,Generalize HoodieIndex for flexible record data type,code-quality,Blocker
+5927bdd1c0fab202474af47b9e035680b345c563,HUDI-1295,Task,Implement: Metadata based bloom index - write path,writer-core,Blocker
+a68e1dc2dba475b9a63779f3afa0b5c558a7cd3b,HUDI-431,New Feature,Support Parquet in MOR log files,storage-management,Blocker
+0bd38f26ca4076dc45ee1cba4f8525550b96ce40,HUDI-2596,Task,Make class names consistent in hudi-client,code-quality,Blocker
+f87c47352aab70883777d80e353f9833e5aa1caa,HUDI-2763,Improvement,Metadata table records key deduplication,writer-core,Blocker
+dd4ce1bdfd59cd386437169856201476df68ffa7,HUDI-3328,Task,Update doap file for 0.10.1 release,None,Major
+84fb390e42cbbb72d1aaf4cf8f44cd6fba049595,/,/,    [MINOR] Update release version to reflect published version 0.10.1,/,/
+a08a2b730674d57a0c40545023b21f0bac34e7df,/,/,    [MINOR] Add instructions to build and upload Docker Demo images (#4612),/,/
+101be1a0139ad550a509cf3d2c2a101ea62930b4,HUDI-3257,Task,Excluding clustering instants from pending rollback info,core,Major
+db93ad2f4bc9b3c357f065882c3d8cbb1c0b9c07,HUDI-3277,Task,Filter non-parquet files in bootstrap procedure,bootstrap,Major
+1d3049540f2b9d36a81ff720e55d9db9f8151fd6,HUDI-3268,Bug,Spark datasource cannot read MOR table written by Kafka Connect Sink,None,Blocker
+4bea7587384842ac82590b0a9e785b8f73690885,HUDI-3191,Improvement,Rebase Hive&apos;s FileInputFormat onto AbstractHoodieTableFileIndex,spark,Blocker
+5ce45c440baeb38f57335c1a702ec91b721add65,HUDI-3172,Improvement,Refactor hudi existing modules to make more code reuse in V2 implementation,None,Blocker
+195dac90fa89a05ee10ff9b37ad65fdfd07014ef,/,/,    [MINOR] Disable flaky tests to unlock CI (#4592),/,/
+97dab479315c76cab12f0e23243df2dffddb0e8d,HUDI-3010,Task,Enable metadata file listing for Presto directory lister,trino-presto,Blocker
+209f91cb3374e94f1597e59a82a82d6846c4b994,HUDI-3010,Task,Enable metadata file listing for Presto directory lister,trino-presto,Blocker
+0a4553b73eae36e8610cb6a9f42196b35f02ffd8,HUDI-2943,Bug,Deltastreamer fails to continue with pending clustering after restart in 0.10.0 and inline clustering,deltastreamer,Major
+100470a46d943b7840cf300c18a67e0db0c198a6,HUDI-3235,Bug,Unit tests requiring hive service in setup failing,hive,Blocker
+6cdcd89afa40a75c95f3c060976ef72f1b2318b6,HUDI-3094,Improvement,Unify Hive `FileInputFormat` implementations,None,Blocker
+27628fa1d307563b74f2da7c4b619f98ffb8e1cc,/,/,    Removing extraneous warn logs in ClusteringUtils (#4553),/,/
+f1e3762a947d9bc978beb5bb5ae845b8d5dd6290,HUDI-2950,Task,Address high small objects churn in Bulk Insert/Layout Optimization,None,Blocker
+eac1a02a53e6ae501eee986dd75cf1cc907f3fcf,HUDI-3195,Bug,optimize spark3 pom and modify build command,spark,Critical
+bc95571caade9ceef00abf24e3e6e82fc9643c05,HUDI-2735,Task,Fix archival of commits in Java client for Kafka Connect,writer-core,Blocker
+cc8ecf265ff6e4d9e298c6e1732c1dcf6abe2032,/,/,    Fixing build failure with TestHoodieClientMultiWriter,/,/
+251d4eb3b64704b9dd51bf6f6ecb5bf47089b745,HUDI-3030,Task,Make LocalLockProvider as the default when async table services are turned on,writer-core,Blocker
+b2b23f5d3a14fae721df34a162e0ed717efe488f,HUDI-3183,Bug,Fix wrong result of HoodieArchivedTimeline loadInstants with TimeRangeFilter,None,Major
+dd67878bd8a88c2c5492ac297aa5887b497af3eb,/,/,    Fixing build failures,/,/
+d7afc58d0c9cf7f6625a08e77b821a14548fafc0,HUDI-3118,Improvement,Add default HUDI_DIR in setupKafka.sh,None,Major
+7be8944723d5cd5c1c54f4f94bdafe78351570ac,HUDI-2675,Improvement,Not an Avro data file,Common Core,Critical
+f0c2912d35467ff5f6514c01ab440eb1ca8d0d8f,/,/,    [MINOR] Remove unused methods in HoodieColumnProjectionUtils (#4408),/,/
+4500e615437562b62c6043ee70b53c870f555891,/,/,    [MINOR] HoodieInstantTimeGenerator improve method used (#4462),/,/
+2444f40a4be5bbf0bf210dee5690267a9a1e35c8,HUDI-3095,Improvement,Abstract partition filter logic of clustering plan to enable code reuse,None,Major
+a4e622ac61ecaf8520d137421f16bc206b864732,HUDI-1951
+ ,HUDI-2154
+ ,HUDI-2157
+ ,HUDI-2154
+5c0e4ce0055f0481a4cd6b7b44f5d0b266fd8f44,HUDI-3043,Task,Test failure with TestHoodieDeltaStreamerWithMultiWriter.testUpsertsContinuousModeWithMultipleWriters,None,Major
+eca2f2cc65796c566af733520608bc78d600063a,HUDI-3037,Improvement,Add back remote view storage config for flink,flink,Major
+9864d30fc169f51a6588848dfd2445360e133e27,HUDI-2957,Improvement,Shade kryo jar for flink bundle jar,flink,Major
+62b3c9058c0a16b6d2158e8282461dd035003390,HUDI-2900,Bug,Fix corrupt block end position,Common Core,Major
+d0087d40402133453c3ca3da1a566545f0ca9d64,HUDI-3037,Improvement,Add back remote view storage config for flink,flink,Major
+bd084704210ee0247a4b31a6a32e5de3afd7048c,HUDI-2957,Improvement,Shade kryo jar for flink bundle jar,flink,Major
+7de5d1760191128c86ef40ac2f9cb57e87328e3e,HUDI-2902,Bug,Metadata table virtual keys are not effective in base files,writer-core,Blocker
+69d14353bcc20c07d53b7835940c4117cfbf5110,/,/,    [MINOR] Fix typo rename 'getUrlEncodePartitoning' to 'getUrlEncodePartitioning' (#4130),/,/
+e483f7c776ed53015d08b78fc33729892dc2143c,HUDI-2902,Bug,Metadata table virtual keys are not effective in base files,writer-core,Blocker
+6cf5c2447a687003338bb5ce4797ad9ce66aaf7d,HUDI-3669,Bug,HoodieRemoteException when task communicates with jm&apos;s timeline server: IP : port failed to respond,flink,Blocker
+0cbe468b6cfb58a57aafff14acec792b233456d6,HUDI-4303,Bug,Partition pruning fails for non-string partition field in Spark due to incompatible default value,spark,Blocker
+e49c2826e415046eceade2d123e213d80c6b108d,HUDI-4531,Bug,Wrong partition path for flink hive catalog when the partition fields are not in the last,flink,Major
+cdaec5a8da060157eb7426b5b70419c5f8868e04,HUDI-4186,Epic,Support Hudi with Spark 3.3,spark,Critical
+a33bdd32e37a0a7859256f9db32d2bef0a44c1fa,HUDI-3993,Bug,Avoid calling into Spark UDF in Bulk Insert,None,Blocker
+9282611baec5069156f627a2c96ee8cdd480bf90,HUDI-4098,Bug,Metadata table heartbeat for instant has expired  last heartbeat 0,flink,Major
+126b88b48ddf3af4ad6b48551cab09eea4c800c9,HUDI-2150
+c0e15879668537d6de96db2994fc68209ad0baa5,HUDI-3730,Epic,RFC-55: Improve hudi-sync classes design and simplify configs,meta-sync,Critical
+47792a318656ecae0203d44f637742a152bbb0e4,HUDI-4353,New Feature,Column stats data skipping for flink,flink-sql,Major
+26c967bac60de394ca78e79d27647067680ed630,HUDI-3504,New Feature,Support bootstrap command based on Call Produce Command,cli,Major
+1c43c590aca7ac13f474eb5818b6f3859c5dbf40,HUDI-3502,New Feature,Support hdfs parquet import command based on Call Produce Command,cli,Major
+c5c4cfec915fad198ccb57d00bc8d875a78e794b,HUDI-3507,New Feature,Support export command based on Call Produce Command,cli,Major
+622d27a099f5dec96f992fd423b666083da4b24a,/,/,    [MINOR] Update release version to reflect published version 0.11.1,/,/
+5aaac21d1dad8d462f96d47bca7d55494a8a8ae1,HUDI-4224,Bug,CI failed tests were not reported,tests-ci,Blocker
+b3c77338bfe932061ddc1858e19a3ba8651d0d0d,HUDI-4205,Bug,Reading metadata table on S3 using Spark throws NullPointerException during createHFileReader,spark,Blocker
+fd8f7c5f6c0bbfbed829f5d1a1d250ca4752d503,HUDI-4205,Bug,Reading metadata table on S3 using Spark throws NullPointerException during createHFileReader,spark,Blocker
+7b98ecfc2a92daf5b04f3823f71fab0ab96e3fac,/,/,    [MINOR][DOCS] Update the README.md file in hudi-examples (#5803),/,/
+f5ab921300654e61a448ac447eb4532a60e49b9c,/,/,    [MINOR][DOCS] Update the README.md file in hudi-examples (#5803),/,/
+ad27bc352c507fc906495152ccf9d2e6789a9b71,HUDI-4200,Bug,Keys not sorted for records to be looked up with Metadata table base file,metadata,Blocker
+ ,HUDI-3760,Bug,Rebase ColStats onto fetching Records by Column prefix,None,Blocker
+f85cd9b16d2bd0c49fb6a05a4be627dffb4c2065,HUDI-4200,Bug,Keys not sorted for records to be looked up with Metadata table base file,metadata,Blocker
+ ,HUDI-3760,Bug,Rebase ColStats onto fetching Records by Column prefix,None,Blocker
+6db0720f61e31097a0b07635c4ce9acce581df1d,HUDI-4183,Improvement,Fix using HoodieCatalog to create non-hudi tables,None,Major
+3759a38b99cf9bb7540cd1881879cc0547a25e70,HUDI-4183,Improvement,Fix using HoodieCatalog to create non-hudi tables,None,Major
+8cb8e04bee544b9fb2360a32979e4d739038d61f,HUDI-3336,Improvement,Configurations transferred through Flink SQL cannot take effect,flink-sql,Major
+ ,/,/,3336][HUDI-FLINK]Support custom hadoop config for flink (#5528),/,/
+78ec3a8c52e971380be28927aac0d39ca58eeb12,HUDI-3995,Improvement,Bulk insert row writer perf improvements,writer-core,Blocker
+891c4151943c07c4837b760f819947b088a7c112,/,/,    [MINOR] fixing flaky tests in deltastreamer tests (#5521),/,/
+91a5f3db1dd69813e343ff9df0a2c1b26caea8ca,HUDI-3950,Bug,Add missing parquet-avro in gcp bundle,None,Major
+61030d8e7a5a05e215efed672267ac163b0cbcf6,HUDI-3123,New Feature,Consistent hashing index for upsert/insert write path,index,Major
+701f8c039d1cd0104cff4d04f60b159c9e38d84e,HUDI-3336,Improvement,Configurations transferred through Flink SQL cannot take effect,flink-sql,Major
+ ,/,/,3336][HUDI-FLINK]Support custom hadoop config for flink (#5528),/,/
+6285a239a35c5808ba2eea00193a51564c716ab6,HUDI-3995,Improvement,Bulk insert row writer perf improvements,writer-core,Blocker
+569a76a9a5389efb74ec88b81c616f8ead58df5c,/,/,    [MINOR] fixing flaky tests in deltastreamer tests (#5521),/,/
+d886e9eb8df9d74d2b8a00a98e851704af183364,/,/,    [MINOR] Removing invalid code to close parquet reader iterator (#5182),/,/
+a2c226132fc7a9eb38a0cf946c73b0abe353d380,HUDI-3807,Task,Add separate configs to control multi-modal index usage in write-side indexing ,None,Blocker
+52205897a7fb199d31f44cf6da1a926ebd960848,HUDI-3760,Bug,Rebase ColStats onto fetching Records by Column prefix,None,Blocker
+0048b78d18499280f09df8866952968e8efdb45b,HUDI-3800,Task,Enable preserve compaction commit metadata by default,None,Blocker
+3e97c88c4ff9cbeb312805daf6d52da5f1bcb0bd,HUDI-3807,Task,Add separate configs to control multi-modal index usage in write-side indexing ,None,Blocker
+9e87d164b3f39d795ef70a1f22ba57353d6e198f,HUDI-3760,Bug,Rebase ColStats onto fetching Records by Column prefix,None,Blocker
+da71afd53c5e1b2d0cd72d22ddf9278ca2ef664c,HUDI-4363,Improvement,Support Clustering row writer to improve performance,writer-core,Critical
+0bd1c533c2aa68f39325d4d7b38b9bc3f197fd6e,HUDI-4808,Bug,HoodieSimpleBucketIndex should also consider bucket num in log file not in base file which written by flink mor table,None,Major
+e16d63b4cf34f589622104dc6fa5f321cc9f3f1e,HUDI-4691,Bug,Deduplicate Spark 3.2 and Spark 3.3 integrations,writer-core,Blocker
+60895bbb35b9f945e60e28d6545d8ee66400405f,HUDI-4782,New Feature,Support TIMESTAMP_LTZ type for flink,flink-sql,Major
+1337565fc619b82b824dba93c1c3814cac5d4335,HUDI-4528,Task,Diff tool to compare metadata across snapshots in a given time range,cli,Blocker
+94be4a85045e606cb43ab10e035cfa98a6813ea4,HUDI-4642,Improvement,Add hudi-cli support to repair deprecated partition,cli,Blocker
+8ef49838f494a7d4712e9665d5aded87fa51ad97,HUDI-3669,Bug,HoodieRemoteException when task communicates with jm&apos;s timeline server: IP : port failed to respond,flink,Blocker
+3a08bdc3f971b3534e8fb6f34772340cfdf055a9,HUDI-5363,Bug,Remove default parallelism values for all ops,writer-core,Blocker
+c95abd3213f4806f535c6d7cb8b346616c3368fb,HUDI-5575,Bug,Support any record key generation along w/ any partition path generation for row writer,writer-core,Critical
+ ,HUDI-5514,Improvement,Add support for auto generation of record keys for Hudi,writer-core,Blocker
+2fc20c186b77017f7f1c6f6abe8559a9e8cfe578,HUDI-5575,Bug,Support any record key generation along w/ any partition path generation for row writer,writer-core,Critical
+c18d6153e105ac34fb410c60ce8a153327931782,HUDI-1575
+c9bc03ed8681ab64eea2520f5511464915389c51,HUDI-4148,New Feature,Preparations and client for hudi table manager service,table-service,Major
+16d33ba3cb953435660566ba2ec63a45204a7814,HUDI-3654,New Feature,Support basic actions based on hudi metastore server ,platform-service,Blocker
+7ae627179e7a70837afd557211f1b3a55a2ec010,HUDI-4827,Improvement,Rebase Azure Image on Ubuntu 22.04,None,Blocker

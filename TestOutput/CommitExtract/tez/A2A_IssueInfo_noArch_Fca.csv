@@ -1,0 +1,1034 @@
+145c730c8d1cea863185b2a3354b19f2ab21addd,/,/,    Add LICENSE.txt and NOTICE.txt to javadoc artifacts created by release.,/,/
+762c9cef8863eb48404ecf3ecc4ef08792bec525,/,/,    Add LICENSE.txt and NOTICE.txt to resources for inclusion in release,/,/
+fe031a7a00055673d8b0aa109013e63c5d1386aa,/,/,    Updated CHANGES.txt and version in poms for 0.4.0-incubating release,/,/
+d1f417afbab7c7b58833a588f8eff72f4bf8ce1e,/,/,    Add my public key to key list.,/,/
+e144a129341840d0ec4f0bed1bd0cb920d41844d,TEZ-932,Improvement,Add a type aware Initial memory distributor,None,Major
+3a305a9eed46b087d4cc3679783b7c49ec67d3c3,TEZ-1001,Task,Remove jar file added by TEZ-989,None,Major
+a03a33b200c6ac543059f89f8d1cccae9ff06d4c,TEZ-1001,Task,Remove jar file added by TEZ-989,None,Major
+f34c7f320ae471b5a3957b85e58e3b38eab44717,TEZ-991,Bug,getReader can occasionally hang on ShuffledMergedInput,None,Critical
+6416102f4ffbcde66e3bf4595d268d2539019c2e,TEZ-990,Improvement,Add support for a credentials file read by TezClient,None,Major
+e32252cdcf6e52c1f361c780a7373168242e7c6c,TEZ-983,Bug,Support a helper function to extract required additional tokens from a file,None,Major
+cde19354d5a7ee73a2fff5312d5d5ecb995da428,TEZ-981,Bug,Port MAPREDUCE-3685,None,Major
+57b61c22f5f1056f7c37da468129f70c4f058cd9,TEZ-980,Bug,Data recovered flag file should be a namenode only OP.,None,Major
+5a6f42a8118ef47475b4522ae984810616914461,TEZ-973,Bug,Abort additional attempts if recovery fails.,None,Major
+f31aba7bca4ff85dec69a4ac949c37e24f7eed1e,TEZ-976,Bug,WordCount example does not handle -D&lt;param&gt; args,None,Major
+ba97f7f35af0ca94a966a30bb138d7f3ef9e2562,TEZ-977,Bug,Flaky test: TestAMNodeMap - add more debug logging,None,Major
+e22256ddf49154748ce84ad8d98bf8a365c68bc6,TEZ-8649
+762f322deef34e4b02d9df2a380784ceba359a13,TEZ-972,Improvement,Shuffle Phase - optimize memory usage of empty partition data in DataMovementEvent,None,Major
+0bf327c288274b0fde677bdfc373e6110f7b86e2,TEZ-879,Task,Investigate synchronization in Inputs/Outputs .initialize() etc,None,Major
+908512fc378d5dc6982ac2516822709f0cf06b0f,TEZ-876,Bug,Fix graphviz dag generation for Hive,None,Major
+a3a9ceaad6d94200889f30a8d41cd1d42689797f,TEZ-951,Task,Port MAPREDUCE-5028,None,Major
+be0b47a0e58ccf166472e38bf15101434dd33b53,TEZ-950,Task,Port MAPREDUCE-5462,None,Major
+8fab9244f6cd82bb3160c006f865c026b30dc56c,TEZ-971,Bug,Shuffle should report errors early,None,Critical
+7f3051b1f368cdee7568f8f12e8e2cd814e1ae17,TEZ-970,Improvement,Consolidate Shuffle payload to have a single means of indicating absence of a partition,None,Major
+8c6cab4a23109e60a1fa4cc0267bda959aee9396,TEZ-969,Bug,Hive on Tez job gets stuck as reducers makes no progress,None,Critical
+bd6fa6ee40ffe0989768808be7dcad15395149f0,TEZ-968,Bug,Fix flush mechanism when max unflushed events count set to -1,None,Trivial
+674fd81a1a16d20b496b1bab42df6be3aa0ef9c2,TEZ-948,Task,Log counters at the end of Task execution,None,Major
+34159fed90ab519a024d177b9fcd144cb4954437,TEZ-964,Bug,Flaky test: TestAMNodeMap.testNodeSelfBlacklist,None,Critical
+3b2c4749a9f735f558144582c40c3bf49565f5dc,TEZ-966,Bug,Tez AM has invalid state transition error when datanode is bad.,None,Major
+2775c8ad0ad4f1a4cfe1935b3233aa4007e06224,TEZ-955,Bug,Tez should close inputs after calling processor&apos;s close,None,Major
+4669d71cf3728fa1bda0bc23a8068ee102ac8e87,TEZ-953,Task,Port MAPREDUCE-5493,None,Major
+90a056d64da6aaa5db4688448edc3975de3db0a8,TEZ-958,Bug,Increase sleeps in TestContainerReuse to fix flaky tests,None,Minor
+5a24e979a8509da48b9e9dabc00e3e24944c6355,TEZ-952,Task,Port MAPREDUCE-5209  MAPREDUCE-5251,None,Major
+ece53e34a627a37765da9706e2022d47eb78972d,TEZ-956,Sub-task,Handle zero task vertices correctly on Recovery,None,Minor
+8d4b8e9a5b6cac168cd793b93e0940494c11ebc4,TEZ-938,Bug,Shuffle Phase - Reduce number of http connections where there is large number of empty partitions ,None,Major
+44ea005b577c4c96593bf96b1eebe64242d7b416,TEZ-934,Sub-task,Tez Configuration changes for TezLocalRunner,None,Major
+ ,TEZ-684,New Feature,Uber/Local modes for Tez,None,Major
+69b2b53a57c8366017a4a5df14bf83dd122c7dc9,TEZ-947,Bug,Fix OrderedWordCount job progress reporting to work across AM attempts,None,Major
+8d87e0398bbe0b270822caf06b6d04f6b871e449,TEZ-944,Bug,Tez Job gets &quot;Could not load native gpl library&quot; Error,None,Major
+c548c91576875030862aa909dea68cf8a40673a8,TEZ-851,Sub-task,Handle failure to persist events to HDFS,None,Major
+3f3f94827486ceb87d9a76311911fe4ebc8cdc02,TEZ-940,Bug,TaskSchedulerAppCallbackWrapper leaks memory via a CompletionService,None,Major
+ae6c9746ce9da1cf6ffcff4834af352c58fe83d8,TEZ-903,Bug,Make MAX_MAPS_AT_ONCE configurable in ShuffleScheduler,None,Minor
+ba89a0847974e7e0d95e460720871888ac226512,TEZ-942,Bug,Mrrsleep job with only maps fails with &apos;Illegal output to map&apos;,None,Trivial
+ed8c288a67143e426848f47831d045e94b402713,TEZ-933,Bug,Race in getting source / destination numTasks on an Edge,None,Major
+672b26aff6b9ba092d6d853a8273d15f1782c574,TEZ-933,Bug,Race in getting source / destination numTasks on an Edge,None,Major
+c75ce7066294384fd22a5d382f9301df3bf97053,TEZ-935,Bug,Fix function names for Vertex Stats,None,Trivial
+0d495f167f9deb8949dec3fd629e50749e439e8c,TEZ-930,Bug,Provide additional aggregated task stats at the vertex level,None,Major
+537d3bca4cd72d50be07b6ccdac7312ab2a8daf7,TEZ-931,Bug,DAGHistoryEvent should not be allowed to be sent to Dispatcher/EventHandlers,None,Major
+0d65fabbc84ed89bb1bfcccba0de2e31e813e92d,TEZ-920,Task,Increase defaults for number of counters  ensure AM uses this,None,Major
+3d0edf44e001e74ad50301e700ecdc807af8221e,TEZ-928,Bug,NPE in last app attempt caused by registering for an RM unregister,None,Critical
+2118e96446bd3ca8858c831a5cf7ebc07d683007,TEZ-676,Bug,Tez job fails on client side if nodemanager running AM is lost ,None,Major
+98b49f22790e5116e1fd48fa96b3b01c2359ffaf,TEZ-918,Bug,Shuffle can hang if there are intermittent fetch failures,None,Critical
+1b170a4ec0027cdb7dd5d5e28341187623df8658,TEZ-910,Improvement,Allow ShuffledUnorderedKVInput to work for cases other than broadcast,None,Major
+36e74ea06ddb9831932281554fbdab8b290ced19,TEZ-902,Bug,SortedMergedInput Fetcher can hang on retrying a bad input,None,Major
+66b374e58258b3cddeaf1c73b5af695c23027b05,TEZ-804,Sub-task,Handle node loss/bad nodes,None,Major
+18290c8489df01f814087673ecdc6b140fbffc44,TEZ-915,Bug,TaskScheduler can get hung when all headroom is used and it cannot utilize existing new containers,None,Major
+664046686339934e96ec40de78481d841811ed72,TEZ-894,Bug,Tez should have a way to know build manifest,None,Major
+ee7f3850a7412600caadfa784411c0b1fcf92f82,TEZ-893,Bug,Terasort gives ArrayIndexOutOfBound Exception for &apos;hadoop jar &lt;jar&gt; terasort&apos; ,None,Minor
+2ff672075a5ab2a364e9d3b3ffcf6fa8400a3ca9,TEZ-884,Sub-task,Add parameter checking for context related user API&apos;s,None,Major
+ae84f1d239dfb76ac91d1f97688ef205ac1fcf0b,TEZ-906,Bug,Finalize Tez 0.3.0 release,None,Major
+6d29107ceef4f7972a4f134caaf8e93307b99fc7,TEZ-535,Improvement,Redirect AM logs to different files when running multiple DAGs in the same AM,None,Major
+74078d3092292f7b27828491669850bfe68ce5f4,TEZ-887,Improvement,Allow counters to be separated at a per Input/Output level,None,Major
+21106b443cfdf523f304535d186771280e9444fa,TEZ-881,Bug,Update Notice and any other copyright tags for year 2014,None,Blocker
+4ae38e437f6312d7b8bc74280c82577f93ed46e6,TEZ-889,Bug,MRInputAMSplitDistributor broken after TEZ-880,None,Major
+ ,TEZ-880,Task,Support sending deserialized data in RootInputDataInformationEvents,None,Major
+5c5b0da3954da630a0be480687e61c7f6331bdf2,TEZ-883,Sub-task,Fix unit tests to use comma separated values in tests having output verification at more than 1 tasks.,None,Major
+dcf2b076713c01e2f63004fbc9bf1b7a0403d5c9,TEZ-888,Bug,TestAMNodeMap.testNodeSelfBlacklist failing intermittently,None,Major
+f38b330900a71f3aa643d4ff5e3975fc6c58bd37,TEZ-865,Bug,TezTaskContext.getDAGName() does not return DAG name,None,Major
+b38c9313ec4bf1436d5aa749922b28e80b262894,TEZ-885,Bug,TestTaskScheduler intermittent failures,None,Major
+f41e3ee0282c25c81e4ec9246933cda4b6ed5702,TEZ-882,Bug,Update versions in master for next release,None,Major
+15b9cc79d9846c0376a36942ca075464282dd3f3,TEZ-881,Bug,Update Notice and any other copyright tags for year 2014,None,Blocker
+ab206e509b3441b457b8796a694904478034f892,TEZ-0
+b9960d2817f9e6fa5cf28eb5dbaa949950c16818,TEZ-0
+81cb15780d15209bc137a95ea4e95262bca649e4,/,/,    Tez-0.5.0 release prep,/,/
+f673a1c99636b3dd4e2d3881338fb38c7dcb8fa3,/,/,    changes pom version for branch-0.5,/,/
+6141056fa96fd60d2939e065cbe8f655711128d3,/,/,    Update change log for branch-0.5,/,/
+2576bac5524e9d94120d888e0b3f31cbc3803e5d,/,/,    Prepare for branch-0.5 creation,/,/
+3dc64aced6e5c806e55fd65faf95315552037f7f,TEZ-1516,Improvement,Log transfer rate for Broadcast Fetch,None,Major
+7f70f9ddd433b4d26eb79934396ce5102adf759c,TEZ-1511,Bug,MROutputConfigBuilder sets OutputFormat as String class if OutputFormat is not provided,None,Blocker
+db4161b03d6535d79ed5c337a190b55f3ea1f198,TEZ-1509,Bug,Set a useful default value for java opts  ,None,Major
+e51b0d8622d75265ed2a8e6c95fce082ccff1c81,TEZ-1517,Improvement,Avoid sending routed events via the AsyncDispatcher,None,Critical
+760cf0ca67513465536c42e6079a6b14f6f3e77f,TEZ-1510,Bug,TezConfiguration should not add tez-site.xml as a default resource. ,None,Blocker
+c77ed4a1d76652854e1387d26e7ae4c9948cc3da,TEZ-1510,Bug,TezConfiguration should not add tez-site.xml as a default resource. ,None,Blocker
+7731e0044532eaea9b2e4356ceeedf32017c763c,TEZ-1501,Improvement,Add a test dag to generate load on the getTask RPC,None,Major
+eb503c696296f5d9fc1c2ef1ece282d6efc3e275,TEZ-1481,Bug,Flaky test : org.apache.tez.dag.api.client.TestDAGClientHandler.testDAGClientHandler,None,Major
+ddef389a976793da397856f397398bdddc8db123,TEZ-1512,Bug,VertexImpl.getTask(int) can be CPU intensive when lots of tasks are present in the vertex,None,Major
+db732b2fb708fe82cec25fbc31d2b73020ae58d1,TEZ-1492,Bug,IFile RLE not kicking in due to bug in BufferUtils.compare(),None,Major
+926faf18217323f1715065ad3519a584ba5cdee1,TEZ-1496,Bug,Multi MR inputs can not be configured without accessing internal proto structures,None,Blocker
+396b9927959ff812f3926c0a9d2b430f070bb09e,TEZ-1493,Bug,Tez examples sometimes fail in cases where AM recovery kicks in,None,Blocker
+4cb52efded0b407d4edcf5d6c7ce9fbf6ea59459,TEZ-1038,Bug,Move TaskLocationHint outside of VertexLocationHint,None,Major
+5018b65b4af314d12649f91e7ba34e3477a0eeae,TEZ-1475,Task,Fix HDFS commands in INSTALL.txt,None,Major
+62e00b70ae96864f35d5bd96045bcdafdfbd52ff,TEZ-1500,Sub-task,DAG should be created via a create method,None,Blocker
+89d36629f5c5994da71106770b1fd1adfce7a71f,TEZ-1430,Improvement,Javadoc generation should not generate docs for classes annotated as private,None,Major
+1bef46e76e43291a52b4b4a39cd6f4d371f1bc23,TEZ-1498,Bug,Usage info is not printed when wrong number of arguments is provided for JoinExample,None,Major
+fc86dbf0a61fa746551a1b4f358eab6f414a77f7,TEZ-1486,Bug,TezUncheckedException when using dynamic partition pruning,None,Major
+f7151e1946908ad037069332f2e78e111e17ef64,TEZ-1490,Bug,dagid reported is incorrect in TezClient.java,None,Major
+5ae13686b3ad9d96656456ab6f6e8c4ba29ffe4b,TEZ-1476,Bug,DAGClient waitForCompletion output is confusing,None,Critical
+d2dca46763933d109cd846dc7e2647748a8d70db,TEZ-1471,Sub-task,Additional supplement for TEZ local mode document,None,Major
+6e1379664fd5815288c079dba703954ded9f5632,TEZ-1360,Bug,Provide vertex parallelism to each vertex task,None,Major
+d489dcfc34454c4a487ce13a3c91140d712fdba1,TEZ-1463,Bug,Remove dependency on private class org.apache.hadoop.util.StringUtils ,None,Major
+b00bde76cb269327f62232f2cd5ba618ad39fb12,TEZ-1448,Bug,Make WeightedScalingMemoryDistributor as the default memory distributor,None,Major
+81a02833cae243a5d2d9b74b21dcfaae38b1b546,TEZ-1485,Sub-task,Disable node blacklisting and ATS in AM for local mode,None,Major
+7422db47587c20c96a600e5e1c06afd37679749d,TEZ-1487,Bug,Switch master to 0.6.0-SNAPSHOT ,None,Trivial
+c5d3b1b327e9da04aa73a4f65377269c85fdaeb9,TEZ-1474,Bug,detect missing native libraries for compression at the beginning of a task rather than at the end.  ,None,Major
+4842c3a6784f8b20c4f62e52dc220c64614e0045,TEZ-1436,Bug,Fix javadoc warnings,None,Major
+373793b013877eb5f22965c9d6cf20aac1076a8b,TEZ-1472,Improvement,Separate method calls for creating InputDataInformationEvent with serialized/unserialized payloads,None,Major
+db6d9b29e07b0337509024cc5ce9bdf9fdc6627b,TEZ-1469,Bug,AM/Session LRs are not shipped to vertices in new API use-case,None,Blocker
+c5f2eac8ded1fc98a88e27a1ea043571b8fa81dc,TEZ-1464,Task,Update INSTALL.txt,None,Major
+4b52bc923012566affddb1aa56d924481b13b392,TEZ-1464,Task,Update INSTALL.txt,None,Major
+57bd9f7e3e1a8c34687f0c48f16bc7d5552c7874,TEZ-1449,Improvement,Change user payloads to work with a byte buffer,None,Blocker
+54a429e0bbe64861fdc569fe9c9a39e74b187c80,TEZ-1325,Sub-task,RecoveryParser can find incorrect last DAG ID,None,Major
+7ee7165177442c9f7f0ecb14020b69391f37ef37,TEZ-1466,Bug,Fix JDK8 builds of tez,None,Trivial
+7ba90e5d4b10fd9831d65e0a499919e0d3dd079f,TEZ-1251,Bug,Fix website to not display latest snapshot version in header ,None,Critical
+b5497d7c1992899f3bc46effb2dcbea3ccf62d82,TEZ-1465,Task,Update and document IntersectExample. Change name to JoinExample,None,Blocker
+fbca9f4c0aaef1c9d7b4ab6942f69057882c4c19,TEZ-1458,Bug,org.apache.tez.common.security.Groups does not compile against hadoop-2.2.0 anymore,None,Blocker
+d1d94c2f4b64f817e6fa2f9b79972db035992d35,TEZ-1455,Task,Replace deprecated junit.framework.Assert with org.junit.Assert,None,Trivial
+46995b8582a472b232f64320c9dfaa27885370eb,TEZ-1454,Task,Remove unused imports,None,Trivial
+bfa8c1ccbffacf935f66c09569ed3e4b2c08fa1d,TEZ-1415,Bug,Merge various Util classes in Tez,None,Major
+c1dca7ad683a883d3c60bd465ee5bd6423b7feb0,TEZ-1461,Task,Add public key to KEYS,None,Major
+d078f78a357f1e6b9fdc9ae4eb02a8380f94413d,TEZ-1452,Bug,Add license and notice to jars,None,Blocker
+34adfbb867be77867fd48a1abc9ab2ff53a41867,TEZ-1456,Task,Fix typo in TestIFile.testWithRLEMarker,None,Trivial
+b30e2bcf828dfde341c5edb1a9c8945548e620a2,TEZ-1246,Sub-task,Replace constructors with create() methods for DAG  Vertex  Edge etc in the API,None,Blocker
+5f94db7864b77779f6b7686d4b6e0f6a5436e770,TEZ-1453,Bug,Fix rat check for 0.5,None,Blocker
+3952ecd6c18ce4bf4b2538a723d10da8ec9fa897,TEZ-1231,Improvement,Clean up TezRuntimeConfiguration,None,Blocker
+2b1148c671860e6481d56af8880166703d1c4fff,TEZ-1450,Bug,Documentation of TezConfiguration,None,Blocker
+b526ed5c1f59c83752c50ebf65d8c0d7668412a5,TEZ-1417,Sub-task,Rename *Configurer,None,Blocker
+37ac50aed43832a0007d514d60afeb341fc8c04e,TEZ-1349,Sub-task,Add documentation for LocalMode usage,None,Blocker
+7a61e5b85f44b2e33b87a184c7d0d00e800edf00,TEZ-1390,Improvement,Replace byte[] with ByteBuffer as the type of user payload in the API,None,Blocker
+09e250dd2ee3310fe7e8ae42a99e7f05b716279b,TEZ-1395,Bug,Fix failure in IFile handling of compressed data,None,Major
+1448b61bb399eb1cce074b3f5dbfa74a83c09c9d,TEZ-1445,Bug,Add more logging to catch shutdown handler race conditions,None,Major
+8135c57bf25d30dd2cdcf3f88fc3ac6fdc1220ec,TEZ-1439,Bug,IntersectDataGen/Example/Validate should move back to tez-examples.,None,Blocker
+98875db09ece09acee71190489d40ce17ba239c3,TEZ-1423,Improvement,Ability to pass custom properties to keySerializer for OnFileUnorderedPartitionedKVOutput,None,Major
+4714376e1f098d65cf6d011884ceff7870b85f64,TEZ-1400,Bug,Reducers stuck when enabling auto-reduce parallelism (MRR case),None,Major
+40970e68e2aac401367ec36b10d7e18c654e1d9f,TEZ-1055,Bug,Rename tez-mapreduce-examples to tez-examples,None,Blocker
+14f8b36ac4f026c79e272cdf3c45b07d6af5e57b,TEZ-1411,Bug,Address initial feedback on swimlanes,None,Blocker
+4897b25fe2ec0c9b0108f8a8f96b60f7b5f8ad06,TEZ-1418,Bug,Provide Default value for TEZ_AM_LAUNCH_ENV and TEZ_TASK_LAUNCH,None,Blocker
+5212b926c2bfd16d0f63d89814e9710a97bc4362,TEZ-1065,Bug,DAGStatus.getVertexStatus and other vertex related API&apos;s should maintain vertex order,None,Major
+22d097546a3ed3e8c7c729a8c8945de3f363bb20,TEZ-1434,Sub-task,Make only wait apis in TezClient to throw InterruptedException ,None,Major
+f2b155dbbf638d83e3b79a865fde40e6dba18aa1,TEZ-1427,Improvement,Change remaining classes that are using byte[] to UserPayload,None,Blocker
+cbc385de28681c7ad8902825a7aa8f1a6f790e51,TEZ-1429,Sub-task,Avoid sysexit in the DAGAM in case of local mode,None,Blocker
+ebd14e54bfd1cafe1260381a371d8d8b6a2bbab5,TEZ-1338,Sub-task,Support submission of multiple applications with LocalRunner from within the same JVM,None,Blocker
+2422ca7584353f69bbc3ed2c1ce22374124d68e7,TEZ-1065,Bug,DAGStatus.getVertexStatus and other vertex related API&apos;s should maintain vertex order,None,Major
+dc27e010f1dcd496273190dc3864fb6f339ffad5,TEZ-1431,Bug,Fix use of synchronized for certain functions in TezClient,None,Blocker
+8515a0fbab8eb9c08d695b4ff4f913dd5811543d,TEZ-1065,Bug,DAGStatus.getVertexStatus and other vertex related API&apos;s should maintain vertex order,None,Major
+6023b51df8884280640dff11444d3251beddf04a,TEZ-1432,Bug,TEZ_AM_CANCEL_DELEGATION_TOKEN is named inorrectly,None,Blocker
+8daccdb09404a9441a80fba4695b2ed4dd30a6c9,TEZ-1388,Improvement,mvn site is slow and generates errors,None,Major
+02bf86598aedc27a44e3a0bb7dec66a80997713c,TEZ-1409,Improvement,Change MRInputConfigurer  MROutputConfigurer to accept complete configurations,None,Blocker
+84374adc7e17c018bf8309b527e3f2f572901ebf,TEZ-1416,Bug,tez-api project javadoc/annotations review and clean up.,None,Blocker
+9bba71a1066a524190606317b581786ddebc56b1,TEZ-671,Sub-task,Support View/Modify ACLs for DAGs,None,Major
+0af5612289acb6361776039d93e8d27ebab507bb,TEZ-1422,Improvement,Provide a way to hook in static address resolution when talking to AM from client,None,Major
+4cae42df9e0a6586ea245d6abe3aac61118b9f1d,TEZ-1410,Improvement,DAGClient#waitForCompletion() methods should not swallow interrupts,None,Blocker
+ecf373972ab70bc54bc9f8cab002e79b1b82c4ea,TEZ-1419,Task,Release link broken on website for 0.4.1 release,None,Blocker
+30b773b5e65e64367ef035223d7a649138224e0b,TEZ-1072,Improvement,Consolidate monitoring APIs in DAGClient,None,Blocker
+773c0ea0bf89583afb6cb53ce9440dc33aa926b7,TEZ-1420,Task,Remove LocalClientProtocolProviderTez.java LocalJobRunnerMetricsTez.java LocalJobRunnerTez.java,None,Major
+efe49b8f646fd4b39afcf35f4d34b33d8df84cfb,TEZ-1330,Improvement,Create a dist target which contains required jars,None,Blocker
+e2692f7cacd56fd2e8d2734f79ecfbb447e2fc2c,TEZ-1414,Bug,Disable TestTezClientUtils.testLocalResourceVisibility to make builds pass.,None,Major
+0f2abb1ff7120af15ee422c057696d537ed89afb,TEZ-1402,Improvement,MRoutput configurer should allow disabling the committer,None,Blocker
+215909e04415425688b9eb54d342d45ab6f5fa53,TEZ-817,Bug,TEZ_LIB_URI are always uploaded as public Local Resource,None,Critical
+1e48706a7dbb3a48fa9721a0f965d80245827ce4,TEZ-1404,Bug,groupCommitInProgress in RecoveryTransition of DAGImpl is not set correctly,None,Major
+f24962c6e94daf057a37399e1b551fa9d0b414be,TEZ-1403,Bug,oah.mapred.Partitioner is not configured by JobConf,None,Major
+592884940cc4e86e32f7da3f157193c79676022a,TEZ-1393,Bug,user.dir should not be reset in LocalMode,None,Blocker
+5cc880c7bb0098055830c0473d261bef50f42cd6,TEZ-1216,Sub-task,Clean up the staging directory when the application completes,None,Critical
+935896d862c58f1ecc0a818199e60d1c30975637,/,/,    Add new committer info - Jonathan Eagles,/,/
+7536500fcf2a3b8f88254ecca39b5753ba5bf12b,/,/,    Add new committer info - Jonathan Eagles,/,/
+dfb3f8d625fa17d6a0b97c3d9af15c381a042ecc,TEZ-1205,Bug,Remove &quot;profiling&quot; keyword from APIs/configs ,None,Blocker
+5a57868100feeb3779ae372fd656a6f3a9e897d4,TEZ-1405,Bug,TestSecureShuffle is slow,None,Major
+c171220b7ada97716eb6d778e9fb4630bb4deca0,TEZ-1391,Bug,IGNORE_LIB_URIS is not taking affect in local mode,None,Major
+dadd4e048c7aa630ead907783af2d9fdb74db786,TEZ-1318,Sub-task,Simplify Vertex constructor,None,Blocker
+f184b1a0e183b70fb3de3282782ab9d5b8ca4c9a,TEZ-1318,Sub-task,Simplify Vertex constructor,None,Blocker
+a1dd8291289b029edd4cb451004148add703bce5,TEZ-1372,Sub-task,Fix preWarm to work after recent API changes,None,Blocker
+5328978f40c679e92c6b424a8d09c6841acc1e12,TEZ-1394,Task,Create example code for OrderedWordCount,None,Major
+47ccad80927e370a993c77dfa82d57076d5f96c3,TEZ-1392,Bug,MRRSleepJob fails  ,None,Major
+548d813e5378a6a749827de04c0bbc9daaf21204,TEZ-1385,Bug,Disk Direct fails for MapOutput when trying to use OnDiskMerger ,None,Critical
+948565e99e309a1118d61d1c5c4883d4667e7760,TEZ-1332,New Feature,tez swimlanes UI tool,None,Blocker
+45420856ee967dc777338020dcdfbbc6dd7b20b0,TEZ-1368,Bug,TestSecureShuffle failing,None,Blocker
+675b237244f6bee827b8967541fda58ff1ff8c52,TEZ-1379,Sub-task,EdgeConfigurers should accept a Partitioner configuration  accept parameters for compression and secure shuffle,None,Blocker
+5ae48c6ef568d0f56f3a6b6f785579f24ba1f557,TEZ-1351,Bug,MROutput needs a flush method to ensure data is materialized for FileOutputCommitter,None,Major
+f5213ee4614f83562b9f24aed627736fb0b7fb77,TEZ-1377,Bug,Disable TestSecureShuffle until TEZ-1368 is fixed.,None,Trivial
+ ,TEZ-1368,Bug,TestSecureShuffle failing,None,Blocker
+d3191bd39d2a06166c43e2fd103e2add8e4dfa91,TEZ-1365,Sub-task,Session mode and ignore-lib-uris needs to be set for session mode,None,Major
+c38d3127ac3c2335fa7961e7a2395e4c5aba72d8,TEZ-1355,Improvement,Only read host and port for OnFileSortedOutput and OnFileUnorderedKVOutput when data is generated,None,Minor
+a9eb0d721dd6b611c330c11f65fd591a43e1c7ff,TEZ-870,Sub-task,LocalContainerLauncher improvement - error handling  multiple tasks  Tez events,None,Blocker
+25960cc277e40ed0c926a3cb75122c6dac0181a0,TEZ-1352,Bug,HADOOP_CONF_DIR should be in the classpath for containers,None,Blocker
+020872ae1840feac7040dcd95abee2802d40cacd,TEZ-1238,Sub-task,Display more clear diagnostics info on client side on task failures ,None,Major
+af1884a1254bb3208daf09b184004b5007f43a72,TEZ-1322,Bug,OrderedWordCount broken in master branch ,None,Major
+363dc07fc0c020a720d65ec03577d4d752d47cc6,TEZ-1341,Bug,Regression: IFile append() has string concats leading to memory pressure,None,Major
+70db632f5dc26ec66b69b669337a33ea555a0559,TEZ-1346,Sub-task,Change Processor construction to make use of contexts,None,Blocker
+713145d8842a465410d441f08f81b66ada7e7988,TEZ-1133,Sub-task,Remove unnecessary MRHelpers methods or make them private,None,Blocker
+08aa7ac5a19300538b1e9a15fe8f338e4f1cf302,TEZ-1133,Sub-task,Remove unnecessary MRHelpers methods or make them private,None,Blocker
+770e3058ab797369f8ae3a9acbeaecd97b7cb30e,TEZ-1276,Bug,Remove unnecessary TaskAttemptEventType TA_FAIL_REQUEST,None,Major
+9aa38b08a0880af08a122fbf17356522b8001b4c,TEZ-1326,Sub-task,AMStartedEvent should not be recovery event,None,Major
+9fd3074f530aff9e1c1db5e7710c092e968fe937,TEZ-1333,Bug,Flaky test: TestOnFileSortedOutput fails in jenkins server with OOM,None,Major
+2829173446165a3e6efc76a832166c5758e6838f,TEZ-1058,Sub-task,Replace user land interfaces with abstract classes,None,Blocker
+cd0fc63e1319694e743c525c6f6091a9df5c18f6,TEZ-1328,Bug,Move EnvironmentUpdateUtils to tez-common,None,Major
+141881ceeb1c0765f166b7691e473839e196288f,TEZ-1278,Improvement,TezClient#waitTillReady() should not swallow interrupts,None,Blocker
+c259daedfde15ab7c38e3f647f76909ff4236015,TEZ-1305,Improvement,Log job tracking url,None,Major
+65265de17b2356dfbe6bc3e1a54804cd9eb3850b,TEZ-1257,Bug,Error on empty partition when using OnFileUnorderedKVOutput and ShuffledMergedInput,None,Blocker
+ff7081e06db40bfb7e6dfc72a1c9ad6ca93be79f,TEZ-1288,Improvement,Create FastTezSerialization as an optional feature,None,Major
+c0d59139c0c88a38e12d5b2240f2df7f5314baa4,TEZ-1304,Sub-task,Create execution underlying framework abstraction layer,None,Blocker
+692e2a0e7187009861dc23d263b5f5ed1f8b3896,TEZ-1306,Task,Remove unused ValuesIterator,None,Major
+3a456bfddf02467b81b8e8321bd0b82bf9b20fec,TEZ-1127,Sub-task,Add TEZ_TASK_JAVA_OPTS and TEZ_ENV configs to specify values from config,None,Major
+842abc17e43c464b35576400230f96757ae503c7,TEZ-1312,Sub-task,rename vertex.addInput/Output() to vertex.addDataSource/Sink(),None,Blocker
+2e52635d9b42fc6fe9c64c6d4336d9180fedb05d,TEZ-1309,Sub-task,Use hflush instead of hsync in recovery log,None,Major
+06bd3830295d8b6324989594ac0ae53a4599a4e9,TEZ-1247,Bug,Allow DAG.verify() to be called multiple times,None,Major
+c3c3f784f83ab02725d7662e7d1edc20c2e46d7e,TEZ-1296,Bug,commons-math3 dependency,None,Major
+948e7a492043ac1cf210290b482ea59f8675ee1f,TEZ-1301,Bug,Fix title of pages in docs.,None,Major
+e9c6ff213f9c92b6ba0e270bacb61eb1c4a1c581,TEZ-811,Bug,Update docs on how to contribute to Tez.,None,Major
+6f0656f70555d1e72d16f27faea3824799d32d02,TEZ-811,Bug,Update docs on how to contribute to Tez.,None,Major
+a93fc4657fa1f84f1ff14dd2a55991211975fc06,TEZ-1242,New Feature,Logos for Tez,None,Minor
+f11cff6f0d17c2507b1b4c992c1cb61afc8f23b4,TEZ-1298,Sub-task,Add parameterized constructor capabilities in ReflectionUtils,None,Major
+d319375149b74c35227080d29bc85ba9208e3863,TEZ-1242,New Feature,Logos for Tez,None,Minor
+30c5b4705d2a220d862cfdd60683e4ab1a5a6acc,TEZ-1242,New Feature,Logos for Tez,None,Minor
+835ac3ac37e7e4681667e06cc0692392e5d186a1,TEZ-1295,Improvement,Create a build target containing hadoop libraries,None,Major
+2cbd8a235d45c94f46e09df5260fd00ca74da4ed,TEZ-1290,Sub-task,Make graduation related changes,None,Major
+e8dc9f72f9d720e5bdf7bb3005d904451a02ce2b,TEZ-1269,Bug,TaskScheduler prematurely releases containers,None,Major
+061dfe77f9f7c8402f0df7cdabcbe2cd858f4bdf,TEZ-1269,Bug,TaskScheduler prematurely releases containers,None,Major
+171da568e9d46089e5722b43d94f115629dc90e6,TEZ-1089,Bug,CompositeDataMovementEvent srcIndexEnd is not an index,None,Major
+55524f0ad6ef565046a848a04238952a55693fae,TEZ-696,Sub-task,Remove implicit copying of processor payload to input and output,None,Major
+1f0dd5d1446ffff7c00c5fc5cf0ad1797fbddb92,TEZ-1285,Sub-task,Add Utility for Modifying Environment Variables,None,Major
+ddf049b377391745937047c007a77dad15eb8618,TEZ-1287,Bug,TestJavaProfilerOptions is missing apache license header,None,Major
+8ed79eaaf92401e270f2cefba7e933916883bab9,TEZ-1244,Bug,Typos in RootInputDataInformationEvent docs ,None,Major
+ecf5abcb1044354e38ce62e66c8045eb37c50118,TEZ-1279,Improvement,Rename *EdgeConfiguration to *EdgeConfigurer,None,Major
+650151acf1470f87eb3cc4f7d1cfd52621df1ed7,/,/,    Update site docs for Tez-0.4.1-incubating release.,/,/
+cfe9a42a9bd08b983d60d3823d9ed47c15ebdcf2,TEZ-1130,Sub-task,Replace confusing names on Vertex API,None,Major
+2316c1dc951996765cbd887f6c3ab80a8e784fef,TEZ-1228,Improvement,Prototype IFile : Define a memory &amp; merge optimized vertex-intermediate file format for Tez,None,Major
+2e7641c69deb357926a3440c5d236ec65e0593be,TEZ-657,Bug,Tez should process the Container exit status - specifically when the RM preempts a container,None,Major
+cd474e0e36eaa17befab7aa0fcdfa0813d9e6b49,TEZ-1241,Bug,Consistent getter for staging dir,None,Major
+392727e1791078b82c6aa666a2206a279aa8813c,TEZ-1131,Sub-task,Simplify EdgeManager APIs,None,Major
+1333a83a5fd279daadcb49ee9b1a36d7961312a8,TEZ-1118,Bug,Tez with container reuse reports negative CPU usage,None,Major
+ca09b96263d2fba6684700ba22ef3f237cc1c235,TEZ-1261,Bug,ShuffleVertexManager auto parallelism is broken after TEZ-1131,None,Major
+ ,TEZ-1131,Sub-task,Simplify EdgeManager APIs,None,Major
+a5c32093106437e1a98e9d735ef95f835c52bd9f,TEZ-225,Test,Tests for DAGClient,None,Major
+3b30bf19d8f11a4d5ad2170a9f53c108636cb20d,TEZ-1258,Bug,Remove JobStateInternal ,None,Major
+31f386bb6df7798da3e3bff3dd704e7879894d06,TEZ-1253,Improvement,Cleanup of VertexEventType ( some event types are never used ),None,Major
+1aa98989b1a1a92df024241bac5163e2a1897780,TEZ-1170,Improvement,Simplify Vertex Initializing transition,None,Major
+c2db6b83efc61ca846445c4f93d5f10926bb2083,TEZ-1163,Bug,Tez Auto Reducer-parallelism throws Divide-by-Zero,None,Minor
+7aa927a72f8142a5d6e05531fd948dbff85493a9,TEZ-699,Sub-task,Have sensible defaults for java opts,None,Major
+df7ff3cb487fe835da17caa78024ea6f3aa76955,TEZ-387,Bug,Move DAGClientHandler into its own class,None,Major
+79997ffd847121bda25aa74b867f951d782371f1,/,/,    Updated CHANGES.txt for 0.4.1-incubating release,/,/
+4dfd8341d8642dea418195beb5d3778d3bcf35a9,TEZ-1218,Improvement,Make TaskScheduler as AbstractService rather than just an interface,None,Major
+af538639c88ec7e5d7a19b73908ec64fcc88b95e,TEZ-1127,Sub-task,Add TEZ_TASK_JAVA_OPTS and TEZ_ENV configs to specify values from config,None,Major
+9ddc6e045ef043b59ab0f668b630f82e744987f7,TEZ-1214,Bug,Diagnostics of Vertex is missing when constructing TimelineEntity,None,Minor
+2096836ce3eff9ba8bb3cff2f4aff2c27d9cf564,TEZ-106,Bug,TaskImpl does not hold any diagnostic information that can be emitted to history,None,Major
+4c09565c22e5310990b5dcb073ddf9ad4f3960ef,/,/,    updating timezone for rbalamohan in docs,/,/
+4d74c00e3f455227f243836937dedaca23570f97,TEZ-1219,Task,Update team list to match incubator status page.,None,Major
+49fe873e932265159fcf2e43814a6d6be81b5d4d,TEZ-1219,Task,Update team list to match incubator status page.,None,Major
+43480dac903515b8a28da31f1616c235f6158def,TEZ-1159,Sub-task,Fix handling of corrupt or empty files in recovery data,None,Major
+250aee2043c8dfb10ff4d854643d63a8e0337cda,TEZ-1135,Bug,ShuffledUnorderedKVInput handles empty partitions incorrectly,None,Critical
+5aa8a1216f764992f4e96a6131eac5a8780675d5,TEZ-1125,Bug,Pre-warm broken,None,Major
+ad7f1cbed475fed96f5c639e9a90a8ac661a508b,TEZ-1097,Bug,Tez assumes that the scratch directory has to be same as the default filesystem,None,Major
+a141218f03ca2e9d02fd668720816fb4124d3413,TEZ-1048,Bug,NPE when previous task attempts fail without generating any data,None,Major
+7423ed27ede110caf818d006973708504d75da21,TEZ-1045,Bug,TezMiniCluster tests can fail intermittently,None,Critical
+8a592a6e07985e8a77c45b3790487efb5d031bd0,TEZ-1040,Bug,TezMerger hangs when io.sort.mb value is 1,None,Blocker
+7079ae9127e7840350503d0fde3b55d8a86b8011,TEZ-1034,Bug,Shuffling can sometimes hang with duplicate inputs for the same index,None,Major
+279add42afcb94f65f0cc970320be46e475cd6e9,TEZ-1033,Bug,AM hangs during recovery with Tasks awaiting init event,None,Major
+e868b19f1d172bbaa65e453cbf44ad1707e930d3,TEZ-1028,Bug,Handle killed tasks and attempts when handling recovery data ,None,Major
+469ffe639a3b95a8380a473f32817a95d568f2f5,TEZ-1029,Bug,Fetcher can fail to report input failed event upon connection error,None,Major
+2b3c1449d793f5f0cdffff4b81a23e2ac2a282fa,TEZ-1021,Bug,TezClient cannot connect to AM in a secure cluster when launched via Oozie,None,Major
+eb15f0ec0a97932b28b6b4e022b50bdfd2689799,TEZ-1020,Bug,VertexImpl handling of task failed in SUCCEEDED state is incorrect.,None,Major
+ca5d7d4b8e41ba318c90ea0232c32a797614d95d,TEZ-1015,Bug,Dag failed with Invalid event: V_ROUTE_EVENT at RECOVERING,None,Major
+6662605342e17335c31ad9177017d898e13f532d,TEZ-1014,Bug,Add a log message to indicate last AM attempt,None,Trivial
+b82d5f35d227468521337ad5e8ffd2783333f6d2,TEZ-1004,Bug,AM relocalization doesn&apos;t handle conflicting resources correctly,None,Major
+c15d3ac4b9f0e6050326f810feee06c1c0ff67fd,TEZ-1005,Bug,AM relocalization adds resources to the wrong classloader,None,Major
+5a8d8e49fb86478ba15f02674e2fae8de1eef761,TEZ-1011,Bug,TestDAGRecovery timing out on jenkins builds.,None,Major
+8974d523af653e56577b4bff8ddd8948fdd7df95,TEZ-1010,Bug,TestAMNodeMap.testSelfBlacklist fails intermittently,None,Major
+608c08af2412931041e09f85accb8bb4445f1039,TEZ-997,Bug,Internal Errror in am logs during dag shutdown,None,Major
+958f0a301055a7bab7f98b4d92ffa916ac8cf90f,TEZ-1009,Bug,Fixes in log file roll-over,None,Major
+b63bf81eb332081f0d8d5689b98c5a7d1c25c02b,/,/,    Updating website to add rohini as a committer.,/,/
+b25c8668d32fdc4839c5bae1358f4d8396160bd7,TEZ-1106,Sub-task,Tez framework should use a unique subdir for staging data,None,Major
+aed87d2dbf1ce99a53eb2e919934dff9b8517e01,TEZ-1042,Task,Stop re-routing stdout  stderr for tasks and AM,None,Major
+ca4ec1896be2121d1694481b18b9c7fedef31eb6,TEZ-1208,Bug,Log time taken to connect/getInputStream to a http source in fetcher,None,Major
+608ee831b4ed4471905eeef85da12c5ac4b25113,TEZ-1172,Improvement,Allow multiple Root Inputs to be specified per Vertex,None,Major
+8142f3c91c5ee8c22c461f4ba6fece35f04a550d,TEZ-1170,Improvement,Simplify Vertex Initializing transition,None,Major
+a6c7ee30a0b01c6aa81ab777ffdc9ef45c4f7a7a,TEZ-1193,Improvement,Allow &apos;tez.lib.uris&apos; to be overridden,None,Minor
+bd0e6bd2cdf9b49630375006c14e3f5fc5d25cb6,TEZ-1131,Sub-task,Simplify EdgeManager APIs,None,Major
+719db0fd0f2c76a0f2069d6b86ef4da2e29eca5f,TEZ-1169,Improvement,Allow numPhysicalInputs to be specified for RootInputs,None,Major
+d77a2255a4ec86cf12bc28599b27d7fa33b7f19a,TEZ-1192,Bug,RejectedExecutionException during TezChild invocation,None,Major
+75dea57f335b6966b60f7983f69a9d2026e0e3b3,TEZ-1178,Bug,Duplicate ObjectRegistryImpls found in one TezChild,None,Critical
+fd9d0b84972f716d7fcf569448a45bbc7aaed610,TEZ-1199,Bug,EdgeVertexName in EventMetaData can be null,None,Major
+e2bb2788f5a4170110ff2ef2b741490924621b40,TEZ-1196,Improvement,FaultToleranceTestRunner should allow passing generic options from cli ,None,Major
+39e6b95a10085e21473a48bdcaf5c16aa3129e9b,/,/,    Add new committer to website (Tassapol A.),/,/
+28c9f2a3029423bf3377fa12c2c628457c5aa42f,TEZ-1162,Bug,Tez leaks CodecPool buffers,None,Major
+6b061cac8978703620245e7f5fd93f5b81740435,TEZ-1162,Bug,Tez leaks CodecPool buffers,None,Major
+beca145bbe61bc60a0e923072f95d8423f955ddc,TEZ-1164,Bug,Only events for tasks should be buffered in Initializing state,None,Major
+cf073633e89076e005ef80d996d000390820cd8c,TEZ-1171,Bug,Vertex remains in INITED state if all source vertices start while the vertex was in INITIALIZING state,None,Major
+7fab1deae6174fdddc2cfda15c30c63c99ed93ee,TEZ-1159,Sub-task,Fix handling of corrupt or empty files in recovery data,None,Major
+f96a53d2d423be1d0e55a0a422a55b7410f024c6,TEZ-1143,Bug,1-1 source split event should be handled in Vertex.RUNNING and Vertex.INITED state,None,Major
+80b91a4d8ccb211b50901cfc43dc3cfad991ec3f,TEZ-1143,Bug,1-1 source split event should be handled in Vertex.RUNNING and Vertex.INITED state,None,Major
+ae267de541cc2014c770f34cf0e117c7e003b28c,TEZ-800,Bug,One-one edge with parallelism -1 fails if source vertex parallelism is not -1 as well,None,Major
+0ccc8e0c74773430282756a92d69bb8db27bdac0,TEZ-1154,Bug,tez-mapreduce-examples should depend on yarn-api ,None,Trivial
+ec15f37353bf5fbe2323bd1abb23699d55f5bfc3,TEZ-1090,Improvement,Micro optimization - Remove duplicate updateProcessTree() in TaskCounterUpdater,None,Major
+0af037d68cbd20af225b7940c1d0a394776b580f,TEZ-1027,Bug,orderedwordcount needs to respect tez.staging-dir property,None,Trivial
+763cb439b99faf7d7cd2bc2b27979824c502a238,TEZ-1150,Bug,Replace String EdgeId with Edge in the Vertex,None,Major
+6e07fc7e7a4d8d4b8f9ddb7cf1e29ea3b47020be,TEZ-1140,Bug,TestSecureShuffle leaves behind test data dirs,None,Major
+aa3b77209dce6d84fd34e2c7434fd92b4853da05,TEZ-1039,Improvement,Add Container locality to TaskScheduler,None,Major
+2e664e76cfe07bed6cc024ec474c6135f681919a,TEZ-1139,Task,Add a test for IntersectDataGen and IntersectValidate,None,Major
+60905cd2599eb1c56e95b99d8723ef6b94cb4f93,TEZ-1126,Improvement,Add data generator and validator for the intersect example,None,Major
+62bace35c2938eafd840547cebe2670c37787da1,TEZ-1114,Sub-task,Fix encrypted shuffle,None,Major
+e5a825b683b8642bd8288717b385dfceecc15780,TEZ-1135,Bug,ShuffledUnorderedKVInput handles empty partitions incorrectly,None,Critical
+031b2deb01ac7bb31d83f17672ba06131b0567d1,TEZ-1128,Bug,OnFileUnorderedPartitionedKVOutput does not handle partitioning correctly with the MRPartitioner,None,Major
+861d71103e92c49e3e059030dbb3396deabf2f60,TEZ-1125,Bug,Pre-warm broken,None,Major
+1612e6d15abbf525881ed49515b96320f8ea877c,TEZ-1121,Bug,Clean up avro dependencies,None,Major
+47b9d742fe00a4c1888f59cad26f72120fca92cd,TEZ-1111,Bug,TestMRHelpers fails if HADOOP_COMMON_HOME is defined in the shell env,None,Major
+2c9ea237b8fe15e68ceae839212b4c809892e9f5,TEZ-1099,Improvement,Minor documentation improvement and Eclipse friendlyness,None,Minor
+ca7c97dc1ee138e2a76f2a5e4bb5adf7306d5756,TEZ-1112,Bug,MROutput committer should be initialized from initialized OutputFormat,None,Major
+c247a3bfcc242eae6609b384dc748458f11db5f8,TEZ-1102,Bug,Abstract out connection management logic in shuffle code,None,Major
+ab3c4c3468d665c9a1144452dab0ba5e580667a1,TEZ-1088,Bug,Flaky Test: TestFaultTolerance.testInputFailureCausesRerunAttemptWithinMaxAttemptSuccess,None,Major
+e2e1aa36d5d140afeec2cf81f1cc2bfabb6d9b18,TEZ-1105,Bug,Fix docs to ensure users are aware of adding &quot;*&quot; for HADOOP_CLASSPATH,None,Trivial
+cb9eb515bde88b1f145efc497fc264172d7e32da,TEZ-1097,Bug,Tez assumes that the scratch directory has to be same as the default filesystem,None,Major
+d90dbd8dc4638784de702caa26bdd66a38005afb,TEZ-1091,Bug,Respect keepAlive parameter when cleaning up Fetcher connections,None,Major
+2275c4ee14c9830e868e6f6fa9773381a9a69760,TEZ-1002,Sub-task,No HISTORY event for CONTAINER_STOP_REQUEST,None,Trivial
+9f04ae4d7cb54e21fe43e1a11357eccdd1dad660,TEZ-1085,Bug,Tez job gets &quot;Could not load native gpl library or native-lzo library&quot; error,None,Major
+a4344673a770e2c08d8f5b468a8d9dd46491c873,TEZ-1082,Bug,reading errorstream in Fetcher throws NPE (when fetcher timesout to establish a connection),None,Major
+6ec3580ee62d92bf2d2f9d51c10fb13761317893,TEZ-886,Sub-task,Add @Nullable annotation at API level,None,Major
+9fa541ba24235eec7dc7abc166bafd48ae0b39ed,TEZ-1079,Bug,Make tez example jobs use the ToolRunner framework,None,Major
+ec115a3658e92d497769dd3158adf04598b8d03b,TEZ-1087,Bug,ShuffleManager fails with IllegalStateException,None,Major
+083555aca45aae6cf1f113d08b3e9e3c3726117c,TEZ-1074,Bug,DAGAppMaster takes lots of CPU when running a reasonably large job in the cluster,None,Major
+b084c7f8d12ff38ff3d824734e009a1fc71ee20b,TEZ-1062,Sub-task,Create SimpleProcessor for processors that only need to implement the run method,None,Major
+2efe086d86209755f5a78472e39a5711fdbd7017,TEZ-1073,Improvement,RLE IFile merge() fastpath,None,Minor
+b51af35e19efbb8425aecbfcb1665506d8427298,TEZ-1023,Bug,Tez runtime configuration changes by users are not propagated to the jobs,None,Major
+b506bb9149b3d1da74c14f825b99ab5dea7c7639,TEZ-1003,Bug,Need a input that merges multiple ShuffleMergedInput from VertexGroup,None,Major
+b069b98c52d7cbf054f8c8e82227b1b6a021a8a6,TEZ-873,Bug,Allow MRInputLegacy to expose the individual input split,None,Major
+6b1871970a4cd21ae5ad96f2e0c60d922066aa53,TEZ-919,Bug,Fix shutdown handling for Shuffle (regular and broadcast),None,Major
+36e940c6ff10f36df66072eb16393c9bbdd8e275,TEZ-695,Sub-task,Create Abstract class for Input/Processor/Output,None,Major
+ ,TEZ-988,Bug,Enable KeepAlive in Tez Fetcher,None,Major
+98fd541b31dae3c5a3ec748c7d6ebe4329cd0769,TEZ-708,Sub-task,Avoid asking for new containers in uber-local mode,None,Major
+de87def6b5f577b49c3fa2e1aaddeb29dece777c,TEZ-700,Sub-task,Helper API&apos;s to monitor a DAG to completion,None,Major
+dbbb7a217be4a26e71b8e410aa66796c5c3096f1,TEZ-1053,Bug,Refactor: Pass TaskLocationHint directly to the Scheduling logic,None,Major
+150ebd3c7934339f31a7b24012ece8e171e1f993,TEZ-1048,Bug,NPE when previous task attempts fail without generating any data,None,Major
+a786e41a3c0a164c649ef4922ebbc5a5f3d59201,TEZ-1045,Bug,TezMiniCluster tests can fail intermittently,None,Critical
+0ecf1d13672aa4d58a106e1258c16f24a2b59af1,TEZ-1040,Bug,TezMerger hangs when io.sort.mb value is 1,None,Blocker
+2e91bdeb00d91eb1d6ed4879ebb5f7fee6cf61b6,TEZ-1034,Bug,Shuffling can sometimes hang with duplicate inputs for the same index,None,Major
+ffe6455c26fdbef047726e69c072e25b167c10d5,TEZ-1033,Bug,AM hangs during recovery with Tasks awaiting init event,None,Major
+b8fef84177bd8b339e4d96f8ee2fd60a79830639,TEZ-1028,Bug,Handle killed tasks and attempts when handling recovery data ,None,Major
+1ee92e32c43ad4fd0f1a88a5e9622b838de4170a,TEZ-1029,Bug,Fetcher can fail to report input failed event upon connection error,None,Major
+e71a9ad281714deed573b14ae3d25ea75539a1c2,TEZ-1007,Bug,MRHelpers.addLog4jSystemProperties() duplicates code from TezClientUtils.addLog4jSystemProperties(),None,Major
+de4cbd6c6f98789c5831f9888dcd4901fc25399a,TEZ-1025,Bug,Rename tez.am.max.task.attempts to tez.am.task.max.failed.attempts,None,Major
+b555939a791da5daab8d9f4959b67f707ed1fab8,/,/,    Update documentation to include 0.4.0-incubating release version.,/,/
+159e346ce8e8ec82ef386e792c20efc0e44bfc25,/,/,    Updated version  CHANGES.txt for 0.4.0-incubating release.,/,/
+ce6441841bc686c17746c144595c1ef3c77b3d46,TEZ-1021,Bug,TezClient cannot connect to AM in a secure cluster when launched via Oozie,None,Major
+d53947509326f2d0ec18a533b8444742cd14e105,TEZ-1020,Bug,VertexImpl handling of task failed in SUCCEEDED state is incorrect.,None,Major
+c76ef84b825a38df01082df86dbe8642ecfd6269,TEZ-1015,Bug,Dag failed with Invalid event: V_ROUTE_EVENT at RECOVERING,None,Major
+a6cd1820cbf0bd72d1cad8f386bda7a62593cbba,TEZ-960,Bug,Typos in MRJobConfig,None,Minor
+f8f5411ea0c17496090b65562f3b4b2da48cd059,TEZ-1014,Bug,Add a log message to indicate last AM attempt,None,Trivial
+d41819695864661af6be1f6bbd5d9723cc64d4f5,TEZ-1004,Bug,AM relocalization doesn&apos;t handle conflicting resources correctly,None,Major
+9377f37499f025af37f9d2fad693146765d2d0b5,TEZ-1005,Bug,AM relocalization adds resources to the wrong classloader,None,Major
+f40fb93f5ed75610ca6051c7c1001db5fd93537d,TEZ-37,Bug,TaskScheduler.addTaskRequest() should handle duplicate tasks,None,Major
+3a3185596327cbf493eb177f094153a98a8af790,TEZ-1011,Bug,TestDAGRecovery timing out on jenkins builds.,None,Major
+e23c24bfed9caa3be4f048ab9f13c33d7da046b8,TEZ-1010,Bug,TestAMNodeMap.testSelfBlacklist fails intermittently,None,Major
+b2f85fe24968ca8ca5d73881ad812cb102908c8f,TEZ-997,Bug,Internal Errror in am logs during dag shutdown,None,Major
+2e7086a004720624ba335a9b94b99629ec116456,TEZ-1009,Bug,Fixes in log file roll-over,None,Major
+e94f22723ada8e00edfd98606a5cac4a19446dee,TEZ-960,Bug,Typos in MRJobConfig,None,Minor
+145c730c8d1cea863185b2a3354b19f2ab21addd,/,/,    Add LICENSE.txt and NOTICE.txt to javadoc artifacts created by release.,/,/
+762c9cef8863eb48404ecf3ecc4ef08792bec525,/,/,    Add LICENSE.txt and NOTICE.txt to resources for inclusion in release,/,/
+f86260fee8217de21d0fa5468dd4be149d69786f,/,/,    Changes version and prep for 0.5.1,/,/
+7511e45a68f96c208483155389722760861a6b8f,/,/,    Merge master in to 0.5 and make them in sync. Keep theirs,/,/
+14cf35b783a43ac7758f1c2f698045d2c739fd26,/,/,    Consolidate commits to 0.5.1 section before merge,/,/
+2d35b28baf7c0e0d17641d322c62b61ee0cc0e0c,TEZ-1609,Bug,Add hostname to logIdentifiers of fetchers for easy debugging,None,Major
+160a5d80fd108dcf597c734ceb3d0e23ff432f6e,TEZ-1624,Bug,Flaky tests in TestContainerReuse due to race condition in DelayedContainerManager thread,None,Major
+a56f9ef4e81002f64d961a195bd68fd5c10e2bee,TEZ-1555,Sub-task,TestTezClientUtils.validateSetTezJarLocalResourcesDefinedButEmpty failing on Windows,None,Major
+a156c6eb5a0c88babc221ef83ee7d9e3a173cdc7,TEZ-1612,Bug,ShuffleVertexManager&apos;s EdgeManager should not hard code source num tasks,None,Major
+b6790520ddccb499e590efd3b567751e405a833a,TEZ-1592,Bug,Vertex should wait for all initializers to finish before moving to INITED state,None,Blocker
+51c8a8b7187af3791f6985d046b428fcb30666d6,TEZ-1611,Bug,Change DataSource/Sink to be able to supply URIs for credentials,None,Major
+2cee9acaa2617bd8e6263f3d42003c98d907edf0,TEZ-1618,Sub-task,LocalTaskSchedulerService.getTotalResources() and getAvailableResources() can get negative if JVM memory is larger than 2GB,None,Major
+d1588c2e26aff66fc78740e71fc7fa091c913f8c,TEZ-1618,Sub-task,LocalTaskSchedulerService.getTotalResources() and getAvailableResources() can get negative if JVM memory is larger than 2GB,None,Major
+df375e82f964fb77982d0a8bfad62bab93bdb0eb,TEZ-1568,Sub-task,Add system test for propagation of diagnostics for errors,None,Major
+485f675bd3bcb59ee2d31554c2a2b6160cdbcdb7,TEZ-1613,Bug,Decrease running time for TestAMRecovery,None,Major
+9159e11700d3eff722fdda615565528182a619d2,TEZ-978,Bug,Enhance auto parallelism tuning for queries having empty outputs or data skewness,None,Major
+55ae1e57cc4a3311791e4818782787a3b5d3fd18,TEZ-1554,Sub-task,Failing tests in TestMRHelpers related to environment on Windows,None,Major
+82ec16baf890a6914337544ff3f6a7715aa1b86e,TEZ-1597,Bug,ImmediateStartVertexManager should handle corner case of vertex having zero tasks,None,Major
+915999a146e87b1ecf9b92f88cf66db98eaa4b37,TEZ-1585,Bug,Memory leak in tez session mode,None,Major
+5d6b8fd5660dbe5828467d5678bbbd58c3702c7a,TEZ-1563,Bug,TezClient.submitDAGSession alters DAG local resources regardless of DAG submission,None,Major
+edb841c08de123ff2c5ace0662ae78bf3c58f2c0,TEZ-1524,Bug,getDAGStatus seems to fork out the entire JVM on non-secure clusters,None,Major
+9dd0cb4d8e933d5f57b3d9ae532e7167978aed68,TEZ-1580,Bug,Change TestOrderedWordCount to optionally use MR configs,None,Major
+8e382b34d9487faea56ac0a8a31c53745aacdc3d,TEZ-1578,Bug,Remove TeraSort from Tez codebase,None,Major
+486c0b74e6dac853ce3c401a0799ec2d1959bba7,TEZ-1543,Bug,Shuffle Errors on heavy load (causing task retries),None,Major
+91df2c84511095b259dbaeb27283a9a11f2956fd,TEZ-1543,Bug,Shuffle Errors on heavy load (causing task retries),None,Major
+d1ea44d0b4f53f729fc7842b5325d0f941b6dd1c,TEZ-1574,Bug,Support additional formats for the tez deployed archive,None,Major
+16a0f57952d554e95ae1346ac3f360998ac7faac,TEZ-853,Sub-task,Support counters recovery,None,Major
+bf6ac4e7811c2ea5a327cac7d8a109e3c57fd8e7,TEZ-1543,Bug,Shuffle Errors on heavy load (causing task retries),None,Major
+90ef95ad6742fb12de43bcfbb10c3a74af15233c,TEZ-1534,Improvement,Make client side configs available to AM and tasks,None,Major
+dfe38490fd24485ddb1ba88df929682d63d555c9,TEZ-1494,Bug,DAG hangs waiting for ShuffleManager.getNextInput(),None,Major
+15bf80e9cc0f4e681e66060f25861951c2b0f7df,TEZ-1519,Bug,TezTaskRunner should not initialize TezConfiguration in TezChild,None,Blocker
+84d9842f2d09dae0c38c87fcec0d82affba4710e,TEZ-1519,Bug,TezTaskRunner should not initialize TezConfiguration in TezChild,None,Blocker
+57561bc80b01bbebc8bf53096ec8a5b832d9c1db,TEZ-1544,Bug,Link to release artifacts for 0.5.0 does not point to a specific link for 0.5.0 ,None,Trivial
+2cfe0c3ac7d613573fd85894057cf15ca8e8d5a7,TEZ-1362,Bug,Remove DAG_COMPLETED in DAGEventType,None,Major
+f766493a93588d1112db041c603fac5709f0f19e,TEZ-1362,Bug,Remove DAG_COMPLETED in DAGEventType,None,Major
+bfb7b5a87420856f209a67d367c4b4197fc32860,TEZ-1362,Bug,Remove DAG_COMPLETED in DAGEventType,None,Major
+b9e1d39a01f7a6550029f01617f0cc35fd798eb0,TEZ-1362,Bug,Remove DAG_COMPLETED in DAGEventType,None,Major
+7b52eb8609858d2878a99229e0c2634c6ee77add,TEZ-1548,Bug,ShuffleVertexManagerConfigBuilder.setSlowStartMinSrcCompletionFraction setting wrong value,None,Major
+ee0c96379128947bb44ca6f86f016542045e7254,TEZ-1447,Bug,Provide a mechanism for InputInitializers to know about interesting Vertex state changes,None,Blocker
+d9ea43537bb9333de5213e56d4367bf0c36cb27a,TEZ-1447,Bug,Provide a mechanism for InputInitializers to know about interesting Vertex state changes,None,Blocker
+88acd71c49d02eabd746ffc3a554e10ccd65fc02,TEZ-1447,Bug,Provide a mechanism for InputInitializers to know about interesting Vertex state changes,None,Blocker
+44e6a77cc5e6e09e97c5b1525428bf67967c1d25,TEZ-1447,Bug,Provide a mechanism for InputInitializers to know about interesting Vertex state changes,None,Blocker
+eed2d9ab0c90d82b2c3cf1302b33a0c1acd9fa03,TEZ-1440,Task,Post-release tasks ,None,Major
+b4cd97295d432e682c66fa25ebe90df68d8e74a3,TEZ-1440,Task,Post-release tasks ,None,Major
+ca86b6e360fc3d6579e9667cf0f18175edc25ac8,TEZ-1310,Bug,Update website documentation framework,None,Major
+80f2128413d568812c0fa6154a62165c320616a3,TEZ-1310,Bug,Update website documentation framework,None,Major
+afd32dad79c09c45e10f1b1ac5b03d95d3b2f469,TEZ-1310,Bug,Update website documentation framework,None,Major
+119d5c791006b2247ffb80b088b0961963b2e05f,TEZ-1310,Bug,Update website documentation framework,None,Major
+3b75159f8ac81564c2293b6fc0a4a5a7cd6fc948,TEZ-1536,Bug,Fix spelling typo &quot;configurartion&quot; in TezClientUtils,None,Trivial
+0be67dd0261e8547db77ab187df3628a2345a7fe,TEZ-1536,Bug,Fix spelling typo &quot;configurartion&quot; in TezClientUtils,None,Trivial
+6b28417e870d4ab4cf7f9541485625ee46ad6918,TEZ-1536,Bug,Fix spelling typo &quot;configurartion&quot; in TezClientUtils,None,Trivial
+d6e7826c51ef272c010b602954a1592bfcb13d71,TEZ-1536,Bug,Fix spelling typo &quot;configurartion&quot; in TezClientUtils,None,Trivial
+7f1977be0dd0e485aa9a4dd5910fd838ebe8adc6,TEZ-1527,Bug,Improvement on waitForCompletion API,None,Major
+3f73945e7f87c69e12d2efe8198e3783d205f73a,TEZ-1527,Bug,Improvement on waitForCompletion API,None,Major
+ff359ff353cd95962d093113edd4a479796af59f,TEZ-1515,Bug,DAGAppMaster : Thread contentions due to org.apache.tez.common.counters.ResourceBundles,None,Major
+0f8d2dc05231176e8298aefafdb4d3ce8f85a33b,/,/,    Add ALL CHANGES to 0.5.0 CHANGES.txt,/,/
+523d6a87db10dce321e1a30f3f1957d21edaccdf,/,/,    Add ALL CHANGES to 0.5 CHANGES.txt,/,/
+9693ce42451fa4607d4020020d22b88600478ad3,TEZ-1488,Bug,Rename HashComparator to ProxyComparator and implement in TezBytesComparator,None,Major
+bfba46724d043dce22e0b313782b0c9e30bc2094,TEZ-1488,Bug,Rename HashComparator to ProxyComparator and implement in TezBytesComparator,None,Major
+8492f10757f9134016f8149f2cc54061d8ddbb0a,TEZ-1742,Task,Improve response time of internal preemption,None,Major
+5df90046c494352b55dbffe2fbd6810516d486e7,TEZ-1742,Task,Improve response time of internal preemption,None,Major
+b810c7db18dbe7d43d1df517a556af5e56c507fd,TEZ-1749,Bug,Increase test timeout for TestLocalMode.testMultipleClientsWithSession,None,Major
+873b247bbdc930572d08b29aef84d8cb65d4c16d,TEZ-1746,Bug,Flaky test in TestVertexImpl and TestExceptionPropagation,None,Major
+7c6085d24a2e8fa7a58b2fa32c47d283ca2b046f,TEZ-1747,Bug,Increase test timeout for TestSecureShuffle,None,Major
+31c1de6daa7b6eff1a32a8d10999680084085fc1,TEZ-1627,Bug,Remove OUTPUT_CONSUMABLE and related Event in TaskAttemptImpl,None,Major
+71ca74e0e8e9e59dd1490961cc15482487cdbec8,TEZ-1745,Bug,TestATSHistoryLoggingService::testATSHistoryLoggingServiceShutdown can be flaky,None,Major
+7b55e380895203406c01896b2c577fa12e621390,TEZ-1738,Improvement,tez tfile parser for log parsing,None,Major
+f4d50f817ee913cac6055b1f244b948f9fcb4903,TEZ-1743,Bug,Add versions-maven-plugins artifacts to gitignore,None,Major
+93687aeec59263d949e8a66d6d78f812b93f3bdf,TEZ-1733,Bug,TezMerger should sort FileChunks on size when merging,None,Critical
+dfef97f6cf703d9c1c02f237ce17951f6bcc4a88,TEZ-1728,Task,Remove local host name from Fetcher thread name,None,Major
+db4112cc0019b36c587503ad5673b4a7265cc91a,TEZ-1735,Bug,Allow setting basic info per DAG for Tez UI,None,Major
+57827160a8772858f667aacba65c6589234c641b,TEZ-1731,Bug,OnDiskMerger can end up clobbering files across tasks with LocalDiskFetch,None,Critical
+8433c611932e0e82d6826491d4f1b915cadafc60,TEZ-1579,Bug,MR examples should be setting mapreduce.framework.name to yarn-tez,None,Minor
+b768c0f19be158ce05c62bcc9455b75c92ac8831,TEZ-1726,Task,Build broken against Hadoop-2.6.0 due to change in NodeReport,None,Critical
+b66ff72cc02d333d36c312562b7f06ac174e9830,TEZ-1725,Bug,Fix nanosecond to millis conversion in TezMxBeanResourceCalculator,None,Major
+81322efc2b8b843008cb3bebe8e5db78af20eb58,TEZ-1698,Bug,Cut down on ResourceCalculatorProcessTree overheads in Tez,None,Major
+8f8a81f7a17f9018ae4e87bf0fca9d6cdc0a5ba4,TEZ-1703,Bug,Exception handling for InputInitializer,None,Major
+4d94652c817d83204ae06d618ade07f15fbed8d7,TEZ-1698,Bug,Cut down on ResourceCalculatorProcessTree overheads in Tez,None,Major
+4ec29425d63decfd8de4e1528f043271cf7cb3b2,TEZ-1703,Bug,Exception handling for InputInitializer,None,Major
+7f8fc7530b39106e238c67b7bd22d5ed5670d449,TEZ-1711,Bug,Don&apos;t cache outputSpecList in VertexImpl.getOutputSpecList(taskIndex),None,Major
+c570a0e12921fff5787877ceb5612b08115d77a4,TEZ-1722,Bug,DAG should be related to Application Id in ATS data ,None,Minor
+ede0e645a9f4fdda44842a46b7fcf9edecdf50b2,TEZ-1716,Bug,Additional ATS data for UI,None,Major
+a6c8006c37334099a8a77befa3b687113514a35c,TEZ-1701,Bug,ATS fixes to flush all history events and also using batching,None,Major
+74c7f874d558f933fbf9697c537d204eb56806c9,TEZ-1700,Bug,Replace containerId from TaskLocationHint with [TaskIndex+Vertex] based affinity,None,Major
+06e9f88eb207f00ae2f31f46477001726754115c,TEZ-1699,Bug,Vertex.setParallelism should throw an exception for invalid invocations,None,Critical
+4e69bed5c7dbc68d17f3d4648838e5acfc52c3eb,TEZ-1666,Bug,UserPayload should be null if the payload is not specified,None,Critical
+1ffbc1935646f7c422b551e6e0ffdc001311d074,TEZ-1689,Sub-task,Exception handling for EdgeManagerPlugin,None,Critical
+9c166076ec7e8ff16deeba22c6c1b2015c2d73e2,TEZ-792,Sub-task,Default staging path should have user name,None,Critical
+3a5f6e3bbbea0451004175cbf05fd5fe5dfe7142,TEZ-1701,Bug,ATS fixes to flush all history events and also using batching,None,Major
+f9588210a27bf1d142c8f1da8cd3d22b47d97e3b,TEZ-1689,Sub-task,Exception handling for EdgeManagerPlugin,None,Critical
+d59b2318dd66ee1784dabca28820e9b8e65f8bf1,TEZ-1664,Bug,Add checks to ensure that the client and AM are compatible ,None,Major
+6d0a7b3f0fff3ffa45d89fede030eae5d2446535,TEZ-1715,Bug,Fix use of import java.util.* in MultiMRInput ,None,Trivial
+4da4071586b53e36700af18b4c0cd62e9c761006,TEZ-1710,Improvement,Add support for cluster default AM/task launch opts,None,Major
+65b5b8c9c901198b1661110eb91591201a6c7f12,TEZ-1713,Bug,tez.lib.uris should not require the paths specified to be fully qualified,None,Major
+bc62d81a78213175464658f58658f89105a027ad,TEZ-1710,Improvement,Add support for cluster default AM/task launch opts,None,Major
+e225b5a4ce2bc0fae3f9ed9b6ac213ac8d2166e5,TEZ-1712,Bug,SSL context gets destroyed too soon after downloading data from one of the vertices,None,Major
+92b6b6b6722579eb0d29b43c3174a5c913f303a8,TEZ-1632,Bug,NPE at TestPreemption.testPreemptionWithoutSession,None,Major
+ ,TEZ-1176,Bug,Set parallelism should end up sending an update to ATS if numTasks are updated at run-time ,None,Major
+13f112bc49862d1a782e1cda9c7f0a3901181df2,TEZ-1638,Bug,Missing type parametrization in runtime Input/Output configs,None,Critical
+9e1eb5277dccfc16bebe07bab86351ff258bdd45,TEZ-1542,Sub-task,Local Mode crashes on concurrentModificationException,None,Major
+b8b317237d7f28444d955922ef0d37e2e8b373a0,TEZ-1590,Bug,Fetchers should not report failures after the Processor on the task completes,None,Major
+2266cccf9290601662944bdfa17ef5a2e96e9371,TEZ-1424,Bug,Fixes to DAG text representation in debug mode,None,Critical
+d523db65804a5742ce50824e6fcfb8a04d184c0d,TEZ-1141,Improvement,DAGStatus.Progress should include number of failed and killed attempts,None,Major
+bd8634bb46191ac2d5770ba0f7052b322f266126,TEZ-1688,Bug,Add applicationId as a primary filter for all Timeline data for easier export ,None,Major
+e530a46c352234459d2aced93e43fcb83c98d450,TEZ-1567,Bug,Avoid blacklisting nodes when the disable blacklisting threshold is about to be hit,None,Major
+6bc134837915ebe78ed77f02579a92a7d4d4cb40,TEZ-1684,Bug,upgrade mockito to latest release,None,Major
+f910aca56fb5cd32582d353032b3af9bc58cc030,TEZ-1694,Bug,Update Jon Eagles project status,None,Major
+7cc5db92c588cf0712a2f4612708b8d32cfaf1a6,TEZ-1629,Bug,Replace ThreadPool&apos;s default RejectedExecutionHandler in ContainerLauncherImpl to void abort when AM shutdown,None,Major
+1cee45da1be60fd1d0b71a84fe5875920931da5c,TEZ-1210,Bug,TezClientUtils.localizeDagPlanAsText() needs to be fixed for session mode,None,Major
+7a802b13d19c09ffe7bf0c331e0fac7234d0063b,TEZ-1396,Improvement,Grouping should generate consistent groups when given the same set of splits,None,Major
+63648fba216fc8e1caff629a023c73c2b8584aa3,TEZ-1668,Bug,InputInitializers should be able to register for Vertex state updates in the constructor itself,None,Major
+244f12f66e9c9f8773102c6d755bf449dfb76cf0,TEZ-1686,Bug,TestRecoveryParser.testGetLastCompletedDAG fails sometimes,None,Major
+00c5a93f3b250facb957231eb2cee01854bb2369,TEZ-1525,Test,BroadcastLoadGen testcase,None,Major
+583448fb1165b93208df6cbdeedac24529e12ae6,TEZ-1584,Sub-task,Restore counters from DAGFinishedEvent when DAG is completed,None,Major
+83b0c3db9777dc4ebe76963571d4be4ce6985873,TEZ-1683,Bug,Do ugi::getGroups only when necessary when checking ACLs ,None,Major
+9220170dd87e26542bcfe3bbdc29871625535e1f,TEZ-1682,Bug,Tez AM hangs at times when there are task failures,None,Blocker
+c942d0ca730731d07818040b635e98ef7d9ef5da,TEZ-1633,Bug,Fixed expected values in TestTaskRecovery.testRecovery_OneTAStarted,None,Major
+9577195f6897d5eb24cf19361a23ca911f7a48cd,TEZ-1669,Bug,yarn-swimlanes.sh throws error post TEZ-1556,None,Critical
+ ,TEZ-1556,Sub-task,TestFetcher.testSetupLocalDiskFetch fails on Windows ,None,Major
+b37ce2cd872155eb1f2e8da56e7afb823b908874,TEZ-1633,Bug,Fixed expected values in TestTaskRecovery.testRecovery_OneTAStarted,None,Major
+18b29713acb3a01d67f4591eeadd5baafa196484,TEZ-1462,Task,Remove unnecessary SuppressWarnings,None,Trivial
+749062d820b4f602ac44b2ac2884107cdbcc50f7,TEZ-1673,Improvement,Update the default value for allowed node failures  num events per heartbeat and counter update interval,None,Major
+0a592a07ee993883f0a71d8189868e0ac43e793e,TEZ-1584,Sub-task,Restore counters from DAGFinishedEvent when DAG is completed,None,Major
+7ef88b9f369d329ccaf6afbd1ab57739011c1f0d,TEZ-1677,Bug,Add Jeff Zhang to team list,None,Major
+d456a6dd29ebe1d91c0b7223a3bde3739986ede1,TEZ-1676,Bug,Fix failing test in TestHistoryEventTimelineConversion,None,Major
+190a74fdc28655f8ca1a3946687aad40c8254ad0,TEZ-1658,Bug,Additional data generation to Timeline for UI ,None,Major
+2600c538886c5864a9248cff04f445cfbde8b203,TEZ-1176,Bug,Set parallelism should end up sending an update to ATS if numTasks are updated at run-time ,None,Major
+4186c6dee22f8c8bb705973559c9eee9112cc151,TEZ-1674,Improvement,Rename parameters related to counters / memory distribution,None,Critical
+1fc98d3335c09169e258851e4fff014819c00c31,TEZ-1632,Bug,NPE at TestPreemption.testPreemptionWithoutSession,None,Major
+71231c892deb40d4c7a0c9f948ea8d40ceb0ec6e,TEZ-1479,Bug,Disambiguate between ShuffleInputEventHandler and ShuffleInputEventHandlerImpl (which are not related),None,Major
+0a31652b9b68f48e936618e2c2edf9a402314da1,TEZ-1665,Task,DAGScheduler should provide a priority range instead of an exact priority,None,Major
+62536218271317d8b8e57c7ce172d247a95db3ba,TEZ-1637,Bug,Improved shuffle error handling across NM restarts ,None,Major
+c04c7b5e5a08c90e5c128885cbd685d0d14e6ae8,TEZ-1083,Improvement,Enable IFile RLE for DefaultSorter,None,Major
+156e96dc3485dd94d97cd9623d273d8ac3fec32b,TEZ-1566,Bug,Reduce log verbosity,None,Major
+038ba9b6ab1a8b5ccd4e3f5f13fc5f5413fea9f1,TEZ-1579,Bug,MR examples should be setting mapreduce.framework.name to yarn-tez,None,Minor
+0ad4a4b889028eb1a31a719b22c33d1feb1721af,TEZ-1649,Bug,ShuffleVertexManager auto reduce parallelism can cause jobs to hang indefinitely (with ScatterGather edges),None,Major
+4b5b20e23638965495f186fb6fc28f5d82346b80,TEZ-1470,Sub-task,Recovery fails due to TaskAttemptFinishedEvent being recorded multiple times for the same task,None,Minor
+e0fe9aaeacb43e8aa3fe1d0a5413b26598d076ed,TEZ-1647,Bug,Issue with caching of events in VertexManager::onRootVertexInitialized ,None,Major
+6d856f9521960c782d4b8c43c14fec16a1d6552c,TEZ-1646,Bug,Add support for augmenting classpath via configs,None,Major
+32c2e9b60549553152f88044fdca7dd06e8e25a2,/,/,    Fix CHANGES.txt to reflect correct commits to 0.5.,/,/
+6c199033c15767f2251844f91c0942229ed36277,TEZ-1645,Bug,Add support for specifying additional local resources via config,None,Major
+e304e24f169f0db4a260924d354d019309e8ab5c,TEZ-1641,Improvement,Add debug logs in VertexManager to help debugging custom VertexManagerPlugins,None,Minor
+f0558b797d783357e09c725ff28f6cf5aa3e52f4,TEZ-1614,Bug,Use setFromConfiguration() in SortMergeJoinExample to demonstrate the usage,None,Major
+d24aef4ee6466f484219c93766933a215fd3a348,TEZ-1614,Bug,Use setFromConfiguration() in SortMergeJoinExample to demonstrate the usage,None,Major
+efa6afd0f3e8a5c2cde8f1c415f6b3f87c194c89,TEZ-1614,Bug,Use setFromConfiguration() in SortMergeJoinExample to demonstrate the usage,None,Major
+e2c7f5de8d9decb0d81abdc716474d0928ffe80c,TEZ-1648,Bug,Update website after 0.5.1,None,Major
+b5aca318bfccb9834031d77e66bdffecd62ba824,/,/,    Tez 0.5.1 released,/,/
+2103129a28cbcdb2282b3a3e0e2aa230c0b5e756,TEZ-1634,Bug,BlockCompressorStream.finish() is called twice in IFile.close leading to Shuffle errors,None,Major
+7ebe629f623072a56d48d1ad345bf762211d972c,TEZ-1621,Sub-task,Should report error to AM before shuting down TezChild,None,Major
+08bafa987a9ee468aa653ad3b3c171ce1322ea36,TEZ-1620,Bug,Wait for application finish before stopping MiniTezCluster,None,Major
+f86260fee8217de21d0fa5468dd4be149d69786f,/,/,    Changes version and prep for 0.5.1,/,/
+52648442aea4a2d51044131a70b7e86b5fd805fb,TEZ-1624,Bug,Flaky tests in TestContainerReuse due to race condition in DelayedContainerManager thread,None,Major
+df9b37c1c8fc2fc1c9c2027620efa9caae2ba48a,TEZ-978,Bug,Enhance auto parallelism tuning for queries having empty outputs or data skewness,None,Major
+375863f497219fb7e52c1afcf8225ad321ee6786,TEZ-1554,Sub-task,Failing tests in TestMRHelpers related to environment on Windows,None,Major
+2b20bd7928f0f4a11291a48e6991f19a130d3b01,TEZ-1550,Sub-task,TestEnvironmentUpdateUtils.testMultipleUpdateEnvironment fails on Windows ,None,Major
+f67dcd794cf0e60277d3df14c7530cb647cadd69,TEZ-1599,Bug,TezClient.preWarm() is not enabled,None,Major
+6a46e11c6a8057d5f713c7acacb63ffa299e38a5,TEZ-1598,Bug,DAGClientTimelineImpl uses ReflectiveOperationException (which has JDK 1.7 dependency),None,Major
+4e085fa32759445f428493c3df5b55ca235f9089,TEZ-1553,Sub-task,Multiple failures in testing path-related tests in TestTezCommonUtils for Windows,None,Major
+21ef8cd20e327927684e756b041a045df72d1c8f,TEZ-1597,Bug,ImmediateStartVertexManager should handle corner case of vertex having zero tasks,None,Major
+2d04d64aa770d7b1cc646bbe7a75c97dfe50afc3,TEZ-1587,Bug,Some tez-examples fail in local mode,None,Major
+915999a146e87b1ecf9b92f88cf66db98eaa4b37,TEZ-1585,Bug,Memory leak in tez session mode,None,Major
+59c0462aa851d30eae934075314a4ad18ae99a88,TEZ-1585,Bug,Memory leak in tez session mode,None,Major
+f83387931c191631772e95f0626888a918e2751f,TEZ-1571,Bug,Add create method for DataSinkDescriptor,None,Blocker
+18e9a5f22825f3e11a679ac03683f6de9179f9f0,TEZ-1563,Bug,TezClient.submitDAGSession alters DAG local resources regardless of DAG submission,None,Major
+486c0b74e6dac853ce3c401a0799ec2d1959bba7,TEZ-1543,Bug,Shuffle Errors on heavy load (causing task retries),None,Major
+91df2c84511095b259dbaeb27283a9a11f2956fd,TEZ-1543,Bug,Shuffle Errors on heavy load (causing task retries),None,Major
+aa8d8053eaf9650b7ff60204020fa6466f857509,TEZ-1574,Bug,Support additional formats for the tez deployed archive,None,Major
+8d8972e33d199164191a4e671a90fd49171d9053,TEZ-1539,Improvement,Change InputInitializerEvent semantics to SEND_ONCE_ON_SUCCESS,None,Major
+fba3a5121d00016fb055f96dbe8acc58d834e134,TEZ-1534,Improvement,Make client side configs available to AM and tasks,None,Major
+15bf80e9cc0f4e681e66060f25861951c2b0f7df,TEZ-1519,Bug,TezTaskRunner should not initialize TezConfiguration in TezChild,None,Blocker
+2cfe0c3ac7d613573fd85894057cf15ca8e8d5a7,TEZ-1362,Bug,Remove DAG_COMPLETED in DAGEventType,None,Major
+f766493a93588d1112db041c603fac5709f0f19e,TEZ-1362,Bug,Remove DAG_COMPLETED in DAGEventType,None,Major
+d9ea43537bb9333de5213e56d4367bf0c36cb27a,TEZ-1447,Bug,Provide a mechanism for InputInitializers to know about interesting Vertex state changes,None,Blocker
+ca86b6e360fc3d6579e9667cf0f18175edc25ac8,TEZ-1310,Bug,Update website documentation framework,None,Major
+80f2128413d568812c0fa6154a62165c320616a3,TEZ-1310,Bug,Update website documentation framework,None,Major
+3b75159f8ac81564c2293b6fc0a4a5a7cd6fc948,TEZ-1536,Bug,Fix spelling typo &quot;configurartion&quot; in TezClientUtils,None,Trivial
+0be67dd0261e8547db77ab187df3628a2345a7fe,TEZ-1536,Bug,Fix spelling typo &quot;configurartion&quot; in TezClientUtils,None,Trivial
+7f1977be0dd0e485aa9a4dd5910fd838ebe8adc6,TEZ-1527,Bug,Improvement on waitForCompletion API,None,Major
+523d6a87db10dce321e1a30f3f1957d21edaccdf,/,/,    Add ALL CHANGES to 0.5 CHANGES.txt,/,/
+f673a1c99636b3dd4e2d3881338fb38c7dcb8fa3,/,/,    changes pom version for branch-0.5,/,/
+6f0717e5e36f0d088d41256fe6a24af791692663,/,/,    Ready to release 0.5.4,/,/
+9264a598b3f62e900110109521d278f06c7a7b08,TEZ-2561,Improvement,Port for TaskAttemptListenerImpTezDag should be configurable,None,Major
+0b91397af3d51626fc39f1644661beddaddad0ad,TEZ-2569,Bug,branch 0.5 build fails due to cannot find symbol TaskAttemptTerminationCause,None,Major
+abca9f0bffd645eb1bab75e226f49f85d50f0a66,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+5d0211a381d305b927c956be886b97a274187b20,TEZ-2557,Bug,Port TEZ-1910 to branch-0.5,None,Blocker
+ ,TEZ-1910,Bug,Build fails against hadoop-2.2.0,None,Blocker
+6045f02d7731a643ff18202c322ae26ba0f0c002,TEZ-2566,Bug,Allow TaskAttemptFinishedEvent without TaskAttemptStartedEvent when it is KILLED/FAILED,None,Major
+d100eb43e48cbbd8e53b2d2feccca6e8d2ba52f1,TEZ-2475,Bug,Tez local mode hanging in big testsuite,None,Major
+d58bf5dca15be38e1ec7884cea6565794331e1bb,TEZ-2548,Bug,TezClient submitDAG can hang if the AM is in the process of shutting down,None,Major
+6c305bfa6b78140cfb8fb60f4b96f4a6c830c841,TEZ-2533,Bug,AM deadlock when shutdown,None,Major
+66ee8e8f5098b2f304d8df23032dd6212eb6a1ab,TEZ-2537,Bug,mapreduce.map.env and mapreduce.reduce.env need to fall back to mapred.child.env for compatibility,None,Major
+222b241f201f29328c4f9cf3bb34a5ea9cd9be8d,TEZ-2304,Bug,InvalidStateTransitonException TA_SCHEDULE at START_WAIT during recovery,None,Major
+6f53b8e3df0fd6fbc949683686c5d82b3ae2d8b0,TEZ-2488,Bug,Tez AM crashes if a submitted DAG is configured to use invalid resource sizes. ,None,Critical
+4e57a922b4a38a0b2f0e22e0f914a4a8f9698878,TEZ-2080,Bug,Localclient should be using tezconf in init instead of yarnconf,None,Major
+0595d28aa702c5dd0ba9fe950da2be015f854ddf,TEZ-2221,Bug,VertexGroup name should be unqiue,None,Major
+f1ab8dc0c5fa8df4811f64584ee1dfab38ddc981,TEZ-2369,Bug,Add a few unit tests for RootInputInitializerManager,None,Major
+bac43ea84281f4a928fb7f9bd4887817f55f4e73,TEZ-2379,Bug,org.apache.hadoop.yarn.state.InvalidStateTransitonException: Invalid event: T_ATTEMPT_KILLED at KILLED,None,Blocker
+0bceb8e49e4896140b977f0ae5b99dc8a728308e,TEZ-2397,Bug,Translation of LocalResources via Tez plan serialization can be lossy,None,Critical
+210359641ec79bf95d2193cc2976e8cd9e6ce6a1,TEZ-2221,Bug,VertexGroup name should be unqiue,None,Major
+816ac188a9928cc27bb627dae2c217d32b9fb2cf,TEZ-1521,Sub-task,VertexDataMovementEventsGeneratedEvent may be logged twice in recovery log ,None,Critical
+dbf36fb777054fdbff290356ec5488694d77d774,TEZ-1560,Bug,Invalid state machine handling for V_SOURCE_VERTEX_RECOVERED in recovery,None,Critical
+e3b5cd54d8cdd6f141c312328be25e1edc2a3e57,TEZ-2348,Bug,EOF exception during UnorderedKVReader.next(),None,Major
+8b14a12d97e3394dc4e62ca43d52cd0a1347f5a8,TEZ-2303,Bug,ConcurrentModificationException while processing recovery,None,Major
+eaa2ba8c6ab3e060198c40a68d927744eb7921e4,TEZ-2334,Bug,ContainerManagementProtocolProxy modifies IPC timeout conf without making a copy,None,Major
+1d2725b7982d9dec88580eeaf6c6ae38dbd44bd6,TEZ-2317,Bug,Event processing backlog can result in task failures for short tasks,None,Major
+fec1cf55c997ceb5002cccfa435668a38829eace,TEZ-2289,Bug,ATSHistoryLoggingService can generate ArrayOutOfBoundsException,None,Major
+78610f884adbe6548228657fa2eacd7fef23379a,TEZ-2257,Bug,NPEs in TaskReporter,None,Major
+cee2fe831223dba31d50c481eafffc56379a4c0f,TEZ-2192,Bug,Relocalization does not check for source,None,Blocker
+9fad49c7a6d315c9ac8b17dcc3a9a4f20a15e468,TEZ-2224,Bug,EventQueue empty doesn&apos;t mean events are consumed in RecoveryService,None,Major
+1d4bff1a2c514783c2c7550bcd7aab662e4244ee,TEZ-2224,Bug,EventQueue empty doesn&apos;t mean events are consumed in RecoveryService,None,Major
+0abc8d8746ab129deea6791371282043cf5e9e9a,TEZ-2240,Bug,Fix toUpperCase/toLowerCase to use Locale.ENGLISH,None,Major
+a510f761fc5f237056dbc87481ab7f972c93a108,TEZ-2238,Bug,TestContainerReuse flaky,None,Major
+0249a4318a022b77d26167bdb1783b763be254f3,TEZ-2217,Bug,The min-held-containers being released prematurely,None,Major
+6123493b5278947db85218776e5c61dd21f429bf,TEZ-2214,Bug,FetcherOrderedGrouped can get stuck indefinitely when MergeManager misses memToDiskMerging,None,Major
+a95c2bbacd686d713c139099dee7ea391b0b4cf3,TEZ-1923,Bug,FetcherOrderedGrouped gets into infinite loop due to memory pressure,None,Major
+a111a21569cb2308f197fe825f9958ce531689e4,TEZ-2186,Bug,OOM with a simple scatter gather job with re-use,None,Major
+4bedbc014dcb73ee8853bc0a78eb43b7804741d3,TEZ-2220,Bug,TestTezJobs compile failure in branch 0.5,None,Major
+3852f11525d2f7237c571230c4d81e59e7f09af0,TEZ-2199,Bug,updateLocalResourcesForInputSplits assumes wrongly that split data is on same FS as the default FS,None,Major
+922b055999fb47e096ac857adebeca1aaea41665,TEZ-2193,Bug,Check returned value from EdgeManagerPlugin before using it,None,Major
+a559ec94e8222d4c1cb069c089318d5696c5650e,TEZ-2133,Bug,Secured Impersonation: Failed to delete tez scratch data dir,None,Major
+1fc22c2e338279d55523ba996a513139d6cd5501,TEZ-2009,Bug,Change license/copyright headers to 2015 ,None,Blocker
+0b76d70cf532d0b6c1ff11c6b0e6a527e8a5da7b,TEZ-2058,Bug,Flaky test: TestTezJobs::testInvalidQueueSubmission,None,Blocker
+45167a4cf67c5550f983172acb62c8e48ab1e090,TEZ-2037,Bug,Should log TaskAttemptFinishedEvent if taskattempt is recovered to KILLED,None,Major
+7c24cdf5184f5b8185a6f4df24577fbddab91582,TEZ-2071,Bug,TestAMRecovery should set test names for test DAGs,None,Major
+8f756802ee5cae449cf855884bf34ba50861c87d,TEZ-1928,Bug,Tez local mode hang in Pig tez local mode,None,Major
+d7c94da20c8737407a93a6eda8eea8e14d49ae30,TEZ-1893,Bug,Verify invalid -1 parallelism in DAG.verify(),None,Major
+a4411195024103b51e3366c5d67f61e23974e8f1,TEZ-900,Bug,Confusing message for incorrect queue for some tez examples,None,Major
+fe2163e0dc9544d0d5b053a7ec5bd5d417454e86,TEZ-2036,Bug,OneToOneEdgeManager should enforce that source and destination tasks have same number,None,Major
+c0b4b8a8225663e82a540f86c872a1623f11ebd0,TEZ-1895,Bug,Vertex reRunning should decrease successfulMembers of VertexGroupInfo,None,Major
+50b24c24961867ec14d92fb6531d03b471a2e4dc,TEZ-2015,Bug,VertexImpl.doneReconfiguringVertex() should check other criteria before sending notification,None,Major
+aea2edc7c1c7835a87cef0e614cd23a93fe04976,TEZ-2011,Bug,InputReadyVertexManager not resilient to updates in parallelism,None,Major
+119003effd4acfcba6f26397fddc8f4d8b0f4671,TEZ-1934,Bug,TestAMRecovery may fail due to the execution order is not determined ,None,Major
+6607e9448bae7dc24a777485dedb2e5cf787ee83,TEZ-1931,Bug,Publish tez version info to Timeline,None,Critical
+4bbd257db9a8085df7f4688ffea3eb40cbd2c174,TEZ-1942,Bug,Number of tasks show in Tez UI with auto-reduce parallelism is misleading,None,Blocker
+cb427d9c300b3d2b4decdc37cf405264baf3761f,TEZ-1949,Bug,Whitelist TEZ_RUNTIME_OPTIMIZE_SHARED_FETCH for broadcast edges,None,Critical
+64c01de374cdb62abfa3d060a7125794b4d4c051,TEZ-1924,Bug,Tez AM does not register with AM with full FQDN causing jobs to fail in some environments,None,Major
+5f0ca16fe66e4a67f7be6e561ab98994170134c6,TEZ-1962,Sub-task,Running out of threads in tez local mode,None,Critical
+c89b72e0e59e9d890429a4f47f399e860b3c055c,TEZ-1878,Bug,Task-specific log level override not working in certain conditions,None,Major
+5972c062376f15288d9dec939a8a0ff2f9bdce03,TEZ-1851,Bug,FileSystem counters do not differentiate between different FileSystems,None,Critical
+7e6ac40b46cf21affc3a2f514db656bab06f50e2,/,/,    Update version to 0.5.4-SNAPSHOT,/,/
+410ddf1f6430d04a0fdc3e0ef82b5a02726a5a62,TEZ-1852,Bug,WordCount in local mode hangs in shuffle phase,None,Critical
+8ddfd18c9e65c8a457826dac803d5f8bcfd4ff74,/,/,    Set release date for 0.5.3 release.,/,/
+7a1b11e52447977f74c174700904e37b7a3338f9,/,/,    Fixed 0.5.4 section in CHANGES.txt,/,/
+2cb65281e8cd7d20b187091551a9e14b711d1a26,TEZ-1836,Bug,Provide better error messages when tez.runtime.io.sort.mb is wrongly configured,None,Major
+1fb43bd29e20b1718e6652c5175ffe9b2d05fac1,TEZ-1800,Bug,Integer overflow in ExternalSorter.getInitialMemoryRequirement(),None,Major
+043c2c1511f1134add20e98e69a0fab49702667f,/,/,    TEZ 0.5.3 RC1,/,/
+199ab0198d86344560675d2f46970de0f4053123,TEZ-1808,Bug,Job can fail since name of intermediate files can be too long in specific situation,None,Major
+20c04e5534cddc20702fd025c407a2ccadc39fe9,TEZ-1808,Bug,Job can fail since name of intermediate files can be too long in specific situation,None,Major
+52318e26fd7cffbaa4ab048cc31e83b2bb1caa4f,TEZ-1818,Bug,Problem loading tez-api-version-info.properties in case current context classloader in not pointing to Tez jars,None,Major
+5761dfaf2e9e7e495462a734ebeef3bd49e9b7c6,TEZ-1818,Bug,Problem loading tez-api-version-info.properties in case current context classloader in not pointing to Tez jars,None,Major
+6f0717e5e36f0d088d41256fe6a24af791692663,/,/,    Ready to release 0.5.4,/,/
+9264a598b3f62e900110109521d278f06c7a7b08,TEZ-2561,Improvement,Port for TaskAttemptListenerImpTezDag should be configurable,None,Major
+0b91397af3d51626fc39f1644661beddaddad0ad,TEZ-2569,Bug,branch 0.5 build fails due to cannot find symbol TaskAttemptTerminationCause,None,Major
+abca9f0bffd645eb1bab75e226f49f85d50f0a66,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+5d0211a381d305b927c956be886b97a274187b20,TEZ-2557,Bug,Port TEZ-1910 to branch-0.5,None,Blocker
+ ,TEZ-1910,Bug,Build fails against hadoop-2.2.0,None,Blocker
+6045f02d7731a643ff18202c322ae26ba0f0c002,TEZ-2566,Bug,Allow TaskAttemptFinishedEvent without TaskAttemptStartedEvent when it is KILLED/FAILED,None,Major
+d100eb43e48cbbd8e53b2d2feccca6e8d2ba52f1,TEZ-2475,Bug,Tez local mode hanging in big testsuite,None,Major
+d58bf5dca15be38e1ec7884cea6565794331e1bb,TEZ-2548,Bug,TezClient submitDAG can hang if the AM is in the process of shutting down,None,Major
+6c305bfa6b78140cfb8fb60f4b96f4a6c830c841,TEZ-2533,Bug,AM deadlock when shutdown,None,Major
+66ee8e8f5098b2f304d8df23032dd6212eb6a1ab,TEZ-2537,Bug,mapreduce.map.env and mapreduce.reduce.env need to fall back to mapred.child.env for compatibility,None,Major
+222b241f201f29328c4f9cf3bb34a5ea9cd9be8d,TEZ-2304,Bug,InvalidStateTransitonException TA_SCHEDULE at START_WAIT during recovery,None,Major
+6f53b8e3df0fd6fbc949683686c5d82b3ae2d8b0,TEZ-2488,Bug,Tez AM crashes if a submitted DAG is configured to use invalid resource sizes. ,None,Critical
+4e57a922b4a38a0b2f0e22e0f914a4a8f9698878,TEZ-2080,Bug,Localclient should be using tezconf in init instead of yarnconf,None,Major
+0595d28aa702c5dd0ba9fe950da2be015f854ddf,TEZ-2221,Bug,VertexGroup name should be unqiue,None,Major
+f1ab8dc0c5fa8df4811f64584ee1dfab38ddc981,TEZ-2369,Bug,Add a few unit tests for RootInputInitializerManager,None,Major
+bac43ea84281f4a928fb7f9bd4887817f55f4e73,TEZ-2379,Bug,org.apache.hadoop.yarn.state.InvalidStateTransitonException: Invalid event: T_ATTEMPT_KILLED at KILLED,None,Blocker
+0bceb8e49e4896140b977f0ae5b99dc8a728308e,TEZ-2397,Bug,Translation of LocalResources via Tez plan serialization can be lossy,None,Critical
+210359641ec79bf95d2193cc2976e8cd9e6ce6a1,TEZ-2221,Bug,VertexGroup name should be unqiue,None,Major
+816ac188a9928cc27bb627dae2c217d32b9fb2cf,TEZ-1521,Sub-task,VertexDataMovementEventsGeneratedEvent may be logged twice in recovery log ,None,Critical
+dbf36fb777054fdbff290356ec5488694d77d774,TEZ-1560,Bug,Invalid state machine handling for V_SOURCE_VERTEX_RECOVERED in recovery,None,Critical
+e3b5cd54d8cdd6f141c312328be25e1edc2a3e57,TEZ-2348,Bug,EOF exception during UnorderedKVReader.next(),None,Major
+8b14a12d97e3394dc4e62ca43d52cd0a1347f5a8,TEZ-2303,Bug,ConcurrentModificationException while processing recovery,None,Major
+eaa2ba8c6ab3e060198c40a68d927744eb7921e4,TEZ-2334,Bug,ContainerManagementProtocolProxy modifies IPC timeout conf without making a copy,None,Major
+1d2725b7982d9dec88580eeaf6c6ae38dbd44bd6,TEZ-2317,Bug,Event processing backlog can result in task failures for short tasks,None,Major
+fec1cf55c997ceb5002cccfa435668a38829eace,TEZ-2289,Bug,ATSHistoryLoggingService can generate ArrayOutOfBoundsException,None,Major
+78610f884adbe6548228657fa2eacd7fef23379a,TEZ-2257,Bug,NPEs in TaskReporter,None,Major
+cee2fe831223dba31d50c481eafffc56379a4c0f,TEZ-2192,Bug,Relocalization does not check for source,None,Blocker
+9fad49c7a6d315c9ac8b17dcc3a9a4f20a15e468,TEZ-2224,Bug,EventQueue empty doesn&apos;t mean events are consumed in RecoveryService,None,Major
+1d4bff1a2c514783c2c7550bcd7aab662e4244ee,TEZ-2224,Bug,EventQueue empty doesn&apos;t mean events are consumed in RecoveryService,None,Major
+0abc8d8746ab129deea6791371282043cf5e9e9a,TEZ-2240,Bug,Fix toUpperCase/toLowerCase to use Locale.ENGLISH,None,Major
+a510f761fc5f237056dbc87481ab7f972c93a108,TEZ-2238,Bug,TestContainerReuse flaky,None,Major
+0249a4318a022b77d26167bdb1783b763be254f3,TEZ-2217,Bug,The min-held-containers being released prematurely,None,Major
+6123493b5278947db85218776e5c61dd21f429bf,TEZ-2214,Bug,FetcherOrderedGrouped can get stuck indefinitely when MergeManager misses memToDiskMerging,None,Major
+a95c2bbacd686d713c139099dee7ea391b0b4cf3,TEZ-1923,Bug,FetcherOrderedGrouped gets into infinite loop due to memory pressure,None,Major
+a111a21569cb2308f197fe825f9958ce531689e4,TEZ-2186,Bug,OOM with a simple scatter gather job with re-use,None,Major
+4bedbc014dcb73ee8853bc0a78eb43b7804741d3,TEZ-2220,Bug,TestTezJobs compile failure in branch 0.5,None,Major
+3852f11525d2f7237c571230c4d81e59e7f09af0,TEZ-2199,Bug,updateLocalResourcesForInputSplits assumes wrongly that split data is on same FS as the default FS,None,Major
+922b055999fb47e096ac857adebeca1aaea41665,TEZ-2193,Bug,Check returned value from EdgeManagerPlugin before using it,None,Major
+a559ec94e8222d4c1cb069c089318d5696c5650e,TEZ-2133,Bug,Secured Impersonation: Failed to delete tez scratch data dir,None,Major
+1fc22c2e338279d55523ba996a513139d6cd5501,TEZ-2009,Bug,Change license/copyright headers to 2015 ,None,Blocker
+0b76d70cf532d0b6c1ff11c6b0e6a527e8a5da7b,TEZ-2058,Bug,Flaky test: TestTezJobs::testInvalidQueueSubmission,None,Blocker
+45167a4cf67c5550f983172acb62c8e48ab1e090,TEZ-2037,Bug,Should log TaskAttemptFinishedEvent if taskattempt is recovered to KILLED,None,Major
+7c24cdf5184f5b8185a6f4df24577fbddab91582,TEZ-2071,Bug,TestAMRecovery should set test names for test DAGs,None,Major
+8f756802ee5cae449cf855884bf34ba50861c87d,TEZ-1928,Bug,Tez local mode hang in Pig tez local mode,None,Major
+d7c94da20c8737407a93a6eda8eea8e14d49ae30,TEZ-1893,Bug,Verify invalid -1 parallelism in DAG.verify(),None,Major
+a4411195024103b51e3366c5d67f61e23974e8f1,TEZ-900,Bug,Confusing message for incorrect queue for some tez examples,None,Major
+fe2163e0dc9544d0d5b053a7ec5bd5d417454e86,TEZ-2036,Bug,OneToOneEdgeManager should enforce that source and destination tasks have same number,None,Major
+c0b4b8a8225663e82a540f86c872a1623f11ebd0,TEZ-1895,Bug,Vertex reRunning should decrease successfulMembers of VertexGroupInfo,None,Major
+50b24c24961867ec14d92fb6531d03b471a2e4dc,TEZ-2015,Bug,VertexImpl.doneReconfiguringVertex() should check other criteria before sending notification,None,Major
+aea2edc7c1c7835a87cef0e614cd23a93fe04976,TEZ-2011,Bug,InputReadyVertexManager not resilient to updates in parallelism,None,Major
+119003effd4acfcba6f26397fddc8f4d8b0f4671,TEZ-1934,Bug,TestAMRecovery may fail due to the execution order is not determined ,None,Major
+25e41bc0f29f5e25adbfc17258b00ad702a17888,TEZ-1977,Task,Fixup CHANGES.txt with Tez UI jiras,None,Major
+b37dc9ac17848ed13b4750781a43f95c29f27515,TEZ-1977,Task,Fixup CHANGES.txt with Tez UI jiras,None,Major
+967c0b5a4a23e76018dc137b7c99021c8a45cccb,TEZ-1977,Task,Fixup CHANGES.txt with Tez UI jiras,None,Major
+ded614164298ba7f6843c1d897ea18a78563ca43,TEZ-2451,Bug,Tez 0.6.1 Release Changes,None,Major
+3eb8f60aaf0d0c247097c680982865a6b8bdcd4d,TEZ-2437,Bug,FilterLinesByWord NPEs when run in Localmode,None,Major
+d72cd949d52febc741f102d59413d6abe889df2b,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+ba9e3f96ed2ba16aa398f6ec7636e8fc50100b25,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+a9f107c4c5b1b1029793c66bd2ef222c52cef976,TEZ-2057,Bug,tez-dag/pom.xml contains versions for dependencies,None,Major
+2b8f0c144ef08fe6d873b02c0e5e06e0a9539ffb,TEZ-2282,Bug,Delimit reused yarn container logs (stderr  stdout  syslog) with task attempt start/stop events,None,Major
+711a14142318f674b281a5e0f2966787d2dd94fe,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+5d95d998c38a965adaa0c7810ecb57520ef9f110,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+12b6ed9a6cf579256c9fef1040c121027efa0be5,TEZ-2396,Bug,pig-tez-tfile-parser pom is hard coded to depend on 0.6.0-SNAPSHOT version,None,Major
+6702d928b7651049b8cec39f558e7891fafe769b,TEZ-2221,Bug,VertexGroup name should be unqiue,None,Major
+4b65376991ae7c64aab10e50848814d7cb848cd8,TEZ-2369,Bug,Add a few unit tests for RootInputInitializerManager,None,Major
+60dc76c8ff9a46f6bbf4578acfb23a5214cc35b3,TEZ-2379,Bug,org.apache.hadoop.yarn.state.InvalidStateTransitonException: Invalid event: T_ATTEMPT_KILLED at KILLED,None,Blocker
+a1f4a30ba1333ef8de722c501d7da6bc55d98560,TEZ-2397,Bug,Translation of LocalResources via Tez plan serialization can be lossy,None,Critical
+de8ef2ba945b593db66e4e25733c5cb53b217fda,TEZ-2399,Bug,Tez UI: add proper dependencies for computed properties,UI,Critical
+c85563ef54f9ffdbfac849157d4ff34f66148366,TEZ-1988,Bug,Tez UI: does not work when using file:// in a browser ,UI,Major
+a25a9272b06f33411c9d13ff741d985c96061bca,TEZ-2390,Bug,tez-tools swimlane tool fails to parse large jobs &gt;8K containers,None,Major
+2dd1cc14414ac92eca89f2ee9733d8ebf69cbd97,TEZ-2221,Bug,VertexGroup name should be unqiue,None,Major
+1d83ece47a2c83bf16579923613cf61652159135,TEZ-1521,Sub-task,VertexDataMovementEventsGeneratedEvent may be logged twice in recovery log ,None,Critical
+7fe2dc59253f2f362db899c51f29a1a3f9568173,TEZ-2348,Bug,EOF exception during UnorderedKVReader.next(),None,Major
+8fbd0ba842293713da27ca8fa39e2376398f9645,TEZ-2256,Improvement,Avoid use of BufferTooSmallException to signal end of buffer in UnorderedPartitionedKVWriter,None,Critical
+c5f57ccf67dc7fa499e5095a0bed1f4759d3aa33,TEZ-1560,Bug,Invalid state machine handling for V_SOURCE_VERTEX_RECOVERED in recovery,None,Critical
+0c690e39245fd79da51445edd1f292ace9fa6b99,TEZ-2380,Bug,Disable fall back to reading from timeline if timeline disabled ,None,Major
+a03e1c951782372857a2431c41bef570b3ac8e10,TEZ-2385,Bug,branch-0.6 compile failure caused by TEZ-2226,None,Critical
+ ,TEZ-2226,Sub-task,Disable writing history to timeline if domain creation fails.,None,Blocker
+a6bfc1ad3f03d09d7f9808ad1cb40b91c4cb4b80,TEZ-2226,Sub-task,Disable writing history to timeline if domain creation fails.,None,Blocker
+86c0e5c09d8ae3438cf87c90b044ff785beea480,TEZ-2303,Bug,ConcurrentModificationException while processing recovery,None,Major
+2dc2231cce4e80e39242d631985695fa8cd6883a,TEZ-2259,Bug,Push additional data to Timeline for Recovery for better consumption in UI,None,Major
+df42a68bbe441b87b8b3b91795f56cfd7f58d27e,TEZ-2365,Bug,Update tez-ui war&apos;s license/notice to reflect OFL license correctly ,None,Major
+26a8dcbd637b47aa372a531e329ad4aac4b27048,TEZ-1969,Sub-task,Stop the DAGAppMaster when a local mode client is stopped,None,Major
+e4e51858b2ddb47057e7478beb1010ebcec0109f,TEZ-2334,Bug,ContainerManagementProtocolProxy modifies IPC timeout conf without making a copy,None,Major
+3288225a8ef0807000a98dd087203852efbd4699,TEZ-2317,Bug,Event processing backlog can result in task failures for short tasks,None,Major
+51903629d8b36c494091a99822a73c443073bb82,TEZ-2329,Bug,UI Query on final dag status performance improvement,UI,Major
+72d1e4f98545269b8bff7ebecd5831c099b9da72,TEZ-2326,Bug,Update branch 0.6 version to 0.6.1-SNAPSHOT,None,Minor
+56365c80ef928f61204e21d1ae2bd52d301b985e,TEZ-2287,Bug,Deprecate VertexManagerPluginContext.getTaskContainer(),None,Blocker
+b0c29d0e0b573730f1544f1eec481564e8233ce2,TEZ-2289,Bug,ATSHistoryLoggingService can generate ArrayOutOfBoundsException,None,Major
+3b59666fb2b2b9f988c8d39c2bd9127c14519d5b,TEZ-1909,Sub-task,Remove need to copy over all events from attempt 1 to attempt 2 dir,None,Major
+282e63af187f59700191579d2328cae3b8d2fa9c,TEZ-2257,Bug,NPEs in TaskReporter,None,Major
+3965c7acca7952d0a13ca3172613fdb276887296,TEZ-2192,Bug,Relocalization does not check for source,None,Blocker
+366583aade76901f93e15e33111ad7586326ce1e,TEZ-2224,Bug,EventQueue empty doesn&apos;t mean events are consumed in RecoveryService,None,Major
+627d508305ed2bbeff9e9c5a4ec1e083a66a554c,TEZ-2224,Bug,EventQueue empty doesn&apos;t mean events are consumed in RecoveryService,None,Major
+974588e180ab53ea3e7243f2dea29a5d8ef2416d,TEZ-2240,Bug,Fix toUpperCase/toLowerCase to use Locale.ENGLISH,None,Major
+36a233fbb1baf529878728da930b87e5665e22c5,TEZ-2061,Bug,Tez UI: vertex id column and filter on tasks page should be changed to vertex name,UI,Major
+ff7883e062928e550568af151e5bd14a9de2cb92,TEZ-2242,Bug,Refactor ShuffleVertexManager code,None,Major
+05bfdbec51e2d488db2e55e1b1eedd890a99e11c,TEZ-2238,Bug,TestContainerReuse flaky,None,Major
+935b6888307419edfaa4ffa0cb77e888d581c7a6,TEZ-2205,Sub-task,Tez still tries to post to ATS when yarn.timeline-service.enabled=false,None,Major
+65f476ce083ed042532f10b0c38a3074f3be370a,TEZ-2217,Bug,The min-held-containers being released prematurely,None,Major
+66ca9655a4412e1c1db1d37e882a407706dbe3ad,TEZ-2214,Bug,FetcherOrderedGrouped can get stuck indefinitely when MergeManager misses memToDiskMerging,None,Major
+582e438e3abb92fc6403d7571afa78c56c8d5131,TEZ-2047,Bug,Build fails against hadoop-2.2 post TEZ-2018,None,Blocker
+ ,TEZ-2018,New Feature,App Tracking and History URL should point to the Tez UI,UI,Critical
+dfb78f2eb31f6a3bb7620be2db6f21a2e636f764,TEZ-1923,Bug,FetcherOrderedGrouped gets into infinite loop due to memory pressure,None,Major
+e36ff2d2090a68066c16e287bd969fb00288d0ba,TEZ-2186,Bug,OOM with a simple scatter gather job with re-use,None,Major
+7733923fef39689eb197b2af86681cd716f60ef4,TEZ-2064,Bug,SessionNotRunning Exception not thrown is all cases,None,Critical
+4e2aa2acca5972af07a671a43755c8fe599bb0fc,TEZ-2199,Bug,updateLocalResourcesForInputSplits assumes wrongly that split data is on same FS as the default FS,None,Major
+0dde9325e5e5e9361690b865ee05794bc835d3cb,TEZ-2189,Bug,Tez UI live AM tracking url only works for localhost addresses,UI,Major
+b649dda68e5e5982276c59bf8df405018d5f6853,TEZ-2179,Bug,Timeline relatedentries missing cause exaggerated warning,None,Major
+559099ea6144e933f7a386a356e351d680dd8408,TEZ-2168,Bug,Fix application dependencies on mutually exclusive artifacts: tez-yarn-timeline-history and tez-yarn-timeline-history-with-acls,None,Major
+3629dbe86583b3e2738652949b9050b83c42606e,TEZ-2168,Bug,Fix application dependencies on mutually exclusive artifacts: tez-yarn-timeline-history and tez-yarn-timeline-history-with-acls,None,Major
+200b42b7da3cffdeb0ef2d426981a8a34e0b1007,TEZ-2190,Bug,TestOrderedWordCount fails when generateSplitsInClient set to true,None,Major
+b68e698fa4eb2bb377c0a61d1102b0abbec2f3d4,TEZ-2091,Improvement,Add support for hosting TEZ_UI with nodejs,UI,Major
+ec50a152a4a9bd980a21b6fd416afb3854cdde8c,TEZ-1661,Bug,LocalTaskScheduler hangs when shutdown,None,Major
+7a92c581f21d82f1bcb4cb5d7697b1db8fea0ea8,TEZ-2165,Bug,Tez UI: DAG shows running status if killed by RM in some cases.,UI,Major
+6e540e918a01ee332500a207eb8614e870ed18dc,TEZ-2158,Bug,TEZ UI: Display dag/vertex names  and task/attempt index in breadcrumb,None,Major
+3dfd555190bcfc276b43964aa4cc09a13092ed86,TEZ-2160,Bug,Tez UI: App tracking URL should support navigation back,UI,Major
+546f87697f4b98ec119f93fa154632dbe608d10a,TEZ-2147,Bug,Swimlanes: Improved tooltip,UI,Major
+163d8049d9b9107257b1aed707ffe195a41e6dbd,TEZ-2133,Bug,Secured Impersonation: Failed to delete tez scratch data dir,None,Major
+ff469b491dec5a1011e79d8d4f5104ee0e9044f5,TEZ-2142,Bug,TEZ UI: Breadcrumb border color looks out of place in wrapped mode.,None,Major
+280d005298298e4cda7e52eac9f61830eb27906c,TEZ-2134,Bug,TEZ UI: On request failure  display request URL and server name in error bar.,None,Major
+295aadaf5f6ebf3d45b6bdc9ef3e9ad6aaeac63a,TEZ-2136,Bug,Some enhancements to the new Tez UI,UI,Major
+93313451294366a7b1d9b98188be943b3fa5d1c5,TEZ-2135,Bug,ACL checks handled incorrectly in AMWebController ,None,Major
+e5e2e3d8189f7bde01c517dc9fc1495596e25614,TEZ-1990,Bug,Tez UI: DAG details page shows Nan for end time when a DAG is running,None,Trivial
+169639a343dc49ee8ea686fc2ccfd3c0aa5a31f3,TEZ-2009,Bug,Change license/copyright headers to 2015 ,None,Blocker
+fa23b096ac4a0577578da1da7aa82f33e617c0f8,TEZ-2058,Bug,Flaky test: TestTezJobs::testInvalidQueueSubmission,None,Blocker
+32632b460087904d384c46a25762b755312a156d,TEZ-2116,Bug,Tez UI: dags page filter does not work if more than one filter is specified.,UI,Major
+7de84bb4f5c7b60539307182f9611a5486c9dbad,TEZ-2106,Bug,TEZ UI: Display data load time  and add a refresh button for items that can be refreshed,None,Major
+79f3b36849995977f81355e492bf3dd778656292,TEZ-2114,Bug,Tez UI: task/task attempt status is not available when its running,UI,Major
+19723e5f093748294e47dd4716b0b19ae93ae731,TEZ-2112,Bug,Tez UI: fix offset calculation  add home button to breadcrumbs,None,Major
+0cf5eb2929f70f4f5370f05cd08a2b422f7292b9,TEZ-2038,Bug,TEZ-UI DAG is always running in tez-ui when the app is failed but no DAGFinishedEvent is logged,UI,Major
+ ,/,/,2038. TEZ-UI DAG is always running in tez-ui when the app is failed but no DAGFinishedEvent is logged (Prakash Ramachandran via zjffdu),/,/
+6bcfda8def168b68fbd5f8ce95608dc34ff3976e,TEZ-2102,Bug,Tez UI: DAG view has hidden edges  dragging DAG by holding vertex causes unintended click,None,Major
+84e1b8e847fc1ff9d2a897db2265319d94568214,TEZ-2101,Bug,Tez UI: Issues on displaying a table,UI,Major
+7bcc3482a77d89a1d2b000f2993497e431be15ec,TEZ-2092,Bug,Tez UI history url handler injects spurious trailing slash,None,Major
+d26b8b2f2ffe99baa87ae49146989a959e7791f7,TEZ-2098,Bug,Tez UI: Dag details should be the default page for dag  fix invalid time entries for failed Vertices,UI,Major
+dc2c8dca9effba8a1cf58760c08435f4f6f30535,TEZ-2037,Bug,Should log TaskAttemptFinishedEvent if taskattempt is recovered to KILLED,None,Major
+78cd5222f7e5a9e865f5736a7d6153c7a9fc5523,TEZ-2031,Bug,Tez UI: horizontal scrollbars do not appear in tables  causing them to look truncated,UI,Major
+3f81c87152d4bca08605fc71d559931d025f7f3c,TEZ-2073,Bug,SimpleHistoryLoggingService cannot be read by log aggregation (umask),None,Major
+0019ddc02015962c51bbe9eeaee1a62641397307,TEZ-2071,Bug,TestAMRecovery should set test names for test DAGs,None,Major
+2f899a87fdea8141e10758ff0d40d732711dd4d7,TEZ-2073,Bug,SimpleHistoryLoggingService cannot be read by log aggregation (umask),None,Major
+9870212f7076d65d0421369a7bb16b7dc0709ac7,TEZ-2068,Bug,Tez UI: Dag view should use full window height  disable webuiservice in localmode,None,Major
+94d00d4839bbbb43c034ffb0197742d6cc189454,TEZ-2078,Bug,Tez UI: Task logs url use in-progress url causing various errors ,UI,Major
+5739a0fa7f1d7ae1dee423a5f00227828d1019c4,TEZ-2077,Bug,Tez UI: No diagnostics on Task Attempt Details page if task attempt failed,UI,Major
+c1352335c2df1f9f97697b776b36c354a7f2a6db,TEZ-2065,Bug,Setting up tez.tez-ui.history-url.base with a trailing slash can result in failures to redirect correctly ,UI,Major
+728bcd1c4ed3770b9b8c83084b313a5dd73c8975,TEZ-2068,Bug,Tez UI: Dag view should use full window height  disable webuiservice in localmode,None,Major
+3eb60124b1269d0b32f783e07a2ed43e97b275e3,TEZ-2079,Bug,Tez UI: trailing slash in timelineBaseUrl in ui should be handled,UI,Major
+e8610693f73454d0fc2deecb16f9026cc86cb43d,TEZ-2069,Bug,Tez UI: appId should link to application in dag details view,UI,Major
+f661803cccca222a1bdbba981749d9eb8c3d5a41,TEZ-2063,Bug,Tez UI: Flaky log url in tasks table,UI,Major
+5c9a37565fff723ae3de9da5cb77a466eb6f390b,TEZ-2062,Bug,Tez UI: Showing 50 elements not working properly,None,Major
+2b4ef1d92b621930f2295015ee7d793cf077a557,TEZ-1928,Bug,Tez local mode hang in Pig tez local mode,None,Major
+cc93065027dde291657771171f78dbeddf59e215,TEZ-1893,Bug,Verify invalid -1 parallelism in DAG.verify(),None,Major
+e69d56b76b85bbf11f4622c41eb1387dd9be66b4,TEZ-2056,Bug,Tez UI: fix VertexID filter show only tez configs by default fix appattemptid,None,Major
+1b3620ecc19c4962d114c3e67327637ee4cb5002,TEZ-900,Bug,Confusing message for incorrect queue for some tez examples,None,Major
+3e62ca65e99b1abde8f473f0f6d9140dd0abe9c9,TEZ-2052,Bug,Tez UI: log view fixes  show version from build  better handling of ats url config,None,Major
+646bf9eb0ed45207575266a28b90518de87924c5,TEZ-2043,Improvement,Tez UI: add progress info from am webservice to dag and vertex views,UI,Major
+a7be039811193d8219f763f22d1b8dc17d246d64,TEZ-1895,Bug,Vertex reRunning should decrease successfulMembers of VertexGroupInfo,None,Major
+4ca0bd584c3dd5f2628bf9d1c726f0b1848b6e36,TEZ-2032,Bug,Update CHANGES.txt to show 0.6.0 is released,None,Major
+e0d3599ce1499e85aebdf0163a2940964c830a4a,TEZ-2018,New Feature,App Tracking and History URL should point to the Tez UI,UI,Critical
+87a99d022b20d4cc4243c67e89e3b2f508bf673a,TEZ-2035,Improvement,Make timeline server putDomain exceptions non-fatal - work-around,None,Major
+83b5c70145e77bd5b3b5450477b3796d627369cb,TEZ-2020,Bug,For 1-1 edge vertex configured event may be sent incorrectly,None,Major
+fbd240f4e08cd47f842a2dd98106835ff5f1954d,TEZ-2015,Bug,VertexImpl.doneReconfiguringVertex() should check other criteria before sending notification,None,Major
+8cdd988b2549f0aec243a40d3bf7b78b2c9fb4e1,TEZ-2011,Bug,InputReadyVertexManager not resilient to updates in parallelism,None,Major
+68c518bd7638f34897bd01cc66bdb2c4cfe57ffc,TEZ-2017,Bug,TEZ UI - Dag view throwing error whild re-displaying additionals in some dags,None,Critical
+d1f331e30c87f3b4b6e6c827d8a8965f4f3ee35d,TEZ-2013,Bug,TEZ UI - App Details Page UI Nits,None,Critical
+df78a51861092d10dd064fb7c35596f0f1bc619f,TEZ-2014,Bug,TezUI - Nits : All tables  Vertices Page UI,None,Critical
+239aa1dae0d700649d2da30037dd556a7a136f52,TEZ-2012,Bug,TEZ UI - Show page number in all tables  and display more readable task/attempt ids,None,Critical
+a54a3826f1fa335deb0e30fb87f60e8861215720,TEZ-1973,Bug,Dag View,None,Major
+41994a102d30713f5dc12b14c7b3424c06dc6279,TEZ-2010,Bug,History payload generated from conf has ${var} placeholders ,None,Minor
+ef77ff06afb1e8b1feb480129caaa4b0af311163,TEZ-2010,Bug,History payload generated from conf has ${var} placeholders ,None,Minor
+20689e8afc52d5b15d66e05215afff36a745d208,TEZ-1946,Task,Tez UI: add source &amp; sink views  add counters to vertices/all task views,None,Major
+1d561799d325ed99f7dee15f38485f236ad4569b,TEZ-1987,Bug,non-standalone mode protocol correction + Row count selector in all tables + Format numbers displayed + Prettifications,None,Trivial
+c206223647de57abc1cf3a69c5b0e38a6a634b19,TEZ-1642,Bug,TestAMRecovery sometimes fail,None,Major
+ ,TEZ-1934,Bug,TestAMRecovery may fail due to the execution order is not determined ,None,Major
+b14e639a650f6c57e8ad3bc99d6c9dee9626b0cf,TEZ-1983,Bug,Tez UI swimlane task attempt link is broken,None,Major
+acb87114976e7fff8bc4b1f6a09c476d08ec067b,/,/,    Adding 0.6.1 Release,/,/
+25e41bc0f29f5e25adbfc17258b00ad702a17888,TEZ-1977,Task,Fixup CHANGES.txt with Tez UI jiras,None,Major
+7d69a6ea976804b5b4e476483be02a74ee16dd94,TEZ-1977,Task,Fixup CHANGES.txt with Tez UI jiras,None,Major
+b37dc9ac17848ed13b4750781a43f95c29f27515,TEZ-1977,Task,Fixup CHANGES.txt with Tez UI jiras,None,Major
+967c0b5a4a23e76018dc137b7c99021c8a45cccb,TEZ-1977,Task,Fixup CHANGES.txt with Tez UI jiras,None,Major
+9361cc03035f838e90b46e886bbcb00f1bab85fd,TEZ-1977,Task,Fixup CHANGES.txt with Tez UI jiras,None,Major
+83e5307dbf5c7417e5b9f8da24c56c6b060ac48f,TEZ-1977,Task,Fixup CHANGES.txt with Tez UI jiras,None,Major
+c04283bf91fd96823eec37056d5c8b1a92728265,TEZ-2685,Bug,Tez 0.6.2 Release,None,Major
+abf49328b5535330608f539c9dd74d331c691035,TEZ-2635,Bug,Limit number of attempts being downloaded in unordered fetch,None,Major
+68f17cf755e3d6d6f20901689e8e5f0d1303be24,TEZ-2311,Bug,AM can hang if kill received while recovering from previous attempt,None,Major
+8cbaa40c52b390d2c06c4449a058ebf7d95a9755,/,/,    Updating CHANGES.txt (rbalamohan),/,/
+b2b6fa7a148ef7cc3a2e0451e6d08a1669ae11c3,TEZ-2552,Bug,CRC errors can cause job to run for very long time in large jobs,None,Major
+aa26fd7974d6dd71f8f7b1cbd5a2043ebd762527,TEZ-2636,Bug,MRInput and MultiMRInput should work for cases when there are 0 physical inputs,None,Major
+6b39a4e2490294cfb026f85ed3bced25a6fb0292,TEZ-2623,Bug,Fix module dependencies related to hadoop-auth,None,Major
+9355ceaa6cc45d42653c4d4bd38a868bc4c84d9c,TEZ-2560,Bug,fix tex-ui build for maven 3.3+,None,Major
+cacae67a910a4957d982981e72a0d71a6f57dc56,TEZ-2600,Bug,When used with HDFS federation(viewfs)  tez will throw a error,None,Major
+4e669df16c894f4c265c3195a8f7643b0b91e43f,TEZ-2579,Bug,Incorrect comparison of TaskAttemptId,None,Major
+dc0d10bb796cd9c27673a2fd6a00d1034e801664,TEZ-2578,Task,Release 0.5.4 ,None,Minor
+87c1f06d420e743d4a253f9c9101cfebd437c54d,TEZ-2561,Improvement,Port for TaskAttemptListenerImpTezDag should be configurable,None,Major
+1c9c7f6e4c41d77976726e9f84330008eb39c63d,TEZ-2549,Sub-task,Reduce Counter Load on the Timeline Server,None,Major
+449a53cb1b5137273d5e98d7041b5ab9dfdc5e8d,TEZ-2566,Bug,Allow TaskAttemptFinishedEvent without TaskAttemptStartedEvent when it is KILLED/FAILED,None,Major
+6ece4d4bd4a9d34303bb143beeb82b806a6d750f,TEZ-2475,Bug,Tez local mode hanging in big testsuite,None,Major
+caab9058a25afebfced4f6c9536d4f36fb28f2c0,TEZ-2475,Bug,Tez local mode hanging in big testsuite,None,Major
+36579fa218cc13e603c16faec11b0b4b39867c2e,TEZ-2548,Bug,TezClient submitDAG can hang if the AM is in the process of shutting down,None,Major
+a82da8ad4f7ff7a3379c800865f72936f6b3847b,TEZ-2534,Bug,Error handling summary event when shutting down AM,None,Major
+b7cc8e8d6e5bfdebc9e11589ee7fd543615526ea,TEZ-2511,Sub-task,Add exitCode to diagnostics when container fails,None,Major
+23d3cacf72f040b1c2fb69522f45fcf92d49ba1b,TEZ-2511,Sub-task,Add exitCode to diagnostics when container fails,None,Major
+9538b0ff47da68f7c75a78411a932107c15dad0c,TEZ-2533,Bug,AM deadlock when shutdown,None,Major
+557a5118cf5c6b91cf58a321ff435036a711aef5,TEZ-2537,Bug,mapreduce.map.env and mapreduce.reduce.env need to fall back to mapred.child.env for compatibility,None,Major
+21d208f17305e6eaff14fa3856d5b925f3975669,TEZ-2489,Bug,Disable warn log for Timeline ACL error when tez.allow.disabled.timeline-domains set to true ,None,Major
+4f9506c1a56d50fdad63137488ed87d9bf50619e,TEZ-2304,Bug,InvalidStateTransitonException TA_SCHEDULE at START_WAIT during recovery,None,Major
+41d153a1250ecca2a54f9525939833603bd0ba83,TEZ-2509,Bug,YarnTaskSchedulerService should not try to allocate containers if AM is shutting down,None,Major
+a1aaa9de07d027560c7af294080e714174fdb2ae,TEZ-2483,Bug,Tez should close task if processor fail,None,Major
+493942d293eb5b4baa29b7dc2db9db2f6a96af2e,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+c1d334b4dc1766e83658dafffc58e33c2b8e731d,TEZ-2080,Bug,Localclient should be using tezconf in init instead of yarnconf,None,Major
+e52effbc0a83c5fa41eace8e770a4a59f70f2516,/,/,    Update version to 0.8.0-alpha  and update CHANGES.txt to fix release,/,/
+6098f1bb9cb8b03a0340ec6edc244a1f1e022440,TEZ-2749,Task,TaskInfo in history parser should not depend on the apache directory project,None,Major
+de751ec3da9d29fafefa78039450cfffc4fd4d80,TEZ-2748,Task,Fix master build against hadoop-2.2,None,Major
+9a3d8898bf8fbfe90776e6c2d1591d05cca7c47b,TEZ-2565,Improvement,Consider scanning unfinished tasks in VertexImpl::constructStatistics to reduce merge overhead,None,Major
+601fa0156a038d433c9ae03e87e463d5715c6fa4,TEZ-2747,Task,Update master to reflect 0.8.0-alpha release,None,Major
+eb70cb7b70c96353fe2d1f4edb0867ecd00a1b2f,TEZ-2743,Bug,TezContainerLauncher logging tokens,None,Major
+dc0ee0115cef3d0ad6ea64c3f93042a081d66472,TEZ-2731,Sub-task,Fix Tez GenericCounter performance bottleneck,None,Major
+a0c0727dda85841417326c319a1bc29fd22c88ab,TEZ-2740,Bug,Create a reconfigureVertex alias for deprecated setVertexParallelism API,None,Blocker
+2e62e98ec071a8fa3d41cad2c1aca04e3a26f22d,TEZ-2736,Sub-task,Pre-merge: Update CHANGES.txt and version in branch,None,Major
+e51bcbc3049247f598991533c38e181a7e2d84a4,TEZ-2735,Sub-task,rebase 08/21,None,Major
+9086d455955b711717a79d59e21119271e491a23,TEZ-2670,Sub-task,Remove TaskAttempt holder used within TezTaskCommunicator,None,Major
+a68917741446bd6fe56b57d0860b71fdc110eb8f,TEZ-2727,Sub-task,Fix findbugs warnings,None,Major
+fbf1fcc2fcc439a640fc2c5ae9f37f807808a3e9,TEZ-2714,Sub-task,Fix comments from review - part 3,None,Major
+2ef4626d3b3dfeeb47120f8db8f2809e04e440a0,TEZ-2721,Sub-task,rebase 08/14,None,Major
+74ccd2df417045d5adcf0aae7eff31064560d35e,TEZ-2713,Sub-task,Add tests for node handling when there&apos;s multiple schedulers,None,Major
+4ccdf9362029b2fa21bf91719fd93d40e2b3465f,TEZ-2713,Sub-task,Add tests for node handling when there&apos;s multiple schedulers,None,Major
+c03a6ff5fc9193909d1087817bdda47a9df7ae47,TEZ-2707,Sub-task,Fix comments from reviews - part 2,None,Major
+2ecffa7150da2350bd6d2c8cd9fa3f97bccaf373,TEZ-2678,Sub-task,Fix comments from reviews - part 1,None,Major
+80cd3fe9832006c8e11d1509b722fb85b4469798,TEZ-2703,Sub-task,TEZ-2003 build fails,None,Major
+ ,TEZ-2003,Improvement,[Umbrella] Allow Tez to co-ordinate execution to external services,None,Major
+fda065536bfb9c7435fe88300ca617ed642a55cf,TEZ-2675,Sub-task,Add javadocs for new pluggable components  fix problems reported by jenkins,None,Major
+5ce54b82db20f0eda26841cd8755523029857c93,TEZ-2698,Sub-task,rebase 08/05,None,Major
+7ef9dda732f124a234cbe8a665deb08c065f628f,TEZ-2126,Sub-task,Add unit tests for verifying multiple schedulers  launchers  communicators,None,Major
+60eb5f594c0a2e2ef7eea25fa7d637b58b779b07,TEZ-2626,Sub-task,Fix log lines with DEBUG in messages  consolidate TEZ-2003 TODOs,None,Major
+ ,TEZ-2003,Improvement,[Umbrella] Allow Tez to co-ordinate execution to external services,None,Major
+9ee4d5dbc96cdf4982fc3633766cb1acf5e581dd,TEZ-2441,Sub-task,Add tests for TezTaskRunner2,None,Major
+ec5acd8a6243db277b4145228f34917811984cc6,TEZ-2652,Sub-task,Cleanup the way services are specified for an AM and vertices,None,Major
+25a6a131b95fdeb1b8cdd04f91820ca114531806,TEZ-2651,Sub-task,Pluggable services should not extend AbstractService,None,Major
+9e9475752f17c0311de2f2bdc0c50d4a144d3a73,TEZ-2621,Sub-task,rebase 07/14,None,Major
+c716a9f3a4697b30df36bc010af3234dc8c5c2b5,TEZ-2526,Sub-task,TEZ-2003 build is broken,None,Major
+fe9b690ffb75dc0f987549b73d45b9eb6e9f16c7,TEZ-2508,Sub-task,rebase 06/01,None,Major
+5846b8de7c224f771ce335622615aadaeb2376d5,TEZ-2502,Sub-task,TezTaskRunner2 not killing tasks properly in all situations,None,Major
+495ec386f38c86fa073f86908740dcd384d74885,TEZ-2495,Sub-task,Inform TaskCommunicaor about Task and Container termination reasons,None,Major
+971e0957a1302e20fe241b4aeac278dc87111257,TEZ-2471,Sub-task,NPE in LogicalIOProcessorRuntimeTask while printing thread info,None,Major
+9e6bd7c8025c63cd919b94cf7a99137f2fc253b6,TEZ-2465,Sub-task,Retrun the status of a kill request in TaskRunner2,None,Major
+3d795d62c0d471ff866adb9002e8c6fe6ea9536a,TEZ-2443,Sub-task,TaskRunner2 should call abort  NPEs while cleaning up tasks,None,Major
+7cf416ae8cb19757e42530d42a7ccc3532d2f927,TEZ-2434,Sub-task,Allow tasks to be killed,None,Major
+09f3d9366f20075032e1a0be6f62fde2b6caa1ae,TEZ-2438,Sub-task,tez-tools version in the branch is incorrect,None,Major
+4bb342115a5af2c28d5ad99245e861e7f62c4298,TEZ-2433,Sub-task,rebase 05/08,None,Major
+df91ad5832ae0345a80d2ec16bfc9d114805117e,TEZ-2420,Sub-task,TaskRunner returning before executing the task,None,Blocker
+6dabd8e992c1ace91b3612d39426f3fbd2d8fe2f,TEZ-2414,Sub-task,LogicalIOProcessorRuntimeTask  RuntimeTask  TezTaskRunner should handle interrupts &amp; carry out necessary cleanups,None,Major
+8ba7e44c2db4fc6a8fa9c58e314d055fc8a63b2e,TEZ-2388,Sub-task,Send dag identifier as part of the fetcher request string,None,Major
+96e48c50fb2b7f12a37a09430e557409ee9ba308,TEZ-2381,Sub-task,Fixes after rebase 04/28,None,Major
+b1b0a1324ad2bb93b1d937df4aefb455596fbc54,TEZ-2361,Sub-task,Propagate dag completion to TaskCommunicator,None,Major
+f5c1f47dfec8d4e432c6970fd3267dd13ade8b03,TEZ-2347,Sub-task,Expose additional information in TaskCommunicatorContext,None,Major
+f0c8845cb687d6b0af22b5800ca1e8947a34fac9,TEZ-2302,Sub-task,Allow TaskCommunicators to subscribe for Vertex updates,None,Major
+952980a1a2c7ee83d85de336d7d64d5f7114f864,TEZ-2285,Sub-task,Allow TaskCommunicators to indicate task/container liveness,None,Major
+bedadc7b4074c8241faf5377515ad284417f15f9,TEZ-2284,Sub-task,Separate TaskReporter into an interface,None,Major
+35aaa5a1441eaef9bfc32a51b89f989d8e285d99,TEZ-2283,Sub-task,Fixes after rebase 04/07,None,Major
+d376dd3e31c4504e420ddf650b30adbb6862c9b4,TEZ-2241,Sub-task,Miscellaneous fixes after last reabse,None,Major
+f0bd91b000c3d4617c35bdd301698cbdcf450f93,TEZ-2175,Sub-task,Task priority should be available to the TaskCommunicator plugin,None,Major
+a0c0ba19892285981b1842f99c4b4d2fa432cd39,TEZ-2139,Sub-task,Change version in branch TEZ-2003,None,Major
+ ,TEZ-2003,Improvement,[Umbrella] Allow Tez to co-ordinate execution to external services,None,Major
+a9429a1d3bc52bd886e1d781a71ac084d0fd115c,TEZ-2138,Sub-task,Fix minor bugs in adding default scheduler  getting launchers,None,Major
+486f47f3c6cbcecd5a2b2704c20b708cee39c280,TEZ-2131,Sub-task,Add additional tests for tasks running in the AM,None,Major
+9d67c598a94639af6806c6ce9509ba43fe40c43d,TEZ-2125,Sub-task,Create a task communicator for local mode. Allow tasks to run in the AM,None,Major
+3d62a3691fa26cef0867ce7a2c567716faf70a3e,TEZ-2123,Sub-task,Fix component managers to use pluggable components,None,Major
+028038dcfba6bf5242cc84ab8c69482853b3c4c9,TEZ-2122,Sub-task,Setup pluggable components at AM/Vertex level,None,Major
+bf09bd9502469797a926b495cfd47f2c10d49b47,TEZ-2117,Sub-task,Add a manager for ContainerLaunchers running in the AM,None,Major
+0d87102e4bdb9f50425d295d396825a5fbd37dd0,TEZ-2006,Sub-task,Task communication plane needs to be pluggable,None,Major
+9d118e54e527245817222e917964801a17a6f2c1,/,/,    Updating CHANGES.txt (rbalamohan),/,/
+5c6d22b04d6301fa971cf0c821ad95b319cd1e46,/,/,    Updating CHANGES.txt (rbalamohan),/,/
+c17d4a0a441477caed06d61d2ebe868946ff71a6,TEZ-2734,Task,Add a test to verify the filename generated by OnDiskMerge,None,Major
+f9942ccf677b5f6a6e25a83abc10550ab19ee897,/,/,    Updating CHANGES.txt (rbalamohan),/,/
+2e621ed5067780bb5093851afddfbd571d813fa3,TEZ-2732,Bug,DefaultSorter throws ArrayIndex exceptions on 2047 Mb size sort buffers,None,Major
+663ead2dc5f3778bbdeb0f479811e2d89f506afc,TEZ-2687,Bug,ATS History shutdown happens before the min-held containers are released,None,Major
+9bb01e4f844503f5c125fbf5b633f4149d87835d,/,/,    Fix Release date for 0.6.2 release,/,/
+24ca1de0e12da3f9d165f1eda44c7076de0f2f12,TEZ-2730,Bug,tez-api missing dependency on org.codehaus.jettison for json ,None,Major
+6cb82062d6728120844b6856af139fd49c3a2ddb,TEZ-2719,Improvement,Consider reducing logs in unordered fetcher with shared-fetch option,None,Major
+6b67b0bc1eb010f6dc8af2936ae738909e1244ff,TEZ-2701,Sub-task,Add time at which container was allocated to attempt,None,Major
+b8e8bcbd04dad4ca04a0385b79d05d0b36412886,TEZ-2540,Bug,Create both tez-dist minimal and minimal.tar.gz formats as part of build,None,Major
+0bb3445c85a24ae4d371c82c379137107df298cc,TEZ-2685,Bug,Tez 0.6.2 Release,None,Major
+c1c6d3eb61739e5d7d87cfda0fea999de174865d,TEZ-2685,Bug,Tez 0.6.2 Release,None,Major
+ebb96d5e5679f1cc4fce470dfec7025f8e138e0a,TEZ-2685,Bug,Tez 0.6.2 Release,None,Major
+c0aec00daf59331a3931b4a8b1ff7888c19c0da1,TEZ-2683,Bug,TestHttpConnection::testAsyncHttpConnectionInterrupt fails in certain environments,None,Major
+eadbfec4456b5edc318a5c94f90a2a78e172ebf4,TEZ-2699,Bug,Internalize strings in ATF parser,None,Major
+28cd991b86c0e216e80f9246d8c0bddaa5b0f97c,TEZ-2663,Bug,SessionNotRunning exceptions are wrapped in a ServiceException from a dying AM,None,Major
+edddea808fd5d62d964b5f2770404a3ba34b70b1,/,/,    Updating CHANGES.txt (rbalamohan),/,/
+1854cbf916d85890c0d222381a6cb76684fba689,TEZ-2552,Bug,CRC errors can cause job to run for very long time in large jobs,None,Major
+ ,TEZ-2630,Bug,TezChild receives IP address instead of FQDN ,None,Critical
+5ef86035bb812330a542b5be5e1695939cdcb66b,TEZ-2630,Bug,TezChild receives IP address instead of FQDN ,None,Critical
+6970fb01bc7bd8a838dc55c5e38cbad41b1c3140,TEZ-2650,Sub-task,Timing details on Vertex state changes,None,Major
+7b45e9a142830e7dd8b0263d50dbaaef5fb0da76,TEZ-2633,Task,Allow VertexManagerPlugins to receive and report based on attempts instead of tasks,None,Major
+cc1d89cba984a9c43e6a966b2c822355b6c85c07,TEZ-2684,Bug,ShuffleVertexManager.parsePartitionStats throws IllegalStateException: Stats should be initialized,None,Major
+1864e4b2315e43542d89cddda1a2ac6adff96f2d,TEZ-2211,Improvement,Tez UI: Allow users to configure timezone,UI,Major
+6a99798f250310f8bd819aae89123e6146364983,TEZ-2647,Sub-task,Add input causality dependency for attempts,None,Major
+73da831e8e5acab5e2e044c74a29384bcda4cbc6,TEZ-2172,Improvement,FetcherOrderedGrouped using List to store InputAttemptIdentifier can lead to some inefficiency during remove() operation,None,Major
+4d381d778f82d8d17ea9f718bbac3938ce4cc40d,TEZ-2646,Sub-task,Add scheduling casual dependency for attempts,None,Major
+f37699f1aeb18e4047d6278162db03bae088632e,/,/,    Updating CHANGES.txt,/,/
+3347c94f863867aab241db34aafa502dc6a1ff1b,TEZ-2635,Bug,Limit number of attempts being downloaded in unordered fetch,None,Major
+a33a62591eff6d1453e00f5f983f67d35817a6b7,/,/,    Updating CHANGES.txt (rbalamohan),/,/
+df87125e166675382e7da7a24c18730351c423a3,TEZ-2636,Bug,MRInput and MultiMRInput should work for cases when there are 0 physical inputs,None,Major
+5de0cd3a42e43d9f2ca752b8e51f253c60920ccb,TEZ-2645,Improvement,Provide standard analyzers for job analysis,None,Major
+73ce1d0e3dec284f15d3a61c4569813cf5ded3cd,TEZ-2613,Improvement,Fetcher(unordered) using List to store InputAttemptIdentifier can lead to some inefficiency during remove() operation,None,Major
+cf400882bdc2247f3cf923d571c0863c6a556dd1,TEZ-2627,Improvement,Support for Tez Job Priorities,None,Major
+b04676932f1d05634d7b6e5c20175129dfd08266,TEZ-2623,Bug,Fix module dependencies related to hadoop-auth,None,Major
+424f2e88d4e39b2a091f5efe3512779e11aa53fa,TEZ-2464,Task,Move older releases to dist archive ,None,Major
+57c0d2f36ea1eefafd6c2d649165a0532e28c3fc,TEZ-2464,Task,Move older releases to dist archive ,None,Major
+c4dbeeab3fc20ccd75367013f2bbffc2fec7f3a3,TEZ-2239,Bug,Update Tez UI docs to explain how to configure history url for YARN,None,Critical
+b9d5c2056c1026903a30c35a67e5b16aa1b5bb2b,TEZ-2560,Bug,fix tex-ui build for maven 3.3+,None,Major
+19fb440041cf6debe7f7a1e1d1f9f0f914a5671a,TEZ-2602,Bug,Throwing EOFException when launching MR job,None,Major
+5dd94ee0ca27eb62fc32aa746c28c28e1d384aaa,TEZ-2632,Bug,A -Paws and -Pazure build profiles for hadoop-{aws azure} inclusion,None,Major
+c7ada820b46c191d4edcf900ecdc0b4cb3e1a944,TEZ-2623,Bug,Fix module dependencies related to hadoop-auth,None,Major
+a00ff88b01ce86ac0370b421bde450bdfb465d96,TEZ-2623,Bug,Fix module dependencies related to hadoop-auth,None,Major
+9b1d507df7b2427c310908aff340818e3f684973,TEZ-2496,Improvement,Consider scheduling tasks in ShuffleVertexManager based on the partition sizes from the source,None,Major
+fa2b8c437e7cf1b8801b511828663093a3654a78,TEZ-2496,Improvement,Consider scheduling tasks in ShuffleVertexManager based on the partition sizes from the source,None,Major
+be5b1912644efda7b198ce1646b4378c58ddf992,TEZ-2610,Bug,Swimlane for DAGs that use containers from previous DAGs,UI,Major
+8c0725775983b34acff3a071a90700de4d014638,TEZ-2600,Bug,When used with HDFS federation(viewfs)  tez will throw a error,None,Major
+0804088f0f48f174d366003a090ea11cd0b38500,TEZ-2616,Bug,Fix build warning by undefined version of maven-findbugs-plugin,None,Major
+fd522cedefbe7d51c7a6a44947d001659e50e293,TEZ-2616,Bug,Fix build warning by undefined version of maven-findbugs-plugin,None,Major
+cb598513eff75edb1915e58418aae61c7d04589b,TEZ-2588,Improvement,Improper argument name,None,Trivial
+714461f47e6408ec331acd0ddd640335e6a7a06c,TEZ-2575,Improvement,Handle KeyValue pairs size which do not fit in a single block in PipelinedSorter,None,Major
+aca83090ed2580d093a1fec59217d78f2e575a6c,TEZ-2599,Improvement,Dont send obsoleted data movement events to tasks,None,Major
+2073351ca25bb715d910915b333648165d7c9ab6,TEZ-2542,Bug,TezDAGID fromString array length check,None,Minor
+4a88ee1f0e018c3732f6d33fe7e54ce461663948,TEZ-2579,Bug,Incorrect comparison of TaskAttemptId,None,Major
+462d18501326bf988e255014d732e4d6bbf82ebf,TEZ-2048,Bug,Remove VertexManagerPluginContext.getTaskContainer(),None,Blocker
+1421f59683b27b04f20e5060b79ef239a1078401,TEZ-2578,Task,Release 0.5.4 ,None,Minor
+aeca828fcff994149705b40df16c964f0879ee0b,TEZ-2578,Task,Release 0.5.4 ,None,Minor
+537b619e8a07e13a002328deda5119f9a16f7ffc,TEZ-2578,Task,Release 0.5.4 ,None,Minor
+47ecb3a0fd6e5fead401e542ab29a1a0169ca521,TEZ-2578,Task,Release 0.5.4 ,None,Minor
+665a3ef99b9578b53263eb9b7a28587158f27dfa,/,/,    Updated CHANGES.txt,/,/
+0efaae854ed9743f3d07b7ce6fc85279eac14dd5,TEZ-2565,Improvement,Consider scanning unfinished tasks in VertexImpl::constructStatistics to reduce merge overhead,None,Major
+7806ae9b4fe16481a92f2133239e01a8ff09ab2a,TEZ-2296,Improvement,Add option to print counters for tez-examples,None,Minor
+1fa0c1abc5cf8df2df3a8e188958451330f22c90,TEZ-2570,Bug,Fix license header issue for eps image files,None,Trivial
+17382381965694d9562e5a5f96fdc1a2bf61874a,TEZ-2378,Bug,In case Fetcher (unordered) fails to do local fetch  log in debug mode to reduce log size,None,Major
+d48d9f04df34a4b770587dcba7092ad957b0f29c,TEZ-1314,Improvement,Port MAPREDUCE-5821 to Tez,None,Major
+142bd428b44019a5199bec82de5d3d017a5489e7,TEZ-2568,Bug,V_INPUT_DATA_INFORMATION may happen after vertex is initialized,None,Blocker
+4b29ece20afed83bd5b715119a0446f02550d9be,TEZ-2561,Improvement,Port for TaskAttemptListenerImpTezDag should be configurable,None,Major
+4995bccdb0b9b1bd491f21c34f3dbfca82710df9,TEZ-2291,Bug,TEZ UI: Improper vertex name in tables.,None,Major
+43fcf38bc73473cba0b775232d36383b3d332fd8,TEZ-2549,Sub-task,Reduce Counter Load on the Timeline Server,None,Major
+5cba084eb7622bf81d9c7bdc3901df4f32d5ce63,TEZ-2567,Bug,Tez UI: download dag data does not work within ambari,UI,Major
+41f8a9737a6d2424f0453db3e93404323b248d85,TEZ-2552,Bug,CRC errors can cause job to run for very long time in large jobs,None,Major
+24fb21e6513786b6ff6a576e133ad274ccfc4b3a,TEZ-2559,Bug,tez-ui fails compilation due to version dependency of frontend-maven-plugin,None,Major
+ccecb9830caf40d23927fcbc4821a80bf1300031,TEZ-2566,Bug,Allow TaskAttemptFinishedEvent without TaskAttemptStartedEvent when it is KILLED/FAILED,None,Major
+d1607816f17bbf9ca8c37713be6a5404d8076cfa,TEZ-2545,Bug,It is not necessary to start the vertex group commit when DAG is in TERMINATING,None,Major
+9c2d6256585eff26b041583cb7194cd2e6a4ec3d,TEZ-2558,Bug,Upload additional Tez images ,None,Major
+742c005d5ce26310cb36eaee1269ae6316bbf3f8,TEZ-2486,Bug,Update tez website to include links based on http://www.apache.org/foundation/marks/pmcs.html#navigation,None,Critical
+886a383669b4c76b0a5dc72c1a5f71fb87c33eb9,TEZ-2475,Bug,Tez local mode hanging in big testsuite,None,Major
+be7e63b28b0193dd06d96e73d2a308c5d5b5ef17,TEZ-2475,Bug,Tez local mode hanging in big testsuite,None,Major
+6ae49e99d3c9aadeea76c7497d1e186d19284f8a,TEZ-2554,Bug,Tez UI: View log link does not correctly propagate login crendential to read log from yarn web.,None,Major
+7f51852b661b6ffc4f275a5c5603892d9424293e,TEZ-2548,Bug,TezClient submitDAG can hang if the AM is in the process of shutting down,None,Major
+bb51e4ed65f704f1a03b8420c163d2ee0dffdb81,TEZ-2548,Bug,TezClient submitDAG can hang if the AM is in the process of shutting down,None,Major
+64ca681a29d0cc4fcb505f990bd84ac4c5ae35ea,TEZ-2547,Bug,Tez UI: Download Data fails on secure  cross-origin clusters,UI,Critical
+ce26b3f52761d2a48a612a7613d99b712a320204,TEZ-1961,Improvement,Remove misleading exception &quot;No running dag&quot; from AM logs,None,Critical
+994c7491414737aaede01d21ec86c34d0b3143ae,TEZ-2546,Task,Tez UI: Fetch hive query text from timeline if dagInfo is not set,None,Major
+0588c144f6e7c6f53b7fd0954bd0e25dbca7493b,TEZ-2513,Task,Tez UI: Allow filtering by DAG ID on All dags table,UI,Major
+26c3c793456323539373e026170e9902c508a815,TEZ-2534,Bug,Error handling summary event when shutting down AM,None,Major
+9a2ed82ea047b439de129d8eabe64ef80da917a0,TEZ-2473,Bug,Consider using RawLocalFileSystem in MapOutput.createDiskMapOutput,None,Major
+333edd0f05ce965f796bd4fbb53421090c51ac96,TEZ-2511,Sub-task,Add exitCode to diagnostics when container fails,None,Major
+5e58309d91ba56b7acb51247d3e7948ae4ddb71e,TEZ-2541,Bug,DAGClientImpl enable TimelineClient check is wrong.,None,Major
+139e3d50848e6895280c921e56015fc8b1703cc9,TEZ-2539,Bug,Tez UI: Pages are not updating in IE,None,Major
+29260f1777d8ca4aee9e75af19522d87e5eac024,TEZ-2535,Bug,Tez UI: Failed task attempts link in vertex details page is broken.,None,Major
+56f157ef11cd97c0e4f2de20a9bd7b113104b5db,TEZ-2533,Bug,AM deadlock when shutdown,None,Major
+fa5ae1ac2b8240e00abedf995b29c43c7af993fd,TEZ-2538,Bug,ADDITIONAL_SPILL_COUNT wrongly populated for DefaultSorter with multiple partitions,None,Major
+588a14f04a7f39bffc178fe75cdf5e621c46a5b6,TEZ-2537,Bug,mapreduce.map.env and mapreduce.reduce.env need to fall back to mapred.child.env for compatibility,None,Major
+c241f40944e9bafd4c3682b001502b5ea7a5e6e8,TEZ-2489,Bug,Disable warn log for Timeline ACL error when tez.allow.disabled.timeline-domains set to true ,None,Major
+d2b274904bb1819cea890224201e37e8f0c67bec,TEZ-2528,Bug,Tez UI: Column selector buttons gets clipped  and table scroll bar not visible in mac,None,Major
+7b2ec39f04519a3869981b4685826e23096d78e8,TEZ-2391,Bug,TestVertexImpl timing out at times on jenkins builds ,None,Blocker
+a3950efd204d309a1aa6781d266c1e37e6b81b2a,TEZ-2376,Bug,Remove TaskAttemptEventType.TA_DIAGNOSTICS_UPDATE,None,Major
+44a6bb686b08326b45c232fb7466b43c574fe7c1,TEZ-2304,Bug,InvalidStateTransitonException TA_SCHEDULE at START_WAIT during recovery,None,Major
+631c3e9c627603ac53426d5a0b120b426fb6712c,TEZ-2509,Bug,YarnTaskSchedulerService should not try to allocate containers if AM is shutting down,None,Major
+cd068538d7ecc2cf18c606dfcf0bcbebcf2dbe11,TEZ-2527,Bug,Tez UI: Application hangs on entering erroneous RegEx in counter table search box.,None,Major
+4d5ea0e5151dca5dbf5d6aeb05efbe05bfc2208d,TEZ-2523,Bug,Tez UI: derive applicationId from dag/vertex id instead of relying on json data,UI,Major
+237d1895d224fc07466e0c4e494960b32d7a69aa,TEZ-2505,Bug,PipelinedSorter uses Comparator objects concurrently from multiple threads ,None,Major
+4c48283eedb75b0105f236735bcd430bbbafc644,TEZ-2506,Bug,TestAysncHttpConnection failing,None,Major
+7fe0a6b7122c31c4d2d274700faa6c04297ce3a7,TEZ-2504,Bug,Tez UI: tables - show status column without scrolling  numeric 0 shown as Not available,UI,Major
+5a04f06028ea4d3814bab6b044113d6eec559b9a,/,/,    SITE UPDATE: Add Jeff Zhang to PMC list (zjffdu),/,/
+87f26a2ed10a097d20f69c5ab0b6e33a0877125e,TEZ-2503,Bug,findbugs version isn&apos;t reported properly in test-patch report,None,Minor
+7bc35050530206d9c4b6281c4a486fab1a1d730c,TEZ-2478,Improvement,Move OneToOne routing to store events in Tasks,None,Major
+413c3cc7991e810d6b49539d71ecc930e838238e,TEZ-2478,Improvement,Move OneToOne routing to store events in Tasks,None,Major
+fafa804c953aa528c839be7a14d0ccbdd35c75f9,TEZ-2503,Bug,findbugs version isn&apos;t reported properly in test-patch report,None,Minor
+42b7756ebea108f81dbf633c847e2f70cd099e0f,TEZ-2198,Improvement,Fix sorter spill counts,None,Major
+b9056657a101b33c96195655079b1eb03ebb3c95,TEZ-1883,Bug,Change findbugs version to 3.x ,None,Minor
+17b6aba9c7f85d710eb97a006b9a42fbe0510cbc,TEZ-2488,Bug,Tez AM crashes if a submitted DAG is configured to use invalid resource sizes. ,None,Critical
+02aafb55e9b1adc3384adaccf44cba712a753fac,TEZ-2483,Bug,Tez should close task if processor fail,None,Major
+fe74d6b9e896dfe158392ffe91fbad944abba027,TEZ-2440,Bug,Sorter should check for indexCacheList.size() in flush(),None,Major
+317d45a5d410f2e6afedbe8563c258f4cc667d67,TEZ-2482,Bug,Tez UI: Mouse events not working on IE11,UI,Major
+dac59a2aa71aab5daaa6fabdda9d8f48539e1bda,TEZ-2450,Improvement,support async http clients in ordered &amp; unordered inputs,None,Major
+9dabf94767480750f31d8f3e24d17a89bc036331,TEZ-2450,Improvement,support async http clients in ordered &amp; unordered inputs,None,Major
+7be325eab1ad82aa2a2a6ff404a77426b2056599,TEZ-2481,Bug,Tez UI: graphical view does not render properly on IE11,None,Major
+87156be21c18acc210878e23a43e65e021561b66,TEZ-2080,Bug,Localclient should be using tezconf in init instead of yarnconf,None,Major
+41173aa0a0cc60924902ce9e78a452e2069a2a31,TEZ-2409,Task,Allow different edges to have different routing plugins,None,Critical
+aa6a84c2ca2ca4c18029c64451752d8b11e53d28,TEZ-2474,Bug,The old taskNum is logged incorrectly when parallelism is changed ,None,Minor
+7c16b10e2a251628c0fba3e61327fe5d464ba231,TEZ-2468,Improvement,Change master to build against Java 7,None,Major
+a9048bb52c8efc194fca62f8764d97b6d3143147,TEZ-2460,Bug,Temporary solution for issue due to YARN-2560,None,Major
+1f927a55eb0ee13d005b484a4cff4100ff04c0db,TEZ-2466,Bug,tez-history-parser breaks hadoop 2.2 compatability,None,Major
+20ef028f9769dc32b92bbc40e286c5fad58703b3,TEZ-2451,Bug,Tez 0.6.1 Release Changes,None,Major
+0d8c262355f596c9372b5041e8884427f8bc001f,TEZ-2451,Bug,Tez 0.6.1 Release Changes,None,Major
+13e55eb4ecb6f9d2e14dc60c7e86ca5518ea4023,TEZ-2451,Bug,Tez 0.6.1 Release Changes,None,Major
+6aabbc3b76b9e03ca97fc570c5c6f48df722922a,TEZ-2463,Improvement,Update site for 0.7.0 release,None,Major
+4d891ea767646e10e22fd5d4bb01e264591c891e,TEZ-2462,Bug,Update DOAP file &amp; CHANGES.txt for 0.7.0 Release,None,Major
+2fc34ed6719b10ee3d8b31d2d105c8be7f62a69a,TEZ-2461,Bug,tez-history-parser compile fails with hadoop-2.4,None,Major
+12fc2c70858ac88459436334a34bc69f7ddf9589,TEZ-2455,Bug,Tez UI: Dag view caching  error handling and minor layout changes,None,Major
+b59b6a9b618575fce17a551f86cc827e8746e6a9,TEZ-2453,Bug,Tez UI: show the dagInfo is the application has set the same.,UI,Major
+fb4df0d61da1bb576f22e4ebdd47c0000ed2e71f,/,/,    Update version for 0.7.0 RC0,/,/
+025c7ed80f60c9d198765a47fff346fc87435113,TEZ-2437,Bug,FilterLinesByWord NPEs when run in Localmode,None,Major
+e10aef4e13ff6566e0cf48a6626d4c2b021ef1e8,TEZ-2437,Bug,FilterLinesByWord NPEs when run in Localmode,None,Major
+fac3222c768fbdfc8c1bbe55f94bc106900e6ae4,TEZ-2437,Bug,FilterLinesByWord NPEs when run in Localmode,None,Major
+e09b9f65802e4c5dd417399552b6ffe90480a9ff,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+2467d60896e5c99536fe4e64b58c6f57dc1587ec,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+c048de1c54413076339e2f0339b1fc40f7d1f24d,TEZ-2445,Bug,Disable the object cleanup in local mode in LogicalIOProcessorRuntimeTask,None,Blocker
+ec6bbbf958878d9dfa7e2a32f467e1e6de8c1a9b,TEZ-2436,Task,Tez UI: Add cancel button in column selector.,None,Major
+9d582b444b7ba7f862802dbb547b059349e25fcf,TEZ-2282,Bug,Delimit reused yarn container logs (stderr  stdout  syslog) with task attempt start/stop events,None,Major
+5f448934429aa70582196c6581ce7e439723f8f5,TEZ-1529,Bug,ATS and TezClient integration  in secure kerberos enabled cluster,None,Blocker
+02870f0ac1095d67a85a864860b0c4ce68a1db57,TEZ-2404,Bug,Handle DataMovementEvent before its TaskAttemptCompletedEvent,None,Critical
+78ca7af63987e6052d8756f9ab827cb10b26dbcf,TEZ-2424,Bug,Bump up max counter group name length limit to account for per_io counters,None,Minor
+7476fae834bafb7a36d17382a08a5385fee0e343,TEZ-1752,Improvement,Inputs / Outputs in the Runtime library should be interruptable,None,Major
+128668765290d14c80865018f23a21aed9f02eb9,TEZ-2396,Bug,pig-tez-tfile-parser pom is hard coded to depend on 0.6.0-SNAPSHOT version,None,Major
+16bbc58ca70c7878696521530dc2c6f454b27019,TEZ-2396,Bug,pig-tez-tfile-parser pom is hard coded to depend on 0.6.0-SNAPSHOT version,None,Major
+9d8f78405c3b555e6a0b93ee47eaf66807277804,TEZ-2417,Bug,Tez UI: Counters are blank in the Attempts page if all attempts failed,UI,Major
+da3fecd53df56b96e29c8608068bf46a1995d611,TEZ-2417,Bug,Tez UI: Counters are blank in the Attempts page if all attempts failed,UI,Major
+244c38bb4f421ca41a5851b8a4c777c4f0474da1,TEZ-2366,Bug,Pig tez MiniTezCluster unit tests fail intermittently after TEZ-2333,None,Critical
+ ,TEZ-2333,Task,Enable local fetch optimization by default.,None,Major
+4bf958c03f268f8e3f23a49e4df071cc5587051d,TEZ-2406,Bug,Tez UI: Display per-io counter columns in task and attempt pages under vertex,None,Major
+12ef073c205ce7b09827a7ecbeea457d589c1c5f,TEZ-2406,Bug,Tez UI: Display per-io counter columns in task and attempt pages under vertex,None,Major
+5679b28386a957879eb0443557b0a48c7c95c4d4,TEZ-2422,Task,Update version on master to 0.8.0,None,Major
+a6f0f1ef2981dc6c84ae6a7de830d79df6c27db0,TEZ-2384,Improvement,Add warning message in the case of prewarn under non-session mode,None,Minor
+5c6bbf9f37877788a08932391fa484d4eb379e66,TEZ-2415,Bug,PMC RDF needs to use asfext:pmc  not asfext:PMC,None,Major
+70fda9507040de8da83935445c26111f1c1cd3da,TEZ-2221,Bug,VertexGroup name should be unqiue,None,Major
+406bba9ac86b8c0e265c2b1850928de477ce0250,TEZ-2221,Bug,VertexGroup name should be unqiue,None,Major
+077b352fbd7ec44a7e5c3224837d5048829f09c4,TEZ-2384,Improvement,Add warning message in the case of prewarn under non-session mode,None,Minor
+bce7ff211f1b557a4aca46db8e839d5c2a0c8890,TEZ-2415,Bug,PMC RDF needs to use asfext:pmc  not asfext:PMC,None,Major

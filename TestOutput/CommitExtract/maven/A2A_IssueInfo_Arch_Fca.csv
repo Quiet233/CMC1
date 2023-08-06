@@ -1,0 +1,266 @@
+0ce5541bb5c92b87e2425efceee1aad53f415128,MNG-4795,Bug,[regression] Dependencies in forked reactor projects are not resolved when aggregator bound to lifecycle forks,Plugins and Lifecycle,Major
+6c37a89744149e68f198429fb7eac70fe1707360,MNG-4756,New Feature,Aether integration,General,Blocker
+0ce5541bb5c92b87e2425efceee1aad53f415128,MNG-4795,Bug,[regression] Dependencies in forked reactor projects are not resolved when aggregator bound to lifecycle forks,Plugins and Lifecycle,Major
+6c37a89744149e68f198429fb7eac70fe1707360,MNG-4756,New Feature,Aether integration,General,Blocker
+c6aab7be9f97879d00f7f4c36452c5d3bebaa020,/,/,    o Moved settings building into separate module,/,/
+d3965e9cbf8e1f818a74a704e8c8616a4cc32a74,MNG-4718,Bug,[regression] Missing Class in 3.0-beta-1: org.apache.maven.project.artifact.AttachedArtifact,Artifacts and Repositories,Major
+9be1144e4ef4dd01b4a7c7c164e2810ee903dd75,MNG-4696,Bug,[regression] MavenProject.getDependencyArtifacts() misses elements,Artifacts and Repositories,Major
+1248bd1c1fb89d4a486d7ade29a80a5cb1845d78,MNG-4651,Bug,Site 3.x plugin broken due to api change,None,Major
+2339e167506a3e0cdc33513f2905343564f16976,/,/,    o Refactoring: Moved one incorrectly placed method from BuildListCalculator to TaskSegmentCalculator,/,/
+91e83d242486046a7612fee6d08be568768deaa2,/,/,    o Refactored execution event firing,/,/
+83237e46af5654c51c5c9005b054c1ffa01e327d,MNG-3004,Improvement,Allow build lifecycle to execute projects in parallel,Performance,Major
+bd1f3b58e5de42ab2cd1122793b805c2551777a7,MNG-2222,Bug,dependency to dependency without source code fails,Dependencies,Major
+2ae3616c3f346a85111f790cdec235f78b92edab,/,/,    o Removed dead code,/,/
+3f677ab042097232b88adb166dc3df13f2a49e55,/,/,    o Removed dead code,/,/
+c6aab7be9f97879d00f7f4c36452c5d3bebaa020,/,/,    o Moved settings building into separate module,/,/
+d3965e9cbf8e1f818a74a704e8c8616a4cc32a74,MNG-4718,Bug,[regression] Missing Class in 3.0-beta-1: org.apache.maven.project.artifact.AttachedArtifact,Artifacts and Repositories,Major
+9be1144e4ef4dd01b4a7c7c164e2810ee903dd75,MNG-4696,Bug,[regression] MavenProject.getDependencyArtifacts() misses elements,Artifacts and Repositories,Major
+1248bd1c1fb89d4a486d7ade29a80a5cb1845d78,MNG-4651,Bug,Site 3.x plugin broken due to api change,None,Major
+2339e167506a3e0cdc33513f2905343564f16976,/,/,    o Refactoring: Moved one incorrectly placed method from BuildListCalculator to TaskSegmentCalculator,/,/
+36a4e9ff644850a96cfd173cda95819a8836e833,MNG-7754,Improvement,Improvement and extension of plugin validation,Core,Major
+0f4387543debd77ab649f97014b72feb4046b3c6,MNG-7556,Task,Clean up notion between user properties and system properties,None,Major
+c3361ab62296f35c5e8149a0633d450747a697c9,/,/,    Fix javadoc issues,/,/
+75e19406952a4e1a58b382ec5c68dd16c101670b,MNG-7106,Bug,VersionRange.toString() produces a string that cannot be parsed with VersionRange.createFromVersionSpec() for same lower and upper bounds,None,Minor
+3f90e7028e0338c110aea267b44362653d55273a,/,/,    Restore compatibility on SettingsBuilder  ToolchainsBuilder and MojoDescriptorCreator (#820),/,/
+5136a5ea81f3db5ef38b75eb1b987b60fdf5f336,/,/,    Maven-3.9.x Simplify maven-plugin metadata handling (#807),/,/
+bff84bd634fd4cafe87f31ea155744095f6ecd1a,/,/,    Replace Properties with Map<String  String> in the v4 api (#808),/,/
+a7a5b8169ba76a8169898735c91856b3722af639,/,/,    Make sure RAT plugin ignores files in the target folder (#813) (#815),/,/
+2a9f39336cec1d8e52d30cc48503d51ed8672536,MNG-7553,Task,New clean API with immutable model,None,Major
+a4ed7bb6ba66ec4d6a471dc1b024c7469e17574d,MNG-7463,Improvement,Improve documentation about deprecation in Mojo,Plugin API,Major
+7e0e9f9fbece8f416807c14fc6b582e501f3a414,MNG-7310,Bug,Maven loads extension from another submodule,None,Major
+47e2d689d687358a85c2cdecc176cac36093817e,MNG-7463,Improvement,Improve documentation about deprecation in Mojo,Plugin API,Major
+2f7dfcfe82c07829cf92e1ab0622b1d81f9e4738,MNG-7502,Dependency upgrade,Upgrade Guice to 5.1.0,None,Major
+5502c0c8dba03c7241bd9dd1bb5ba023ab6f2670,MNG-7502,Dependency upgrade,Upgrade Guice to 5.1.0,None,Major
+d1bc037cc0bf5d5b4c8b3d2cf5ed4dcfd860b1ae,MNG-7529,Bug,Maven resolver makes bad repository choices when resolving version ranges,Artifacts and Repositories,Major
+e410a6ce1dea787258e5675e71a672144e3f0419,MNG-7529,Bug,Maven resolver makes bad repository choices when resolving version ranges,Artifacts and Repositories,Major
+55a2182a6b14c595d7223b6486a2d9f033818619,MNG-7530,Dependency upgrade,Upgrade Apache Maven parent POM to version 37,None,Minor
+ce4579108d653be2ab7eab43be7d5951151dae5b,MNG-7529,Bug,Maven resolver makes bad repository choices when resolving version ranges,Artifacts and Repositories,Major
+9fe564cdc736bde1f799774913c84a020fef81f7,MNG-7529,Bug,Maven resolver makes bad repository choices when resolving version ranges,Artifacts and Repositories,Major
+750e1e3e71194644acda437cefbd73c8bd408f5d,MNG-7530,Dependency upgrade,Upgrade Apache Maven parent POM to version 37,None,Minor
+20f539a3fd1db4850ee0dd63626641021bf10917,MNG-7520,Improvement,Simplify integration of Redisson and Hazelcast for Maven Resolver,Dependencies,Major
+e02e0c84ce2582ac363d40e115fceea4146e999c,MNG-7401,Improvement,Make MavenSession#getCurrentProject() using a thread local,None,Major
+ ,MNG-7474,Improvement,SessionScoped beans should be singletons for a given session,None,Major
+b762fa9d5c44734b5e20eb83071e7c31821a5fad,MNG-7401,Improvement,Make MavenSession#getCurrentProject() using a thread local,None,Major
+ ,MNG-7474,Improvement,SessionScoped beans should be singletons for a given session,None,Major
+29c53d67483445094270740477fa8909b6fd9f85,MNG-7193,New Feature,Introduce MAVEN_ARGS environment variable,Command Line,Major
+a53a1aa232bc383baf055d884a7c66319d10d404,MNG-7443,Improvement,Implement consistent logging between optional projects and optional profiles,Logging,Minor
+73360100ca145d345afdeab6df60797a8b1a957e,MNG-7522,Dependency upgrade,Upgrade Maven Resolver to 1.8.2,None,Major
+0f8f22e404c65594d0af5f5151d551dd7f64afc5,MNG-7020,Task,Remove Maven 2 WagonExcluder backward compat code,Dependencies,Major
+2d9918a2d109ad21751ccee86209d0a487f12e2a,/,/,    Clean up dependency warnings by dependency:analyze,/,/
+029587fb0b8bf9e0e4edfbf198fa2a746ba5c827,/,/,    Add missing dependency,/,/
+35b93b0a589752cc88105623a2ddf9e52b56c1ce,MNG-7353,New Feature,Add support for &quot;mvn pluginPrefix:version:goal&quot;,Command Line,Major
+95bdbf6821d16c2b4f1df6f820600e0d4b1b9166,MNG-7353,New Feature,Add support for &quot;mvn pluginPrefix:version:goal&quot;,Command Line,Major
+8125b3131f2e0f88837040b0baf4e0aaa8210679,/,/,    Fix typos in code,/,/
+e1e4f5bda02535f718785189082f4197037774f3,MNG-7511,Bug,Ensure the degreeOfConcurrency is a positive number in MavenExecutionRequest,Core,Major
+5ce5591ae341188230d6ecca76c90bd0a786fcb2,/,/,    Fix minor typos,/,/
+eaac5f345828d4b7b846dcc6da21a5f77822bfaa,MNG-7515,Bug,Cannot see a dependency tree for apache-maven module,None,Minor
+8ff8ebcaeadab54190581a6e4cdadbd80f872d9f,MNG-7515,Bug,Cannot see a dependency tree for apache-maven module,None,Minor
+f164ab5f89c85657f6f5d8a6c05978e60c87dcc5,MNG-7513,Task,Address commons-io_commons-io vulnerability found in maven latest version,None,Major
+90c084dcf495e73c679395bc4b050500cbccf8cf,MNG-7360,Bug,Can&apos;t parse project that has &lt;parent&gt; tag in plugin configuration,build/consumer,Major
+9b876fa90b1f3683617102d1843e3efb89654cb8,MNG-7506,Dependency upgrade,Upgrade Maven Wagon to 3.5.2,None,Major
+4e88d62ab23a2cef8b1ec8af479353bc4d86fe25,MNG-7501,Improvement,display relative path to pom.xml,Command Line,Major
+115febf29b9520eed6e94a65212e00e88806a860,MNG-7160,Bug,Extension And Classloaders: difference of result given extension types,None,Major
+415eaf31de407efcbf61166afd8cf4e86cdafe11,MNG-7160,Bug,Extension And Classloaders: difference of result given extension types,None,Major
+bb6bbf882d8f6c25967ec8d4fc239c9efd80cb17,/,/,    Update DOAP with Maven 3.8.6 release,/,/
+df38f1c079923492f3517b81e5a72d6f35701dc9,/,/,    Update DOAP with Maven 3.8.6 release,/,/
+0504c361b4c96a12969ba1dabd9971c194160aec,MNG-7468,New Feature,Unsupported plugins parameters in configuration should be verified,Plugins and Lifecycle,Major
+54f9d91ebb05ff8a051272c4e91dca4ee4984d80,MNG-7468,New Feature,Unsupported plugins parameters in configuration should be verified,Plugins and Lifecycle,Major
+ca479180c535caa23b2b11631c924d1e98101d84,MNG-7491,Dependency upgrade,Update parent POM to 36,Bootstrap &amp;amp; Build,Major
+47fb9e8122b236f20c29b2ecf95a1b0e332fa3fb,MNG-7491,Dependency upgrade,Update parent POM to 36,Bootstrap &amp;amp; Build,Major
+ac9132e4f4ada93369cc5188e836d54c885d4c99,/,/,    deploy master  3.8.x and 3.9.x,/,/
+7bd5fb38b34c2be4db7a31cbda16169cf0890ad1,/,/,    deploy master  3.8.x and 3.9.x,/,/
+d0c387b7bd7026a0354068da52fe0fa24ac1e1db,MNG-7489,Dependency upgrade,Upgrade JUnit to 4.13.2,None,Major
+3d451672030376f3d956b2462abc1c1de881afa8,MNG-7488,Dependency upgrade,Upgrade SLF4J to 1.7.36,None,Major
+8a928e59acc187c7d9f9f9d1e5b4a1c99c006926,MNG-7488,Dependency upgrade,Upgrade SLF4J to 1.7.36,None,Major
+2a276d0dcf5108a896eb44f2940baf98af2edbac,MNG-7487,Bug,Fix deadlock during forked lifecycle executions,Core,Major
+0b0a96782e0298dfb1c7eeaebccf6ed917aaeaac,MNG-7487,Bug,Fix deadlock during forked lifecycle executions,Core,Major
+6767f2500f1d005924ccff27f04350c253858a84,MNG-7486,New Feature,Create a multiline message helper for boxed log messages,None,Major
+5002a0b0b8b15334ebcb90b81ad2c2b6a75c1c74,MNG-7448,Bug,Don&apos;t ignore bin/ otherwise bin/ in apache-maven module cannot be readded,None,Minor
+3ad4fe5a1a3fe803e1372d9093a8ea27e95fc34c,MNG-7448,Bug,Don&apos;t ignore bin/ otherwise bin/ in apache-maven module cannot be readded,None,Minor
+70e9381a7482d2d378e8bcccc8b40d5f966bbf62,MNG-7478,Improvement,Improve transport selection for resolver,Core,Major
+a83ed86c4850c3fc09e5623eb00869ab3e39c959,MNG-7471,Bug,Resolver 1.8.0 introduces binary breakage in plugin using Resolver,Class Loading,Major
+4de39476ff690774ece57637e91653d2ef234fd3,MNG-7471,Bug,Resolver 1.8.0 introduces binary breakage in plugin using Resolver,Class Loading,Major
+1c22f94522ec6686ded044a4e0ca0b3cb9d76e62,MNG-7459,Bug,Revert MNG-7347 (SessionScoped beans should be singletons for a given session),None,Major
+74eba2968b020d8da2360a45c3406a5132eb6aee,MNG-7464,New Feature,Warn about using read-only parameters for Mojo in configuration,None,Major
+93196d4bb72d3bf434256111f294d5bd1dd09d11,MNG-7404,Improvement,Change from deprecated WARNING to FAIL the build for usage of {X} placeholders rather than ${project.X},None,Minor
+7b86ce8534010301f806faa631f02c18a5036030,MNG-7466,Task,Align Assembly Descriptor NS versions,Bootstrap &amp;amp; Build,Trivial
+ca9aa8f4f3d4b440fb86536c0acfb858dcc2fdba,MNG-7466,Task,Align Assembly Descriptor NS versions,Bootstrap &amp;amp; Build,Trivial
+dd0ddef8f6d4c998472dff91d2a2153959a6049f,MNG-7457,New Feature,Warn about deprecated plugin Mojo,Plugins and Lifecycle,Major
+702f52d0ea7c5e90b495bc05f079ca3e952766a8,MNG-7457,New Feature,Warn about deprecated plugin Mojo,Plugins and Lifecycle,Major
+28c763c72cf94ad13e235f985244764f7fd0c988,MNG-5222,Bug,Maven 3 no longer logs warnings about deprecated plugin parameters.,Plugins and Lifecycle,Minor
+bdfd8de968d237f1a52008da1551aed43aa61a4b,/,/,    Drop Java 16 from matrix,/,/
+4c9dc5abb20a5af134f507bcce05929dd3fca2a8,MNG-7055,Bug,Using MINSTALL/DEPLOY 3.0.0-M1+ does not write plugin information into maven-metadata.xml,Plugins and Lifecycle,Blocker
+3fef9c685d194a9aab2875e6c0ddfb850931b62d,MNG-7453,Dependency upgrade,Upgrade Maven Resolver to 1.8.0,Artifacts and Repositories,Major
+85caf98029e43066579fc671f3138ea17e473224,MNG-7454,New Feature,Include resolver-transport-http in Maven,Dependencies,Major
+643d1e782800e52bc2b8a85aa949e1c62b8f980a,MNG-7438,Improvement,add execution id to &quot;Configuring mojo xxx with basic configurator&quot; debug message,Core,Major
+3c6009cbf48f78bc8f657c1eb18fa8f522a994a5,MNG-7438,Improvement,add execution id to &quot;Configuring mojo xxx with basic configurator&quot; debug message,Core,Major
+be2b7f890d98af20eb0753650b6605a68a97ac05,MNG-7454,New Feature,Include resolver-transport-http in Maven,Dependencies,Major
+ff0300b7cfdb983fd4c54c60d956cbee79412849,MNG-5222,Bug,Maven 3 no longer logs warnings about deprecated plugin parameters.,Plugins and Lifecycle,Minor
+c99028b9fb67158edc9f202ff8a178c9465430ba,MNG-5222,Bug,Maven 3 no longer logs warnings about deprecated plugin parameters.,Plugins and Lifecycle,Minor
+08dff22a41e79c0da5fdda3f61699c788001b608,MNG-7447,Sub-task,Several Improvements by using Stream API,None,Major
+bdb35f2deb01148eb56edc49f1c21ee0ffd6d694,MNG-7432,Bug,[REGRESSION] Resolver session contains non-MavenWorkspaceReader,None,Critical
+ ,MNG-1388,Bug,Transitive Dependencies in a profile are not used,Plugins and Lifecycle,Major
+263cf9542b4f137c59ab19fb4fae9f0d61ce2afa,MNG-7432,Bug,[REGRESSION] Resolver session contains non-MavenWorkspaceReader,None,Critical
+ ,MNG-1388,Bug,Transitive Dependencies in a profile are not used,Plugins and Lifecycle,Major
+d14bb3b8d34723cadd139bc4e5c3e3efdfbf68b8,MNG-7441,Bug,Update Version of (optional) Logback to Address CVE-2021-42550,Dependencies,Major
+c604db3c3a103e2212f4628d8e2a997017fe579e,MNG-7447,Sub-task,Several Improvements by using Stream API,None,Major
+896c707d324330d7d4ad92674187923945efcda9,MNG-7447,Sub-task,Several Improvements by using Stream API,None,Major
+f7b073f3eb88e4e82d5ec10a91d2bf6b442c03c6,MNG-7445,Improvement,to refactor some useless code,Core,Trivial
+e85ff889b333b82da20b988fbb42bdbfdb814545,MNG-7413,Bug,Fix POM model documentation confusion on report plugins  distribution repository and profile build,POM,Minor
+88d29675ae2a0998d5be134c7941e8fd6aa706bd,MNG-7413,Bug,Fix POM model documentation confusion on report plugins  distribution repository and profile build,POM,Minor
+31193cbf0c93205a63c8c7b372b09200f60e69f4,MNG-7391,New Feature,Add MojoExecution strategy and runner required by Maven Build Cache Extension,Core,Major
+5220420212cd576725c19be09f8b351a9625d11a,/,/,    Update DOAP with Maven 3.8.5 release,/,/
+97c1e4b4aa73f5851801fdf5e17f013dd46a6b3e,MNG-7047,Improvement,Validate that repo configuration does not contain any expression,Inheritance and Interpolation,Minor
+14ca7234380f81e54a5643082816048f3b6b67cf,MNG-7350,Improvement,Introduce a factory for ModelCache,None,Major
+8e5676c84a782d51c4156be059b6ce9a3dc3e1e1,MNG-7391,New Feature,Add MojoExecution strategy and runner required by Maven Build Cache Extension,Core,Major
+1954d51ff2841045b4af8a515ad0719805269d8d,MNG-7391,New Feature,Add MojoExecution strategy and runner required by Maven Build Cache Extension,Core,Major
+78ca83e2a4271421aa3fc4f8153f8f061b09d52f,/,/,    Bump version to 3.9.0-SNAPSHOT,/,/
+e1d359aa6d7d2b1e95daa431c6259f25a4687bea,MNG-7330,Task,Revert MNG-7329,None,Major
+cfeea9dac4c5a14c846382aa7a47a7d4e5f110f5,/,/,    Remove unused imports,/,/
+48be53abbc7b44b045fe5039e6a5200a93f21b60,MNG-7428,Dependency upgrade,Upgrade Maven Parent to 35,None,Major
+572d5260b9040bd063b3dc84ce51684b8379df10,MNG-7428,Dependency upgrade,Upgrade Maven Parent to 35,None,Major
+09e51544df6bc3a3f69afb2379eabe30db2c6034,/,/,    Remove unused import,/,/
+f0caf9c9b31e31abb91ca986fe8168867cd0ded2,MNG-6960,Improvement,Use RuntimeInformation instead of reading properties,Core,Minor
+1e33a572643628e7742eda2d469e4bd04b880523,MNG-5180,Bug,Versioning&apos;s snapshot version list is not included in metadata merge  ,None,Major
+d29af9018b5c80177102aaab96bd37ed5fedf26c,MNG-7402,Bug,BuildListCalculator never detaches the classloader,None,Major
+e327be3d85918a23a5ba48d752143a6dbf8b83f7,MNG-7402,Bug,BuildListCalculator never detaches the classloader,None,Major
+395411fe3184b9692ed16bafa578b40cc0051784,MNG-7417,Bug,Several classes do not set properties properly for building requests,Inheritance and Interpolation,Major
+2798ee91968b31aa444cfd7ded14ada0a9f043f4,MNG-7395,New Feature,Support interpolation in extensions.xml,None,Major
+2bb1228de60e805b2f864254a0b1efef7e2d7dde,MNG-7407,New Feature,Introduce a ModelVersionProcessor component to make CI Friendly Versions pluggable,None,Major
+cc51006f2973356a1046ae0757325d5e9be75327,MNG-6776,Bug,Inconsistent list of parameters in MojoDescriptor,Plugin API,Minor
+ ,MNG-7309,Task,Remove redundant MojoDescriptor parameterMap,Core,Major
+6f141968464b4ad24e5d90f1389065141cda5e3b,MNG-7400,Improvement,Allow more WorkspaceReaders to participate,None,Major
+6ca13af230e9a7c6dcb0bf629d9a2676d8f833ed,MNG-7408,Improvement,Explain reporting plugin version automatic selection (in Maven 3),Sites &amp;amp; Reporting,Major
+0a118d6e244e17cf27654ce6e17b1d3140c0967e,MNG-7408,Improvement,Explain reporting plugin version automatic selection (in Maven 3),Sites &amp;amp; Reporting,Major
+1d473233f21b63f351ded6904f4f9f98db3faaf1,MNG-6727,Bug,Using version range in parent and CI Friendly Version fails,Reactor and Workspace,Major
+d79485ff23c9017d47424ff24da1d6dd3c414a60,MNG-6727,Bug,Using version range in parent and CI Friendly Version fails,Reactor and Workspace,Major
+6b607109d3ce045106924139e96705fe7c42172e,MNG-7349,Improvement,Limit relocation warning message to direct dependencies only,Core,Minor
+83257bfde0dd5b4d391063412494957c1b7e15e8,MNG-7349,Improvement,Limit relocation warning message to direct dependencies only,Core,Minor
+dbfe8097d229083919c53fd29b0fe4b7b92cb8e0,MNG-7386,Bug,ModelMerger$MergingList is not serializable,Core,Minor
+27755123e30d46a73ede29cef5b4c340fcdc3fab,MNG-7385,Improvement,Improve documentation on repository metadata,Artifacts and Repositories,Major
+9d4b2b23f03f6b8fa7b78c9d7c60d03aedf52bad,MNG-7345,Bug,Missing exported packages,None,Major
+67ff80544866aa9256624d34a6e4178c3b913996,MNG-7381,Improvement,Shorten parallel builder thread name to artifactId  conditionally with groupId,None,Minor
+ab4fec0a334698ff5f1ca5957c000a44cc6efd88,MNG-7381,Improvement,Shorten parallel builder thread name to artifactId  conditionally with groupId,None,Minor
+72c483b52702687f5a4160e1fd317b01c03988d3,MNG-7384,Dependency upgrade,Upgrade Maven JAR Plugin to 3.2.2,None,Major
+c0a49c7396a09c3f71a8a45313047f8eb0a75663,MNG-7384,Dependency upgrade,Upgrade Maven JAR Plugin to 3.2.2,None,Major
+99de6b49ee066c102737e4cb99af4be3edb257df,MNG-7380,Improvement,Don&apos;t log non-threadsafe warning if only building a single module,Plugins and Lifecycle,Minor
+18725ec1e05e01b06557830ae10e83bdb933ab1a,MNG-7380,Improvement,Don&apos;t log non-threadsafe warning if only building a single module,Plugins and Lifecycle,Minor
+84cbe1ab2e22a12c2c108d1a0e5233f875475fff,MNG-7362,Bug,DefaultArtifactResolver has spurious &quot;Failure detected&quot; INFO log,None,Major
+7a772fecc02082834ddbe5423376b88d09e38814,MNG-7362,Bug,DefaultArtifactResolver has spurious &quot;Failure detected&quot; INFO log,None,Major
+b4518b5fe416a552a59e5201b4569a9bc0af3153,MNG-7347,Bug,SessionScoped beans should be singletons for a given session,None,Major
+b4773576a8b75631cc639509d415e64ecaf3a4ef,MNG-6326,Bug,Build continues when core extensions aren&apos;t found,Bootstrap &amp;amp; Build,Critical
+0f3c39b8ed1a875ec58ebe91b2b18ca8b64b2fd3,MNG-6802,Bug,FileProfileActivator changes FileProfileActivator.exists which lets flattened resolveCiFriendliesOnly depending fail activating profile,Profiles,Major
+706d9319f14b507f3c3deeba4eeda1a51a531c9b,MNG-7369,Task,Maven BOM doesn&apos;t need to package as a JAR,General,Minor
+e09baa8ac4fcef82baacba4a66386f7479c753d9,/,/,    Improve PR template,/,/
+d8445a54bb4a7f7b223afe5bd8ee06bd31e50cf4,/,/,    Improve PR template,/,/
+100b17e1d7163cd263b7ee6e372ab76b3f87dd08,MNG-7370,Dependency upgrade,Upgrade Maven Wagon to 3.5.1,None,Major
+0a8bd727ac6d184512ce513737bb56bb840d10de,MNG-7370,Dependency upgrade,Upgrade Maven Wagon to 3.5.1,None,Major
+8348d2bd0a22bf50bbbe7401ec4e848ff0f32da3,/,/,    Fix SLF4J license link,/,/
+e6287b4701f102d2069f0316ce67dcb7e225e075,/,/,    Improve startup scripts,/,/
+6ae4f7e2c54113192fdd4b7efe8404088f21539f,/,/,    Bump Java to 17,/,/
+33aedfc28bfa38b10cb57302b404d8597d3971db,MNG-7156,Bug,Parallel build can cause issues between clean and forked goals,None,Major
+10a72f30f7bdd19e803820a215383b975a5283ce,MNG-7156,Bug,Parallel build can cause issues between clean and forked goals,None,Major
+3a06530dbce82e2054afa3cc4c81631910474bd0,/,/,    Remove duplicate call to longOpt (#626),/,/
+5bc395fd08719f221e10998db13475110d510651,/,/,    Add github checks to maven-3.8.x branch,/,/
+98a6c4f14c85f584e37773b86b448d36c30e0d93,MNG-7340,Bug,#NAME?,Command Line,Blocker
+f568170e361ee2f448227ec4c2bce5a2ab2aa99d,/,/,    Update DOAP with Maven 3.8.4 release,/,/
+9dbd8e73662c6a69a18ae14089cac77c31213460,/,/,    Update DOAP with Maven 3.8.4 release,/,/
+ed3279809cad6c77cd8e5c217230c612d1222d9a,/,/,    Update DOAP with Maven 3.8.3 release,/,/
+f43f9f8a3bcd5167e75b38c930df1d9ac9bbfa08,MNG-7332,Task,Remove --define CLI option,Command Line,Minor
+19c3b917b3604f93fef0583a08e70f8695d3a359,MNG-7331,Dependency upgrade,Upgrade Jansi to 2.4.0,None,Major
+a5f1bca9efdb19b6a04db9e31101c55d40a34559,/,/,    improve documentation,/,/
+5c36bf5ef78a162cefea47ccdaf0d28e01c1426c,MNG-7312,Task,Revert ThreadLocal approach from MNG-6843 and MNG-7251,Dependencies,Major
+ ,MNG-7251,Bug,Fix threadLocalArtifactsHolder leaking into cloned project,Dependencies,Critical
+ ,MNG-6843,Bug,Parallel build fails due to missing JAR artifacts in compilePath,Core,Major
+ffc2b99e3eebdeba77fa0fc8ec97a469ae75d148,MNG-6389,Improvement,Move the toolchains model to a separate artifactId,Toolchains,Major
+fb5f3f5b0f36d3232b0193c1d9b33fd0b36b9601,MNG-7270,Bug,Maven startup script (init) calls which(1) which is an external command,Command Line,Minor
+e50d65d228fb2bda72a8b79470918b9f9649f39c,MNG-7295,Sub-task,Remove redundant/unused import statements.,None,Minor
+d75bea415457b2eba7815bb9c3e9cd4e14b47fce,MNG-7279,Task,Drop PluginParameterExpressionEvaluator deprecated ctor,Core,Major
+35e5a4d71db9f3bf6490998b51ec50827caa6141,MNG-5577,Improvement,Convert the core to use JSR 330 and remove the use of Plexus,None,Major
+25cf1576cc9d5a94bc293fa3e79bfbd4091d5e33,MNG-7271,Task,Code Improvement,Core,Minor
+0a6bbb8301717d386e6588a7ea32e3e2451c7060,MNG-7235,Improvement,Speed improvements when calculating the sorted project graph,None,Major
+9735fffd983d052b99feff2663d38359774df5e3,/,/,"    added an ""ignore"" option for checksumPolicy in documents",/,/
+8882a9c599013182e42f0c7c321396c23b84dbe0,MNG-7164,New Feature,Add constructor MojoExecutionException(Throwable),Plugin API,Minor
+f50de4ce9edf333e844ddd3af92e34f3eac90606,MNG-7210,Task,Deprecate mavenrc_{pre post}.{bat cmd} scripts,Command Line,Major
+ab54d17dc2ec355c1e002e8751739edd9a96fcc3,MNG-7253,Bug,Relocation message is never shown,Core,Major
+8c297e93a3d4d4e41130b87fa24271194eabdded,MNG-7254,Task,Expand Windows native libraries for Jansi due to JDK-8195129 (workaround),Embedding,Major
+93f9e85955abb40bb090bad689f15fa9969ef9ba,MNG-7045,Bug,Drop CDI API from Maven,Core,Major
+23ffe3349f92cd5bb9a8ba0111a7ab9761b2e72c,MNG-7236,Improvement,The DefaultPluginVersionResolver should cache results for the session,None,Major
+1ea42b0371f1bc99a4e0629c3734ad4ccfc0dcbd,MNG-7219,Bug,[Regression] plexus-cipher missing from transitive dependencies,Dependencies,Major
+6b6589bf1ca4d322716992ea4b279d0f5cbc21c0,MNG-7219,Bug,[Regression] plexus-cipher missing from transitive dependencies,Dependencies,Major
+4e5b3d55545e5f03f05ac7b0cd1b56689df36201,MNG-7251,Bug,Fix threadLocalArtifactsHolder leaking into cloned project,Dependencies,Critical
+a6e462b53a4b6c87ef43f6cfe7fbde0b0939e3d6,MNG-7251,Bug,Fix threadLocalArtifactsHolder leaking into cloned project,Dependencies,Critical
+e08834b79e9387811ece442f6e7b445b19110fcf,MNG-7250,Dependency upgrade,Upgrade Sisu Inject/Plexus to 0.3.5,Dependencies,Major
+406c525ec45da466387dbf19f7fd8ed1d9885e66,MNG-7250,Dependency upgrade,Upgrade Sisu Inject/Plexus to 0.3.5,Dependencies,Major
+383cabf9e4992eeff36c9b5731d95bafa72398d3,MNG-7216,Bug,Revert MNG-7170,Sites &amp;amp; Reporting,Critical
+aa30d9690b7eed1674bdf9d3eb5f858dc4da1630,MNG-7247,Dependency upgrade,Upgrade Maven Resolver to 1.7.2,Dependencies,Major
+c76c9d9116b4626c20abe26c025623797249f997,MNG-7246,Dependency upgrade,Upgrade Plexus Cipher and Sec Dispatcher to 2.0,Dependencies,Major
+76d7f58a61eb6aea8d2e8b78551e5d500cc74f6e,MNG-7226,Bug,DefaultModelBuilder.buildRawModel fails as it ignores pom file,Core,Blocker
+547dfddb2ef02f44d9f2d0730348eaedfcd2e126,/,/,    Improve license handling,/,/
+f594c0b9166c4c54ffb148a76bd0dbc1af425529,MNG-5669,Bug,same pom.xml is read multiple times,None,Major
+4dc115967a9ac1522fe01d33de1a3279d52a559a,/,/,    Fix DOAP,/,/
+0137f35c1bbc3a3dadd07af105df66bd1293d5e5,/,/,    Document Maven 3.8.2 release,/,/
+ea98e05a04480131370aa0c110b8c54cf726c06f,/,/,    [maven-release-plugin] prepare release maven-3.8.2,/,/
+ef62d7a4bd57cdd315dfa187780790e3449321aa,/,/,    Merge pull request #516 from aheritier/ci-maven,/,/
+7ecdb3c970d71de3e48fe4de691388868ac03630,MNG-7198,Dependency upgrade,Upgrade SLF4J to 1.7.32,None,Major
+6c67c9d0a6b7a717a2e5718a770638b9fcc0fbe3,MNG-7197,Task,Simplify exit code handling in Windows command startup script,Command Line,Major
+51f6d8b8525d8bf218f70100ec99a7ae97097923,MNG-7196,Dependency upgrade,Upgrade Jansi to 2.3.4,None,Major
+021e53f62718aed169ea7927242d8790d91f94d4,MNG-7196,Dependency upgrade,Upgrade Jansi to 2.3.4,None,Major
+f32eb09892686cba083f9f175b3c8eac0ac42ae7,MNG-7010,Improvement,Omit &quot;NB: JAVA_HOME should point to a JDK not a JRE&quot; except when that is the problem,None,Minor
+a2ab329edc51c1f59493babc4f0f3d4b246a0c36,/,/,    Warn also on Windows when JAVA_HOME isn't set,/,/
+22a8cfa05976b23284388675dcabd7e5e8037fb0,MNG-6648,Bug,&apos;mavenrc_pre&apos; script does not receive arguments like mavenrc in Bourne shell does,Command Line,Major
+f7a775b79a195b5649c8c0309b673a4d5bdcf1c1,MNG-6648,Bug,&apos;mavenrc_pre&apos; script does not receive arguments like mavenrc in Bourne shell does,Command Line,Major
+b74199ed446c83282ad806afaf962a7f74eac0ea,MNG-7034,Bug,StackOverflowError thrown if a cycle exists in BOM imports,Core,Major
+f582ce88fc5f6db10f631959bab5acfbe1f58bb5,MNG-7047,Improvement,Validate that repo configuration does not contain any expression,Inheritance and Interpolation,Minor
+c395ca976dc9eaed65dcdc0037508d1edbfb57f3,MNG-7190,Improvement,Load mavenrc from /usr/local/etc also in Bourne shell script,Command Line,Major
+2321e03a9415c8edd59f67e22174bf60ec457e66,MNG-7190,Improvement,Load mavenrc from /usr/local/etc also in Bourne shell script,Command Line,Major
+25df095829bff8a1744db7dbf1ddd14aa1f8d43f,MNG-7190,Improvement,Load mavenrc from /usr/local/etc also in Bourne shell script,Command Line,Major
+94df4a819a773833294874c02a7f01165f8a8ccc,/,/,    Apply consistent formatting,/,/
+268f9565746175f5900670e372092e0c071d85bd,/,/,    Use proper term: directory,/,/
+e8b9cada65dbb527a0b19119745581c6b61a22f8,/,/,    Wrap line in consistency with Command script,/,/
+176b272f30c4fbd62013b4702ab28518c21628ac,MNG-7185,Improvement,Describe explicit and recommended version for VersionRange.createFromVersionSpec(),None,Minor
+e29a6610865f674f6d9b856c03d156074d0d2df8,MNG-7185,Improvement,Describe explicit and recommended version for VersionRange.createFromVersionSpec(),None,Minor
+0635e92665cbd247a4144c328321b0e9f058398e,MNG-7184,Task,document .mavenrc/maven_pre.bat|cmd scripts and MAVEN_SKIP_RC environment variable,Command Line,Major
+a7010c55e17c586f4c1c790db197b982ef279020,MNG-6840,Dependency upgrade,Upgrade commons-lang3 to 3.12.0,Core,Trivial
+7a8acdd8e66de81b4f7f918905976191837bf147,MNG-7181,Improvement,Make --version support -q,Command Line,Major
+1fc605dd69f99e91e0685a4f4ba279d2fd2eed21,MNG-7181,Improvement,Make --version support -q,Command Line,Major
+7b355f72235c0bd26b872601b38a493ed1cc518b,MNG-7180,Improvement,Make --color option behave more like BSD/GNU grep&apos;s --color option,None,Major
+367093390e1b1bd00b7bbfb009883fb4e0ec330f,/,/,    Add new ignores,/,/
+7358b084b120e28f42b5ae37b1c298ba123e2a5e,/,/,    Add new ignores,/,/
+78fc3734f9325be818b1bf4aa9fc7d8f715a851a,/,/,    Trim trailing whitespace,/,/
+8b693cc992ff4a5947babecd222fbebf7516e677,/,/,    Document hacks as such,/,/
+b551be7445d37e4ba99bf4b976f7c61d6ac52ed8,/,/,    Document hacks as such,/,/
+5a8997312680a4b9c69a129801524691bc546c08,MNG-7170,Improvement,Allow to associate pomFile/${basedir} with DefaultProjectBuilder.build(ModelSource  ...),Core,Major
+ ,MNG-5669,Bug,same pom.xml is read multiple times,None,Major
+cbaf7f7b48c35867142e83f3573e51724ebe6ae5,/,/,    Change @since from 3.7.0 to 4.0.0,/,/
+66a43813770cd7dee9eb1ed0372e3f784ba0c541,MNG-5868,Bug,Adding serval times the same artifact via MavenProjectHelper (attachArtifact) keep adding to the List duplicate artifacts,Core,Major
+12f3e7e878e3a22a696f7ba9b5c615d520807afb,/,/,    Remove maven-test-support in favor of plexus-testing,/,/
+d6c9614fa922027be8453c507c948f3727a91327,MNG-7117,New Feature,Add support for blocking mirrors,None,Major
+a20230829c1624cfea89caef87d7b213f51971d6,MNG-6915,Improvement,Maven console output could be wider,Command Line,Minor
+cfe05372b76217f0439e153e5b29053620e591a0,MNG-7155,Bug,make sources jar reproducible (upgrade maven-source-plugin to 3.2.1),None,Major
+fc806a25eb2aa22d15c5fd1b7a31f52c7202112e,MNG-7151,Dependency upgrade,Upgrade Maven Resolver to 1.7.0,Dependencies,Major
+fbec4e7b3dbd68905d29b61e7c72019850b92da3,MNG-7152,Dependency upgrade,Upgrade Maven Resolver to 1.6.3,Dependencies,Major
+e25cf17d3be614b52eff677ff075bbb620f07160,MNG-6656,New Feature,Introduce base for build/consumer process,POM,Major
+22954a04ffb631fefbf0e75cd056840d1248954a,MNG-6656,New Feature,Introduce base for build/consumer process,POM,Major
+7c742c298b60f60b1f8b92e43e4952ee128a4cd0,MNG-7112,Improvement,#NAME?,Reactor and Workspace,Major
+05c21c65bdfed0f71a2f2ada8b84da59348c4c5d,/,/,    [maven-release-plugin] prepare release maven-3.8.1,/,/
+1ab29f548535cb512d0e4726308b32fe4284e6ba,MNG-7128,Bug,Improve error message when blocked repository defined in build POM,None,Major
+a46906806a31edb462b935e380a657b6efde6231,/,/,    next version in branch 3.8.x is 3.8.1-SNAPSHOT,/,/
+a02834611bad3442ad073b10f1dee2322916f1f3,MNG-7102,Bug,Align exclude project behavior to include project behavior when using --project-list,Reactor and Workspace,Major
+6aa1f4acf5d6323e9aa08b763cb9933dc96749b9,/,/,    [maven-release-plugin] prepare release maven-3.8.0,/,/
+1e198050975b80f48c835ef51045c5bd9f835217,MNG-6075,Task,Increase the model validation level to the next minor level version,None,Critical
+e5f6634e17362387282b3867c9b23d4b54fea871,/,/,    use Maven Resolver 1.6.2,/,/
+612dfddd26fbb4a403b027b9c246f8f11ccea7d9,MNG-3220,New Feature,Allow managed dependencies to be imported into other projects,Dependencies,Major
+09f77da9b0c39848fe763bdd4a392151eec0d8c3,MNG-7119,Dependency upgrade,Upgrade Maven Wagon to 3.4.3,Artifacts and Repositories,Major
+d87a1f5325488f51077619e0410b5d3d16f63f61,MNG-7119,Dependency upgrade,Upgrade Maven Wagon to 3.4.3,Artifacts and Repositories,Major
+e2891667dda38857ce0b269c0fb097408cca2eea,/,/,    Bump version to 3.8.0-SNAPSHOT,/,/
+bb916d0784c7631866167928e4d0615df3317567,MNG-7035,Task,Migrate unit tests to Unit 5,None,Major
+a5b292ddf8042b75d5707024dbe69c53bb2bfd5b,MNG-6118,Improvement,Allow resolving inter-module dependencies when using --file,Plugins and Lifecycle,Major
+4bdbc9bd80887af2fd02bacddd54dc48dcc44718,MNG-6863,Improvement,#NAME?,Command Line,Minor
+ ,MNG-6676,Improvement,Resume reactor build after skipped project using -pl !X -rf X combination,Core,Major
+0f519b4af49a5c4484b193cb445dfd63e470ebdc,MNG-5577,Improvement,Convert the core to use JSR 330 and remove the use of Plexus,None,Major
+e183080273a5de9cead0c0622bb5dce7ab9308d0,MNG-6866,Improvement,PluginDescriptorBuilder build method very long,Core,Minor
+f6c07d9358252bb4e9b0ad13c2729c6a42d0a4e8,MNG-6863,Improvement,#NAME?,Command Line,Minor
+ ,MNG-6676,Improvement,Resume reactor build after skipped project using -pl !X -rf X combination,Core,Major
+b962ff361aee64a291db588e9f88d86c5f9dee0c,MNG-5577,Improvement,Convert the core to use JSR 330 and remove the use of Plexus,None,Major
+d2510749d8c6677e8aa5db84f15a6e0075bab840,MNG-6065,Improvement,Creating option --fail-on-severity / -fos to support errorless or warningless builds,None,Major

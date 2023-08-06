@@ -1,0 +1,1328 @@
+c4d346b0a413a1a62e028dd3be40071523203a58,/,/,    [maven-release-plugin] prepare release calcite-1.6.0,/,/,0
+df5ec6dd286ed436e52b89be36d56ba6ae66051e,/,/,    Add release notes for version 1.6.0,/,/,0
+62576556abd0467eba7c964a90b9dc2178807f7a,CALCITE-1060,Bug,Java level deadlock when initializing remote driver,core,Major,1
+af77ec861989c50229c55be1889efcb0031cfd32,CALCITE-1057,Improvement,Add RelMetadataProvider parameter to standard planner Programs,None,Minor,1
+cecef9d3209cbd092a6e9b578bc063a52007b99f,CALCITE-1055,Bug,SubQueryRemoveRule should create Correlate  not Join  for correlated sub-queries,None,Major,1
+898fdfc2720770ec4752fb702ce0aae1521aa07d,CALCITE-978,Bug,Make ReduceExpressionsRule extensible to transform false filter in schema-on-read case ,None,Major,1
+ee283cadf17d8add8e8ea2bf1f8dd5735f05dc1d,CALCITE-1058,Bug,Add method RelBuilder.empty  and rewrite LIMIT 0 to it,None,Major,1
+3cba7055061108ce0e079d8756bcfb020b8628c3,CALCITE-1047,Bug,ChunkList.clear throws AssertionError,core,Major,1
+2712d7dafc1b724c33b0c29846666c1903d5afb2,CALCITE-1053,Bug,Test occasionally hanging around use of ReflectiveRelMetadataProvider,core,Major,1
+5323d8d48baa2d7bc8dea8b03bc0bda93563e0f9,CALCITE-977,Bug,Make the Executor (for constant reduction) configurable in FrameworkConfig,None,Major,1
+e15f89e5823104f0890ee92675cc0da45dcec4ca,/,/,    Upgrade toolbox  to fix line length issue on Windows,/,/,0
+b4b04d29cb63ceea123ec41dd3247a0555f9c150,CALCITE-1051,Bug,Underflow exception occurs when executing query which has an in-clause with more than 19 ids,None,Minor,1
+361096ba1d0436f588e4c7a3290560059882223f,CALCITE-1040,Bug,ColumnValue and TypedValue are unnecessarily both repeated,avatica,Major,1
+0045e01f6178df5bcc8caf780040f3cff159bb20,CALCITE-975,Bug,PlannerImpl.validate() should return validated row type,None,Major,1
+a67b4a976bef6c104212732c6a8f8ce364c372ba,CALCITE-996,Improvement,Predicate should be simplified when we create a Filter operator,core,Minor,1
+ebcba3b5ca98d8f894000494a3858ba5a4a269a9,CALCITE-1020,Improvement,Add MILLISECOND in TimeUnit,None,Major,1
+cabdcf44e4aec4d4ceea7f97c8c6fd9e9dbd36b1,CALCITE-794,Bug,Detect cycles when computing statistics,None,Major,1
+2cef85941359c530e7f0ed40265ce3c6f9db6bf8,/,/,    Tune algorithm that deduces the return type of AND expression,/,/,0
+cd92b77c476f7b095b330507402bfc6c3208e300,/,/,    Fix NullPointerException in SqlJoin.toString,/,/,0
+239babd8fc26bf35be96a77fbfbea379138f3a37,/,/,    Add ImmutableBitSet.rebuild(),/,/,0
+c104c75bdf6d663070cf16b5ab0f94f8c269c9b6,CALCITE-915,Bug,Tests do not unset ThreadLocal values on exit,None,Major,1
+7837e64c3294aa776ca38cba3f756550af3494ab,/,/,    Simplify RexProgram  in particular "(NOT CASE ... END) IS TRUE"  which occurs in NOT IN,/,/,0
+4762b889699f5fb963749dca8b3106c17f44f2a9,CALCITE-854,Bug,Implement UNNEST ... WITH ORDINALITY,None,Major,1
+8bc5f8538f5c284e93ddc4ecfb59dab9458117f7,CALCITE-1036,Bug,DiffRepository should not insert new resources at the end of the repository,None,Major,1
+b5b28f0b2d263a2e2fb6894d67c8666549f4d053,/,/,    RelBuilder.project now does nothing if asked to project the identity with the same field names,/,/,0
+4ae0298688d402484be7c76610e46c6f610a8bc6,/,/,    Deprecate some Util methods  and upgrade last modules to JDK 1.7,/,/,0
+77e6f49c680cd154195e9e66c19356f0a2251bad,CALCITE-897,Bug,Enable debugging using &quot;-Dcalcite.debug&quot;,None,Minor,1
+970a8ca9130111d9ed3425e6ef74d9c86f43c54a,/,/,    Document RelOptPredicateList,/,/,0
+b1fdd1280aafc883d7e088d5527621a789f6170d,/,/,    Add ImmutableNullableList.copyOf(Iterable),/,/,0
+ba1eee121c52ab0c2891fd4faa423e0a55f5b5f9,/,/,    Fix "endPosTable already set" from javac,/,/,0
+4a29b3ccf64e9a7d1534f540fd7f6d3d813605a0,/,/,    Add benchmark of Parser.create(sql).parseQuery(),/,/,0
+b94a00e335d0378ec912cb029f407abf811aaa12,CALCITE-861,Bug,Fix or document issue where first time user cannot use mvn compile,None,Major,1
+894dd9b522228f43d26eba8fabcf244a33029d19,/,/,    Fix RelToSqlConverterTest on Windows,/,/,0
+efb668bb58cdc85e85facba3ec2365549778eee8,CALCITE-1042,Bug,Ensure that FILTER is BOOLEAN NOT NULL,None,Major,1
+904c73da60b9f9deec61ea34d89ada3462381f93,CALCITE-1038,Bug,Obsolete AggregateConstantKeyRule,None,Major,1
+808d540b3df47d98b25eeb83ee8f407909ba8c3a,CALCITE-923,Bug,Type mismatch when converting LEFT join to INNER,None,Major,1
+39f505fa9def053be54b548c030acb3e3973aa02,CALCITE-1030,Bug,Json ModelHandler calling SchemaPlus.setCacheEnabled() causes UnsupportedOperationException when using SimpleCalciteSchema,None,Minor,1
+05fbd126b469bda718d75a3b3b3e79af819bf8b5,CALCITE-1028,Improvement,Move populate materializations after sql-to-rel conversion,None,Minor,1
+f0899a69372ed8eddc714c5dfd53d208a935ef23,CALCITE-989,Improvement,Provide generic server metadata in responses,avatica,Major,1
+c8709f3874740f198b7423d1acc7d31b423725a3,CALCITE-1034,Bug,Use a custom checker for code style rules that Checkstyle cannot express,None,Major,1
+60b2825c8a49c62ea3caf2212521809ebc545bd8,CALCITE-1033,Improvement,Create Avatica message documentation for protobufs,site,Major,1
+e7bbcec8f451dbc2b02434eba6d17138e1d44e6e,CALCITE-1029,Improvement,Add &quot;purpose&quot; explanations to Avatica JSON docs,site,Major,1
+eaa35a41b4df6474c50e4b7437d8c1834265661f,CALCITE-1032,Bug,Verify javadoc of private methods,None,Major,1
+1c5eddd0494f8b292736a4c6e300da4c697235f0,CALCITE-984,Improvement,Missing Avatica RPC docs: ExecuteRequest  SyncResultsRequest  OpenConnectionRequest,avatica,Major,1
+1bbb6a2b97bf3da149c5f878b2d59ceafa737521,CALCITE-934,Bug,Use ephemeral port for CalciteRemoteDriverTest,core,Trivial,1
+322b97300d460cf7c98b6002e4f0d5dab455f188,CALCITE-767,Improvement,Commit functionality not exposed by the RPC server,avatica,Major,1
+82fd259c64e94eb58bf163183871e1c9d6332b62,CALCITE-1010,Bug,Support FETCH/LIMIT and OFFSET in RelToSqlConverter,None,Major,1
+f12aa72ec79f8300be6441c1afd83c908f9fe0be,CALCITE-1015,Bug,OFFSET 0 causes AssertionError,core,Major,1
+5197a714705c7bfaa6a46a0907267b47870b18d1,CALCITE-1023,Bug,Planner rule that removes Aggregate keys that are constant,None,Major,1
+d55ff83ff3a45b6adffb840daefac3cd2aea34e5,CALCITE-1024,Bug,In a planner test  if a rule should have no effect  state that explicitly,None,Major,1
+02e7ad61321f9690b41cc1c93c6b9c92fb925451,CALCITE-1016,Bug,&quot;GROUP BY constant&quot; on empty relation should return 0 rows,None,Major,1
+8c2bc8f16b7b26fed7a53aa06f940341dea18219,CALCITE-1022,Bug,Rename &quot;.oq&quot; Quidem files to &quot;.iq&quot;,None,Major,1
+84b55ef5877f947548bb19ce1133fb0abd9a6d29,CALCITE-1018,Bug,SortJoinTransposeRule not firing due to getMaxRowCount(RelSubset) returning null,None,Major,1
+352aaeade9c9b1d99710009e0509cfe8ddfdb698,CALCITE-1019,Bug,RelMdUtil.checkInputForCollationAndLimit() was wrong with alreadySorted check,None,Minor,1
+83fedf32ff1017a157e983bd94faff3d2a4dc482,/,/,    Formatting; remove tabs,/,/,0
+963ba1b1b3d2ab95989d8383e0a855c3ae5e24cb,CALCITE-980,Bug,Not (C=&apos;a&apos; or C=&apos;b&apos;) as well as Not (C=&apos;a&apos; and C=&apos;b&apos;) causes NPE,None,Major,1
+eedd3dc4cc2c28eb05bc42edeaaeb196920da864,/,/,    Deduce dialect's null collation from DatabaseMetaData,/,/,0
+a8a8878da1d3f9a1847ca2f39747cd37af890571,CALCITE-1003,Improvement,Add Utility to convert RelNode to SqlNode,core,Minor,1
+fa08c46d3f9b1d5bb6f8f2772effb76d02cecb9a,CALCITE-459,Bug,TokenMgrError parsing error when the query terminates a single-line comment without newline,None,Major,1
+a850c41e2da262234475ec56383457475e9fabee,CALCITE-1009,Bug,SelfPopulatingList is not thread-safe,None,Major,1
+de3880298b180a38013c2a748758c863082ac272,CALCITE-992,Sub-task,Validate and resolve sequence reference as a Table object,None,Major,1
+937fc461a375818921e8147c2d23e26b7e8dfca0,CALCITE-968,New Feature,Support stream joins,stream,Major,1
+e9d506021252e1da6c09cebad3f747cd0e627d90,CALCITE-968,New Feature,Support stream joins,stream,Major,1
+9c86556ff397f2548bffe90e7e338774d329211d,CALCITE-1008,Bug,Replace Closeable with AutoCloseable,None,Major,1
+8281668fbf7b5f1cc5f64796ebe1604ae634510d,/,/,    Not safe to use '=' for predicates on constant expressions that might be null,/,/,0
+9be2bdb96a0f40de463ab867ab8232712c544ed8,CALCITE-993,Bug,Predicate Pull up above Project enhancement,core,Major,1
+b0fa9f379a2ed4426130bc565c55af74becbcd25,CALCITE-1005,Bug,NullPointerException in getMaxRowCount for Aggregate,core,Major,1
+cd58fe73f29dd576ac2525f22c34e9b3d4df1913,CALCITE-983,Bug,NPE in ErrorResponse construction,avatica,Major,1
+d259cad23d396cef213f6e773f2e22e205f4230c,CALCITE-989,Improvement,Provide generic server metadata in responses,avatica,Major,1
+14419d8c360da8bdfa9d29f8c1d2fff357106db0,CALCITE-1001,Bug,Upgrade to quidem-0.7,None,Major,1
+6c35f3b81c0dc9d37897dd7304098204e96ee883,CALCITE-997,Bug,Document keywords,avatica,Major,1
+3be816f450450e8e43286e6ea208af6e30520146,CALCITE-989,Improvement,Provide generic server metadata in responses,avatica,Major,1
+24b074715c2663d78c0b2a2d42e0711c733b1f40,CALCITE-987,Bug,Push limit 0 will result in an infinite loop,core,Major,1
+d3c5acd3a95e1926e0985e99a2d802a60e096b32,CALCITE-966,Bug,VolcanoPlanner should clear ruleNames in order to avoid rule name conflicting error,core,Minor,1
+3e49bc4384ae51732f8b3589c4a0db77001f1890,CALCITE-995,Bug,Sort transpose rules might fall in an infinite loop,core,Major,1
+33f737ea4fe2bc84b5df7c9df024359c9d1178d2,CALCITE-987,Bug,Push limit 0 will result in an infinite loop,core,Major,1
+f155666156c26fa43e4191af43ad99a779aad5b0,CALCITE-988,Bug,FilterToProjectUnifyRule.invert(MutableRel  MutableRel  MutableProject) works incorrectly,None,Minor,1
+4e61eae560f5e2e46ca96a1002522cd1a3317a4e,CALCITE-974,Bug,Exception while validating DELETE,core,Major,1
+737846ee992cbeb6513075fdda5d99b42b6cf515,CALCITE-974,Bug,Exception while validating DELETE,core,Major,1
+8cd8ad9259bbab48b8794e6033eafddc2d611698,CALCITE-979,Bug,Broken links in web site,None,Major,1
+c7809245478a74b3e574f2899589d83dfb27817f,CALCITE-958,Bug,Overloaded Table Functions with named arguments,None,Major,1
+19a67e1de28dcb7576589222f79c804a3b81975c,CALCITE-970,Bug,If NULLS FIRST/LAST not specified  sort NULL values HIGH,None,Major,1
+80bbb5bf2a53612be6bf2e6f086141e84c5e9a61,CALCITE-969,Bug,Composite EnumerableSort with DESC wrongly sorts NULL values low,None,Major,1
+10830827e9360b7e181fb20993275927469a7d0d,CALCITE-965,Improvement,Add links to download page from News pages,None,Major,1
+bb333e20519ae6299a8adf235dc1bcc82a1cb9a2,CALCITE-964,Bug,Rename &quot;timezone&quot; connection property to &quot;timeZone&quot;,None,Major,1
+05e099f3986e7e52c6213e26e9e9d8044987e9f6,CALCITE-961,Bug,Web site: Add downloads and Apache navigation links,None,Major,1
+7dd2142065f0348fe9ce89974b4a5751330452e3,CALCITE-960,Bug,Download links for pgp  md5  KEYS files  and direct from mirrors,None,Major,1
+d1c72b80c67814f670a3d87580f44f913c4eb0e5,CALCITE-962,Bug,Server-side exception (stack trace) not propagated in JdbcMeta.propagate,avatica,Major,1
+f22ecfa54958c7d812c50720dd1ef1bfb7f943b5,CALCITE-959,Improvement,Add description to SortProjectTransposeRule&apos;s constructor,None,Minor,1
+248987badd2efb255495c2afaa2101d2bc72cd0f,/,/,    Remove embedded date-stamps from javadoc; add javadoc for test classes,/,/,0
+55e25ed90aff08736a3871ff484d08de8348feda,/,/,    Release note Calcite-1.5.0 (addendum),/,/,0
+4418d0b9f0aa074bc297df8e82f6940bddbb53d5,/,/,    Release note Calcite-1.5.0,/,/,0
+8eebfc6d169421509e5d4792a18917fcb6c44efb,/,/,    [maven-release-plugin] prepare release calcite-1.7.0,/,/,0
+cc0d904fdb926c726f38be7c311c282fc43f9da9,/,/,    Release notes,/,/,0
+500e2dc9f916e558a0dfaadde449436c4ed10425,/,/,    Fix javadoc errors,/,/,0
+68a17fc91bcec738907e980c9ea3f97e44e875cf,CALCITE-1158,Bug,Make AggregateRemoveRule extensible,None,Major,1
+0ad58ed624dfad43bfcd26881588a9d3482397c1,/,/,    Add test case for [DRILL-4407] GROUP BY subquery causes Java NPE,/,/,0
+3a54e54fadfcf383693555ac753e88edb8f3f5d6,CALCITE-1116,Improvement,Extend simplify for reducing expressions,core,Major,1
+94f8837c4974edc33e58b16b9ee2f061125b9b60,CALCITE-1147,Bug,Allow multiple providers for the same kind of metadata,None,Major,1
+22aa8a8072bd98d4d81d17aad7db5a972e03478e,CALCITE-1153,Bug,Invalid CAST when push JOIN down to Oracle,core,Major,1
+9dd4993ad2ae41e0309eb2631af1a91e64f693e7,CALCITE-1153,Bug,Invalid CAST when push JOIN down to Oracle,core,Major,1
+caa1cd326f545ee120aa34ae3abb480a30f2a3b4,CALCITE-1146,Bug,Wrong with model-with-view.json in csv example,None,Minor,1
+5e3db15392cc928a0096cfc3d8fd11c0db1f2784,CALCITE-1077,Task,Separate Avatica from &quot;core&quot; Calcite build,avatica,Major,1
+c2d84abd3877a51bae0d0d5a68fe55f744f2cbcf,CALCITE-1077,Task,Separate Avatica from &quot;core&quot; Calcite build,avatica,Major,1
+1567ca7abb07d73dc9ba08078d74dc70da61a86e,CALCITE-1156,Task,Bump jetty version,avatica,Major,1
+ccb4867518bb11cace50cca64bc20aa0a832ce44,CALCITE-1124,Improvement,Add support for timestampadd / timestampdiff functions,core,Major,1
+d739a1a259949857d3c9f09e3be4f26906693043,/,/,    [maven-release-plugin] prepare for next development iteration,/,/,0
+11cb0a895178400289ddd09274ad6569413ae5f9,/,/,    [maven-release-plugin] prepare release calcite-avatica-1.7.1,/,/,0
+dcfbc4a543a10b902f2a6d15e524953beb76da3e,CALCITE-1156,Task,Bump jetty version,avatica,Major,1
+7ad5ae26794653b133c0e13c395666c0336b2a45,/,/,    Fix branch-avatica-1.7 version,/,/,0
+a5d26f8694d6c0c54e0725fd69cc75e5f982bac2,/,/,    [maven-release-plugin] prepare for next development iteration,/,/,0
+48b7de5a1e9e0dc9a81f57b084227b0b075cbb65,/,/,    [maven-release-plugin] prepare release calcite-avatica-1.7.0,/,/,0
+39b30bd111154b4b28489a5940e2c88ec4588d3f,CALCITE-1142,Sub-task,Create a README.md for Avatica,avatica,Major,1
+6c9c3d66f0bf849096d9cf18e348c7369db07eb3,CALCITE-1144,Sub-task,Fix Avatica LICENSE file,avatica,Major,1
+b30e570fa0f250e0bcaef9cf680af0fa335d3855,CALCITE-1143,Sub-task,Remove incorrect NOTICE paragraph in Avatica,avatica,Major,1
+67d23ba81e57ce2aca86d7d995ed44bddc5f8cc3,CALCITE-1139,Sub-task,Add KEYS file to maintain consistency with Calcite build,avatica,Major,1
+47369e33dead25b5530696554cd9d1d7dbb7fb80,CALCITE-1141,Sub-task,Update minor.version from 6 to 7,avatica,Major,1
+816adb1f5b90508d132f9f22941d33a9bc5436bd,CALCITE-1140,Sub-task,Update website properly for Avatica 1.7.0,avatica,Major,1
+aacb2375e2e65249d300c847c712f342d93e6d9e,CALCITE-1104,Improvement,Materialized view support for Cassandra adapter,None,Minor,1
+b58200bcfe1eda02c7c73f59adc1ddcc6495075e,CALCITE-1137,Sub-task,Exclude Avatica from calcite src release assembly descriptor,build,Major,1
+d1bbc0abba482986cf27da3d981fe4e37058db70,CALCITE-1136,Sub-task,RAT check failure on Calcite due to avatica directory,build,Major,1
+48415a80b8f7f5763cbc3ba4e90c59e3dbeca389,CALCITE-1064,Bug,Unnecessary maven-remote-resources-plugin configuration,build,Minor,1
+83a8e883a9a50b618d5892aa708f55a5dd1bd169,CALCITE-1133,Task,Remove dropwizard reporter for Hadoop Metrics2,None,Major,1
+6b91297893f3cd2bf16431bcc51130f3741c579a,CALCITE-1132,Sub-task,Update artifactId and name for avatica modules,build,Major,1
+7901eda051dc756ba5a985d1cf2fed1942459281,CALCITE-1064,Bug,Unnecessary maven-remote-resources-plugin configuration,build,Minor,1
+82c3b293b172364058cc29dada5794659db4e389,CALCITE-1130,Improvement,Add unary operator support for IS_NULL and IS_NOT_NULL to RexImplicationChecker,None,Major,1
+50c4b0619af94ae82bc461d9598d24b3b5e0ec21,CALCITE-1129,Improvement,Extend JoinUnionTransposeRule to match Union instead of LogicalUnion,core,Minor,1
+cf5d07bde81a7c6a82bdab34ec798d0bf01ac01c,/,/,    In TimeUnit add WEEK  QUARTER  MICROSECOND values  and change type of multiplier,/,/,0
+eead3d21b0ef18f05029cefbb6b4fb888e75c548,/,/,    Update groupId when Calcite POMs reference Avatica modules,/,/,0
+9c62adac2a218b428e322e8467263cec0ed9874b,/,/,    Deprecate SqlLiteral.SqlSymbol; SqlSymbol can now wrap any Enum,/,/,0
+a547222bd331640c38b1ab474085f64f0242db98,/,/,    Instructions for Avatica site,/,/,0
+d3f1969cb3bc16c4b1461c32c9238593f6ba6f17,/,/,    New logo and color scheme for Avatica site,/,/,0
+749b236c0ec72b02439403e44b29427e837e6704,CALCITE-1123,Sub-task,Update CI tasks for new Avatica location,build,Major,1
+65f2afa7add341c614cb59fb80f93da5e575e96a,CALCITE-1079,Sub-task,Update website for Avatica,avatica,Major,1
+5464f3329ee42106ababde679b005e6eaa6a74e1,CALCITE-1112,Bug,Powered by Calcite,None,Major,1
+5897dcd9d59d260a7d2b5c2dde257291fba5f9d1,CALCITE-1111,Bug,Upgrade Guava  and test on a range of Guava versions,None,Major,1
+9cd2f40267d7e4ad385f86cb59e9dc39deefc86d,/,/,    Add SQL-Gremlin to Adapters page,/,/,0
+558e442459215aeb0c4ce9106472679217c27e7c,/,/,    Update copyright year,/,/,0
+c7db615fa3432efeaa55bd3962758d48635c9e5c,CALCITE-1122,Bug,Sqlline.bat is not working in Windows,None,Minor,1
+ec3d8d37c9d38a8f041c2b1b3aa68711c085b939,CALCITE-1117,Sub-task,Use commons httpclient instead of JDK http client,avatica,Major,1
+d27e642c497d406474fd8b543d74836152e8696c,CALCITE-1118,Sub-task,&quot;noop&quot; JDBC driver for benchmarking/testing Avatica,avatica,Major,1
+aecefef8a4420e780737a8f49b72fd146679f2e2,CALCITE-1119,Sub-task,Additional metrics instrumentation,avatica,Major,1
+1d3a26dfac17fea458402a637449007dc095bced,CALCITE-1094,Sub-task,Replace AvaticaUtils.readFully(InputStream)&apos;s use of ByteArrayOutputStream,avatica,Major,1
+0de38aaa38e0dc43d21c0b2dac4278c67c1dc24c,CALCITE-1092,Sub-task,Cache FieldDescriptors when deserializing Protobufs,avatica,Major,1
+ea41b3412f099c8f1051f1b324b1ba03d644962a,CALCITE-1093,Sub-task,Smarter use of List construction,avatica,Major,1
+1a9be678313267963b82888a00878914d372d01c,CALCITE-1086,Sub-task,Statement is unnecessarily sent from client in update (write) path,avatica,Critical,1
+8c90d862179f43ab8855f4ff50cbc1d5968b21a2,CALCITE-1109,Bug,FilterAggregateTransposeRule pushes down filter with incorrect condition.,core,Major,1
+25d1e42a7fb248d24caaaa949779e06056c9916c,CALCITE-1100,Bug,If ReduceExpressionsRule generates the same plan  the original plan stops triggering other rules,core,Major,1
+b916a65b9615b8fff377f6b05991f445d43edf6c,CALCITE-604,Bug,Invoke metadata providers via a class generated at runtime  rather than reflection,None,Major,1
+8cba7fc421488cb27ce0756ecd2d422a71f72650,CALCITE-1063,Bug,Flat lists for 4  5  6 elements,None,Major,1
+884f01066fcc31c0fc10b80e3d891101e4f315a3,CALCITE-1090,Task,Update Streaming page of website,stream,Minor,1
+cbbaddf5449d7547e7550d08caaadf36537cd7fd,/,/,    Add Orinoco schema (streaming retail data)  accessible from Quidem scripts,/,/,0
+f4b4ee115a53c676b81da5390a39705b0996db0b,/,/,    Generating 'site' in travis-ci takes too long,/,/,0
+5fdc866b72739163a6a418ea7aa1a7f68812761e,CALCITE-1097,Bug,Exception when executing query with too  many aggregation columns,core,Major,1
+19cfde74d726e5307276acb071c84441545b976e,/,/,    Add tests for leap days,/,/,0
+20fd6998094bab0ec229cb7749d66fd9d50f2929,/,/,    Appoint Josh Elser to PMC,/,/,0
+d42581d9a56dba377fac5d827c03b5aa12a648b7,/,/,    Add "Streaming SQL" talk,/,/,0
+91887366c40310f2435b2677ac0d9616bed842cb,CALCITE-1080,New Feature,Cassandra adapter,None,Major,1
+95fd04176576958c7766c98945186092ae226764,CALCITE-553,Bug,&quot;mvn clean install&quot; fails due to missing SqlParserImpl,None,Major,1
+8bbef2d6fbba8547adc55dcbb7d5b07a7a5437bc,CALCITE-1031,Bug,In prepared statement  CsvScannableTable.scan is called twice,avatica,Minor,1
+f650bccd1bcb364fc6be9c92214843499bac6843,CALCITE-1046,Bug,Matchers for testing SQL query results,None,Major,1
+de7759112cea3deb8a1c75bcc43753adbe8648de,CALCITE-1085,Improvement,NoopTimer#start should not create a new NoopContext for every invocation,avatica,Minor,1
+72b2cfb799242e0d1d7e6aed8bfe43cceb554c7c,CALCITE-1062,Improvement,Allowing SqlOperator to be overridden in validation,core,Major,1
+670fa73e24a7b72d6ddafd69793474083bb4b9f0,CALCITE-1083,Bug,SqlNode.equalsDeep has O(n ^ 2) performance,None,Major,1
+e0f29dd797229a883d6461e75915cb376dd6b208,CALCITE-623,Bug,Use Jenkins,None,Major,1
+7e348654e47e2fd7cb60682da8589bfabb2318f4,CALCITE-1070,Bug,Upgrade to new Apache logo,None,Major,1
+4dfd6dbb232718ca60b0a4885b6e37194cfdf3c7,CALCITE-1076,Bug,Metadata distribution is broken due to last refactor,core,Major,1
+7e5710fc7459728a667659ea2b66895812ef839f,CALCITE-642,Improvement,Avatica server metrics,avatica,Major,1
+7ce2e62133be221e65d67250ad28809324d055c8,CALCITE-998,Bug,Exception when calling STDDEV_SAMP  STDDEV_POP,core,Major,1
+5324a3988c8ca354c7af771b124762be3002c648,CALCITE-1074,Bug,Please delete old releases from mirroring system,None,Major,1
+ecf4d6dcb4b6fdc40828d0c853ae10abc0550a76,CALCITE-1071,Bug,Improve hash functions,None,Major,1
+7b944ade81f600e74b43f9ab8ef7ce84f05b3e2a,CALCITE-1072,Bug,CSV adapter incorrectly parses TIMESTAMP values after noon,None,Major,1
+446d1122bda239cc928c8c15cd56edc33c4f30bf,/,/,    Add test case for outer join on one-sided condition,/,/,0
+05a57992a45f9aa66db31355aa7733cfadafa1e1,CALCITE-669,Task,Move from Commons Logging to SLF4J,avatica,Minor,1
+f55d10c147746d6299fb713adc184576380a1f49,CALCITE-1068,Bug,Deprecate Stacks,None,Major,1
+4ec47270b199cef58c39f6bf07209c5fb40875ef,CALCITE-1067,Bug,Test failures due to clashing temporary table names,None,Major,1
+82b586040ffbb4a7e46544b39b2dcc165d642430,CALCITE-551,Bug,Sub-query inside aggregate function,None,Major,1
+d80e26c016babcb250e41b0abe94b8b0cfadbbe7,CALCITE-864,Bug,Correlation variable has incorrect row type if it is populated by right side of a Join,None,Major,2
+ ,CALCITE-559,Bug,Correlated scalar subquery in WHERE gives error,None,Major
+999021115689521694754d1c766feda6da467e8d,/,/,    How to announce a release,/,/,0
+6acb28d844e336426ef9b541f6260569e19519e1,CALCITE-1021,Bug,Upgrade Jackson,core,Major,1
+4d58768d35d5accbf7330d10b91f2541b6f1ab38,CALCITE-999,Bug,Clean up maven POM files,None,Major,1
+ee52f691b844d97919a8c0ca211a7c78b86165ef,CALCITE-1056,Bug,Simplify predicate of JOIN  and optimize away LIMIT 0,None,Major,1
+6201013a9a8fe79c234656ec20c5fe524d68b4d5,CALCITE-1059,Bug,Not valid to convert Aggregate with on empty to empty if its GROUP BY key is empty,None,Major,1
+920a6488102747c138cd60064458e5b9c6aa4b29,/,/,    Add news item about release 1.6.0,/,/,0
+aeb6bf146544bf9a4c030df644eda8fe5a370f52,/,/,    [maven-release-plugin] prepare release calcite-1.8.0,/,/,0
+4987d54061783ee5c707a60140b3e367baccdd49,/,/,    Release notes,/,/,0
+d18da01ed88c772f62123e8420cdefc9b5d76daf,CALCITE-1274,Bug,Upgrade Spark adapter to spark-1.6.1,None,Major,1
+ec49a0fa37195bb4b34945b53ce39b27d558d6ab,CALCITE-1281,Bug,Druid adapter wrongly returns all numeric values as int or float,None,Major,1
+435e203028a872933c6d8bd6404ebc445552e599,CALCITE-1276,Bug,In Druid adapter  deduce columns by running a &quot;segmentMetadata&quot; query,druid-adapter,Major,1
+23c8e4588c2c23703cb90ad66e51b90a8a53d7df,CALCITE-1279,Bug,Druid &quot;select&quot; query gives ClassCastException,None,Major,1
+a02da271c2be6f5bf3a226698529748b5ee706ba,CALCITE-1277,Bug,Rat fails on source distribution due to git.properties,None,Major,1
+063f5788bb2eb29311f43f642660a8d56ed1f40e,CALCITE-1273,Bug,Update references to EnumerableTableAccessRel to EnumerableTableScan,None,Major,2
+ ,CALCITE-306,Improvement,Standardize code style for &quot;import package.*;&quot;,None,Trivial
+62db4638af9ffbda249d51d1b47e783db9221e1a,/,/,    Update KEYS,/,/,0
+a4ccb80a91b4592f902e3f34355aa391d6cb4066,CALCITE-1252,1
+e77b86638cc85fe58784c447619a8d4bef9f3940,CALCITE-1230,Bug,Add SQLSTATE reference data as enum SqlState,avatica,Major,1
+2bee6efda617da09b255546ba327dfd51b87a7dd,CALCITE-1248,Task,Release Avatica 1.8,avatica,Major,1
+600f615f86749e9420b20159a3ea6a211eb3bd3e,CALCITE-1248,Task,Release Avatica 1.8,avatica,Major,1
+251035cc7f701ed2c6dd5ca06704a2f55d891076,/,/,    Merge branch 'branch-avatica-1.8',/,/,0
+fa76779106ce975e9893c7cd38678f0ce98d3f27,CALCITE-1151,Bug,Fix SqlSetOption to correctly handle SqlOperator.createCall,None,Major,1
+b5e6663f85f4bed637b406c3590c790845f219d3,CALCITE-1106,Improvement,Expose constructor for ProjectJoinTransposeRule,None,Major,1
+24276d60ae65866018063933d5cb5faca6d202db,CALCITE-1107,Improvement,Make SqlSumEmptyIsZeroAggFunction constructor public,None,Major,1
+8f8790cb0e5cc981025d6c52e41edc684b81ad2b,/,/,    Dependency management,/,/,0
+97945652197cbc80ce5c4ed05d3fc18ee0061e75,CALCITE-1177,Improvement,Support more time units in EXTRACT function,core,Major,1
+80b05c2a931ecf4134c2c7ff73735f36c8989fbe,CALCITE-1259,Bug,Allow connecting to a single schema without writing a model,None,Major,1
+7fe475a8b135d4c91f521d6f519b13188e28a8bb,CALCITE-1269,Bug,Replace IntList with Guava Ints,None,Major,1
+eb02ac3fcef9deb2b16668f5dc06c9a89c0e658e,CALCITE-1239,Bug,Upgrade to avatica-1.8.0,None,Major,1
+e25ceef6f31f9c0989ef695e6599e2f81f1f3556,CALCITE-750,Bug,Allow windowed aggregate on top of regular aggregate,None,Major,1
+918e612bbb4da90ad94b283c1f06cf055102c09e,CALCITE-750,Bug,Allow windowed aggregate on top of regular aggregate,None,Major,1
+514154f3b7e98866670d396bc274b0add0b627ba,/,/,    Cosmetic changes,/,/,0
+15ad615bd9fb24234d911b132a6e9137c36af03d,/,/,    [maven-release-plugin] prepare for next development iteration,/,/,0
+ddfaf079a8a18be63f042069dd56c50dec4d2066,/,/,    [maven-release-plugin] prepare release calcite-avatica-1.8.0-rc1,/,/,0
+ea25b7327e734f93acae85dc60f6188f852bed12,CALCITE-1267,Task,Point to release notes on website in README,site,Trivial,1
+48e434263e526dcfa0c367e523cdc83b5989ab16,CALCITE-1266,Bug,RelBuilder.field gets offsets wrong,None,Major,1
+d757201f155bd0c900725b3ce2776899668fce4d,CALCITE-1250,New Feature,UNNEST should work with MAP data types,core,Minor,1
+2f937c1ba354726a340968a51224131a71017979,CALCITE-1264,Bug,Litmus fail does not interpolate arguments,core,Major,1
+f3caf13b9f1cd92f95dcf27716466bf2133e1ed7,CALCITE-1253,New Feature,Create Elasticsearch adapter for Calcite,None,Major,1
+b76affccec5756d7d1f6cf76cf4c2344a28fcfeb,CALCITE-1245,Improvement,Allow RelBuilder scan to take multiple arguments,None,Major,1
+f191a386aedaee05c6ffcc1d4b155193bfa4ca01,CALCITE-1228,Bug,Bind parameters in INSERT,core,Major,1
+b6f0e1021b8d8e0dc08e6da49391a76cdb6cfb14,CALCITE-1246,Improvement,Cleanup duplicate variables in JoinPushThroughJoinRule,core,Trivial,1
+5a697eedf1a6d32fe4b6e504dc0454429949d423,CALCITE-1241,Improvement,Add a freemarker variable for adding non reserved keywords to Parser.jj template,core,Major,1
+20ba43461564c983557e9d9fd1b3e04d75ef7b18,CALCITE-1241,Improvement,Add a freemarker variable for adding non reserved keywords to Parser.jj template,core,Major,1
+6c633cf3db0ace763348e63ca123fbf14893c6de,CALCITE-1248,Task,Release Avatica 1.8,avatica,Major,1
+10e8c79c63ade367d8354596d23d78945a3100ed,CALCITE-1251,Sub-task,Write release notes,avatica,Major,1
+4c89dce303f8760e10bde3ab2b387780ae059e31,CALCITE-1235,Improvement,Push down LIMIT in unfiltered Cassandra queries,cassandra-adapter,Major,1
+d58bf9150bb7e354e4b5980ecee0c96218a0893d,CALCITE-1249,Sub-task,L&amp;N incorrect for source and non-shaded jars for avatica-standalone-server module,avatica,Major,1
+f3ba5c3352af82db4436453da03176636819b36f,CALCITE-1248,Task,Release Avatica 1.8,avatica,Major,1
+b8cb7c7c7398cc0d4236f9717111b338a824bc27,CALCITE-1248,Task,Release Avatica 1.8,avatica,Major,1
+1072a3cdfd46e0c743733f83a2944fdbbdb01353,CALCITE-1248,Task,Release Avatica 1.8,avatica,Major,1
+68350d7ce16a47755c8d70a8833010dba08800eb,CALCITE-1248,Task,Release Avatica 1.8,avatica,Major,1
+25bba06974e07f89a36f3ddd2596fe1f2d4d916e,CALCITE-1247,Bug,JdbcMeta#prepare doesn&apos;t set maxRowCount on the Statement,avatica,Blocker,1
+987a257ae7cff588ac2f63518a7f75263a9bddb9,CALCITE-1243,Bug,max_row_count in protobuf Requests should be signed int,avatica,Blocker,1
+9bd7d7550cfe31b76e3970a532014a8186e1ff5a,CALCITE-1150,Improvement,Create the a new DynamicRecordType  avoiding star expansion when working with this type,None,Major,1
+720b117ed4c4096b274d636711245f583b3e9826,/,/,    Fix typo in SQL (Yi Xinglu),/,/,0
+a15aa88bb2820d8de008375d9033fc5c22fc1775,CALCITE-1236,Improvement,Log exceptions sent back to client in server log,None,Major,1
+0d2eae5be5adcebcc2dd7df6a7887d70cc961b6d,CALCITE-1238,Bug,Unparsing LIMIT without ORDER BY generates invalid SQL after validation,core,Major,1
+f8f2af3e16364745e228570a51cf2fa5decbe686,CALCITE-1120,Bug,Support SELECT without FROM syntax (similar to MySQL),core,Major,1
+40576e716a402647c4b60da14e138f7911658b64,CALCITE-1120,Bug,Support SELECT without FROM syntax (similar to MySQL),core,Major,1
+6bc34d03158168d4d8910e04fa33e5189cfc245e,CALCITE-1230,Bug,Add SQLSTATE reference data as enum SqlState,avatica,Major,1
+2197f7dc34035f63c50b12eeebf4758d44e09c43,CALCITE-1190,Test,Cross-Version Compatibility Test Harness,avatica,Major,1
+9deff987ba177a6eb1ded2813e770a9233f3f2f4,CALCITE-1218,Bug,Mishandling of uncaught exceptions results in no ErrorResponse sent to client,avatica,Blocker,2
+ ,CALCITE-1224,Improvement,Provide non-shaded and shaded variants of Avatica artifacts,avatica,Major
+ebb68dadf64e318025bd3e2d12d1ed6608384fb7,CALCITE-1199,Bug,Incorrect trimming of CHAR when performing cast to VARCHAR,core,Major,1
+19361b94a4e44601e182f2d2298bc216c017bd81,/,/,    Site: add committer  and post slides/video from Polyalgebra talk,/,/,0
+bf098dd6737bdc78169961e076ba53bb30ba76d7,CALCITE-1216,Improvement,Add new rules for Materialised view optimisation of join queries,core,Minor,1
+354e8240d49de42bd6972d985fea692e4785e8b0,CALCITE-855,Bug,Allow UNNEST to have multiple arguments,None,Major,1
+6031b7a477be2e60828df586f4a3542065b97bce,CALCITE-1225,Bug,UNNEST with join,None,Major,1
+2b74c79a96a4040b5b44b90ad764aaa9ad169374,/,/,    Fix javadoc,/,/,0
+44a6ba67b92c193468f0de9dc3417c218624e69f,CALCITE-1219,New Feature,Add a method to SqlOperatorBinding to determine whether operand is a literal,core,Major,1
+1b4209ec973b8b86749fb3cc14262cdd17df0999,CALCITE-1219,New Feature,Add a method to SqlOperatorBinding to determine whether operand is a literal,core,Major,1
+1be4056b4b5ff4c75bf8f05bd2bc45e5cf01fa10,CALCITE-1115,Improvement,Add support for translate (expession  from_string  to_string),None,Major,1
+af315fbeab178437162ebf3e00c44f6f2b133ba3,CALCITE-1222,Bug,DatabaseMetaData.getColumnLabel returns null when query has ORDER BY,None,Major,1
+e4dd6dc765e125b156c2317fbe567f11585ea9f2,CALCITE-1209,Bug,Byte strings not being correctly decoded when sent to avatica using protocol buffers,avatica,Blocker,2
+ ,CALCITE-1103,Bug,Decimal data serialized as Double in Protocol Buffer API,avatica,Minor
+3599cebbcfe52a2ee1c146fe97f75b168800e4f9,CALCITE-1200,Improvement,Handle null equality join condition as IS NOT DISTINCT FROM in RelOptUtil.splitJoinCondition,core,Major,1
+da875a67fe8718345e567ef9ac40380cf38d043f,CALCITE-1168,Improvement,Add DESCRIBE SCHEMA/DATABASE/TABLE/query,core,Major,2
+ ,CALCITE-1221,Bug,Implement DESCRIBE DATABASE  CATALOG  STATEMENT,None,Major
+a065200ad714ed5f9015e8a00b534c10f9fa6a15,CALCITE-1168,Improvement,Add DESCRIBE SCHEMA/DATABASE/TABLE/query,core,Major,1
+b7fbb35b3883d5bbead0892c6898711253ddac24,CALCITE-1214,Improvement,Support url-based kerberos login,avatica,Major,1
+4255767d9ccc3221963a98d7e2e8ce3b68e156a3,CALCITE-1215,Bug,Missing method override in CassandraTable,cassandra-adapter,Major,2
+ ,CALCITE-1212,Bug,Cassandra Projections throw an NPE on a join with another non-cassandra table,cassandra-adapter,Minor
+6baa9c4bed1100012ebf4ef9547cbb077f2edaaf,CALCITE-1212,Bug,Cassandra Projections throw an NPE on a join with another non-cassandra table,cassandra-adapter,Minor,1
+26fddf2a641aebf943f18b7da8f81397955f4e59,CALCITE-1213,Bug,Changing AvaticaDatabaseMetaData from class to interface breaks compatibility,avatica,Major,1
+26a6458903cd13d2a541b59042d178e8177705a9,CALCITE-1179,Improvement,Extend list of time units and time unit ranges,avatica,Major,2
+ ,CALCITE-1177,Improvement,Support more time units in EXTRACT function,core,Major
+62f9abae4e0c79b02d4a46b4a6aa40aebc6418f9,CALCITE-1211,Bug,limit &gt; 7 on the Cassandra Adapter switches to EnumerableLimit rule,cassandra-adapter,Minor,1
+c07f33ae62fd7b3c91713e3f7a038031fb7db5b9,CALCITE-1210,Bug,Cassandra uuid filtering does not work,cassandra-adapter,Minor,1
+eadc6766b211eba853dd046f9b79383b31488420,/,/,    Remove trailing spaces from all source files,/,/,0
+dc553607d3c7f2a9baa74f7e059dde09d0df5f3c,CALCITE-1207,Bug,Allow numeric connection properties  and &apos;K&apos;  &apos;M&apos;  &apos;G&apos; suffixes,None,Major,1
+f97cdfbee4f7ccaeaa91328005bf3e3a52e6666a,/,/,    Move HTTP utilities from splunk adapter to core,/,/,0
+b666f72ee03587709f0f2dd8fbcb4ae958df6581,/,/,    Test case for [PHOENIX-2767]  non-constant in IN,/,/,0
+d81133fd0e8aee9dcd80eb62046550f65464b377,CALCITE-1166,Bug,Disallow sub-classes of RelOptRuleOperand,None,Major,1
+e91c8dcf25e31fccd9299db8123d642ca1e63f0a,/,/,    Remove all calls to deprecated methods,/,/,0
+80f8922bd5ccf77d79b488f5eb8ff08d51d871da,/,/,    Add class ConsList,/,/,0
+578fb2cd9bbcfcf38fd0cd900544e17c513f3a24,CALCITE-999,Bug,Clean up maven POM files,None,Major,1
+6ddd7821222f1a3e9480c205fdcfa8119b1277c3,CALCITE-1192,Improvement,Document protobuf and json REP types with examples,avatica,Major,1
+e010b1b207d8cfbba9d1ff88c65a489fbdeeba40,CALCITE-1205,Bug,Inconsistency in protobuf TypedValue field names ,avatica,Minor,1
+825acf1e4f728e906ced0b17c4d53d71a121c3e6,CALCITE-1204,Bug,Fix the build,build,Major,1
+4df0075f3f58ca0927c53c229ca910778c1e2d38,CALCITE-1203,Improvement,Update to newest stable github-pages gem,site,Trivial,1
+b66d414661926afdb82aea71432fa18022a666e2,CALCITE-1202,Improvement,Lock version of Jekyll used by website,None,Trivial,1
+09df15fed8746ee63a10cce80af54966838f26bc,CALCITE-1192,Improvement,Document protobuf and json REP types with examples,avatica,Major,1
+7a00d4cca220b86fc41c32d89b8a4e0e660e70c7,CALCITE-1201,Task,Bad character in JSON docs,avatica,Trivial,1
+5e1cc5464413904466c357766843cd491b23f646,CALCITE-1182,Improvement,Add ProjectRemoveRule to pre-processing program of materialization substitution,core,Minor,1
+a5928f04655df08e1680ef508219e957575ac8d1,CALCITE-1194,Bug,Avatica metrics has non-test dependency on JUnit,avatica,Major,1
+576c1a1eeb138726387e55680f4a1bd2aa7ed023,CALCITE-1182,Improvement,Add ProjectRemoveRule to pre-processing program of materialization substitution,core,Minor,1
+04c5ff9e8ae0627025406c627f8474913ba863a0,CALCITE-1189,Bug,Unit test failure when JVM default charset is not UTF-8,avatica,Trivial,1
+919b31f0ebbd1501b9b2216fcc8534449fa3258e,CALCITE-1186,Bug,Parameter &apos;signed&apos; metadata is always returned as false,avatica,Minor,1
+70829e53f1ea036909f74400454ca6902fa818dc,CALCITE-1185,Improvement,Send back ErrorResponse on failure to parse requests,avatica,Major,1
+ea71f9295ae3bed9b88046f9a9e426bcc93a0005,CALCITE-1113,Bug,Parameter precision and scale are not returned from Avatica REST API,avatica,Major,1
+032e0d9a50a86e1219522eae53aba70672b2ca0a,CALCITE-1184,Task,Update Kerby dependency to 1.0.0-RC2,avatica,Trivial,1
+889b9a88b2bff748c4d6a31d369fc03d56ef958d,CALCITE-1180,Improvement,Support clearBatch() in remote driver,avatica,Major,1
+37ed160f423b6c95cecd1b8f9ab4a2a2d220057f,CALCITE-1173,Sub-task,Basic and Digest authentication,avatica,Major,1
+aa9db8a36046b1e812021fa1cf0973906cfffbad,CALCITE-1103,Bug,Decimal data serialized as Double in Protocol Buffer API,avatica,Minor,1
+3e25f2ffa0eab11051f6295fd3706d2397f2524c,CALCITE-836,New Feature,Provide a way for the Avatica client to query the server versions,avatica,Major,1
+4140927c99b9dceb15ef4b85059b60e7898de0e7,CALCITE-835,Bug,Unicode character seems to be handled incorrectly in Avatica,avatica,Major,1
+ba9783f30398c52e514db06191d5faf631e57490,CALCITE-836,New Feature,Provide a way for the Avatica client to query the server versions,avatica,Major,1
+87b0eb55b531890ff181996593efa4ab224262a6,/,/,    Site: add upcoming talks  and fix link to Apache phonebook,/,/,0
+3ba595a17832875ffef7ce9c0e374e19b996b53a,CALCITE-1170,Improvement,Allow SqlSetOperator to be overridden  as a regular SqlOperator can,core,Major,1
+0b855b180406cd2b055966f4c832eba46b1c91ee,CALCITE-1061,Bug,RemoteMetaTest#testRemoteStatementInsert&apos;s use of hsqldb isn&apos;t guarded,avatica,Minor,1
+48d8ebf57fcb9890854dcdec4c26a4bd8ff26a9c,CALCITE-1128,Improvement,Support addBatch()/executeBatch() in remote driver,avatica,Critical,1
+406372f1274a6a0c9fe2b471ce6d65669e798633,CALCITE-1159,Sub-task,Support Kerberos-authenticated clients using SPNEGO,avatica,Major,1
+5dfa3f1ece54d2f95057c5b5097dc0f7fae693ee,CALCITE-1128,Improvement,Support addBatch()/executeBatch() in remote driver,avatica,Critical,1
+857c06b6744840daac52f7a3ab7f6e0d32c90e41,CALCITE-1163,Improvement,Avatica sub-site logo leads to Calcite site instead of Avatica&apos;s,site,Trivial,1
+b374133361d31ebe8e136668b4a5148ce2cb83b1,/,/,    Restore Avatica development version to 1.8.0-SNAPSHOT.,/,/,0
+4b93fa82633da350309d214af52e4606fa18e5ab,CALCITE-746,Bug,Allow apache-rat to be run outside of release process,None,Major,1
+83266054098220d33be02be38a8a230ca6d6fd38,/,/,    Add news item for release 1.7.0 and Cassandra adapter,/,/,0
+00e755db100c4bccfb2976a03c4f75a2adfc69be,/,/,    Document Cassandra adapter (Michael Mior),/,/,0
+54b9823e7ca313bf195c19b7d98f1a06b342cf12,/,/,    [maven-release-plugin] prepare release calcite-1.13.0,/,/,0
+8fb885d95adf5aefd28eb7e82593992f625fa5df,CALCITE-1837,Bug,Release Calcite 1.13.0,None,Major,1
+898c2d66a18af9f97f8061803a19f211d3d6ed85,CALCITE-1853,Bug,Push Count distinct into Druid when approximate results are acceptable,druid-adapter,Major,1
+03bb2cea517a62c9d7c80295527328e1b5c84ef9,CALCITE-1854,Bug,Fix value range of TINYINT in documentation,None,Major,1
+43e32fa5a4d5828370dbdf9cffe3bb295ffc475a,CALCITE-1855,Bug,Type error for floats returned from Cassandra adapter,cassandra-adapter,Major,1
+d5c713c5cd447e261e3ae5cffa728c073f425e28,CALCITE-1848,Improvement,Rename MySource to FileSource,core,Minor,1
+f63a65a8c6ffd9a771e27ef0446496c6b67baeea,CALCITE-1852,Bug,Fix for UnionMergeRule to deal correctly with EXCEPT,core,Major,1
+db95f5ba8247a5c00039719e246d6ee27f04d6cf,CALCITE-1850,New Feature,Extend UnionMergeRule to deal with more than 2 branches,core,Major,1
+bdaa485eecf7e5d6a80b3ee7cc3ccd5579c41794,CALCITE-1805,Bug,Druid adapter incorrectly pushes down &quot;COUNT(c)&quot;; Druid only supports &quot;COUNT(*)&quot;,druid-adapter,Major,1
+304eb9c54dd0565fd48006b75c715c944f82f974,CALCITE-1647,Sub-task,Classifier and match_number syntax support for MATCH_RECOGNIZE,core,Major,1
+86a5cc9a45b28bdc6b60d27d6bb018f441109f66,CALCITE-1846,Bug,Metadata pulled up predicates should skip non-deterministic calls,core,Major,1
+d47191e8c48932d888cfc79574fe1ca075eb4eeb,CALCITE-1819,Bug,Druid Adapter does not push the boolean operator &quot;&lt;&gt;&quot; as a filter correctly ,druid-adapter,Major,1
+a088aab78655e138353f40b57bebaf3cf3aec939,CALCITE-1805,Bug,Druid adapter incorrectly pushes down &quot;COUNT(c)&quot;; Druid only supports &quot;COUNT(*)&quot;,druid-adapter,Major,1
+12e020e0f6e157f9339ecaedeb1570cc46d7f99d,CALCITE-1805,Bug,Druid adapter incorrectly pushes down &quot;COUNT(c)&quot;; Druid only supports &quot;COUNT(*)&quot;,druid-adapter,Major,1
+0c0199cf57f1fdc914146c3a2172c746416f8cd9,/,/,    Site: Add committers Zhiqiang He  Kevin Liew  Slim Bouguerra; add "powered by" logo,/,/,0
+1855861a1a54b450aa72b5ef098fcbd2ce3d430c,/,/,    Cosmetic changes,/,/,0
+395d379127c7407827246614bd61253152c15805,/,/,    Fix for Windows,/,/,0
+e57c7372aca1679a2178c3a5fb2e71933e6f6908,CALCITE-1847,Bug,Queries fail in the Cassandra adapter,cassandra-adapter,Major,1
+56d5261abb893dd92b0a2cc4893292876a2b7880,CALCITE-1812,Improvement,Provide RelMetadataQuery from planner to rules and invalidate in transformTo,core,Major,1
+33873f64931470e868c1735e9eac86707a659d9e,CALCITE-1646,Sub-task,Partition by and order by syntax support for MATCH_RECOGNIZE,core,Major,1
+f5df5dd8cc1c97076fd6a0afc0fddc731b26b34c,CALCITE-1827,New Feature,Document TIMESTAMPADD  TIMESTAMPDIFF functions,core,Major,1
+419b810fe67539cf7a3d653e918352fbaf10e8b0,CALCITE-1829,Bug,Add TIME/TIMESTAMP/DATE datatype handling to RexImplicationChecker,None,Major,1
+91d95762158bb8937fedcd0b9ff334cf049fa92b,CALCITE-1789,Bug,Wikipedia format change breaks file adapter test,file-adapter,Major,1
+d393cab26e72f3c0de5eebcbeac5d94fff87a997,CALCITE-1830,Bug,ProcessBuilder is security sensitive; move it to test suite to prevent accidents ,None,Major,1
+4069013f1b49fc1b83f5e1b608be15f1774b2b38,CALCITE-1810,Bug,Allow NULL for ARRAY constructor,core,Major,1
+f164fb8eaa9dbcbb44b0a3e1cd3427d457ebffb8,CALCITE-1804,Bug,Cannot assign NOT NULL array to NULLABLE array,core,Major,1
+32747d794bc7dae41b98bf508f350b4be878e67e,CALCITE-1810,Bug,Allow NULL for ARRAY constructor,core,Major,1
+6cb4d45b02b03a71f4fe1ce52844f750e3ec1fd8,CALCITE-1613,Bug,Implement EXTRACT for time unit DOW  DOY; and fix CENTURY,None,Major,3
+ ,CALCITE-1608,Bug,Move addMonths and subtractMonths from Calcite to Avatica,avatica,Major
+ ,CALCITE-1639,Bug,TIMESTAMPADD(MONTH  ...) should return last day of month if the day overflows,None,Major
+d4b0acdd32552360f983013aa1ab7505e19f4a28,CALCITE-1816,Bug,JaninoRelMetadataProvider generated classes leak ACTIVE nodes on exception,core,Major,1
+83cef58b2b51e3e428fa50e532bf6ce6fa8f201c,CALCITE-1802,Bug,Add post-aggregation step for Union in materialized view rewriting,core,Major,1
+f22a9965a4e0f97b4f60c29ad52c0328a6a1e221,/,/,    Upgrade sqlline,/,/,0
+946b24f4dc163dee018de90b2dcf7082bb892cfe,CALCITE-1798,Bug,In JDBC adapter  generate dialect-specific SQL for FLOOR operator,jdbc-adapter,Major,1
+915c218b0fcbff26652071d267903d97875c7b9e,CALCITE-1807,Bug,Upgrade to Avatica 1.10,None,Major,2
+ ,CALCITE-1664,Bug,CAST(&apos;&lt;string&gt;&apos; as TIMESTAMP) adds part of sub-second fraction to the value,None,Major
+c8462e1acb01c0ff1b5d62a1ef318bfcc01301c0,CALCITE-1802,Bug,Add post-aggregation step for Union in materialized view rewriting,core,Major,1
+f6af061ced056d1935b4173f9901152cbaca318b,CALCITE-1800,Bug,JDBC adapter fails on query with UNION in FROM clause,core,Major,1
+e117c10cef192ca4ab10ffec2132b7dbd34319fa,CALCITE-1645,Sub-task,Row per match  syntax support for MATCH_RECOGNIZE,core,Major,1
+4519ef6e599ebe9b1c182016bea62d0ac920ea1a,CALCITE-1742,Bug,Create a read-consistent view of CalciteSchema for each statement compilation,core,Major,1
+f8ab9078bae8c519ce4c86d741490779ea899a14,CALCITE-1798,Bug,In JDBC adapter  generate dialect-specific SQL for FLOOR operator,jdbc-adapter,Major,1
+b6175f807d62ea5be268e1312d9ea52e569f56cb,CALCITE-1796,Improvement,Update materialized views documentation,None,Major,1
+991784971006ede1caec5f8e8c2452a77dd485c9,CALCITE-1797,Improvement,Support view partial rewriting in aggregate materialized view rewriting,core,Major,1
+e71157bba1ea4eae135d1ddddebe576e72625b3d,CALCITE-1796,Improvement,Update materialized views documentation,None,Major,1
+d619304070bf2874ab760c92ec2573ee6c19f536,CALCITE-1788,Bug,Simplify handling of position in the parser,None,Major,1
+7d8e0528bec568e2abe7f8287510c1e79b178b1d,CALCITE-1792,Bug,RelToSqlConverter doesn&apos;t handle cartesian join (join cond as TRUE),jdbc-adapter,Minor,1
+ac364e8c8a100e818cfc048bf78a4100f07276d7,CALCITE-1782,Bug,AggregateExpandDistinctAggregatesRule should work on Aggregate instead of LogicalAggregate,None,Major,1
+2ddff7a5eceef62b906e9e17820bc0238c2f351a,CALCITE-1293,Bug,Bad code generated when argument to COUNT(DISTINCT) is a GROUP BY column,None,Major,1
+88da6a18c2f85841cd1466dc99632d9e001da568,CALCITE-1797,Improvement,Support view partial rewriting in aggregate materialized view rewriting,core,Major,1
+1342d4cbb8099dc6a1820014a3ccc90a0d57106b,CALCITE-1795,Improvement,Extend materialized view rewriting to produce rewritings using Union operators,core,Major,1
+6689c7536a94dfed760c65f57c987dfeadc6d71b,CALCITE-1791,Improvement,Support view partial rewriting in join materialized view rewriting,core,Major,1
+7a56eb63dfbd3310d14c85270f667eb3f8fa6aa3,CALCITE-1644,Sub-task,subset clause syntax support for MATCH_RECOGNIZE,core,Major,1
+868d64140d446cdb33652c0c76c4038b1ca26a14,CALCITE-1769,Bug,Push Filters down to druid when there a cast to numeric,druid-adapter,Major,4
+ ,CALCITE-1774,Bug,Allow rules to be registered during planning process,None,Major
+ ,CALCITE-1769,Bug,Push Filters down to druid when there a cast to numeric,druid-adapter,Major
+ ,CALCITE-1695,Bug,Not all RexUtil.simplifyXxx code paths carry the provided executor,None,Major
+7c7e932eb1dbb0d2d759303d37d0e21c8fb24c69,CALCITE-1780,Improvement,Add `required Order` and `requiresOver` parameters to the constructor of `SqlUserDefinedAggregate Function`,core,Major,1
+32cca802ecded64cceff5a3d98cf981e25b6769b,CALCITE-1789,Bug,Wikipedia format change breaks file adapter test,file-adapter,Major,1
+ea994131cd6d109ff7edf5e61754104e2b8619be,CALCITE-1770,Bug,Druid adapter: CAST(NULL AS ...) gives NPE,druid-adapter,Major,1
+e046be23d7364e16648ade5240ad948a04cc814b,CALCITE-1306,Bug,Allow GROUP BY and HAVING to reference SELECT expressions by ordinal and alias,None,Major,1
+5ee895d3021028b5412833b8cd37deda1b5af4ea,CALCITE-1781,Bug,Allow expression in CUBE and ROLLUP,None,Major,1
+520c0ccc9b8ec4832f69ebba366e23d80326be5f,CALCITE-1777,Bug,Druid adapter: &quot;WHERE FALSE&quot; causes AssertionError,None,Major,1
+6b8e2c3d3e4468206ac974a090fa8e7db6b4e347,CALCITE-1778,Bug,Query with &quot;WHERE CASE&quot; throws AssertionError &quot;Cast for just nullability not allowed&quot;,None,Major,1
+60b4f4eb10a018e7d6ab8ae4f6ac0f4d0b598b1f,/,/,    Fix compilation error on guava-21.0 and JDK 9,/,/,0
+fa308a30aee6322fe94ba2e3e6795ad1ac7bc676,CALCITE-1773,Test,Add Test sql validator test for Pattern skip syntax in MATCH_RECOGNIZE,None,Minor,1
+86b9ed7be78d758b4b95b8ec589ceab90927af42,/,/,    Split tests for MATCH_RECOGNIZE validation into their own class,/,/,0
+a11d14054e9c1d2ce22f60e11536f1885faaae7c,CALCITE-1761,Bug,TUMBLE/HOP/SESSION_START/END do not resolve time field correctly,core,Major,2
+ ,CALCITE-1615,Improvement,Support HOP and SESSION in the GROUP BY clause,None,Major
+9c10c3da15ee65190cca4767d9a52406ba9ba1b0,CALCITE-1772,Bug,Add a hook to allow RelNode expressions to be executed by JDBC driver,None,Major,1
+bb74e5a0c6e9d769dcc52bad1a92f810b475f2ee,CALCITE-1771,Task,Upgrade to Druid 0.10.0,druid-adapter,Major,1
+ef00738a053cbe881f2c840f3e3b5feeb010b6e1,CALCITE-1770,Bug,Druid adapter: CAST(NULL AS ...) gives NPE,druid-adapter,Major,1
+1aaa0d6860c7538d62998ec13bcc83763c04720f,CALCITE-1766,Bug,Support system functions having no args with parenthesis too,core,Major,1
+a377f8f2826f51c77b639ee711e2bd578f4de822,CALCITE-1765,Bug,Druid adapter fail when the extract granularity is not supported ,druid-adapter,Major,1
+6f07293a3843c8790af9c028b2962fd8a0512db9,CALCITE-1767,Bug,Fix join/aggregate rewriting rule when same table is referenced more than once,core,Critical,1
+d2368327ede5891417e579998c0e30e1ef5c54c5,CALCITE-1764,Bug,Adding sort ordering type for druid sort json field,druid-adapter,Major,1
+feff5964bf36d2e5aa311fcd7777b159aa4a8a1e,CALCITE-715,Bug,Add PERIOD type constructor and period operators (CONTAINS  PRECEDES  etc.),stream,Major,1
+c94a080b3520a568e5452cc33ca3a443cf2f50ab,/,/,    Fix OVERLAPS operator,/,/,0
+39c22f0c8b7b5b46a152f432e8708ce73ace1ef7,/,/,    Cache the mock catalog used by several test suites,/,/,0
+7cec056a0fc3c4c93d6e3b7de0a687ad213c0825,/,/,    Fix javadoc,/,/,0
+e9d0ca6731b2f5ec33b9270b5ffcaaf9e4eb8537,CALCITE-1456,Bug,Change SubstitutionVisitor to use generic RelBuilder instead of Logical instances of the operators when possible,core,Major,1
+9a691a7db88f96f930a4a4609f8aea6df601a909,CALCITE-1763,Improvement,Recognize lossless casts in join/aggregate materialized view rewriting rule,None,Major,1
+a2bd49c32b6b08f92cf92fd603f8448684044431,CALCITE-1760,Improvement,Implement utility method to identify lossless casts,core,Minor,1
+27ca3109539eba4324b3bf4fcf4065cb7a5d300c,CALCITE-1731,New Feature,Rewriting of queries using materialized views with joins and aggregates,core,Major,1
+1f81e1353605fc2d16de9b4d56821736b0e82464,CALCITE-1731,New Feature,Rewriting of queries using materialized views with joins and aggregates,core,Major,1
+41b05d784fd2e0ae81b09d013ef8a746036ca446,CALCITE-1682,New Feature,New metadata providers for expression column origin and all predicates in plan,core,Major,1
+478de569cf4b7084207b40ce957f47b6e8015fe7,CALCITE-1752,Bug,Use URLDecoder#decode to handle URLs acquired from getResource(..) calls in test cases,None,Minor,1
+2ce41591be8986359ac7382359f6934be1fc402b,CALCITE-1753,Bug,Push expressions into null-generating side of a join if they are &quot;strong&quot; (null-preserving),core,Major,1
+c850e227db583a697c8cc46585b33274b63ed2d0,CALCITE-1643,Sub-task,AFTER MATCH sub-clause of MATCH_RECOGNIZE clause,core,Major,1
+d97c14c5dd62ed55da4d771e585973213affcb6e,CALCITE-1759,Bug,Add SQL:2014 reserved words to parser,None,Major,1
+aed5bca7c5f49d117d7b794395ff4b6ad2d76bde,CALCITE-476,Bug,Support distinct aggregates in window functions,None,Major,1
+495fd1dc7b0c1805834964a98fc042e12c76d7a7,CALCITE-1738,Improvement,Support CAST of literal values in filters pushed to Druid,druid-adapter,Major,1
+cc839874242c69a8199f92097eaf113e5195e4a3,CALCITE-1754,Bug,In Csv adapter  convert DATE and TIME values to int  and TIMESTAMP values to long,csv-adapter,Major,1
+8b69e4da4a94985321b4ed0037255284093f4669,/,/,    Refactor CsvTest and SqlTest,/,/,0
+0d2d11f3b8ab4a11279b4f73d0cd913902872880,CALCITE-1639,Bug,TIMESTAMPADD(MONTH  ...) should return last day of month if the day overflows,None,Major,1
+a0a4f3715f2e138e4e5a9b0e4a6d5d4c0877824e,/,/,    Site: Add Dremio to "Powered by Calcite" page (Kelly Stirman),/,/,0
+7c2f5a83c5c4416a6ec91bb8aa043cd60962ed37,CALCITE-1707,Bug,Push Extraction filter on Year/Month/Day to druid,druid-adapter,Major,1
+059142fe5de9519e0289f3ff063cca9b2e7b5f04,CALCITE-1666,Improvement,Support for modifiable views with extended columns,None,Major,1
+fa8defdd2709489215927362f87da97af1769674,CALCITE-1747,Bug,RelMdColumnUniqueness for HepRelVertex,core,Major,1
+9247cb990d697f231ec50a12a8b13aad9e8b2192,CALCITE-1751,Bug,PigRelBuilderStyleTest test cases are flapping.,pig-adapter,Major,1
+66cdfc6a38da1ba19ac2d1f17554bba632d03701,CALCITE-1751,Bug,PigRelBuilderStyleTest test cases are flapping.,pig-adapter,Major,1
+6543c0fd8b63efb00d035790209f8546668d7aa5,CALCITE-1750,Bug,Fix unit test failures when the path to the repository contains spaces,None,Minor,1
+b48f634fe0c90f68c7c047a387814557e5701fa7,CALCITE-1749,Improvement,Push filter conditions partially into Druid,druid-adapter,Major,1
+e76d5ee33a3cda0d9ce495e21681f5bede25f129,CALCITE-1725,Bug,Push project aggregate of time extract to druid,druid-adapter,Major,1
+35cd2abc8a53c746eabcd9f273ec2dd3b9dee98e,CALCITE-1746,Bug,Remove KEYS file from git and from release tar ball,site,Major,1
+2eebca8cff3b8ba7978a64c89f88199ba81cab56,CALCITE-1725,Bug,Push project aggregate of time extract to druid,druid-adapter,Major,1
+22fdd88584bfb3a0d77fc8f03cf847d343e5f9a7,CALCITE-1724,Bug,Wrong comparison for floats/double type in Druid,druid-adapter,Major,1
+04c0c8b6f212e513aba76a36e62f99e4bde4370e,CALCITE-1725,Bug,Push project aggregate of time extract to druid,druid-adapter,Major,1
+ef03b6e4c6dbae800e7c1aaa1deb5bbd7960e911,CALCITE-1725,Bug,Push project aggregate of time extract to druid,druid-adapter,Major,1
+bff34c1a361faef793d4133032153f6956d03bbe,CALCITE-1730,Bug,Upgrade Druid to 0.9.2,druid-adapter,Major,1
+9f87b666976181d7946aa9c6c4fefef01c53858c,CALCITE-1734,Bug,select query result not parsed correctly with druid 0.9.2,druid-adapter,Major,1
+95c6918463166b13898cf50868f6d290f8384770,/,/,    Site: Add Michael Mior to PMC,/,/,0
+14ee9f3542d65bccf33c3dd06b7239795e5259d0,CALCITE-1732,Bug,IndexOutOfBoundsException when using LATERAL TABLE with more than one field,core,Major,1
+8e5766896456eced5a1c9f6e424d90496b7175cd,/,/,    Site: Add donate section,/,/,0
+c231aae494ffd3a587bf4ddd21c71e95813e3daa,/,/,    Site: Fix a broken link to Avatica overview,/,/,0
+370dfdac54de00c883869954cfaaf5e20f0f2519,CALCITE-1722,Bug,Druid adapter uses un-scaled value of DECIMAL literals,None,Major,1
+aa0bf32c626db0f3b72f15df5d69f1ae6c0e612d,CALCITE-1723,Bug,Match DruidProjectFilterTransposeRule against DruidQuery,None,Minor,1
+0209b16c0adca468c3da06ef036e3d06432ea17b,CALCITE-1714,Bug,Do not push group by on druid metrics fields,druid-adapter,Major,1
+cf5ff72b7ee7877c8782a649c21d43c40c9389b2,/,/,    Add news item for release 1.12.0,/,/,0
+9ef9430c382fb3c3a92898e4990f4b7b909ad2ee,CALCITE-1566,Improvement,Better documentation on the use of materialized views,None,Major,1
+adc1532de853060d24fd0129257a3fae306fb55c,/,/,    [maven-release-plugin] prepare release calcite-1.21.0,/,/,0
+358027602b24c45a6cec686544ef37b3da594e9b,CALCITE-3303,Task,Release Calcite 1.21.0,None,Major,1
+8c941e03d8443d1e0dae12cb740e7eea09d56ab2,/,/,    Cosmetic code changes,/,/,0
+6fabfd609800824d84fb13703f4d70ac1798c9aa,CALCITE-3321,Bug,BigQuery does not have correct casing rules,None,Major,1
+faeb6d0ea16c493157a1159c49cb970790c10cc1,CALCITE-3322,Test,There are two same testcase in RelMetadataTest,core,Minor,1
+5c25c386dd70172f98d870ce72455fab897eb70a,/,/,    Remove the useless JdbcConvention out in descriptionPrefix for JdbcToEnumerableConverterRule (Wenhui Tang),/,/,0
+955d4ea7b30b85519529c1c77662fa04141bfa89,CALCITE-3115,Bug,Cannot add JdbcRules which have different JdbcConvention to same VolcanoPlanner&apos;s RuleSet.,core,Major,1
+c9520c35899fe5ac363053e9fb9b292989b1176c,CALCITE-3314,Bug,CVSS dependency-check-maven fails for calcite-pig  calcite-piglet  calcite-spark,None,Blocker,1
+48086a76578b96ac961c833075357710bd624d3e,CALCITE-3315,Bug,Multiple failures in Druid IT tests due to implicit casts ,None,Blocker,2
+ ,CALCITE-2302,Improvement,Implicit type cast support,core,Critical
+81c768e60078bcb6c8c78057d80090d27ac86030,CALCITE-3310,Bug,Approximate and exact aggregate calls are recognized as the same during sql-to-rel conversion,core,Major,1
+b8d24a6f7f2b4c7cb8093eea158f1fa00dbc6ffc,CALCITE-3292,Bug,SqlToRelConverter#substituteSubQuery fails with NullPointerException when converting SqlUpdate.,core,Major,1
+72680df93ef089abd0a7c0ac8cdc6253619c2ebe,CALCITE-3311,Sub-task,Add doc to site for implicit type coercion,site,Major,1
+e2300d297d291514906ca002d045664732ec928c,CALCITE-3307,Bug,PigRelExTest  PigRelOpTest and PigScriptTest fail on Windows,None,Major,1
+c1b042fec9a979bfa39a767f7b04da0a5134053a,CALCITE-3297,Bug,PigToSqlAggregateRule should be applied on multi-set projection to produce an optimal plan,piglet,Major,1
+97d68952d467540cddddbe8350f706028001dfbf,CALCITE-3295,Bug,Aggregate call name lost in serialized json string.,None,Major,1
+70f1453086d67bd6d431d63b93a27baf0cdba06d,CALCITE-3296,Bug,Decorrelator gives empty result after decorrelating sort rel with null offset and fetch,None,Major,1
+cc169aec313c19bd7749c448c1e8eca014997b77,CALCITE-3122,New Feature,Convert Pig Latin scripts into Calcite logical plans ,piglet,Major,1
+b039b152d8d2e91ab2ca0232ebddfc998f3bb331,CALCITE-3280,Improvement,Cannot parse query REGEXP_REPLACE in Redshift,None,Minor,1
+8a3fde56e6931ca8c5a12d22489c6ce0eae4a8bc,/,/,    In SqlFunctionsTest  replace assertEquals and assertNull with assertThat,/,/,0
+be678e3dc65f5933f85927e53b2811738d124f11,CALCITE-3260,New Feature,Add a public API for evaluating linq4j Expression nodes,None,Minor,1
+77e7808fc0aa4e089a992535bc890047724fd900,CALCITE-3283,Bug,RelSubSet&apos;s best is not existed in the set,None,Major,1
+e863294ccfbed9dd520c999f75ed0bbe03f9fb1d,CALCITE-3210,Bug,JDBC adapter should generate &quot;CAST(NULL AS type)&quot; rather than &quot;NULL&quot;,core,Major,1
+a8f9e4ee02c4253e1cbc150cbe3af8791a7beda8,CALCITE-2979,Improvement,Add a batch-based nested loop join algorithm,core,Major,1
+48c0db1206b17c571d477d912d193d32b5be1eff,CALCITE-3220,Bug,In JDBC adapter  when generating SQL for Hive  transform TRIM function to TRIM  LTRIM or RTRIM,core,Minor,1
+00ad79b6bc95b68e02129b31be8a3a656517f8a8,CALCITE-3263,Improvement,Add MD5  SHA1 SQL functions,None,Minor,1
+22577e488e04d4056e15af96bac4246fd810f0fa,CALCITE-3228,Bug,Error while applying rule ProjectScanRule: interpreter,core,Critical,1
+729446005617059c0ce9fef4068087e4ca9ca139,CALCITE-3223,Bug,Non-RexInputRef may fails the matching of FilterToProjectUnifyRule during &apos;invert&apos; by mistake.,core,Major,1
+ab97af39bd9438420cb5b212b95b23d9cb798f0d,CALCITE-3257,Bug,RelMetadataQuery cache is not invalidated when log trace is enabled,core,Major,1
+1e62d3d64fc217d14016702237b4f8d56b3683f2,CALCITE-3138,Bug,RelStructuredTypeFlattener doesn&apos;t restructure ROW type fields ,core,Major,1
+9fd9c822287751ed1f9e6a10adc3f50b0cea0a54,CALCITE-3262,Improvement,Refine doc of SubstitutionVisitor.java,core,Minor,1
+5a42812832e51a7551a793ac75160188e06668e6,CALCITE-3251,Bug,BinaryExpression evaluate method support Long type.,core,Minor,1
+beeb012c994642e2db46c30e6059f1f1c22287c9,CALCITE-3259,Improvement,Align &apos;Property&apos; in the serialized xml string of RelXmlWriter.,None,Minor,1
+11116f6d03bca7cd97d151033c5d82f24394e229,CALCITE-3111,Improvement,Add RelBuilder.correlate  and allow custom implementations of Correlate in RelDecorrelator,core,Minor,1
+a71def51dbf3dc18af2e73418ed30e0f2e6addde,CALCITE-3258,Bug,Upgrade jackson-databind from 2.9.9 to 2.9.9.3  and kafka-clients from 2.0.0 to 2.1.1,None,Major,1
+e8b08c490ab4270945c35f31846cd36b5788cc23,CALCITE-3252,Bug,Add CONVERT_TIMEZONE  TO_DATE  TO_TIMESTAMP functions to Redshift operator library,None,Major,1
+3f550c3f28d75d0f75b5815a22395dbecf992f03,CALCITE-3167,Improvement,Remove overriding equals and hashCode methods in EnumerableTableScan,core,Minor,1
+36e3109fb524c13ca0a08e3ad585785aa5abc18b,CALCITE-3089,Improvement,Deprecate EquiJoin,None,Major,1
+6b600e4bd13d130a4ea48ab9b8451d81ed095da0,CALCITE-3267,Sub-task,Remove method SqlDataTypeSpec#deriveType(RelDataTypefactory),core,Major,1
+6400a509501419beef0d34e1deccdc2beadfbb30,CALCITE-3214,Bug,Add UnionToUnionRule for materialization matching,core,Major,1
+a68bfc96bacc95b4b8ab5d185bb5cc1991113769,CALCITE-3214,Bug,Add UnionToUnionRule for materialization matching,core,Major,1
+0a6f53cb828cd39d78d1423361921bf40636943a,CALCITE-3249,Improvement,Substitution#getRexShuttle does not consider RexLiteral,core,Minor,1
+705be2771f284533a998e941c9dc3b285f1d7351,CALCITE-3250,Sub-task,Support nested collection type for  SqlDataTypeSpec,core,Major,1
+7625938f1faa37fe34540d3a7a2257ec7eae5704,CALCITE-3229,Bug,UnsupportedOperationException for UPDATE with IN query,None,Major,1
+5c017135b6b923abbf1b465ac1962bcec7886dfd,CALCITE-3236,Bug,Handle issues found in static code analysis ,core,Major,1
+3abb974588194e2e531aa43daa79c4dfd18ef25f,CALCITE-3159,Improvement,Distinct can be removed for MIN/MAX/BIT_OR/BIT_AND aggregate functions,core,Major,1
+5ec3a2a503dcf26fe1b3cad8a5a9467264213dcf,CALCITE-1935,Bug,Reference implementation for MATCH_RECOGNIZE,None,Major,1
+996cdd0249a4e5086fadc27a15ccc23eb9defd8e,CALCITE-3237,Bug,ExpressionWriter not updating indent correctly,core,Major,1
+a042b6115120cb48079266444a264e16a9ca611b,CALCITE-3234,Bug,For boolean properties  empty string should mean &quot;true&quot;,None,Major,1
+e8baf4f4720e07cdce1aa2baabf20042b9353bbb,CALCITE-2843,Bug,Babel parser should parse PostgreSQL-style &apos;::&apos; cast operator,babel,Major,1
+6f02ecf33318b223f752a3f6f3daa70753149875,CALCITE-3198,Improvement,Enhance RexSimplify to handle (x&lt;&gt;a or x&lt;&gt;b),None,Minor,1
+5212d6c47e36995943f4d955a1714bf03eb08e7e,CALCITE-3233,Sub-task,Support Row type for SqlDataTypeSpec,core,Major,1
+602b2a10e3f81888c0759ca69f7415497124ef82,CALCITE-2835,Bug,Markdown errors on the Geode adapter page,site,Major,1
+fb797bbf428a0a949a792b3bc01b612049cb22fc,CALCITE-3198,Improvement,Enhance RexSimplify to handle (x&lt;&gt;a or x&lt;&gt;b),None,Minor,1
+2678eb9a867c6589208b60c2a07446c658d2d8c6,CALCITE-3226,Bug,RelBuilder doesn&apos;t keep the alias when scan from an expanded view,core,Major,1
+7f5b313bbc0f98379c1b03a3fb08f296143d64c2,CALCITE-3198,Improvement,Enhance RexSimplify to handle (x&lt;&gt;a or x&lt;&gt;b),None,Minor,1
+f1db14c1b088ba650405c2def3395a1311dc2572,/,/,    Site: Update Apache links on homepage to HTTPS,/,/,0
+0eab54d28a8a528926ec7074b38d3b4a09befd84,/,/,    Update favicon for new logo,/,/,0
+0bbbae54dbac2bc8f738e091167dd9b027ad4f20,CALCITE-3101,Bug,PushDownJoinConditions is not always a valid transformation,core,Major,1
+979a825fab0757c506363f5df6ed7997674e8726,CALCITE-3227,Bug,IndexOutOfBound when checking candidate parent match&apos;s input ordinal in VolcanoRuleCall,None,Major,1
+3cff43a053abde614e5ab00587d10831197dc6ee,CALCITE-3231,Sub-task,Support ARRAY type for SqlDataTypeSpec,core,Major,1
+80cc4253a3a5b0677382725d7471ed1163cc204e,CALCITE-2624,Improvement,Add a rule to copy a sort below a join operator,core,Major,1
+4954216c71a6262728ad6ed4792d4ac7b9ec7b71,CALCITE-3177,Bug,Deserialize from json of + operator cause exception,None,Major,1
+22817fb34ab0921e6ab6567a9c65819ebd11b9c5,CALCITE-3218,Bug,Syntax error while parsing DATEADD function (which is valid on Redshift),None,Major,1
+b432756e2be9ad0557a56254550eb4438dd0efcf,/,/,    Deprecate RexBuilder.constantNull()  because it produces untyped NULL literals that make planning difficult,/,/,0
+357cb741f70f9c9d541dfc77fa0b813ee4dfe959,CALCITE-3222,Task,Fix code style issues introduced by CALCITE-3031,None,Major,2
+ ,CALCITE-3031,Bug,Support for correlated ANY/SOME/ALL sub-query,core,Major
+c3108bc1231b2aa4ba25227d225544fef4576508,CALCITE-3191,Bug,In JDBC adapter for MySQL  implement Values by generating SELECT without FROM,None,Major,1
+ac06e64fed6865949207aabd4ef839418589b6e3,CALCITE-3147,Bug,BigQuery (standard SQL) quoting and identifier issues,None,Major,1
+3ab722b5cccf3357f5c6fddf796ccf612d978cc2,CALCITE-3131,Bug,In LatticeSuggester  record whether columns are used as &quot;dimensions&quot; or &quot;measures&quot;,None,Major,1
+61b7280ee1167235e3fbd76a6ce379fc83658dbb,CALCITE-3175,Bug,AssertionError while serializing to JSON a RexLiteral with Enum type ,core,Major,1
+f82353c80223143673fc78561a05c79d6fd4f364,CALCITE-3225,Bug,JoinToMultiJoinRule should not match SEMI/ANTI LogicalJoin,core,Critical,1
+1e999374f3a40c26d1cb3469211f10cd2fdc0622,CALCITE-3215,Bug,Simplification may have not fully simplified IS NOT NULL expressions,None,Major,1
+f7762b6a7cd85711a8cc6d7c7174dedca22bdcd2,CALCITE-3192,Bug,Simplification may weaken OR conditions containing inequalities,None,Major,1
+41b00bab339a5f5fd514ab873c926cdede37b544,/,/,    More compiler fixes  and cosmetic changes,/,/,0
+fef2133ee6652688de7c6cd7ecb755cf5459cba1,/,/,    Fix compiler warnings,/,/,2
+ ,CALCITE-3031,Bug,Support for correlated ANY/SOME/ALL sub-query,core,Major
+ ,CALCITE-3187,Improvement,Derive all decimal return type through type factory,core,Major
+d98856bf1a5f5c151d004b769e14bdd368a67234,CALCITE-3211,Bug,List of MutableRel may fail to be identified by SubstitutionVisitor during matching,None,Major,1
+3309396dbb73d1f2ec2e32e8ffee0f9e68262db1,CALCITE-3207,Bug,Fail to convert Join RelNode with like condition to sql statement,core,Minor,1
+0061b2a172de29acd5859abd7eb93e491d4f4f41,CALCITE-3153,Test,Improve testing in TpcdsTest using assertEqual instead of printing results,None,Trivial,1
+ccad6f982fc0d6bd45424e602ec0432a1bcecda7,CALCITE-2496,Bug,EXTRACT function: MILLI/MICRO/NANOSECOND parts of a DATE must be zero,core,Major,1
+a1851b67d56f98e14fbe54a96972104585ae8a61,CALCITE-3031,Bug,Support for correlated ANY/SOME/ALL sub-query,core,Major,1
+689a5bbb14614d3f8eef4a4f7e832c6c02029b3c,/,/,    Update stale tests in DruidAdapter,/,/,0
+3ebaa591c6fa045310252944a292b85908a938f8,CALCITE-2804,Bug,Druid adapter: Cast does not work when casting to timestamp,None,Major,1
+9ba140ef66ad1e048789532211ddf8b3ca1cf8ec,CALCITE-3209,Bug,When calling MutableMultiRel::setInput  exception thrown,core,Major,1
+18974ce8a945424a8a3465c03b253e292641f420,CALCITE-3195,Bug,Handle UDF that throws checked exceptions in enumerable code generator,piglet,Major,1
+5754fa95e20fb6a961b01c1c951fc47f21132923,CALCITE-2510,Task,Add CHR built-in function (Oracle only),core,Major,1
+59c7acd802a885dec1db576974bea6e205d3d955,CALCITE-3136,Bug,Fix the default rule description of ConverterRule.,core,Major,1
+ab71c4cae5a5c3c7d979337a2d38ddaf271aa206,CALCITE-3176,New Feature,File adapter for parsing JSON files,None,Major,1
+58b6ad6135d909c053f15fb902d8b73559d1fa53,CALCITE-3182,Bug,Trim unused fields for plan of materialized-view before matching.,None,Major,1
+6d7eca19bb0a22d059abe4e283d003d2848e55af,CALCITE-3174,Bug,IS NOT DISTINCT FROM condition pushed from filter to join is not collapsed,None,Major,1
+f43d4f0ba44ae5f9d54e72dd6f071dbdee016d9a,CALCITE-3184,Task,Add the new logo to the website,site,Minor,1
+0a87daf30d635277b8f1c94355e04ef907fc4002,CALCITE-3113,Bug,Equivalent MutableAggregates with different row types fail with AssertionError,core,Major,1
+8c0d792dd735eded2bb11be0c7c195b8f302ae90,/,/,    Fix javadoc error,/,/,0
+f7c0b0a18ab72338e0b3afcdfd087aab3572fddb,CALCITE-3187,Improvement,Derive all decimal return type through type factory,core,Major,1
+0cce229903a845a7b8ed36cf86d6078fd82d73d3,CALCITE-3145,Bug,RelBuilder.aggregate throws IndexOutOfBoundsException if groupKey is non-empty and there are duplicate aggregate functions,None,Major,2
+ ,CALCITE-3123,Bug,In RelBuilder  eliminate duplicate aggregate calls,None,Major
+ab1f777edb617ed9cf1c2f9b9a99c4dd0202a36b,/,/,    Change type of SqlStdOperatorTable.GROUPING field to public class,/,/,0
+15e63787a6c2ccaa01582991068d8e74daf93d1f,CALCITE-3166,Bug,Make RelBuilder configurable,None,Major,3
+ ,CALCITE-3123,Bug,In RelBuilder  eliminate duplicate aggregate calls,None,Major
+ ,CALCITE-3145,Bug,RelBuilder.aggregate throws IndexOutOfBoundsException if groupKey is non-empty and there are duplicate aggregate functions,None,Major
+687b7d8cc8c63259138b43745a9e28ef64483839,CALCITE-3144,Bug,Add rule  AggregateCaseToFilterRule  that converts &quot;SUM(CASE WHEN b THEN x END)&quot; to &quot;SUM(x) FILTER (WHERE b)&quot;,None,Major,1
+1c5de1cd27a0251ac28a503e877ef9c21e61b620,CALCITE-3196,Bug,In Frameworks  add BasePrepareAction (a functional interface) and deprecate PrepareAction,None,Major,1
+0732283cab7894ffdce6a22ebe5d31b28d389a4d,CALCITE-3189,Bug,Multiple fixes for Oracle SQL dialect,core,Major,1
+e5e5809d28f422896147bd9f069f4930f22629ad,CALCITE-3165,Bug,Project#accept(RexShuttle shuttle) does not update rowType,core,Minor,1
+954f27c2a09e019dd22d689ddd770ffb42c1c10c,CALCITE-3188,Bug,IndexOutOfBoundsException in ProjectFilterTransposeRule when executing SELECT COUNT(*),core,Blocker,1
+fe2b59b82facad4d4e86eb4fa4080513b5dfe541,/,/,    Fix complitation warnings after mongo java driver upgrade,/,/,1
+ ,CALCITE-3157,Improvement,Upgrade mongo java driver 3.5.0 -&gt; 3.10.2,mongodb-adapter,Major
+72c52f46eab7fbe57ae5236ecc3831113684ff71,CALCITE-2995,New Feature,Add the DAYNAME&#65292;MONTHNAME function,None,Major,1
+6abf37a83b71568c3aa6d757913ab871fa15f837,CALCITE-3160,Bug,Failed to materialize when the aggregate function uses group key,None,Major,1
+cb364ce8109f92c80c17bb37d1cb1a03e6222bbe,CALCITE-3170,Bug,ANTI join on conditions push down generates wrong plan,core,Major,1
+4d4fe4cdab8dd7e03f0062a10884c2ac5ffc0da4,CALCITE-3179,Improvement,Bump Jackson from 2.9.8 to 2.9.9,None,Major,1
+e723ee943f575823db5c8c155236368fc6bb00e2,CALCITE-3169,Bug,RelDecorrelator should return for SEMI/ANTI join decorrelate,core,Major,1
+e1875e3f78d91711ba174834cdead500361b19e6,CALCITE-3171,Bug,SemiJoin on conditions push down throws IndexOutOfBoundsException,core,Major,1
+046f9f4e2e3c779e4e2e61946d67a0dc124f7f72,CALCITE-3172,Bug,RelBuilder#empty does not keep aliases,core,Minor,1
+1748f0503e7b626a8d0165f1698adb8b61bbc31e,CALCITE-2460,Improvement,Implement TO_BASE64 and FROM_BASE64 functions,None,Minor,2
+ ,CALCITE-2459,Improvement,Add implementation of From_Base64 to SqlFunctions,core,Minor
+0ed54bd64d0beb0849a499e65e872c43f00efce9,CALCITE-3121,Bug,VolcanoPlanner hangs due to subquery with dynamic star,None,Blocker,1
+021fabe2a77264b388a3b681b78bc7e51fb2d978,CALCITE-3168,Sub-task,Add test for invalid literal of sql parser,None,Major,1
+adf4cc4dc5cdb9f5e49c85d10f46a2fdcd831ccf,CALCITE-3063,Bug,Babel parse should parse PostgreSQL posix regular expressions,babel,Major,1
+d9d79ba69056ff69ab69b4c871ca1d83b0bfff15,CALCITE-3152,Improvement,Unify throws in sql parser,core,Major,1
+64a61cda18ada294e74ed6841d714d067bf0cb4e,CALCITE-3125,Task,Remove completely CorrelateJoinType,None,Minor,1
+79a4ec63adfa83c6920b9ece5042f65a322ff80f,CALCITE-3126,Bug,Remove deprecated SemiJoin usage completely,core,Major,1
+eb47b375c61aa4b3f6be2acb71e132c7a81c4e53,CALCITE-3146,Improvement,Support the detection of nested aggregations for JdbcAggregate in SqlImplementor.,core,Major,1
+8dd4fed46ff31df8737788847fdd2963944295f9,CALCITE-3155,Bug,AssertionError in RelToSqlConverter when visiting empty Values node,core,Minor,1
+914e2127b096dd40d6c8a5f5c05ddad89b2e0863,CALCITE-3151,Bug,RexCall&apos;s Monotonicity is not considered in determining a Calc&apos;s collation,core,Major,1
+78251a196543a51b67f43b21f484ffcc8a8aa3f9,CALCITE-2801,Bug,Check input type in AggregateUnionAggregateRule when remove the bottom Aggregate,core,Major,1
+ccbacf624c60b8b707c9e219a58d3968a9d4b854,CALCITE-3149,Bug,CACHE in RelDataTypeFactoryImpl can&apos;t be garbage collected ,core,Major,1
+bd42d29123c54200b6c3c213d8dbd8e8ec24db79,CALCITE-3060,Bug,Materialized view: &quot;target out of range&quot; error,None,Major,1
+3301a32273ccc325c7b0430d1695d496d5292509,CALCITE-3157,Improvement,Upgrade mongo java driver 3.5.0 -&gt; 3.10.2,mongodb-adapter,Major,1
+135daf3b302e7051768eb2bdce9839e75ba13e05,CALCITE-3156,Improvement,Replace fongo with mongo java server for test,mongodb-adapter,Major,1
+6375e24d4a8848e11e776ed6968f3a6f499424ae,CALCITE-3148,Bug,Validator throws IndexOutOfBoundsException for SqlInsert when source and sink have non-equal fields number,core,Major,1
+1cc7c3593a9201886afbd4dfc5ebe5b6d422715d,/,/,    Update example announcement,/,/,0
+69c8053cd98ec65c55fa1c3b282b076536ab758f,/,/,    Add committer names to 1.20.0 release notes,/,/,0
+34758b3ef86d739a89f95912536cde6c19ad951b,/,/,    Add 1.20.0 release date,/,/,0
+3530daaa8cad43aad6845b6c79e4bc1ca0e72f5f,/,/,    Add 1.20.0 release announcement,/,/,0
+537b8dbb4b58c61b6c573eb07a51b8d38896a1ff,CALCITE-3808,Task,Release Calcite 1.22.0,None,Major,1
+643f9b589877d557a2a1fd570e037200d078c83e,/,/,    Stop building zip archives when building using gradle,/,/,0
+e96bf560c685b2bc8d916de42fe908906f43e2ee,CALCITE-3769,Wish,Deprecate TableScanRule,core,Major,1
+926478ee7d997a06a63fd6e9926436aafa42ac9f,CALCITE-3826,Bug,UPDATE assigns wrong type to bind variables,core,Blocker,1
+eaba5e8803a7d5e691af1600c0d31e718d71003d,CALCITE-3830,Bug,The &#8216;approximate&#8217; field should be considered when computing the digest of AggregateCall,core,Major,1
+9148ce92df012396a5e9a22453a2680a7df8f413,CALCITE-3822,Bug,Source distribution must not contain fonts under SIL OFL 1.1 license (category B),None,Major,1
+4b3e406cffb57b1cfc1319c97c5f3ce4cf5d4fa3,CALCITE-3818,Improvement,Upgrade Avatica version to 1.16.0,core,Major,1
+7c27b147414c64505fa33c947100ece094caa15c,CALCITE-3812,Sub-task,Refactor HintStrategy to HintPredicate,core,Minor,1
+f8a0f0d503e6844c0ec14423e72e97aaf804d87b,CALCITE-3811,Bug,JDBC adapter generates SQL with invalid field names if Filter&apos;s row type is different from its input,jdbc-adapter,Major,1
+6d974f1b23bdca566d01cb7cbb1ec46d7ef5e84c,/,/,    Refactor RelToSqlConverterTest,/,/,0
+3a3b5ccc8b150cda81d3ac54f7baa6197dd7442c,CALCITE-3466,Bug,JDBC adapter incorrectly drops GROUP BY clause of sub-query,jdbc-adapter,Major,1
+2515e9ff12a588a590f408b3660a96c3fa76cc01,CALCITE-3812,Sub-task,Refactor HintStrategy to HintPredicate,core,Minor,1
+e1e5898f8975f2478862973c19799c8be45b8d83,CALCITE-3807,Bug,checkForSatisfiedConverters() is unnecessary ,None,Major,1
+2ffd74abb665f4119ff30926f3944070d8a9d0ac,CALCITE-3803,Improvement,Enhance RexSimplify to simplify &apos;a&gt;1 or (a&lt;3 and b)&apos; to &apos;a&gt;1 or b&apos; if column a is not nullable,core,Major,1
+b8deb183e88bc4b22f23b0fe03d1b8fc6603c600,CALCITE-2707,Bug,Information about distinct aggregation is lost in MATCH_RECOGNIZE,None,Major,1
+8cf7b448e5e0fcc45d88f96379ac95b611f38bca,CALCITE-3763,Bug,RelBuilder.aggregate should prune unused fields from the input  if the input is a Project,core,Major,1
+668792554cf7097d668bf794ef2ba5b1fd4956ee,CALCITE-3791,Bug,HepPlanner doesn&apos;t clear metadata cache for the ancestors of discarded node when a transformation happens,core,Major,1
+21c816829e71f2b72ff0f2bf3b130c835678d1e6,CALCITE-3794,Improvement,RexSimplify should return early if there is no pulled up predicate when simplifying using predicates,core,Major,1
+da1a2dd81a3f681e932039aa0c8569661573e1e5,CALCITE-3798,Improvement,Make RelBuilder view expander pluggable,core,Major,1
+bd92764244a137f551c4671dff20f3407aa40abe,CALCITE-3800,Improvement,FileReaderTest#testFileReaderUrlNoPath() timeout for AppVeyor test,core,Major,1
+bf3fb49eba29f4b90b1232f7abaaa32cf7bb73aa,CALCITE-3797,Bug,RelMdPredicates should not assume the RexExecutor instance is RexExecutorImpl,core,Major,1
+56d427a3e5dd7acd8eaf256fb3c77b0196f79b24,CALCITE-3799,Improvement,Following CALCITE-3769  fix the slow tests,core,Major,2
+ ,CALCITE-3769,Wish,Deprecate TableScanRule,core,Major
+c5d43fe57a0998564343e1f8480f8e85cd788bdf,CALCITE-3795,Improvement,Promote the Project digest to only print &quot;0&quot; instead of &quot;0..0&quot; when there is only one trivial field,core,Major,1
+8a890281761d4cf3073566ba1a7fcb483af4c5b0,CALCITE-3793,Bug,AssertionError throws for planner digest cache key when the rel type is not struct,core,Blocker,1
+dfdb3354c5f4bca1fe5a53a1aecff6ca4bc1a0c2,CALCITE-3792,Improvement,Remove the generic type declaration of method RelOptCluster#getMetadataQuery,core,Major,1
+9b2a5592f3852a39225ec0b41b1768f533c825d0,CALCITE-2442,Bug,Cassandra unit test intermittent failures,cassandra-adapter,Major,1
+ceb972952739929c175dfd0895407e8e17e0b502,CALCITE-3763,Bug,RelBuilder.aggregate should prune unused fields from the input  if the input is a Project,core,Major,1
+051b6919dfc5b60406e81d5e8b8d5efb263def87,/,/,    Add RelBuilder.transform  which allows you to clone a RelBuilder with slightly different Config,/,/,0
+a09923ff8dcb707c5573b37e182308f90dfb52fe,CALCITE-3785,Bug,Performance regression in HepPlanner#belongsToDag() due to expensive hashCode computation,None,Major,2
+ ,CALCITE-3713,Bug,Remove column names from Project#digest,core,Major
+10a5b8a89d319e6fed563e7e49518cfc960b93d6,CALCITE-3783,Bug,PruneEmptyRules#JOIN_RIGHT_INSTANCE wrong behavior for JoinRelType.ANTI,core,Minor,1
+eaa40cb7589fb59ea820ea1d4a0c2f187ee9e759,CALCITE-3781,Sub-task,HintStrategy can specify excluded rules for planner,core,Major,1
+15fe43421f8139cf8d8c305ebc2f1b859f7b657b,/,/,    Site: Update IntelliJ instructions with suggested and problematic versions,/,/,0
+e89e18d110df1859dd28d03262fe39e040b31b68,/,/,    Update Gradle test output formatting,/,/,0
+dac238c1f0617305ab83f0ce0145f92883c7cae9,/,/,    Color test results in Gradle output,/,/,0
+6ea2fd03cbc366b673ac0adfcd246b2e3e7321dc,CALCITE-3769,Wish,Deprecate TableScanRule,core,Major,1
+d1e3a97134e4155b3b76a8d803f88ee3cb6c7312,CALCITE-3773,Bug,Wrong parameter in EnumerableMergeJoin::create method,core,Trivial,1
+ea21f7540f58e679cf148848972a441cf06f12e0,CALCITE-3768,Bug,VolcanoPlanner.changeTraitsUsingConverters() has parameter that&apos;s never used,None,Minor,1
+1baee8524a8daa9c67f08f83080e269fc5938bc5,CALCITE-3766,Sub-task,Add a Builder to RelHint,core,Major,1
+d6fa25cd11625ad7b4b74dafbd0211c701b38d49,CALCITE-3765,Improvement,Returns early when there is an existing operand when assigning operands solve order,core,Minor,1
+c086877a8b7f7b47526d55e9e18dcb3576cdbaab,/,/,    Switch RelBuilder.Config to an interface  and deprecate RelBuilder.ConfigBuilder,/,/,0
+13728c0320dcd2e042e775dcc19b615df5c4a614,CALCITE-3764,Bug,AggregateCaseToFilterRule handles NULL values incorrectly,None,Major,1
+a6f544eb48a87f4f71f76ed422584398c0c9baa3,CALCITE-3707,Sub-task,Implement COSH function,None,Major,1
+22c70caba8d1942d3333cde6fcd0039ce71d1525,CALCITE-3695,Sub-task,Implement TANH function,None,Major,1
+1eb22d03c11b9362b50208261b99eecc3de28fe8,CALCITE-1824,Bug,GROUP_ID returns wrong result,core,Major,1
+792fbbf51bf576b5530081edebcad5c53ee07f3d,/,/,    Update Gradle: 6.1 -> 6.1.1,/,/,0
+cf755f27dce1fb9aa902f41528f48a326e31c51a,/,/,    Add executable flags via .gitattributes so release artifacts have executable bits,/,/,0
+3c9e156aea4a246318e1fa9ea299adfc9479e20e,CALCITE-3751,Bug,JDBC adapter wrongly pushes ORDER BY into sub-query,jdbc-adapter,Major,1
+78b3d979d1a7ae37f88c0b04484723fb03ec7f18,/,/,    In JDBC adapter tests that check generated SQL  extract SQL from string literals in generated Java,/,/,0
+3892bcd215724a697814426f26d7b8dcd77a4568,/,/,    Trim trailing spaces in test SQL,/,/,0
+076780ad3d02bd1483b6713146915c3e43f89e33,/,/,    Git: Windows line-endings,/,/,0
+0b97f45752f111b56aa499b037077d27db82ec47,CALCITE-3756,Bug,RelSubset should not match operand(RelNode.class),core,Major,2
+ ,CALCITE-3755,Bug,Ascending rule match with RelSubset operand doesn&apos;t work,core,Major
+bfd23dbdcdf43f95ef5597244320e5a3c7db582c,/,/,    Gradle: Support skipAutostyle property in buildSrc,/,/,0
+2e37b752d5cfd29a4b7b77d0d70a33f52988f726,CALCITE-3738,Bug,Missing LogicalSort for INSERT statement,core,Major,1
+9ab8c41f3d3b64f6d1c0ee309106a0e8e9c258d0,CALCITE-3676,Bug,VolcanoPlanner. dumpGraphviz should handle exception gracefully,core,Major,1
+93372e7de02f567fe6d026a6d28d3b6a254fd571,CALCITE-3653,Wish,Support TableModify operator expression convert to Logical in ToLogicalConverter,None,Major,1
+0196bb67a5255b7b0f9e297c74742c4d7203403d,CALCITE-3744,Bug,Duplicate RuleMatches when RelSet gets merged,core,Major,1
+34e4a4ff9010b0a25c0a1546f012184a1a72e2e3,CALCITE-3749,Bug,JitPack build fails,build,Major,1
+8fb5ca9898dc2c39a3b708a29f95a8904423c871,/,/,    Cosmetic changes,/,/,0
+7e57379c0536e60e88164c98642484d2e328541c,CALCITE-3747,Bug,Constructing BETWEEN with RelBuilder throws class cast exception,core,Major,1
+44be09dff80768be39784d3bff596d5f6727273d,/,/,    Add Gradle Wrapper validation,/,/,0
+b1c7a0be86498d4c7688c28191416e9a57a17275,/,/,    ImmutableBeans on JDK 8 requires interface to be public,/,/,0
+0d4d8de7af72ee710a6f458a6c216ff70388c52b,/,/,    Add hsqldb data sets (scott  foodmart and chinook) to SQLLine's path,/,/,0
+0ef28f08bc555c518c9d2fec5b6e2aa5ae6620ee,CALCITE-3742,Improvement,Update Gradle: 6.0.1 -&gt; 6.1,None,Major,1
+bfd6d558d3b7b56cc5a8ff13a4e6988f36ace03b,/,/,    Refactor MaterializationTest to use a fluent API,/,/,0
+2c78bac48bfde94c0c77e6e7bb1f95814c8b23c7,CALCITE-3735,Bug,In ImmutableBeans  allow interfaces to have default methods,None,Major,1
+30313f34e5ed252b09fb2110d381fc527fb6732e,CALCITE-3736,Sub-task,Add an interface in RelOptRuleCall to customize the propagation of hints before registering into planner rule,core,Major,1
+990ed290ccde1344c9277cf88c82df3118a96217,CALCITE-3640,Sub-task,Oracle EXISTSNODE Function Support,None,Major,1
+7bb120dc074fb20ea5802f2a574dd141efebbcb9,CALCITE-3721,Bug,Filter of distinct aggregate call is lost after applying `AggregateExpandDistinctAggregatesRule`,core,Major,1
+b80bb1cbceb11ed31b73e419916b5cc98610503e,CALCITE-3382,Sub-task,Rename current TUMBLE to &quot;$TUMBLE&quot; and add TUMBLE to Parser,None,Major,1
+6257609c6be438ba9103666ea41e3191d851abd0,CALCITE-3730,Sub-task,Add hints to RelBuilder,core,Major,1
+81669c555a96b5dc74e363165b5b882b72d45949,CALCITE-3644,Wish,Calc on the Intersect in target is not being matched,None,Major,1
+3621b61ea0bca953652a2e6d1838e5a296c6a007,CALCITE-3593,Bug,RelToSqlConverter changes target of ambiguous HAVING clause with a Project on Filter on Aggregate,jdbc-adapter,Major,1
+571cf95a1564c925bf73e4dae3a6c63199b17c4e,CALCITE-3466,Bug,JDBC adapter incorrectly drops GROUP BY clause of sub-query,jdbc-adapter,Major,1
+7fafef95272e91f97db2a40189fde352720c16e4,/,/,    Allow "CREATE TABLE ... AS SELECT ..." in Quidem tests,/,/,0
+a55e533be5a0adf4537e98d2e7209fe7bd946ddb,/,/,    Add method Pair.forEach(Iterable  Iterable  BiConsumer),/,/,0
+315266420ee4113d766af16166a91ac8cb362db0,/,/,    Really deprecate RelBuilder.groupKey(ImmutableBitSet  ImmutableList<ImmutableBitSet>),/,/,0
+dfd8da61aad1de003200b3d407dd5b7ac222ba39,CALCITE-3729,Improvement,Filters failed to be pushed down when it&apos;s identical to join condition.,None,Major,1
+5fc2fda637429d8810692fcab4c2d50c5448288b,CALCITE-3725,Bug,RelMetadataTest fails with NPE due to unsafe RelMetadataQuery.instance call,core,Major,1
+5cfd8c31cea1bf5411e503b15714cab5fc1c0d0a,CALCITE-3723,Sub-task,Following the change to add hints to RelNode  deprecate the old constructors,None,Major,1
+536d5032c8a8a749601d5ff4664e6a2e0b8b7c94,CALCITE-3675,Bug,SQL to Rel conversion is broken for coalesce on nullable field,None,Major,1
+e387deddb0cce39f5827de8744645286b2cb1d7f,/,/,    Refine rules so they produce less no-op matches,/,/,0
+0f94bcd2c18fd14c2e30c598bc83dbe9ccdc80cd,/,/,    Refine logging dependencies: keep slf4j bridges in runtime classpath only,/,/,0
+9f67604c60d6ca99fc1cc8eb2182823e8f0a0c08,/,/,    Refine RuleQueue#addMatch: skip the match if it is not required for the phase,/,/,0
+bbb37fc071ea51d9127aea69a260235ed14f2879,/,/,    Increase test coverage for regular CI jobs: move @Tag(slow) annotations to test methods,/,/,0
+35caa059a762094c7df0b30e9b51358a19b48ac2,/,/,    Replace ChunkList with ArrayList in RuleQueue#list,/,/,0
+e96a9aaec6cb75be65cbe509d3001b2533a29706,CALCITE-3364,Bug,ClassCastException if group by is used on the result of scalar valued table function,None,Major,1
+ec9231ad6c5a8764a17f5791a676951a90337015,/,/,    Use concurrent test execution by default,/,/,0
+0af2a9777365e062bab7bf9170aead51ecd43384,CALCITE-3722,Bug,Add Hook#PLAN_BEFORE_IMPLEMENTATION to capture the plan after optimization,core,Major,1
+820f6ab4965d79946e4144db8e33aeef98c3d2ff,CALCITE-3285,Improvement,EnumerableMergeJoin should support non-equi join conditions,None,Major,1
+3092159056280ab1f3c284394ed99ae8211b3f6d,/,/,    Refine ColumnUniqueness for Subset(input=Sort),/,/,0
+1e9b4da0573ec73d332d4e65fb7fd30491b4318d,CALCITE-3713,Bug,Remove column names from Project#digest,core,Major,1
+3acb30875525e029be96726a357ee9950cce3310,CALCITE-2450,Sub-task,RexSimplify: reorder predicates to a canonical form as a part of RexSimplify,core,Major,1
+5297b83aa7e1fa6de8ee5745c823d8b501f8414d,CALCITE-3719,Sub-task,Add hint option checker to customize the option validation,core,Major,1
+2282b952e553a04c1f051e1bc42cd5910eb25f45,CALCITE-3677,Bug,Add assertion to EnumerableTableScan constructor to validate if the table is suitable for enumerable scan,core,Major,2
+ ,CALCITE-3673,New Feature,ListTransientTable should not leave tables in the schema,core,Major
+5cbe435eea5ec0ba8cbc7ddf8c2808936aea476c,CALCITE-3531,Improvement,AggregateProjectPullUpConstantsRule should not remove deterministic function group key if the function is dynamic,core,Major,1
+413fb37906feee119069ae8d99446b7f6d9bc3a1,CALCITE-3715,Sub-task,Add an interface to pass the table hints to RelOptTable,csv-adapter,Major,1
+e63c252c4adfcce6072ebdfba724af89e9b2859d,CALCITE-3663,Improvement,Support for TRIM function in Bigquery dialect,core,Major,1
+8555e1bc14f0e94a2f1c1e25d56c1a04341e432e,CALCITE-3714,Bug,BitString.createFromBytes reverses order of the bits in each byte,core,Trivial,1
+763ec429c951acd5fa251c5d4a2b7780fbf648d4,CALCITE-3712,Bug,Optimize lossless casts in RexSimplify: CAST(CAST(intExpr as BIGINT) as INT) =&gt; intExpr,core,Major,1
+397f4b3c435e9311ea82f66af90df6d29c28bf17,/,/,    Add doc for type coercion and SQL hints change,/,/,0
+54a6e3a78489e419477f5ca079bb1539ac284d6c,CALCITE-3510,New Feature,Redis adapter,None,Major,1
+4558236b2882f5b11a47fa1da289d5d11b219d5b,CALCITE-3684,Sub-task,Implement CBRT function,None,Major,1
+1c84234201fe2f69bf8e9d495c2b6177069a069f,CALCITE-3587,Bug,RexBuilder may lose decimal fraction for creating literal with DECIMAL type,None,Major,1
+40f5a0faaa4c5d974b0815ea2216d91551755e7b,CALCITE-3154,Bug,RelToSqlConverter generates NULLA LAST and NULLS FIRST wrongly when converting RexOver to sql using MysqlSqlDialect,core,Major,1
+ee1a70a7b74cb20d3a6dcae145171464ac05b28e,CALCITE-3658,Improvement,TableModify of Update contains correlated variable by mistake.,None,Major,1
+3302a494767b4d64b5212e21f53d2c8cc49fe1c7,CALCITE-3580,Sub-task,Oracle EXTRACT(XML) Function Support,None,Major,1
+162275be3f4417d1c69f8b244e2f62369bbd6211,CALCITE-2672,Bug,In JOIN ... USING and NATURAL JOIN  common columns should be unambiguous,core,Major,1
+9db466ddb26c472411bc4ce27bf62391381912cb,CALCITE-3711,Improvement,Correlate should override estimateRowCount,None,Major,1
+963a266d7b3859d141964217f4d16cae350b10e1,CALCITE-3606,Wish,batch insert failed,core,Major,1
+e88809e7288db9b7d33be8a67840e02a71327675,CALCITE-3328,Bug,Immutable beans  powered by reflection,None,Major,1
+68eacfc57da7492377797e39ee3e2778be1b1aa4,/,/,    Javadoc warning,/,/,0
+61da868ea50fa9fd1584eaafd3fcb0c644e9c953,/,/,    Contribute class Resources to ASF  and change its header,/,/,0
+8a49c9fda80c6d81721f0cf1044c83feed57f589,/,/,    Bump spark-core_2.10 from 2.2.0 to 2.2.2,/,/,0
+4e7f92557a240de58cd950dce6ab478c1bc11604,/,/,    Add gradle task 'aggregateJavadocIncludingTests' that builds javadoc for both main and test,/,/,0
+8658804e0a1b5c2fe9c78fa8e40655db06531ac8,/,/,    In DiffRepository  replace a synchronized Map with a Guava cache,/,/,0
+5e4d3967fc2f1c14ccf59c521054cfd4fe1e5b54,CALCITE-3672,Bug,Support implicit type coercion for insert and update,core,Major,1
+bfc0005d0bbaa6a01a3c5810259b97905b563b55,/,/,    CartesianProductListEnumerator should reset internal enumerators on #reset(),/,/,0
+06ac187a342f82a4b69e4c752ccdce0c269a350d,CALCITE-3654,New Feature,Use single Elasticsearch instance for all elasticsearch tests,elasticsearch-adapter,Major,1
+3dd6d850adc6a0d7b14bedac0e431047c63beb3c,CALCITE-3651,Bug,NullPointerException when convert relational algebra that correlates TableFunctionScan ,None,Major,1
+7dcceeedbc9bb28167f3b7497a8eee1429bc51f6,CALCITE-3666,Bug,Refine RelMdUniqueKeys and RelMdColumnUniqueness for Calc,core,Major,1
+9d3862cb1c95f7919e68393a3a6bdf46b3e2f8f0,CALCITE-3655,Bug,SortJoinTransposeRule must not push sort into Project that contains OVER expressions,core,Major,1
+a54cb0a587c32e002ba21b8dba2ceab24cade087,CALCITE-3649,Sub-task,Hints should be propagated correctly in planner rules if original node is transformed to different kind,core,Major,1
+9f29f4628314f38b4719254c5fc9e60e76ae1ae7,CALCITE-3563,Sub-task,When resolving method call in calcite runtime  add type check and match mechanism for input arguments,core,Major,1
+fe0a2fe7dde4a4a342cfc50f2f9da983cc60c479,CALCITE-3621,Bug,JDBC adapter can&apos;t push down sort to DB,jdbc-adapter,Major,1
+87f8e34dcedd806a6ef64117caebb5a55f99e3d2,CALCITE-3652,New Feature,Add org.apiguardian:apiguardian-api to specify API status,core,Major,1
+8768a235feccd8125108900e386b51f4b33d5372,CALCITE-3643,Improvement,Prevent matching JoinCommuteRule when both inputs are the same,core,Major,1
+0341e97835200e1d2d7cc582ded98d3aaa829c01,CALCITE-3637,Improvement,Update linq4j tests upgrade from junit4 to junit5,core,Major,1
+2daa185832f983d11a763d5bbc10454d4c56d7ac,CALCITE-3623,Improvement,Replace Spotless with Autostyle,core,Major,1
+8f35d3af725a9306e70b8ae4beda89a749b13bf5,CALCITE-3623,Improvement,Replace Spotless with Autostyle,core,Major,1
+34af9ec1f6066d78a9d8534d8c2531724ac6b127,CALCITE-3630,Bug,Improve ReduceExpressionsRule,core,Major,1
+e7d3f545c34efaaaac4f1e9120ca9227fd557cb6,CALCITE-3579,Sub-task,Oracle XMLTRANSFORM Function Support,core,Major,1
+b06fd4094d35c7f61c8e4cb63ce6fc682398d2c7,CALCITE-3607,Wish,Support LogicalTableModify in RelShuttle,core,Major,1
+e7fc6977341d0166f110de4218313648de81b336,CALCITE-3591,Improvement,Add BIT_XOR BIT aggregate function,core,Major,1
+673ac49285df0d4e26879c63425950d95596d363,CALCITE-3618,Bug,WindowedAggRelSplitter.isDependent is incorrect,core,Major,1
+5d6e57d6efc5ff44f0705a348812f89fa5b237f0,CALCITE-3631,Sub-task,Support SQL hints for Calc,core,Major,1
+a52bedeb410824f6dc36b3d668dc194bb0055350,CALCITE-3635,Sub-task,Supports hint option as string or numeric literal,core,Major,1
+1afe1e44fe45045608c04255c0f745f2f9ab0c0f,CALCITE-3622,Improvement,Update geode tests upgrade from junit4 to junit5,geode-adapter,Major,1
+4415171f52cd31f310bb06604a5781d92ad2105d,CALCITE-3601,Test,Update elasticsearch tests upgrade from junit4 to junit5,elasticsearch-adapter,Major,1
+e50f5338fbd1779f0cb41ce66a8f6a8c8f6c3034,CALCITE-3625,Improvement,Update mongo tests upgrade from junit4 to junit5,mongodb-adapter,Major,1
+5f10de3cd042120d18cb5f3ea7749243d537332d,CALCITE-2905,Improvement,Migrate build system to Gradle,None,Major,1
+a69d24951794f6d3ff67f40b0d117fd0df9a919b,CALCITE-3525,Improvement,RexSimplify: eliminate redundant rex calls in OR,None,Major,1
+1f3b7105fcc5cca45e5cdbb73d59fb51c410d08f,CALCITE-3525,Improvement,RexSimplify: eliminate redundant rex calls in OR,None,Major,1
+b808886328e99737471e7d1ed2702127e5969461,CALCITE-3620,Improvement,Remove implicit lateral operator for temporal table join,core,Major,1
+c4d18de778713850f7d00f2ed418dca6922a0bff,CALCITE-3387,Bug,Query with GROUP BY and JOIN ... USING wrongly fails with &quot;Column &apos;DEPTNO&apos; is ambiguous&quot; error,None,Major,1
+4d4afc6edcee93cbe2d15a82e0b2b947ff5b22a2,/,/,    Move PGP signing to com.github.vlsi.stage-vote-release Gradle plugin,/,/,0
+a9b23c736b357a5ea796ff148c221f8120ebb975,CALCITE-3604,Bug,Fixing locale error message in ExtractValue Function,core,Blocker,1
+edc386d960b12642cdca40abb692beab6f75ce72,CALCITE-3595,Bug,Test infrastructure overwrites reference log with wrong results,build,Major,1
+f3020bc59be668b36a131361b486b45064b16f50,CALCITE-3568,Improvement,BigQuery  Hive  Spark SQL dialect don&apos;t support nested aggregates,core,Major,1
+d616a080af2b86feeb3a0b526bb59bef94f94523,CALCITE-3608,Bug,Promote RelOptUtil.createCastRel to not create new projection if the input rel is already a project,core,Major,1
+a289a75830ff864137777bb809f76fd291902142,/,/,    Site: Switch PMC Chair to Stamatis Zampetakis,/,/,0
+39e1805e62aac35be454acd3add3b86db777a9bf,CALCITE-3603,Bug,SqlLateralOperator&apos;s unparse add additional keyword &apos;LATERAL&apos; when the inner operator is SqlSnapshot,core,Minor,1
+0c7c1ec088497c4d21d402ffa2eb6219d777dd73,CALCITE-3590,Sub-task,Support SQL hints for Aggregate,core,Major,2
+ ,CALCITE-482,Improvement,Implement SQL and planner hints,core,Major
+5f112a42a1aa62442a9e9306ac4700ed2152ac12,/,/,    Fix regexp that detects // End ... trailers,/,/,0
+2e23e2616a2567844100d79d974a0f79680bec73,CALCITE-3552,Sub-task,Support MySQL ExtractValue function,None,Major,1
+1ddc1c3a0c6185c31bdf5fadde81ce6316b86fd9,CALCITE-3552,Sub-task,Support MySQL ExtractValue function,None,Major,1
+75ac5f705110dbfa1f299043f9858974468fdbae,/,/,    Add .DS_Store into .gitignore,/,/,0
+b93ec5a9edb7459696385e6adad67b92b6d406d7,/,/,    SqlValidatorMatchTest: Java -> Kotlin,/,/,0
+cce23fa81068b3a03da51d6d42600124f0335f46,/,/,    Remove trivial default constructors from test code,/,/,0
+0d6bec4140da46af07d58cf07a5e682d61529603,/,/,    Rework Locale.setDefault with JUnit5 extensions,/,/,0
+52a57078ba081b24b9d086ed363c715485d1a519,CALCITE-3559,Task,Drop HydromaticFileSetCheck from Checkstyle configuration,build,Major,1
+ ,/,/,3559] Fix broken CALCITE-... links,/,/
+753ce4ad35b95cc91ad62f96b2bf3ce743f66d1c,CALCITE-3559,Task,Drop HydromaticFileSetCheck from Checkstyle configuration,build,Major,1
+571731b80a58eb095ebac7123285c375e7afff90,CALCITE-3559,Task,Drop HydromaticFileSetCheck from Checkstyle configuration,build,Major,1
+41b9c96a4409f505bae5b17a7c46204b367935a9,CALCITE-3559,Task,Drop HydromaticFileSetCheck from Checkstyle configuration,build,Major,1
+9512d73d6652cf663a554ad1636b8f7058e36bab,CALCITE-3559,Task,Drop HydromaticFileSetCheck from Checkstyle configuration,build,Major,1
+ca1bb5e5e87e86c68bbbfcadea0da2184efde9bf,/,/,    GHA: use actions/checkout@v2 for faster checkouts,/,/,0
+8e9261dc14f1e50563b259dcdb42cd4415065078,CALCITE-3599,Improvement,Initial the digest of RexRangeRef to avoid null string,core,Minor,1
+28d5f6f4ad770cd505ba0e5506b7559879600b4e,CALCITE-3598,Bug,EnumerableTableScan: wrong JavaRowFormat for elementType String,None,Minor,1
+bf40ad33e7ee85ff426ddc493fe6d9a5bfe6a208,CALCITE-3575,Bug,IndexOutOfBoundsException when converting sql to rel,core,Critical,1
+073abbe3028395c210dc98241adf80dd553dab83,CALCITE-3462,Improvement,Add projectExcept method in RelBuilder for projecting out expressions,core,Trivial,1
+a4d04a35a9aca3ac1f464c231b998cd2808a4b01,CALCITE-3535,Task,EnumerableJoinRule: remove unnecessary Filter on top of INNER Join,core,Minor,1
+d951844c464d41fe435977f12df975352d71226f,CALCITE-3520,Bug,Type cast from primitive to box is not correct,core,Major,1
+fd92642d8a0b08ed0b1b4ccefd0de58d6239dd03,CALCITE-3381,Improvement,When generating SQL for BigQuery (via unparsing)  convert Calcite SQL types to BigQuery types,core,Minor,1
+74d027545059d0f6f0813253c87a2fb7cb12c4a6,CALCITE-3584,Sub-task,Propagate hints when decorrelating a query,core,Major,1
+25a2e5a2df6ada03b36102dc5d46f115c8de2547,/,/,    Adjust code indentation (Axis),/,/,0
+50cfaec7c0e80eeee38caade997b7d473680cb9a,CALCITE-3481,Improvement,Support convert TableFunctionScan to SqlNode,None,Minor,1
+db36758c0c9bfaae5aada3da169d09a5270a8d53,CALCITE-3576,Improvement,Remove Enumerable convention check in FilterIntoJoinRule,core,Major,1
+0fd7628438164f538aa91d24c87000e1dc86434b,/,/,    Site: Add two links with useful information about Gradle (Rui Wang),/,/,0
+abb4fef8eda2d26cc14f787c5393caac75a35efb,CALCITE-3576,Improvement,Remove Enumerable convention check in FilterIntoJoinRule,core,Major,1
+4f70978983d664629bb74abf5ac8826ff765ee6c,CALCITE-3540,Test,FoodmartTest produces many warnings due to incorrect use of CalciteAssert.pooled(),core,Major,1
+d934d121077f271331810827ce9cf7ccb5d4768e,CALCITE-3565,Sub-task,Explicitly cast assignable operand types to decimal for udf,core,Major,1
+1a3cb8c369b8bf0f7b42043609f60bc00717fad2,/,/,    Site: Update homepage of Stamatis Zampetakis,/,/,0
+c0f63cca9c24953a50cb53c2f5c00d7a0b65585c,/,/,    Site: Move "Fast federated SQL with Apache Calcite" in talks section and add video link,/,/,0
+3f340bf9642b19e34be384a4f2b53f8cd4940a67,CALCITE-3547,Bug,SqlValidatorException because Planner cannot find UDFs added to schema,core,Minor,1
+3a5234b14af3503fc1ec17836383264cbb77cb86,CALCITE-3496,Wish,Hive dialect and MS SQL dialect support with cube and with rollup ,None,Minor,1
+1268950211c8b1ff3888919b704fddfee58887cd,CALCITE-3246,Bug,RelJsonReader throws NullPointerException while deserializing from JSON a call to a user-defined function (UDF),core,Major,1
+ff44204dc2899e0c34e94f70c2e0c301170daca3,CALCITE-3429,Bug,AssertionError thrown for user-defined table function with map argument,None,Major,1
+9e80eb6ed90b3f053cdbae2431e96dc09cf81211,CALCITE-3560,Improvement,Additional calcite.util.Source implementation for generic text source (eg. CharSource),file-adapter,Major,1
+ccdc169080a7f68066c317db67729b7df81662f6,CALCITE-3550,Improvement,Make SqlTypeAssignmentRules conversion mapping pluggable,core,Major,1
+3559b3bc0491608d8c5ca9d55b57736df29ae369,CALCITE-3542,New Feature,Implement RepeatUnion All=false,None,Major,1
+170bb9bbeb83a412461fb084bf727de8f67b268f,CALCITE-3546,Improvement,Improve EnumerableDefaults nested loop join,None,Minor,1
+691108662e61c9561ca1f2372dd7b28e1b8846a7,/,/,    Align auto-configured IDEA copyright template with the project style,/,/,0
+67ed322370472dc4403eed485d0b61fe5a40f84f,CALCITE-3281,Bug, Support mixed Primitive types for BinaryExpression evaluate method.,core,Major,1
+f1e51e6c310b68d399b360ff374ffc6d46fefdba,CALCITE-3561,Improvement,Implement Uncollect relational operator in Interpreter (for SQL queries that use UNNEST),core,Major,1
+0aaf4f628ba145ed7299701ae20f0e723fd37142,CALCITE-3566,Wish,Support EnumerableIntersect and EnumerableMinus convert to Logical,core,Minor,1
+560d8951279fddb305626fd3d188b88fbf88b1f9,CALCITE-3567,Bug,UNNEST(RECORDTYPE(MAP)) not supported,core,Major,1
+11d7916e46509ef7bb0c0632667ec61f5c1008b1,CALCITE-3569,Improvement,IndexOutOfBoundsException when pushing simplifed filter to view,core,Major,1
+a0931b784c60683eb6845b3087d79f33160fc868,CALCITE-3285,Improvement,EnumerableMergeJoin should support non-equi join conditions,None,Major,1
+ecc68aca85f756bb2b29b56dba4322c342f5d693,CALCITE-3548,Bug,./gradlew :ubenchmark:jmh cannot find benchmark to run,build,Major,1
+0e16fe375f797e498c0039fc7cffecfd0dc9bc3d,CALCITE-3536,Bug,NPE when executing plan with Coalesce due to wrong NullAs strategy,None,Major,1
+abe7729fb1d6e9b9cfbe4cf498806f67991b618e,CALCITE-3355,Bug,Deduce whether CASE and COALESCE may produce NULL values,core,Major,1
+ed181a4671b9941f2852c581daa043d8a2d6dec2,CALCITE-3473,Improvement,Getting unique result for table scan should contain key column(s),None,Major,1
+e89784c270cab5eafeab839bfd3d4cbea816607f,CALCITE-2457,Improvement,Upgrade to JUnit 5,None,Major,1
+a180359daca5aa9830a4a220bb8a514e7f0abb1a,CALCITE-2457,Improvement,Upgrade to JUnit 5,None,Major,1
+8f404f19a38b854fcdcfe688cf69cec15feda912,CALCITE-2457,Improvement,Upgrade to JUnit 5,None,Major,1
+963ab743866ee5f934f65d9c8b3ef2bcb27911bc,CALCITE-2457,Improvement,Upgrade to JUnit 5,None,Major,1
+60d27ee3162acead99f2510e36d7591add78e5a6,CALCITE-2457,Improvement,Upgrade to JUnit 5,None,Major,1
+c92e34949d5396badbaaa10c691483a62cf70024,CALCITE-2457,Improvement,Upgrade to JUnit 5,None,Major,1
+f063c40a73566e2cdfe0e1b734e409735c26db2b,/,/,    Build script: instantiate sqllineClasspath only when buildSqllineClasspath is used,/,/,0
+7f4899bff3f07566d2039fcf437bb7cfe3659fda,/,/,    GitHub Actions: actions/checkout@master -> v1.1.0 to avoid unexpected failures,/,/,0
+ab136b5f76a4cb951e847fcba6b414c5e80dbbe6,CALCITE-3544,Improvement,RexSimplify does not exploit all known predicates,core,Major,1
+bb18888c43a3943f5c1265bab5d87830633c465b,CALCITE-3353,Bug,ProjectJoinTransposeRule caused AssertionError when creating a new Join,core,Major,1
+ca27fe99b5d1367c2d7ceb20a02ad80c6a2fce63,CALCITE-3539,Bug,EnumerableDefaults#nestedLoopJoin returns duplicates for JoinType.SEMI,core,Blocker,1
+a2ad38359380a196a987d28f9ec378006e86fa08,CALCITE-3521,Bug,CalciteSystemProperty can&apos;t load config file,None,Major,1
+eb71946c843b3dc9618a2c128dcaa9bf52afe9c7,CALCITE-3141,Bug,Slow tests are not run in continuous integration,None,Major,1
+6ad3f9a97b2c68ad9b08e9f6099ce9c5e1fd9a80,CALCITE-3140,Bug,Multiple failures when executing slow tests,None,Major,2
+ ,CALCITE-2223,Bug,ProjectMergeRule is infinitely matched when is applied after ProjectReduceExpressionsRule,None,Critical
+07c1efbb2b42a0e27f9d01968d357d9c1e17cd51,CALCITE-3534,Improvement,Support parse(unparse) alien system non-standard data type,core,Major,1
+ed4c3cc338f5144360bbc053218c44d23e84bab0,CALCITE-3531,Improvement,AggregateProjectPullUpConstantsRule should not remove deterministic function group key if the function is dynamic,core,Major,1
+a3c8a1b3c70f3aee0fbfe7de0997743d997877bd,CALCITE-3454,Wish,Support Exchange  SetOp and TableModify for builtin metadata query,None,Minor,1
+f2f25b3a567ee7ec1c6e8f9f00f581b2dacc3dae,/,/,    Reduce FoodmartQuery heap consumption by ignoring rows/columns as they are never used in tests,/,/,0
+cba623512f675001dd07d1b4a22fad202a053394,CALCITE-3527,Sub-task,Enrich tests for SQL hints in SqlHintsConverterTest,None,Minor,1
+620ca17d4e283d58b3ab4c573b911702fd4127c7,CALCITE-3245,Bug,CompileException in Janino when a query contains a division between a Double and a BigDecimal,core,Major,1
+cacc82ce99258abee0fad636d800814a6dcb1b77,CALCITE-3112,Improvement,Support Window in RelToSqlConverter,core,Major,1
+935fb66fd8f5a47b2ca6e6e4709fbd95a2a8449a,CALCITE-3523,Sub-task,Strengthen the java doc and code of class RelHint and SqlHint,core,Minor,1
+7a2ca26ea2e28ef9d29d01ccb35794142f59eafd,/,/,    Skip GitHub Actions for changes in site/**,/,/,0
+1badb69dfe7332a66ec12bb21024e81b3072d691,CALCITE-3492,Improvement,RexUtil.simplifyOrs() throws exception if terms has 1 RexNode,core,Major,1
+c6cd087e13eb1ac9c4f6f16e02f53485df55aed9,/,/,    Ignore .idea in all the directories,/,/,0
+472be64cfed80edb7869e4608794f167735dc70b,/,/,    Use build/checkstyle-cachefile instead of target/... for the cache file,/,/,0
+69a4c12746c42942b8155784c5f3b1658fc8a552,/,/,    Silence warnings on dependency issues in ubenchmark module,/,/,0
+0aab80cf5e1af8615acae2dac92943776839ddaf,CALCITE-3519,Bug,`inheritPath` of `RelHint` represented by `ImmutableBitSet` may be incomplete.,core,Major,1
+c23abbe90e6142cac9cc93d1a54e4dd30bab0a93,/,/,    Add './gradlew style' task to apply code format and report violations,/,/,0
+000053b23fb43ad03a49ad1d1d22071265202ca5,CALCITE-3516,Task,Bump net.java.dev.jna:jna to 5.5.0,cassandra-adapter,Minor,1
+c7c8ab17c3f4785f81dc02184034ebeb5e1d4ae1,CALCITE-2905,Improvement,Migrate build system to Gradle,None,Major,1
+f2b437a337498ac6daece994645f0998f41aea26,CALCITE-2905,Improvement,Migrate build system to Gradle,None,Major,1
+1ef6a0614cbb048d0c98e46b24662c56688f137f,CALCITE-2905,Improvement,Migrate build system to Gradle,None,Major,1
+27055fbc674b22d5d2307c2488b31996c2113485,CALCITE-2457,Improvement,Upgrade to JUnit 5,None,Major,1
+8a9cb376ad210277b84453cca4a505c7058a2fa6,CALCITE-2905,Improvement,Migrate build system to Gradle,None,Major,1
+080423bc5c1396676f718db65b2ada36eaa70dbc,CALCITE-2905,Improvement,Migrate build system to Gradle,None,Major,1
+33711cae07f0771ac0ad993b72ad3a27bfa4c718,CALCITE-2905,Improvement,Migrate build system to Gradle,None,Major,1
+66c9cd5e1c88ebe834e6f0f299cfb1e1dffa4296,CALCITE-2905,Improvement,Migrate build system to Gradle,None,Major,1
+94e6272d57478a5913cb51e7df5c25e67511229a,CALCITE-2905,Improvement,Migrate build system to Gradle,None,Major,1
+08bde847c8b0749c7686e66751b4d248cd7c5cb5,CALCITE-3457,Bug,RexSimplify incorrectly simplifies IS NOT NULL operator with ITEM call,None,Major,1
+ce0118b4149eb303813d0af2537a7185e9945115,CALCITE-3486,Bug,In JDBC adapter  when generating ROW value expression  generates the ROW keyword only if the dialect allows it,core,Major,1
+301bbe9e132346f60587e8c21c474f7c51b236c3,CALCITE-3491,Improvement,VolcanoPlanner.completeConversion() is bypassed by &quot;if (true)&quot;,None,Major,1
+17d0684445b5ce4224e09728d4fd89cf41004d19,CALCITE-3498,Bug,Unnest operation&apos;s ordinality should be deterministic,core,Major,1
+956905b71a6b0178ddb796549b578c3c82e6a223,/,/,    Bump geode-core from 1.9.2 to 1.10.0,/,/,0
+1667c0df5e46d9d6c393c4f855a304e4d1cfa2de,CALCITE-3494,Improvement,Support decimal type aggregate in Interpreter,None,Minor,1
+5999578ee833e2d77a635eb2c9b8a63e56cc6f21,/,/,    Improve folder detection logic in DocumentationTest,/,/,0
+73417080f317fb925cf3978d40af6ba97129e3c8,CALCITE-3503,Bug,NPE at VolcanoPlanner#isValid when DEBUG is enabled,core,Blocker,1
+472523c4e0eb694f62c1da974d256553e2f33ce2,/,/,    Use proper ClassLoader in SparkHandlerImpl,/,/,0
+ac5ed010e9ba71379a8fa5de41c875de23244419,/,/,    Ignore TpcdsLatticeSuggesterTest because it does not work,/,/,0
+e6b2df13aa195b63798994019378aa19e8c6e096,/,/,    Use Class#getResource in FileReaderTest instead of hard-coding file name,/,/,0
+47b70d2d8b5d6f44b104a9b372ed848273729f9f,CALCITE-3502,Improvement,Upgrade Geode 1.6.0 -&gt; 1.9.2,geode-adapter,Major,1
+9c7c3ecaa604b68af4522def10365de1f1bbd2fa,/,/,    Bump jackson-databind from 2.9.9.3 to 2.9.10.1,/,/,0
+3853118b4d1d48f7d3970b5488baf7ca78d5028e,CALCITE-3448,Improvement,AggregateOnCalcToAggregateUnifyRule ignores Project incorrectly when there&apos;s missing grouping or mapping breaks ordering,core,Major,2
+ ,CALCITE-3087,Bug,AggregateOnProjectToAggregateUnifyRule ignores Project incorrectly when its Mapping breaks ordering,core,Major
+fab877bb447a9949fac37b0661acf61ab9f7c6fb,/,/,    Simplify reproducerFor3457 test,/,/,0
+dc34cd0ee7ed704a97242c0153c11d46b21c7b9a,/,/,    Add shrinker for RexProgramFuzzy so the results are simpler to reason about,/,/,0
+da2b2efa437d0d7d33f99797ffa1f566781f9fa8,CALCITE-3476,Bug,ParameterScope should override resolveColumn interface,core,Major,1
+ed5cfb0bee5b548ae385e936fd222e6075d3fb6a,/,/,    Site: Add Haisheng Yuan as PMC,/,/,0
+4d1c3e54fc4172c7ff00db3326823c42f237cf04,CALCITE-3474,Bug,SqlSimpleParser toke.s equals NullPointerException,core,Major,1
+6ee48c66c8a51bfd9734b20927e4c2e919575bc4,CALCITE-3469,Bug,Wrong rel used in SubstitutionVisitor#rowTypesAreEquivalent,core,Minor,1
+f90e5d7b48848191c1a70e6c0f78eece93433806,CALCITE-3487,Bug,Should not hard code RelMetadataQuery class in VolcanoPlanner.isValid(),None,Major,1
+e6f91d2e92acbc8dccd375b777b71265677dea16,CALCITE-3437,Improvement,Elasticsearch Match query is not supported,elasticsearch-adapter,Major,1
+08c83afb16ba8dde3082735edf693d6914716ada,CALCITE-3482,Bug,Equality of nested ROWs returns false for identical literal value,None,Minor,1
+2ab44bff3a086acae7b38dcff264060544860147,CALCITE-3479,Bug,Stack overflow error thrown when running join query,None,Major,2
+ ,CALCITE-2166,Bug,Cumulative cost of RelSubset.best RelNode is increased after calling RelSubset.propagateCostImprovements() for input RelNodes,core,Critical
+be571b5ae723cf8699094558a3034e7c22ed9abb,CALCITE-3435,Bug,Enable decimal modulus operation to allow numeric with non-zero scale,None,Minor,1
+9c04f8733ec8723e641f39a0f036f485d681bec5,CALCITE-3456,Bug,AssertionError throws for aggregation with same digest IN subqueries in same scope,core,Major,1
+be5238492285ca061d4ddd82262448d3a6cedc5d,CALCITE-3408,Improvement,Add support for Enumerable Intersect/Minus all,None,Major,1
+4299007f7baff9dbff3c959535f6476c48f924a0,CALCITE-3423,New Feature,Support using CAST operation and BOOLEAN type value in table macro,None,Major,1
+4e70e7f3e44832667c2e82e371d6539a68d029fa,CALCITE-3381,Improvement,When generating SQL for BigQuery (via unparsing)  convert Calcite SQL types to BigQuery types,core,Minor,1
+4bc45cd12ca53ce902e03de45f144a0ac938fbae,CALCITE-3405,Bug,Prune columns for ProjectableFilterableTable when Project is not simple mapping,None,Major,1
+e2c8e68f4ac31498a9a41fb45ead2f64f04b1c36,CALCITE-3458,Improvement,Remove desc in AbstractRelNode,core,Major,1
+b2daea58fd3ca8b1e7bb8ee503078ff7b10e59d5,CALCITE-3475,Bug,BigQuery SQL dialect unparseCall override broken for UNION ALL,None,Major,1
+9dd4e124adb20b4d073afb6902ac4bb3bfc3ed09,CALCITE-3254,Bug,Exception while deserializing of interval type or with empty partition key for RexOver.,None,Major,1
+4c779b0b89219630869aaacd57716bd54faf71da,CALCITE-3457,Bug,RexSimplify incorrectly simplifies IS NOT NULL operator with ITEM call,None,Major,1
+cae7afbf8e18f839de295ff492cf2cbc4abe1e93,CALCITE-3434,Improvement,ElasticSearch  adapter can not init rest client with &quot;pathPrefix&quot;,elasticsearch-adapter,Minor,1
+2ed1d8891bab4d162ff3e0f3385005fff110e194,/,/,    Site: Append '(FirstName LastName)' to commit message example in contributing section,/,/,0
+65043f290a7be45a668cf941ab48ee3c30efbe4e,CALCITE-3433,Bug,EQUALS operator between date/timestamp types returns false if the type is nullable,core,Major,1
+a5c63c954f91e3502e0eea489fb2f7dab0930aac,CALCITE-3449,Bug,Sync the table name logic from TableScan into the TableModify,core,Major,1
+aa98c1575762718b238af8ddd44a390607de7602,/,/,    Site: Add Danny Chan as PMC,/,/,0
+464d520148f7106fe580eec9419373276865564e,CALCITE-3376,Bug,VolcanoPlanner CannotPlanException: best rel is null even though there is an option with non-infinite cost,None,Major,2
+ ,CALCITE-2018,Bug,Queries failed with AssertionError: rel has lower cost than best cost of subset,core,Critical
+d51f76c19b4dca8e55d04409ed4af103ac7eca25,CALCITE-3454,Wish,Support Exchange  SetOp and TableModify for builtin metadata query,None,Minor,1
+ad9058999bdea1329dba2267604512d8e199919f,CALCITE-2018,Bug,Queries failed with AssertionError: rel has lower cost than best cost of subset,core,Critical,1
+d3b1d857380972b7ca7fa5b70f9903977054594c,CALCITE-2018,Bug,Queries failed with AssertionError: rel has lower cost than best cost of subset,core,Critical,1
+e0d869ab8e540dec71b9278f5a3202df4a2dfb5c,CALCITE-2018,Bug,Queries failed with AssertionError: rel has lower cost than best cost of subset,core,Critical,1
+1ef2821695ca6e10fbad7b8efe7246c4a20143af,CALCITE-3442,Improvement,In ElasticSearch adapter  set `stored_fields = _none_` to prohibit FetchPhase get involved,elasticsearch-adapter,Major,1
+08dfd170ae91162ffb082f48c4186952955a73d2,/,/,    Cosmetic changes,/,/,0
+a02155a70a1fe98c8930a0060dc043902ebbd88f,CALCITE-3390,Bug,ITEM expression does not get pushed to the right input of left-outer-join,core,Major,1
+76f9847941e737409ea984b750f16aab5f22baf7,CALCITE-3439,Improvement,Support Intersect and Minus in RelMdPredicates ,None,Major,1
+8d65a2411f25cca75c1da30b3317b08235161919,CALCITE-3451,Wish,Support TableModify in RelMdNodeTypes,None,Minor,1
+7273a972e4cc514702f4797bd57ab8af929bc726,CALCITE-3445,Bug,In web site  automatically redirect http to https,site,Major,1
+293059c190d5347438f5bc77a4f844f86ce60226,CALCITE-3444,Bug,Upgrade SQLLine to 1.9.0  and solve &quot;Class path contains multiple SLF4J bindings&quot; problem,None,Major,1
+dfd6a0cdc51b61e88787fcae92839119e868df0e,/,/,    Refactor SqlPrettyWriterTest  using a fluent API for invoking tests,/,/,0
+2c6ccd50ec90e14c1320c8f049a08c4b5de515fa,CALCITE-3436,Bug,In CalciteConnectionConfigImpl  add &quot;isSet&quot; and &quot;unset&quot; methods,None,Minor,1
+8fd8fcca02240b04b21fa76a8ca8e147dd227ed3,CALCITE-3440,Bug,RelToSqlConverter does not properly alias ambiguous ORDER BY,None,Major,1
+d287b0551a189fd1bf1f8a1ae3afb1b446823350,CALCITE-3441,Improvement,Remove SqlTypeExplicitPrecedenceList.COMPACT_NUMERIC_TYPES because the NULL delimiters are useless,core,Minor,1
+1745f752561be04ae34d1fa08593c2d3ba4470e8,/,/,    Cosmetic,/,/,1
+ ,CALCITE-3259,Improvement,Align &apos;Property&apos; in the serialized xml string of RelXmlWriter.,None,Minor
+f9103e6079f75e3d6b3419d01690447ff0a14265,CALCITE-3428,Improvement,Refine RelMdColumnUniqueness for Filter by considering constant columns,None,Major,1
+2a2edbaef2667c9807aa3748be76f217d7b73490,CALCITE-3362,Test,Implementation for some empty tests of Lattice,None,Minor,1
+331e4feef8d6f98b29b331f62c2c109ea3ba7e00,/,/,    Add RelBuilder.fields(ImmutableBitSet),/,/,0
+8ba2d8512b8f195bb0866af12308beef2b3eed9f,CALCITE-3424,Bug,AssertionError thrown for user-defined table function with array argument,core,Major,1
+b5ffef1c05bfc35dba349ffe4874de61aa15ae0e,CALCITE-3300,Bug,In JDBC adapter  when generating SQL for count star  generates the star argument of the call,core,Major,1
+429c0d0e4cacc76933ae6cc651e5e4164f868383,CALCITE-3414,Bug,In calcite-core  use RexToLixTranslator.convert for type conversion code generation uniformly,core,Major,1
+ff43dcb95caa251e5fc8120980fc70c8fea8ac40,CALCITE-3416,Improvement,SQL Dialects &quot;DEFAULT&quot;s should be more extensible,None,Minor,1
+9c5b2d97531d3b2fd8a44d13c0632e381e8c13be,/,/,    Fix wrong usage of SqlTypeAssignmentRules.canCastFrom in AbstractTypeCoercion.needToCast,/,/,0
+0d1d4915f6b2ce56a6d4b570d352432f1cb3fe1d,CALCITE-3393,Improvement,RelStructuredTypeFlattener: improve support for functions with struct input,core,Minor,1
+cd24cae77072e56e4333d10114bf380be79709f1,CALCITE-3318,Bug,Preserving CAST of VARCHAR operand in binary comparison for BigQuery,core,Major,1
+ebc16afa935888578b5befc870c1997f307a6cb5,CALCITE-3421,Wish,Reuse relMetadataQuery.,None,Minor,1
+dd9bc946483ce1d41d0552528098ae3a25500fec,/,/,    Fix SQL example in comment,/,/,0
+2217420fb22a79e3430fde912f0b88650414ae6f,CALCITE-2792,Bug,Stackoverflow while evaluating filter with large number of OR conditions,core,Major,1
+ec9947ad8403b6b2d476b3b379f8f52776ebacc4,CALCITE-3407,Improvement,Implement Minus and Intersect relational operators in the interpreter,core,Major,1
+bfb716aefbb2673eaa3d91a7effdb7cc905546a2,/,/,    Refactor InterpreterTest,/,/,0
+2ac44153c4a521694c4dc975dd37b097184fc998,CALCITE-3420,Improvement,NullPointerException throws for implicit type coercion of nested SET operations,core,Major,1
+3cbbafa941128dc5097c2a26711f5751f764e12d,CALCITE-3403,Improvement,WindowReduceExpressionsRule does not reuse RelMetadataQuery,None,Major,1
+2cde99f7c5627a488e0dbd33ff1acecb56f3aaa2,CALCITE-3411,Bug,Incorrect code generated for BigDecimal ConstantExpression,None,Major,1
+8da131c08afe67861ced49bc6180a20f66be52fb,CALCITE-3410,Improvement,Simplify RelOptRulesTest and HepPlannerTest by making test methods fluent,core,Major,1
+8f5f251123ee9cc036cada902c4795db3869ffa0,CALCITE-3404,Improvement,In AggregateExpandDistinctAggregatesRule  treat all the agg expressions as distinct if they have the same arguments and the non-distinct expressions distinct constraints can be ignored,core,Major,1
+79f6aeb980fe900a33d94e9bb42993f2b2e4e7b1,CALCITE-3382,Sub-task,Rename current TUMBLE to &quot;$TUMBLE&quot; and add TUMBLE to Parser,None,Major,1
+c7ab64688f611f599d3b0d07340680e968c7ccf8,CALCITE-3396,Bug,Materialization matching succeeds when query and view are both of UNION but have different &apos;all&apos; property,core,Major,1
+f7ff1c906212b34a41599c5009527639ad2e8718,CALCITE-3397,Bug,AssertionError for interpreter multiset,core,Major,1
+4be2d08e2116234a7df982014f8ae5bc79a7e0bf,CALCITE-3383,Bug,Allow plural time units in interval literals,None,Major,1
+05a086bc6b453baa5d761c6198d496ffe361aafe,/,/,    Re-format and re-organize config.fmpp files that customize the SQL parser,/,/,0
+812bc3bce4eabac6f09fbe02726da1d59bec061e,CALCITE-3330,Bug,propagateCostImprovements() could result in stack overflow,None,Major,1
+e43595482617b1bb991407800c068a0c727e5c17,CALCITE-3330,Bug,propagateCostImprovements() could result in stack overflow,None,Major,1
+b841a6c7a815d5bc82ce8393e31e2da754efb261,CALCITE-3391,Bug,Insecure pages warning on Chrome,site,Major,1
+68ceafb7553ffa26cc28fed8389deaa7c0f22833,/,/,    Site: Update upcoming talks section for ApacheCon Europe 2019,/,/,0
+062c41391170db7f76e1596db72d6ef26694a08f,/,/,    Site: Change GitHub avatar links to https,/,/,0
+3f54108b7dcd4d2b89fc42faab145e2f82883791,CALCITE-3386,Bug,CyclicMetadataException gives misleading stack trace,core,Major,1
+abf36e4da4884f2c22435384aa55d68f968a784e,CALCITE-3389,Bug,Test can fail if HashSet iterates in a different order,None,Minor,1
+35c5f57d7db2b4745086178602ca69195ffb858e,CALCITE-3361,Bug,Add a test that parses and validates a SQL statement with every built-in Redshift function,None,Major,1
+a47492bf8a0a310b49379b45ad2c15243393e094,/,/,    Javadoc fixes for JDK 13,/,/,0
+64c395754d66e9a2ba6cd14e7ee0cb1eb5075c2c,/,/,    Fix typos (Wang Yanlin),/,/,0
+3498026cd9819c52198a89e0d06f564b83ba4a8a,CALCITE-3347,Bug,IndexOutOfBoundsException in FixNullabilityShuttle when using FilterIntoJoinRule,None,Major,1
+c09f293b4666b38e41a0724aab73565f8c61dbac,CALCITE-3349,Improvement,Add Function DDL into SqlKind DDL enum,core,Minor,1
+87c5bd29364a23ab3c06f289ffce1300e26e8c46,CALCITE-3346,Test,Enable some ignored tests in RelOptRuleTests,None,Minor,1
+30a0dd0a2edebdc08292b7d59988c60ccf754bed,CALCITE-3381,Improvement,When generating SQL for BigQuery (via unparsing)  convert Calcite SQL types to BigQuery types,core,Minor,1
+2dc97e6723e1b5bf762540f87ffffb5cd1a848a1,CALCITE-3374,Bug,Error format check result for explain plan as json,None,Minor,1
+c9adf94b0e07f2e9108ef4d1f2ee28c3e42063b3,CALCITE-3363,Bug,JoinUnionTransposeRule.RIGHT_UNION should not match ANTI Join,core,Major,1
+ed692fd4f2f00261348ecac779cb1a6d544d052e,CALCITE-3323,New Feature,Handle arbitrary/unknown functions that have ordinary syntax,None,Major,1
+0c8cbacd0f30b5df15b7cb93c0ab2be5d0324372,CALCITE-3370,Task,Emulate NULL direction for MSSQL,None,Minor,1
+bb3889e860cc7472e31ba39ac6d3d5a0e3c59463,CALCITE-3369,Bug,In LatticeSuggester  recommend lattices based on UNION queries,None,Major,1
+47a626d2687e5efc3e8a281a2e2d2b9985d306ef,/,/,    Improve READMEs and release howto instructions,/,/,0
+3005ff97ddb6173ac339b45affb0b4da5d406345,CALCITE-3365,Improvement,Don&apos;t require use of JdbcSchema in QuerySqlStatisticProvider,None,Major,1
+a7a566bb004fd73ee6402652f5572ad0012a97c9,CALCITE-3247,Bug,In JDBC adapter  when generating SQL for Hive  transform SUBSTRING function to correct format,core,Minor,1
+78c2a007b5b597f673323b80dde21c23d31f23ea,CALCITE-3288,Improvement,linq4j: support Set literals,None,Critical,1
+64068d69ceee8450e56c4705d26b7a2f944909b9,CALCITE-1178,Improvement,Allow SqlBetweenOperator to compare DATE and TIMESTAMP,core,Major,1
+0115bd102fdbab66a2a7447b96b9f7bf49f14308,CALCITE-3348,Bug,AssertionError while determining distribution of Calc,core,Major,1
+9693817df9421fda9a727d03b225f686f5393def,CALCITE-3287,Bug,Union&apos;s getRowCount in RelMdRowCount has not consider &apos;union all&apos;,core,Minor,1
+3b26283b61ca5e6be79c8e95c6558c8ab6985952,CALCITE-3357,Bug,Trivial null checking in RelSet#addAbstractConverters,core,Minor,1
+29d8508f591be79683d0efeb3541dc3bdbc36d44,CALCITE-3286,Bug,In LatticeSuggester  allow join conditions that use expressions,None,Major,1
+02a4ced35cb1f9fdc18b16528db1f922365a33c2,CALCITE-3344,Bug,In JDBC adapter  generate &quot;SELECT TOP(n)&quot; for MSSQL 2008 and earlier  and for Sybase ASE,jdbc-adapter,Major,1
+883e19170a45e0badffa5b8fba04cd536e0f2eb2,CALCITE-3360,Bug,SqlValidator throws NPE for unregistered function without implicit type coercion ,core,Major,1
+67fd318ed755ef975cf31262c96c982f0922a975,/,/,    Site: Add new committers: Julian Feinauer and Muhammad Gelbana,/,/,0
+bc0f5d231d6e65d6e68aa395e5d7359db9a6459d,/,/,    Add method Ord.forEach,/,/,0
+f3758a6fa301cbd910ceabeca9075a3772ee4e8b,CALCITE-3282,Bug,HiveSqlDialect should unparse INTEGER type as INT in order to be compatible with Hive1.x,core,Minor,1
+f95f74a13a20413bb0074f0a3c94901a7a88305c,CALCITE-2166,Bug,Cumulative cost of RelSubset.best RelNode is increased after calling RelSubset.propagateCostImprovements() for input RelNodes,core,Critical,1
+507d383a0f8db339691bb126d66c58875fd47ef8,CALCITE-3316,Bug,Exception while deserializing LogicalCorrelate from json string,core,Major,1
+43b6abcb35ce91aec340e0963072647106ccf229,CALCITE-3317,Bug,Add public constructor for creating LogicalCalc with RelInput type parameter,None,Major,1
+ce8ca6742bf1296af421c8e61f9918734db74cf3,CALCITE-3319,Bug,AssertionError for ReduceDecimalsRule,None,Major,1
+f6aa7a927feaa88bd4076f9098203346b89ae80d,CALCITE-3335,Improvement,Connecting on ElasticSearch server on HTTPS,elasticsearch-adapter,Major,1
+4ce87bb3ba0b51e8e1853240196a64a4ab575b03,/,/,    Site: Add upcoming talks at ApacheCon NA 2019,/,/,0
+3f7bbae47ad113121d3885ee70d2aa246490a033,/,/,    Add 1.21.0 release announcement,/,/,0
+034bd7942c35d5b6c948dc6863a9a086fb82386c,/,/,    Improve 1.21.0 release note,/,/,0
+b708fdc46d4c5fd4c5a6c7a398823318a7b4dce3,CALCITE-3989,Task,Release Calcite 1.23.0,None,Major,1
+05376d6bff11ccef690addb4f9c40ab16dd20bec,CALCITE-3997,Bug,Problem with MERGE JOIN: java.lang.AssertionError: cannot merge join: left input is not sorted on left keys,core,Blocker,1
+ffa22f7e8b94fce1e7c297404453d13f959fd646,CALCITE-3979,Bug,Simplification might have removed CAST expression(s) incorrectly,core,Critical,1
+2e30293af7373b6c5fbcc5fa6505b49df2fba000,/,/,    The release tag should be 'calcite-N.N' not 'vN.N',/,/,0
+de3bef9b06502886f87b60ab36d8e54ebc55f05c,CALCITE-3982,Bug,Simplify FilterMergeRule to rely on RelBuilder instead of RexProgram,core,Major,1
+2730b4b696fcf1651acfa63e088f9c60c9369386,CALCITE-3984,Wish,Support exchange operator in RelFieldTrimmer,None,Major,1
+916f1e76da4ef5ee2de80384b4aaa61e5129b3a8,/,/,    Disable time-wasting test,/,/,0
+ef28c9b8bfdd59f0a6ab0584ac07c9d362e2c67e,CALCITE-3983,Improvement,Add utility methods to RelTraitSet,core,Major,1
+9c31d9e83dc718800a36f7719534f9f74633c8a7,CALCITE-3896,Improvement,Pass through parent trait requests to child operators,core,Major,1
+09b13cf6c61739d3ea15adf80b9dc0bc2b1ad0a0,CALCITE-3980,Improvement, Redis-adapter redis connection is not reused when RedisTable is created,None,Minor,1
+890eb61efcccc486e2192110cefe4cac5aa6f150,CALCITE-3780,Sub-task,SESSION Table-valued Function,None,Major,1
+e081c5b4227a57defe47246d8ff3e6f7cce838e4,CALCITE-3866,Bug,&quot;numeric field overflow&quot; when running the generated SQL in PostgreSQL,None,Major,1
+92eaf5654d4582399d901719be3c2977b279334c,/,/,    Site: Add Ant Financial logo in powered-by image (Wang Yanlin),/,/,0
+e3fe745a4e8e5e15ae5e04345975c98ab737b31b,CALCITE-3926,Bug,CannotPlanException when an empty LogicalValues requires a certain collation,core,Blocker,1
+22fca8e43d62ffae12b7d7e1a50438f257ac88b3,CALCITE-3973,Bug,Hints should not unparse as enclosed in parentheses,None,Minor,1
+022016611091fdc021686aaf1a44f5217b4b3d30,CALCITE-3965,Bug,Excessive time waiting on DiffRepository lock,core,Major,1
+e455734d2eea628e802a463ef18cd107ddb57874,/,/,    Fix rawclass issues,/,/,0
+cecfece459b0f5f155c0498811985e083813aa20,CALCITE-3887,Improvement,Filter and Join conditions may not need to retain nullability during simplifications,core,Major,1
+d1aae57fad71bf10942d4c53b339363537927c29,CALCITE-3971,Wish,Support Calc in RelMdColumnOrigins,None,Major,1
+e7224147916d5a9bf43c322894c04b302b3a545d,CALCITE-3966,Improvement,Trigger rules for existing RelSubset when it becomes delivered,core,Major,1
+0cdb7a8a520eabdf103519a399c148b0df3ba20b,CALCITE-3718,Wish,Support Intersect and Minus in Bindables,None,Major,1
+eb57665ee1dfff6c1f9529223bafc9e74f54ff42,CALCITE-3958,Wish,Revise documentation of gradle.properties in Cassandra/Piglet and SubstitutionVisitor,None,Major,1
+ac7d2b6b98334b80e2a43ffd9a79f36ea547e410,CALCITE-3921,Bug,Support TableModify json serialization and deserialization,None,Major,1
+69fb7e002de378f5f3bcee13d4b701e9ff0478bb,/,/,    Disable count table tests in TpchTest,/,/,0
+d6cc11b51962a38893ffa9e28b826600be289b8f,/,/,    Disable TpcdsTest.testTableCount(),/,/,0
+54891749913fb3fbb0ba3ef3e8825546f85986ee,/,/,    Add Maven Central badge to README.md,/,/,0
+4787cba48eb00190f4477b92386db06cd2c7fb63,CALCITE-3889,Improvement,Add apply(Mappings.Mapping) to RelTrait and RelTraitSet,core,Major,1
+22bfcf05a74d26efa73594aa3a30bf596bebe8bb,/,/,    Site: Change affiliation of Stamatis Zampetakis,/,/,0
+0c1f1e8db34953cb494d38552b9a4878bec2264b,/,/,    Site: Add Forward Xu  Jin Xing  Wang Yanlin  as committers,/,/,0
+f8993e42dc017e3b9364007cc829d5e9b80aed9b,/,/,    Site: Add Vineet Garg as committer,/,/,0
+f1c0756f33b79904ca3a429bbff79ebf0103ece9,CALCITE-3962,Sub-task,Make JSON_VALUE operands varadic,core,Major,1
+9adf4a485c99edbb2c65f2662e47a92551b78f6c,CALCITE-3938,Wish,Support LogicalCalc in RelShuttle,None,Major,1
+0e00d65532251aacc8fdcde703bc1d8ddf8dff16,CALCITE-3827,Improvement,Reduce the time complexity of finding in-edges of a vertex in the graph,core,Major,1
+650ce466abf63309dcc0452d35a71dc497fb5f3c,CALCITE-3878,Improvement,Make ArrayList creation with initial capacity when size is fixed,core,Minor,1
+11c8868d6a0924c12a0d5c0df0ec4db4dadc3e0a,CALCITE-3949,Bug,RelDistributions.of() and RelCollations.of() should canonize trait instance,core,Major,1
+914b6c5d0d58bfdf17d71b6fa37de469e424d969,CALCITE-3937,Improvement,Fire rule for RelSubset only when it is derived ,core,Major,1
+e44beba286ea9049c5fd00c3a3b0e4a4f1c03356,CALCITE-3789,New Feature,Supports Presto style unnest with items alias,core,Minor,1
+21290006dd392e0ca1a45e952624abb0e0e66df7,CALCITE-3954,Improvement,Always compare types using equals,core,Major,1
+f62d6b9a2f3dd877d4e2e5cbd2ff5d0d5f0efff1,CALCITE-3955,Bug,Remove the first operand of RexCall from SqlWindowTableFunction,core,Major,2
+ ,CALCITE-3382,Sub-task,Rename current TUMBLE to &quot;$TUMBLE&quot; and add TUMBLE to Parser,None,Major
+af8c8efdc465435fa095197ff8365d527147ee7a,CALCITE-3947,Improvement,AbstractRelOptPlanner.classes should be LinkedHashSet so that rule match order is deterministic across runs,None,Minor,1
+789a2ae7f4de582c6de16c2bcec747372f941b44,CALCITE-3915,Bug,Add rule listener to report rule attempts and time at DEBUG log level,None,Minor,1
+d3286ad4725fa97aae35c70f73ab768fabd409d8,CALCITE-3948,Improvement,Improve operand&apos;s RelSubset matching handling in VolcanoRuleCall,None,Major,1
+55c58538256119abbac0a260b8ea63f107f2407c,CALCITE-3758,Improvement,FilterTableScanRule generate wrong mapping for filter condition when underlying is BindableTableScan,core,Major,1
+38076961698c5354375be7856944809e71cd5a21,CALCITE-3942,Improvement,Move type-coercion configurations into SqlValidator.Config,core,Major,1
+a136dc4884677bca7496a783c854220834440058,CALCITE-3939,Improvement,Change UnionEliminatorRule and ProjectRemoveRule to auto pruning SubstitutionRule,None,Major,1
+53bbd2daff8104f3a1113eaaa01bf58ca3361beb,CALCITE-3947,Improvement,AbstractRelOptPlanner.classes should be LinkedHashSet so that rule match order is deterministic across runs,None,Minor,1
+6da208625bb691fa67bfc7cea86cce4ce10657fd,CALCITE-3937,Improvement,Fire rule for RelSubset only when it is derived ,core,Major,1
+90f3e98bb7b2de44a7ac0e2bf1d16cfb09888be1,CALCITE-3868,Improvement,Remove redundant ruleSet and ruleNames in VolcanoPlanner,core,Major,1
+eed3d1b408f7720b7dae1c8529a4236895617f67,CALCITE-3940,Bug,Hint item can not parse correctly if the name is right after token &quot;/*+&quot;,core,Major,1
+bf0ca495a4690f9f66374e9e67af8760c09719c7,CALCITE-3447,Bug,Fix equivalents in method SubstitutionVisitor#go,core,Minor,1
+5c2b15814b4fbe42a4f1d720ad99719c68c0448b,CALCITE-3931,Improvement,Add LOOKAHEAD(2) for methods defined in createStatementParserMethods,core,Major,1
+238cf037ebcd0e0e6f121f2304fa46a61c90632b,CALCITE-3934,Improvement,Allow type-coercion in CONCAT operator,core,Minor,1
+33daf827b3b8cfa255dc7018d7fcfc9384a13542,/,/,    Disable SourceTest#testAbsoluteFileToUrl until we really fix that,/,/,0
+826c1cdd4b2aad0cd39576aaeedbf2053d196770,/,/,    Avoid failures in SourceTest when filesystem does not support unicode paths,/,/,0
+fbfb58ebf68c07e15eb5e99b425d113fd3daa451,CALCITE-3790,Bug,Make the URL of FileSource available,core,Minor,1
+2798d90a8082adb294c3aadbad6d22d9228abf3e,CALCITE-3894,Bug,SET operation between DATE and TIMESTAMP returns a wrong result,None,Major,1
+dfb842e55e1fa7037c8a731341010ed1c0cfb6f7,CALCITE-3924,Bug,Fix flakey test to handle TIMESTAMP and TIMESTAMP(0) correctly,core,Critical,1
+43261e4094a37ce23eb181a6a8f653dabc4db599,CALCITE-3881,Bug,SqlFunctions#addMonths yields incorrect results in some corner case,core,Major,1
+f1857aa305c99dca40ee3c940ee689d77f27eaee,CALCITE-3324,Bug,Infinite loop when calling DDL from remote Avatica driver to LocalService wrapping CalciteMetaImpl,core,Major,1
+9262d8d250eebfe126b07863ba89b1d4e6ec6219,CALCITE-3733,Bug,In JDBC adapter  when generating SQL for MYSQL  generate TIMESTAMP type as DATETIME for CAST,jdbc-adapter,Major,1
+933e9c7e5b669f4f4b7355294e416800c48275f4,CALCITE-3909,Bug,RelMdMinRowCount doesn&apos;t take into account UNION DISTINCT ,core,Major,1
+147b7a52ee5c3231adf8382989b3702222c20024,CALCITE-3576,Improvement,Remove Enumerable convention check in FilterIntoJoinRule,core,Major,1
+b45799967e0cddf846849af508ccafc3e31e9ca2,CALCITE-2593,Bug,Sometimes fails to plan when a RelNode transform multiple collations to single collation,core,Major,4
+ ,CALCITE-2010,Bug,Cannot plan query that is UNION ALL applied to VALUES,None,Major
+ ,CALCITE-2593,Bug,Sometimes fails to plan when a RelNode transform multiple collations to single collation,core,Major
+ ,CALCITE-2010,Bug,Cannot plan query that is UNION ALL applied to VALUES,None,Major
+8639729ba186e824f4f44846671cdef4c663b363,/,/,    Add AvoidStarImport Checkstyle rule,/,/,0
+e7095a23cf6e082077c887588216df3e3862c20d,CALCITE-3865,Improvement,RelCollationTraitDef.canConvert should always return true,core,Major,2
+ ,CALCITE-1148,Bug,Trait conversion broken for RelTraits other than Convention,core,Major
+f17367e6ae4814c035e234568e212ba23080e9dd,CALCITE-2970,Bug,Performance issue when enabling abstract converter for EnumerableConvention,core,Major,1
+ee1a9d2cacb67da4c5d7e8f0441c94a40dc69d66,CALCITE-3914,Improvement,Improve SubstitutionVisitor to consider RexCall of type PLUS and TIMES for canonicalization ,core,Major,1
+3755eb5871860f1fd5dc51990129784caa8ac0a4,CALCITE-3912,Improvement,Incorrect mapping parsing when properties have same name as reserved keywords in ElasticSearch,elasticsearch-adapter,Major,1
+f93fc1db4ed9fbdae01022f29e8178dc58fd68f9,CALCITE-3833,New Feature,Support SemiJoin in EnumerableMergeJoin,core,Major,1
+c9acc5bb03983915084557ac75afeb2866074d90,/,/,    Make ubenchmark clases executable from IDEA,/,/,0
+16c9c36f319b06ebcf1338f0e40e9de2ee912adf,CALCITE-3908,Bug,JoinCommuteRule should update all input references in join condition,core,Critical,1
+03fb20d00a9e09c884af1d9205f9bed5e48d030c,/,/,    Add github pull request link in git commit messages in IDEA,/,/,0
+2bdbd95e2bf2685e93a16d80335fad761a58b4ab,/,/,    Specify pigunit.version=0.16.0 in gradle.properties,/,/,0
+1e6f78b82b0e200f95452a871ffe4119dd0c2f85,CALCITE-3871,Improvement,Remove dependency of org.apiguardian:apiguardian-api,linq4j,Major,1
+5f7c51deb5245043efa9552d81acffdfb1b6692c,/,/,    Site: Add Feng Zhu as committer,/,/,0
+c3147f477f843d283c43d1e858534d58a7174544,CALCITE-3898,Bug,RelOptPredicateList may generate incorrect map of constant values,core,Critical,1
+c545ef4e6931d7db4a28bae16f2ba05b62cdb4c2,CALCITE-3726,New Feature,Allow declaring type objects,None,Major,1
+4eaed593c9aee8df6ffe1f4bb7ec3d33a7cd0325,CALCITE-3835,Bug,Overloaded table functions fail with an assertion error if param types differ,None,Major,1
+15152b629c784bf7b82efe5bcbe5931ee18682c7,CALCITE-3851,Improvement,Replace the node importance map with a set for pruned nodes,core,Minor,1
+ddafe145b02185761a8ee2a8014b2b2f2af6bf4d,CALCITE-3872,Improvement,Simplify expressions with unary minus,core,Minor,1
+38e2566178dedf2aafe5700dd8fc45b9b30153da,/,/,    Add JIRA links in Git in IDEA,/,/,0
+9492dd4146f63ddc028010d6c4e86f6a5cb29a8d,CALCITE-3892,Bug,Make junit test classes and methods non-public,None,Major,1
+f1b2d3c45f085b71c18a45392337989d0d474136,CALCITE-3814,Bug,Support JDK 14 and guava-28.2-jre,None,Major,1
+ddda872b4922266c102f474042b4df27ba9a09be,CALCITE-3877,Bug,In RexWindow  make fields upperBound and lowerBound not-nullable,None,Major,1
+df3e3c652e3499ec03a224468fb2918752bae461,CALCITE-3876,Bug,RelToSqlConverter should not merge a Project that contains a window function that references a window function in input Project,jdbc-adapter,Major,1
+d0180d160120e5d775b000549b7edac30250a353,/,/,    Add icon for JetBrains Toolbox,/,/,0
+b9a0fac91b78cbc14b9abdaf49ca48c24d005915,/,/,    Update release-plugins: 1.65 -> 1.70,/,/,0
+7792d57036ac82958b9a3f53a38855c979f7b36a,CALCITE-3891,Improvement,Remove use of Pair.zip in RelTraitSet.satisfies,core,Major,1
+8849b62e7baff84dcd4262f47809e87a38be7b10,CALCITE-3880,Improvement,Add SortExchange support to RelFieldTrimmer,core,Major,1
+b4ad630d1d5674ae3dfc9c85615ffe991797c563,/,/,    Simplify buildSqllineClasspath build tasks,/,/,0
+0be29613612a377faab729e40b49962d9e822769,/,/,    Site: Fix links to javadoc,/,/,0
+4a8e105933a7638bb672afca07ac6da380671edc,CALCITE-3888,Bug,Exclude avatica-server from calcite-core runtime dependencies,core,Major,1
+a0ef3c9912d25d95f91fb6cf188abcc5b572c8c1,CALCITE-3660,Bug,PigRelBuilderStyleTest#testImplWithJoin fails with FrontendException: ERROR 1066: Unable to open iterator for alias t,pig-adapter,Major,3
+ ,CALCITE-1751,Bug,PigRelBuilderStyleTest test cases are flapping.,pig-adapter,Major
+ ,CALCITE-3660,Bug,PigRelBuilderStyleTest#testImplWithJoin fails with FrontendException: ERROR 1066: Unable to open iterator for alias t,pig-adapter,Major
+56c4c4258132d1f56214a5b608391a3511cc9d5e,CALCITE-3885,Improvement,Reestablish trace logging for rules queue and Volcano planner,core,Minor,2
+ ,CALCITE-3753,Improvement,Remove rulematch ordering and execute substitution rule first,core,Major
+7d4c96981d9ef6fa25289af99505e5a15ba51f69,CALCITE-3819,Improvement,Prune parent RelNode when merging child RelSet with parent RelSet,core,Major,1
+08f4a9889728f94903ff424ed9c20d940b821af5,CALCITE-3886,Improvement,Execute substitution rule according to the order they get matched,core,Major,1
+62186610f430996b28295d930a4ac505eed17b81,CALCITE-3867,Improvement,Support RelDistribution json serialization,core,Major,1
+1c261ebeb65e775b908cb878e905410ce78cda80,CALCITE-3882,Improvement,Remove duplicated code from SqlTypeAssignmentRule,None,Major,1
+888dd3a7d20ad04b22434f16d96177b7ca2c28aa,CALCITE-3684,Sub-task,Implement CBRT function,None,Major,1
+8a80b72e87ef3b573bc75b99264f406773712f7e,CALCITE-3846,Bug,EnumerableMergeJoin: wrong comparison of composite key with null values,core,Major,1
+ebbba566fbdbdd0923adda596467090d708cc14b,CALCITE-3871,Improvement,Remove dependency of org.apiguardian:apiguardian-api,linq4j,Major,1
+989fc124976a5e701cce06b2f62988c8ccbb5988,CALCITE-3660,Bug,PigRelBuilderStyleTest#testImplWithJoin fails with FrontendException: ERROR 1066: Unable to open iterator for alias t,pig-adapter,Major,1
+c60f6750ded31f63df57cfb2172d9b44cf0b572e,/,/,    Update Gradle: 6.1.1 -> 6.3,/,/,0
+ffcfb92247acbc7c50ee7812aad0060b94bafcd9,CALCITE-3829,Improvement,MergeJoinEnumerator should not use inputs enumerators until it is really required,core,Minor,1
+4a644e5093cd078b884ecfea5ced72813a4993f5,CALCITE-3660,Bug,PigRelBuilderStyleTest#testImplWithJoin fails with FrontendException: ERROR 1066: Unable to open iterator for alias t,pig-adapter,Major,1
+ee9f35c286b36f6ba131f3797d4d9ab5d36cf3d5,/,/,    Bump release-plugins: 1.61 -> 1.65,/,/,0
+893d41fa4b79dbac6b613f214de6b4fbab9e6773,CALCITE-3840,Bug,Re-aliasing of VALUES that has column aliases produces wrong SQL in the JDBC adapter,jdbc-adapter,Major,1
+79d5001b945cbb9c47046b1b28b2345f78a72dc8,CALCITE-3810,Improvement,Render ANTI and SEMI join to NOT EXISTS and EXISTS in the JDBC adapter,core,Major,1
+f76ddd1f02af2d6d335a82acc92a30ccf6d7379d,CALCITE-3285,Improvement,EnumerableMergeJoin should support non-equi join conditions,None,Major,1
+a8aa4390813cd0a04677325d689b75c3ed8dbdc6,CALCITE-3852,Improvement,RexSimplify doesn&apos;t simplify NOT EQUAL predicates,core,Major,1
+2f507f17ad68ea6fe061db8b4d76f2b34c1af440,CALCITE-3634,Wish,Support Intersect and Minus on Calcs for materialized view recognition,None,Major,1
+0e345fd8d9eaa4223ada8ecc2987a7c82cb0d2b8,CALCITE-3862,Bug,Materialized view rewriting algorithm throws IndexOutOfBoundsException,core,Major,1
+d234626227954eefffe49f42abec65c649ffe3a6,CALCITE-3694,Sub-task,Implement SINH function,None,Major,1
+468f0190bbd1777671916c0adc57c7c6bd23a7a0,CALCITE-3647,Sub-task,MySQL COMPRESS function support,None,Major,1
+6dfcfb421aec315b50c9b5ca923f3d0d0f3568b8,CALCITE-3726,New Feature,Allow declaring type objects,None,Major,1
+f11115a2fe9e360f38910f112288581040e0ced5,CALCITE-3815,Bug,Add missing SQL standard aggregate functions: EVERY  SOME  INTERSECTION,None,Major,1
+1eff60b70a1d71022862cca5e5b3bb1178a84392,CALCITE-3704,Improvement,Implement STRCMP function,None,Major,1
+4c3cef95377ea16efca037012385c40822b4426e,CALCITE-3856,Task,Remove code to be removed before 1.23,core,Minor,1
+bc2d7e1ce0ff0a2193df2ce6e59d5501766bbca5,CALCITE-3853,Task,Minor improvements in SortJoinCopyRule,core,Trivial,1
+18b9bc36e8be5b9a038548d9513466a756eeba61,CALCITE-3848,Bug,Rewriting for materialized view consisting of group by on join keys fails with Mappings$NoElementException,core,Major,1
+ad8cf7e0e96137c40103e0e83539b59e43513b17,CALCITE-3845,Bug,CASE WHEN expression with nullability CAST is considered as reduced wrongly in ReduceExpressionsRule,core,Major,1
+8d4820f208cd69f4377fca175c8b83ff16b1a912,CALCITE-3847,Improvement,Decorrelation for join with lateral table outputs wrong plan if the join condition contains correlation variables,core,Major,1
+15fa9bc67a8ed12ec6b8e0d1dbced8760ae307ab,CALCITE-3753,Improvement,Remove rulematch ordering and execute substitution rule first,core,Major,1
+80e6b023d4b92b2b25908c52e10f50792787cef8,CALCITE-3753,Improvement,Remove rulematch ordering and execute substitution rule first,core,Major,1
+4208d0ba6f2a749692fe64181a1373af07d55db5,CALCITE-3823,Bug,Do not use String.replaceAll,None,Major,1
+91f5bb5589ca5b7c08b09969ad21c5e9bd18d293,CALCITE-3412,Bug,FLOOR(timestamp TO WEEK) gives wrong result,core,Major,2
+ ,CALCITE-3199,Bug,DateTimeUtils.unixDateCeil should not return the same value as unixDateFloor,avatica,Major
+b632152f5c159334c76245b8816c721edca84fd5,CALCITE-3839,Bug,After calling RelBuilder.aggregate  cannot lookup field by name,None,Major,1
+74536b7045c67004057ca1a01e6bcce33b59f9c3,CALCITE-3838,Improvement,Support Calc in RelMdSize RelMdSelectivity RelMdMaxRowCount RelMdMinRowCount RelMdTableReferences,core,Major,1
+200a136dd3b2ca04a1d1283eb5a03a04388b1947,CALCITE-3809,Bug,RexSimplify simplifies nondeterministic function incorrectly,core,Major,1
+bfde14be1284efc6d4560868fef3724238c35dc3,CALCITE-3828,Bug,MergeJoin throws NPE in case of null keys,core,Major,1
+3c70ca47272053a7c1f1f41079b88713da06f29c,CALCITE-3820,Improvement,EnumerableDefaults#orderBy should be lazily computed + support enumerator re-initialization,core,Major,1
+e9d302ffe37531c3e8eb5f657f236fe14d79992e,CALCITE-3837,Improvement,AntiJoin with empty right input can always be transformed as its left input,core,Minor,1
+ebc5070e27caa2cbe1cf3e3b78f6f93edfc4c6ce,/,/,    Site: Fix links to javadoc,/,/,0
+4bd13283dbef1718af7a43f3162c588505ca744a,/,/,    Add 1.22.0 release announcement,/,/,0
+1653e21f4fa552f160d49a33a659da618c6f0920,CALCITE-3821,Bug,RelOptUtil::containsMultisetOrWindowedAgg doesn&apos;t really check multiset,None,Major,1
+9b7b6316eaceec12762b209acec915262bda37eb,CALCITE-3825,Improvement,Split AbstractMaterializedViewRule into multiple classes,core,Major,1
+50cd53845e13f870f245bf9b77bb996b6b8d825c,CALCITE-3824,Bug,JoinProjectTransposeRule should skip Projects containing windowing expression,core,Major,1
+aeaaca6783f9b4461b6b1fedf19de9a67ba0a96f,CALCITE-3734,Bug,MySQL JDBC rewrite is producing queries with CHAR with range beyond 255,jdbc-adapter,Major,1
+aaf162a26943d3f42897f65a9e3fa8e7745bb1c2,CALCITE-3817,Bug,VolcanoPlanner does not remove the entry in ruleNames when removing a rule,core,Major,1
+ed1470a3ea53a78c667354a5ec066425364eca73,/,/,    Prepare for next development iteration,/,/,0
+60f07118f31776462ea35ffdaa1f46c633251f69,CALCITE-4625,Task,Release Calcite 1.27.0,None,Major,1
+f2c33a60e1e696cbfa25a2d80caf7ee81bba9769,/,/,    Bump commons-codec from 1.12 to 1.13 (Jaromir Hamala),/,/,0
+241b6db49c3ca88c9cdf25ddd2c0c8457734a130,CALCITE-4497,Bug,In RelBuilder  support windowed aggregate functions (OVER),None,Major,1
+af5444ffdfd9e836b052ee58abec9430d55d4139,CALCITE-4620,Bug,Join on CASE causes AssertionError in RelToSqlConverter,jdbc-adapter,Major,4
+ ,CALCITE-3207,Bug,Fail to convert Join RelNode with like condition to sql statement,core,Minor
+ ,CALCITE-4610,Bug,Join on range causes AssertionError in RelToSqlConverter,core,Blocker
+ ,CALCITE-1422,Improvement,In JDBC adapter  allow IS NULL and IS NOT NULL operators in generated SQL join condition,core,Major
+6a9832c14e7c7c02a0176920b87d15dab474300a,/,/,    Refactor: Add method SqlOperator.reverse(),/,/,0
+95be5be867610e4f194872c431a7ed892d0087d7,CALCITE-4528,Task,Upgrade Avatica version to 1.18.0,None,Blocker,1
+cac28e95762532538cd3d0dce9e933ef9e4d5228,CALCITE-4621,Bug,SemiJoinRule throws AssertionError on ANTI join,core,Major,1
+2741cc5ab39f148917a2b53f023acd34975bb9a2,/,/,    Add generic info to Map & Array annotation,/,/,0
+fd6ffc901ef28bf8408cca28b57eba9f8a204749,CALCITE-4613,Bug,OWASP dependency-check tasks fail due to missing resources,build,Major,1
+204b5ab42d9e365c55636cd0aca9f750f4d50e5d,CALCITE-4610,Bug,Join on range causes AssertionError in RelToSqlConverter,core,Blocker,1
+c96d85ccad32cbdc9b52b5e2488887ed14a1b5ec,CALCITE-4609,Bug,AggregateRemoveRule throws while handling AVG,core,Major,1
+aedb42e041faff73bfb2d88de95563d04871cfbd,CALCITE-4601,Improvement,Invalid Javadoc URL in SchemaFactory of CSV adapter,core,Minor,1
+f7e029fa3548d015f6a9ac3bc5da2a9af6357db6,CALCITE-4576,Bug,Release process should not overwrite LICENSE file,build,Major,1
+f27875f60fc70d5de022835fb26c63068360f8b4,CALCITE-4575,Bug,Remove Gradle wrapper from source distribution,build,Major,1
+796675c9b33e0461bc45a72780162d474a4b098b,CALCITE-4548,Bug,SqlToRelConverter#convertExpression can not convert SqlNode which has subQuery,core,Major,1
+0d1e7a8745a88e308f872d3450a333b319ffeea7,/,/,    Remove System.out.println from DiffRepository,/,/,0
+f1309fa3af6826e73377e54081160228eb7ab951,CALCITE-4594,Bug,Interpreter returns wrong result when Values has zero fields,None,Major,1
+e193b18ac23cde8bdac41e3864219ff1e9d6e0c5,/,/,    DiffRepository should write a test's resource file only when it is modified,/,/,0
+dfb934aba5ca830066a0d683c888070165283de6,CALCITE-4593,Bug,DiffRepository tests should fail if XML resources are not in alphabetical order,None,Major,1
+350802b59fa68ef1ee074b78af17bf1b2c435e13,CALCITE-4510,Bug,RexLiteral can produce wrong digest for some user defined types,core,Minor,1
+d7b3c83e06e4a63e5cb97c6f93b66795556d53db,CALCITE-4560,Bug,Wrong plan when decorrelating EXISTS subquery with COALESCE in the predicate,core,Major,1
+8c2228eaf8ccc05ae58778276e760092557f78cc,CALCITE-4574,Bug,Wrong/Invalid plans when using RelBuilder#join with correlations,None,Major,1
+de847c38f3544f9c7282984f32dc1093bdb2fb60,CALCITE-4591,Bug,RelRunner should throw SQLException if prepare fails,None,Major,1
+9c870eef69ff2a0066125517c635f25857106607,CALCITE-4585,Bug,Improve error message from RelRunner,core,Major,1
+df95257f357e67eac330ba4c6d6bc749851e99fb,CALCITE-4586,Improvement,In piglet  allow creating a PigRelBuilder with custom &quot;config.simplify()&quot;,core,Critical,1
+126dc7692d8b3261fba20956093681688e44fe4a,CALCITE-4583,Improvement,Make simplification configurable in &quot;RelBuilder#filter&quot;,core,Critical,1
+772413b8cf674de926fdf866d458aaf5f13680f8,/,/,    Refactor constructor of RexToLixTranslator.InputGetterImpl,/,/,0
+7e3abc5d67e907acd4d99f61380b521c8c1f5856,CALCITE-4587,Improvement,Set &quot;spark.driver.bindAddress&quot; explicitly to avoid &quot;BindException&quot; thrown by Spark,core,Major,1
+8169246a4ed1f207f62e252a34aff7589754f531,CALCITE-4571,Bug,Conversion of PIG script with multiple store causing the merging of multiple sql statements,piglet,Major,1
+296b84cad4406be03f2db35ce6077ad8fed4fef6,CALCITE-4569,Bug,Add support for providing custom properties to PigConverter,piglet,Major,1
+90530a0a0571513d5358a0dd16197390f492633d,CALCITE-4572,Bug,Conversion of Pig Latin scripts that contain RANK and FILTER operators fails,piglet,Major,1
+760714d9ed4a1323d59b4bb2bf2887f030500019,CALCITE-4579,Bug,Piglet throws ClassCastException if Pig Latin script contains FLATTEN or STRSPLIT operators,piglet,Major,1
+93c305031fb6c152c118390647f2b9b0979109c2,CALCITE-4515,Improvement,Do not generate the new join tree from commute/associate rules if there are &quot;always TRUE&quot; conditions,core,Major,1
+66c0d13a6b2fd4c04f049aace71a64d3d378b0dc,CALCITE-4535,Bug,ServerDdlExecutor cannot execute DROP commands with qualified object names,server,Major,1
+70d59fedfdb9fc956f3b1d1764833cbded7ae44d,CALCITE-4511,Improvement,The distinct row count and population size for constant columns should be 1,core,Major,1
+ac454315ea81af0eed1a2a9dca3d70ac729e6b28,/,/,    Typo in file_adaper.md,/,/,0
+31bdc5a7c4b66a37162511045215ebb27dc95712,/,/,    Copy-paste error in Mappings.multiply,/,/,0
+029969719980dd0707c9ca51087891b691593b14,CALCITE-4570,Improvement,Always validate preconditions in Filter  Correlate  Snapshot expressions when assertions are enabled,None,Major,1
+8581f0a3fe9a4f079cb4d36f02121ae22118714c,CALCITE-4562,Bug,Improve simplification of &quot;expression IS TRUE&quot;,None,Major,1
+f30f407654e150679ede6e8d8d4344e6dc26b346,CALCITE-4556,Bug,CalciteMetaImpl#createEmptyResultSet override of (Avatica) MetaImpl#createEmptyResultSet should not pass a class instance to CursorFactory#deduce,jdbc-driver,Major,1
+4bc916619fd286b2c0cc4d5c653c96a68801d74e,/,/,    Add Matcher#matches to ForbiddenApis to avoid its accidental use,/,/,0
+084d608c6adbbb82bcbdc2778439dfbeb6d6afdd,CALCITE-4477,Bug,In interpreter  support table-valued functions,None,Major,1
+ca9f0053611f54d92852a5c85e369a98bd3f91e7,/,/,    Add method RelJsonReader.readType,/,/,0
+fc6d56f1ac6d590b8a332cb0931a71ecd2367969,CALCITE-4418,Bug,Allow Interpreter to read from JDBC input,None,Major,1
+93a2263f7af23be34171a6a1e4f5864a85691650,CALCITE-4524,Bug,Make some fields non-nullable (SqlSelect.selectList  DataContext.getTypeFactory),None,Major,1
+008930a5a0a4310d642ae902365a883208d097cb,CALCITE-4533,Bug,Incorrect semantics of REPLACE and IF NOT EXISTS keywords in CREATE TABLE/SCHEMA commands,server,Major,1
+963ef2798990c06c835c28945ff811ec3cbfa7a6,CALCITE-4342,Improvement,More aggregate functions should be marked as splittable and ignore distinct optionality,core,Major,1
+39d477d96b90eca05e5af1cec0f8ae0617226b5d,CALCITE-4526,Bug,SqlSnapshot unparse lost the AS keyword when the table has alias,core,Blocker,1
+e447ff85a0a7d2037b819b7ced91177261974c7e,CALCITE-2317,Bug,getFunctions() showing empty,None,Major,1
+b61f3ca7ac42c9f0f6ec4d35748bba70f63a4b0c,/,/,    Bump Gradle 6.8.1 -> 6.8.3,/,/,0
+0378a560cc558698b928c9ebc088b905bd2d14c8,/,/,    Apply com.autonomousapps.dependency-analysis plugin only when -PenableDependencyAnalysis is provided on a command line,/,/,0
+b49693d31964657bf5058bd9387e505992cebd51,/,/,    Update dependency declarations: adjust api vs implementation  remove unused ones,/,/,0
+0fb14d553764f2a993ec56db4a36de2713ac1206,CALCITE-4276,Bug,Rewriting for materialized view will project wrong input,core,Major,1
+00d1086c7003115a9ed9dcc874051f515b7b5aae,CALCITE-4446,Bug,Implement three-valued logic for SEARCH operator ,None,Blocker,1
+0c64a5857dc3f4319c083c64eb6d12027f9034a4,/,/,    Fuzz testing for SEARCH operator  and refactor RexSimplify,/,/,1
+ ,CALCITE-4449,Bug,Generate nicer SQL for Sarg &apos;x IS NULL OR x NOT IN (1  2)&apos;,None,Major
+3cfeba8a4d3f5e0968820ba5a6571ceda191aa7f,CALCITE-2000,Bug,UNNEST a collection that has a field with nested data generates an Exception,None,Major,1
+d4e1eeac6e2142d978bfaf216e85aaaf096e9a8d,CALCITE-4514,Improvement,[CALCITE-4514] Fine tune the merge order of two RelSets,None,Minor,1
+94502f51e6a12cd53cec88b39d21b4fec6070428,CALCITE-4506,Bug,Upgrade SQLLine to 1.11.0,None,Major,1
+8e7d735da428f9b193e86333ebe11712340dfeda,CALCITE-4437,Bug,The Sort rel should be decorrelated even though it has fetch or limit when it is not inside a Correlate,core,Major,1
+03e356c656c2bc98b1a273352475033545e0928d,/,/,    Cleanup code after errorprone upgrade: IdentityHashMapUsage  JdkObsolete -> JavaUtilDate,/,/,0
+48d77026e1f05298e09f0a85a43364f49cc4a4ea,/,/,    Bump checkerframework 3.9.1 -> 3.10.0  errorprone 2.4.0 -> 2.5.1,/,/,0
+207bc8a0d731fa40e84309dfea3f8189b383e117,CALCITE-4265,Bug,Improve error message when CAST to unknown type,None,Major,1
+d815dc1209c3cc0728941e9fc81fce7d9e44c79b,CALCITE-3574,Improvement,Add RLIKE operator (similar to LIKE  but Hive- and Spark-specific),core,Major,1
+78cc3e3f739704ec4fa36bee9b465b61a672f873,CALCITE-4494,Improvement, Improve planning performance with RelSubset check for Rel presence,core,Major,1
+a7a817a68f49f19f1316a66dee1eb5119b95a46e,CALCITE-4344,Improvement,Run Redis tests using Docker containers,build,Minor,1
+f1da65504e598928cf77aa6a7244552692ae2529,CALCITE-4483,Bug,WITHIN DISTINCT clause for aggregate functions (experimental),None,Major,1
+7b338c043fb76350be518cc71812b83dc089bcca,/,/,    Add method RelBuilder.isDistinctFrom(),/,/,0
+a680abe0528faacf8d284419c76c36bbc1a65aa3,/,/,    In RelBuilder  remove not-null arguments to COUNT,/,/,0
+a99b0cfc2fa352b75f9ff428543d9366e0162421,CALCITE-4199,New Feature,Add nullability annotations to the methods and fields  ensure consistency with checkerframework,None,Major,1
+02020cb4db92513439d18328af3689a45f9f976d,/,/,    Refactor: Add Holder.empty(),/,/,0
+513f4d2510a47e8d0b55f35dac56785c16fa7d5f,/,/,    Refactor: In AggregateCall  add withXxx() methods and deprecate copy(),/,/,0
+8178367ad64f6ed0e7f667122aa9b5d26e7a35f6,/,/,    Refactor: Change RexBuilder.addAggCall() to use a nullability predicate rather than type,/,/,0
+ea452cf5780e656aaeea277f30816cce4e59659f,/,/,    Site: Add Liya Fan as committer,/,/,0
+99aa01a215587a6121f5d0e4dc4c698eb6db6598,/,/,    Make sure FmppTask re-executes in case default_config.fmpp changes,/,/,0
+d21d540fafce8225b12b032900a8087f8ac33a91,CALCITE-4426,Improvement,    [CALCITE-4426] Short-circuit evaluating when comparing two &quot;RelTraitSet&quot;s (Jiatao Tao),core,Major,1
+c475124ef8c61eb398ee119f27dfe21a14eca32f,/,/,    Use max-parallel=3 to reduce the usage of the shared GitHub Actions executors,/,/,0
+56bc468e9b58bb1739a73ba6d916a3736ed50c77,CALCITE-4140,Task,Configure Gradle Remote Build Cache to speedup builds,None,Major,1
+126aa842a6fcd04c411348b4b286b22eeee64d36,/,/,    Use Sonatype OSSRH repository instead of JCenter in build plugins,/,/,0
+85f939f922b50aca054e19f21a3c0a55afd4b929,CALCITE-4482,Bug,&quot;ImmutableBeans.create&quot; has performance issue,None,Major,1
+1bf6b08a81f471f979e1b52174f225f03ff77a2e,CALCITE-4461,Task,Do not cast to logical node inside Enumerable rules,core,Minor,1
+039fe493e195416ee40c93b720f304ac9fc3c8c8,CALCITE-4479,Bug,&quot;vFloat in (1.0  2.0)&quot; throws UnsupportedOperationException,core,Major,1
+a16a47351aa25caf538c1955edd171ec871569f7,CALCITE-4474,Bug,SqlSimpleParser inner Tokenizer should not recognize the sql of TokenType.ID or some keywords in some case,core,Minor,1
+12a484a5c364c36e9551e59f4dc33bfb219ecf07,CALCITE-4431,Improvement,Use requireNonNull(var  &quot;var&quot;) instead of requireNonNull(var) for better error messages,None,Major,1
+6dace36e7cd0bd85d0bb02d1df6988b542dd6e49,/,/,    Bump checkerframework 3.7 -> 3.9.1,/,/,0
+2bb92274ef5835a81d0ce7dca2a167b5b91c0eab,/,/,    Bump Gradle 6.7 -> 6.8.1,/,/,0
+801f33de8050ab7529b8597e2091d07fc5d81f27,CALCITE-4459,Improvement,Type annotations defeat org.jboss:jandex bytecode parser sometimes,linq4j,Critical,1
+706ecc2e8d8ac93aef707818e21ebaa0a154490e,/,/,    Site: Update talks from Calcite Meetup January 2021,/,/,0
+2ee4d841312049298840c22d36db6ab980ec5994,CALCITE-4466,Task,Do not RelTraitDef.convert if the &quot;from&quot; trait already satisfies the &quot;to&quot; trait.,core,Minor,1
+0a4a10dff9dfd11946ae120e0d7d9ae71e1eeb2c,CALCITE-4470,Sub-task,Add optional bytecode verification with Jandex,None,Major,1
+d2e7fecb22352e30abe037e91e7efea7f252f553,/,/,    Site: Add info and upcoming talks for Calcite Meetup January 2021,/,/,0
+f41d44a361941e1cd100edad7ebc19f7453ec752,/,/,    Cancel stale workflows in GitHub Actions CI,/,/,0
+174a707e1c199c97d7cc3531f0cd2e94745f4366,CALCITE-4443,Improvement,Add ILIKE operator (similar to LIKE  but case-insensitive  and PostgreSQL-specific),core,Minor,1
+1f39ffacb53dc6799edac61f72b23997cb8a88d9,CALCITE-4453,Improvement,RexExecutorImpl#compile should use RexBuilder&apos;s type factory if possible,core,Minor,1
+4d413bb21fb0a18882c5066f1d75a02d5b021bac,CALCITE-4456,Task,Allow all value expressions in ROW,core,Major,1
+be649b52eabb33d7252a146c50b769d271241dcd,CALCITE-4450,Bug,ElasticSearch query with varchar literal projection fails with JsonParseException,None,Major,1
+5ddd016024eb74fbf769422ea320938a6e3a4cde,/,/,    Add ErrorProne and the Checker Framework verifications to Travis CI,/,/,0
+8b9618fdd42daa14524e8baa69124982f409937a,CALCITE-4449,Bug,Generate nicer SQL for Sarg &apos;x IS NULL OR x NOT IN (1  2)&apos;,None,Major,1
+28d1c097e28dbc17f62ac1311755673d65337217,/,/,    Cosmetic changes,/,/,0
+1dd27f7ee6eaabd44ecda148bff7db9926dbf201,CALCITE-4434,Bug,Cannot implement &apos;CASE row WHEN row ...&apos;,None,Major,1
+80c4ebc17af928e2f4ee3a475abf9c62bf528faa,/,/,    Remove the insecure  unused `TrustAllSslSocketFactory` class (intrigus-lgtm),/,/,1
+ ,CALCITE-4298,Bug,Avoid disabling hostname verification on HTTPS connections,None,Major
+6dba0ac4b8085426d67574a094f23eb407b3633d,CALCITE-4425,Improvement,Class DefaultEdge lacks a proper toString implementation,core,Major,1
+e3b8b629f89ce5ffd25b4ef713258d83afd683cc,CALCITE-4433,Bug,Add UNPIVOT operator to SQL,None,Major,1
+7a75cc6863982aee981c9c03198561f785a35442,/,/,    Copy-edit SQL reference,/,/,0
+56a86a032ac05ed522846910eea6f884b31820e3,/,/,    Refactor: Change return type of RelBuilder.literal from RexNode to RexLiteral,/,/,0
+d3d157fcf99686d341a104b4763d0424544b904a,CALCITE-1382,Bug,ClassCastException in JDBC Adapter,core,Major,1
+ad6d1d907b913bab36d66879d656ae3115aa220e,CALCITE-4435,Bug,Incorrect logic for validating RexFieldAccess,core,Major,1
+67b41cea21203b1c7541d04dc0ff6ee6b65fbe35,CALCITE-4436,Improvement,Use the fields order from the struct type for &apos;ITEM(STRUCT  INDEX)&apos; access,core,Minor,1
+d54f3a22b5b00f447ab294ddac0bf9af41540670,/,/,    Site: Switch PMC Chair to Haisheng Yuan,/,/,0
+0ab1fe3118cc5adb8750a5c785e24fa4381afda1,CALCITE-4427,Bug,Make SUBSTRING operator comply with ISO standard SQL,None,Major,1
+280f67bf0a7a0973ee69f3ef9eda6526d6997d0d,CALCITE-4429,Improvement,RelOptUtil#createCastRel should throw an exception when the field count of the row type to be converted and desired row type is not equal,None,Major,1
+3311d45bdf95eecac9659443b350080d0b5f4eee,/,/,    Require Java 1.8.0u202 or later for the build,/,/,0
+79006252a81353880c06f688d9d92c0cdc57026d,/,/,    Make sure compileJava is reexecuted in case of the minor javac version changes,/,/,0
+404f968f6079360621896e6ee20ec12488a40bc2,CALCITE-4422,Improvement,Add MethodCanBeStatic check via ErrorProne,None,Major,1
+0327135376246eb58e1703fc13d555efaf389ada,CALCITE-4408,Bug,Implement Oracle SUBSTR function,core,Major,2
+ ,CALCITE-4427,Bug,Make SUBSTRING operator comply with ISO standard SQL,None,Major
+d9b55b4300eb2959c4ed55e9b692ffb9f12dd1ef,CALCITE-4419,Bug,Posix regex operators cannot be used within RelBuilder,core,Major,1
+42cd8ca8e511beee3c5b78e872ed4a79ee691f93,CALCITE-4411,Bug,RelNode to SQL lost the distinct when doing window aggregation,core,Major,1
+2c28b5b09865bd48313d07c1f37cf6f6ebc701a4,/,/,    Add regression warning to prevent users from upgrading to 1.26.0,/,/,0
+3d13846a13398a1ba6c1fa84a7d0c0cc543f23d4,/,/,    Refactor SqlParserPos,/,/,0
+853fb03c9097ab555a3bcc9a95bc24f0d1965f28,CALCITE-4284,Improvement,ImmutableBeans: make reference properties non-nullable by default,core,Major,1
+2f2fc406f4675a9ca16e3c0a352cfa4f2a1bc047,CALCITE-4199,New Feature,Add nullability annotations to the methods and fields  ensure consistency with checkerframework,None,Major,1
+6908d21ddecab8a10d7754800eed8f15b9c32f78,CALCITE-4199,New Feature,Add nullability annotations to the methods and fields  ensure consistency with checkerframework,None,Major,1
+2de723745782d692d468b6f1095c34a0dafc9443,CALCITE-4214,Sub-task,Make RelDataType.getSqlTypeName non-nullable,core,Major,1
+b7e90e1aeead1406855030023c7dc1934f821cc6,CALCITE-4251,Wish,Get the origin column  even if it is derived,None,Major,1
+d3cf48514d2f7a93092b2d2a8151d9cf99cca10c,/,/,    Bump AppVeyor image from 2017 to 2019 to test with newer Java: 1.8u162 -> 1.8u221  13 -> 15,/,/,0
+6e32d03d640dc0c8ed13d064b0088f413d50c607,/,/,    Bump de.thetaphi.forbiddenapis from 2.7 to 3.1,/,/,0
+1f14e97060df55f873dd2f124caea90f39511512,/,/,    Remove multiple blank lines after package statements,/,/,0
+b75c549194bcbb1e2c028b28fd1858c4e300bd41,/,/,    Remove multiple blank lines after import statements,/,/,0
+f3a9f6f34cd8a0fb1475810e9bf7fcba27d90e06,CALCITE-4415,Bug,SqlStdOperatorTable.NOT_LIKE has a wrong implementor,None,Major,1
+c9d7f5ed28e898beffe86d68fa7d637adbfbff5f,CALCITE-4317,Bug,Some rules fail to handle Aggregate node if RelFieldTrimmer trims all the fields,core,Major,1
+b4e399cb35224d8c8d55f02b7cf2b9649a3b28a4,CALCITE-4414,Bug,RelMdSelectivity#getSelectivity for Calc can propagate a predicate with wrong references,core,Major,1
+fc912eb19d9ebbaee843dc1e9d3b4175e757cb53,CALCITE-4409,Task,Improve exception when RelBuilder tries to create a field on a non-struct expression,core,Trivial,1
+fbe69824ffb13f847d1db6e26f0030ddec7b0e8c,CALCITE-4393,Bug,ExceptionInInitializerError due to NPE in SqlCallBinding caused by circular dependency,None,Major,1
+99251a51842483bc80688364195a159b740bd53f,CALCITE-4251,Wish,Get the origin column  even if it is derived,None,Major,1
+3f0353cecfbdfa3b85e6a4fe11946df912ebd2b1,CALCITE-4354,Improvement,Allow ITEM operator on ROW/STRUCT data types,core,Minor,2
+ ,CALCITE-2489,Bug,Order of fields in JavaTypeFactoryImpl#createStructType is unstable,core,Major
+5a847ea0c33113a3052bed4266700a9bde0eb16b,CALCITE-4402,Bug,The equalsDeep of SqlCall returns wrong result,None,Major,1
+f3c173c9220a83be0dfa0c80a39b015f384ffcd1,CALCITE-4251,Wish,Get the origin column  even if it is derived,None,Major,1
+61771ccdb9148f6d2e0bb3e36a4e54d614321eb8,CALCITE-4406,Improvement,SqlTableRef OPERATOR should create a SqlTableRef as the call,core,Major,1
+3846b50ab8897433ec7396d269436149e87d63ce,CALCITE-4277,Improvement,When rel has been removed from its subset  skip the origin rule match (Jiatao Tao),None,Major,1
+2ddc836dcf600a06e9ec3c8e7a7e61310e7b429d,CALCITE-4392,Improvement,The operation of checking types equal ignoring null can be more efficient,core,Major,1
+b973aa4de7502a05ae073719f887fcae109f9163,/,/,    Update release instructions,/,/,0
+3ccad7b2bcc962d48c1dee1c9604fd085d82c608,CALCITE-4364,Bug,Simplify &quot;a IN (1  2) AND a = 1&quot; to &quot;a = 1&quot;,core,Major,1
+ff4c16d1ea2192435e543fc9572ae3a44decbf79,CALCITE-4383,Bug,In RelBuilder  optimize Union(all  Values  Values) to Values,None,Major,1
+54a7bfaf84a2845e8668b62d1be69747e21f4e88,CALCITE-4389,Bug,Calls to ROW and anonymous row operators sometimes print too many spaces,None,Major,1
+6f94db067fd7b481f8969edbe5698685719e287a,CALCITE-4380,Bug,Make class SqlNodeList implement List&lt;SqlNode&gt;,None,Major,1
+0ce7685477d33374ddf0fe7f32b5a2d04040b47c,CALCITE-4390,Bug,SqlMatchRecognize returns wrong operand list,None,Major,1
+5e9943aa1f51a97068fc37d53dea1d447570becc,CALCITE-4364,Bug,Simplify &quot;a IN (1  2) AND a = 1&quot; to &quot;a = 1&quot;,core,Major,1
+1e6b7425ec20e2bddc6331a21016475a43f9d995,CALCITE-4374,Improvement,Support materialized view recognition when query distinct aggregate on target GROUP BY column,None,Major,1
+59a195f1a566e6724acc8bda246faf2f4ad89dae,/,/,    Fix grammatical errors in documentation (Geetha Rangaswamaiah),/,/,0
+d226a9456a8cfdb108a50744d702e915b46c7ffa,/,/,    Add OpenJ9 1.8 CI job at GitHub Actions,/,/,0
+fdcb195b829fdc4f52d777ae09630ee65eb0a977,/,/,    Fix grammatical errors in TopDownRuleDriver/TopDownRuleQueue/RuleDriver/VolcanoPlanner,/,/,0
+2e9edae7fc57ab9c9c7c097008724ac99a1791a3,CALCITE-4273,Improvement,Support get expression lineage for Calc,None,Minor,1
+c19da85b32f17fd78ff2fb03298ef66675c1705c,CALCITE-4350,Improvement,The reverse operation of collation direction is overly relaxed,core,Major,1
+30a0f4b6e4c66894580ba42842923794ff4d5d9a,CALCITE-4332,Improvement,Improve error when planning rule produces a relational expression with wrong row type,core,Major,1
+c70845687337ac65d00d3680d551549b9bda2b56,CALCITE-4345,Bug,SUM CASE WHEN xxx THEN 1 without &quot;ELSE&quot; throws NPE in AggregateCaseToFilterRule,core,Major,1
+add837afd15e1816e6415387559f51bd04996ef9,CALCITE-4233,Improvement,Elasticsearch Dismax API is not supported in calcite,elasticsearch-adapter,Major,1
+e7c579ff5bcc88c2ca0173192d9accd5786bca23,CALCITE-4106,Improvement,TypeCoercionImpl#inOperationCoercion should consider listCoerced,core,Major,1
+d03ce47536ddb2aaec6d445b3ea48464081a7ed0,CALCITE-4352,Bug,RelBuilder/RexSimplify/Sarg incorrectly transforms complex expressions with IS NULL/IS NOT NULL,core,Major,1
+a5801bed0d0d74ad12b6742d64ffb07b4a05f674,CALCITE-4369,Bug,COUNTIF support for BigQuery,None,Major,1
+1fec052330168e0d0b416ed884b1db03ca76ceff,/,/,    Add class SqlBasicAggFunction,/,/,0
+5f1d8238da504d54a8d4d74252f344c4ebb77318,/,/,    BigQuery dialect should allow GROUP BY ordinal,/,/,0
+987cb7f7da6ff1cb436718ac93868d50e88e875f,CALCITE-4354,Improvement,Allow ITEM operator on ROW/STRUCT data types,core,Minor,1
+f9d23a62145e8c490492214836ce9cd7d1dcc35e,CALCITE-4332,Improvement,Improve error when planning rule produces a relational expression with wrong row type,core,Major,1
+3c7e2e3f3edbf60d93ebf7c8946d1177a02d3e87,CALCITE-4225,Bug,Make RelDecorrelator pluggable,core,Major,1
+c2527ccf440f7750bfbabd2063c402440c5b32a0,CALCITE-4305,Bug,Implicit column alias for single-column VALUES  and UNNEST of ARRAY and MULTISET constructors,None,Major,1
+3038fb7e87c51740ef733fd4f9bde41b0c25e5b0,CALCITE-4335,Bug,Aggregate functions for BigQuery,None,Major,1
+5cd75b481943cf7c0069c8d17e521dae6a442e37,/,/,    Add an overloaded SqlOperator.createCall,/,/,0
+b5a761e559ca1c1c914e388df4c6a0958dc17fc8,/,/,    Enable more tests in TpchTest,/,/,0
+2c2fa578e238e96368cc1b006a86538ec981c237,CALCITE-4343,Improvement,Bump Jedis version to 3.3.0 (latest),None,Trivial,1
+13ac507058de07b85a9a4bf00595bd705efb1ac7,/,/,    Add markdown to .gitattributes,/,/,0
+645aa1a9561cbf12ac5c24daecc9971a7fcca651,/,/,    Set diff pattern for CSS files in .gitattributes,/,/,0
+bda7fb188b01c0334a7bf1662101e259321893a4,CALCITE-4321,Bug,JDBC adapter omits FILTER (WHERE ...) expressions when generating SQL,jdbc-adapter,Major,1
+9f1332585b86be18ececdf15b3f103c9b069c25d,/,/,    Remove files that change often from Travis cache  remove broken files automatically,/,/,0
+fbef7c8fd90e59f6ba2043fe37045eb2590abc8f,/,/,    Make buildSrc jars reproducible for better caching,/,/,0
+cd922deff8ae3f25546b1d77fb147c3098eb177b,/,/,    Site: fix aggregate function doc,/,/,0
+538f6ae70d82c23f4afb72fbea5bc8b49a81fe52,CALCITE-4339,Improvement,Update Gradle: 6.6 -&gt; 6.7,build,Major,1
+b598ff08cc8ba4f00ddef08fdaf77e4fbb8d972f,CALCITE-2935,New Feature,Add BOOL_OR  BOOL_AND  LOGICAL_OR  LOGICAL_AND aggregate functions,core,Major,1
+8e3036609d3896acf0368a5744ae58933adac59d,/,/,    Refactor SqlToRelTestBase to allow custom Context in tests,/,/,0
+a186f02ab79374dc7a6ff0b2ae0c3cb661fbd86a,CALCITE-3731,Improvement,Add IF function for BigQuery  Hive and Spark Dialects,core,Major,1
+ffc1e3b05e7f920d95c48f7c75fd48372684b8e7,CALCITE-4204,Bug,Intermittent precision in Druid results when using aggregation functions over columns of type DOUBLE,druid-adapter,Major,1
+ee5c78444558117c71cc7058a79bc920a52cad59,CALCITE-4325,Bug,RexSimplify/Sarg incorrectly simplifies complex expressions with NULL,core,Major,1
+16b22b105dfcb3d95cc7af8eb54105f231d18cc9,CALCITE-4240,Bug,SqlTypeUtil#getMaxPrecisionScaleDecimal will create decimal that has the same precision and scale,None,Major,1
+e2f9296688ff0f99bf2966a481bd87b8fe11b075,CALCITE-4260,Task,Support plan explain with dot format,core,Major,1
+74785aae40cdb48b02e4b8ef885e897c74bf629f,CALCITE-4333,Bug,The Sort rel should be decorrelated even though it has fetch or limit when its parent is not a Correlate,core,Major,1
+ac96eb8888c5009e781a31503288adf292000b80,CALCITE-4297,Bug,Babel should accept CURRENT_DATE and CURRENT_DATETIME  with and without parentheses,babel,Major,1
+c7fdae22fb0e6b220152f05a7343ce5569283a83,CALCITE-4302,Improvement,Improve cost propagation in volcano to avoid re-propagation,None,Major,2
+ ,CALCITE-3330,Bug,propagateCostImprovements() could result in stack overflow,None,Major
+ebefe52f577da5c744ea863480ed3c98b7ef2e99,CALCITE-4034,New Feature,Implement a MySQL InnoDB adapter,innodb-adapter,Minor,1
+6f75f8deea4718da9a49d4ec1bb5eab9de0887d1,/,/,    Refactor: Make HintStrategyTable immutable,/,/,0
+1ba5c3559eb116af11c10d45907faefb5755f546,/,/,    Refactor: move CassandraRules.reverseDirection into Direction,/,/,0
+fcca91431003879e25d5191146b08683d22b0ccb,/,/,    Doc: typo fix,/,/,0
+3957f2a0e2389a78427953bf49c4448a34526655,/,/,    Exclude root project from javadoc aggregate tasks,/,/,0
+8df4df024128da846ccb404487628b413747a2c5,CALCITE-4324,Bug,sqlline is broken,None,Major,1
+5ae3c16153fd81fdf28f8493eb3c0178b860f269,CALCITE-4301,Test,Unit tests for Cassandra adapter are wrongly applying ITEM operator to STRUCT columns,cassandra-adapter,Minor,1
+e328a33b6f08356396472c9fec83ca00ae951119,CALCITE-4315,Bug,NPE in RelMdUtil#checkInputForCollationAndLimit,core,Major,1
+836202c3f5aa04d56fa2fd2debc3c2024f92357e,CALCITE-4316,Sub-task,Avoid NPE in getMonotonicity when nulls are used in divide call,core,Major,1
+4c3ebf8a4dc04221fc13a53cf09b6da478e08aae,/,/,    Refactor ResultSetEnumerable to avoid nested lambdas,/,/,0
+532f903fe495d741053619c13a51537e57dcd619,/,/,    Use jackson-bom to specify Jackson versions,/,/,0
+69e812ff23b6f23a3737abeea5a8978a02bc2b5d,/,/,    Site: change 1.25.0 release date to 2020-08-22,/,/,0
+155276591288615c4d02d55fb7d77eceb2e24b2d,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+5bf678e2af3cae0f67a3c6e79cadf420f0325926,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+50920958af56217b49d3209a39017574688a8783,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+0024fdbed652bdd007d7eb1d5b9770b559e909bc,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+be6fc6f34688d309903af4d76c92fb51eda10350,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+13c58ef3f89f55fddfdb65b2480f71c9847e7e6a,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+c0ee886cc028c1baa40f14f04590f99451920b18,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+179ccca2833e919844723ff84ab3a449300b123e,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+2235149f22ee1302ea45b043191b67bf40c99ec8,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+fe7c1f5808fa1894e7c1b4a7a2239b188c7c56b4,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+cafe7ec3ac54a8b0aa0a145a1e2928e33f1c59e4,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+122db544ca7b2488dadc88f1eaba54447e4af4b2,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+5be8a9aefcd7219cfe336729d4b1010f3d2c886a,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+e53724630af60566784e8aa7d8f56fe2932b12cc,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+6917193bd142830461ff15dfe24923369208e148,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+3fa4bf1ef5b83fb0a3e1be451fba1677d19f52e2,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+cff3695264797e292d08302786c074ebe1d1c43c,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+4dd81e98b13b5ff0336bf49330d602cbfde0edc6,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+042802fc6f78244ca2b5759b9727c77676bed8ae,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+995b90bdee997d879f69020de06fe4f6e24f49eb,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+2cbb0c4fef8d72224db5a33659fad898a9f0e849,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+c528771e5c4c9ab6e15e7d4ee5536fdff6fb2019,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+b88bae9905048a777ccccce5eb7819b1b9bf51f5,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+0cdb485ee8d5edfcbf9a2daaf4e09b2c89cd11c8,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+04f8a078589f78aa421e137f6cb8d06ff0c3d458,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+1435ed51c6764708b6c9952dca0af9374bf1f329,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+5628311e506e13a567f1bd41e1cfba27a8719d22,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+11d75942a76d859738afaf9d8be4b90c9c9a5d4e,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+edbd35acf76dbd44cc148f036d0d02cbe2105c81,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+1b94f37e888cf2d186362473529e6c147afe0f6e,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+69b12e0bdf85654e2267bb494ad408bd11f8124c,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+d84bb710aed90adbaeae3c65ed3c95c5f68ce749,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+b5a94de7d270ecd0defbb7475d797d0e48649955,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+66caa54c5e272f8287ca132ca012733898a38768,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+36b31baa463679db871b15ada78e290d448c0443,CALCITE-4314,Improvement,Enable Error Prone checking,build,Major,1
+2391c20bfb10760f770c5c7cd6fc488b8c5a4130,/,/,    Add 1.26.0 release announcement,/,/,0
+32c62ca486665dcf9693e26120142bfbdbbcb1e6,/,/,    Correct 1.26.0 release date,/,/,0

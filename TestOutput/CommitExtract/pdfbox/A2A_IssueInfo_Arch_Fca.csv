@@ -1,0 +1,316 @@
+dd6292ed5dbe50457885a0fbf657777f9ca5ec88,/,/,    readded accidentically deleted tags,/,/
+94a934f3878e525995d4eeb417370ef3186d539a,PDFBOX-615,New Feature,shfill operator needs implementation,PDModel,Major
+b87da2753f107c9135f3e54a711cb2d28f042944,/,/,    some more about logical structure (basic support for structure attributes),/,/
+200b100383815e85366e2b06caa6ab62c2430633,PDFBOX-644,Improvement,Move FontBox and JempBox under the same trunk with PDFBox,JempBox,Major
+0faacab9509fa0c2b407f8efb4ef018ef7bdd499,PDFBOX-644,Improvement,Move FontBox and JempBox under the same trunk with PDFBox,JempBox,Major
+e36246c39a3f2fdcd4da8af314bae581d6216420,PDFBOX-644,Improvement,Move FontBox and JempBox under the same trunk with PDFBox,JempBox,Major
+27952949ebc4691a0386546bd6250a4e91ddd3ad,PDFBOX-7,New Feature,extract information from tagged PDF,PDModel,
+83bd53eef62d99bb54b5c5bde04870789f8f13c9,PDFBOX-646,Improvement,Map the form space to user space if the optional form matrix of a XObjectForm is present,Swing GUI,Major
+afee2667a0cdeb748c1a862487f60b13665bad83,PDFBOX-637,Bug,problem with static code in COSInteger/COSNumber,None,Major
+fb86275eff8440eaf396f76e92094525dbfc7ec2,PDFBOX-615,New Feature,shfill operator needs implementation,PDModel,Major
+a304d628fc88a3d897920cd9eded55507dcbbb91,PDFBOX-626,Improvement,Reduce the memory impact of the COS object model,PDModel,Major
+fbf6150057c99c2835690275f8e83b6c7141809d,PDFBOX-626,Improvement,Reduce the memory impact of the COS object model,PDModel,Major
+0d5e1235f7eaf70afa55eda1cec6a9db381c94ea,/,/,    readded accidentically deleted tags,/,/
+286b2a9020c95cebe283b55282e2b57d670c0c86,PDFBOX-1132,New Feature,Add Tika parsers for PDF and TTF,Parsing,Major
+54c835e0d2d5575402c89afad501c83c5edf88a9,PDFBOX-490,Bug,Pdf Printing of text from embedded fonts,FontBox,Major
+428e5a497435c30f416edc6ba1b4707312323dee,PDFBOX-1297,Improvement,ExtractText fails to extract text from packaged PDFs,Text extraction,Major
+fa269ca8bc6443a0ac3e8433ce18c655d8d96006,PDFBOX-1310,Improvement,Remove project version retrieval in preflight ,Preflight,Trivial
+9737a662017203923ce60381ded7ac1c8c45efb2,PDFBOX-1198,Wish,Remove dependency to commons-io in xmpbox,XmpBox,Trivial
+97c8ba86d2e5905eb35c5c6fd39cfd55c5316496,PDFBOX-490,Bug,Pdf Printing of text from embedded fonts,FontBox,Major
+1ab2c481330e31d1dc3ae41056f4782145dfdb4e,PDFBOX-1199,Improvement,Non-sequential PDF parser + PATCH,Parsing,Major
+11b9fabd2a867619f229076f7314cd55c4ff9d75,PDFBOX-1199,Improvement,Non-sequential PDF parser + PATCH,Parsing,Major
+e5669ec44bc6980972b19adb37c8e47ef0826dc8,PDFBOX-817,Bug,IllegalArgumentException not catched or declared while creating ICC profile,PDModel,Minor
+090911fc702fe1b51127816ab6f499390edfc168,PDFBOX-1230,New Feature,Support CIDToGIDMap of CID-Type2 fonts,PDModel,Major
+7f29584168ecde6751a825f90516b2637ed52983,PDFBOX-615,New Feature,shfill operator needs implementation,PDModel,Major
+7976bd14f10476d1679035ee9ac4acb80b4d368b,PDFBOX-605,Improvement,Better support for Type0 fonts,PDModel,Major
+4371ea0fefc428c5522fd6816eca5c78104bf250,PDFBOX-1195,Bug,Font Validation Problem,Preflight,Major
+f91e71492b59a3da7728bf7967be53871c72003e,PDFBOX-585,Bug,PrintImageLocations example calculates wrong image width/height,Utilities,Major
+ ,PDFBOX-1197,Bug,PrintImageLocations does not print information of all images,None,Major
+dd6211a589129f94b3570fd73af0557c972c201e,PDFBOX-1190,Bug,Attempting to render to BMP  WBMP or GIF causes IllegalStateException,Utilities,Minor
+b688014755d2f8d866486d022a3779c2e7b637f7,PDFBOX-1177,Wish,Create a module with examples instead having them in pdfbox.jar,Utilities,Minor
+5f93b44ab32e3a6376add51d02357b51b6dbc24d,PDFBOX-1177,Wish,Create a module with examples instead having them in pdfbox.jar,Utilities,Minor
+672efb927b11201a8ed465fa4959588d1b6c3072,PDFBOX-1146,Improvement,Don&apos;t use COSArrays when calling PDFunction#eval,PDModel,Minor
+74507aa38273fff902e10f777d748bd8cb64ad8b,PDFBOX-1142,New Feature,Implement type 4 functions (PDFunctionType4),PDModel,Major
+1cf02645c4470dc8166d22e9f23cc861578bfc34,PDFBOX-1132,New Feature,Add Tika parsers for PDF and TTF,Parsing,Major
+11983ec4bd0e570165e275c17852630fba8e6e82,PDFBOX-615,New Feature,shfill operator needs implementation,PDModel,Major
+f28ee9f0eaadf2cd45d0b4656a001eae2abbe459,PDFBOX-1094,Improvement,Pattern colorspace support,Rendering,Blocker
+486091852e02a08db40eed4d250233a6236c9648,PDFBOX-1094,Improvement,Pattern colorspace support,Rendering,Blocker
+74dbece608c84c360bd0e90e05d06503c1d81fd7,PDFBOX-1086,Bug,Error when decoding CCITT compressed data that contains EOLs  fill bits etc.,Parsing,Major
+9a4a8ca5bcc0e061a5891973afd89a975d87fdb5,PDFBOX-1056,Task,Integration of a PDF/A validator in PDFBox,Utilities,Major
+711c4f2339022e6788a7ac86df5cd7c54d1fcdab,PDFBOX-1056,Task,Integration of a PDF/A validator in PDFBox,Utilities,Major
+77efd21c49cdee9fd70e1287f9899d5dc4eb45ee,PDFBOX-1000,New Feature,Conforming parser,Parsing,Major
+4f454e478da2941fc3f9af59e2db8f0c50679160,PDFBOX-1019,Bug,PDF conversion to image crashes the JVM,PDModel,Major
+ ,PDFBOX-988,Bug,pdmodel.font.PDSimpleFont hanging on TrueType font (ubuntu),PDModel,Major
+52e12df5c51b0eef320ff731028facf531cf52d2,/,/,    readded accidentically deleted tags,/,/
+d76d9cf7ccfa76aaa4aeb36882ce2301acc8a255,PDFBOX-1528,Task,rename org.apache.padaf.xmpbox to org.apache.xmpbox,XmpBox,Minor
+565b8cb741520c529c340a9298870bb7ef0df8e9,PDFBOX-1513,Improvement,PDF signature improvements,Swing GUI,Minor
+8f5e6767d2df0575f58d562d74a03da925542d21,PDFBOX-1514,New Feature,Improved overlay cammand line tool,Utilities,Minor
+7c74c2850c8267983f8e4b0a01f587d1ad13f653,PDFBOX-1492,Improvement,Add basic XFA extraction,AcroForm,Minor
+3f218177a79fd7987bd371a5421ecb9ef24823d8,PDFBOX-1437,Bug,Title invalidly read in DocumentInformation,PDModel,Major
+4443bbc3fc72312915a91b91fcbdf64073048a0b,PDFBOX-490,Bug,Pdf Printing of text from embedded fonts,FontBox,Major
+2a891ae3e5027e601d6ab84376581b0f22153401,PDFBOX-1377,Improvement,Simplify PDF/A schema parsing,XmpBox,Minor
+b46f2a70aa22a4001a42cd08a7a918c07d406406,PDFBOX-1377,Improvement,Simplify PDF/A schema parsing,XmpBox,Minor
+c11356ca7c5c16e9938118f5adac89d5670e559c,PDFBOX-1408,Bug,Width of space character is calculated wrong,None,Major
+19078bdd6f3857c5dc461523eb8cdde6a35d5933,PDFBOX-1373,Bug,Body Syntax Error : Possible Encoding problem,Preflight,Major
+092f11f78dd5be2bb3b9af2c55c83ac0ded7e33e,PDFBOX-1312,Improvement,Refactor the PdfA parser,Preflight,Major
+97dd12f5d2fb2c5842c26731f7cee58b039a6483,PDFBOX-1312,Improvement,Refactor the PdfA parser,Preflight,Major
+916f5e77226c43ce19488bb4b2b59cdb2f7d0401,PDFBOX-1312,Improvement,Refactor the PdfA parser,Preflight,Major
+57d996e2018f7516f6ac316ccb12482f57acb950,PDFBOX-1312,Improvement,Refactor the PdfA parser,Preflight,Major
+e9a7fcbc94d2327a8107d588b92a62c6d4fa9d31,PDFBOX-1312,Improvement,Refactor the PdfA parser,Preflight,Major
+840fad1c51162bb7580bfd5a3691b6984e4d0bb1,PDFBOX-1312,Improvement,Refactor the PdfA parser,Preflight,Major
+318886a6542c7f362d66dd948164fcb805f51ff8,PDFBOX-1312,Improvement,Refactor the PdfA parser,Preflight,Major
+2c33be84c347669991eafc0dc4ae2a816efe58f3,PDFBOX-1343,Bug,Addition of missing XMP standard value types,XmpBox,Major
+f7a666adfb92489249b9d943a5323d47d2b29498,PDFBOX-1359,Bug,stack overflow~~  ExtractText (PDF2TXT) ,Utilities,Critical
+a109c555d29873d0e826837580b27844f6003fcd,/,/,    merged the following changes from trunk,/,/
+ ,PDFBOX-564,Improvement,Change the wrapped exception to extend Exception and pass the wrapped exception for more standard/better printout of wrapped exceptions,Utilities,Major
+ ,PDFBOX-954,Bug,Embedded font: value for /Widths faulty (worked in PDFBox 1.3.0!),FontBox,Major
+ ,PDFBOX-1099,Improvement,Only parsing object streams if they are referenced by the xref table / stream,Parsing,Major
+ ,PDFBOX-1323,Bug,PDF with subset CIDFontType2 (TTF) paints wrong characters,Swing GUI,Major
+ ,PDFBOX-1333,Improvement,Stream parsing of BaseParser should fall back to scanning if length value is wrong,Parsing,Major
+ ,PDFBOX-1334,Bug,EmptyStackException in PDFStreamEngine.getFonts,Parsing,Minor
+ ,PDFBOX-1337,Bug,Improve PDFOperator performance on multithreading environment,Utilities,Major
+ ,PDFBOX-1339,Bug,PDFMergerUtility addSources function does not work,Utilities,Critical
+ ,PDFBOX-1340,Bug,i got wrong characters when i extract some chinese pdf files,Text extraction,Major
+ ,PDFBOX-1349,Bug,Postscript tables of truetype fonts are not correctly parsed.,FontBox,Major
+ ,PDFBOX-1353,Bug,PDFBox extracts wrong characters for some korean pdf files.,Text extraction,Major
+ ,PDFBOX-1355,Bug,Truetype font loaded in 1.6.0 (and previous)  does not load in 1.7.0,PDModel,Major
+ ,PDFBOX-1357,Bug,Missing character encoding in MacRoman &amp; WinAnsi,Preflight,Minor
+ ,PDFBOX-1358,Improvement,Reduce the memory consumption of a RandomAccessBuffer,PDModel,Major
+d863c50b561058c3379f86c39f716fc01804e132,/,/,    prepare 1.7.1 release,/,/
+e52d346adfa24ac83ec71d79c02d67e14434b1a4,PDFBOX-1312,Improvement,Refactor the PdfA parser,Preflight,Major
+7a501fd4396892e553a4d594bbfae70d80f21dd1,PDFBOX-1349,Bug,Postscript tables of truetype fonts are not correctly parsed.,FontBox,Major
+7834c7466e29824578579eea16d7364bc104a9c9,PDFBOX-954,Bug,Embedded font: value for /Widths faulty (worked in PDFBox 1.3.0!),FontBox,Major
+8ef145c78640974fccbc665cd8e5225a0c9ee326,PDFBOX-1312,Improvement,Refactor the PdfA parser,Preflight,Major
+ ,PDFBOX-1274,Bug,Another Invalid Color Space  DestOutputProfile   passes commercial validators,Preflight,Major
+c565100d30040174a7e466e97b4c2117ce569efd,PDFBOX-564,Improvement,Change the wrapped exception to extend Exception and pass the wrapped exception for more standard/better printout of wrapped exceptions,Utilities,Major
+9b1b75d9b0fa88d4e119d7c4447da57d39016c83,PDFBOX-2883,Improvement,Unify memory handling,Parsing,Major
+87b01bcf46fe3d92d8ad1e9e1d88381a49da7e4c,PDFBOX-2852,Task,Improve code quality (2),None,Major
+7e8283eaea1a810b25819e3bdd32c0d0bcc77af8,PDFBOX-2852,Task,Improve code quality (2),None,Major
+d7901a86eb584d9df49ac61161abb731fa96b9ec,PDFBOX-3258,Bug,XMPBox XMPBasicSchema setters don&apos;t work if already set,XmpBox,Major
+ef436f3cfc79935e178cebf9a51d1ef8bce01397,PDFBOX-3258,Bug,XMPBox XMPBasicSchema setters don&apos;t work if already set,XmpBox,Major
+d710e2174ad773ebef474e1438d99fbfbd571843,PDFBOX-3259,Bug,ClassCastException in PDTilingPattern.getContents,Preflight,Major
+daccae43a86b6d7a63819d86757eed775c6f4f9a,PDFBOX-2852,Task,Improve code quality (2),None,Major
+5892e9a8b818b7d82bee5e78150c4132ecf03fd2,PDFBOX-2852,Task,Improve code quality (2),None,Major
+1231fae4f014a7618488f1c3bfba5c0b1c6d6797,PDFBOX-3258,Bug,XMPBox XMPBasicSchema setters don&apos;t work if already set,XmpBox,Major
+bbded717822e226e8b76189ebaa542686f3e5d36,PDFBOX-3257,Bug,XMPSchemaBasic setCreateDate and setModifyDate don&apos;t work if already set,JempBox,Minor
+0f650587c6c53cda7806fd36860c116456510d7d,PDFBOX-2852,Task,Improve code quality (2),None,Major
+bc938e2fa053f93aa06b585731c079fb0fd68bf3,PDFBOX-2428,Bug,An error occured when reading table hmtx,FontBox,Major
+ad15c1156a4c3451185353dbc5a45f3cca17d921,PDFBOX-2852,Task,Improve code quality (2),None,Major
+ba054e681271a6335bbc7d669d48fac82e1667f2,PDFBOX-3254,Bug,Corrupted XMP causes java.lang.StringIndexOutOfBoundsException,XmpBox,Major
+fa0125cc411a3c67756f591b75e28611270fe2e7,PDFBOX-3253,Bug,Close all COSStreams when creating a new pdf,PDModel,Major
+388a8e0c2326423d45d5f75ad6fc8ee8bb2fe3fd,PDFBOX-3251,Improvement,Improve parsing and validation of ColorSpace for inline image,Preflight,Major
+8753790162497d4f88bdecda5c949ad87acf9a45,PDFBOX-2852,Task,Improve code quality (2),None,Major
+2eb140facf67aa7a5b7bd8964128c9f7c712eaf1,PDFBOX-3241,Wish,return original PDF Header,Parsing,Major
+e56741fa9b54982b23597aec73752ae17a33467a,PDFBOX-3233,Wish,Create default resources with cache,AcroForm,Minor
+b7b5f6f34efcb1f300890f6d787b4eb61327e216,PDFBOX-3241,Wish,return original PDF Header,Parsing,Major
+08701ae0c2bdf6373010bf9e42c8167e0a5a1486,PDFBOX-1594,Improvement,Add support for AES256 Encryption ,Crypto,Major
+6ed60c3351498a28a398880eb2cecb8de692bf6b,PDFBOX-2852,Task,Improve code quality (2),None,Major
+cf2deaba1e3203f50e7e95f2f5ddd14ca8885825,PDFBOX-3237,Bug,ASCII85Filter does not use or recognize the correct end-of-data terminator,Writing,Major
+ad53c40865091b69b7a3ea5d02ca070d15e974e6,PDFBOX-3237,Bug,ASCII85Filter does not use or recognize the correct end-of-data terminator,Writing,Major
+977d1962e8419aa48264d55b35d01a77f295cd07,PDFBOX-3030,Task,Enhance documentation for PDFBox 2.0.0,Documentation,Major
+1d58b61260d7768f18fefd1dfa13d2b13736a88f,PDFBOX-3235,Bug,ColorSpace validation fails for inlined image,Preflight,Major
+64ca72c255e8a6ec24768698f8b0bd91558ea15e,PDFBOX-3234,Improvement,Rename check box field type to match PDF 2.0 specification,AcroForm,Minor
+68a0d3a1c32c5b85f787f4b9713df8e1237ae533,PDFBOX-3231,Improvement,Update PDPropBuildDataDict,PDModel,Major
+665abf517f6ca79c16109cb8563eb75e4f1a1216,PDFBOX-3231,Improvement,Update PDPropBuildDataDict,PDModel,Major
+2787c7d453fe144d4c3762aaeb335a32f96b6a9d,PDFBOX-3229,Bug,Decryption fails when Metadata not encrypted but EncryptMetadata is true/default.,PDModel,Minor
+4600a7ba998819dd25579456a11887f80bc1a0f6,PDFBOX-2970,Improvement,Add capability to flatten AcroForm form fields,AcroForm,Major
+f1403e3f74f834478eed2e1c4dafb014a0ee2b86,PDFBOX-3226,Bug,No such Element Exception processing File,FontBox,Major
+34f41732489688f968f8a439f11e6917e31d23a5,PDFBOX-2852,Task,Improve code quality (2),None,Major
+afb888cdae97f8ab9489bad65050d4c221e4b035,PDFBOX-3217,Bug,PdfaExtensionHelper.populatePDFAPropertyType,Preflight,Major
+d744550158c69435fcf3e3d186dfb2bbe7afbfb3,PDFBOX-2852,Task,Improve code quality (2),None,Major
+1bede75c0a5c98a0eea36b2d20d40fcd06000d0a,PDFBOX-3204,Bug,JVM crashes on PDFRenderer.renderImageWithDPI,Rendering,Major
+5eb21f82a46e2193c03e2af14cc1b075dc69fde3,PDFBOX-3209,Bug,Overlay class does not work with in-memory PDFs,Utilities,Major
+6afba40fcb80c4d5a8865fbbf844e5e112a72549,PDFBOX-3116,Bug,COSNumber NumberFormatException for large number,Parsing,Minor
+02d64236ffbd11d5ad14c956e0f15acc2ff37748,PDFBOX-3202,Improvement,Rename structure element setter of PDOutlineItem,PDModel,Trivial
+6ffba04825e4e8238e77ac85fe153a507326e599,PDFBOX-3201,Bug,Skip zlib-header and checksum to avoid DataFormatException,Parsing,Major
+346b204d082d4dcac334fb10fc5b8a075c2f076a,PDFBOX-3201,Bug,Skip zlib-header and checksum to avoid DataFormatException,Parsing,Major
+311775ab9608e29d9d459b5c8fa88888a8b40a33,PDFBOX-3201,Bug,Skip zlib-header and checksum to avoid DataFormatException,Parsing,Major
+65a22ac30968dbc0efdda8d0f6075add58c8d64f,PDFBOX-3120,Bug,ArrayIndexOutOfBoundsException in CodespaceRange.isPartialMatch / CMap is invalid,FontBox,Major
+5eb6d1792095208291bd1050169c5eb1010bc412,PDFBOX-2852,Task,Improve code quality (2),None,Major
+a11d5116b21d81552da196107d8cf53936a95483,PDFBOX-3199,Bug,JPEG input file not closed when creating PDImageXObject,PDModel,Major
+8b5425efd90d681f7fcaaca0b3a71da2eb238f1b,PDFBOX-3196,Improvement,Update maven plugins and apache parent pom,None,Major
+d9139ca181542841f0eef8ed24268d51fe898b9a,PDFBOX-3195,Bug,ExtractText add space at start of text,Text extraction,Major
+1853aaf6ec1200e8cd46a9c6b28503b1a57ba894,/,/,    fix borked versions,/,/
+d42d1a1c5f5d4f097781a508863d5e730171b416,PDFBOX-2941,Improvement,Improve PDFDebugger (2),Utilities,Major
+80fd5d965e5878625aba0e9eff45ffbb550c6bae,PDFBOX-3190,Bug,Links don&apos;t work in firefox,PDModel,Minor
+11d89a38e3930cca76199a6e02e1e9ba0b5a82fe,PDFBOX-3190,Bug,Links don&apos;t work in firefox,PDModel,Minor
+4fd0f2ce4164ebd54ab24c97be7e06aae235d239,PDFBOX-3189,Bug,java.io.IOException is thrown from both NonSequentialPDFParser and PDFParser,Text extraction,Major
+dcdcd22794c29a71e5779358905615b9f2095cad,PDFBOX-3191,Bug,PDFDebugger does not handle cancelling of &quot;Open URL&quot; dialog,Utilities,Trivial
+9ce6b7a445f043289133efa1764abf4c87870fab,/,/,    [maven-release-plugin] prepare release 1.8.11,/,/
+e3c8b09cdae84e8dd7d5e8f5504a0e8bece919ad,PDFBOX-3187,Bug,NullPointerException CFFParser,FontBox,Major
+168773309093937ede1fa67cca745d91cd18af20,/,/,    prepare 1.8.11 release,/,/
+1d9155376cc2805aae8331f939dd7784b17eee41,PDFBOX-3148,Bug,Multiline fields won&apos;t get rendered correctly if there are multiple paragraphs in field value,AcroForm,Major
+70d4fa1882b30e76bc6498bdbb136435cc704821,PDFBOX-962,Bug,All sort of Problems when importing Xfdf files into PDFs -&gt; damaged pdfs  and NPEs,Utilities,Critical
+c99c4b2e7adf080c7f8ed0e4ba94c06ff7b1d7ea,PDFBOX-2852,Task,Improve code quality (2),None,Major
+5e56b89ab0ed39b6e9ecd6fee5f59a1ceeeb5368,PDFBOX-2996,Bug,StackOverflow in Quicksort,Text extraction,Major
+f0f98cbf542567b24591f008420d09edb08e22b2,PDFBOX-2996,Bug,StackOverflow in Quicksort,Text extraction,Major
+7ab5b8e03b0fabcb52975551fa1a416f4d592a5e,PDFBOX-2996,Bug,StackOverflow in Quicksort,Text extraction,Major
+9221da42a70c0553bf2d7fb76d18c6671c89163b,PDFBOX-3020,Task,Set libraries to current versions for RC,None,Major
+a405bfb88f99ec891b3a081a29a41a6b79be0ee4,PDFBOX-2996,Bug,StackOverflow in Quicksort,Text extraction,Major
+d1a1fb233055a940a13f40cd6a4e624ad114aa0c,PDFBOX-3163,Improvement,PDImageXObject.createFromFile should relies on header bytes,PDModel,Major
+3b61eb63f16e84621e4d2d7b1e9e9c4d666ef5e7,PDFBOX-3176,Improvement,Add a removeRegion method in PDFTextSTripperByArea class,Text extraction,Major
+deffbfe457cec0b6b1c9da7dbd445e75543ec430,PDFBOX-3176,Improvement,Add a removeRegion method in PDFTextSTripperByArea class,Text extraction,Major
+3b3d5115c618e8e6254da65f3cad89155b9f9b17,PDFBOX-3131,Improvement,Reduce amount of intermediate data and objects to reduce memory footprint/complexity,FontBox,Major
+eff94d81374acc7f4157f4d3841be4edf424b6e3,PDFBOX-3173,Bug,Signature dictionary is not decrypted in encrypted files,Signing,Major
+c0d5c1cc2d117206048c40604ed44930f564da4a,PDFBOX-3131,Improvement,Reduce amount of intermediate data and objects to reduce memory footprint/complexity,FontBox,Major
+e3aa43237dbf9244896739e90ccdf3d27559cfa3,PDFBOX-2693,Bug,OutOfMemoryError at org.apache.fontbox.cff.IndexData.initData(IndexData.java:95),FontBox,Major
+6d0f9a42dd9eaec3fdec5edbef654fd604ea2f71,PDFBOX-3131,Improvement,Reduce amount of intermediate data and objects to reduce memory footprint/complexity,FontBox,Major
+01413cb437a877a2af082601997ed5393072cccc,PDFBOX-3114,Bug,Visible signatures in different pages changes previous revision,Signing,Blocker
+500bc9c533d91f959bf22666afb09341dfe0d8f9,PDFBOX-3160,Bug,Problem with org.apache.xmpbox.DateConverter,XmpBox,Major
+46fca9a3b4a97d9242b53966dead1ebad2e01b4d,PDFBOX-2852,Task,Improve code quality (2),None,Major
+35da7636b1e8a0fec519d8c3370daeb8c4a5012c,PDFBOX-3114,Bug,Visible signatures in different pages changes previous revision,Signing,Blocker
+cd180f854d7d85c5a17712e706b7521eeb4efec0,PDFBOX-2852,Task,Improve code quality (2),None,Major
+ ,PDFBOX-3030,Task,Enhance documentation for PDFBox 2.0.0,Documentation,Major
+adf0ada647ea5fb014578b556bb460fe6c203d7f,PDFBOX-3154,Bug,PDDocumentCatalog.getDocumentCatalog().getPages().getCount() returns 0 - first page is -1,None,Major
+aaabd3268791623f40155dd57e06686d93bfa7a8,PDFBOX-3155,Bug,org.apache.pdfbox.util.PDFTextStripper class initialization throws NumberFormatException with recent Verona-enabled Java 9 JVMs,None,Critical
+2f2a7f43eca4dbb8c1bad6aa873d40152a65e07d,PDFBOX-2852,Task,Improve code quality (2),None,Major
+524dfdb807d050fe6e55a6ef818562e68282e707,PDFBOX-3155,Bug,org.apache.pdfbox.util.PDFTextStripper class initialization throws NumberFormatException with recent Verona-enabled Java 9 JVMs,None,Critical
+ce847263f10119c6c141113c892598f6fae54170,PDFBOX-2852,Task,Improve code quality (2),None,Major
+07ae1b855e5256624294020983695a505f1fcdaf,PDFBOX-3157,Bug,PDOutputIntent has N=3 (RGB) hardcoded,PDModel,Major
+817170788380053b2ae52ed3c235d5dc057e67f3,PDFBOX-3153,Bug,Direct JPEG extraction results in invalid images in 2.0.0 releases.,PDModel,Major
+f663784485b1d4a3a51809e70e230141535a2f86,PDFBOX-3137,Improvement,Reduce/remove dependency on commons.io in preflight/xmpbox,XmpBox,Major
+c083b71f5e0e5b97cfb59b661c7358ec1dc01ab3,PDFBOX-3129,Sub-task,NullPointerException in PDFStreamEngine.showText(),Rendering,Major
+c66692e02fa28bf04634c598e510c5efdbe51aef,PDFBOX-1621,Improvement,Add setModifiedDate(Calendar c) to PDAnnotation,PDModel,Minor
+12a645a42720456617c440b0025cac092c5d9b0e,PDFBOX-2852,Task,Improve code quality (2),None,Major
+ ,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+bf4e160aa40cda0b1788ea8fcb4f44089a32d74b,/,/,    prepare 2.0.0-RC2 release,/,/
+6cb184b8ea139695529b4f8ddff6a1f25c71c6f7,PDFBOX-3110,Bug,Extract by beads doesn&apos;t work,Text extraction,Major
+40699bb9e378c68ea4c9e15aa59c13b3bd57e0c5,PDFBOX-3082,Bug,High memory consumption while building font cache,PDModel,Blocker
+22211426654d216af73cd04c5d1a2974a7dc674f,PDFBOX-3110,Bug,Extract by beads doesn&apos;t work,Text extraction,Major
+d2820c6148841f60ae8d39390515a152925a912d,PDFBOX-3110,Bug,Extract by beads doesn&apos;t work,Text extraction,Major
+b5adf7bae18d047ac98c5ad196855177eaee96c2,PDFBOX-2852,Task,Improve code quality (2),None,Major
+e70d2cf3678c5976e55d9b6ba703ae21956c97fa,PDFBOX-3044,Bug,Improve text extraction tests,Text extraction,Major
+2fb18cce40233cf59993d0256c73b4ea6e2c10e7,PDFBOX-3097,Bug,ClassCastException in Axial / Radial shading when object reference in extends,PDModel,Major
+275d5e0b1569ea48b4fdabc775f50c4d396bb87f,PDFBOX-3076,Bug,Type3 Font that is getting zero height text  even in latest 2.0,Text extraction,Major
+ab41ad92187766fc2e1291bb49877989a93ff922,PDFBOX-3044,Bug,Improve text extraction tests,Text extraction,Major
+59141cf29da120a0a9bcd35dc496a8643cbf12ba,PDFBOX-3062,Sub-task,Text extraction and height different in 2.0,Text extraction,Major
+bc4458056b31fbbac1e0f60359deac07da486409,PDFBOX-3044,Bug,Improve text extraction tests,Text extraction,Major
+84cc351bb7a2bd279c44369305411d79771d4df3,PDFBOX-2852,Task,Improve code quality (2),None,Major
+745c40053a846d4429fdcbdd6e6173ecb279b78e,PDFBOX-3087,Bug,Metadata stream should not be compressed,Utilities,Minor
+728432ceea683f598943b2674a0c63ed5ec61f11,PDFBOX-3030,Task,Enhance documentation for PDFBox 2.0.0,Documentation,Major
+522eeb42b80359084624885791b4663413d83ba3,PDFBOX-2816,Bug,PDFBox makes disallowed changes when signing a signed document,Signing,Major
+ ,PDFBOX-3017,Improvement,Improve document signing,Signing,Major
+2f7253f731088a3c9f9b5e63c1bc52c57afc3e43,PDFBOX-2576,Task,Improve code quality,None,Major
+0359a84786a5228bc1cc1df3bb90a422f530127d,PDFBOX-2508,Bug,Text extraction getting zero font height  bad widths  and ? for text in this PDF with Type 3 Fonts,Text extraction,Major
+b2865a9c5acd04aa1a8ac434925795d2bc1045e8,PDFBOX-2508,Bug,Text extraction getting zero font height  bad widths  and ? for text in this PDF with Type 3 Fonts,Text extraction,Major
+b4b8b7c970a435064fbf0cd2e7e0ac071ed20717,PDFBOX-2508,Bug,Text extraction getting zero font height  bad widths  and ? for text in this PDF with Type 3 Fonts,Text extraction,Major
+5d2373e8038b5c8ad9bb3c81e883a383380061f2,PDFBOX-2508,Bug,Text extraction getting zero font height  bad widths  and ? for text in this PDF with Type 3 Fonts,Text extraction,Major
+1d19e7faee5f55f88b798662e25f8d03bbcd2d09,PDFBOX-3068,Sub-task,Null metadata in 2.0 in some files that had metadata in 1.8.10 with old parser,Parsing,Major
+a8b932bb4855c1eea18cbca9fc8f9c05dc9abb40,PDFBOX-2246,Improvement,PDFTextStripper should handle colors,Text extraction,Minor
+b1d6f4395792a7cc40da03aafaa9cdaee76799ec,PDFBOX-3060,Sub-task,Catalog cannot be found,Parsing,Major
+057502167f9f012fc28c3a19794fdd0185b70228,PDFBOX-2362,Improvement,Remove .properties file usage in PDFStreamEngine,PDModel,Major
+fb68d03858b171923a1fda1750b9df895cc58e74,PDFBOX-3060,Sub-task,Catalog cannot be found,Parsing,Major
+df51154874ae7d0d1e7e09bd1df749fe419ed2dd,PDFBOX-3060,Sub-task,Catalog cannot be found,Parsing,Major
+aa8156a81a3144c667628e3b9f4e22b125830afd,PDFBOX-3052,Sub-task,NPE in PDFStreamEngine.ShowText when no font set,Text extraction,Major
+7a676073ce87ab0d5e63529d5173822024eb2477,PDFBOX-3051,Sub-task,COSArray.getObject() incorrect handling of indirect reference to COSNull,PDModel,Major
+560a0461436ed3385eda98fcd54ca3b18e345727,PDFBOX-2852,Task,Improve code quality (2),None,Major
+d6eb0a6a8b176a8ccea2842b9ed9d930af48e27e,PDFBOX-3041,Bug,Wrong default type in Xref stream W0 element,Parsing,Major
+c56b3c779876923d60e22bb3e593d424308eb1be,PDFBOX-3018,Bug,IOException &quot;head is mandatory&quot; when using getOriginalData() of TT font from TTC file,FontBox,Major
+c57c44d6563e2b91192768db744ba18bfab4e962,PDFBOX-2976,Bug,java.util.zip.DataFormatException: incorrect data check,Parsing,Major
+e726def7dac5e8cb0082b74c012649b00824a60f,PDFBOX-2852,Task,Improve code quality (2),None,Major
+390fa425c332bbdfd573ebed3c7712a3771facf6,PDFBOX-3035,Bug,Files with missing xref table must fail,Preflight,Major
+c9d137816dec5be1053c1ed961de237e9d367278,PDFBOX-2852,Task,Improve code quality (2),None,Major
+1638a4f86ca0e38351d98ab84801e7a662fcd1d6,PDFBOX-3034,Bug,Newly created XRef stream has direct root objects,Writing,Major
+87385011b9ac1a38cea81c9471680f6fadd80147,PDFBOX-3003,Bug,Incorrect color space processing for inline images,PDModel,Major
+515071aeb07e01961ef856311f996ccfaa10bb09,PDFBOX-3022,Bug,Maven repos should be https,None,Critical
+2acfd53d062ae2a20c39385879730d656129b416,PDFBOX-2905,Improvement,Replace PDFReader with PDFDebugger,None,Blocker
+040b64741aab847e3241e0f628b08f0806a5dcfc,PDFBOX-3002,Bug,PDF files not closed after load fails,PDModel,Major
+e1e79f7e83b34b0703a0454c9adfccbeca3c13ee,PDFBOX-3002,Bug,PDF files not closed after load fails,PDModel,Major
+e59b7f9aad9fa3f96f895d6d6d10797f11444e4d,PDFBOX-2943,Improvement,PDType3Font.getWidthFromFont not supported,None,Minor
+3f4a890ab40406d6087551525cec6e4c1ca47080,PDFBOX-2905,Improvement,Replace PDFReader with PDFDebugger,None,Blocker
+e58503978beb851063ef64627e1156da1a192a0d,PDFBOX-2423,Improvement,Page tree handling needs rewriting,PDModel,Major
+ ,PDFBOX-2993,Sub-task,Create a PDTransparencyGroup for added code clarity,PDModel,Major
+be28398651ffdf6b2843e8071cb178f923e75baf,PDFBOX-2852,Task,Improve code quality (2),None,Major
+3f3d6cfa04d5f2d7bfc26fb28f419c5609af06bd,PDFBOX-2990,Bug,PDDocument.load fails to load a PDF document.,Parsing,Major
+c6a6a9651b2030e0da54eb1b6b9c0f0ee367e816,PDFBOX-2852,Task,Improve code quality (2),None,Major
+7383a7b9e3710b525c6415163bbb347d55d8fa06,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+001fd2fa610e66b80fa5017c415db26966b057b8,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+f5f8cff5be1b7955261da4bc4e1d6e71763389b9,PDFBOX-2989,Bug,LZW decode filter shouldn&apos;t throw IndexOutOfBoundsException,PDModel,Major
+77bb8ece2093a06265997a19a4ee395a4f7e6d66,PDFBOX-2941,Improvement,Improve PDFDebugger (2),Utilities,Major
+c19e9d465eb0e6eae93003305083f06f5bf81c06,PDFBOX-2988,Bug,Infinite recursion in ExtractImages 1.8.11-SNAPSHOT,Utilities,Minor
+b9bbd57d86cc31183bbead87e96d360241bfadd9,PDFBOX-2986,Bug,Potential resource leak in TTFParser&apos;s use of RAFDataStream ,FontBox,Minor
+8a7b47ac599e9d9c2704cb6cdf3f62a63a9b4481,PDFBOX-2986,Bug,Potential resource leak in TTFParser&apos;s use of RAFDataStream ,FontBox,Minor
+38d53d14e7206a90afbdbbbac4ce5925026a5e9b,PDFBOX-2941,Improvement,Improve PDFDebugger (2),Utilities,Major
+4d5f2b2cfdb269961f4d06786690037c184578fe,PDFBOX-2986,Bug,Potential resource leak in TTFParser&apos;s use of RAFDataStream ,FontBox,Minor
+a16f6d12a63830c7e3b15575212dbe3388daaddd,PDFBOX-2986,Bug,Potential resource leak in TTFParser&apos;s use of RAFDataStream ,FontBox,Minor
+6feffc2558c4946352dab329454232a8f082128d,PDFBOX-2987,Bug,NPE in PDTrueTypeFont.extractCMaps,PDModel,Major
+56286534bec03e70d3a3d48105ba88e16a1d7adb,PDFBOX-2986,Bug,Potential resource leak in TTFParser&apos;s use of RAFDataStream ,FontBox,Minor
+69b59bb21d504c8c0ae5bec9fe65eb63f93bce31,PDFBOX-2986,Bug,Potential resource leak in TTFParser&apos;s use of RAFDataStream ,FontBox,Minor
+eff08165e69df7c5c1f8c991c4dddbeeb199fa73,PDFBOX-2852,Task,Improve code quality (2),None,Major
+4e2ad0ede4edf93cf61ea657e1fb25a705ea415b,PDFBOX-2852,Task,Improve code quality (2),None,Major
+a3cfeca0edd832d3b24b85a31f758f9c731dafdc,PDFBOX-2985,Bug,Potential NPE in PDMarkedContent#getMCID(),PDModel,Major
+5da6dc7eb013a2f06890333bb201a4b543db57e7,PDFBOX-2985,Bug,Potential NPE in PDMarkedContent#getMCID(),PDModel,Major
+94fe693cf9d4b1367887e7c1331e913b737e5646,PDFBOX-2852,Task,Improve code quality (2),None,Major
+f847b6bed4a64d9883cf4a07b8e4bb5d3142cd9d,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+74a0cb10b961b9d59609d4d344d6a0b7876d32b3,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+a0150af53a403aca8b8a435538a21603ad345cdf,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+913791a42cd47c63e0491fda8ec5fd21664ea5c6,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+980e5a0587f26d5fcdc020f15acd639940004d87,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+5c01773b6350843dbc14915b97048a045fe084e5,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+5bd1ce8710bbf9c7979019862f6c0db62a946734,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+39bbf4b43539210d11c95a48e07be58a57ebea29,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+302f1782e3876cdd09a40e3953501755ccf6f8a8,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+ebf604d59e3cd0b89ebdd3a25eca0ed9bf05092f,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+cf6a3d3d6207c6c77c918be3e19c93128cb53d8f,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+845fd6160e5434c9ffcd27e327b250392f12ad40,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+f570f9a1a07ff50cc56e74363541a75d915888c2,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+25969ce9e317b2537159683e6d368d4e52ed17f9,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+9f180d86e95f8043aa1ba8e94bc63a30df3a7abd,PDFBOX-2982,Bug,fix ClassCastExceptions in operator methods,Parsing,Major
+553dca0b1c526036c8f78c197ff8547f082fd835,PDFBOX-2970,Improvement,Add capability to flatten AcroForm form fields,AcroForm,Major
+d9221297cfdf24e8f7161dab24064e3c2a2d94f1,PDFBOX-2945,Improvement,PDType1Font.getNameInFont(String) very slow when Unicode fallback is used,PDModel,Major
+38f5849eda875041ea57117642281b1b8952bcd0,PDFBOX-2963,Improvement,Remove Bouncy Castle Provider Reference,PDModel,Major
+66c19ee46bbec1ad99b9443b738014981752ccc8,PDFBOX-2965,Bug,NPE in PDAcroForm.getField() if the /Fields entry is missing,AcroForm,Major
+43364e5c4549c568165f55771dbebbee0f750efc,PDFBOX-2962,Improvement,Handle TIFF predictor for bpc 2 and 4 / optimize existing predictor code,Rendering,Minor
+432d15acec0588400fa8faf340a8a16124783dd5,PDFBOX-2962,Improvement,Handle TIFF predictor for bpc 2 and 4 / optimize existing predictor code,Rendering,Minor
+d81e8882c99143f513cb71204d5a7a16c9f3e586,PDFBOX-2961,Bug,Checkbox with multiple widgets doesn&apos;t reflect check() state.  ,AcroForm,Major
+8cb2fff00339c9ac6a1769df092a4ca26802cd49,PDFBOX-2793,Bug,/Dests dictionary isn&apos;t supported,PDModel,Major
+ae4d1d669688420f77c03510e1baa97eec18d29a,PDFBOX-2958,Bug,TIFF-Predictor with 1 bit per component not supported,Rendering,Major
+38755b9ca0bd07b1ecca25b5e14ab2e1f7082c37,PDFBOX-2951,Bug,quotedbl causes NullPointerException,PDModel,Major
+ac7d69934b3f2a3a8208de9c847c08feb3041b28,PDFBOX-2952,Improvement,Log statement on level &apos;severe&apos; while nothing else indicates error,FontBox,Major
+695f801b4c761f15cc03039d55280c08ec4989db,PDFBOX-2948,Bug,NPE in PDStream.createInputStream,PDModel,Major
+cf24997c969d643bbe900de07a28a21c855ef740,PDFBOX-2943,Improvement,PDType3Font.getWidthFromFont not supported,None,Minor
+911858223658b46bab904be0057c60472bc3eb8f,PDFBOX-2530,Improvement,Improve PDFDebugger,Utilities,Major
+a04e535ef61a58b46125cd3e2d1a35ecedef8a01,PDFBOX-2940,Bug,ClassCastException in FDF export,AcroForm,Major
+fa600db3041f040b3db4ced999d3b43771335ca4,PDFBOX-2487,Bug,ArrayIndexOutOfBoundsException in Type1CharString,FontBox,Major
+c0175e0c1da9ceec8dd0fcada6d36cbd0adaa982,PDFBOX-2936,Bug,javax.crypto.BadPaddingException: Given final block not properly padded,Preflight,Major
+632ca487c805cfad581efae2a84aa91566e742a1,PDFBOX-2804,Task,Validate PDF/A-1b files of veraPDF project,Preflight,Major
+68f373b5666f52bbc723f9a0e9253732a2c42375,PDFBOX-2935,Bug,Problem while extracting font from PDFontSetting (used in PDExtendedGraphicsState),PDModel,Major
+3a88e144abd56f0dd8bad24f02606d5ca8d53b28,PDFBOX-2893,Improvement,Simplify COSStream encoding and decoding,None,Blocker
+025d67ff4bb2868d3fe8c719e352e7653596d846,PDFBOX-2935,Bug,Problem while extracting font from PDFontSetting (used in PDExtendedGraphicsState),PDModel,Major
+7637dc01fe62cbbc769f8dd94da044109c9b48e7,PDFBOX-2530,Improvement,Improve PDFDebugger,Utilities,Major
+7ca1f853d03081a3747c703e381f7bf2bc715370,PDFBOX-2916,Bug,ArrayIndexOutOfBoundsException in CmapSubtable.processSubtype6,Preflight,Major
+711c2020adff0ca9c2c2e16caf6a8a6fef1126cc,PDFBOX-2846,Bug,setValue failing with font issues.,AcroForm,Major
+dee388d1ccf30e411b0cc5da71d759d87d677423,PDFBOX-2923,Bug,CFFParser parser treats CIDFont&apos;s charset data as SID,FontBox,Major
+86313ed69b2082e82169c3f308be3311b513c883,PDFBOX-2530,Improvement,Improve PDFDebugger,Utilities,Major
+92dc8852d443e17cf29e82d55285a1171258d814,PDFBOX-2924,Bug,ClassCastException when doing PDFSplit,Utilities,Major
+9e86795a9127f38ff37ed32dacf4d3267ff22333,PDFBOX-2893,Improvement,Simplify COSStream encoding and decoding,None,Blocker
+9d2055da65c471ba4528ea26220a987204541a37,PDFBOX-2914,Bug,java.lang.NegativeArraySizeException in org.apache.pdfbox.pdmodel.graphics.color.PDDeviceGray.createColorModel,None,Major
+649c34530ac7715663f79232e5ca85da12ce4013,PDFBOX-2893,Improvement,Simplify COSStream encoding and decoding,None,Blocker
+8241e6b751227619bee5521905f281732592c82f,PDFBOX-2530,Improvement,Improve PDFDebugger,Utilities,Major
+6e531f34d093b94d3f3237f0b55452b3fec1278a,PDFBOX-2911,Bug,Merge does not close input streams,Utilities,Major
+82f0a95d39be0d91ba70f8eddda3bec4899611eb,PDFBOX-2852,Task,Improve code quality (2),None,Major
+6c341df4ac87166cb17361b46911b35f36ddd6a8,PDFBOX-2909,Bug,NullPointerException when rendering shading with no function,Rendering,Minor
+171e201af150d2a5204bd5152737becc4b6cbfc2,PDFBOX-2852,Task,Improve code quality (2),None,Major
+45bb6886337f6a3912b8755874aa41504469becb,PDFBOX-2845,Bug,Error parsing PDF,Parsing,Major
+dc010e273df60b8ecdd0676522dd28f070c0c38e,PDFBOX-2530,Improvement,Improve PDFDebugger,Utilities,Major
+55447fe5a008ba4c7b8ff9de83cf545cabada398,PDFBOX-2530,Improvement,Improve PDFDebugger,Utilities,Major
+c2d1d2dafe5f69056c797c1071cda8f876a1fbda,PDFBOX-2845,Bug,Error parsing PDF,Parsing,Major
+7d5eced96ea5f6a8d58a56237322121745d5f9a5,PDFBOX-2903,Bug,ClassCastException at PDFParser:667,Parsing,Major
+1afacc5b13405135a85061889e2a5c06928d9692,PDFBOX-2530,Improvement,Improve PDFDebugger,Utilities,Major
+ ,PDFBOX-2900,Sub-task,PDF Debugger doesn&apos;t print inline images correctly,Swing GUI,Major
+044aa666664c13a7839dbebb6cefbdfee7694f8c,PDFBOX-2852,Task,Improve code quality (2),None,Major
+28fd88453d09388283dc8d67a33af38e52871259,PDFBOX-2852,Task,Improve code quality (2),None,Major
+9d62e41def0c5660957a8b8feda579fc307d5c39,PDFBOX-2901,Bug,High CPU load and OutOfMemoryError when rendering shading,Rendering,Major
+af07b3b313c4df8eea622a06ff5311b1dd54aa60,PDFBOX-2901,Bug,High CPU load and OutOfMemoryError when rendering shading,Rendering,Major
+e423081a663589fd6eb775a1afd31f32d0ec0200,PDFBOX-2893,Improvement,Simplify COSStream encoding and decoding,None,Blocker
+8931bbc46405c2c5bf917f7a50e7172492bd99b8,PDFBOX-2877,Sub-task,Wrong text placement for autosize fields compared to Adobe generated,AcroForm,Major
+01f62e999cf0b2937b03b6e4729886dee382f44e,PDFBOX-2852,Task,Improve code quality (2),None,Major
+68c2b6aba15aad391fa2ca8939ecf37e31384b90,PDFBOX-2877,Sub-task,Wrong text placement for autosize fields compared to Adobe generated,AcroForm,Major
+9b329a48d9eab883815e1cc29c5e528a830d10fb,PDFBOX-2852,Task,Improve code quality (2),None,Major
+d2b22f056ba4ca3edd58e059653055951e5290e2,PDFBOX-2870,Improvement,Use animal sniffer maven plugin to detect non java 6 api usage,None,Major
+df0ae1a9db10a09d95ce75fa83e3069c49a0ccbc,PDFBOX-2891,Improvement,Use animal sniffer maven plugin to detect non java 5 api usage within the 1.8 branch,None,Major
+c4bc1d9ebe76644f527452225125c1f57da98a19,PDFBOX-2870,Improvement,Use animal sniffer maven plugin to detect non java 6 api usage,None,Major
+c3f3b81bd88638b19647ee35c3567eecb92b0085,PDFBOX-2891,Improvement,Use animal sniffer maven plugin to detect non java 5 api usage within the 1.8 branch,None,Major
+c948e3dc6e3ca72d2027eaf45af4836716178c9e,PDFBOX-2882,Improvement,Improve performance when using scratch file,Parsing,Blocker
+086d54f9129c2a2e3cf4a7cde035060f63aa98db,PDFBOX-5078,Bug,Failure to modify cropBox when splitting a PDF Page vertically into 2 pieces,None,Major
+721626ec9e8a475cecdb5024c06dd9e47d4494a3,PDFBOX-5184,Task,Add test for PDFMarkedContentExtractor class,None,Minor

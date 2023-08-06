@@ -1,0 +1,386 @@
+bd23bcdc5d03267e3e4edee739f5eced0986f3b8,CXF-2002,Improvement,Server async jms transport needs dynamic mechanism to throttle message consumption,Transports,Major,1
+a163d38f5e491dd3305b69f2c05ee7a7421cf083,CXF-2002,Improvement,Server async jms transport needs dynamic mechanism to throttle message consumption,Transports,Major,1
+6a2af61f1edf8e351acf59f5ae13725d7115ffb3,/,/,    JAXRS: introducing non-spring JAXRS servlet  moving XMLSource to its final destination  plus few minor fixes,/,/,0
+feb2517653032eca3f0bfd3fb22e39df98c2b056,CXF-2140,Improvement,Allow injection of an existing MBeanServer into the InstrumentationManagerImpl,Core,Major,2
+ ,CXF-2141,Improvement,Expose faults count in ResponseTimeCounter in addition to existing invocations count,Core,Major
+00975881e9f3288577b5b969b57ccb2d51b76d4f,/,/,    Copy interopfest stuff from sandbox,/,/,0
+ae6eaeefcb6f9011551d4905a72db8638d74b148,/,/,    Get the "cancel" stuff working for sec-conv tokens,/,/,0
+29f89a4698e57fb62a6a5bf90d18d94544b7b674,/,/,    JAXRS: client api updates,/,/,0
+1e6a243e50bd30d816f4c0affde4007331bea1a6,/,/,    JAXRS : fixing a bunch of exception-related issues on the outbound path,/,/,0
+6517c9b5c8638bb384efa1bb7ca0e24fb4db937d,CXF-2034,Bug,JMS client transport (JMSConduit) does not tear down its reply awaiting listener on Bus shutdown,Transports,Major,1
+35e2f856d96b97587091fc8f06f8a6713a37bcfc,/,/,    CHeck the ws-addressing headers for the Action for WS-SC,/,/,0
+b020db60814148b50e222fcf3334a6be4a6cb394,/,/,    Update a BUNCH of stuff for WS-SC to get Token id's correct in the output.   This requies a bunch of fixes to WSS4J so had to set it to use the latest snapshots,/,/,0
+6105973060fe8d247748ea3bd5fd1a8d219c3e3d,/,/,    Round trip of WS-SecureCoverstation now working,/,/,0
+41051107e76628b0be05537aeb7106ad2ef93058,/,/,    JAXRS: client api support for bus configuration and outbound chains  more updates to follow shortly,/,/,0
+bc056d9b94a0226695f063571151ab1ce12f89e7,CXF-918,Bug,java code from wsdl2java for wrapped style if request and response have elements with the same names and different datatypes,Tooling,Major,1
+19421f5dfe27d2e68ca77599c8b605a2cb2ad874,/,/,    Baby steps toward WS-SecureConversation,/,/,0
+ed46eb7f7e1ea4131c5b1968898bd05546bbbb96,CXF-1982,Bug,Sub-resource locator fails on subtyping,JAX-RS,Major,1
+decc76d0a9bb26bbcc54f80b0c90a68c63704605,/,/,    JAXRS : improving the support for multiparts,/,/,0
+80aaf70d228caac6ce4aa1844042bbb05d14c222,/,/,    JAXRS : support for multipart/related,/,/,0
+8b67fd6f0c0335a2577bd5cf0b6031fac5ed77de,CXF-1327,Wish,Logging Interceptor with pretty formatting,Tooling,Trivial,1
+cfbf14244933b8c88c832c0e3bf71fc8a7d60046,/,/,    Remove all JAXEN dependencies.,/,/,0
+a351932b5016f0f96d000540a8a7a9c0511b1327,/,/,    Undo unwanted set of changes originally destined  for another branch.,/,/,0
+8aa79b7e2c47072184b4b36a6a415f3be1c945a7,/,/,    Not yet successful attempt to get aegis off of JDOM.,/,/,0
+cde230d377299976f4301365a18d1cfae52cd00e,CXF-1958,Improvement,JAXRS Endpoint should be aware of bus which exits in the application context,JAX-RS,Major,1
+5523f72a5b3a4657c65cb5529b4e34dee28079f7,/,/,    Reset java.io.tmpdir system property after test to avoid any potential weirdness.,/,/,0
+bac1de3efe55525e230aa5a4b854e0eb4492cf0b,CXF-1923,Bug,Message &quot;SOAPBinding can not on method with RPC style&quot; ?,JAX-WS Runtime,Major,1
+8e907c1b78aff58491026ff16d4da6d4e268e227,CXF-1835,Improvement,Use Jetty Continuations to implement asynchronous HTTP processing,Transports,Major,1
+241381f7814d7c1b9d44b3747584b23757b270da,CXF-1832,Improvement,Third step of Refactoring JMS Transport,Transports,Major,1
+08d17ea0c758ce444bc6402ad930304f48259d6b,/,/,    Incremental creeping toward attribute support in Javascript. As usual  in spite of the XmlSchema situation.,/,/,0
+79be615e94c8f11bf32b09255c2b87dc9cc7e760,CXF-1832,Improvement,Third step of Refactoring JMS Transport,Transports,Major,1
+741c3aa9893d109d0b14dad1fcbf751dc2f09cab,CXF-1806,Improvement,Use Spring JMSTemplate in JMSConduit instead of direct JMS,Transports,Major,1
+332f1b45a6e551050752c21e23bbed55e21a951c,/,/,    Get parts of ws-secpolicy AsymBinding working (sign before encrypt is working  encrypt before sign is not),/,/,0
+0d8a79e6dd6e50ee86e3ecdfccbc2b73efb81016,CXF-1194,Bug,Schema Validation &amp; MTOM fails,None,Major,1
+e7b9afa9e2bf23719d18dd6bcd50c7376df6c18d,CXF-1804,Bug,CorbaBindingFactory does not register with DestinationFactoryManager and ConduitIniatorManager,CORBA Binding,Major,1
+5aaef29f511e815578bf579b54db130931ed03a1,CXF-1788,Bug,Problem with Calendar,Aegis Databinding,Major,1
+98de7dd6fcbc15081ac77d323f7b06f8ebfdf2cc,/,/,    Modified code to remove use of NodeList,/,/,0
+f201e488773687a246372581fb3c83c49c3ea346,CXF-1783,Improvement,Refactor JMS transport second step (patch included)  ,Transports,Major,1
+4a6d55f30d927ff5156078b6ddb3644e05fa25e4,/,/,    Update policy engine to parse policies in any namespace.   No need to configure a namespace now.,/,/,0
+ef009a7181a8a13d00453baf1e2b2ace5e839f94,/,/,    Merged revisions 822228 via svnmerge from,/,/,0
+36866315e33274c4c3a99213b91642de8fdf957c,/,/,    Merged revisions 820391 820393 via svnmerge from,/,/,0
+faf239b1156980491e0c667f43080f942858508c,/,/,    Merged revisions 819982 via svnmerge from,/,/,0
+51c23135addc7e8b45a84dfb1dc1a5b9a6817972,/,/,    Merged revisions 819955 via svnmerge from,/,/,0
+9a99e171466e7c5fcdbf6c1f822a1e1476d79264,/,/,    Merged revisions 819092 via svnmerge from,/,/,1
+ ,CXF-2449,Improvement,Spring Autowire by type doesn&apos;t work with jaxws:client,JAX-WS Runtime,Major
+54ba1cbefa35e1db431a958ec3d5cf1eb131cb0a,/,/,    Somehow  the jms tests got removed on 2.2.x in the systest refactor,/,/,0
+9de6a7bc51767915a9005fc9d1167eac5ae9e599,/,/,    Unify plugin version,/,/,0
+ac044b7cb03bf118fd25c1e89030f466b7dd336f,/,/,    Merged revisions 1036917 via svnmerge from,/,/,0
+998e645f428490fcc61f7d329d039d92fbc52873,/,/,    JAX-RS : fixing the build and minor update to improve the contexts injection via setters,/,/,0
+69e87151b095bdd037bc076cdc7d9c9160f412ea,/,/,    Merged revisions 1036840 via svnmerge from,/,/,0
+1c0b2bb06e38d6c222d5fc7fc90022fb04b72972,/,/,    [JAX-RS] Minor fix for field-based injection of Contexts to work in cases when service classes are interfaces,/,/,0
+3b5910f23fbe5a98afbb0701090d9bcd6d5da14f,/,/,    Merged revisions 1036765 via svnmerge from,/,/,1
+ ,CXF-3132,Bug,asynchronous client can&apos;t get correct error if non-runtimeexcpetion happen,None,Major
+af0176307a44011a36c0d74245dffa8e7925afba,/,/,    Small refactoring of http transport,/,/,0
+9e6ed6a735e3ad392da177ffe0e95d78978575fb,/,/,    Merged revisions 1036588 via svnmerge from,/,/,0
+2335d25bc98ac08b543e49f1f203cd293d50bf6c,/,/,    Change to FINE logging as not having the old xfire classes is actually,/,/,0
+5b5b82cd2507a941f23e5d644dc7b8f457c7c71f,/,/,    Merged revisions 1036581 via svnmerge from,/,/,0
+e36115cf625d44e5668bf977063449242224ac3c,/,/,    Make sure abdera/axiom are in the manifest jar so just adding the jars,/,/,0
+5276fab171c1d1f2cd5bfa06c9509de43be5d9d7,/,/,    Merged revisions 1036441 via svnmerge from,/,/,1
+ ,CXF-3112,Bug,Further problem with cookies in Jax-RS (similar to closed issue 3035),JAX-RS,Major
+2d60da2b30993f858fe414b56f9029c7633aca70,CXF-3112,Bug,Further problem with cookies in Jax-RS (similar to closed issue 3035),JAX-RS,Major,1
+ac77b82936807de96c52733bb1a25f0363a603af,/,/,    Merged revisions 1036397 via svnmerge from,/,/,1
+ ,CXF-3132,Bug,asynchronous client can&apos;t get correct error if non-runtimeexcpetion happen,None,Major
+261d9563351a30ea7f8426e26e73277fb442ef4f,CXF-3132,Bug,asynchronous client can&apos;t get correct error if non-runtimeexcpetion happen,None,Major,1
+a8c823b166d2e5518cbd7af04642b43972b9cd07,/,/,    Merged revisions 1036391 via svnmerge from,/,/,0
+9a3ee480380fa38d26d2e57166669ec350438269,CXF-3021,Improvement,Try to remove a wsdl4J dependency from the JAXRS frontend,JAX-RS,Major,1
+2762c3c652753af2e9b17ce9fb997575d4cb1840,/,/,    Merged revisions 1036258 via svnmerge from,/,/,1
+ ,CXF-3022,Bug,Integrating Spring 3 + GenericDAO (Don&apos;t repeat the DAO!) + CXF JAX-RS (JAXB Databinding) with a Generic Service Interface ,JAX-RS,Blocker
+68c173e8290cf732fba974799aa285318c520cb8,CXF-3022,Bug,Integrating Spring 3 + GenericDAO (Don&apos;t repeat the DAO!) + CXF JAX-RS (JAXB Databinding) with a Generic Service Interface ,JAX-RS,Blocker,1
+e6b2a6ccf9d399affc98f42bfd829a99edffba85,/,/,    Merged revisions 1035861 via svnmerge from,/,/,1
+ ,CXF-2868,Bug,JAXB unmarshal error when the field  of  partTypeClass  is javax.xml.datatype.XMLGregorianCalendar,None,Major
+479d67347ebf28faf80a630f1507d3c3d2fe59f6,CXF-3130,Bug,Aegis throws (and throws up) when an ExceptionInInitializerError happens while introspecting,Aegis Databinding,Major,1
+ad4e5dd4e51562697fb52404016bc83f8395c002,/,/,    Merged revisions 1036004 via svnmerge from,/,/,0
+c76275f9bb07893c0d729060563ac6f8df1e6091,CXF-2868,Bug,JAXB unmarshal error when the field  of  partTypeClass  is javax.xml.datatype.XMLGregorianCalendar,None,Major,1
+cf3bf35e363b81d52ab755cef203d7555445424f,/,/,    Merged revisions 1035787 via svnmerge from,/,/,1
+ ,CXF-3130,Bug,Aegis throws (and throws up) when an ExceptionInInitializerError happens while introspecting,Aegis Databinding,Major
+3fc21d87708b044d4cdd9fe0770c42c20b21bdaa,CXF-3130,Bug,Aegis throws (and throws up) when an ExceptionInInitializerError happens while introspecting,Aegis Databinding,Major,1
+227519a779f0f18eca55995dcdc554d174b718ce,/,/,    Merged revisions 1035614 via svnmerge from,/,/,1
+ ,CXF-3127,Improvement,HttpConduit should not report IO exceptions in case of JAX-RS requests returning errors   ,Transports,Major
+ae2a108a72148ead8fcac3f4b378e6969bc3ee3a,CXF-3127,Improvement,HttpConduit should not report IO exceptions in case of JAX-RS requests returning errors   ,Transports,Major,1
+9aec9340a211715ca69efb5cd2859e80eab20c47,/,/,    Merged revisions 1035559 via svnmerge from,/,/,1
+ ,CXF-3126,Bug,CXF example mvn -Pserver complain about the can&apos;t find right version of exec-maven-plugin,None,Major
+3a2a39614629bbe1265495ef03caac0e9a0a02c8,/,/,    Remove dependency cycle with config and move proxy logic out of HTTPConduit,/,/,0
+a8991e5c450252a6db349d24070cea52607c90f3,/,/,    Merged revisions 1035391 via svnmerge from,/,/,0
+288f295bc5208a99d8cefae0a50df254143f3802,/,/,    fixed the idltowsdl typos,/,/,0
+be61aab79a69a50b9a58d3ca7749914a0b5a3682,/,/,    Merged revisions 1035377 via svnmerge from,/,/,0
+329a01eb8cd00a2f8ad77847839753d341883bda,/,/,    Add endorsing of the jaxws 2.2/jaxb 2.2 stuff to the scripts and ant,/,/,0
+98c23ed8f94f8223144c10a90d4cd8f8396ffeb1,/,/,    Merged revisions 1035203 via svnmerge from,/,/,1
+ ,CXF-3122,Bug,Async Handler for dispatch client is called twice in case of bad response message,JAX-WS Runtime,Major
+9737d5efe887b80a5f62de48e21f40d9d5fd3e7e,CXF-3041,Bug,AsymmetricBinding used only for response causes error,WS-* Components,Major,2
+ ,CXF-3042,Bug,SymmetricBinding used only for request causes error,WS-* Components,Major
+83a0dc1abb5f8021bebaf4beb7d292ac4394af66,/,/,    Merged revisions 1035220 via svnmerge from,/,/,0
+4d74e6b1239808859fd4c948b846cebda7ad9718,/,/,    Try to fix the release plugin issue of cxf.version,/,/,0
+d223ceecab1ec879c87f179c7f8d3f54f59bb04a,/,/,    Try to fix the release plugin issue of cxf.version,/,/,0
+a3d46d202c8f2db8612b35d9f73c3a262680c99d,CXF-3123,New Feature,Support Spnego/Kerberos authentication for http transport,Transports,Major,1
+0f0e6e1268aefca5b338d7cbe382d37e7965b41c,/,/,    Merged revisions 1144977 via svnmerge from,/,/,1
+ ,CXF-3641,Bug,CXF JAXRS Proxies can not handle explicilt collections of form parameters,JAX-RS,Major
+a3e82c0c28313da8950c5a19a2bc3bce77d113b3,CXF-3639,Bug,The duplicate soap body is appended  when the endpoint is both configured with soap handler and wsse enabled,WS-* Components,Major,1
+6ca89f86c28e15cf3bb1aea92fd7183309c605c1,CXF-3639,Bug,The duplicate soap body is appended  when the endpoint is both configured with soap handler and wsse enabled,WS-* Components,Major,1
+90960b1fdcd72578349e1184a1c7905c1340553b,CXF-3588,Sub-task,Validate SAML assertions targeted at JAX-RS endpoints ,JAX-RS,Major,1
+34d5c9c30c98e89dda7b0b771e7bbe4d342f4fcf,/,/,    Merged revisions 1144605 via svnmerge from,/,/,1
+ ,CXF-3647,Improvement,Add schema validation explaination for samples/wsdl_first_xmlbeans README,Samples,Major
+a6163261daf7dcb6b7b77e4b9f0e587c156b0a64,/,/,    Remove @Override to make it compile on java5,/,/,0
+34e675ca385e8ee56997af0b28370b9df5cb017f,/,/,    Merged revisions 1144515 via svnmerge from,/,/,1
+ ,CXF-3649,Bug,Out policies are not being applied for an unchecked fault,WS-* Components,Major
+0d22b21934f716e265f494225446120c1c19fe0a,CXF-3588,Sub-task,Validate SAML assertions targeted at JAX-RS endpoints ,JAX-RS,Major,1
+3eac3a545272223658f614ecd60b016d3f61b64e,CXF-3624,Bug,BinarySecurityToken validated by STSTokenValidator doesn&apos;t satisfy IssuedToken policy,WS-* Components,Major,1
+b43ce45503352635c2264ae315b6b5a787d7aab6,CXF-3588,Sub-task,Validate SAML assertions targeted at JAX-RS endpoints ,JAX-RS,Major,1
+fba27c8e057475a5e03ffb6548d01cace92ffaae,/,/,    Merged revisions 1144318 via svnmerge from,/,/,1
+ ,CXF-3648,Bug,Wrong scope for commons-pool,None,Major
+46f8206a346722ed0cd6aef303924e7b991dfbdd,CXF-3648,Bug,Wrong scope for commons-pool,None,Major,1
+bfca646699cd4e2b6f8da95e21dcc337350fc1ef,/,/,    Merged revisions 1144144 via svnmerge from,/,/,0
+03079283387857d515fc109652774d0983d7c647,/,/,    Added instructions to DoMerges,/,/,0
+d10436dda474b1801b8df1bc7374a718a43a4e5d,/,/,    Minor nitpicks fixed,/,/,0
+64df6cfcfac7b3bd651a6b768af6069c7237d99f,/,/,    Minor nitpicks fixed,/,/,0
+f54105d075e9b54a26b6753d7fea6a88031c5ead,/,/,    Merged revisions 1144137 via svnmerge from,/,/,0
+e4daf18f27534cb966dcf40d9c8aac965d631a34,/,/,    Text clean up  Ant build file removal,/,/,0
+c37d6582d2c843aa7315edd944d64e59f5e3870b,/,/,    Merged revisions 1144131 via svnmerge from,/,/,1
+ ,CXF-3645,Bug,configuration_interceptor simple doesn&apos;t work due to missing configuration file,Samples,Major
+1d49bee88906119b50fb6631b9b3d917472164c9,CXF-3645,Bug,configuration_interceptor simple doesn&apos;t work due to missing configuration file,Samples,Major,1
+7922f7e31809ab67a3b4d2d3a2b08829c9e08437,/,/,    Merged revisions 1144011 via svnmerge from,/,/,1
+ ,CXF-3643,Improvement,Migrate to Jetty 7.4.3 from 7.4.2.,None,Major
+58dc76e1261d63aee27670ae41c26eabdfcbbfc3,CXF-3643,Improvement,Migrate to Jetty 7.4.3 from 7.4.2.,None,Major,1
+c296bc1183a1e84b2815fc9f56865b5941e2d120,/,/,    Merged revisions 1143685 via svnmerge from,/,/,1
+ ,CXF-3640,Improvement,add schema validation explaination for js_browser_client_simple README,Samples,Minor
+fe3d0f77ba149436b00619d14f71217910d5e210,CXF-3640,Improvement,add schema validation explaination for js_browser_client_simple README,Samples,Minor,1
+98bf40c4e2f5fc1a5dc3a390ff497ca5ffeebee1,/,/,    Merged revisions 1143631 via svnmerge from,/,/,1
+ ,CXF-3637,Bug,wsdl_first_https README.txt isn&apos;t correct,Samples,Minor
+2160ad99dd3557eea99951a89a14c796ce0eff57,CXF-3637,Bug,wsdl_first_https README.txt isn&apos;t correct,Samples,Minor,1
+fd15535b811e1849c6d6bc862c6e2c1153cdc2fc,/,/,    Added ability to set a Context attribute on the RequestSecurityToken,/,/,0
+30d8705567167e296a28c70a8e4e842d54b3747f,/,/,    Added ability to set a Context attribute on the RequestSecurityToken,/,/,0
+d7394c3a72da3230d5738202ac99454748441686,/,/,    Merged revisions 1143493 via svnmerge from,/,/,1
+ ,CXF-3622,Improvement,Migrate to Apache Commons Pool 1.5.6 from 1.5.5.,None,Major
+0b90e839b6db785d2370937fa85761a111df7e0c,/,/,    Add a "Flush" option to my script to make  it so I can flush out the,/,/,0
+83666de79f0fc33d862fb6c3414e969150d0b202,/,/,    Merged revisions 1143452 via svnmerge from,/,/,1
+ ,CXF-3634,Improvement,Avoid risk of deadlock and speed up execution in JDKBugHacks.doHacks(),Core,Major
+218175f9d71099dae59203d8db3eaf3fb4c10907,CXF-3634,Improvement,Avoid risk of deadlock and speed up execution in JDKBugHacks.doHacks(),Core,Major,1
+507dc1d6f1022f9dd46b8405868523a067c7f526,CXF-3633,Improvement,Provide a way of disabling sending an AppliesTo element when requesting a security token via the STSClient,WS-* Components,Major,1
+b9e62f36b0f29151274abc73bfff571b019dac70,CXF-3599,Task,remove JBI stuff,None,Major,1
+d4eb2b6b88cd02e54812a64c11438737095f29f8,/,/,    Adding a unit test for a UsernameToken and a Signature.,/,/,0
+a2d227d60ce64ddec43279ec7d254ff79402bf7f,/,/,    Adding a unit test for a UsernameToken and a Signature.,/,/,0
+280e7e20dcf575827039da114f106ad40f3bb007,/,/,    Merged revisions 1142531 via svnmerge from,/,/,1
+ ,CXF-3629,Improvement,mbean WorkQueueManager misses information about thread pool status,Core,Major
+d65029770527eb3a2d71192cfabb66beeaf78c2f,/,/,    Removed ten of the build.xmls per here: http://cxf.547215.n5.nabble.com/Proposal-drop-ant-build-xml-files-for-samples-requiring-extra-stuff-td3704042.html,/,/,0
+fbe9600444ba38714980715de5d7b0a317bd81f9,/,/,    Merged revisions 1142435 via svnmerge from,/,/,0
+e4445878946d2f5a4ab0afdbf3660543b3fa6a61,/,/,    LastMessage handling and other cleanup,/,/,0
+4a947157bbcf840ee3e7919f00a592c7123df2f4,/,/,    Merged revisions 1142424 via svnmerge from,/,/,1
+ ,CXF-3619,Bug,Missing build.xml file for jms_pubsub and jms_queue samples,Samples,Minor
+8b599f789721b2c0a6cfbd5ebde2b115bf302282,CXF-3619,Bug,Missing build.xml file for jms_pubsub and jms_queue samples,Samples,Minor,1
+c4719a279fcf8f68a665ba1766223fe91b1d9841,/,/,    Merged revisions 1141787 via svnmerge from,/,/,1
+ ,CXF-3627,Bug,high load may cause deadlocks,Core,Major
+74cf78654abb8650c7f7029517ae0e2a98ffcafe,CXF-3627,Bug,high load may cause deadlocks,Core,Major,1
+2a436f8db93d766df5af3665a43f46023e9b4986,/,/,    Merged revisions 1141424 via svnmerge from,/,/,1
+ ,CXF-3623,Bug,WSRM AckRange&apos;s number parsing not tolerating whitespace after CXF 2.4 upgrade,WS-* Components,Minor
+f257791d452177ac14b41de085e76b2c80c94eee,CXF-3599,Task,remove JBI stuff,None,Major,1
+fc23455e3ea39e642355fc3a72a33df57057b075,/,/,    Merged revisions 1141009 via svnmerge from,/,/,0
+5ca380df33a63b9f4642683c92c337f0f21b6962,/,/,    Remove some svn attribute things that don't really work with GIT and,/,/,0
+207bf0d5041da65aced9b36dc47b1e7435fc7ed8,/,/,    Merged revisions 1140843 via svnmerge from,/,/,0
+f488ebe8cf0977980d6a399b5cd2b13c0c98dd87,CXF-3618,Bug,Extremely bad performance in JMS transport when the MessageListenerContainer is used,Transports,Major,1
+7433ed1375c51cf9db81754772950514579a0315,/,/,    Merged revisions 1138913 via svnmerge from,/,/,1
+ ,CXF-3615,Improvement,BlueprintBus should specify the ClassLoader to avoid issues by creating from other framework,Core,Major
+1a254102a173c83f6ab3803a5e5f2309f73d8f82,CXF-3615,Improvement,BlueprintBus should specify the ClassLoader to avoid issues by creating from other framework,Core,Major,1
+a54f373cb3551e761ca6d03f779a745fb2bddf71,/,/,    Merged revisions 1138644 via svnmerge from,/,/,1
+ ,CXF-3609,Bug,Oneway CXF service having problem with Gemini-Web&#8203;/Tomcat-ca&#8203;talina,Transports,Major
+3dfec855958bf4c4f7d81f4c0a293d0fbad3ec6d,/,/,    Fix warnings found by the latest Eclipse indigo compiler.,/,/,0
+cc48824eab6d064dbeaaa7e693307cde1b296de1,/,/,    Merged revisions 1138220 via svnmerge from,/,/,1
+ ,CXF-3610,Improvement,Enhance WebClient to support posting explicit collections,JAX-RS,Minor
+b5ba05c1a044b86061c9d78d8c62787a2c85d6c3,/,/,    Mark blueprint optional in the all and minimal bundles,/,/,0
+1aa81660b99bb642e5d61a12724006a392b58972,/,/,    Changing to use junit AssertTrue(s),/,/,0
+775f18c46bd7c67836c52567f2a33f9f9dc07d45,/,/,    Changing to use junit AssertTrue(s),/,/,0
+3b12c703c8d07c01fa1e5a71993b7fb0ffa1fb54,/,/,    Merged revisions 1137960 via svnmerge from,/,/,1
+ ,CXF-3608,Bug,CXF JAX-RS selection algorithm always prefers resource methods to subresource locators,JAX-RS,Major
+59309896e3b2c1976679b4113fd0c7716f3a4307,CXF-3608,Bug,CXF JAX-RS selection algorithm always prefers resource methods to subresource locators,JAX-RS,Major,1
+2ba76cf6f55738c2bbc4c3563c3f8489b781019e,/,/,    Merged revisions 1137793 via svnmerge from,/,/,1
+ ,CXF-3591,Bug,the generated wadl contain empty grammar section even though only jaxb classes are used,JAX-RS,Major
+9505ef0718da5c648d47b8651dba73543c6610a5,CXF-3591,Bug,the generated wadl contain empty grammar section even though only jaxb classes are used,JAX-RS,Major,1
+c94b0f672df09fb50fadb616d19781eecd46853f,CXF-3606,Bug,CXF STS Provider framework only works with Issue Operation,None,Major,1
+60172bd6b29fb1b1dd9856857a63e7c8dc9cf216,CXF-3606,Bug,CXF STS Provider framework only works with Issue Operation,None,Major,1
+e323a7aa8d449b751030eaa75a1b37fd8253a0fa,/,/,    Merged revisions 1137664 via svnmerge from,/,/,3
+ ,CXF-3602,Improvement,Add command line switch to wsdl2java to enable async methods,Tooling,Major
+ ,CXF-3603,Improvement,Add command line switch to wsdl2java to keep methods in &quot;bare&quot; form.,None,Major
+ ,CXF-3604,Improvement,Add command line switch to wsdl2java to enable mime mappings,None,Major
+f99410a96d0d72de6c5086dcc585103a0e2d8050,CXF-3602,Improvement,Add command line switch to wsdl2java to enable async methods,Tooling,Major,3
+ ,CXF-3603,Improvement,Add command line switch to wsdl2java to keep methods in &quot;bare&quot; form.,None,Major
+ ,CXF-3604,Improvement,Add command line switch to wsdl2java to enable mime mappings,None,Major
+4c236bf6b2609894d0b2fdced32889207ad87b38,CXF-3605,Bug,Regression in SecureConversationInInterceptor.STSInvoker Expiry value,None,Major,1
+cb003049b4cee722febd7c74e65479502bfea1bc,CXF-3605,Bug,Regression in SecureConversationInInterceptor.STSInvoker Expiry value,None,Major,1
+39c7ce7e2beb8bfd49b1bf1ccc3abbc7c1d2fe5b,/,/,    Merged revisions 1137509 via svnmerge from,/,/,1
+ ,CXF-3600,Improvement,add OBR resolver to karaf features descriptor,None,Major
+625afc7c571be89d9295c2df06ad07a1ee899e06,/,/,    WS-ReliableMessaging changeover to internal use of WS-RM 1.1 data structures,/,/,0
+258a822cf2f4f0ff5e89a3bc19a980e39daf85fa,CXF-3594,Bug,WS-RM server does not honor the Expire value set in th eclient&apos;s CreateSequence message,WS-* Components,Major,1
+944b522765c7eeaf834f71482004493954d09de7,/,/,    Merged revisions 1499979 via svnmerge from,/,/,1
+ ,CXF-5111,Bug,JAX-RS providers typed on arrays like String[] are not selected,JAX-RS,Minor
+aaa6de9cef123a06946c575f87c0c11948d54ab0,CXF-5829,Bug,Logging interceptors fail with large inbound messages (XML document structures must start and end within the same entity),Core,Major,2
+ ,CXF-5761,Bug,InInterceptor throws exception with PrettyLogging and big message size,Core,Major
+d927be58bdba950ff6ad84cb02a76b05cea4993f,CXF-5063,Bug,When using AsyncHttpConduit with a certificate alias CXF hangs after a bunch of requests,Transports,Critical,1
+7e13cf2af586861c937bca78f4e1b9a5357f40d1,CXF-4139,New Feature,WS-RM needs support for WS-ReliableMessagingPolicy 1.2,WS-* Components,Major,1
+0fd41e29ea4a79d7dd44569db6c804c5b257085b,CXF-4139,New Feature,WS-RM needs support for WS-ReliableMessagingPolicy 1.2,WS-* Components,Major,1
+1d6438784fc0fee6e00f3492b2920953ed6354fe,/,/,    Squashed commit of the following:,/,/,0
+e07188519ce8bbc20db421747559d530f500f50a,CXF-5055,Improvement,Support Clients pre-registering scopes and OOB response in OAuth2 Authorization Flow,JAX-RS Security,Major,1
+4a32e60fe9ebeb752a79b3f5dab89baf152d0243,/,/,    Changes for WS-RMP 1.1 support,/,/,0
+3c78d3be567447c50d10ed52fcfe231525d2bf9c,CXF-5042,Sub-task,SSL supports,Transports,Major,1
+1acfc88090a7fca36194f6f1658375184053bab7,CXF-5041,New Feature,Netty Http transport for CXF,Transports,Major,1
+eed15b403add8264f8ee8d670dae7f8a07788c83,/,/,    Merging wss4j2.0-port branch to trunk,/,/,0
+c5f3efe0ae4f39ac133d3de8c55a5b4670000611,CXF-5029,Bug,XKMS: id and RequestId attributes are not schema compatible,None,Major,1
+925978effd034bbddc7ebe3716c4f6ed916e5b40,CXF-5031,Improvement,Add support for SupportingToken policy assertions without a binding,None,Major,1
+7eedbb7fe0f96daa39589145f0284f9054a1b469,CXF-5009,Bug,Allow multiple subcodes in a SOAP 1.2 fault,Soap Binding,Major,1
+a465a179aef282b716693843898b466150b643cb,/,/,    Get streaming security policy enforcement working for the inbound client side,/,/,0
+1f16cb0bdf894848f68e2ee38f5253f5e9f87910,CXF-5028,Bug,XKMS: configurable LDAP schema parameters,Services,Major,1
+71f8d3a03aac093d7c7655ce4ceeb855ac3789c3,/,/,    Enabling one test  Ignoring another due to a partial fix for WSS-443,/,/,0
+15c560d4dd9d025ee0dd2f43cc1721f590bbc064,/,/,    Remove unreferenced BaseDataReader/Writer interfaces  merging methods directly into DataReader/DataWriter,/,/,0
+c521fa9250eb9d1561e12bcfdee7eda366cde420,CXF-5027,Bug,JAX-RS XOP marshaller does not support SWA attachments,JAX-RS,Minor,1
+229bc4ccaed5d4989b3ec363b1964cb2df00cf6e,/,/,    Added initial attempt at configuring SecurityPolicy for the transport binding outbound,/,/,0
+070bde423e1b7f0544be1ae1f408cbc0e507825f,CXF-5017,Bug,CrossOriginResourceSharingFilter FIELD_COMMA_PATTERN mangles firefox headers,JAX-RS Security,Minor,1
+dbe7e5b4d5e32de6ee2aca00fae6f2b14e9832ca,CXF-5025,Improvement,Support WS-SecurityPolicy &quot;Strict&quot; Layout validation,None,Major,1
+7f67c206de4eb9dbf7605fb103733b2b9eea3775,CXF-5025,Improvement,Support WS-SecurityPolicy &quot;Strict&quot; Layout validation,None,Major,1
+7e204b565715bd02a23263c1689e371bc9090e3a,CXF-5023,New Feature,Implement WS-Eventing from WS-ResourceAccess spec suite,WS-* Components,Major,1
+0e5b958dfc41d7debd5ee68b9eb8ba117ea6db75,/,/,    fix features.xml for 3.0 version ranges,/,/,0
+76d10e750efeb0f0533f1465b236a6b1900f52bf,CXF-5018,Bug,EHCache TimeToLive value overriden in EHCacheReplayCache,WS-* Components,Major,1
+ba9841abf1b6dcfb08c016957261bb7630fdaf7f,CXF-5018,Bug,EHCache TimeToLive value overriden in EHCacheReplayCache,WS-* Components,Major,1
+82cde9eefdf806ca1df735f350b4ae452ef84ca0,CXF-5010,New Feature,Add customizable request logging capability to STS,STS,Major,1
+6cac783caab8741da93236de2223ac4dbe51fa8e,CXF-5010,New Feature,Add customizable request logging capability to STS,STS,Major,1
+d26a05cd19d78d96aea4c11fb37b43786be53f09,/,/,    Return error message when a streaming exception occurs in the soap binding,/,/,0
+865036b9e1576360b34798c5fc89e81af96fbfe6,CXF-5007,Task,Updates to various JAX-RS API class implementations  ,JAX-RS,Major,1
+c8559620ce947a79f8de2d7f13d34bfa5df68237,/,/,    Remove @author tags,/,/,0
+8703ce00bf4987a3b00631e5232e7abbb96d6260,/,/,    Fixed a bug with the HttpsTokenInterceptorProvider + don't run DOM specific token interceptors when using StaX.,/,/,0
+e91a5c202f37648943947ab3837edf5483d7a099,/,/,    Added testConsumesResource5() checking TCK test problem for consumes with wildcards and qs params,/,/,0
+c8847b7463f4f7beec2995458cdb58173c672f57,/,/,    Got a lot of the inbound StaX security tests working,/,/,0
+aa3726b4330b3eacf4e167d3259f4f2ffc477117,CXF-5013,Bug,Need support for SHA256 Signature Algorithms,WS-* Components,Major,1
+efbfc2fa90b21e7766f85cb36445146e5c516061,CXF-5007,Task,Updates to various JAX-RS API class implementations  ,JAX-RS,Major,1
+606974c0e9f629ea875f395e43275aa747e55b18,/,/,    Log XACML Request at level.FINE,/,/,0
+69a81532a908194e4b27359aa3fbe063515bb70a,CXF-5011,Bug,Fix NPE in WSS4JInterceptor,WS-* Components,Critical,1
+4720dbf421c6231b790710b379ab57b14415c384,/,/,    Add a few more to the compat bundle so hopefully the OBR may pick them up if a module use the Require-Bundle thing.  SHould make it a bit more compatible with previous versions.,/,/,0
+b7ffb08d976550ba512dda1aa51205c1f3c4ac00,/,/,    Removing StAX-specific tests,/,/,0
+3ba70b45de658b98c96485f10c9f688332d7510c,CXF-5007,Task,Updates to various JAX-RS API class implementations  ,JAX-RS,Major,1
+7f717e81f99c50175d5fcd5dcef42ac9a4ff4618,/,/,    Fix after latest WSS4J revision,/,/,0
+942e3f021dc5b961bf56a76d481dd5b752c0644c,/,/,    Fix a potential NPE when using java-first clients and the WSPolicy feature within spring,/,/,0
+a5326e31ab0cbc807a60edfee3353c8bbe6df124,/,/,    Get the last WSS4J Principal first when parsing the security context (+ skip the Decryption case),/,/,0
+03f31aedfaf53d808e88e9262c5ee3232b023a67,CXF-4988,Task,JAX-RS Provider improvements,JAX-RS,Major,1
+e132290e48667842106f8d4e64397e59e7ea6064,CXF-4994,New Feature,Support LDAP groups as claim,STS,Major,1
+0e33a8091949cdb162075c1eeb0bc82ce447f805,CXF-5000,Bug,NameBindings are ignored for Reader and Writer interceptors ,JAX-RS,Major,1
+b12b45feed8de22cac47e44ba1e113b56dfbef53,/,/,    Add the ability to set a UseKey certificate directly on the STSClient,/,/,0
+f37eff902170f60b1b670700b9547d9540862a47,/,/,    Update mina version,/,/,0
+b256c462ac837e254e826a082a2d71d9f17b18c5,/,/,    Added a StAX WS-SecurityPolicy InInterceptor,/,/,0
+9ba6e49cd2f258cfea58b43c53e4f2719e261d9f,CXF-4998,Improvement,JAXRSClientFactory: Missing factory method for username+password and providers,JAX-RS,Major,1
+1c47998af22572769364c90e19ec9fc123d2ebde,CXF-4997,Improvement,Skip PolicyBasedWSS4JInInterceptor processing when AssertionInfoMap not available,WS-* Components,Major,1
+231f70d7777ff2f0e1cd56fd9948994ef611eda6,/,/,    If modifyable MetadataMap has unmodifiable Lists the replace them if needed,/,/,0
+3b49b4264d025e048695e303435b373a98cb4315,/,/,    Fixing failing STS systests,/,/,0
+a2efbd3ffb14ba842d1d41b0d38d661c9d932411,CXF-4988,Task,JAX-RS Provider improvements,JAX-RS,Major,1
+a98d18ed2a859822068025662c7bbe5fbb2f8b3d,/,/,    More unit tests,/,/,0
+f0939c91e9adaee10baac0b8960135b96e35843c,CXF-4919,Bug,UriInfo.relativize (and HttpUtils.relativize) broken,JAX-RS,Major,1
+ed0fc365473d395c241232dfa4d10f15d8f90c3c,/,/,    Some more WSS4J 2.0 unit tests,/,/,0
+77e8fb41593b2291cf1c9a063335967c3939cfeb,CXF-4977,Bug,Client for .Net WCF using both WS-Trust and WS-SecureConversation,WS-* Components,Major,1
+ed1bf4e6662c3868705a28474162418ba288c43e,/,/,    Adding some tests for a secured SOAP Fault,/,/,0
+483c7b0073b992e4cab14aaed187e30f8f2b1719,/,/,    Update to use soap 1.2 by default  but add setting to drop to 1.1,/,/,0
+48144f06a9779320b7d8537899b2f3b9ecacdb43,/,/,    More configuration work for WSS4J 2.0,/,/,0
+baa6132a0cc4e51421536d89b2f2c245abe5272d,CXF-4979,Bug,WadlGenerator generates invalid xml for QueryParameters with a default value containing &quot; characters,JAX-RS,Major,1
+9bce1ec680bad9b757813fdb45f8c1c8233be0e3,CXF-4954,Bug,CryptoCoverageChecker prevents handling of SOAPFault-Responses,WS-* Components,Major,1
+2b0565d07974a9880c62900dc41b489bb118defa,CXF-4986,Bug,jax-rs2 request filter is unable to modify request header by adding a new header ,JAX-RS,Major,1
+99c47519ffbf30335559f8c32d222314ff6ea438,/,/,    Some minor fixes,/,/,0
+6b62ac91c454f61cad5b5138a9fa8ffd28b5581f,CXF-4985,Bug,ResponseBuilder should set 204 status if the status has not been set and the entity is null,JAX-RS,Minor,1
+007861913735815db8a2a8fa52d4d621cf54fc01,/,/,    Added a CryptoCoverageChecker for the StaX code + tests,/,/,0
+fc7e8229088afa5ba7f97e79f0fe62baa52c6053,CXF-4984,Bug,JAX-RS server has to set Content-Type to application/octet-stream if it is not available,JAX-RS,Minor,1
+8057253dc8240f273afdeb53f8faddfb5d1c8168,/,/,    Correcting Action order for Signature/Timestamp tests,/,/,0
+59742b14708200f687fc784aa3351163864c6676,CXF-4983,Bug,Response.getStatusInfo does not work if the status code can not be mapped to Status enum ,JAX-RS,Minor,1
+95b615699694db9517e03987d6e02062760310c5,/,/,    Added a way to check required Actions against inbound security events,/,/,0
+af1ed23bbe2a10244dbda950c3936ec59f586c03,CXF-4978,Improvement,Only encrypt an issued token if we have a matching key,STS,Minor,1
+0da0f84710fdfd660bce4be64d9c59d940f17086,CXF-4978,Improvement,Only encrypt an issued token if we have a matching key,STS,Minor,1
+9b874fc8061f253e83e965cdd2db1a5c04357bc6,CXF-4977,Bug,Client for .Net WCF using both WS-Trust and WS-SecureConversation,WS-* Components,Major,1
+75e1bf58478e7150e5647718b59757b3496f5456,CXF-4977,Bug,Client for .Net WCF using both WS-Trust and WS-SecureConversation,WS-* Components,Major,1
+3194eb13b90803f262dc53a241abaff6a7f5a6d7,/,/,    Adding some tests,/,/,0
+6026796ce0b4085cba182af808a0eb2d79bd61bc,CXF-4950,Task,Support &apos;qs&apos; media type parameters,JAX-RS,Major,1
+9bffdd0707b3c41bd54cbd9422c8619f1bfc07ec,/,/,    Adding DOM -> StaX SAML HOK interop tests,/,/,0
+0fab00948955f2fb17f33ca30b12f81140e1afec,CXF-4975,Bug,CXFNonSpringJaxrsServlet needs to ensure an optional Application path starts from &quot;/&quot;,JAX-RS,Minor,1
+e45e550d1f9deb86e646038449fa8eefce9ae38f,/,/,    Added some more SAML interop tests,/,/,0
+5e7356aecc3e0d9e3853c3b800b9690e84b34e0a,CXF-4747,Improvement,Support easier configuration of Spring bus with WebClient,JAX-RS,Minor,1
+341b0f3bb1b7393ec2264fed5aebc10513697182,/,/,    Added some DOM -> StaX SAML Interop tests,/,/,0
+26c10829e48bb274100d4e160ccafa2a2768af74,CXF-4953,Bug,JAXRSClientFactoryBean doesn&apos;t take the bus features into consideration ,JAX-RS,Major,1
+69bc8b32faebee6b68c545fd281a460bcedad1b7,CXF-4969,Bug,ExceptionMapper not used for exception in resource setter,JAX-RS,Major,1
+02f690f7daee782ba51495d66dacfe222b13ac15,/,/,    Some initial SAML interop tests,/,/,0
+b52e54d76c669edbc8ba4f9baf389b36fb5dea41,CXF-4971,Improvement,JSONProvider should be able to drop a root dynamically,JAX-RS,Minor,1
+6c3e1dfa06bcb448ef3853fcbc9d41e01c917a63,CXF-4966,Improvement,KerberosClient does not need the cxf Bus but it is required in the constructor,WS-* Components,Minor,1
+3c466ba1fac07a024cf60864a045615e73d5c88d,CXF-4968,Improvement,Add an option to limit the number of active sequences that are created at WS-RM endpoints,WS-* Components,Major,1
+4c3aeadaab87eb25c651bf7e0d79602173bf1451,CXF-4959,Improvement,Support hierarchical mimetypes,JAX-RS,Major,1
+8f8c7ef139537afbb6c1b43fa320d743d168c1ed,/,/,    Added some encryption algorithm interop tests,/,/,0
+c82557043a2a9a1658c3e8ca90e4bec365a6ef43,CXF-4960,Bug,Race conditions in SOAP/HTTP startup,Transports,Major,1
+c8f00d621bbebb4566bad45aca324676c221102c,/,/,    Check UsernameToken password type on inbound side,/,/,0
+6a705cbb8a516df07c02bef7bb7398186fccbec6,CXF-4950,Task,Support &apos;qs&apos; media type parameters,JAX-RS,Major,1
+9bfb76f38275f50bc4ee02124b40055b54dbe21b,/,/,    Adding a new demo that shows how to use the StaX WS-Security approach,/,/,0
+dbc2475e978173a8d024268cd5204817505d8777,CXF-4950,Task,Support &apos;qs&apos; media type parameters,JAX-RS,Major,1
+5e1b222710251899d0220451e6fcb536f8168f21,/,/,    Upgrading to Opensaml 2.5.3,/,/,0
+2ba67fa79c9874ffd2b1f407ffb2aec75a89a50e,/,/,    Upgrading to Opensaml 2.5.3,/,/,0
+bb2757c945ea3bcd93d321782fb4df39aaadd133,/,/,    Added an InInterceptor for StaX WS-Security + lots of tests,/,/,0
+a0ae89d855b7c03b0bb2ebff31606fff9b8858aa,/,/,    Adding Signature + Encryption Key Identifier StaX -> DOM Interop tests,/,/,0
+579c7bcd6bf202f2d7f1c3699389266bc47c5be9,/,/,    Bunch of updates to WS-Discovery,/,/,0
+c371427ec99459ef9bafce27531f3715f47a0622,CXF-4951,Bug,cxf-codegen-plugin wsdlArtifact ignores classifier,Core,Major,1
+8b697ed365227feedd97ae394bc3ef3dce57092d,/,/,    Added in an OutInterceptor for StaX WS-Security + some tests + some interop tests against the (inbound) DOM code,/,/,0
+0e45e5ef79b8f0deb04c35262dc05965fefac73a,CXF-4924,Sub-task,Many docLocation for a server address,JAX-RS,Minor,1
+7524807b1dc58e4052eac67d623835f9eeb2b458,/,/,    Update following WSS4J merge,/,/,0
+1a0d8e4ccd4c6546bc8812fb96ddd93aea6a9a97,/,/,    fix NPE at ws.rm.DestinationSequenceTest,/,/,0
+92203fbada808fccf32814a3d4cda8293b4e8ba1,/,/,    Fixing remaining SecureConversation tests,/,/,0
+d5e5211301d67aeaf81d078cb2fc9b76478e555f,/,/,    Throwing NoContentException in case of emtpy payloads and gfew other minor updates,/,/,0
+8ba62afd77c74af7599b8a16442eaf8d15fc2359,/,/,    Get systests/databinding to compile,/,/,0
+0c906f3cc98a47d83faf8bd43354baa8aee75380,CXF-4825,Improvement,Remove static JAX-RS API calls from within JAX-RS server and client runtimes,JAX-RS,Major,1
+27e7ac7cfb52bbab1051d23b002ec7996f1939cc,/,/,    Updating to work with latest principal refactoring code in WSS4J trunk,/,/,0
+ec8393ef9cfde228430def55a185914ba07d8024,CXF-4929,Bug,JAX-RS 2.0 filters do not work correctly with generic entities and annotations,JAX-RS,Minor,1
+d3434fa8d0c6b9ada00f8ad9eb33ed17d173c78b,/,/,    Adding a load of negative tests for various Parts/Elements policies,/,/,0
+fdacb46ee80133266af3f1142aa275a701833561,/,/,    Adding a load of negative tests for various Parts/Elements policies,/,/,0
+8d017b5946f841f2aed502c2a7244be25ff34d9d,/,/,    Adding some sanity tests for not sending any security header to a service with a UsernameToken requirement,/,/,0
+855ac7153a35f7a412e001284b2b4458a20fd8a7,/,/,    Fix tests by allowing for the null return.,/,/,0
+5614dafd4eeabb8e0b730a5194008705a7a57014,CXF-4931,Improvement,Create the SecurityContext from a JAAS Subject in the WS-* layer if available,None,Major,1
+47fff36aeff60d63ff6271317583d334aa1587d9,CXF-4929,Bug,JAX-RS 2.0 filters do not work correctly with generic entities and annotations,JAX-RS,Minor,1
+c7a7830c91eb02ac20701d15742172001f1be294,/,/,    Added some negative tests for various SupportingTokens,/,/,0
+00597a58fbb8af58a2c84d37cb504496a8d0e6c2,/,/,    Updating to use SLF4J 1.7.5,/,/,0
+f528e871e51c5d3b0fbad55ca04892c68e2788c6,/,/,    Adding a batch of negative tests for various UsernameToken policies,/,/,0
+46192d68f0d906cdbbd8f045417e20e7027f8349,CXF-4922,Bug,NPE is thrown at EP creation when no service class is specified and the wsdl cannot be loaded,Core,Minor,1
+555dd2df1a438c2084b25562f54747ada9dfea23,/,/,    Adding some HttpsToken tests,/,/,0
+b89dddd7e351b2867a537ceda150e6f6d0728900,/,/,    Adding some HttpsToken tests,/,/,0
+3c9eaa308e3e2fd3c1c546504300360022e22932,/,/,    Adding some SAML Negative tests,/,/,0
+456e71338f53734a7a72fad88237a8080ab43cd6,/,/,    Adding some SAML Negative tests,/,/,0
+4cdeead8db102e2c75044bbaefe0602cefff84c7,/,/,    Fixed a failing test with IBM JDK 7,/,/,0
+524b8128aa1564fc0312caafe1bb371da904c441,/,/,    Switched to new Apache Tomcat7 Maven plugin in wsdl-first sample.,/,/,0
+78a2ca995c6ac70c637358c0327742af2f0ba2f7,/,/,    Avoiding some Collection creation,/,/,0
+01e1972a7dd13c8cfbef73126a9e9f5d7f6a26fb,/,/,    Avoiding some Collection creation,/,/,0
+517ce6699f9d5dd3cd9b87f3c57e0aec81b8de28,/,/,    Fixing failing test,/,/,0
+13dee37713fd21e84c7c451e1b5533f5006cfc15,/,/,    Fixing failing test,/,/,0
+7073dbbd63383cf7c349d3e8aa7ca3cc446ed2c4,/,/,    Adding some negative test-coverage for X.509 Tokens,/,/,0
+3ea4bab7b71367c2ac8c32bb7a0e43cb6ea76a11,CXF-4912,Bug,cxf rest client always picks the first ResponseExceptionMapper for a method with different exception throws,JAX-RS,Major,1
+daaebf35776142d5dffa69dec5fc67b8f9c30658,/,/,    Fixing some TLS stuff in the tests,/,/,0
+19fcadac3c49eacaa75801e729d0b31579370376,/,/,    Fixing some TLS stuff in the tests,/,/,0
+c53fc6c557a9641e932a80854f5811e339968059,/,/,    Added a negative test for Signature Confirmation,/,/,0
+fae480115e538de760a8c57e2d674ddc418cbc37,/,/,    Added a negative test for Signature Confirmation,/,/,0
+1a4b7cfd929bdfd1c53feef8099c1a67a24afeff,/,/,    Removing some non-namespace aware DOM calls,/,/,0
+6affb7514b8432fb6193a3923acb446483857480,/,/,    Adding few more ContainerResponseFilter tests with minor follow-up updates to do with setting the content type,/,/,0
+1cb8ea77bd878b694dbb739d2e08bcbe3e8c62df,/,/,    Added a @Ignore'd test and some (not-used) functionality to validate ProtectTokens policies,/,/,0
+71aa117e76ef25685ca9b199468f2bf8205f91a5,CXF-4906,Bug,Http Headers should ignore the case for &quot;User-Agent&quot;,Transports,Minor,1
+16ac7f12b18b52a3b0054a46928d51c840af1178,CXF-4904,Bug,Incorrect validation of Layout LaxTimestampFirst + LaxTimestampLast,None,Major,1
+9fadc0adc8ab0eb754d13c8c9e0c570aa38ad5db,CXF-4904,Bug,Incorrect validation of Layout LaxTimestampFirst + LaxTimestampLast,None,Major,1
+a6f629f5ab246153f767f21363f64674b86bb456,/,/,    @Ignoring one of the caching tests that fails on Jenkins all the time,/,/,0
+4751b002da8ee29fef776d64ba591edf300b009c,/,/,    Fixing javadoc warnings,/,/,0
+bcc70b2471708c7841537dcbebba32ac94b8cdf9,/,/,    Upgrading to xmlsec 1.5.4,/,/,0
+270da39e6de519716b1937c6363ed6bd8e1230bd,CXF-4870,Bug,osgi field is always false when creating a SpringBus via SpringBusFactory in OSGI ENV,OSGi,Major,1
+1fc6859ff963c888cbdb62ae5bc0379462c5e9df,/,/,    Fixed more WSS4J 2.0 tests,/,/,0
+7f75a2fc5a71f646d8647cf9b5e697f763e1edf2,CXF-4891,Bug,Cannot set content-type header,Transports,Major,1
+172bfb9719255d7b552c0531ddc38db89fda6b8f,/,/,    Misc minor performance fixes,/,/,0
+fdf2fb536863364ba97202a4ddc161a3e5e7b165,/,/,    Remove expired tokens from cache + always retrieve a new token for the Kerberos case,/,/,0
+4549900cd74fd57168b67275558ec41dbe7ba729,CXF-4896,Improvement,Reduce reflection usage during java-first endpoint creation,Core,Major,1
+297d459deafdfb58b9f90dc8fa16192a18381518,/,/,    Adding an "Action" test for old WS-Security style configuration,/,/,0
+323583f93239cb30a9a007334a33719adecd56c0,CXF-4895,Bug,Changing TLS information after first call doesn&apos;t affect anything,Transports,Major,1
+a312f2a028a3b085ef4401cc26d930de7ffeeab0,/,/,    Fixed a load more failing tests,/,/,0
+7e796ebfc60737ee31edd84b29484fce9896bfac,CXF-4876,Bug,CXF RespectBinding feature does not support the customized binding info under operation and its sub element.,JAXB Databinding,Major,1
+80c31e9823e232ad88c0a486e08205c776e11416,/,/,    Fixed some more failing tests,/,/,0
+e73200b756fbd9a427d97716c12d0418e7fc0784,CXF-4890,Bug,issues with spring context override properties,None,Major,1
+35218f9aae467412e58d6aab071db669169fb589,/,/,    More fixed tests,/,/,0
+796d2adc6b872ccc854ae45eaad1b1d2478f7b6f,/,/,    Some minor security fixes,/,/,0
+ed66e7d56758e60c96091b208c81c2f2b26bb61f,/,/,    More work on port,/,/,0
+cc5172ceaffb018e3852c9ae3d9e3487cb65d80e,/,/,    Fixed more failing tests,/,/,0
+73ea6c5ce6b86e1b28d3eef94c8ba878e4babffa,/,/,    Asserted some more Assertions to get testcases passing,/,/,0
+dae60556e28d22a4e0231099178e6e1ad4f68126,CXF-4875,Bug,NPE resolving policy reference,WS-* Components,Major,1
+e2532739205dc27753ab56a2bb1629fccea81a48,/,/,    Update slf4j version,/,/,0
+0776c6c0da3ab42464b6e7c6246981685e9ad0ca,CXF-4884,Task,Remove CXF JAX-RS form extension,None,Major,1
+2ed78cc1400c57239d64e8657767ec9959065865,/,/,    Switched over to use WSS4J policy model completely,/,/,0
+83dde303106ea0f292723450588d4266b56e372e,CXF-4882,Task,Remove CXF JAX-RS filter extensions,JAX-RS,Major,1
+418f399606828a84e299518e12cbb8abca15b10a,CXF-4880,Task,Incorrect enforcement of X509Token PKI policies,None,Major,1
+653d5b58010b7c1f3370cbfe4e8f301b977946e0,/,/,    Adding commit that mysteriously disappeared,/,/,0
+be37f7d048eff52a6ca31b4557a7bb10c74de0b0,CXF-4828,New Feature,Support SAML Bearer assertions for OAuth2 client authorization ,JAX-RS Security,Major,1
+ca203ac499491de2ce46db535c18b5a8942f4470,CXF-4818,Bug,The body and header appears in reverse order for outbound soap message,Soap Binding,Major,1
+81ea77ebbfad05e2317325f6c038553ca810e584,CXF-4822,Task,Update selection algorithm to check all root resources with the same root path ,JAX-RS,Major,1
+e338af27dcfb9bd4936261b17447288879fc2229,CXF-4805,Bug,SOAP services try to process HTTP &apos;OPTIONS&apos;,None,Major,1
+96a349f62e117f12ce43949b723f3fbdeb631f31,CXF-4696,Task,Move CXF JAX-RS client API implementation to its own module,JAX-RS,Major,1
+99fb33495d08513c90ccea76c247e7ac546de769,CXF-4814,Bug,Support multiple AlgorithmSuite policy alternatives,None,Major,1
+c2c1a6ba6ff3610be0efeadbe70fb98109f32b73,CXF-4767,Bug,JAX-RS endpoints fail to register properly with ws-discovery service,WS-* Components,Major,1
+b3b3cf8869f39161f8521a33508154799bb54e8e,/,/,    Fixing sign_enc demo. Deleting ut_sign demo.,/,/,0
+cbd81c955e5a1f6cef71fe53e088521cdf87c936,/,/,    Adding streaming-based "ut" demo,/,/,0
+dae56b90c1de0dce1c00abe12108e364934eccf7,CXF-4736,Improvement,Bundles cannot be deployed in non Aries Blueprint Container,OSGi,Major,1
+b941cb80bc4f75ed3b02afa7c22e6847550cedc6,/,/,    Updating Spring Security version to 3.2.0.RELEASE,/,/,0
+8204370f128d8ecd6a647795863ce6bfab34d779,CXF-4736,Improvement,Bundles cannot be deployed in non Aries Blueprint Container,OSGi,Major,1
+fcc19c3ddd36f3a55ae2675e2ebbf853cbd3d9f7,/,/,    Remove the deprecated (and security problematic) URIMappingInterceptor,/,/,0
+0919edd76e4909f06216c546628a6f7d586479b2,/,/,    Remove the long since deprecated MethodDispatcher,/,/,0
+c689308e76f2821820566b728298f28bbbb979f9,CXF-5469,Bug,JsonpInInterceptor casts to HttpServletRequest,JAX-RS,Minor,1
+820b2468e2b55bbd2ba8366121aa041c4cc6f38e,/,/,    Skip action checking/policy asserting for the streaming code when we have a SOAP Fault with no security header for the initiator,/,/,0
+b509ba67ce2ebe6655879e9999821ea8a5b4bd6d,/,/,    Partial switch to use parameterized tests in systests/ws-security,/,/,0
+9603da46c34c6e9d45172d8c0c5de236178c0a85,/,/,    Adding parameterized tests for the WS-Security example systests,/,/,0
+f73a8780a2856a2df8f0d8499232b59845b8582a,CXF-5420,Bug,Issue with EhCacheTokenStore using default LRU.,None,Minor,1
+af00425e04f2b7944853939e8bee1886148fbfe5,/,/,    Fix the poms that were messed up in the release.,/,/,0
+c6efa27d4625cf7219a39621ca4c4e3af9ceb81e,/,/,    Switching to WSS4J 2.0-SNAPSHOT again. Added support for SOAP with Attachments,/,/,0
+7521ad685276b02af30a5fa145dbced0b91058fd,/,/,    Reduce some duplicate code between the various HTTP providers,/,/,0
