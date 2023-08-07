@@ -1,0 +1,153 @@
+commit c646fd429e1b3ee92c25c6691c21c3454546332e
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Oct 14 18:33:26 2010 +0000
+
+    Tag release 1.4.1.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.4.1@1022641 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f19a3b63053794835d340f1f62057a3df99a09ab
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Oct 8 21:44:40 2010 +0000
+
+    Tagging 1.4.1-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.4.1-rc0@1006035 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e4aac2776c8d6d0bbd611778ca2c36f1bf4b50b4
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Oct 8 21:33:29 2010 +0000
+
+    Preparing to create 1.4.1 release candidate.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.4@1006032 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	CHANGES.txt
+1	1	share/VERSION.txt
+
+commit a0ee4f676223b7d14f622c083833b63501b2113e
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Oct 8 21:21:04 2010 +0000
+
+    Merge r1006021 and 1006025 from trunk to 1.4 branch.  Fixes: AVRO-673.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.4@1006028 13f79535-47bb-0310-9956-ffa450edef68
+
+5	0	CHANGES.txt
+4	4	lang/py/src/avro/io.py
+9	0	lang/py/test/test_io.py
+
+commit dc6db274036bd925416436ac8c138cd40cd782e0
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Oct 8 21:08:12 2010 +0000
+
+    Merge r1006019 from trunk to 1.4 branch.  Fixes: AVRO-537.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.4@1006020 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	3	lang/ruby/lib/avro/ipc.rb
+
+commit a2a7d5453ea09936cf9dbf0bbb5e79f0cba252a7
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Sep 21 19:35:10 2010 +0000
+
+    Merge r996877, r997962, r999554, and r999556 from trunk to 1.4 branch.  Fixes: AVRO-664, AVRO-667, and AVRO-668.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.4@999568 13f79535-47bb-0310-9956-ffa450edef68
+
+8	0	CHANGES.txt
+28	12	lang/java/src/java/org/apache/avro/generic/GenericData.java
+1	5	lang/java/src/java/org/apache/avro/generic/GenericDatumWriter.java
+13	3	lang/java/src/java/org/apache/avro/io/BinaryEncoder.java
+10	4	lang/java/src/java/org/apache/avro/io/BlockingBinaryEncoder.java
+17	1	lang/java/src/java/org/apache/avro/io/Encoder.java
+7	2	lang/java/src/java/org/apache/avro/io/JsonEncoder.java
+12	0	lang/java/src/java/org/apache/avro/io/ValidatingEncoder.java
+13	5	lang/java/src/java/org/apache/avro/util/Utf8.java
+40	0	lang/java/src/test/java/org/apache/avro/generic/TestGenericData.java
+1	1	lang/ruby/test/tool.rb
+12	1	share/test/interop/bin/test_rpc_interop.sh
+
+commit 007dbc2a7b9d709f5ef77c36d59733a859f3b887
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Sep 17 22:25:35 2010 +0000
+
+    Merge r998354 from trunk to 1.4 branch.  Fixes: AVRO-662.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.4@998356 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	1	lang/java/src/java/org/apache/avro/file/DataFileReader.java
+49	0	lang/java/src/java/org/apache/avro/file/FileReader.java
+5	0	lang/java/src/java/org/apache/avro/mapred/AvroJob.java
+13	10	lang/java/src/java/org/apache/avro/mapred/AvroRecordReader.java
+43	0	lang/java/src/java/org/apache/avro/mapred/SequenceFileInputFormat.java
+247	0	lang/java/src/java/org/apache/avro/mapred/SequenceFileReader.java
+36	0	lang/java/src/java/org/apache/avro/mapred/SequenceFileRecordReader.java
+2	1	lang/java/src/java/org/apache/avro/tool/DataFileReadTool.java
+112	0	lang/java/src/test/java/org/apache/avro/mapred/TestSequenceFileReader.java
+
+commit 64fda09d97f5f68897262e0d305deec5ca363f56
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Sep 17 22:05:35 2010 +0000
+
+    Merge r998347 from trunk to 1.4 branch.  Fixes AVRO-641.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.4@998350 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+144	0	doc/src/content/xdocs/sasl.xml
+1	0	doc/src/content/xdocs/site.xml
+102	0	lang/java/src/java/org/apache/avro/ipc/SaslSocketServer.java
+389	0	lang/java/src/java/org/apache/avro/ipc/SaslSocketTransceiver.java
+32	12	lang/java/src/java/org/apache/avro/ipc/SocketServer.java
+49	0	lang/java/src/test/java/org/apache/avro/ipc/TestSaslAnonymous.java
+167	0	lang/java/src/test/java/org/apache/avro/ipc/TestSaslDigestMd5.java
+
+commit c7a365600f1323625dad5a4b32d8d5a2da221bbf
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Mon Sep 13 19:23:43 2010 +0000
+
+    Merge r996649 from trunk to 1.4 branch.  Fixes: AVRO-634.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.4@996652 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+11	1	doc/src/content/xdocs/idl.xml
+16	3	lang/java/src/java/org/apache/avro/Schema.java
+69	38	lang/java/src/java/org/apache/avro/idl/idl.jj
+2	1	lang/java/src/test/idl/input/simple.avdl
+4	2	lang/java/src/test/idl/output/simple.avpr
+
+commit 2e71d784454216317f419886cfc62f500a30633f
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Mon Sep 13 19:15:09 2010 +0000
+
+    Merge r996640,996642 from trunk to 1.4 branch.  Fixes: AVRO-655, AVRO-657.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.4@996648 13f79535-47bb-0310-9956-ffa450edef68
+
+6	0	CHANGES.txt
+4	3	build.sh
+1	4	lang/c++/build.sh
+1	1	lang/c/build.sh
+
+commit 7c882e7677f1217d52a97e6c60e4554802470a86
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Sep 8 20:44:13 2010 +0000
+
+    Prepare 1.4 branch for 1.4.1 development.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.4@995245 13f79535-47bb-0310-9956-ffa450edef68
+
+6	0	CHANGES.txt
+1	1	share/VERSION.txt
+
+commit 5f1806b2eb1b2d0bcb38a3af8d4412f839b4d273
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Sep 8 18:29:00 2010 +0000
+
+    Tagging release 1.4.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.4.0@995179 13f79535-47bb-0310-9956-ffa450edef68

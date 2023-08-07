@@ -1,0 +1,689 @@
+commit 116a973813541d4f6ca000ae27090074871e714e
+Author: Joe Schaefer <joes@apache.org>
+Date:   Mon May 10 21:58:52 2010 +0000
+
+    avro goes tlp
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.0.0@942927 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 12b51f98003fb0af5966eb6710a8270d69dd7ee3
+Author: Joe Schaefer <joes@apache.org>
+Date:   Mon May 10 21:58:52 2010 +0000
+
+    avro goes tlp
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.1.0@942927 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e6994922462bdae76cceebdd19515a76f15497bf
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Sep 15 20:43:21 2009 +0000
+
+    Tagging release 1.1.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/tags/release-1.1.0@815476 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1dbb683d17f571213a8367d8e1306019063325d3
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Sep 11 17:25:21 2009 +0000
+
+    AVRO-114.  Fix cdoc Ant target.  Contributed by Matt Massie.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@813932 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+6	4	build.xml
+4	1	src/c/Makefile.am
+
+commit 14c0ae1564cd6a067abb735c3b4f09ddf200910a
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Sep 8 20:21:17 2009 +0000
+
+    AVRO-112.  Turn off C++ debug output.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@812675 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	src/c++/impl/Compiler.cc
+
+commit d8d90987da6300e3c0a8741dfedc8109fee49da2
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Sep 4 17:05:39 2009 +0000
+
+    Preparing for 1.1.0 candiate build.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@811494 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	CHANGES.txt
+1	1	build.xml
+1	1	src/doc/content/xdocs/tabs.xml
+
+commit 604f27bc286f17bb8b43c25c1aa3302882c80395
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Sep 4 16:59:36 2009 +0000
+
+    Add missing license headers.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@811492 13f79535-47bb-0310-9956-ffa450edef68
+
+17	0	src/java/org/apache/avro/io/ParsingEncoder.java
+17	0	src/test/java/org/apache/avro/io/TestResolvingIO_resolving.java
+
+commit 7d83e93e0d50487125d747265d2aa325cdce029d
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Sep 4 16:39:51 2009 +0000
+
+    AVRO-111.  Document sort ordering in specification.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@811481 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+65	0	src/doc/content/xdocs/spec.xml
+
+commit b43975aa1e773cd471f5771d7c7faac7a0f73a7c
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Sep 3 21:19:46 2009 +0000
+
+    AVRO-109.  Add Java support for controlling sort order.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@811128 13f79535-47bb-0310-9956-ffa450edef68
+
+5	0	CHANGES.txt
+23	1	src/java/org/apache/avro/Schema.java
+8	4	src/java/org/apache/avro/generic/GenericData.java
+89	88	src/java/org/apache/avro/io/BinaryData.java
+10	6	src/java/org/apache/avro/specific/SpecificData.java
+20	8	src/test/java/org/apache/avro/TestCompare.java
+2	2	src/test/schemata/simple.avpr
+
+commit c454652c1cd491976b894dc293856c8f73495725
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Sep 3 16:22:48 2009 +0000
+
+    AVRO-98.  Fix C++ schema parser to permit out-of-order attribugtes and ignore extra attributes.  Contributed by Scott Banachowski.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@811015 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+21	23	src/c++/api/Compiler.hh
+126	0	src/c++/api/CompilerNode.hh
+77	50	src/c++/api/NodeConcepts.hh
+191	37	src/c++/api/NodeImpl.hh
+46	71	src/c++/impl/Compiler.cc
+56	19	src/c++/impl/NodeImpl.cc
+1	1	src/c++/impl/ValidSchema.cc
+1	1	src/c++/jsonschemas/array
+2	2	src/c++/jsonschemas/enum
+1	0	src/c++/jsonschemas/int
+5	0	src/c++/jsonschemas/map
+1	1	src/c++/jsonschemas/record
+1	1	src/c++/jsonschemas/record2
+1	0	src/c++/jsonschemas/verboseint
+101	56	src/c++/parser/avro.l
+103	68	src/c++/parser/avro.y
+4	3	src/c++/test/precompile.cc
+4	3	src/c++/test/testparser.cc
+
+commit 490d0c72dc345c4683e9099e8f2b5244cffb868a
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Sep 2 18:10:02 2009 +0000
+
+    AVRO-110, AVRO-41.  Implement Comparable in generic and specific.  Also convert GenericData and ReflectData to singletons.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@810638 13f79535-47bb-0310-9956-ffa450edef68
+
+22	0	CHANGES.txt
+1	1	src/java/org/apache/avro/generic/GenericArray.java
+27	0	src/java/org/apache/avro/generic/GenericContainer.java
+155	10	src/java/org/apache/avro/generic/GenericData.java
+5	5	src/java/org/apache/avro/generic/GenericDatumReader.java
+11	79	src/java/org/apache/avro/generic/GenericDatumWriter.java
+1	6	src/java/org/apache/avro/generic/GenericRecord.java
+1	0	src/java/org/apache/avro/generic/package.html
+2	1	src/java/org/apache/avro/io/BinaryData.java
+39	14	src/java/org/apache/avro/reflect/ReflectData.java
+4	18	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+3	3	src/java/org/apache/avro/reflect/ReflectRequestor.java
+1	1	src/java/org/apache/avro/reflect/ReflectResponder.java
+1	1	src/java/org/apache/avro/specific/SpecificCompiler.java
+67	0	src/java/org/apache/avro/specific/SpecificData.java
+1	1	src/java/org/apache/avro/specific/SpecificExceptionBase.java
+2	3	src/java/org/apache/avro/specific/SpecificRecord.java
+12	5	src/java/org/apache/avro/specific/SpecificRecordBase.java
+8	7	src/java/org/apache/avro/specific/SpecificRequestor.java
+8	3	src/java/org/apache/avro/util/Utf8.java
+2	1	src/test/java/org/apache/avro/RandomData.java
+63	13	src/test/java/org/apache/avro/TestCompare.java
+3	3	src/test/java/org/apache/avro/TestDataFileReflect.java
+4	4	src/test/java/org/apache/avro/TestReflect.java
+7	5	src/test/java/org/apache/avro/TestSchema.java
+
+commit b062afaea6c4534bea3e2ec1387afb549da72570
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Mon Aug 31 18:05:21 2009 +0000
+
+    AVRO-108.  Add Java implementation of binary comparator.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@809680 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+190	0	src/java/org/apache/avro/io/BinaryData.java
+160	0	src/test/java/org/apache/avro/TestCompare.java
+
+commit f49a465349ae11ffccfffb1ed0693363a8b28a87
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Aug 28 16:31:19 2009 +0000
+
+    AVRO-92.  Describe JSON data encoding in specification.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@808946 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+224	168	src/doc/content/xdocs/spec.xml
+
+commit acba0fcdc047d14f0a28a88aec0a9b8b0cf524f8
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Aug 27 22:24:54 2009 +0000
+
+    AVRO-107.  Fix minor problems with equals() and hashCode() in Schema and Protocol.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@808668 13f79535-47bb-0310-9956-ffa450edef68
+
+5	0	CHANGES.txt
+3	1	src/java/org/apache/avro/Protocol.java
+1	0	src/java/org/apache/avro/Schema.java
+
+commit 97a5793f050400d38b07d4fbab0539809ce579ff
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Aug 25 22:52:55 2009 +0000
+
+    AVRO-104.  Permit null fields with Java reflection.  Contributed by Eelco Hillenius.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@807847 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+40	13	src/java/org/apache/avro/reflect/ReflectData.java
+16	3	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+18	2	src/java/org/apache/avro/reflect/ReflectRequestor.java
+5	1	src/java/org/apache/avro/reflect/ReflectResponder.java
+13	2	src/java/org/apache/avro/specific/SpecificRequestor.java
+5	1	src/test/java/org/apache/avro/BarRecord.java
+38	4	src/test/java/org/apache/avro/TestDataFileReflect.java
+69	15	src/test/java/org/apache/avro/TestReflect.java
+
+commit 710e2379a2ef1c5c4d2cf6ada9e0dc49795f5c86
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Aug 21 22:41:17 2009 +0000
+
+    AVRO-102.  Add license headers missing from AVRO-95.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@806740 13f79535-47bb-0310-9956-ffa450edef68
+
+15	1	src/test/java/org/apache/avro/BarRecord.java
+15	1	src/test/java/org/apache/avro/FooRecord.java
+
+commit a1ea81add49b8684f979988f342193a547795fb0
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Aug 18 22:32:22 2009 +0000
+
+    AVRO-83. In generated Java code, elide unions with null.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@805610 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+8	1	src/java/org/apache/avro/specific/SpecificCompiler.java
+
+commit a84db2bc15c8876d40993d29adfe22f8aa9601cd
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Aug 18 22:28:59 2009 +0000
+
+    AVRO-100.  In spec, remove warning about blocking being draft.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@805608 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+0	5	src/doc/content/xdocs/spec.xml
+
+commit c529c6d5821d89bfb3f37e2c6bb0ec9b83635899
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Aug 18 21:07:08 2009 +0000
+
+    AVRO-97.  Fix various C++ bugs.  Contributed by Scott Banachowski.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@805580 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	src/c++/Makefile
+1	1	src/c++/api/AvroParse.hh
+16	1	src/c++/api/Exception.hh
+1	1	src/c++/api/Reader.hh
+3	1	src/c++/impl/ValidSchema.cc
+11	0	src/c++/jsonschemas/bigrecord
+5	2	src/c++/parser/avro.y
+2	2	src/c++/scripts/gen.py
+24	1	src/c++/test/testgen.cc
+9	4	src/c++/test/unittest.cc
+
+commit b9821a460520ea9c7f5bcc6cb35a33c725295f44
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Aug 18 21:03:22 2009 +0000
+
+    AVRO-61.  Add Python support for reading blocked data.  Contributed by Ravi Gummadi.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@805575 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+7	0	build.xml
+1	1	src/java/org/apache/avro/io/BinaryDecoder.java
+1	1	src/java/org/apache/avro/io/Decoder.java
+27	13	src/py/avro/genericio.py
+3	0	src/py/avro/io.py
+85	0	src/test/java/org/apache/avro/GenerateBlockingData.java
+16	0	src/test/py/interoptests.py
+
+commit 73b69bc59c61294a6689b695342e7f9d6b48db90
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Aug 18 20:49:30 2009 +0000
+
+    AVRO-88.  Fix Java's BlockingBinaryEncoder to correctly override writeEnum().  Contributed by Ravi Gummadi.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@805574 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	0	src/java/org/apache/avro/io/BlockingBinaryEncoder.java
+163	0	src/test/java/org/apache/avro/io/TestBlockingIO2.java
+
+commit f736dfd4dd6089d9323cf7290ca7852c9dd045cd
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Aug 18 19:58:22 2009 +0000
+
+    AVRO-95.  Fix writing of reflect-based unions.  Also extend DataFileWriter to permit adding branches to a union schema while writing.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@805556 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+13	0	src/java/org/apache/avro/file/DataFileWriter.java
+8	1	src/java/org/apache/avro/generic/GenericDatumWriter.java
+3	4	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+35	0	src/test/java/org/apache/avro/BarRecord.java
+33	0	src/test/java/org/apache/avro/FooRecord.java
+142	0	src/test/java/org/apache/avro/TestDataFileReflect.java
+
+commit e1d53e342f55f7ee51b8f4b04fc03aaa287712dd
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Aug 18 19:43:46 2009 +0000
+
+    AVRO-90.  Fix Java's JSON codec to correctly encode unions.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@805549 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	6	build.xml
+12	32	src/java/org/apache/avro/Schema.java
+12	9	src/java/org/apache/avro/io/JsonDecoder.java
+7	4	src/java/org/apache/avro/io/JsonEncoder.java
+1	1	src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+1	1	src/java/org/apache/avro/io/parsing/ValidatingGrammarGenerator.java
+37	0	src/test/java/org/apache/avro/TestSchema.java
+
+commit a02c72575832bd9a451bd6d8fed62c7818eac611
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Aug 12 22:35:00 2009 +0000
+
+    AVRO-89.  Use unboxed types for generated fields.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@803730 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+12	1	src/java/org/apache/avro/specific/SpecificCompiler.java
+
+commit 79d571847ca673a23733377fdfd9a489017c499c
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Aug 12 16:39:20 2009 +0000
+
+    AVRO-87. Fix broken links in javadoc introduced by AVRO-82.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@803592 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+12	3	build.xml
+3	3	src/java/org/apache/avro/file/SeekableInput.java
+4	1	src/java/org/apache/avro/reflect/FixedSize.java
+4	1	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+4	1	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+1	1	src/java/org/apache/avro/specific/SpecificDatumReader.java
+1	1	src/java/org/apache/avro/specific/SpecificDatumWriter.java
+1	1	src/java/org/apache/avro/specific/SpecificRequestor.java
+1	1	src/java/org/apache/avro/specific/SpecificResponder.java
+
+commit 127800a158ce6d6af08e5b32e01e153ade03d474
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Jul 31 22:58:53 2009 +0000
+
+    AVRO-81.  Restore checkstyle to test-java target, dropped by this patch.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@799767 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	build.xml
+
+commit 62806bad9162f22afe69f01e97ea96321d83710a
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Jul 31 22:56:28 2009 +0000
+
+    AVRO-76.  Add Java RPC plugin framework.  Contributed by George Porter.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@799766 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+149	0	src/java/org/apache/avro/ipc/RPCContext.java
+74	0	src/java/org/apache/avro/ipc/RPCPlugin.java
+53	5	src/java/org/apache/avro/ipc/Requestor.java
+40	4	src/java/org/apache/avro/ipc/Responder.java
+12	0	src/java/org/apache/avro/reflect/ReflectRequestor.java
+13	0	src/java/org/apache/avro/specific/SpecificRequestor.java
+176	0	src/test/java/org/apache/avro/RPCMetaTestPlugin.java
+6	6	src/test/java/org/apache/avro/TestProtocolGeneric.java
+42	0	src/test/java/org/apache/avro/TestProtocolGenericMeta.java
+45	0	src/test/java/org/apache/avro/TestProtocolReflectMeta.java
+1	1	src/test/java/org/apache/avro/TestProtocolSpecific.java
+46	0	src/test/java/org/apache/avro/TestProtocolSpecificMeta.java
+
+commit eeb1023f9630a576bf8ea2d5b0e485f565e90e42
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Jul 31 20:12:33 2009 +0000
+
+    AVRO-84, AVRO-85.  Clarify a few things in the specification.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@799737 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+43	22	src/doc/content/xdocs/spec.xml
+
+commit 2034a4ee5bc4fd9623797590e1dbb411e4848787
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jul 28 21:54:34 2009 +0000
+
+    AVRO-81.  Switch back from TestNG to JUnit.  Contributed by Konstantin Boudnik.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@798716 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+34	59	build.xml
+1	4	ivy.xml
+4	4	src/test/java/org/apache/avro/TestDataFile.java
+3	5	src/test/java/org/apache/avro/TestFsData.java
+9	9	src/test/java/org/apache/avro/TestProtocolGeneric.java
+2	2	src/test/java/org/apache/avro/TestProtocolReflect.java
+7	7	src/test/java/org/apache/avro/TestProtocolSpecific.java
+2	2	src/test/java/org/apache/avro/TestReflect.java
+3	3	src/test/java/org/apache/avro/TestSchema.java
+10	10	src/test/java/org/apache/avro/io/TestBinaryDecoder.java
+45	29	src/test/java/org/apache/avro/io/TestBlockingIO.java
+40	93	src/test/java/org/apache/avro/io/TestResolvingIO.java
+103	0	src/test/java/org/apache/avro/io/TestResolvingIO_resolving.java
+74	49	src/test/java/org/apache/avro/io/TestValidatingIO.java
+0	35	src/test/java/org/apache/avro/test/TestInvocationReporter.java
+0	39	src/test/java/org/apache/avro/test/TestOutputInterceptor.java
+0	39	src/test/java/org/apache/avro/test/TestSuiteInterceptor.java
+
+commit f03f432cc7d71b7969d56f9dc17ca264a3771650
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jul 28 20:54:14 2009 +0000
+
+    AVRO-82.  Simplify Ivy configuration a bit.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@798707 13f79535-47bb-0310-9956-ffa450edef68
+
+1	0	build.xml
+2	6	ivy.xml
+
+commit f352f56536e1855bdb97208b23f65c659eed3b69
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jul 28 18:44:51 2009 +0000
+
+    AVRO-82.  Add checkstyle to Java compilation.  Contributed by Thiruvalluvan M. G.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@798646 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+29	6	build.xml
+13	1	ivy.xml
+0	202	lib/testng-5.8-LICENSE.txt
+59	0	src/java/checkstyle.xml
+1	0	src/java/org/apache/avro/AvroRuntimeException.java
+1	0	src/java/org/apache/avro/AvroTypeException.java
+2	1	src/java/org/apache/avro/Protocol.java
+1	0	src/java/org/apache/avro/Schema.java
+1	0	src/java/org/apache/avro/SchemaParseException.java
+2	1	src/java/org/apache/avro/file/DataFileReader.java
+2	1	src/java/org/apache/avro/file/DataFileWriter.java
+4	1	src/java/org/apache/avro/file/SeekableFileInput.java
+3	2	src/java/org/apache/avro/file/SeekableInput.java
+1	0	src/java/org/apache/avro/generic/GenericArray.java
+1	0	src/java/org/apache/avro/generic/GenericData.java
+1	0	src/java/org/apache/avro/generic/GenericDatumReader.java
+1	1	src/java/org/apache/avro/generic/GenericFixed.java
+2	1	src/java/org/apache/avro/generic/GenericRecord.java
+1	0	src/java/org/apache/avro/generic/GenericRequestor.java
+1	0	src/java/org/apache/avro/generic/GenericResponder.java
+2	1	src/java/org/apache/avro/io/BinaryDecoder.java
+3	2	src/java/org/apache/avro/io/BinaryEncoder.java
+3	2	src/java/org/apache/avro/io/BlockingBinaryEncoder.java
+1	0	src/java/org/apache/avro/io/DatumWriter.java
+1	1	src/java/org/apache/avro/io/Decoder.java
+1	1	src/java/org/apache/avro/io/Encoder.java
+7	8	src/java/org/apache/avro/io/JsonDecoder.java
+2	3	src/java/org/apache/avro/io/JsonEncoder.java
+1	0	src/java/org/apache/avro/io/ParsingDecoder.java
+1	0	src/java/org/apache/avro/io/ParsingEncoder.java
+1	0	src/java/org/apache/avro/io/ResolvingDecoder.java
+1	0	src/java/org/apache/avro/io/ValidatingDecoder.java
+1	0	src/java/org/apache/avro/io/ValidatingEncoder.java
+1	0	src/java/org/apache/avro/io/parsing/JsonGrammarGenerator.java
+3	2	src/java/org/apache/avro/io/parsing/Parser.java
+1	0	src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+3	2	src/java/org/apache/avro/io/parsing/SkipParser.java
+1	0	src/java/org/apache/avro/io/parsing/Symbol.java
+1	0	src/java/org/apache/avro/io/parsing/ValidatingGrammarGenerator.java
+1	0	src/java/org/apache/avro/ipc/AvroRemoteException.java
+2	1	src/java/org/apache/avro/ipc/ByteBufferInputStream.java
+7	3	src/java/org/apache/avro/ipc/ByteBufferOutputStream.java
+1	0	src/java/org/apache/avro/ipc/Requestor.java
+18	6	src/java/org/apache/avro/ipc/Responder.java
+2	1	src/java/org/apache/avro/ipc/SocketServer.java
+4	2	src/java/org/apache/avro/ipc/SocketTransceiver.java
+3	2	src/java/org/apache/avro/ipc/Transceiver.java
+6	2	src/java/org/apache/avro/reflect/FixedSize.java
+2	1	src/java/org/apache/avro/reflect/ReflectData.java
+1	2	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+0	2	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+1	0	src/java/org/apache/avro/reflect/ReflectRequestor.java
+1	0	src/java/org/apache/avro/reflect/ReflectResponder.java
+3	2	src/java/org/apache/avro/specific/ProtocolTask.java
+1	0	src/java/org/apache/avro/specific/SchemaTask.java
+2	1	src/java/org/apache/avro/specific/SpecificCompiler.java
+1	1	src/java/org/apache/avro/specific/SpecificDatumReader.java
+1	1	src/java/org/apache/avro/specific/SpecificDatumWriter.java
+1	0	src/java/org/apache/avro/specific/SpecificExceptionBase.java
+1	0	src/java/org/apache/avro/specific/SpecificFixed.java
+1	0	src/java/org/apache/avro/specific/SpecificRecord.java
+1	0	src/java/org/apache/avro/specific/SpecificRecordBase.java
+1	1	src/java/org/apache/avro/specific/SpecificRequestor.java
+1	1	src/java/org/apache/avro/specific/SpecificResponder.java
+4	2	src/java/org/apache/avro/util/Utf8.java
+
+commit 0039f146bd31549fee2b80119a3c977a5072a5d5
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Jul 22 20:20:55 2009 +0000
+
+    AVRO-50.  Implement JSON data codec in Java.  Contributed by Thiruvalluvan M.G. and cutting.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@796868 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	4	src/java/org/apache/avro/generic/GenericDatumReader.java
+1	1	src/java/org/apache/avro/generic/GenericDatumWriter.java
+3	10	src/java/org/apache/avro/io/Decoder.java
+397	0	src/java/org/apache/avro/io/JsonDecoder.java
+239	0	src/java/org/apache/avro/io/JsonEncoder.java
+74	0	src/java/org/apache/avro/io/ParsingDecoder.java
+52	0	src/java/org/apache/avro/io/ParsingEncoder.java
+0	383	src/java/org/apache/avro/io/ParsingTable.java
+68	88	src/java/org/apache/avro/io/ResolvingDecoder.java
+0	489	src/java/org/apache/avro/io/ResolvingTable.java
+75	204	src/java/org/apache/avro/io/ValidatingDecoder.java
+82	105	src/java/org/apache/avro/io/ValidatingEncoder.java
+102	0	src/java/org/apache/avro/io/parsing/JsonGrammarGenerator.java
+144	0	src/java/org/apache/avro/io/parsing/Parser.java
+337	0	src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+94	0	src/java/org/apache/avro/io/parsing/SkipParser.java
+382	0	src/java/org/apache/avro/io/parsing/Symbol.java
+138	0	src/java/org/apache/avro/io/parsing/ValidatingGrammarGenerator.java
+0	0	src/java/org/apache/avro/io/{ => parsing}/doc-files/parsing.html
+40	0	src/java/org/apache/avro/io/parsing/package.html
+1	1	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+29	9	src/test/java/org/apache/avro/TestSchema.java
+0	222	src/test/java/org/apache/avro/io/TestParsingTable.java
+153	247	src/test/java/org/apache/avro/io/TestResolvingIO.java
+0	406	src/test/java/org/apache/avro/io/TestResolvingTable.java
+363	191	src/test/java/org/apache/avro/io/TestValidatingIO.java
+
+commit e2e7fd906abe882be5d9ffa6f8ce0ef9025f7107
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Mon Jul 20 21:03:52 2009 +0000
+
+    AVRO-79.  Specify format for default fixed values.  Contributed by Thiruvalluvan M. G.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@796008 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	0	src/doc/content/xdocs/spec.xml
+1	1	src/java/org/apache/avro/generic/GenericDatumReader.java
+
+commit e6715a6d0792cca5fb0fd6961d565fa869795433
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Sat Jul 18 04:18:20 2009 +0000
+
+    AVRO-54. Re-upgrade to testng 5.9.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@795309 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	3	build.xml
+1	1	ivy.xml
+
+commit 751a179769ed29c686558cd618a7934754b6691f
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Jul 16 20:34:13 2009 +0000
+
+    AVRO-78.  Fix Java reflect to work on non-public fields.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@794837 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+12	4	src/java/org/apache/avro/reflect/ReflectData.java
+6	8	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+2	3	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+50	4	src/test/java/org/apache/avro/TestReflect.java
+
+commit 86c74fb4b57813378fe2fd71d44dc1f8f7a28056
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jul 14 22:59:22 2009 +0000
+
+    AVRO-60.  Fix C JSON parser to correctly process escapes and multi-byte characters.  Add tests.  Contributed by Matt Massie.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@794110 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	3	src/c/Makefile.am
+17	0	src/c/avro.c
+5	0	src/c/avro.h
+87	15	src/c/json.c
+2	1	src/c/json.h
+0	1	src/c/json/fail/array_with_start_coma
+1	0	src/c/json/fail/bad_value
+1	0	src/c/json/fail/colon_instead_of_comma
+1	0	src/c/json/fail/comma_after_close
+1	0	src/c/json/fail/comma_instead_of_colon
+1	0	src/c/json/fail/double_colon
+1	0	src/c/json/fail/extra_close
+1	0	src/c/json/fail/extra_data_after_object
+1	0	src/c/json/fail/illegal_expression
+1	0	src/c/json/fail/illegal_invocation
+1	0	src/c/json/fail/invalid_number
+1	0	src/c/json/fail/invalid_number2
+1	0	src/c/json/fail/invalid_number3
+1	0	src/c/json/fail/invalid_number4
+1	0	src/c/json/fail/json_text_not_array_or_object
+2	0	src/c/json/fail/line_break_in_string
+2	0	src/c/json/fail/line_break_in_string2
+1	0	src/c/json/fail/missing_colon
+1	0	src/c/json/fail/naked_array_value
+1	0	src/c/json/fail/object_array_mismatch
+0	1	src/c/json/fail/object_with_start_coma
+1	0	src/c/json/fail/single_quote
+2	0	src/c/json/fail/string_bad_u1_value
+2	0	src/c/json/fail/string_bad_u2_value
+2	0	src/c/json/fail/string_bad_u3_value
+2	0	src/c/json/fail/string_bad_u4_value
+1	0	src/c/json/fail/string_illegal_escape
+1	0	src/c/json/fail/tab_char_in_string
+1	0	src/c/json/fail/tab_character_in_string
+1	0	src/c/json/fail/unquoted_object_key
+1	0	src/c/json/pass/deep
+88	0	src/c/json/pass/json_org_example1
+26	0	src/c/json/pass/json_org_example2
+23	0	src/c/json/pass/json_org_example3
+58	0	src/c/json/pass/json_org_test1
+3	0	src/c/json/pass/object_with_duplicate_keys
+3	2	src/c/json/pass/object_with_multiple_members
+22	0	src/c/json/pass/rfc_example
+13	0	src/c/json/pass/rfc_example2
+1	0	src/c/json/pass/string_u_value
+2	1	src/c/json_schema.y
+79	18	src/c/json_tokenizer.c
+4	2	src/c/json_tokenizer.h
+1	2	src/c/test_avro_bytes.c
+1	2	src/c/test_avro_float_double.c
+1	2	src/c/test_avro_raw.c
+1	2	src/c/test_avro_string.c
+1	2	src/c/test_avro_zigzag.c
+18	7	src/c/test_json_parser.c
+
+commit 86d3ba82a52c921bcf820f580405e06fd3d797cd
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jul 14 22:48:26 2009 +0000
+
+    AVRO-71.  Make C++ deserializer more generic.  Contributed by Scott Banachowski.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@794108 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	src/c++/Makefile
+9	39	src/c++/api/AvroParse.hh
+58	81	src/c++/api/Parser.hh
+167	0	src/c++/api/Reader.hh
+21	23	src/c++/api/{ValidatingParser.hh => ValidatingReader.hh}
+1	1	src/c++/api/ValidatingWriter.hh
+11	76	src/c++/impl/{ValidatingParser.cc => ValidatingReader.cc}
+0	0	src/c++/impl/ValidatingSerializer.cc
+6	4	src/c++/test/testgen.cc
+13	12	src/c++/test/unittest.cc
+
+commit eb3b1bbd9c5c1648af42eca6ab33d3db80ea88d7
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jul 14 22:46:48 2009 +0000
+
+    Prepare for trunk developmenet.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@794107 13f79535-47bb-0310-9956-ffa450edef68
+
+12	0	CHANGES.txt
+
+commit 0320e6c3df4f54f0fb4388ffd80bb270adf3447b
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jul 14 20:03:09 2009 +0000
+
+    Tag 1.0.0 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/tags/release-1.0.0@794042 13f79535-47bb-0310-9956-ffa450edef68

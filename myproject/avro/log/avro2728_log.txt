@@ -1,0 +1,298 @@
+commit ca6c57106d9853fcbf2dadba43ec9a54b7bb85a9
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat May 14 17:38:52 2016 -0700
+
+    Revert "AVRO-1838: Java: Update checkstyle to catch trailing whitespace. Added missing files."
+    
+    This reverts commit bedf2f21a05715c3c1aa3b151329f2368c43c965.
+
+commit df3f0547cad95f5491c98444c24d03d2086cd091
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat May 14 17:38:25 2016 -0700
+
+    Revert "AVRO-1838: Java: Update checkstyle to catch trailing whitespace. Contributed by Niels Basjes."
+    
+    This reverts commit c6b5368af236f2c2e7ae72fb754bea734062364c.
+
+commit 5f79943cebccada17b8095c580d457c8b2be04dc
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat May 14 17:26:36 2016 -0700
+
+    AVRO-1833: Fix build.sh for dev-tools module.
+    
+    Java needs to be built from the root or else the root POM can't be
+    found.
+
+commit 4806ede8850a1a0511c2fb66abb8dc5bda6787a7
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat May 14 17:17:49 2016 -0700
+
+    AVRO-1833: Add dev-tools parent and fix build.sh.
+    
+    The new dev-tools module was breaking the build. It needs to be built
+    before running the normal Java build and it needs to use the root pom as
+    its parent so that the version gets updated when using
+    `mvn versions:set` for the build prep steps.
+
+commit eb1c1c6b28e92167a7147a9be1c4091c9ecb41ab
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat May 14 16:53:18 2016 -0700
+
+    AVRO-1833: Preparing for 1.8.1 release.
+
+commit bf3f0f92116c937d02d54a11361981d667451aab
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat May 14 16:46:39 2016 -0700
+
+    AVRO-1833: Update CHANGES.txt for 1.8.1 release.
+
+commit d2ff5e6ed926233fd0626537e333e87744e181a4
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat May 14 16:18:51 2016 -0700
+
+    AVRO-1833: Java: Add test dependency for guava.
+    
+    This was caught by running the tests via build.sh in docker for the
+    release build.
+
+commit bb9b589e0ebd7aed7fa477b273881c42409969ac
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu May 28 16:59:40 2015 -0700
+
+    AVRO-1684: Add time types to the specific compiler.
+    
+    This adds a dependency on Joda time for both the compiler and the
+    compiled classes. When generating Java classes, any conversion that is
+    registered with the compiler's SpecificData instance will be used.
+    
+    Closes #86.
+
+commit 85b4313dce7e7a896d9ea1d9869baeebeb05a998
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun May 8 19:25:40 2016 -0700
+
+    AVRO-1807: Java/JSON: Throw for unsupported objects rather than ignoring.
+
+commit 4f9faeb6c2148c3f79deb822afee969a622ee58e
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Wed May 11 14:48:00 2016 +0200
+
+    AVRO-1841: Add clientside githooks to do basic commit validation. Add missing copyright header.
+
+commit bd369bafbfcecbfdda8666f5fadc4ddc44a8fcaf
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Wed May 11 00:16:39 2016 +0200
+
+    AVRO-1841: Add clientside githooks to do basic commit validation
+
+commit 2ecd0a547f97da9608e6dbae72f8dc2076dfa2fe
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Mon May 9 15:57:10 2016 +0200
+
+    AVRO-1838: Java: Update checkstyle to catch trailing whitespace. Added missing files.
+
+commit a0663ae2b40baf697fda3936642a5bb95fac3f5d
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Mon May 9 10:29:15 2016 +0200
+
+    AVRO-1840: Ensure that build.sh clean really cleans all generated files
+
+commit c6b5368af236f2c2e7ae72fb754bea734062364c
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun May 8 15:57:52 2016 -0700
+
+    AVRO-1838: Java: Update checkstyle to catch trailing whitespace. Contributed by Niels Basjes.
+
+commit 6de8e985675034fbb3cac4dc8bd3cbed31461b33
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun May 8 15:26:37 2016 -0700
+
+    AVRO-1711: Java: Fix JsonDecoder#skipChildren skipping extra tokens.
+    
+    Contributed by Zoltan Farkas and Thiruvalluvan M. G.
+
+commit b9940d798e0cb2db524b5ad6ff3589b15659cfd2
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Thu May 5 21:02:30 2016 +0200
+
+    Update the gitignore files to hide generated files
+
+commit ade55151d2afbf18dabeea8f36844051b95febf9
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Mon May 2 17:28:11 2016 +0200
+
+    AVRO-1828: Add EditorConfig file and cleanup of whitespace violations
+
+commit 27ea8ffb31e53e867083c5090993deab3220bbc7
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Thu Apr 28 22:57:38 2016 +0200
+
+    AVRO-1835: Running tests using JDK 1.8 complains about MaxPermSize
+
+commit 0ca11231b09cf8b15a361de932e7d6998cc11f3e
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Thu Apr 28 22:46:07 2016 +0200
+
+    AVRO-1814: Generated java code fails on variables with a TLD name like 'org'
+
+commit 8826b38b16f8c4aa5a3df33e6dbd8a339093a38d
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Mon Apr 25 22:54:58 2016 +0200
+
+    AVRO-1834: Lower the Javadoc warnings on the generated code.
+
+commit d1c85231fc0d42aeb63c575707450e0b2fd0e237
+Author: k.usachev <k.usachev@corp.mail.ru>
+Date:   Sun Apr 3 14:43:07 2016 +0300
+
+    AVRO-1819, AVRO-1820: Java: Add aliases, custom properties to Protocol. Contributed by Konstantin Usachev.
+
+commit b010898beeaa1d3203634a3acf7bfad15a7b5789
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun Apr 17 15:10:03 2016 -0700
+
+    AVRO-1821: Add license header to TestReflectData.
+
+commit 29f509f91b4b7687f9abe239f731011a74c04835
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Sun Apr 17 23:18:43 2016 +0200
+
+    AVRO-1826: build.sh rat fails over extra license files and many others.
+
+commit f10aacc3f646d4609d56aa632d091b55fa491dcc
+Author: Niels Basjes <nielsbasjes@apache.org>
+Date:   Sun Apr 17 23:10:19 2016 +0200
+
+    AVRO-1825: Allow running build.sh dist under git
+
+commit 039272b89c6f08f1bd56721ead3d79618b70f797
+Author: Al B <al@ACAC04CC.ipt.aol.com>
+Date:   Wed Apr 6 12:41:10 2016 +0100
+
+    AVRO-1642: Java: Do not generate invalid all-args constructor. Contributed by Prateek Rungta and Barry Jones.
+
+commit ce64ff7ba8f51a8f54c910407b89cb99b12f79df
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Apr 16 14:57:46 2016 -0700
+
+    AVRO-1821 ADDENDUM: Fix checkstyle violations.
+
+commit 44ce5eb8a2180409237c81b9a53b64708262a690
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Apr 16 14:28:51 2016 -0700
+
+    AVRO-1823: Java: Do not swallow IOException while reading magic bytes. Contributed by Koji Noguchi.
+
+commit ec8a091819a25bccf03adc868449f57f9c076d19
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Apr 16 14:10:45 2016 -0700
+
+    AVRO-1821: Fix possible memory leak of Schemas in ReflectData. Contributed by Byran Harclerode.
+
+commit 60450656cb3bdddb73a322d24be27aeb854738b8
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sat Apr 16 08:46:05 2016 +0530
+
+    AVRO-1829. C++ documentation improvements
+
+commit 7251072c317cea12cb4bf6056d7149d82516db73
+Author: Thiruvalluvan M. G <thiru@verticloud.com>
+Date:   Wed Apr 13 11:32:28 2016 +0530
+
+    AVRO-1701: Fix for "warning: comparison between 'const enum testgen_r::ExampleEnum' and 'const enum testgen::ExampleEnum"
+
+commit 6dbaf6af9bd32fa31dfefdde199f16d9892127ee
+Author: Thiruvalluvan M. G <thiru@verticloud.com>
+Date:   Wed Apr 13 10:53:29 2016 +0530
+
+    AVRO-1784. C++: Should have a json encoder that pretty prints
+
+commit 9d3bcfa2f7a39ec6136baab18286a3d6006e4df7
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Apr 9 15:46:28 2016 -0700
+
+    AVRO-1824: C++: Update required packages in docs. Contributed by William S. Fulton.
+
+commit cb3e24b5bb3ec9049a0e7258003e09f1bddfad6f
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun Mar 6 19:09:58 2016 -0800
+
+    AVRO-1667: Fix parser grammar flattening for recursive cases. Contributed by Zoltan Farkas.
+    
+    Recursive records use a Fixup class to copy sequences of parser Symbols
+    because the final sequence isn't yet known. But these weren't being
+    copied when the sequences being fixed up were copied, which caused the
+    final grammar to have nulls in some cases.
+
+commit 1bc650dd6dbe7e87c59553e13f037481ee50abb6
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun Feb 21 18:16:07 2016 -0800
+
+    AVRO-1799: Fix GenericRecord#toString ByteBuffer bug.
+    
+    Reading the ByteBuffer to return a string representaton modified the
+    buffer's position. The solution is to duplicate the buffer before
+    reading its content.
+
+commit ec9e1e14b3137324b3201c0a439a91253fa64c9d
+Author: Kevin Schultz <kschultz@gilt.com>
+Date:   Wed Dec 9 16:01:59 2015 -0500
+
+    AVRO-1493: Java: Schema fingerprint vary by locale
+
+commit 133fafacdd6e39d68d14e2f903e2a49c6d6aad16
+Author: Matthieu Monsch <mtth@apache.org>
+Date:   Sat Feb 6 10:48:34 2016 -0800
+
+    AVRO-1778. JavaScript: Add IPC/RPC support.
+    
+    This commit adds protocols to the JavaScript implementation.
+    
+    The API was designed to:
+    
+    + Be simple and idiomatic. The `Protocol` class added here is heavily
+      inspired by node.js' core `EventEmitter` to keep things as familiar as
+      possible. Getting a client and server working is straightforward
+      and requires very few lines of code.
+    + Support arbitrary transports, both stateful and stateless. Built-in
+      node.js streams are supported out of the box (e.g. TCP/UNIX sockets,
+      or even stdin/stdout). Exchanging messages over a custom transport
+      requires implementing a single simple function.
+    + Work both server-side and in the browser!
+
+commit 8a3960ab1cdd9d575a7f5863f8e85f8bebd0419d
+Author: Matthieu Monsch <monsch@alum.mit.edu>
+Date:   Sat Feb 6 09:58:42 2016 -0800
+
+    AVRO-1793. Python2: Retain original exception on schema parsing failure.
+    
+    Contributed by Jakob Homan (jghoman).
+    
+    Previously, when a parse call failed the original exception was
+    swallowed and replaced by a generic SchemaParseException. The original
+    stack trace is not retained along with the actual exception message.
+
+commit b2f47a1f498fc758d05a9159fd2a3cb5092e8cd1
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jan 29 11:35:00 2016 +0000
+
+    Avro 1.8.0 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.8.0@1727542 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 674b67670758ffa3aa7cc19c83d46720d35bd029
+Merge: 318cbcdf0 85c9b5f62
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jan 22 16:45:22 2016 +0000
+
+    Avro 1.8.0-rc3 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.8.0-rc3@1726254 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 318cbcdf0e314b52950a5a9e93bda97fe307a7a2
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jan 22 12:27:41 2016 +0000
+
+    Avro 1.8.0-rc3 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.8.0-rc3@1726194 13f79535-47bb-0310-9956-ffa450edef68

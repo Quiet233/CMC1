@@ -1,0 +1,458 @@
+commit b1e93f10a08ab95e79913580441f8a63c72dcc20
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jul 24 18:49:05 2014 +0000
+
+    Tag 1.7.7 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.7@1613244 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f457317854f7111a8209111a9f573dae46704660
+Merge: def5dab27 06d463b1a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 18 19:13:46 2014 +0000
+
+    Re-tag 1.7.7-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.7-rc0@1611774 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 06d463b1a119c5d8bc4347fa9e280f4096551080
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 18 19:11:17 2014 +0000
+
+    AVRO-1546. Java: Change GenericData.Record#toString() to not escape forward slashes.  Contributed by Brandon Forehand.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1611772 13f79535-47bb-0310-9956-ffa450edef68
+
+commit def5dab27dbd1f17f9124df5845f469b5c7a8aa0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 18 18:39:09 2014 +0000
+
+    Create tag for 1.7.7-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.7-rc0@1611761 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2cf39f749f0e58e0a48754d71bdb106540b4ca86
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 18 18:37:13 2014 +0000
+
+    Prepare to create 1.7.7 rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1611759 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1de668f8390edef0ee135b1c02c490a40e1a165e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Jul 16 20:06:20 2014 +0000
+
+    AVRO-1448. Fix failing test.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1611164 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 0478e9cea93142e1ec0eefb9e0d7d19962a8bf0f
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Jul 15 18:32:47 2014 +0000
+
+    C++ doesn't build in Ubuntu
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1610798 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 082fb97eb5d1c29b12e41115e45be357553afc8e
+Author: Christophe Taton <taton@apache.org>
+Date:   Sat Jul 5 04:34:49 2014 +0000
+
+    AVRO-1448. Python3: Fix setup.py and PyPI installation.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607973 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d5f32e1624696c6a67923595da82d53c1103e6c8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jul 3 21:21:35 2014 +0000
+
+    make perl build commands work in any order
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607750 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f3e482fd2339cd697d3eb2136f0d76b7b602525a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jul 3 21:21:03 2014 +0000
+
+    add excludes for perl
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607749 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f406cb4693a95842ae99bea8d9971513ea975b27
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jul 3 21:20:34 2014 +0000
+
+    AVRO-1315. Add missing license header.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607748 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 175a67d10cabb1672d4c966182432dec62e8d288
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jul 3 18:35:42 2014 +0000
+
+    AVRO-1498. Java: Fix custom encodings to work in reflect without Unsafe access.  Contributed by Christopher Mann.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607711 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3e997c3b63fd10ec27b1bc0061e14881da5e4dab
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Thu Jul 3 15:10:26 2014 +0000
+
+    AVRO-1499. Ruby: Fix corruption of data files under Ruby 2.0+. Contributed by Willem van Bergen.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607667 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b67cea15443e22db2e57c30dfdc5da2697e5ecb5
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Thu Jul 3 15:02:13 2014 +0000
+
+    AVRO-1536. Ruby: Remove monkeypatching of Enumerable. Contributed by Willem van Bergen.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607665 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 11a18d9b686d98f7731904584ed8a809cd86dea8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jul 1 21:33:48 2014 +0000
+
+    AVRO-1533. Java: In schema resolution, permit conversion between bytes and string.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607197 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ce9888491b24b295865940ec68a21a43b0bca467
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jul 1 21:29:22 2014 +0000
+
+    wrap long lines
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607195 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 289ea57aa60c151f4fd2eb59c73b8d81c141d2b8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jul 1 21:18:11 2014 +0000
+
+    AVRO-1535. Java: Make the name .X to refer to X in the null namespace.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1607189 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 010091fc66a92292525c18713117a673bee14831
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sun Jun 29 18:29:31 2014 +0000
+
+    AVRO-1352. Schema for fixed types corrupted when writing out in JSON format
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1606560 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b723741bfd071077c50d998131af1417c4371c26
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sun Jun 29 18:00:05 2014 +0000
+
+    AVRO-1474. C++ resolvind decoder doesn't work when reader schema has more fields than writer schema
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1606545 13f79535-47bb-0310-9956-ffa450edef68
+
+commit cc7ec43e22f65fdea2bec9be04832f194c9bc6b8
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Jun 12 08:55:33 2014 +0000
+
+    AVRO-1525. Java: ReflectData cannot resolve union with fixed.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1602095 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 070c430b72098481e544052d1dc116a624dbcce8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Jun 11 19:48:07 2014 +0000
+
+    AVRO-1470. Perl: Fix encoding of boolean values.  Contributed by John Karp.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1602002 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a076f6f6f9848090776080b876fa0c1f2ca660a5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Jun 11 19:40:47 2014 +0000
+
+    AVRO-1462. Perl: Stop serializer warnings about Non-ASCII decimal chars.  Contributed by John Karp.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1601999 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3e9479b3c8ec6c18f4f7dbe5b1a5a68671296206
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Jun 11 19:26:34 2014 +0000
+
+    AVRO-1513. Perl: Remove test plans from unit test files.  Contributed by John Karp.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1601994 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 98ec5f2a172391cb5dfa7b4d85f39065bae22754
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Jun 9 11:36:34 2014 +0000
+
+    AVRO-1315. Java: Schema Validation utilities. Contributed by scottcarey and tomwhite.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1601345 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 5c5e2ea98e792d8a09e5ba173818e02ba570aabc
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jun 6 21:56:40 2014 +0000
+
+    AVRO-1500. Java: Fix bug in handling of Thrift shorts in unions.  Contributed by Michael Pershyn.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1601020 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 30e914cf37160bfd0aa4daf97feadd8e57435a33
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jun 6 21:13:27 2014 +0000
+
+    AVRO-1522. Java: Add support for compression codecs to SortedKeyValueFile.  Contributed by Steven Willis.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1601014 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 71c2fc608a443404d0872b12ea08269a84f02d41
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed May 28 22:25:55 2014 +0000
+
+    AVRO-1442. Java: Fix ResolvingGrammarGenerator to work with fixed type.  Contributed by Jim Pivarski.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1598161 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c3a67e5ad90ff19d7557eb627678a3d0a09446e5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed May 28 22:19:54 2014 +0000
+
+    AVRO-1512. Java: Support Thrift unions.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1598159 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4deed74fe934dbc1edf207cefde92aed587c96a2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed May 28 21:43:43 2014 +0000
+
+    AVRO-1476. Remove transient declaration from Schema.Field#position.  Contributed by Robert Chu.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1598151 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c533aeff68af47a99f3f61d091451a4cff700e19
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed May 28 21:26:30 2014 +0000
+
+    AVRO-1457. Java: Fix Encoder so that offset in non-array-backed ByteBuffers is not altered when written. Contributed by Rob Turner.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1598146 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c754127aae3f252e59d4533f93c8cfaec5608529
+Author: Douglass R. Cutting <cutting@apache.org>
+Date:   Fri Apr 18 15:45:51 2014 +0000
+
+    AVRO-1402. Add optional subtypes to specification.  Contributed by tomwhite & Ryan Blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1588497 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7122ddad939d59f03da8c60bd41eb9247352c449
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Apr 10 10:35:03 2014 +0000
+
+    Revert r1584605. AVRO-1402. Support for DECIMAL type (as a record mapping).
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1586265 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4fec1d9c1fde62c384d59ed520dfc80b4a4205a5
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Apr 4 10:33:02 2014 +0000
+
+    AVRO-1402. Support for DECIMAL type (as a record mapping).
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1584605 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f88cabc1e1271c8d4d2135807fc861664062c276
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Mar 14 19:41:32 2014 +0000
+
+    AVRO-1482. In specification, place null first in unions as best practice.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1577673 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 14cae5dd0114a28f9a750c718291abba2763fcbd
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Mar 14 19:31:20 2014 +0000
+
+    AVRO-1471. Java: Permit writing generated code in different character encodings.  Contributed by Eugene Mustaphin.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1577670 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c81303a746f4706b3c039635af37a81d6cfcc962
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 13 20:43:05 2014 +0000
+
+    AVRO-1459. Ruby: Fix a typo in Rakefile that breaks 'gem install'.  Contributed by Tomas Svarovsky.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1577311 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4405ed978425b779a2e2fdd238af2e1a95bfd8b8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 13 20:39:26 2014 +0000
+
+    AVRO-1465. Java: Improve the error message when union dispatch fails.  Contributed by Gabriel Reid.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1577309 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6e1e0bcf4fb4a0466e0cedb4ac00a0d4bbfed8e1
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 13 18:35:31 2014 +0000
+
+    AVRO-1473. Java: Fix references to names in the empty namespace.  Contributed by Gabriel Reid.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1577275 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 63b868907ada80f8621610ceefc47a0ec4fd26f4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 13 18:04:06 2014 +0000
+
+    AVRO-1472. Java: Clarify parse method in getting started guide.  Contributed by Michael Knapp.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1577264 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8dd83708d454f9dc7caebf2769b3f5c513ba242c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Mar 3 18:40:19 2014 +0000
+
+    AVRO-1454. Java: Fix GenericData#toString and AvroAsTextRecordReader to generate valid Json for NaN and infinities.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1573670 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e0966a1ec55a6ca45baf5d3f53ad6b0e7a049452
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Mar 3 15:25:57 2014 +0000
+
+    AVRO-1455. Deep copy does not need to create new instances for primitives.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1573582 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 706131388a81646d12a53ce31cf4c4557f93c017
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Feb 28 10:44:09 2014 +0000
+
+    AVRO-1458. Java: Setting char record field via reflection affects other fields
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1572912 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 41b8efb05a6de0a1112c0ea08dfb0c63a86b3614
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Feb 5 19:50:39 2014 +0000
+
+    AVRO-1439. Fix to work when -Dhadoop.version=2.
+    Hadoop2 depends on Commons Codec 1.3, while Hadoop1 depends on 1.4.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1564903 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 364444783b65832b07a1436ee3a93faece63d484
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Feb 5 00:09:57 2014 +0000
+
+    AVRO-1449. Java: Optionally validate default values while reading schemas.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1564571 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 5e2e176168f7d8f528704a05608ee0ab68e32b63
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Feb 5 00:02:45 2014 +0000
+
+    AVRO-974. Add a Perl implementation of Avro.  Contributed by Yann Kerhervé & John Karp.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1564569 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 49593cc38c388b89b85433b4533501a2d11e722f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 4 23:34:02 2014 +0000
+
+    AVRO-1439. Java: Add AvroMultipleInputs for mapred.  Contributed by Harsh J.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1564562 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a0f75f971f81c1b01efd083888e65e968c057846
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jan 28 22:37:38 2014 +0000
+
+    tweak test to reduce runtime from 2 minutes to 10 seconds
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1562292 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 06711d38a9a5913a3816c6eb8a5dc47b4b612e24
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jan 28 20:05:21 2014 +0000
+
+    AVRO-1447. Java: Remove dead code from example in documentation.  Contributed by Jesse Anderson.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1562209 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7be037b56f722005ea568b5b19766538434bc1c0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jan 28 20:02:23 2014 +0000
+
+    AVRO-1441. Java: Improve documentation for Maven configuration.  Contributed by Jesse Anderson.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1562204 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1c43a60e65da433cf1d0f2e5088ed30f9f8d8bca
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jan 28 19:17:10 2014 +0000
+
+    AVRO-1436. C#: Fix tests to run multiple times.  Contributed by David Taylor.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1562161 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 9bae616d4f9948c6bb2c8d7b75a2c53d456a1646
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Jan 27 22:09:27 2014 +0000
+
+    AVRO-1445. Java: Fix protobuf support to correctly handle enums with default values.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1561875 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 86a642787c9bac4d608d053b9c7b3be1128368d9
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Jan 27 22:05:53 2014 +0000
+
+    AVRO-1446. C#: Correctly handle system errors in RPC.  Contributed by David Taylor.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1561874 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b19df789480e063ee36eb5f2b1fef47f9c2e90c4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Jan 27 19:25:28 2014 +0000
+
+    Fix build to better support python3 releases.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1561801 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 9ef7389146407441220a6d79af05ee754fcf73df
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jan 23 21:50:29 2014 +0000
+
+    Prepare trunk for 1.7.7 development.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1560822 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3c6c62ad7917e5ee712bdc3494ac6fad9905924c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jan 23 21:26:15 2014 +0000
+
+    Tagging release 1.7.6.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.6@1560813 13f79535-47bb-0310-9956-ffa450edef68
+
+commit cf73bf13812c57e455d2e96ebb599a1e3bda99eb
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jan 10 20:59:28 2014 +0000
+
+    Tagging 1.7.6-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.6-rc0@1557254 13f79535-47bb-0310-9956-ffa450edef68

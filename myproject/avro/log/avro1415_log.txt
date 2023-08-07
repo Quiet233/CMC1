@@ -1,0 +1,2196 @@
+commit 7b60f03ad832976b0c771c4af68c3e66a0a4b201
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Nov 1 18:10:51 2011 +0000
+
+    Finalize tag for 1.6.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.6.0@1196182 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 43180cf8a9fb0f3c665e66ab5d94f3a1202cca3e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 28 22:44:45 2011 +0000
+
+    Tagging 1.6.0-rc1.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.6.0-rc1@1190648 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 28fbfce69cb4ad3f9622c18c965c9ca8233c77f3
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 28 22:28:59 2011 +0000
+
+    preparing to roll 1.6.0 RC1
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1190638 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 14bad855be78ba3416a0ff477ca8c6ca688ec9a8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 28 22:24:14 2011 +0000
+
+    AVRO-944. Java: Fix mapred so that reduce-side combines use correct serializer.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1190636 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b0da28f5ba067365251aa0964caf5f3baee6d1bd
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 28 22:20:07 2011 +0000
+
+    AVRO-948. Java: Fix to more correctly handle Thrift optional and nullable fields.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1190627 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 08d0b88a9975956c107f1bbd378ae91550843be6
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 28 22:14:21 2011 +0000
+
+    AVRO-941. Java: Make generated specific classes to work in some cases after Maven shade plugin is used on them.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1190624 13f79535-47bb-0310-9956-ffa450edef68
+
+commit cc434590d3e8970208bd60c822146b2e2a91382c
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Oct 28 18:06:40 2011 +0000
+
+    AVRO-945. C# port does not build under Ubuntu 11.10
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1190479 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 04d3e592f34d38d17c04a6e7b0217f7ae7ea1feb
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 24 23:30:49 2011 +0000
+
+    Preparing for 1.6.0.  Move 'dist' and 'sign' profiles to top-level pom.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1188446 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 12fce370b665d14852bb757f92bd5de99ab5859c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 24 22:55:55 2011 +0000
+
+    preparing for 1.6.0 RC.  copy-artifacts should only run at top-level.
+    'mvn clean' is now recursive.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1188433 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1ef1b15816702ad7a9bad27a40d8abff34a4b4b8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 24 22:46:25 2011 +0000
+
+    preparing for 1.6.0 RC build.  enforcer is broken, rat only works at top-level.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1188429 13f79535-47bb-0310-9956-ffa450edef68
+
+commit af78321f7d6fb7d35f7eba2116cb8811e38d5ab6
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 24 22:23:33 2011 +0000
+
+    Preparing to build 1.6.0 candidate.  Update version & add some missing license headers.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1188417 13f79535-47bb-0310-9956-ffa450edef68
+
+commit cd30b485062b1920887276cc44552590d703f443
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 24 21:09:01 2011 +0000
+
+    AVRO-942. Java: Fix reflect so that @Nullable fields have a default value of null.  Contributed by Binglin Chang.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1188382 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ba6b305d9bf41d7e695132340147809f42e93b23
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Mon Oct 24 15:03:26 2011 +0000
+
+    AVRO-467. C: Update build system to CMake
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1188164 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 37f4c480cdfb3367f5482cf07ccd099d1d7a59ab
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Mon Oct 24 14:37:03 2011 +0000
+
+    AVRO-468. C: Document CMake build system
+    
+    Added the CMake URL to the C library's INSTALL file, and removed a
+    reference to the non-existing "Swanson language".  That's what I get for
+    copy/paste!
+    
+    I've also updated the top-level BUILD.txt file to correctly list the C
+    library's dependencies.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1188157 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 23c645641c0dcceff6515a2f00b3d7bc940aba9a
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Mon Oct 24 14:30:35 2011 +0000
+
+    AVRO-930. C: Fixed memory leak in resolved writer class
+    
+    Thanks to Vivek Nadkarni for finding this and submitting a patch.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1188154 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c542500c8316da5bfc83f9dba58ec8bb07c2a0a8
+Author: Scott Carey <scottcarey@apache.org>
+Date:   Sun Oct 23 23:29:42 2011 +0000
+
+    AVRO-935. Java: Update dependency versions for 1.6.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1188005 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b151f1f3a0fbb14a840aa33048a42427134f5fb5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 21 19:43:25 2011 +0000
+
+    wrap long lines
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1187526 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2eef70c41920acb336d7910acb0f577a1e83c968
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Oct 21 15:00:25 2011 +0000
+
+    AVRO-940. C++ design for generic datum could be better
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1187383 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f6ddbe438d7f488314c50d536e2a1b2dd79adf8c
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Oct 20 06:00:09 2011 +0000
+
+    AVRO-936. Avro Java does not build with Maven 2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1186622 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6debff5cf9e7054aeffca17f9e91e87a2fc122f2
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Oct 20 04:54:04 2011 +0000
+
+    AVRO-937. C++ CMake keeps generating code even when there is no change
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1186617 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1628df0503496cef5d3c55b255c44a90a0daa624
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Oct 20 04:50:03 2011 +0000
+
+    AVRO-938. Some more warning when built on RHEL
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1186614 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2c39d103b922c3796e3771df1d979daa49cf494f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 17 21:03:18 2011 +0000
+
+    AVRO-934. PHP: Remove quadratic performance bug.  Contributed by abawany.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1185376 13f79535-47bb-0310-9956-ffa450edef68
+
+commit db12764c2637364addfb835b783533460d49a159
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 17 20:47:25 2011 +0000
+
+    AVRO-927. Java: Fix Pair#equals() to better compare schemas.  Contributed by Brock Noland.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1185367 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 60c0c5450755ee4dc21d3e6cb575f9291bc7656e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 17 20:43:12 2011 +0000
+
+    AVRO-924. Java: Support reading & writing arbitrary JSON data using an efficient Avro binary representation.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1185364 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ee35b2176aa020353549c1877052094f0cbd35ac
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Mon Oct 17 12:50:33 2011 +0000
+
+    AVRO-933. On latest Ubuntu AvrogencppTests.cc does not compile
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1185133 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6310f6945fd409d27bc1347e993d8dab5c5da8f1
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Mon Oct 17 12:45:11 2011 +0000
+
+    AVRO-918. Avro C++ documentation is very old
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1185130 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fc986ce223a13e88c11d611c6d3870d023e99d08
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Mon Oct 17 07:14:12 2011 +0000
+
+    AVRO-918. Avro C++ documentation is very old
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1185027 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b4bd442ba87dddefa58143a9793b31df3cb7e708
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Mon Oct 17 07:03:33 2011 +0000
+
+    AVRO-931. Avro C++ "make install" does not install the code generator
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1185025 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 9eed34dac2bc0203e2e42242d08e90b96fc56fbb
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Mon Oct 17 06:58:53 2011 +0000
+
+    AVRO-932. C++ build.sh should have an option to install the built software
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1185024 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 67142f000666b7bb8f344dcd45b0b2608457226d
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sat Oct 15 14:32:45 2011 +0000
+
+    AVRO-468. C: Document CMake build system
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1183649 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 35f6ce9cbc8cbba05efe70a3578bc78ef29da594
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sat Oct 15 14:22:30 2011 +0000
+
+    AVRO-929. C: Set install_name in shared library on Mac OS X
+    
+    CMake will automatically call the install_name_tool program for us if we
+    set the CMAKE_INSTALL_NAME_DIR variable.  We now automatically set this
+    variable if we're running on Mac OS X, and it's not set already.  Its
+    default value is "${CMAKE_INSTALL_PREFIX}/lib".
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1183648 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 29fa142825a7b094abb61475e2f787ca3495a316
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sat Oct 15 14:08:45 2011 +0000
+
+    AVRO-474. C: Add source package target to CMake build files
+    
+    The CMake build scripts can now produce a source tarball, via CPack.
+    After running cmake in your build directory, "make package_source" will
+    produce the source tarball.  The only caveat is that CPack doesn't try
+    to be smart about what to include in the tarball; basically anything in
+    the top-level source directory is included.  I've added some ignore
+    patterns to keep out some of the obvious riff-raff like backup files,
+    and the CMake build directory.  But to produce a truly pristine source
+    tarball, you should make sure to keep the source directory itself
+    pristine.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1183643 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 0c0a454e4e06cb35fb9db9d5054684f8ea6c16fd
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sat Oct 15 13:38:44 2011 +0000
+
+    AVRO-922. C: Value comparison function
+    
+    This patch adds the avro_value_cmp and avro_value_cmp_fast functions,
+    which compare two avro_value_t instances using the sort order from the
+    Avro specification.  Like the avro_value_equal and avro_value_copy
+    methods, we don't require the two values to have the same value
+    implementation, but they do need to be instances of the same schema.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1183638 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c909aa17c9f592da6db3dffc3505e91af7545b86
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sat Oct 15 13:36:40 2011 +0000
+
+    AVRO-921. C: Default wrapped buffer implementation is zero-copy
+    
+    The avro_wrapped_buffer_new_copy function creates a default
+    implementation of the wrapped buffer interface.  It creates a copy of
+    the data pointer that's passed in, which the wrapped buffer has full
+    control over.  Before, the wrapped buffer implementation would create
+    futher copies of the underlying buffer whenever the copy() method was
+    called.  Now, the wrapped buffer's copy is reference counted, and the
+    copy() and free() methods avoid making extra copies.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1183637 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d5e1e385ce6464c2c95e1d3aaab7b5d015bf3e81
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sat Oct 15 13:34:24 2011 +0000
+
+    AVRO-920. C: Reusable memory I/O objects
+    
+    The avro_reader_t and avro_writer_t subclasses that work with memory
+    regions are now reusable; you can reset an existing reader or writer
+    object to point at a new memory region, or to simply reset to the
+    beginning of the current memory region.  This lets you more easily reuse
+    these objects when encoding and decoding large numbers of values.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1183635 13f79535-47bb-0310-9956-ffa450edef68
+
+commit acbb703c989806356d7edb1d7ff563c913a5cb0e
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sat Oct 15 13:30:08 2011 +0000
+
+    AVRO-919. C: Produce JSON encoding for Avro values
+    
+    This patch adds an avro_value_to_json function, which produces the JSON
+    encoding on an Avro value.  This is a pretty basic translation of the
+    existing avro_datum_to_json function, which has been modified to use the
+    new value API.  The avro_datum_to_json function is now implemented using
+    the datum type's value wrapper.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1183634 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 5c7076df6a213fb62838a246fa061a34d24858fa
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sat Oct 15 13:24:14 2011 +0000
+
+    AVRO-928. Debug statement no longer reports garbage from stack
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1183632 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8fad411325a514d8dbf782c2a15ec169f3e428e6
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Oct 14 03:52:53 2011 +0000
+
+    AVRO-925. CMake/C++ Unable to build debug version of libavrocpp
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1183217 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 287f348e2e331ebfca808275413585dd99e6865f
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Oct 12 17:11:22 2011 +0000
+
+    AVRO-913. CMake/C++ build should work for out-of-tree builds
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1182482 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 883f32a9d1060d6578176efcc974ae453fc38e72
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Oct 12 15:58:17 2011 +0000
+
+    AVRO-915. Large number of warnings in C++ buildsc
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1182454 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 122353642cc8ca30c04908f20e7636b342c30a0d
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Oct 12 13:26:55 2011 +0000
+
+    AVRO-840. C++ generate nullable types for optional fields int the schema
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1182355 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6e774f574bc75ade354423dadacfa9dd6aa5ff2b
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Oct 12 13:15:18 2011 +0000
+
+    AVRO-869. Lifetimes of streams and encoder/decoders not managed propertly
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1182350 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c4c44266b38bce822072c200343520c58b4b6902
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Oct 12 13:04:53 2011 +0000
+
+    AVRO-916. 0xff in binary stream is interpreted as end-of-stream
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1182347 13f79535-47bb-0310-9956-ffa450edef68
+
+commit eb895229861088c0b25dc0b23693920ccee5d593
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Oct 12 12:58:38 2011 +0000
+
+    AVRO-917. Avrogencpp does not insert avro prefix for avro headers in the generated files.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1182341 13f79535-47bb-0310-9956-ffa450edef68
+
+commit da44c2318c5dc9bfc4116cd713bcd0eb872e6e5a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Oct 11 23:25:04 2011 +0000
+
+    AVRO-803. Java: Optionally change string types in generated code to java.lang.String instead of java.lang.CharSequence.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1182146 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 874faae7323ea0888769ef96bc0d12d23db052ca
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Mon Oct 10 18:06:27 2011 +0000
+
+    AVRO-908. Made sure that static library will be static irrespective of settings outside
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1181107 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c7acde0a81b8413c40b40c5cef2fed13faa1b85d
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sun Oct 9 08:19:05 2011 +0000
+
+    AVRO-908. Add an option to build avrocpp as a static library
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1180563 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 844ea7709ce2ef022cca280b4376cefb6d579c4b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 7 21:00:23 2011 +0000
+
+    AVRO-871. Fix specification to state that enum symbol names must follow the same rules as record and field names.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1180239 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ff1e35fb0774691aa77ff47b196c5a1e7335240b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 7 20:41:37 2011 +0000
+
+    AVRO-914. Java: Fix SpecificResponder to better handle non-Exception Throwables.  Contributed by philz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1180218 13f79535-47bb-0310-9956-ffa450edef68
+
+commit efc3db5634563602e2e504b8b1fe16475f431112
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 7 20:39:10 2011 +0000
+
+    wrap some long lines
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1180213 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 85949e751323c72ed55af0a1ba1f47f3a55a318f
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Oct 7 12:51:26 2011 +0000
+
+    AVRO-902. C++/CMake installs into /usr/local/local/
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1180027 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fdc2c4899f2ba71a661a3b3f239cc17fa7221fb2
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Oct 7 08:59:34 2011 +0000
+
+    AVRO-904. C++/CMake build should fail if Boost libraries are not present
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179968 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a614a28bc9e2f90bf516577252863b8af1cd2e00
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Oct 7 08:34:54 2011 +0000
+
+    AVRO-903. C++/Cmake build fails to find Boost libraries
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179961 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c4fa8c58b9952951ba2307cc2ec796ad05e822e2
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Oct 7 07:20:49 2011 +0000
+
+    AVRO-912. Mapreduce tether test fails on Windows
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179946 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 240c6945700aa1f2fd7e9c508ae24543a34211f7
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Oct 5 21:17:31 2011 +0000
+
+    AVRO-910. Java: Add generated protobuf test code to subversion.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179443 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d7dbac1ad7177bc8065298cc452466b2a39d7a9c
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Oct 5 19:25:56 2011 +0000
+
+    AVRO-901. On slower machines Java unit test TestFileSpanStorage fails
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179394 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 748e8c1be6a8c44e2a5cda05d05c5668526a7b25
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Oct 5 19:07:38 2011 +0000
+
+    AVRO-901 Java tools unit tests fail in Windows due to line termination and filenaming conventions
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179388 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 86fa1ce37647ccc27cf85365ace50aa593073394
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Oct 5 19:06:07 2011 +0000
+
+    AVRO-901 Java tools unit tests fail in Windows due to line termination and filenaming conventions
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179387 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 5c4ebdc2113e15afcbde83756a0dc1c0d09935ba
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Oct 5 18:37:45 2011 +0000
+
+    AVRO-907. Java: Optimize access to protobuf message fields.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179372 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 29f33991babbc6ba48cb03b067d063d38751a7e9
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Oct 5 18:20:30 2011 +0000
+
+    AVRO-905. Java: Change JsonEncoder to write objects on separate lines.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179361 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 126e9769f45f978f42321c4fc465198982df482b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Oct 5 18:11:01 2011 +0000
+
+    AVRO-906. Java: Fix so that ordering of schema properties is consistent.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1179356 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3f01ca6b4de96fc5b9167651d4f700b2fcb2c5f4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Oct 4 21:54:25 2011 +0000
+
+    AVRO-804. Java: Add support for reading and writing instances of Thrift generated classes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1178973 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ce9db305e58824d3f892a9fe89c38537f7e75a39
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 3 19:47:29 2011 +0000
+
+    Whitespace fixups.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1178538 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2b4a20cddc3856755e1104775398c5d95d7570d5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 3 19:46:05 2011 +0000
+
+    AVRO-898.  Java: Extend NettyServer to support SSL.  Contributed by Vadim Tsarik.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1178536 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 21223692e8066b2bdf2100641fb7befdae453e8e
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sat Oct 1 18:37:14 2011 +0000
+
+    AVRO-895. JsonDecoder does not tolerate JSON records with different field order
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1178066 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d6d8e36128e1b733b520abfc2f6687914e0cd9e0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Sep 29 23:35:23 2011 +0000
+
+    AVRO-899. C#: Include binary artifacts and documentation in releases.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1177464 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fd02845b1307edba65587a6e2cefda72e54ed8b9
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 26 21:14:35 2011 +0000
+
+    AVRO-890: Java: Add Maven archetype for creating Avro service projects.  Contributed by Stephen Gargan.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1176060 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7a1cdae26c92bb14e63ac71eab4ee7ce3859752b
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Mon Sep 26 13:12:46 2011 +0000
+
+    AVRO-893. C: Avro data file functions using value API
+    
+    The functions for reading and writing the contents of an Avro data file
+    have now been ported to the new value API.  The structure of the new
+    functions is the same as before; we just read from or write into an
+    avro_value_t instead of an avro_datum_t.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1175854 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 27493bbf6257f48278df922517bc9e38be2df8d2
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Mon Sep 26 12:36:26 2011 +0000
+
+    AVRO-863. C: Schema resolution using new value interface
+    
+    This patch adds the avro_resolved_reader_t and avro_resolved_writer_t
+    classes, which handle schema resolution using the new avro_value_t
+    interface.  The resolved reader type wraps an existing value as the
+    "writer schema" side of schema resolution, and provides a view into the
+    wrapped value as if it were an instance of the reader schema.  The
+    resolved writer type does the inverse; it wraps an instance of the
+    reader schema, and lets you write into that value as if it were an
+    instance of the writer schema.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1175832 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 47161bac6a9c3e0ff5fbf3885cd922fa29848adb
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sun Sep 25 20:49:43 2011 +0000
+
+    AVRO-865. C: Removing empty directories from previous Jansson version.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1175572 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e1fa71998aa7ecbf230b7b5dc8af8b446a2870f1
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sun Sep 25 20:47:26 2011 +0000
+
+    AVRO-865. C: Upgrade Jansson to 2.1.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1175570 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d6d9116c6bfb31535491912f55a658d4f0291fb5
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sun Sep 25 20:03:25 2011 +0000
+
+    AVRO-894. C: Fixed CHANGES.txt
+    
+    I described this fix as being in the released version 1.5.4, which isn't
+    true.  Moved this up to the unreleased section.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1175561 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 471b3f5f896035f264f29cf4f6a136a23a0b40b3
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sun Sep 25 19:57:53 2011 +0000
+
+    AVRO-894. C: cmake build now works on Mac OS X Lion
+    
+    Before we were mistakenly setting CMAKE_OSX_ARCHITECTURES to our default
+    value, even if the user provided an override.  And our default included
+    "ppc", which borked on Lion since it doesn't include PowerPC compilers
+    in the Developer Tools.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1175560 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fe169ad3db467159b48da150c639c4ad7c06c0bf
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Sep 22 20:49:11 2011 +0000
+
+    AVRO-892. Python: Fix an "integer out of range" error with snappy compression. Contributed by Michael Cooper.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1174381 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3fe4738eff4bfe13116094a48ce5e22e4934bfbc
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Sep 22 19:07:08 2011 +0000
+
+    AVRO-891. Java: In SpecificDatumReader, when no reader schema is specified, use schema of currently loaded class.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1174323 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e93f2ff7ca53586dbfd3941035fdaf67cb8ae306
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 21 20:57:09 2011 +0000
+
+    AVRO-881. Java: Add a 'getmeta' tool that lists a file's metadata.  Contributed by Tom White.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1173848 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 895ce26802026187f1a6ac227bf0ec1482178247
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 21 20:47:08 2011 +0000
+
+    AVRO-874. Remove experimental disclaimer from IDL documentation.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1173845 13f79535-47bb-0310-9956-ffa450edef68
+
+commit afc36212528a46d6e00a1031764a3defe66bed45
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 21 20:44:41 2011 +0000
+
+    AVRO-887. Java: Improve reflection error message when a field is not found in a class.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1173842 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6ea146d357b041e1c16167124afd7fc4d0f36c21
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 20 22:32:58 2011 +0000
+
+    AVRO-888. Java: Add SeekableByteArrayInput.  Contributed by Saleem Shafi.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1173410 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8feed041e4d0f296e954d1b4d38ce952d64bc07d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 20 17:55:21 2011 +0000
+
+    AVRO-866. Java: Add support in IDL for documentation in protocols and messages.  Contributed by George Fletcher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1173278 13f79535-47bb-0310-9956-ffa450edef68
+
+commit dba584208bc0006ce773c2919469b6027da753ed
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 19 18:48:54 2011 +0000
+
+    AVRO-858. Python: Add --fields option to 'avro cat' command.  Contributed by Miki Tebeka.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1172742 13f79535-47bb-0310-9956-ffa450edef68
+
+commit bfdee03fe22f9743dbfddb593de3821fcfa737a8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 19 18:44:10 2011 +0000
+
+    AVRO-889. Java: Change lang/java/pom.xml to use project's top-level pom.xml as parent.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1172739 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ce10b0708139dd131a6342d5e189f5d857000c19
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 13 02:33:04 2011 +0000
+
+    AVRO-805. Fix to work with protobuf 2.2 as installed on build server, but revert default protobuf version to something that's probably compatible with the version of protoc that developers have on their desktop.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1170009 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fed95bb179d5459bd58538028f7deafe703f2f90
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 13 01:30:43 2011 +0000
+
+    AVRO-805.  Fix to work with either protobuf 2.3 or 2.4.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1170003 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7185321c45049659c172d64651c2ebe83143a031
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 12 22:34:57 2011 +0000
+
+    AVRO-805. Note addition of build-time requirement on protoc.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1169966 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 5f2cc474348dfdc8cfca669f3f4f0d75bc9e7ae9
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 12 20:24:04 2011 +0000
+
+    AVRO-805: Java: Add support for reading and writing instances of Protocol Buffer (protobuf) generated classes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1169908 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 76dbd5fe19eba2f6ec343f9f51a5b654e36e9827
+Author: Doug Cutting <cutting@apache.org>
+Date:   Sun Sep 11 20:52:07 2011 +0000
+
+    Tag release 1.5.4.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.5.4@1169533 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2566695ad9b64198e2905db121e1727b3f90c8d5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 7 21:45:41 2011 +0000
+
+    Add tag for 1.5.4-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.5.4-rc0@1166421 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4df83ff5373d7438bdf7789ab2cd5eb547b6db0b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 7 21:40:23 2011 +0000
+
+    preparing to roll 1.5.4 candidate
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1166414 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b4d6a171e5e2d96d4e6fad49e06aca19c916420a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 7 21:38:39 2011 +0000
+
+    prepare to roll 1.5.4 candidate
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1166413 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 45c9b60be4681d36f07247c0ed9c1faca55b8936
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 7 21:23:22 2011 +0000
+
+    Merge -c 1166407 from trunk to 1.5 branch.  Fixes: AVRO-866.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1166408 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7c2bfeb2c6ebb2f69eaa4aafbf586ddd2c000629
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 7 21:22:25 2011 +0000
+
+    AVRO-866. Python: Add support for snappy compression codec.  Contributed by Tom White.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1166407 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 401eb42a3bfad01266049cb0385fed6b8edb8c84
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 7 19:43:24 2011 +0000
+
+    Merge -c 1166326 from trunk  to 1.5 branch.  Fixes: AVRO-884.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1166337 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 72c9d6bb7aa23546a0bf82c2ce546fd1278bd72b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Sep 7 19:31:09 2011 +0000
+
+    AVRO-884.  Java: Fix a regression in RPC so that one-way messages fail when the transciever cannot connect.  Contributed by Tom White.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1166326 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 666be14b735fa4b6e03c20b5c15d229f90efd437
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Aug 26 20:54:50 2011 +0000
+
+    AVRO-839. Java: Add accessor methods and builders to generated java classes.  Contributed by James Baldassari.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1162253 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 5d264aabbfcaf9edb85818b05faecac304ef3175
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 22:14:04 2011 +0000
+
+    Merge -c 1161779 from ../trunk to 1.5.  Preparing for 1.5.3 RC build.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1161780 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 203cbd49010dfcd677af4a6d8ce8b4065d4e629d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 22:12:57 2011 +0000
+
+    prepare to roll a 1.5.3 release candidate
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1161779 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4a1a11e575f6914bf2d2a2c5fea762cd3984fdf7
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 21:56:31 2011 +0000
+
+    Merge 1161769 & 1161770 from trunk to 1.5 branch.  Fixing RAT issues with AVRO-872 & AVRO-877.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1161771 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 31d1e9b84baf9c6ee4ea234ddad9a7b584e11d0c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 21:54:08 2011 +0000
+
+    AVRO-877. Exclude generated test output files w/o license from RAT testing.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1161770 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3be4df96cf956e38c56561e4e7954cb0ebc96cae
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 21:53:09 2011 +0000
+
+    AVRO-872.  Add missing license.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1161769 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 0814c3e38c8e33d757eb946697471207db1ae2f6
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 21:41:27 2011 +0000
+
+    Merge -c 1161764 from trunk  to 1.5 branch.  Fixes: AVRO-880.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1161765 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d15cce120f81f5118ea590fa48d3e7e6150d920f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 21:40:20 2011 +0000
+
+    AVRO-880. Java: Upgrade snappy-java to 1.0.3.2.  Contributed by Alejandro Abdelnur.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1161764 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1c11eb7b19eac6776687c484444e5ffcfd0232ab
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 20:59:17 2011 +0000
+
+    fix a typo
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1161759 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 341d12014ead1a0bf5bafb1c666c0cc668a62308
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 20:58:35 2011 +0000
+
+    fix a typo
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1161758 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4f0fe80f2525c398e18ec48cd48be27f4c7fcc95
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 20:52:57 2011 +0000
+
+    Merge -c 1161755 from trunk to 1.5 branch.  Fixes: AVRO-877.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1161756 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1462c10fb5ae684dfa9fb03b4eb5d54903c8a384
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 20:51:43 2011 +0000
+
+    AVRO-877. Java: Add support for compiling multiple, dependent schemas.  Contributed by Bill Graham.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1161755 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 86754a60ffe77977fc654a9184775410fd5e8564
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 20:49:18 2011 +0000
+
+    Merge -c 1157245 from trunk to 1.5 branch.  Fixes AVRO-874.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1161749 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 79b61b53124d555583791061429f12db0f7c4810
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 20:48:38 2011 +0000
+
+    Move AVRO-874 to 1.5.3.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1161748 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 5b359c150696c6c7de3fdbc7072c05b61988bcaf
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 20:43:15 2011 +0000
+
+    prepare for 1.5.3 changes
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1161745 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d3d6134e08a361a1ad774b527adc5ef7330c09ac
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 25 20:41:54 2011 +0000
+
+    prepare for 1.5.3 changes
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1161743 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 174f5a8898511b7275a81a9b7e8f89ad6c7a40f4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Aug 22 18:30:17 2011 +0000
+
+    AVRO-879. Try setting target to an absolute path.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1160362 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4f693b17f1065f1a688628af3578ee34c55bfbe8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Aug 22 18:00:29 2011 +0000
+
+    AVRO-879: Try locating the java executable from java.home system property rather than $PATH.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1160350 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a51fa638d9510bf07fb712e6c91950500eb04d21
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Aug 15 23:43:32 2011 +0000
+
+    Update release date & version.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1158065 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8a05b75cd6a4082107b2fd50b4a2c303ca57f34b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Aug 15 23:43:01 2011 +0000
+
+    Update release date & version.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1158064 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2679a8b0563aea563d1d8ca4e124662e6d381db0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Aug 15 22:12:04 2011 +0000
+
+    update release date for 1.5.2
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1158030 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b1bb350b513bfc925960faeb65a28351e7e9ceaa
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Aug 12 21:53:48 2011 +0000
+
+    AVRO-853: Java: Cache Schema hash codes. (cutting)
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1157266 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 646bfb81eece405f0e898b8caa9165579295859d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Aug 12 20:47:23 2011 +0000
+
+    AVRO-874. Java: Improved Schema parsing API and permit IDL imports to depend on names defined in prior imports.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1157245 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a03c19564906b179de1845c9614a985523162f6a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 11 20:14:22 2011 +0000
+
+    AVRO-873. Java: Permit passing classloader to SpecificDatumReader.  Contributed by Michael Armbrust.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1156803 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1bcd8bb5ac635844096a7b177f68597d2ebc226d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jul 28 19:53:43 2011 +0000
+
+    Merge AVRO-833, AVRO-856, AVRO-845 and AVRO-864 to 1.5 branch.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1151988 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 827cac5eccfc507d829d7f734f9365f816eaf6d0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jul 28 19:48:35 2011 +0000
+
+    Move AVRO-833, AVRO-856, AVRO-845 and AVRO-864 to 1.5.2.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1151983 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b61743eb5b604f50aeed13abcdd5164e2d71f706
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Jul 27 22:52:46 2011 +0000
+
+    AVRO-864. Java: Fix reflect to be able to write unions containing generic and/or specific records.  Contributed by Isabel Drost.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1151660 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 78ab4204ce33450f466e7cacb1949b53c5b053f5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Jul 25 20:16:27 2011 +0000
+
+    AVRO-857. Add mailing lists, scm and issue management to Maven metadata.  Contributed Jan Prach.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1150880 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6d3e2f0facaf2f21e049bd71e5f555c365f8c71e
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Fri Jul 15 01:31:04 2011 +0000
+
+    AVRO-396. C: avropipe still had a reference to stdbool
+    
+    I had put together the patch for AVRO-396 before fixing AVRO-861, so
+    there was still a lingering reference to bool and stdbool.h.  I've
+    removed that now.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1146937 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c9f6f4eb4756d387746ea458bc27a4bd08e121ca
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Fri Jul 15 01:22:18 2011 +0000
+
+    AVRO-396. C: avrocat and avropipe commands
+    
+    The new avrocat command prints the contents of an Avro file to stdout.
+    Each record appears on a separate line, and is formatted using the Avro
+    JSON encoding.
+    
+    The new avropipe command prints the same contents, but the output format
+    is the same as if you had run the JSON encoding of the data through the
+    jsonpipe [1] command.  This provides a format that's more amenable to
+    processing using standard Unix tools, since individual scalar values (no
+    matter how deep the original record) appear on separate lines.
+    
+    [1] https://github.com/dvxhouse/jsonpipe
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1146936 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3dff33cb9b8bc5d4c8a1f94a964bc4e5c4d7e5ff
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Fri Jul 15 00:54:01 2011 +0000
+
+    AVRO-861. C: Remove dependency on stdbool.h
+    
+    Buildbot raised on error on Solaris, saying that the stdbool.h header is
+    only allowed in C99 code.  Bruce pointed out that it would be safer and
+    more portable to not rely on any C99 standards if we don't have to.  In
+    this case, it's easy enough to replace bool with int, true with 1, and
+    false with 0.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1146935 13f79535-47bb-0310-9956-ffa450edef68
+
+commit aae39c90a3e5ac80d940471b5694aef1ab193803
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Thu Jul 14 22:58:10 2011 +0000
+
+    AVRO-837. Updated CHANGES.txt
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1146916 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 23b9833e7f7fc164e9ed715062ed84aec8d2a27e
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Thu Jul 14 02:35:04 2011 +0000
+
+    AVRO-837. C: Avro value interface
+    
+    This patch adds a new interface for Avro values.  Eventually, each part
+    of the library that operates on Avro data will work with any C type that
+    implements this interface, rather than only working on avro_datum_t
+    instances.
+    
+    As of right now, we have a definition of the interface itself (along
+    with a bunch of macros that make it easier to call the interface methods
+    on a particular instance).  We also have a “generic” implementation of
+    the interface, which will serve as a replacement for avro_datum_t.
+    
+    There is also an avro_value_t implementation that wraps avro_datum_t
+    instances.  This will let us migrate code slowly to the new interface,
+    where necessary.
+    
+    As part of all of this, I've broken out the monolithic avro.h header
+    file into separate modular headers.  You can still include <avro.h> on
+    its own to pick up all of the parts.
+    
+    Lastly, there's now a test program that compares the performance of the
+    old and new APIs.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1146546 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1fa65b7921fd9a718a70b53c9c2f61efbcbfc279
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Tue Jul 12 21:36:53 2011 +0000
+
+    AVRO-746. Updated CHANGES.txt
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1145780 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 34d6f3ac20492b8b39d05c8e71333bf4d46a59b9
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Tue Jul 12 20:21:04 2011 +0000
+
+    AVO-746. C: Atomic reference counts
+    
+    This patch updates all of the reference counts in various Avro objects
+    to be updated atomically.  This takes care of some race conditions when
+    Avro instances are passed between threads.  The atomic increment and
+    decrement operations are slower than the previous non-atomic operations,
+    but according to some basic performance tests, reference counting isn't
+    the dominating factor in the running time.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1145750 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b623e6f1019798c69c9178c3eb3e2101fb0fe383
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Jul 11 21:21:09 2011 +0000
+
+    AVRO-856. Java: Update Snappy to 1.0.3-rc4.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1145360 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6b2b0e56a70b56f70179775d07f3e9e7a8aed5f5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 20:30:28 2011 +0000
+
+    preparing for 1.5.2 release candidate
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1142082 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 31abd2b47cab8446aafc375bf5ed17e38475efa7
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 20:12:17 2011 +0000
+
+    Merge -c 1142063 from trunk to 1.5 branch.  Fixes: AVRO-810.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1142066 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 0cc2905bb678d3b729a14913ae7bd7a6ee10aa28
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 20:11:34 2011 +0000
+
+    AVRO-810: C#: Add strong naming to assemblies.  Contributed by Eric Hauser.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1142063 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 47a03007d32784ecedeb78cd435360bd7e75f9d4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 20:03:19 2011 +0000
+
+    Merge -c 1142057 from trunk to 1.5 branch.  Fixes: AVRO-825.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1142058 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 07c66f99ada606e5e832d0b9cad0eab776c98c83
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 20:02:28 2011 +0000
+
+    AVRO-825: C++: Fix bugs in codegen with recursive schemas.  Contributed by thiru.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1142057 13f79535-47bb-0310-9956-ffa450edef68
+
+commit df5f9be0214ea3884fc15181d88a0b3e0da4bf3c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 19:52:48 2011 +0000
+
+    AVRO-844. Java: Provide better errors for null or missing record fields.  Contributed by Bill Graham.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1142048 13f79535-47bb-0310-9956-ffa450edef68
+
+commit bf63908f5a3cdebf152e904567ab6c212ae6cbe1
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 16:32:34 2011 +0000
+
+    Merge -c 1141980 from trunk to 1.5 branch.  Fixes: AVRO-842.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1141982 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c4f243262392626c8a9e95ba1e4c355e21ab388a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 16:30:54 2011 +0000
+
+    AVRO-842. Java: Fix Netty-based IPC client to provide better errors when attempting to use a closed connection.  Contributed by James Baldassari.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1141980 13f79535-47bb-0310-9956-ffa450edef68
+
+commit cd50b81836131e56355a8617be5ea9b1be5d63d9
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 16:29:42 2011 +0000
+
+    add some missing attributions
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1141979 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 0a3c5b470e8882e478052af07283b2a6b46ba79f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 1 16:23:39 2011 +0000
+
+    AVRO-847. Java: Add a unit test for Java MapReduce tether.  Contributed by Jeremy Lewi.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1141975 13f79535-47bb-0310-9956-ffa450edef68
+
+commit cd6452119d58dba1752f6c98fede471f3c986d4f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jun 30 19:55:28 2011 +0000
+
+    Merge changes 1079680 and 1141685 from trunk to 1.5 branch.  Fixes: AVRO-776.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1141690 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6a584228314e7ea255c6aa68edee4b770dc6e899
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jun 30 19:47:14 2011 +0000
+
+    Add change message for AVRO-776.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1141685 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8fa7ddbff5c8a715e55cfee259f7232935cf53a9
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jun 30 19:25:09 2011 +0000
+
+    Merge -c 1141677 from trunk to 1.5 branch. Fixes: AVRO-838.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1141678 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 460b26da6b3d929887c9e0fa814851562e2a797f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jun 30 19:23:55 2011 +0000
+
+    AVRO-838. Java: Permit invalid characters in record and field names of schemas read from data files, for compatibility with 1.4.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1141677 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 5b88de9f8724e046c745869b335b82a4af439af3
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Thu Jun 30 16:56:26 2011 +0000
+
+    AVRO-845. setup.py uses Python2.7+ specific code
+    (Miki Tebeka via philz)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1141619 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2f5cdaf1a0d0003a01184ee201ca8e81bd8a9db0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Jun 29 21:47:52 2011 +0000
+
+    AVRO-824. Java: Fix usage message of BinaryFragmentToJsonTool.  Contributed by Jakob Homan.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1141263 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3a282bd65030c4361ea901a8e09a495227df15b0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jun 24 14:34:51 2011 +0000
+
+    AVRO-841.  Java: Implement insertion in GenericData.Array.  Contributed by Nick Palmer.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1139328 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 52ae42f054fc9ac62262b28b6a5c5d3ba4a288fd
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Mon Jun 20 07:02:28 2011 +0000
+
+    AVRO-836. Python "avro" commandline utility to display and write Avro files.
+    Contributed by Miki Tebeka.
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1137526 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 416522f794abd14f3b23b2700be6c9b49c4f2da6
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jun 17 17:55:21 2011 +0000
+
+    Merge r1099257 and r1136342 from trunk.  Fixes: AVRO-815 and AVRO-539.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1136961 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 77c3c699fa348c191cee812392dc025f6ed1331e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jun 17 17:41:57 2011 +0000
+
+    Move AVRO-815 and AVRO-539 to 1.5.2.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1136957 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 153ce108ab9334a4a74e266c078f4d0c08e2f485
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jun 16 09:33:29 2011 +0000
+
+    AVRO-539. Java: Add asynchronous RPC support, through either callbacks or futures.  Contributed by James Baldassari.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1136342 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e82da45639e88db3c04aba76aa09ebdde05f2d21
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jun 2 11:52:07 2011 +0000
+
+    Merge -c 1130503 from trunk  to 1.5 branch.  Fixes: AVRO-832.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1130505 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6c6b08cf33fb1911dd50c6abc2a5e7bfeb1c1a16
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jun 2 11:49:36 2011 +0000
+
+    insert release date of 1.5.1
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1130504 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d4867eb2aba282ebc38d4a25631ea8cd802b2b18
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jun 2 11:41:48 2011 +0000
+
+    AVRO-832. Java: Fix RPC client to correctly perform schema resolution on message responses.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1130503 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 452ed338b64e52116e0c0c3e24705ad09cb27584
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Tue May 31 19:06:11 2011 +0000
+
+    AVRO-833. Don't require simplejson for python >= 2.6.
+    
+    Contributed by Miki Tebeka.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1129856 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 47e7213a9fe64ee67f037f63f9ea889d363970f0
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Tue May 31 15:01:29 2011 +0000
+
+    Merge -c 1129729 from trunk to 1.5.  Fixes: AVRO-469.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1129730 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 535f4ba55859d64d4a566ec68eea64aec774f3f6
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Tue May 31 15:00:25 2011 +0000
+
+    AVRO-469. C: Use soversion in CMake build scripts
+    
+    The CMake build scripts now set the soversion of the generated library
+    correctly.  The version.sh script defines the libtool-style version
+    number to use for the library.  It hadn't been updated in awhile, so
+    I've also bumped the soversion number to reset at a new
+    binary-incompatible library version number.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1129729 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c2ad1e6d0358bd3e842b5bb9161d29a429ab4940
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Tue May 31 14:41:44 2011 +0000
+
+    Merge 1129697 and 1129705 from trunk to 1.5.  Fixes: AVRO-470.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1129707 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 89d8396263807fd5bf94e3ee39e8b34baef28476
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Tue May 31 14:38:29 2011 +0000
+
+    AVRO-470. Documenting fix in CHANGES.txt
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1129705 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 94d4da5ee1ee30e5f65f051885732e02fddef2f0
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Tue May 31 14:28:18 2011 +0000
+
+    AVRO-470. Generate docs in CMake build scripts
+    
+    The CMake build scripts now use asciidoc to generate the documentation,
+    just like the automake scripts do.  You need the asciidoc and
+    source-highlight packages installed; if they're not both available, then
+    we skip the documentation when building.
+    
+    [via Daniel Lundin]
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1129697 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 15954213389383aa5898c0f710b8158aa20963f9
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon May 30 09:01:33 2011 +0000
+
+    Merge -c 1129071 from trunk to 1.5 branch.  Fixes: AVRO-826.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1129077 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 215c50fe20bd74b0d7cdf0e41aaa93bf39f6be91
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon May 30 08:58:28 2011 +0000
+
+    AVRO-826. CSharp: Add MD5 and hashcode functions to Protocol.  Contributed by Dona Alvarez.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1129071 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2460ec2ed8782a1e43962c49cd7be0e4acc541b6
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon May 30 08:31:28 2011 +0000
+
+    Merge -c 1129053 from trunk to 1.5 branch.  Fixes: AVRO-830.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1129056 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b65bfcf9cf6004ae8c2cff0cd58e251032e4c719
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon May 30 08:27:54 2011 +0000
+
+    AVRO-830.  Java: Add AvroTextOutputFormat to permit Hadoop streaming jobs to easily write Avro format output with bytes as schema.  Contributed by Tom White.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1129053 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7531554db608e4083db3db59f48c74f0488fb7dc
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu May 19 15:53:04 2011 +0000
+
+    Merge -c 1124971 from trunk to 1.5 branch.  Fixes: AVRO-820.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1124972 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ea05ebd20d8ae1fc7e6cdfa64c6a40c204d728fe
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu May 19 15:50:40 2011 +0000
+
+    AVRO-820. Java: Permit applications to catch exceptions thrown while writing data to a file and then continue writing to that file.  Contributed by scottcarey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1124971 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 19674f6c6f234d74255d8037493905f0acdd75a2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed May 18 09:30:55 2011 +0000
+
+    Merge -c 1124127 from trunk to 1.5 branch.  Fixes AVRO-809.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1124134 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1dbd63f4d14887ad4f7ac4c74db576f336b8c95f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed May 18 09:28:17 2011 +0000
+
+    no incompatible changes in 1.5.2
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1124130 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e05d7e823c8b05c18d4245b894eb43db66df21b6
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed May 18 09:25:18 2011 +0000
+
+    AVRO-809.  Fix reflect for classes that have no package.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1124127 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ac835f5458ee587f937312bb1eeb3b70699d3aee
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed May 18 09:23:24 2011 +0000
+
+    update CHANGES.txt in trunk to reflect what's been merged to the 1.5 branch
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1124125 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 85bc4f8916fa5db77b6ac3d78747e98844780d04
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon May 16 13:35:41 2011 +0000
+
+    AVRO-815. Remove tabs that cause checkstyle to fail.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1103731 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 453e32abf94756a4aae5e5cd422cd7f08be32239
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Thu May 12 15:08:51 2011 +0000
+
+    Merge change 1102335 from trunk into 1.5 branch
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1102338 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 947bd7daab9ac512bba06f09d27f9dd29b55bef7
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Thu May 12 15:06:02 2011 +0000
+
+    AVRO-819. C: Fix file reader EOF detection
+    
+    This patch fixes a bug that Miki Tebeka discovered in the file reader
+    code.  Errors weren't getting propagated correctly through the call
+    stack.  This caused the file reader to not correctly detect EOF, and so
+    you'd loop through the final block in a file twice.  (The second time
+    through, we wouldn't fill in the datum instance.)
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1102335 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 14c80a58973ea5559beef0483f98ba9536e14161
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Thu May 12 15:02:32 2011 +0000
+
+    Merge change 1102332 from trunk into 1.5 branch
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1102334 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fbab55fdd499dae4736f099111aecf2bc8e488e3
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Thu May 12 14:57:27 2011 +0000
+
+    AVRO-818. C: Fix data file corruption bug
+    
+    This patch fixes the C library's data file writer to produce correct
+    files when there are enough records to produce multiple blocks in the
+    file.  The logic in datafile.c is that we have a fixed-buffer in-memory
+    avro_writer_t instance.  When you append records to the data file, they
+    go into this memory buffer.  If we get an error serializing into the
+    memory buffer, it's presumably because we've filled it, so we write out
+    the memory buffer's contents as a new block in the file, clear the
+    buffer, and try again.
+    
+    The problem is that the failed serialization into the memory buffer
+    isn't atomic; some of the serialization will have made it into the
+    buffer before we discover that there's not enough room.  Before, this
+    incomplete record would then make it into the file.  To fix this, we
+    keep track of the size of the in-memory buffer after the most recent
+    successfully serialized record, and use this as the block size when we
+    write a block to disk.  This ensures that even if there's any incomplete
+    records at the end of the memory buffer, we don't include them in the
+    block.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1102332 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 99460bfd03b981b3265600a9201cc3397a269591
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri May 6 22:19:20 2011 +0000
+
+    Prepare 1.5 branch for future changes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1100406 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3eb8a8c93c9388d1bd79b2297118a1d381bde51d
+Author: Stephen Gargan <sgargan@apache.org>
+Date:   Wed May 4 00:21:09 2011 +0000
+
+    Added comment for Avro-815 to fixes section for 1.6.0
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1099303 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3ea269b831f04da1159b8156536fe8e823767714
+Author: Stephen Gargan <sgargan@apache.org>
+Date:   Tue May 3 21:15:52 2011 +0000
+
+    Avro-815. Netty Transceiver fails processing one-way messages
+    
+    Implemented writeBuffers call in the NettyTranceiver to send a NettyDataPack similar to the request/response call. Added one-way
+    message definition to the test mail.avpr protocol file and updated unit test to verify the one-way behavior.
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1099257 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 12e0994f02ea22e8b7ffb56b61ccbf09e7b0a6fb
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 29 22:24:34 2011 +0000
+
+    Merge change 1097974 from trunk to 1.5 branch, adding a missing license header.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1097975 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 064d76042fc429844fb51fed01c9399240a83020
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 29 22:20:52 2011 +0000
+
+    Preparing for 1.5 release.  Add missing license header.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1097974 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c01549301d656e413ee6a60b209cbf470f368663
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 29 22:09:50 2011 +0000
+
+    Merge change 1097968 from trunk to 1.5 branch.  Fixes: AVRO-812.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1097970 13f79535-47bb-0310-9956-ffa450edef68
+
+commit afa1fd51ad1defb83e622260625cedf597057458
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 29 22:09:03 2011 +0000
+
+    AVRO-812. Java: Implement help goal for Maven plugin.  Contributed by Holger Hoffstätte.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1097968 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 58c99c0890bf014513d6d1d5b0502d27d8cab377
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 29 19:37:04 2011 +0000
+
+    Merge -c 1097927 from trunk to 1.5 branch.  Fixes: AVRO-791.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1097929 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b34848d4b561098b6515ef8fc5217cf18a55a9f5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 29 19:35:47 2011 +0000
+
+    AVRO-791. Java: Add avro-tools-nodeps jar.  Contributed by scottcarey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1097927 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6b3fcbd2a508b42faf02d51b1d93ee95d610346b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 29 19:07:04 2011 +0000
+
+    Merge -c 1097916 from trunk to 1.5 branch.  Fixes: AVRO-793.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1097917 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7472d98289bcb9776339ad253285a6f6dfa939cf
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 29 19:05:20 2011 +0000
+
+    AVRO-793. Java: Fix a bug in the resolver when skipping an array within a record.  Contributed by thiru.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1097916 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 33875473fdc76427e73286de4caa8b27b90ec512
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 26 16:34:50 2011 +0000
+
+    Merge -c 1096798 from trunk to 1.5 branch.  Fixes AVRO-808.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1096800 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d1e46b246eeecee53c5c84a08578a066698e0c8e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 26 16:33:43 2011 +0000
+
+    AVRO-808. Java: Add AvroAsTextInputFormat for use with streaming.  Contributed by Tom White.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1096798 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2d839cfabd8ea4fd4ddd09cecff2e106576d086e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 20 23:12:54 2011 +0000
+
+    Merge change 1095550 from trunk to 1.5 branch.  Fixes: AVRO-801.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1095554 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4601ccfd84bafa293d74ab4d2c9cd953652277c2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 20 23:09:53 2011 +0000
+
+    AVRO-801.  Fix a typo in change log.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1095550 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8133bbece36805c61644f2d6f3718d1e7f8a2c6f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 20 23:09:27 2011 +0000
+
+    Merge change 1095548 from trunk to 1.5 branch.  Fixes: AVRO-801.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1095549 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7833e4baa36951829a4ed4cbb81ae37df617464f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 20 23:08:31 2011 +0000
+
+    AVRO-810. Java: Fix a bug in SaslSocketTransceiver where large messages were truncated on write.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1095548 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a69182d3c5799614c65bab37111f359cd0699f0f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 20 21:53:05 2011 +0000
+
+    Merge change 1095529 from trunk to 1.5 branch.  Fixes: AVRO-807.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1095530 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 03933b393626604faabfb2d4a5adf3463bede4bb
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 20 21:52:10 2011 +0000
+
+    AVRO-807. C#: Some improvements and bugfixes.  Contributed by Dona Alvarez.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1095529 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 142ff4d1abb3ede4cedf9756557bae990c3d2630
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 20 20:00:53 2011 +0000
+
+    Merge changes 1094812, 1095206, 1095207, 1095208 and 1095493 from trunk to 1.5 branch.  Fixes: AVRO-802, AVRO-799, AVRO-798, and AVRO-763.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1095495 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a364235bde361cb9d4336fdc5564e8a1b392291f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 20 19:55:37 2011 +0000
+
+    AVRO-763. Java MapReduce API: add support for configure() and close() methods to mappers and reducers.  Contributed by Marshall Pierce.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1095493 13f79535-47bb-0310-9956-ffa450edef68
+
+commit df001ad422e33182514811b50d0b63d81f868acd
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 19 20:52:12 2011 +0000
+
+    AVRO-798. Add checksum to Snappy compressed blocks.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1095208 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4ed7ff8e89a89af2df7a56f3dc83996a080adece
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 19 20:48:37 2011 +0000
+
+    AVRO-799. Java: Add support for --codec parameter to the 'fromtext' command.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1095207 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 9f34df4ffa72adf599f8b2202de0af000159ef70
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 19 20:44:51 2011 +0000
+
+    AVRO-802. Java: Add documentation for non-Avro input, map-only jobs.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1095206 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3f9db28ce5abc7163e7b8a718136d1d0b7e54caf
+Author: Scott Carey <scottcarey@apache.org>
+Date:   Mon Apr 18 23:12:23 2011 +0000
+
+    AVRO-790 Java: GenericDatumReader can fail when reusing objects with unions containing 'bytes' fields
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1094812 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ad8dc617191dffc7dae010eb37facc7d684ee098
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 6 18:00:36 2011 +0000
+
+    Merge -c 1089550 from trunk  to 1.5 branch.  Fixes: AVRO-788.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1089551 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 77047acd0d8b5b269047f471d5c2df7aad3cbf25
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Apr 6 17:59:26 2011 +0000
+
+    AVRO-788. Java: Add Snappy compression.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1089550 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8921ae305c2eb1b57f5936c0e32639eb6fbda47b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 5 18:14:02 2011 +0000
+
+    Merge r1089128, r1089131 from trunk to 1.5 branch.  Fixes AVRO-794, AVRO-795.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1089150 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 9d567ae97e945f0c5997b0f65d0e4697fd1d732b
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Apr 5 16:54:08 2011 +0000
+
+    AVRO-795. C++ Datafile reader makes it hard to build adaptive clients
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1089131 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 26b4efe10915380de91b0ab5672df6a08d79dd7f
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Apr 5 16:42:03 2011 +0000
+
+    AVRO-794. Makefile.am is no longer required in C++
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1089128 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 84f5086ee8c88fecd0c7afac871d267d9269e1e1
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 1 16:41:20 2011 +0000
+
+    Merge -c 1087792 trunk from trunk to 1.5 branch.  Fixes: AVRO-533.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1087795 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fb9e558d5f831a8ec27cb578014a122dc36dfd33
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 1 16:40:19 2011 +0000
+
+    AVRO-533.  Fix an apparent cut-and-paste error.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1087792 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f7afbb36388ea70bb0798e6b65239a92e0296f81
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 31 22:50:58 2011 +0000
+
+    Merge -c 1087472 from trunk to 1.5 branch.  Fixes: AVRO-709.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1087473 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 361b0fb520d83636b0301203295a25682939d582
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 31 22:49:37 2011 +0000
+
+    AVRO-709. Python: Optimize property lookup.  Contributed by Justin Azoff.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1087472 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 75ec9fc42937995b052c1aadf86e5cf0ae76515a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 31 22:25:29 2011 +0000
+
+    Merge -c 1087463 from trunk  to 1.5 branch.  Fixes: AVRO-296.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1087465 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e3315556f1a58ed027e52047516b02992d26278d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 31 22:23:55 2011 +0000
+
+    AVRO-296. IDL: Use double-asterisk comments for schema documentation.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1087463 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6f07501a2f17b7b4f7b33b37702ac2280e24daed
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 31 21:26:10 2011 +0000
+
+    Merge 1087439, 1087440 from trunk to 1.5 branch.  Fixes AVRO-533.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1087445 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fb8d5a0b64bed038374fff83de4abfeeb89c9461
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 31 21:19:56 2011 +0000
+
+    AVRO-533. Fix svn ignores.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1087440 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e9dbb30d296595f0ebd28350eb7904f4e596370d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Mar 31 21:16:28 2011 +0000
+
+    AVRO-533. Add a C# implementation.  Contributed by Jeremy Custenborder, Dona Alvarez and thiru.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1087439 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d6964478b3ef5bf894cc95ecd73d9f7e490f135c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Mar 30 23:37:35 2011 +0000
+
+    Merge -c 1087136 from trunk to 1.5 branch.  Fixes: AVRO-780.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1087137 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a02c5c2ce3edae38b70648b177a78cc7a64a7b25
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Mar 30 23:36:20 2011 +0000
+
+    AVRO-780. Java: Fix a NullPointerException with reflect data when a union contains an array and null.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1087136 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 41420b66128c0bb6ee47a5480ee48a31b99b7243
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Mar 30 23:11:25 2011 +0000
+
+    Merge -c 1087129 from trunk to 1.5 branch.  Fixes AVRO-787.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1087130 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7784b56a4aeda94de1de3bbe12a468108b7b8e0e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Mar 30 23:10:33 2011 +0000
+
+    AVRO-787. Ruby: Make compatible with Ruby 1.9.  Contributed by Michael L. Artz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1087129 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 886dcb53c4c921a5a31838c919fce9b9cdb2eb66
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Mar 30 21:15:58 2011 +0000
+
+    Merge 1083246, 1085921, 1086866, 1087076 from trunk to 1.5 branch.  Fixes: AVRO-781, AVRO-783, AVRO-789.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1087078 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 0963e563fde59a0848c9200da08885783bd0c637
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Mar 30 21:12:49 2011 +0000
+
+    Move AVRO-781, AVRO-783 and AVRO-789 to 1.5.1.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1087076 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 554434befcb9df043e6ac918966e4271482eb1f4
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Mar 30 07:40:53 2011 +0000
+
+    AVRO-789. Datafile support in C++
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1086866 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fc14d7df136932096fbb59d84a1f340c6a64280e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 29 20:41:42 2011 +0000
+
+    Merge -c 1086730 from trunk  to 1.5 branch.  Fixes: AVRO-785.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1086732 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 60e5ddfd8fd3a41e513e22ef1b228117943886ca
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 29 20:40:21 2011 +0000
+
+    AVRO-785. Java: Squash a Velocity warning by upgrading to Velocity 1.7.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1086730 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1836020a6521743e41fa0fa8d3d7e58e0f78b93f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 29 20:36:36 2011 +0000
+
+    Merge -c 1086727 from trunk to 1.5 branch.  Fixes: AVRO-786.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1086728 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b7d0d2bdc56d4bc7b5514feb534a5194335445fc
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 29 20:34:13 2011 +0000
+
+    AVRO-786. Java: Fix equals() to work on objects containing maps.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1086727 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3d64951d77db4a070e4f4be187dc03a92fc03c7e
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sun Mar 27 12:21:07 2011 +0000
+
+    AVRO-783. Specifc object support in C++
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1085921 13f79535-47bb-0310-9956-ffa450edef68
+
+commit addcbe199d2fe5fbc690554c2309b947f5dd3d54
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sat Mar 19 18:14:03 2011 +0000
+
+    AVRO-781. Generic data support in C++
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1083246 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 49681761a71ee17e1f554e3a411860a28a91fa18
+Author: Stephen Gargan <sgargan@apache.org>
+Date:   Wed Mar 9 07:00:58 2011 +0000
+
+    Avro-776. Java: SocketServer holds socket open after close.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1079680 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c567683f528d5af38e6835773e55092e3e2749bc
+Author: Stephen Gargan <sgargan@apache.org>
+Date:   Wed Mar 9 06:39:16 2011 +0000
+
+    Added interrupt on close to main thread in SocketServer to avoid holding socket and port open
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1079678 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 727e7ace74fa9ed32216fbe656e57edaac9d76bc
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 8 01:04:47 2011 +0000
+
+    Prepare to roll another 1.5.0 candidate.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1079064 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b63f694a7efa6b0a4bc22c70bc2ac6747880267e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 8 01:04:11 2011 +0000
+
+    Prepare to roll another 1.5.0 candidate.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1079063 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 639d6f2316a36225dcc18d75cea283c37eebfe96
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 8 01:02:33 2011 +0000
+
+    Merge -c 1079060 from trunk to 1.5 branch.  Fixes AVRO-761.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1079061 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 16f9fbc19a28d6c22e6a8fe8550ff5801b853d0b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 8 01:01:17 2011 +0000
+
+    AVRO-761. Java: Fix Requestor to not send client's protocol redundantly.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1079060 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b96f626cc38ba3f3318f2e2e522b1ceeda037eb4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 8 00:56:54 2011 +0000
+
+    Merge -c 1079055 from trunk to 1.5 branch.  Fixes AVRO-775.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1079057 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ad935798984a24a6e9e9d2c136ff06a93b761ead
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 8 00:55:57 2011 +0000
+
+    AVRO-775. Java: Fix a file handle leak in DataFileReader.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1079055 13f79535-47bb-0310-9956-ffa450edef68
+
+commit cc70fc15a521d4ea221e51d833505bb8b3c0d430
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Mar 7 20:15:21 2011 +0000
+
+    Merge -c 1078917 from trunk to 1.5 branch.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1078919 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1b144474a26da6ea77d8d959a8b4dc8b07896cb4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Mar 7 20:12:47 2011 +0000
+
+    AVRO-726. Java: Make GenericDatum{Reader,Writer} easier to extend.  Contributed by scottcarey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1078917 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b83a473183dd6d17d92fd036aa7f76b9f5ab0570
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 1 19:37:58 2011 +0000
+
+    Merge -c 1075993 from trunk to 1.5 branch.  Sign jars when deploying.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1075994 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e73a781d5a2ef9259749f882820d4b5932014d96
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 1 19:35:00 2011 +0000
+
+    sign jars when deploying
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1075993 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2c5159a435f5caaaeedb3586b9be6cc460e25b39
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 1 17:42:29 2011 +0000
+
+    Merge -c 1075938 from trunk to 1.5 branch.  Fixes AVRO-769.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1075941 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b328ff0683899b44bb931d6a10a9e6b3624d9a44
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 1 17:40:25 2011 +0000
+
+    AVRO-769. Update javadoc and fix return type of ValidatingEncoder#configure().  Contributed by scottcarey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1075938 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e8dc149b002aa76473084894171f8df7e81ab767
+Author: Doug Cutting <cutting@apache.org>
+Date:   Sat Feb 26 00:51:21 2011 +0000
+
+    Update trunk to build 1.6.0-SNAPSHOT.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1074767 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 48dd07d1650427ad985aef4adf271b319bd6f4b2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Sat Feb 26 00:44:18 2011 +0000
+
+    Set the branch's version to be 1.5.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1074765 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1fb314ad0f0f957beab347fc3a736e7c942ca13f
+Merge: 6120553b1 4d58a729c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Sat Feb 26 00:27:04 2011 +0000
+
+    Try branching 1.5 again.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1074760 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6120553b1cf2eeefc84d0a0eaf4c1f8f5e50f50d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Sat Feb 26 00:16:20 2011 +0000
+
+    Create 1.5 branch.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.5@1074757 13f79535-47bb-0310-9956-ffa450edef68

@@ -1,0 +1,2492 @@
+commit b2f47a1f498fc758d05a9159fd2a3cb5092e8cd1
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jan 29 11:35:00 2016 +0000
+
+    Avro 1.8.0 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.8.0@1727542 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 674b67670758ffa3aa7cc19c83d46720d35bd029
+Merge: 318cbcdf0 85c9b5f62
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jan 22 16:45:22 2016 +0000
+
+    Avro 1.8.0-rc3 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.8.0-rc3@1726254 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 85c9b5f628d16da82e84cfd89c68bbe8942f2ca5
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jan 22 13:34:33 2016 +0000
+
+    Skip javadoc for avro-guava-dependencies.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1726207 13f79535-47bb-0310-9956-ffa450edef68
+
+7	0	lang/java/guava/pom.xml
+
+commit 318cbcdf0e314b52950a5a9e93bda97fe307a7a2
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jan 22 12:27:41 2016 +0000
+
+    Avro 1.8.0-rc3 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.8.0-rc3@1726194 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f896e3381ed648eeca4b90930659e3855d5a097a
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jan 22 12:25:38 2016 +0000
+
+    Update date for 1.8.0 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1726192 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	CHANGES.txt
+
+commit 1c648145f37ccfa331c7790663c005858d35627c
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Thu Jan 21 15:27:56 2016 +0000
+
+    AVRO-1783. Ruby: Ensure correct binary encoding for byte strings.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1725987 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/ruby/lib/avro/io.rb
+12	11	lang/ruby/lib/avro/ipc.rb
+1	1	lang/ruby/lib/avro/schema.rb
+45	0	lang/ruby/test/test_io.rb
+
+commit adfe620a98d4b0cd7baec266d58ad886a13a3663
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Jan 21 12:20:36 2016 +0000
+
+    Increment C version number to reflect incomaptible changes since last update (May 2011).
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1725918 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/c/version.sh
+
+commit 2d192b499d04ff42afb10d06ea178543bc978077
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Jan 21 12:06:23 2016 +0000
+
+    AVRO-1781 ADDENDUM: Remove LogicalTypes cache.
+    
+    This cache maps a Schema to its corresponding LogicalType that has been
+    constructed from the Schema's properties, by object identity. This is no
+    longer needed now that the LogicalType is set on the schema instance
+    when it is parsed. The cache was necessary when we were trying to avoid
+    all changes to the Schema class.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1725916 13f79535-47bb-0310-9956-ffa450edef68
+
+1	16	lang/java/avro/src/main/java/org/apache/avro/LogicalTypes.java
+
+commit 162aa95c11c935a43f2e2130ca3e28279b3ce6fa
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Thu Jan 21 11:01:36 2016 +0000
+
+    AVRO-1775. Ruby: Use test-unit gem for running tests.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1725904 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	0	lang/ruby/Gemfile
+
+commit e810734de79c0be44e2038bede4129189fe68648
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Thu Jan 21 11:00:54 2016 +0000
+
+    AVRO-1663. C: Fix handling of namespaces for enum and fixed types.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1725903 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+13	0	lang/c/src/allocation.c
+1	0	lang/c/src/avro/allocation.h
+4	0	lang/c/src/avro/schema.h
+161	38	lang/c/src/schema.c
+2	0	lang/c/src/schema.h
+6	0	lang/c/src/schema_equal.c
+9	0	lang/c/tests/schema_tests/pass/namespace_enum
+9	0	lang/c/tests/schema_tests/pass/namespace_fixed
+8	0	lang/c/tests/schema_tests/pass/namespace_fullname
+
+commit a38ca8957c021e8dc532132652c2fb289d8e1d6a
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Thu Jan 21 10:59:16 2016 +0000
+
+    AVRO-1691. C: Allow schemas consisting only of a primitive type. Contributed by Magnus Edenhill.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1725902 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	2	lang/c/src/schema.c
+1	0	lang/c/tests/CMakeLists.txt
+94	0	lang/c/tests/test_avro_1691.c
+
+commit 9330bcbcf3d91cf72a32ba3c251c634a0f2b9a2b
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Thu Jan 21 10:58:11 2016 +0000
+
+    AVRO-1769. C: Use operating system's libjansson instead of bundling it with Avro. Contributed by Magnus Edenhill.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1725901 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+0	152	LICENSE.txt
+10	1	lang/c/CMakeLists.txt
+12	6	lang/c/INSTALL
+0	183	lang/c/LICENSE
+2	2	lang/c/README.maintaining_win32.txt
+8	3	lang/c/docs/index.txt
+0	1	lang/c/jansson/.gitignore
+0	330	lang/c/jansson/CHANGES
+0	19	lang/c/jansson/LICENSE
+0	10	lang/c/jansson/Makefile.am
+0	640	lang/c/jansson/Makefile.in
+0	59	lang/c/jansson/README.rst
+0	8895	lang/c/jansson/aclocal.m4
+0	1500	lang/c/jansson/config.guess
+0	75	lang/c/jansson/config.h.in
+0	1616	lang/c/jansson/config.sub
+0	13010	lang/c/jansson/configure
+0	49	lang/c/jansson/configure.ac
+0	584	lang/c/jansson/depcomp
+0	20	lang/c/jansson/doc/Makefile.am
+0	352	lang/c/jansson/doc/Makefile.in
+0	5	lang/c/jansson/doc/README
+0	1221	lang/c/jansson/doc/apiref.rst
+0	5	lang/c/jansson/doc/changes.rst
+0	217	lang/c/jansson/doc/conf.py
+0	112	lang/c/jansson/doc/conformance.rst
+0	59	lang/c/jansson/doc/ext/refcounting.py
+0	123	lang/c/jansson/doc/gettingstarted.rst
+0	171	lang/c/jansson/doc/github_commits.c
+0	47	lang/c/jansson/doc/index.rst
+0	275	lang/c/jansson/doc/tutorial.rst
+0	76	lang/c/jansson/doc/upgrading.rst
+0	507	lang/c/jansson/install-sh
+0	10	lang/c/jansson/jansson.pc.in
+0	8745	lang/c/jansson/ltmain.sh
+0	367	lang/c/jansson/missing
+0	27	lang/c/jansson/src/Makefile.am
+0	477	lang/c/jansson/src/Makefile.in
+0	465	lang/c/jansson/src/dump.c
+0	62	lang/c/jansson/src/error.c
+0	372	lang/c/jansson/src/hashtable.c
+0	218	lang/c/jansson/src/hashtable.h
+0	257	lang/c/jansson/src/jansson.h
+0	34	lang/c/jansson/src/jansson_config.h
+0	34	lang/c/jansson/src/jansson_config.h.in
+0	106	lang/c/jansson/src/jansson_private.h
+0	964	lang/c/jansson/src/load.c
+0	51	lang/c/jansson/src/memory.c
+0	610	lang/c/jansson/src/pack_unpack.c
+0	104	lang/c/jansson/src/strbuffer.c
+0	42	lang/c/jansson/src/strbuffer.h
+0	190	lang/c/jansson/src/utf.c
+0	50	lang/c/jansson/src/utf.h
+0	983	lang/c/jansson/src/value.c
+0	13	lang/c/jansson/test/.gitignore
+0	10	lang/c/jansson/test/Makefile.am
+0	569	lang/c/jansson/test/Makefile.in
+0	6	lang/c/jansson/test/bin/Makefile.am
+0	439	lang/c/jansson/test/bin/Makefile.in
+0	124	lang/c/jansson/test/bin/json_process.c
+0	49	lang/c/jansson/test/run-suites
+0	89	lang/c/jansson/test/scripts/run-tests.sh
+0	35	lang/c/jansson/test/scripts/valgrind.sh
+0	2	lang/c/jansson/test/suites/Makefile.am
+0	487	lang/c/jansson/test/suites/Makefile.in
+0	32	lang/c/jansson/test/suites/api/Makefile.am
+0	553	lang/c/jansson/test/suites/api/Makefile.in
+0	36	lang/c/jansson/test/suites/api/run
+0	400	lang/c/jansson/test/suites/api/test_array.c
+0	319	lang/c/jansson/test/suites/api/test_copy.c
+0	142	lang/c/jansson/test/suites/api/test_dump.c
+0	190	lang/c/jansson/test/suites/api/test_equal.c
+0	60	lang/c/jansson/test/suites/api/test_load.c
+0	38	lang/c/jansson/test/suites/api/test_loadb.c
+0	84	lang/c/jansson/test/suites/api/test_memory_funcs.c
+0	44	lang/c/jansson/test/suites/api/test_number.c
+0	451	lang/c/jansson/test/suites/api/test_object.c
+0	232	lang/c/jansson/test/suites/api/test_pack.c
+0	185	lang/c/jansson/test/suites/api/test_simple.c
+0	341	lang/c/jansson/test/suites/api/test_unpack.c
+0	55	lang/c/jansson/test/suites/api/util.h
+0	2	lang/c/jansson/test/suites/invalid-unicode/encoded-surrogate-half/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/encoded-surrogate-half/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-after-backslash/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-after-backslash/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-array/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-array/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-bigger-int/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-bigger-int/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-escape/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-escape/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-exponent/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-exponent/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-identifier/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-identifier/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-int/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-int/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-real-after-e/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-real-after-e/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-string/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/invalid-utf-8-in-string/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/lone-invalid-utf-8/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/lone-invalid-utf-8/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/lone-utf-8-continuation-byte/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/lone-utf-8-continuation-byte/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/not-in-unicode-range/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/not-in-unicode-range/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/overlong-3-byte-encoding/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/overlong-3-byte-encoding/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/overlong-4-byte-encoding/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/overlong-4-byte-encoding/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/overlong-ascii-encoding/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/overlong-ascii-encoding/input
+0	2	lang/c/jansson/test/suites/invalid-unicode/restricted-utf-8/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/restricted-utf-8/input
+0	27	lang/c/jansson/test/suites/invalid-unicode/run
+0	2	lang/c/jansson/test/suites/invalid-unicode/truncated-utf-8/error
+0	1	lang/c/jansson/test/suites/invalid-unicode/truncated-utf-8/input
+0	2	lang/c/jansson/test/suites/invalid/apostrophe/error
+0	1	lang/c/jansson/test/suites/invalid/apostrophe/input
+0	2	lang/c/jansson/test/suites/invalid/ascii-unicode-identifier/error
+0	1	lang/c/jansson/test/suites/invalid/ascii-unicode-identifier/input
+0	2	lang/c/jansson/test/suites/invalid/brace-comma/error
+0	1	lang/c/jansson/test/suites/invalid/brace-comma/input
+0	2	lang/c/jansson/test/suites/invalid/bracket-comma/error
+0	1	lang/c/jansson/test/suites/invalid/bracket-comma/input
+0	2	lang/c/jansson/test/suites/invalid/bracket-one-comma/error.normal
+0	2	lang/c/jansson/test/suites/invalid/bracket-one-comma/error.strip
+0	1	lang/c/jansson/test/suites/invalid/bracket-one-comma/input
+0	2	lang/c/jansson/test/suites/invalid/empty/error
+0	0	lang/c/jansson/test/suites/invalid/empty/input
+0	2	lang/c/jansson/test/suites/invalid/escaped-null-byte-in-string/error
+0	1	lang/c/jansson/test/suites/invalid/escaped-null-byte-in-string/input
+0	2	lang/c/jansson/test/suites/invalid/extra-comma-in-array/error
+0	1	lang/c/jansson/test/suites/invalid/extra-comma-in-array/input
+0	2	lang/c/jansson/test/suites/invalid/extra-comma-in-multiline-array/error
+0	6	lang/c/jansson/test/suites/invalid/extra-comma-in-multiline-array/input
+0	2	lang/c/jansson/test/suites/invalid/garbage-after-newline/error
+0	2	lang/c/jansson/test/suites/invalid/garbage-after-newline/input
+0	2	lang/c/jansson/test/suites/invalid/garbage-at-the-end/error
+0	1	lang/c/jansson/test/suites/invalid/garbage-at-the-end/input
+0	2	lang/c/jansson/test/suites/invalid/integer-starting-with-zero/error
+0	1	lang/c/jansson/test/suites/invalid/integer-starting-with-zero/input
+0	2	lang/c/jansson/test/suites/invalid/invalid-escape/error
+0	1	lang/c/jansson/test/suites/invalid/invalid-escape/input
+0	2	lang/c/jansson/test/suites/invalid/invalid-identifier/error
+0	1	lang/c/jansson/test/suites/invalid/invalid-identifier/input
+0	2	lang/c/jansson/test/suites/invalid/invalid-negative-integer/error
+0	1	lang/c/jansson/test/suites/invalid/invalid-negative-integer/input
+0	2	lang/c/jansson/test/suites/invalid/invalid-negative-real/error
+0	1	lang/c/jansson/test/suites/invalid/invalid-negative-real/input
+0	2	lang/c/jansson/test/suites/invalid/invalid-second-surrogate/error
+0	1	lang/c/jansson/test/suites/invalid/invalid-second-surrogate/input
+0	2	lang/c/jansson/test/suites/invalid/lone-open-brace/error.normal
+0	2	lang/c/jansson/test/suites/invalid/lone-open-brace/error.strip
+0	1	lang/c/jansson/test/suites/invalid/lone-open-brace/input
+0	2	lang/c/jansson/test/suites/invalid/lone-open-bracket/error.normal
+0	2	lang/c/jansson/test/suites/invalid/lone-open-bracket/error.strip
+0	1	lang/c/jansson/test/suites/invalid/lone-open-bracket/input
+0	2	lang/c/jansson/test/suites/invalid/lone-second-surrogate/error
+0	1	lang/c/jansson/test/suites/invalid/lone-second-surrogate/input
+0	2	lang/c/jansson/test/suites/invalid/minus-sign-without-number/error
+0	1	lang/c/jansson/test/suites/invalid/minus-sign-without-number/input
+0	2	lang/c/jansson/test/suites/invalid/negative-integer-starting-with-zero/error
+0	1	lang/c/jansson/test/suites/invalid/negative-integer-starting-with-zero/input
+0	2	lang/c/jansson/test/suites/invalid/null-byte-in-string/error
+-	-	lang/c/jansson/test/suites/invalid/null-byte-in-string/input
+0	2	lang/c/jansson/test/suites/invalid/null-byte-in-string/nostrip
+0	2	lang/c/jansson/test/suites/invalid/null-byte-outside-string/error
+-	-	lang/c/jansson/test/suites/invalid/null-byte-outside-string/input
+0	2	lang/c/jansson/test/suites/invalid/null-byte-outside-string/nostrip
+0	2	lang/c/jansson/test/suites/invalid/null/error
+0	1	lang/c/jansson/test/suites/invalid/null/input
+0	2	lang/c/jansson/test/suites/invalid/object-apostrophes/error
+0	1	lang/c/jansson/test/suites/invalid/object-apostrophes/input
+0	2	lang/c/jansson/test/suites/invalid/object-garbage-at-end/error
+0	1	lang/c/jansson/test/suites/invalid/object-garbage-at-end/input
+0	2	lang/c/jansson/test/suites/invalid/object-in-unterminated-array/error.normal
+0	2	lang/c/jansson/test/suites/invalid/object-in-unterminated-array/error.strip
+0	1	lang/c/jansson/test/suites/invalid/object-in-unterminated-array/input
+0	2	lang/c/jansson/test/suites/invalid/object-no-colon/error.normal
+0	2	lang/c/jansson/test/suites/invalid/object-no-colon/error.strip
+0	1	lang/c/jansson/test/suites/invalid/object-no-colon/input
+0	2	lang/c/jansson/test/suites/invalid/object-no-value/error.normal
+0	2	lang/c/jansson/test/suites/invalid/object-no-value/error.strip
+0	1	lang/c/jansson/test/suites/invalid/object-no-value/input
+0	2	lang/c/jansson/test/suites/invalid/object-unterminated-value/error.normal
+0	2	lang/c/jansson/test/suites/invalid/object-unterminated-value/error.strip
+0	1	lang/c/jansson/test/suites/invalid/object-unterminated-value/input
+0	2	lang/c/jansson/test/suites/invalid/real-garbage-after-e/error
+0	1	lang/c/jansson/test/suites/invalid/real-garbage-after-e/input
+0	2	lang/c/jansson/test/suites/invalid/real-negative-overflow/error
+0	1	lang/c/jansson/test/suites/invalid/real-negative-overflow/input
+0	2	lang/c/jansson/test/suites/invalid/real-positive-overflow/error
+0	1	lang/c/jansson/test/suites/invalid/real-positive-overflow/input
+0	2	lang/c/jansson/test/suites/invalid/real-truncated-at-e/error
+0	1	lang/c/jansson/test/suites/invalid/real-truncated-at-e/input
+0	2	lang/c/jansson/test/suites/invalid/real-truncated-at-point/error
+0	1	lang/c/jansson/test/suites/invalid/real-truncated-at-point/input
+0	57	lang/c/jansson/test/suites/invalid/run
+0	2	lang/c/jansson/test/suites/invalid/tab-character-in-string/error
+0	1	lang/c/jansson/test/suites/invalid/tab-character-in-string/input
+0	2	lang/c/jansson/test/suites/invalid/too-big-negative-integer/error
+0	1	lang/c/jansson/test/suites/invalid/too-big-negative-integer/input
+0	2	lang/c/jansson/test/suites/invalid/too-big-positive-integer/error
+0	1	lang/c/jansson/test/suites/invalid/too-big-positive-integer/input
+0	2	lang/c/jansson/test/suites/invalid/truncated-unicode-surrogate/error
+0	1	lang/c/jansson/test/suites/invalid/truncated-unicode-surrogate/input
+0	2	lang/c/jansson/test/suites/invalid/unicode-identifier/error
+0	1	lang/c/jansson/test/suites/invalid/unicode-identifier/input
+0	2	lang/c/jansson/test/suites/invalid/unterminated-array-and-object/error.normal
+0	2	lang/c/jansson/test/suites/invalid/unterminated-array-and-object/error.strip
+0	1	lang/c/jansson/test/suites/invalid/unterminated-array-and-object/input
+0	2	lang/c/jansson/test/suites/invalid/unterminated-array/error.normal
+0	2	lang/c/jansson/test/suites/invalid/unterminated-array/error.strip
+0	1	lang/c/jansson/test/suites/invalid/unterminated-array/input
+0	2	lang/c/jansson/test/suites/invalid/unterminated-empty-key/error.normal
+0	2	lang/c/jansson/test/suites/invalid/unterminated-empty-key/error.strip
+0	1	lang/c/jansson/test/suites/invalid/unterminated-empty-key/input
+0	2	lang/c/jansson/test/suites/invalid/unterminated-key/error.normal
+0	2	lang/c/jansson/test/suites/invalid/unterminated-key/error.strip
+0	1	lang/c/jansson/test/suites/invalid/unterminated-key/input
+0	2	lang/c/jansson/test/suites/invalid/unterminated-object-and-array/error
+0	1	lang/c/jansson/test/suites/invalid/unterminated-object-and-array/input
+0	2	lang/c/jansson/test/suites/invalid/unterminated-string/error.normal
+0	2	lang/c/jansson/test/suites/invalid/unterminated-string/error.strip
+0	1	lang/c/jansson/test/suites/invalid/unterminated-string/input
+0	5	lang/c/jansson/test/suites/valid/complex-array/input
+0	1	lang/c/jansson/test/suites/valid/complex-array/output
+0	1	lang/c/jansson/test/suites/valid/empty-array/input
+0	1	lang/c/jansson/test/suites/valid/empty-array/output
+0	1	lang/c/jansson/test/suites/valid/empty-object-in-array/input
+0	1	lang/c/jansson/test/suites/valid/empty-object-in-array/output
+0	1	lang/c/jansson/test/suites/valid/empty-object/input
+0	1	lang/c/jansson/test/suites/valid/empty-object/output
+0	1	lang/c/jansson/test/suites/valid/empty-string/input
+0	1	lang/c/jansson/test/suites/valid/empty-string/output
+0	1	lang/c/jansson/test/suites/valid/escaped-utf-control-char/input
+0	1	lang/c/jansson/test/suites/valid/escaped-utf-control-char/output
+0	1	lang/c/jansson/test/suites/valid/false/input
+0	1	lang/c/jansson/test/suites/valid/false/output
+0	1	lang/c/jansson/test/suites/valid/negative-int/input
+0	1	lang/c/jansson/test/suites/valid/negative-int/output
+0	1	lang/c/jansson/test/suites/valid/negative-one/input
+0	1	lang/c/jansson/test/suites/valid/negative-one/output
+0	1	lang/c/jansson/test/suites/valid/negative-zero/input
+0	1	lang/c/jansson/test/suites/valid/negative-zero/output
+0	1	lang/c/jansson/test/suites/valid/null/input
+0	1	lang/c/jansson/test/suites/valid/null/output
+0	1	lang/c/jansson/test/suites/valid/one-byte-utf-8/input
+0	1	lang/c/jansson/test/suites/valid/one-byte-utf-8/output
+0	1	lang/c/jansson/test/suites/valid/real-capital-e-negative-exponent/input
+0	1	lang/c/jansson/test/suites/valid/real-capital-e-negative-exponent/output
+0	1	lang/c/jansson/test/suites/valid/real-capital-e-positive-exponent/input
+0	1	lang/c/jansson/test/suites/valid/real-capital-e-positive-exponent/output
+0	1	lang/c/jansson/test/suites/valid/real-capital-e/input
+0	1	lang/c/jansson/test/suites/valid/real-capital-e/output
+0	1	lang/c/jansson/test/suites/valid/real-exponent/input
+0	1	lang/c/jansson/test/suites/valid/real-exponent/output
+0	1	lang/c/jansson/test/suites/valid/real-fraction-exponent/input
+0	1	lang/c/jansson/test/suites/valid/real-fraction-exponent/output
+0	1	lang/c/jansson/test/suites/valid/real-negative-exponent/input
+0	1	lang/c/jansson/test/suites/valid/real-negative-exponent/output
+0	1	lang/c/jansson/test/suites/valid/real-positive-exponent/input
+0	1	lang/c/jansson/test/suites/valid/real-positive-exponent/output
+0	1	lang/c/jansson/test/suites/valid/real-underflow/input
+0	1	lang/c/jansson/test/suites/valid/real-underflow/output
+0	55	lang/c/jansson/test/suites/valid/run
+0	1	lang/c/jansson/test/suites/valid/short-string/input
+0	1	lang/c/jansson/test/suites/valid/short-string/output
+0	1	lang/c/jansson/test/suites/valid/simple-ascii-string/input
+0	1	lang/c/jansson/test/suites/valid/simple-ascii-string/output
+0	1	lang/c/jansson/test/suites/valid/simple-int-0/input
+0	1	lang/c/jansson/test/suites/valid/simple-int-0/output
+0	1	lang/c/jansson/test/suites/valid/simple-int-1/input
+0	1	lang/c/jansson/test/suites/valid/simple-int-1/output
+0	1	lang/c/jansson/test/suites/valid/simple-int-123/input
+0	1	lang/c/jansson/test/suites/valid/simple-int-123/output
+0	1	lang/c/jansson/test/suites/valid/simple-object/input
+0	1	lang/c/jansson/test/suites/valid/simple-object/output
+0	1	lang/c/jansson/test/suites/valid/simple-real/input
+0	1	lang/c/jansson/test/suites/valid/simple-real/output
+0	1	lang/c/jansson/test/suites/valid/string-escapes/input
+0	1	lang/c/jansson/test/suites/valid/string-escapes/output
+0	1	lang/c/jansson/test/suites/valid/three-byte-utf-8/input
+0	1	lang/c/jansson/test/suites/valid/three-byte-utf-8/output
+0	1	lang/c/jansson/test/suites/valid/true/input
+0	1	lang/c/jansson/test/suites/valid/true/output
+0	1	lang/c/jansson/test/suites/valid/two-byte-utf-8/input
+0	1	lang/c/jansson/test/suites/valid/two-byte-utf-8/output
+0	1	lang/c/jansson/test/suites/valid/utf-8-string/input
+0	1	lang/c/jansson/test/suites/valid/utf-8-string/output
+0	1	lang/c/jansson/test/suites/valid/utf-surrogate-four-byte-encoding/input
+0	1	lang/c/jansson/test/suites/valid/utf-surrogate-four-byte-encoding/output
+4	21	lang/c/src/CMakeLists.txt
+1	1	lang/c/tests/test_avro_data.c
+1	1	share/docker/Dockerfile
+
+commit c1be0a192c21792df5d167fbb87eaf2a3f8c0672
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Jan 18 10:53:38 2016 +0000
+
+    AVRO-1760. Java: Thread scalability problem with the use of SynchronizedMap
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1725222 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+3	3	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+
+commit edd9f5557b344be58b03ed01c3588734c793ac46
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Jan 14 11:39:21 2016 +0000
+
+    AVRO-1781: Use Guava for a thread-safe weak identity cache.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1724591 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+29	0	lang/java/avro/pom.xml
+7	5	lang/java/avro/src/main/java/org/apache/avro/LogicalTypes.java
+209	0	lang/java/avro/src/main/resources/META-INF/LICENSE
+86	0	lang/java/guava/pom.xml
+31	0	lang/java/guava/src/main/java/org/apache/avro/GuavaClasses.java
+209	0	lang/java/guava/src/main/resources/META-INF/LICENSE
+27	0	lang/java/mapred/pom.xml
+3	0	lang/java/pom.xml
+7	0	lang/java/tools/src/main/resources/META-INF/LICENSE
+
+commit a7a547cb8a3b7bb16531ef956b81c663c197fe75
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Wed Jan 13 20:32:45 2016 +0000
+
+    AVRO-1782. Ruby: Fix unit test failures in new versions of Ruby.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1724507 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/ruby/lib/avro/schema_normalization.rb
+2	0	lang/ruby/test/case_finder.rb
+
+commit c42c40f728c338b4c144c5cbd431e0513dabf7fe
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jan 13 11:01:04 2016 +0000
+
+    AVRO-1780: Java: Fix NPE in tools. Contributed by Tom White.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1724395 13f79535-47bb-0310-9956-ffa450edef68
+
+14	1	lang/java/tools/src/main/java/org/apache/avro/tool/Main.java
+
+commit bc7091cad925828bfb18c5c282394194e30e2901
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Jan 12 11:12:27 2016 +0000
+
+    AVRO-1779. Avro docs convenience artifact missing LICENSE/NOTICE. Contributed by blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1724205 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+3	2	build.sh
+1	0	lang/c++/Doxyfile
+
+commit faf5af028c53802f30f0d8995d03f8afa1d0ea5c
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Mon Jan 11 21:00:24 2016 +0000
+
+    AVRO-1725. Docs: clarify restrictions on enum symbols.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1724128 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	2	doc/src/content/xdocs/spec.xml
+
+commit 7a282100438736e70e0361b94891b5b59157d62f
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jan 6 12:12:10 2016 +0000
+
+    AVRO-1772. Ruby: load error in rubygem when loading schema normalization. Contributed by blue and martinkl.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1723296 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	0	lang/ruby/Manifest
+1	1	lang/ruby/build.sh
+
+commit 059e6dff3b0f6ccec866f7061815766f43d7ce22
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jan 6 12:06:41 2016 +0000
+
+    AVRO-1771. Add LICENSE and NOTICE to avro-doc artifact. Contributed by blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1723293 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+5	1	build.sh
+330	0	doc/LICENSE
+83	0	doc/NOTICE
+
+commit a8a39c2900559bf2c3f59282f62e7b13603408db
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jan 6 11:51:32 2016 +0000
+
+    AVRO-1770. Python 3 overwrites custom README.txt. Contributed by blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1723288 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+0	6	lang/py3/setup.py
+
+commit 9d5ae9919dfdd8d634704ae47c22c2b43662f7e6
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Wed Dec 30 15:52:33 2015 +0000
+
+    AVRO-1560: C: Fix build for custom libsnappy location. Contributed by Ujjwal.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1722365 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	0	lang/c/CMakeLists.txt
+
+commit 37d9f0ca38ccdf1c51ecacf9d679a506d359e2be
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Wed Dec 30 15:43:57 2015 +0000
+
+    AVRO-1617: C: Fix equality checking of record schemas. Contributed by Skye Wanderman-Milne.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1722362 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	0	lang/c/src/schema_equal.c
+
+commit ab8a15ac2b6685264d88d2c7aaa48d16907ecd17
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Wed Dec 30 15:32:01 2015 +0000
+
+    AVRO-1572: C: Fix EOF handling on data files that are multiples of 4096 bytes. (Ben Walsh via martinkl)
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1722355 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+10	5	lang/c/src/datafile.c
+1	0	lang/c/tests/CMakeLists.txt
+164	0	lang/c/tests/test_avro_1572.c
+
+commit 561671b051f565418d4989a1bbed357c8e9a3871
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Dec 16 14:21:56 2015 +0000
+
+    Add sleep statement to Python tests to avoid race condition.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1720361 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	lang/py/test/test_tether_task_runner.py
+1	0	lang/py/test/test_tether_word_count.py
+
+commit eff0765112207fb19c9d2efd0a14077822a7df0a
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Dec 16 13:39:23 2015 +0000
+
+    Remove errant newline from VERSION.txt.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1720356 13f79535-47bb-0310-9956-ffa450edef68
+
+1	0	lang/ruby/build.sh
+1	1	share/VERSION.txt
+
+commit b1c5555a70e296c7ea2768c9b6a4adc135ced3bc
+Author: Ryan Blue <blue@apache.org>
+Date:   Wed Dec 16 00:18:59 2015 +0000
+
+    Preparing to build 1.8.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1720283 13f79535-47bb-0310-9956-ffa450edef68
+
+0	2	CHANGES.txt
+1	1	lang/java/archetypes/avro-service-archetype/pom.xml
+1	1	lang/java/archetypes/pom.xml
+1	1	lang/java/avro/pom.xml
+1	1	lang/java/compiler/pom.xml
+1	1	lang/java/ipc/pom.xml
+1	1	lang/java/mapred/pom.xml
+1	1	lang/java/maven-plugin/pom.xml
+1	1	lang/java/pom.xml
+1	1	lang/java/protobuf/pom.xml
+1	1	lang/java/thrift/pom.xml
+1	1	lang/java/tools/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+1	1	lang/java/trevni/core/pom.xml
+2	2	lang/java/trevni/doc/pom.xml
+1	1	lang/java/trevni/pom.xml
+1	1	pom.xml
+1	1	share/VERSION.txt
+
+commit 8c30a2d55d841e3da32554b01850fb40aeff9c0f
+Merge: ed6a4e1f2 1ccb4c22c
+Author: Ryan Blue <blue@apache.org>
+Date:   Tue Dec 15 23:54:49 2015 +0000
+
+    Branching for 1.8 releases
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1720281 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1ccb4c22c1723d8137c3fa21dc16252af593d76c
+Author: Ryan Blue <blue@apache.org>
+Date:   Tue Dec 15 23:52:42 2015 +0000
+
+    Preparing for release 1.8.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1720278 13f79535-47bb-0310-9956-ffa450edef68
+
+3	1	CHANGES.txt
+
+commit ee28a20bef542d693312a3fc39239eee33800879
+Author: Ryan Blue <blue@apache.org>
+Date:   Tue Dec 15 23:23:35 2015 +0000
+
+    AVRO-1728: Java: Add LICENSE and NOTICE files to jars.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1720272 13f79535-47bb-0310-9956-ffa450edef68
+
+1	8	LICENSE.txt
+3	0	lang/java/compiler/pom.xml
+235	0	lang/java/compiler/src/main/resources/META-INF/LICENSE
+32	0	lang/java/mapred/src/main/resources/META-INF/NOTICE
+1	0	lang/java/pom.xml
+98	4	lang/java/tools/pom.xml
+202	0	lang/java/tools/src/main/javadoc/META-INF/LICENSE
+5	0	lang/java/tools/src/main/javadoc/META-INF/NOTICE
+1120	0	lang/java/tools/src/main/resources/META-INF/LICENSE
+202	0	lang/java/tools/src/main/resources/META-INF/LICENSE.txt
+403	0	lang/java/tools/src/main/resources/META-INF/NOTICE
+5	0	lang/java/tools/src/main/resources/META-INF/NOTICE.txt
+289	0	lang/java/tools/src/main/resources/META-INF/cddl-1.0.text
+327	0	lang/java/tools/src/main/resources/META-INF/cddl-1.1.text
+329	0	lang/java/tools/src/main/resources/META-INF/mpl-2.0.text
+202	0	lang/java/tools/src/test/resources/META-INF/LICENSE
+5	0	lang/java/tools/src/test/resources/META-INF/NOTICE
+1	0	pom.xml
+
+commit 4590538073b1b9cb8d4d471e082cfcfc3e1940ff
+Author: Ryan Blue <blue@apache.org>
+Date:   Tue Dec 15 00:50:12 2015 +0000
+
+    AVRO-1584: Java: Escape characters not allowed in JSON in toString.
+    
+    From the JSON spec: "All Unicode characters may be placed within the
+    quotation marks except for the characters that must be escaped:
+    quotation mark, reverse solidus, and the control characters (U+0000
+    through U+001F)."
+    
+    This uses the existing string escape function.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1720055 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+3	3	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+12	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit 273106bd1186680c54c8101e75e0e7a8a0d83fd1
+Author: Ryan Blue <blue@apache.org>
+Date:   Tue Dec 8 21:34:42 2015 +0000
+
+    AVRO-1767: Fall back to unwrapped union values. Contributed by Matthieu Monsch.
+    
+    Previously, union wrapping during `type.clone` calls would be done in
+    place of normal copy. Now it is done as a backup if a normal copy fails.
+    This is more consistent with the documentation, and makes it much
+    simpler to wrap nested unions.
+    
+    Other changes:
+    
+    + Add an optional argument to `type.getName` to expose built-in type
+      names (useful to implement an "optional" logical type for example).
+    + Document (and rename) `assertLogicalTypes` parsing option.
+    + Tweak logical type validity check, enabling error hooks to work even
+      when a logical type is valid for a subset of its underlying type's
+      values (e.g.  when defining an "even integer" type). Previously the
+      path would have been correct but the type would have been that of the
+      underlying one.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1718715 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+12	4	lang/js/doc/API.md
+34	25	lang/js/lib/schemas.js
+169	2	lang/js/test/test_schemas.js
+
+commit 80ba788ecdccaff5fbc011f6ad619bb62815dc04
+Author: Ryan Blue <blue@apache.org>
+Date:   Tue Dec 8 17:06:20 2015 +0000
+
+    AVRO-1722 ADDENDUM: Add last license doc changes, rat helper.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1718650 13f79535-47bb-0310-9956-ffa450edef68
+
+20	3	NOTICE.txt
+5	1	build.sh
+18	0	lang/ruby/test/case_finder.rb
+
+commit 02418de9dee7b330552d43183109efa0b50ddf1f
+Author: Ryan Blue <blue@apache.org>
+Date:   Fri Dec 4 19:46:22 2015 +0000
+
+    AVRO-1765: JS: Update node.js in docker to 4.x.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1718013 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	1	share/docker/Dockerfile
+
+commit 2863a185ee8c6a036ce811e1ecd80eefd7f54401
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Dec 3 21:35:44 2015 +0000
+
+    AVRO-1747: JavaScript: Add implementation.
+    
+    A few features:
+    
+    + Fast! Typically twice as fast as JSON with much smaller encodings.
+    + Full Avro support, including recursive schemas, sort order, and
+      evolution.
+    + Serialization of arbitrary JavaScript objects via logical types.
+    + Unopinionated 64-bit integer compatibility.
+    + No dependencies, it even runs in the browser.
+    
+    The previous API is included with deprecation warnings (this adds
+    `underscore` as a dependency).
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1717850 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+202	0	lang/js/LICENSE
+5	0	lang/js/NOTICE
+103	0	lang/js/README.md
+15	15	lang/js/build.sh
+758	0	lang/js/doc/API.md
+359	0	lang/js/doc/Advanced-usage.md
+191	0	lang/js/doc/Home.md
+91	0	lang/js/etc/browser/avro.js
+36	0	lang/js/etc/browser/crypto.js
+0	0	lang/js/{ => etc/deprecated}/Gruntfile.js
+0	0	lang/js/{ => etc/deprecated}/README
+1	1	lang/js/{test/validator.js => etc/deprecated/test_validator.js}
+7	4	lang/js/{lib => etc/deprecated}/validator.js
+666	0	lang/js/lib/files.js
+45	0	lang/js/lib/index.js
+2197	0	lang/js/lib/schemas.js
+632	0	lang/js/lib/utils.js
+32	15	lang/js/package.json
+6	0	lang/js/test/dat/Id.avsc
+20	0	lang/js/test/dat/Person.avsc
+-	-	lang/js/test/dat/person-10.avro
+-	-	lang/js/test/dat/person-10.avro.raw
+-	-	lang/js/test/dat/person-10.no-codec.avro
+598	0	lang/js/test/test_files.js
+2459	0	lang/js/test/test_schemas.js
+397	0	lang/js/test/test_utils.js
+
+commit bf751dfaada53680f66bc200f3acb04a4d538fd1
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Dec 3 18:54:51 2015 +0000
+
+    AVRO-1722 ADDENDUM: Java: Fix tests broken by adding licenses.
+    
+    The Java specific compiler tool's tests expect the file content to match
+    exactly. Adding license headers broke the tests. This fix reverts the
+    addition of a licenses and adds the test files to the RAT exclusion
+    list.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1717830 13f79535-47bb-0310-9956-ffa450edef68
+
+0	16	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+0	16	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Position.java
+0	16	lang/java/tools/src/test/compiler/output/Player.java
+0	16	lang/java/tools/src/test/compiler/output/Position.java
+4	0	pom.xml
+
+commit f49b2d31fd9a0249a64c049da800db6648792ee0
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Dec 3 17:39:34 2015 +0000
+
+    AVRO-1722: Update root LICENSE.txt and NOTICE.txt.
+    
+    This updates the POM to use the Maven RAT integration and updates the
+    LICENSE and NOTICE files for issues that update found.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1717817 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+525	79	LICENSE.txt
+43	4	NOTICE.txt
+18	1	doc/build.xml
+18	0	doc/examples/example.py
+18	0	doc/examples/java-example/pom.xml
+18	0	doc/examples/java-example/src/main/java/example/GenericMain.java
+18	0	doc/examples/java-example/src/main/java/example/SpecificMain.java
+18	0	doc/examples/mr-example/pom.xml
+18	0	doc/examples/mr-example/src/main/java/example/GenerateData.java
+19	0	doc/forrest.properties
+0	202	lang/c++/COPYING
+18	1504	lang/c++/Doxyfile
+0	202	lang/c/COPYING
+19	0	lang/c/build.sh
+17	0	lang/c/tests/test_cpp.cpp
+17	0	lang/c/tests/test_interop_data.c
+16	0	lang/c/tests/test_refcount.c
+18	0	lang/c/version.sh
+18	1621	lang/csharp/Avro.dox
+19	1	lang/csharp/Avro.nunit
+16	0	lang/java/avro/src/test/java/org/apache/avro/FooBarSpecificRecord.java
+16	0	lang/java/avro/src/test/java/org/apache/avro/TypeEnum.java
+6	5	lang/java/mapred/src/test/java/org/apache/avro/hadoop/io/TestAvroSerialization.java
+19	0	lang/java/mapred/src/test/resources/log4j.properties
+16	0	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+16	0	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Position.java
+16	0	lang/java/tools/src/test/compiler/output/Player.java
+16	0	lang/java/tools/src/test/compiler/output/Position.java
+18	0	lang/perl/MANIFEST
+18	0	lang/perl/MANIFEST.SKIP
+19	0	lang/py/src/avro/tether/__init__.py
+73	23	pom.xml
+0	56	share/rat-excludes.txt
+
+commit 2c6c570d3b66975cfac367334d8a6971801397e5
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Dec 3 17:24:45 2015 +0000
+
+    AVRO-1730: Python3: Add LICENSE and NOTICE to distribution.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1717814 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+13	0	lang/py3/README.txt
+203	0	lang/py3/avro/LICENSE
+6	0	lang/py3/avro/NOTICE
+4	0	lang/py3/setup.py
+
+commit e11c588ebe034d5f2a043598e600791e38e124bb
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Dec 3 17:24:26 2015 +0000
+
+    AVRO-1730: Python: Add LICENSE and NOTICE to distribution.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1717813 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	lang/py/setup.py
+203	0	lang/py/src/avro/LICENSE
+6	0	lang/py/src/avro/NOTICE
+
+commit ada69ac5e0be21c96cdc683ae5152b0a8216e14f
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Dec 3 17:22:51 2015 +0000
+
+    AVRO-1736: PHP: Add LICENSE and NOTICE to distribution.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1717812 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+203	0	lang/php/LICENSE
+6	0	lang/php/NOTICE
+1	1	lang/php/build.sh
+
+commit 96d2d35fa20a7ec14f699e0c899cc7e21ae3393b
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Dec 3 17:11:18 2015 +0000
+
+    AVRO-1735: Perl: Add LICENSE and NOTICE to distribution.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1717807 13f79535-47bb-0310-9956-ffa450edef68
+
+3	1	CHANGES.txt
+203	0	lang/perl/LICENSE
+2	1	lang/perl/MANIFEST
+11	0	lang/perl/NOTICE
+0	1	lang/perl/NOTICE.txt
+
+commit df5c513f1e7a606b7333975b6d28784702f77077
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Dec 3 16:55:18 2015 +0000
+
+    AVRO-1731: C: Add LICENSE and NOTICE to binary distribution.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1717805 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/c/CPackConfig.txt
+449	0	lang/c/LICENSE
+6	0	lang/c/NOTICE
+
+commit 5662cbbffa89fb8d363ccbee03fe85980e17ba15
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Nov 26 18:46:01 2015 +0000
+
+    AVRO-1754. C++ ValiditingDecoder handles null incorrectly
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1716757 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	0	lang/c++/impl/parsing/ValidatingCodec.cc
+
+commit ed6a4e1f2aad7cea85bd956165fb7f66277533ea
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Nov 25 14:20:14 2015 +0000
+
+    AVRO-1755. Java: avro-mapred should not depend on avro-ipc:test. Contributed by Clément MAHTIEU.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1716425 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	0	lang/java/mapred/pom.xml
+
+commit bdc98484730275bebcc4f22d6e3ffd9f97616920
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Nov 25 14:16:08 2015 +0000
+
+    AVRO-1755. Java: avro-mapred should not depend on avro-ipc:test. Contributed by Clément MAHTIEU.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1716422 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	0	lang/java/mapred/pom.xml
+
+commit 3585c45902b99ae5cf5e3086d1dfc61389017d7f
+Author: Ryan Blue <blue@apache.org>
+Date:   Mon Oct 19 21:32:23 2015 +0000
+
+    AVRO-1733: C#: Add LICENSE and NOTICE to binary distribution.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1709484 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+245	0	lang/csharp/LICENSE
+6	0	lang/csharp/NOTICE
+4	0	lang/csharp/README
+4	2	lang/csharp/build.sh
+
+commit 5cb83db6a66a6d60aa01b41160a9c90ad4987736
+Author: Ryan Blue <blue@apache.org>
+Date:   Mon Oct 19 21:28:02 2015 +0000
+
+    AVRO-1732: C++: Add LICENSE and NOTICE to binary distribution.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1709482 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+261	0	lang/c++/LICENSE
+6	0	lang/c++/NOTICE
+3	0	lang/c++/README
+5	1	lang/c++/build.sh
+
+commit bc19e3a12e033e60c4f5c6c1d7a20fc9f8182da6
+Author: Ryan Blue <blue@apache.org>
+Date:   Mon Oct 19 21:23:33 2015 +0000
+
+    AVRO-1729: Ruby: Add LICENSE and NOTICE to ruby gems.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1709480 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+203	0	lang/ruby/LICENSE
+2	0	lang/ruby/Manifest
+6	0	lang/ruby/NOTICE
+2	1	lang/ruby/Rakefile
+
+commit 4707d9abe1202c7266aa8d58711fd22907863cbd
+Author: Ryan Blue <blue@apache.org>
+Date:   Wed Oct 7 21:06:28 2015 +0000
+
+    AVRO-1715. Java: Close files opened by the Schema parser. Contributed by Pavel Safrata.
+    
+    This also clarifies the InputStream parse method, which does not own the
+    stream that is passed in and does not close it. The tools have been
+    updated to correctly close streams passed to the parser.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1707389 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	2	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/BinaryFragmentToJsonTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/CreateRandomFileTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileWriteTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/JsonToBinaryFragmentTool.java
+15	0	lang/java/tools/src/main/java/org/apache/avro/tool/Util.java
+
+commit 0f5758b2d0f75c8234443e72c43d2fd38fe1894d
+Author: Ryan Blue <blue@apache.org>
+Date:   Wed Oct 7 18:14:43 2015 +0000
+
+    AVRO-1739. Update Avro URLs and mailing lists. Contributed by Gabor Liptak.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1707355 13f79535-47bb-0310-9956-ffa450edef68
+
+4	2	CHANGES.txt
+4	4	doc/src/content/xdocs/site.xml
+1	1	doc/src/content/xdocs/tabs.xml
+1	1	doc/src/skinconf.xml
+1	1	lang/c++/AUTHORS
+1	1	lang/c++/MainPage.dox
+1	1	lang/c++/NEWS
+1	1	lang/c/AUTHORS
+1	1	lang/c/NEWS
+2	3	lang/c/docs/index.txt
+1	1	lang/perl/README
+1	1	lang/perl/lib/Avro.pm
+2	2	lang/py/setup.py
+2	2	lang/py3/setup.py
+1	1	lang/ruby/Rakefile
+
+commit d94b460db57b5b7f0c981fbcc5794057c6680aaa
+Author: Sean Busbey <busbey@apache.org>
+Date:   Mon Sep 14 00:07:07 2015 +0000
+
+    AVRO-1694. Ruby: Schema normaliation and fingerprints. Contributed by Daniel Schierbeck.
+    
+    * Avro::SchemaNormalization.to_parsing_form converts a schema to Parsing
+    Canonical Form
+    * support for MD5 and SHA256 fingerprints
+    
+    This closes #40
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1702840 13f79535-47bb-0310-9956-ffa450edef68
+
+1	0	lang/ruby/lib/avro.rb
+12	0	lang/ruby/lib/avro/schema.rb
+83	0	lang/ruby/lib/avro/schema_normalization.rb
+67	0	lang/ruby/test/case_finder.rb
+37	0	lang/ruby/test/test_fingerprints.rb
+171	0	lang/ruby/test/test_schema_normalization.rb
+
+commit e0096f2f9d0036e02f16eb0b111fd68470758351
+Author: Sean Busbey <busbey@apache.org>
+Date:   Mon Sep 14 00:03:51 2015 +0000
+
+    AVRO-1694. Ruby: Schema normaliation and fingerprints. Contributed by Daniel Schierbeck.
+    
+    * Avro::SchemaNormalization.to_parsing_form converts a schema to Parsing
+    Canonical Form
+    * support for MD5 and SHA256 fingerprints
+    
+    This closes #40
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1702839 13f79535-47bb-0310-9956-ffa450edef68
+
+1	0	lang/ruby/lib/avro.rb
+12	0	lang/ruby/lib/avro/schema.rb
+83	0	lang/ruby/lib/avro/schema_normalization.rb
+67	0	lang/ruby/test/case_finder.rb
+37	0	lang/ruby/test/test_fingerprints.rb
+171	0	lang/ruby/test/test_schema_normalization.rb
+
+commit 782a9505e82028be7a087ac269e0a30c32ee3258
+Author: Sean Busbey <busbey@apache.org>
+Date:   Sat Sep 12 07:27:04 2015 +0000
+
+    AVRO-1709. Ruby: Ignore generated files. Contributed by Daniel Schierbeck.
+    
+        The data.avr file is generated every times the tests are run;
+        Gemfile.lock is generated every time `bundle install` is run.
+    
+    This closes #45
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1702595 13f79535-47bb-0310-9956-ffa450edef68
+
+3	1	lang/ruby/.gitignore
+
+commit 4686716c4ef7bb139a371d1de881ad1aaf93a144
+Author: Sean Busbey <busbey@apache.org>
+Date:   Sat Sep 12 07:20:58 2015 +0000
+
+    AVRO-1709. Ruby: Ignore generated files. Contributed by Daniel Schierbeck.
+    
+        The data.avr file is generated every times the tests are run;
+        Gemfile.lock is generated every time `bundle install` is run.
+    
+    This closes #45
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1702593 13f79535-47bb-0310-9956-ffa450edef68
+
+3	1	lang/ruby/.gitignore
+
+commit 4fdc75209ba54f60b2c5798cff731a11053fbcfd
+Author: Ryan Blue <blue@apache.org>
+Date:   Wed Aug 26 21:40:42 2015 +0000
+
+    AVRO-1700. Fix avro_BufferStreambuf_hh__ header guard. Contributed by Liu Yanbo.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1698010 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/c++/api/buffer/BufferStreambuf.hh
+
+commit 069f00e0e849775a93c08a74e48fc10b34566d02
+Author: Ryan Blue <blue@apache.org>
+Date:   Wed Aug 26 21:32:44 2015 +0000
+
+    AVRO-1593. Use classic locale to escape control chars. Contributed by Hatem Helal.
+    
+    This closes #32 and closes #15.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1698007 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	1	lang/c++/impl/json/JsonIO.hh
+
+commit fe9330e56d2d6d356344d5152ca8b4ff3b52b89c
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Aug 25 14:27:55 2015 +0000
+
+    AVRO-1676. Java: Do not treat enum symbols as immutable when deep copying. Contributed by Mike Rodriguez.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1697684 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	2	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+12	0	lang/java/ipc/src/test/java/org/apache/avro/specific/TestSpecificData.java
+
+commit 710a001a1b41d465db7a300bfcc03040fcef03b3
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Aug 25 14:26:00 2015 +0000
+
+    AVRO-1676. Java: Do not treat enum symbols as immutable when deep copying. Contributed by Mike Rodriguez.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1697683 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	2	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+12	0	lang/java/ipc/src/test/java/org/apache/avro/specific/TestSpecificData.java
+
+commit 248c4bfefdc5fcc6966910ff2bf0b91d9c4da4ac
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Aug 11 10:04:19 2015 +0000
+
+    Build fixes for 1.8.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1695239 13f79535-47bb-0310-9956-ffa450edef68
+
+2	1	build.sh
+6	1	lang/py/ivysettings.xml
+
+commit 0c771b9a62b93055b93d8426c283be5ab87c212c
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Aug 11 09:58:35 2015 +0000
+
+    Build fixes for 1.8.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1695236 13f79535-47bb-0310-9956-ffa450edef68
+
+2	1	build.sh
+6	1	lang/py/ivysettings.xml
+
+commit 31a057f5d3db73b196e2bd70ca3ee58015c3e156
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Aug 10 14:16:54 2015 +0000
+
+    Preparing to build 1.8.0
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1695083 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/java/archetypes/avro-service-archetype/pom.xml
+1	1	lang/java/archetypes/pom.xml
+1	1	lang/java/avro/pom.xml
+1	1	lang/java/compiler/pom.xml
+1	1	lang/java/ipc/pom.xml
+1	1	lang/java/mapred/pom.xml
+1	1	lang/java/maven-plugin/pom.xml
+1	1	lang/java/pom.xml
+1	1	lang/java/protobuf/pom.xml
+1	1	lang/java/thrift/pom.xml
+1	1	lang/java/tools/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+1	1	lang/java/trevni/core/pom.xml
+2	2	lang/java/trevni/doc/pom.xml
+1	1	lang/java/trevni/pom.xml
+1	1	pom.xml
+1	1	share/VERSION.txt
+
+commit 72846f1daeadda01b3af29f922dc6f840b224b0e
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Aug 10 13:30:15 2015 +0000
+
+    Preparing for 1.9.0 development
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1695067 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/java/archetypes/avro-service-archetype/pom.xml
+1	1	lang/java/archetypes/pom.xml
+1	1	lang/java/avro/pom.xml
+1	1	lang/java/compiler/pom.xml
+1	1	lang/java/ipc/pom.xml
+1	1	lang/java/mapred/pom.xml
+1	1	lang/java/maven-plugin/pom.xml
+1	1	lang/java/pom.xml
+1	1	lang/java/protobuf/pom.xml
+1	1	lang/java/thrift/pom.xml
+1	1	lang/java/tools/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+1	1	lang/java/trevni/core/pom.xml
+2	2	lang/java/trevni/doc/pom.xml
+1	1	lang/java/trevni/pom.xml
+1	1	pom.xml
+1	1	share/VERSION.txt
+
+commit a42a522f34f910961f92ca9145e58647aded8c83
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Aug 10 13:25:07 2015 +0000
+
+    Branching for 1.8 releases
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/branches/branch-1.8@1695064 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e90092bce9d3e9436475dc61521e0cd019831a67
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Aug 10 13:24:32 2015 +0000
+
+    Preparing for release 1.8.0
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1695063 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	CHANGES.txt
+
+commit 82ee5b448983f5074e513c053258c6ed23c8701b
+Author: Ryan Blue <blue@apache.org>
+Date:   Fri Aug 7 19:41:40 2015 +0000
+
+    AVRO-1713: Remove extra character in mapred POM.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1694739 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/java/mapred/pom.xml
+
+commit 8570a93e1f6ebc14bc3c78692256122b9ba2c1ea
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Jul 16 14:29:03 2015 +0000
+
+    Build release fixes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691408 13f79535-47bb-0310-9956-ffa450edef68
+
+2	1	build.sh
+3	0	lang/py3/setup.py
+4	1	share/docker/Dockerfile
+
+commit bc657e4d93166b6d5c2cdc587aaeca17760099a6
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Jul 16 08:24:45 2015 +0000
+
+    AVRO-1697. Ruby: Add support for the Snappy codec to the Ruby library. Contributed by Daniel Schierbeck.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691330 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	0	lang/ruby/Gemfile
+23	0	lang/ruby/lib/avro/data_file.rb
+13	0	lang/ruby/test/test_datafile.rb
+3	2	share/docker/Dockerfile
+
+commit 946e96680764095588e5a3e40e97a821b5fb9038
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 15 16:40:52 2015 +0000
+
+    Build fixes for AVRO-1586 (Build against Hadoop 2).
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691248 13f79535-47bb-0310-9956-ffa450edef68
+
+3	2	build.sh
+4	1	lang/java/mapred/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+
+commit 2c76eb516ccff61f29ea4efd15cff44c7832fd33
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 15 14:50:35 2015 +0000
+
+    Add missing license headers.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691232 13f79535-47bb-0310-9956-ffa450edef68
+
+18	0	lang/java/avro/src/main/java/org/apache/avro/Conversion.java
+18	0	lang/java/avro/src/main/java/org/apache/avro/Conversions.java
+18	0	lang/java/avro/src/main/java/org/apache/avro/LogicalType.java
+18	0	lang/java/avro/src/main/java/org/apache/avro/LogicalTypes.java
+18	0	lang/java/avro/src/main/java/org/apache/avro/data/TimeConversions.java
+18	0	lang/java/avro/src/test/java/org/apache/avro/TestCircularReferences.java
+18	0	lang/java/avro/src/test/java/org/apache/avro/TestLogicalType.java
+18	0	lang/java/avro/src/test/java/org/apache/avro/data/TestTimeConversions.java
+18	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericLogicalTypes.java
+18	0	lang/java/avro/src/test/java/org/apache/avro/reflect/TestReflectLogicalTypes.java
+
+commit 65841fc8967c4599e29b99dafe8c8f7272b7a4c2
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 15 14:00:20 2015 +0000
+
+    Revert Ruby: Add support for the Snappy codec to the Ruby library.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691222 13f79535-47bb-0310-9956-ffa450edef68
+
+0	3	CHANGES.txt
+0	1	lang/ruby/Gemfile
+0	23	lang/ruby/lib/avro/data_file.rb
+0	13	lang/ruby/test/test_datafile.rb
+
+commit 90d02b4bfa2154ba71a8a05b6c2661cf792d062d
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 15 13:40:58 2015 +0000
+
+    Add missing file from AVRO-1673.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691208 13f79535-47bb-0310-9956-ffa450edef68
+
+35	0	lang/py3/avro/tests/test_enum.py
+
+commit 4de802425783c8abbb97a0574741670cab776dff
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 15 12:02:44 2015 +0000
+
+    Fix contributor for AVRO-1491.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691184 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	CHANGES.txt
+
+commit fe306bf207ab4fd290893651a9c92caae611aff3
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 15 11:56:15 2015 +0000
+
+    AVRO-1491. Avro.ipc.dll not included in release zip/build file. Contributed by Alex Ausch.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691181 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	2	lang/csharp/build.sh
+
+commit 7fcfcf12648d322728da549a56994607baf989ae
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 15 11:35:20 2015 +0000
+
+    AVRO-1673. Python 3 EnumSchema changes the order of symbols. Contributed by Marcin Białoń.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691173 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/py3/avro/schema.py
+1	0	lang/py3/avro/tests/run_tests.py
+
+commit 96c95a93cc5cc4c4fc19ea16edb926ffb4625156
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 15 11:26:54 2015 +0000
+
+    Moved AVRO-1502 to incompatible section of CHANGES.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1691170 13f79535-47bb-0310-9956-ffa450edef68
+
+3	2	CHANGES.txt
+
+commit e12bdb0bee1e298c5a2ab352e1b2ac3dac6448fa
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Jul 14 14:07:23 2015 +0000
+
+    AVRO-1692. Allow more than one logical type for a Java class. Contributed by Ryan Blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1690939 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+55	23	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+1	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumWriter.java
+3	4	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+1	1	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumReader.java
+387	0	lang/java/avro/src/test/java/org/apache/avro/TestCircularReferences.java
+
+commit 74b444929bfdbdd0bcdf45a80dec7b507f805428
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Jul 13 16:19:22 2015 +0000
+
+    AVRO-1688. Ruby test_union(TestIO) is failing.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1690745 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+14	1	lang/ruby/test/test_io.rb
+
+commit c4c3739dedd51a6fe02731adc617b30d3f4bbd80
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jul 10 15:20:43 2015 +0000
+
+    AVRO-1697. Ruby: Add support for the Snappy codec to the Ruby library. Contributed by Daniel Schierbeck.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1690276 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	0	lang/ruby/Gemfile
+23	0	lang/ruby/lib/avro/data_file.rb
+13	0	lang/ruby/test/test_datafile.rb
+
+commit dfdbb60a8d9f97b43db981b6ee08f434a288111a
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Jul 9 17:51:59 2015 +0000
+
+    AVRO-1672: Add time logical types and conversions.
+    
+    This uses Joda classes to represent the new logical types:
+    * date => LocalDate
+    * time-millis => LocalTime
+    * time-micros => LocalTime
+    * timestamp-millis => DateTime
+    * timestamp-micros => DateTime
+    
+    Joda is an optional dependency and will only be loaded if the
+    conversions in org.apache.avro.data.TimeConversions are referenced. By
+    default, no logical type conversions are enabled so there is no
+    additional runtime dependency for existing applications.
+    
+    Microsecond types use Joda objects with millisecond precision. Because
+    this representation loses the microseconds, there are two conversions
+    for both microsecond types: a read-only conversion that will throw an
+    exception if used to write, and a "lossy" conversion that will write a
+    millisecond value as microseconds by convertsion. This is called "lossy"
+    because reading a microsecond value and writing it back out will lose
+    the microseconds.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1690131 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+5	0	lang/java/avro/pom.xml
+133	5	lang/java/avro/src/main/java/org/apache/avro/LogicalTypes.java
+128	0	lang/java/avro/src/main/java/org/apache/avro/data/TimeConversions.java
+232	0	lang/java/avro/src/test/java/org/apache/avro/data/TestTimeConversions.java
+7	0	lang/java/pom.xml
+
+commit a6743849b29b67f5013bf9b917daf70b19810929
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 8 14:31:50 2015 +0000
+
+    AVRO-1693. Ruby: Allow writing arbitrary metadata to data files. Contributed by Daniel Schierbeck.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1689889 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+6	7	lang/ruby/lib/avro/data_file.rb
+13	0	lang/ruby/test/test_datafile.rb
+
+commit d3f854449e540cd2f34a0a96df15d379d8c1d525
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jul 8 14:27:44 2015 +0000
+
+    AVRO-1645. Ruby: Improved handling of missing named types. Contributed by Daniel Schierbeck.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1689884 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+10	2	lang/ruby/lib/avro/schema.rb
+12	0	lang/ruby/test/test_schema.rb
+
+commit 9e9f0e86e00ba71f501ac2c8b09f98f8e3f9365e
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Jul 7 16:25:51 2015 +0000
+
+    Revert AVRO-1559. Drop support for Ruby 1.8.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1689710 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	BUILD.txt
+0	2	CHANGES.txt
+4	3	lang/ruby/lib/avro/data_file.rb
+1	1	lang/ruby/lib/avro/io.rb
+
+commit ba10e8bf61efbceaad0a8f95ba73c659f678bc1e
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Jul 7 14:03:16 2015 +0000
+
+    Update required Ruby version to 2.0 or greater.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1689681 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	BUILD.txt
+
+commit c5fe80507610fcf24e53516365cd7c2efb2291dd
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Jul 7 13:23:32 2015 +0000
+
+    AVRO-1559. Drop support for Ruby 1.8. Contributed by Willem van Bergen.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1689660 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+3	4	lang/ruby/lib/avro/data_file.rb
+1	1	lang/ruby/lib/avro/io.rb
+
+commit f2d7c194ddd2734e567e77b9810ffb44ed65d6bd
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Jul 7 10:30:22 2015 +0000
+
+    AVRO-1586. Build against Hadoop 2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1689626 13f79535-47bb-0310-9956-ffa450edef68
+
+5	0	CHANGES.txt
+1	1	build.sh
+3	13	lang/java/mapred/pom.xml
+3	14	lang/java/pom.xml
+2	75	lang/java/tools/pom.xml
+7	19	lang/java/trevni/avro/pom.xml
+
+commit 4f7013b1465959d6c17e21c969dcb90b5a0d6a25
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Jul 7 10:10:34 2015 +0000
+
+    AVRO-1576. TestSchemaCompatibility is platform dependant. Contributed by Stevo Slavic.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1689621 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+6	6	lang/java/avro/src/test/java/org/apache/avro/TestSchemaCompatibility.java
+
+commit b81761e72307bfc62843c0b207a4712aa2d9c9c0
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Jun 26 14:39:14 2015 +0000
+
+    AVRO-1681. Improve generated JavaDocs. Contributed by Charles Gariépy-Ikeson.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1687778 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	1	lang/java/avro/src/main/java/org/apache/avro/Protocol.java
+4	1	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/fixed.vm
+15	2	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/protocol.vm
+38	7	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+1	1	lang/java/ipc/src/test/java/org/apache/avro/compiler/specific/TestSpecificCompiler.java
+45	10	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+45	10	lang/java/tools/src/test/compiler/output/Player.java
+
+commit 1e1b379463d0dbe1d2e0d162586dcebceb6af1e6
+Author: Ryan Blue <blue@apache.org>
+Date:   Fri Jun 26 05:40:54 2015 +0000
+
+    AVRO-1683: Add microsecond-precision time type specs.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1687673 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+23	3	doc/src/content/xdocs/spec.xml
+
+commit 83cb47e04c057627ac839a16e03972ed7481ca02
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Jun 25 16:28:07 2015 +0000
+
+    AVRO-1689. Update Dockerfile to use official Java repository.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1687572 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	share/docker/Dockerfile
+
+commit ab938b84b2cd305eef3fbd238edf78945bd043e9
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Jun 25 15:38:03 2015 +0000
+
+    AVRO-1685. Allow specifying sync in DataFileWriter.create. Contributed by Sehrope Sarkuni.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1687559 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+17	5	lang/java/avro/src/main/java/org/apache/avro/file/DataFileWriter.java
+91	0	lang/java/avro/src/test/java/org/apache/avro/TestDataFileCustomSync.java
+
+commit eb31746cd5efd5e2c9c57780a651afaccd5cfe06
+Author: Ryan Blue <blue@apache.org>
+Date:   Wed May 27 04:48:58 2015 +0000
+
+    AVRO-1497: Add LogicalType implementation.
+    
+    This closes PR #29 and includes the following commits:
+    
+    ca1d2b1 AVRO-1497: Add LogicalTypes and read-side implementation.
+    442a917 AVRO-1497: Add logical type support to schema reflection.
+    ec8d6d4 AVRO-1497: Add logical type writes to generic and reflect.
+    e6e9761 AVRO-1497: Clean up Conversion and LogicalType classes.
+    8fe954a AVRO-1497: Add Conversion and LogicalType javadoc.
+    3abf042 AVRO-1497: Fix ByteBuffer bug in DecimalConversion.
+    2293a18 AVRO-1497: Fix review items.
+    207afd3 AVRO-1497: Add logical type registration and record test.
+    d2377b2 AVRO-1497: Maven CLI and checkstyle fixes.
+    1e628b2 AVRO-1497: Fix test failures.
+    15ed857 AVRO-1497: Fix performance issues with logical types.
+    fb84364 AVRO-1497: Check logical type once per array.
+    7de6edc AVRO-1497: Remove unnecessary changes to Schema.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1681906 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+171	0	lang/java/avro/src/main/java/org/apache/avro/Conversion.java
+105	0	lang/java/avro/src/main/java/org/apache/avro/Conversions.java
+77	0	lang/java/avro/src/main/java/org/apache/avro/LogicalType.java
+218	0	lang/java/avro/src/main/java/org/apache/avro/LogicalTypes.java
+11	0	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+63	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+72	5	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumReader.java
+40	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumWriter.java
+42	1	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+74	14	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumReader.java
+279	0	lang/java/avro/src/test/java/org/apache/avro/TestLogicalType.java
+217	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericLogicalTypes.java
+811	0	lang/java/avro/src/test/java/org/apache/avro/reflect/TestReflectLogicalTypes.java
+
+commit 60d9ef0ad24d91735210830b2481e884ec45c9e7
+Author: Ryan Blue <blue@apache.org>
+Date:   Fri Apr 17 20:47:13 2015 +0000
+
+    AVRO-1655. Java: Fix NPE in RecordSchema#toString. Contributed by Lars Francke.
+    
+    This also adds a variant of Schema.createRecord with a field list to
+    allow callers to create valid record schemas in a single call.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1674398 13f79535-47bb-0310-9956-ffa450edef68
+
+6	0	CHANGES.txt
+20	2	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+25	0	lang/java/avro/src/test/java/org/apache/avro/TestSchema.java
+
+commit 630562a0b16ae73c8cb8d85da723bca6b28de6db
+Author: Ryan Blue <blue@apache.org>
+Date:   Tue Mar 31 23:19:05 2015 +0000
+
+    AVRO-1652. Java: Do not warn or validate defaults if validation is off. Contributed by Michael D'Angelo.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1670516 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	4	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+
+commit 5a52b4b8c9201102183ea643307ceae932e5b8f5
+Author: Ryan Blue <blue@apache.org>
+Date:   Tue Mar 31 21:11:39 2015 +0000
+
+    AVRO-1656. Fix 'How To Contribute' link. Contributed by Benjamin Clauss.
+    
+    Closes #18.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1670482 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	README.txt
+
+commit 42abe4f510cafa843d46805662a5b564e13f6aea
+Author: Ryan Blue <blue@apache.org>
+Date:   Mon Mar 30 23:45:17 2015 +0000
+
+    AVRO-1653. Fix typo in spec (lenghted => length). Contributed by Sehrope Sarkuni.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1670221 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	doc/src/content/xdocs/spec.xml
+
+commit 2e5acf3e5fd1e6c0f193bea0c2234c09a848f17a
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun Mar 15 03:26:57 2015 +0000
+
+    AVRO-680. Java: Support non-string map keys. Contributed by Sachin Goyal.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1666774 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+8	3	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+118	4	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+20	0	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumReader.java
+7	0	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumWriter.java
+509	0	lang/java/avro/src/test/java/org/apache/avro/reflect/TestNonStringMapKeys.java
+
+commit 6a80468a68de9bd035d5cc21d2ee664e1956c884
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Feb 3 15:00:21 2015 +0000
+
+    AVRO-1630. Java: Creating Builder from instance loses data. Contributed by Niels Basjes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1656749 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	1	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+52	0	lang/java/ipc/src/test/java/org/apache/avro/specific/TestSpecificBuilderTree.java
+
+commit a471a726a499081c912d50fe9a6ad722e5fe3b4d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Jan 14 21:16:56 2015 +0000
+
+    AVRO-1628. Java: Add Schema#createUnion(Schema ...) convenience method.  Contributed by Clément Mahtieu.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1651831 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+10	0	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+11	0	lang/java/avro/src/test/java/org/apache/avro/TestSchema.java
+
+commit a34ae84b27d7060fcbd41dd744d047d316ce449e
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Jan 12 12:26:17 2015 +0000
+
+    AVRO-1624. Java. Surefire forkMode is deprecated. Contributed by Niels Basjes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1651071 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	2	lang/java/pom.xml
+
+commit 56838397367fbe3570e3f361034aec24ba9e0f64
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Jan 12 12:11:55 2015 +0000
+
+    AVRO-1537. Make it easier to set up a multi-language build environment.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1651069 13f79535-47bb-0310-9956-ffa450edef68
+
+17	1	BUILD.txt
+4	0	CHANGES.txt
+30	1	build.sh
+54	0	share/docker/Dockerfile
+1	0	share/rat-excludes.txt
+
+commit 005c7e0fd6377162a1bd7cc425cb35a23cdf9d52
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jan 7 15:47:26 2015 +0000
+
+    AVRO-1573. Javascript. Upgrade to Grunt 0.4 for testing.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1650090 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+12	7	lang/js/{grunt.js => Gruntfile.js}
+1	1	lang/js/build.sh
+4	1	lang/js/package.json
+
+commit 3414ca077b774e98db41d32b69128cd8a7ed12b2
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Dec 18 15:09:22 2014 +0000
+
+    AVRO-1621. PHP: FloatIntEncodingTest fails for NAN.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1646473 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+47	3	lang/php/test/FloatIntEncodingTest.php
+
+commit 3fdea9c2021b1491825f45547c62b52d75dc505c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Dec 17 23:36:22 2014 +0000
+
+    AVRO-1539. Java: Add FileSystem based FsInput constructor.  Contributed by Allan Shoup.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1646365 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+7	0	lang/java/mapred/pom.xml
+13	2	lang/java/mapred/src/main/java/org/apache/avro/mapred/FsInput.java
+137	0	lang/java/mapred/src/test/java/org/apache/avro/mapreduce/TestFsInput.java
+
+commit 510a61709411918fc7d4126b46176954189bb85f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Dec 17 23:20:41 2014 +0000
+
+    AVRO-1623. Java: Fix GenericData#validate to correctly resolve unions.  Contributed by Jeffrey Mullins.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1646363 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+6	4	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+23	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit 7c0a16b8385c95c3e319de1aca9b7f20c7e61c46
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Dec 17 23:07:02 2014 +0000
+
+    AVRO-1545. Python. Fix to retain schema properties on primitive types.  Contributed by Dustin Spicuzza.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1646362 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+3	3	lang/py/src/avro/schema.py
+4	0	lang/py/test/test_schema.py
+3	3	lang/py3/avro/schema.py
+5	0	lang/py3/avro/tests/test_schema.py
+
+commit 34174efd237c8aabdcf8b546d9b1b2bd1e16b01e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Dec 17 23:02:33 2014 +0000
+
+    AVRO-1614. Java: In generated builder classes, add accessors to field sub-builders, permitting easier creation of nested, optional structures.  Contributed by Niels Basjes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1646360 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+7	2	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificData.java
+64	7	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+60	1	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+205	0	lang/java/ipc/src/test/java/org/apache/avro/specific/TestSpecificBuilderTree.java
+8	4	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+8	4	lang/java/tools/src/test/compiler/output/Player.java
+66	0	share/test/schemas/http.avdl
+98	0	share/test/schemas/specialtypes.avdl
+
+commit 7d61edb1057f9b3361f142228ec6da2797bc2dec
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Dec 15 22:14:05 2014 +0000
+
+    AVRO-1616. Add IntelliJ files to .gitignore.  Contributed by Niels Basjes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1645772 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	.gitignore
+2	0	CHANGES.txt
+
+commit 71c29bdef8fb3c43ecbf1c5ddae8a10f6f38d830
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Dec 15 22:06:22 2014 +0000
+
+    AVRO-1619. Java: Improve javadoc comments in generated code.  Contributed by Niels Basjes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1645771 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+28	9	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+1	1	lang/java/tools/src/test/compiler/input/player.avsc
+72	29	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+72	29	lang/java/tools/src/test/compiler/output/Player.java
+
+commit 6501dd51fc3a910a4cdc3e5abc73f49ed47240bc
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Dec 11 11:38:17 2014 +0000
+
+    AVRO-1622. Add missing license headers.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1644603 13f79535-47bb-0310-9956-ffa450edef68
+
+19	1	lang/csharp/src/apache/ipc/HttpListenerServer.cs
+19	1	lang/csharp/src/apache/ipc/HttpTransceiver.cs
+19	1	lang/csharp/src/apache/test/Ipc/HttpClientServerTest.cs
+17	0	lang/java/avro/src/main/java/org/apache/avro/util/internal/JacksonUtils.java
+17	0	lang/java/avro/src/test/java/org/apache/avro/util/internal/TestJacksonUtils.java
+17	0	lang/java/tools/src/test/java/org/apache/avro/tool/TestDataFileRepairTool.java
+17	0	lang/java/tools/src/test/java/org/apache/avro/tool/TestTetherTool.java
+16	0	lang/py/ivy.xml
+16	0	lang/py/ivysettings.xml
+15	0	lang/py/test/set_avro_test_path.py
+
+commit d2cd7b84dccb647c9637074986edc0baec70e50d
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Dec 10 15:28:14 2014 +0000
+
+    AVRO-1602. Remove Dapper-style RPC trace facility (for CSharp).
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1644454 13f79535-47bb-0310-9956-ffa450edef68
+
+0	39	lang/csharp/src/apache/test/CodGen/CodeGenTest.cs
+
+commit 5009caa85de9f61c3d8144713c5fecd0331eee61
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 26 19:33:41 2014 +0000
+
+    AVRO-1604. Java: Fix ReflectData.AllowNull to work with @Nullable annotations. Contributed by Ryan Blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1641896 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+17	2	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+55	0	lang/java/avro/src/test/java/org/apache/avro/reflect/TestReflectAllowNulls.java
+
+commit fbaf3c399e2f34e57008d8625c76f0543a3cadf4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 26 19:30:18 2014 +0000
+
+    AVRO-1407: Java: Fix infinite loop on slow connect in NettyTransceiver.  Contributed by Gareth Davis.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1641894 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+12	0	lang/java/ipc/src/main/java/org/apache/avro/ipc/NettyTransceiver.java
+82	0	lang/java/ipc/src/test/java/org/apache/avro/ipc/NettyTransceiverWhenFailsToConnect.java
+
+commit ad27ed0d9430ea9b944ad6e70138a355aebe10e0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 26 19:16:47 2014 +0000
+
+    AVRO-1564. Java: Fix handling of optional byte field in Thrift.  Contributed by Michael Pershyn.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1641892 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	0	lang/java/thrift/src/main/java/org/apache/avro/thrift/ThriftData.java
+3	2	lang/java/thrift/src/test/java/org/apache/avro/thrift/TestThrift.java
+127	33	lang/java/thrift/src/test/java/org/apache/avro/thrift/test/Test.java
+1	0	lang/java/thrift/src/test/thrift/test.thrift
+
+commit f66a7875b8b904e21e0f0e40a418627ea98d9ce7
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Nov 18 09:58:21 2014 +0000
+
+    AVRO-1585. Java: Deprecate Jackson classes in public API.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1640293 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+115	2	lang/java/avro/src/main/java/org/apache/avro/JsonProperties.java
+38	2	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+99	4	lang/java/avro/src/main/java/org/apache/avro/data/Json.java
+2	0	lang/java/avro/src/main/java/org/apache/avro/io/EncoderFactory.java
+2	0	lang/java/avro/src/main/java/org/apache/avro/io/JsonEncoder.java
+2	1	lang/java/avro/src/main/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+136	0	lang/java/avro/src/main/java/org/apache/avro/util/internal/JacksonUtils.java
+1	2	lang/java/avro/src/test/java/org/apache/avro/TestSchemaBuilder.java
+5	6	lang/java/avro/src/test/java/org/apache/avro/TestSchemaCompatibility.java
+2	4	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericRecordBuilder.java
+84	0	lang/java/avro/src/test/java/org/apache/avro/util/internal/TestJacksonUtils.java
+1	3	lang/java/ipc/src/test/java/org/apache/avro/TestProtocolGeneric.java
+5	5	lang/java/ipc/src/test/java/org/apache/avro/TestSchema.java
+2	5	lang/java/mapred/src/test/java/org/apache/avro/mapred/TestGenericJob.java
+1	0	lang/java/pom.xml
+2	8	lang/java/tools/src/main/java/org/apache/avro/tool/RpcReceiveTool.java
+
+commit 5cc99503deea276eabfb9deb8c88fd1f01f5ebad
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Nov 17 16:04:35 2014 +0000
+
+    AVRO-834. Java: Data File corruption recovery tool. Contributed by scottcarey and tomwhite.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1640179 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+3	0	lang/java/avro/src/main/java/org/apache/avro/file/DataFileStream.java
+308	0	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileRepairTool.java
+1	0	lang/java/tools/src/main/java/org/apache/avro/tool/Main.java
+190	0	lang/java/tools/src/test/java/org/apache/avro/tool/TestDataFileRepairTool.java
+
+commit 3bb62d24aa90230d17da5ab612042799f5c2d7c9
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Nov 17 15:27:49 2014 +0000
+
+    AVRO-1596. Java: Cannot read past corrupted block in Avro data file.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1640171 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/java/avro/src/main/java/org/apache/avro/file/DataFileStream.java
+97	0	lang/java/avro/src/test/java/org/apache/avro/TestDataFileCorruption.java
+
+commit 5b9b847fa099d2476ba497ad971ac36495add960
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Nov 13 22:08:27 2014 +0000
+
+    AVRO-1602. Java: Remove Dapper-style RPC trace facility.  This seems unused and has been a source of build problems.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1639539 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+0	359	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/FileSpanStorage.java
+0	78	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/InMemorySpanStorage.java
+0	180	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/SpanAggregator.java
+0	57	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/SpanStorage.java
+0	50	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/StaticServlet.java
+0	243	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/Trace.java
+0	254	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/TraceClientServlet.java
+0	306	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/TraceCollection.java
+0	139	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/TraceNode.java
+0	372	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/TracePlugin.java
+0	75	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/TracePluginConfiguration.java
+0	222	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/Util.java
+0	166	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/static/avrotrace.js
+0	386	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/static/g.bar.js
+0	125	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/static/jquery.tipsy.js
+0	304	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/static/protovis-r3.2.js
+0	92	lang/java/ipc/src/main/java/org/apache/avro/ipc/trace/static/tipsy.js
+0	40	lang/java/ipc/src/main/velocity/org/apache/avro/ipc/trace/templates/collection.vm
+0	105	lang/java/ipc/src/main/velocity/org/apache/avro/ipc/trace/templates/common.vm
+0	98	lang/java/ipc/src/main/velocity/org/apache/avro/ipc/trace/templates/node.vm
+0	45	lang/java/ipc/src/main/velocity/org/apache/avro/ipc/trace/templates/overview.vm
+0	37	lang/java/ipc/src/main/velocity/org/apache/avro/ipc/trace/templates/traceinput.vm
+0	38	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/SingletonTestingTracePlugin.java
+0	439	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestBasicTracing.java
+0	260	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestEndToEndTracing.java
+0	183	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestFileSpanStorage.java
+0	226	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestSpanAggregation.java
+0	279	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestSpanTraceFormation.java
+0	32	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestStaticServlet.java
+0	117	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestTraceCollection.java
+0	104	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestTraceConfigurations.java
+0	79	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestTraceSingletons.java
+0	46	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestTracingUtil.java
+0	68	share/schemas/org/apache/avro/ipc/trace/avroTrace.avdl
+0	82	share/schemas/org/apache/avro/ipc/trace/avroTrace.avpr
+
+commit 77e7fa0274b85742937026b95a839590368d2879
+Author: Doug Cutting <cutting@apache.org>
+Date:   Sat Nov 8 00:57:20 2014 +0000
+
+    AVRO-1597. Java: Random data tool writes corrupt files to standard out.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1637494 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+30	3	lang/java/tools/src/test/java/org/apache/avro/tool/TestCreateRandomFileTool.java
+5	1	lang/java/trevni/core/src/test/java/org/apache/trevni/TestUtil.java
+
+commit 4210b05960b6657b4f0ca98f97c49649e1de7139
+Author: Doug Cutting <cutting@apache.org>
+Date:   Sat Nov 8 00:54:22 2014 +0000
+
+    AVRO-1592. Java: Fix handling of Java reserved words as enum constants in generated code.  Contributed by Lukas Steiblys.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1637493 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+17	0	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificData.java
+2	14	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+7	0	lang/java/ipc/src/test/java/org/apache/avro/specific/TestSpecificData.java
+2	0	share/test/schemas/reserved.avsc
+
+commit d84eef25161d31bcc69829810e7c00e730f45935
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Nov 6 23:31:03 2014 +0000
+
+    AVRO-1598. Java: Fix flakiness in TestFileSpanStorage.  Contributed by Ryan Blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1637269 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+34	38	lang/java/ipc/src/test/java/org/apache/avro/ipc/trace/TestFileSpanStorage.java
+
+commit 97165abbb62a558fe498c33999c34a73a35b6bd8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Nov 6 23:18:10 2014 +0000
+
+    AVRO-1302. Python: Update documentation to open files as binary to prevent EOL substitution.  Contributed by Lars Francke.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1637264 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+14	6	doc/src/content/xdocs/gettingstartedpython.xml
+
+commit 535f6efca296d80f01e1bad2050b1bdc453f4800
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Nov 4 17:27:17 2014 +0000
+
+    AVRO-1502. Add a test for SpecificRecordBase's Externalizable implemenatation.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1636657 13f79535-47bb-0310-9956-ffa450edef68
+
+25	8	lang/java/avro/src/test/java/org/apache/avro/specific/TestSpecificData.java
+
+commit 3b8740860e33fa1b28609901b5e1bd554b11b090
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Nov 4 15:49:30 2014 +0000
+
+    Compatibility fix for AVRO-1502. Contributed by cutting.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1636616 13f79535-47bb-0310-9956-ffa450edef68
+
+13	4	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificRecordBase.java
+
+commit 4f6eb207b1df2ff438d952e383041021f0275705
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Oct 28 23:12:15 2014 +0000
+
+    AVRO-570. Fix python build to download ivy on demand.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1635004 13f79535-47bb-0310-9956-ffa450edef68
+
+14	0	lang/py/build.xml
+
+commit c915fb13a26bd885200591148af91fe483d8723b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Oct 28 17:06:33 2014 +0000
+
+    AVRO-570. Fix build to get avro-tools jar from snapshot repo when not built locally.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1634919 13f79535-47bb-0310-9956-ffa450edef68
+
+5	1	lang/py/build.xml
+8	0	lang/py/ivy.xml
+9	0	lang/py/ivysettings.xml
+
+commit 2cfab13bb3cb9474745f1b34afeaed103def2999
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Oct 27 14:11:06 2014 +0000
+
+    AVRO-1489. Java: Avro fails to build with OpenJDK 8. Contributed by Ricardo Arguello.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1634542 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	2	lang/java/thrift/src/main/java/org/apache/avro/thrift/ThriftData.java
+
+commit 4a78a2da6a4d648d62249a9de048c419084320c0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Oct 7 14:04:22 2014 +0000
+
+    AVRO-570. Python: Add connector for tethered mapreduce. Contributed by Jeremy Lewi and Steven Willis.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1629898 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 5af5e3992a6a58dcb3e52969e4e2b5d903a076c3
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Oct 7 14:02:17 2014 +0000
+
+    AVRO-570. Python: Add connector for tethered mapreduce. Contributed by Jeremy Lewi and Steven Willis.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1629897 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	0	lang/java/mapred/pom.xml
+52	6	lang/java/mapred/src/main/java/org/apache/avro/mapred/tether/TetherJob.java
+1	0	lang/java/mapred/src/main/java/org/apache/avro/mapred/tether/TetherKeySerialization.java
+4	1	lang/java/mapred/src/main/java/org/apache/avro/mapred/tether/TetherMapRunner.java
+20	8	lang/java/mapred/src/main/java/org/apache/avro/mapred/tether/TetherOutputService.java
+70	12	lang/java/mapred/src/main/java/org/apache/avro/mapred/tether/TetheredProcess.java
+29	4	lang/java/mapred/src/test/java/org/apache/avro/mapred/tether/TestWordCountTether.java
+34	2	lang/java/mapred/src/test/java/org/apache/avro/mapred/tether/TetherTask.java
+50	5	lang/java/mapred/src/test/java/org/apache/avro/mapred/tether/TetherTaskRunner.java
+5	0	lang/java/mapred/src/test/java/org/apache/avro/mapred/tether/WordCountTask.java
+17	1	lang/java/pom.xml
+25	0	lang/java/tools/pom.xml
+115	31	lang/java/tools/src/main/java/org/apache/avro/tool/TetherTool.java
+109	0	lang/java/tools/src/test/java/org/apache/avro/tool/TestTetherTool.java
+32	0	lang/py/build.xml
+7	0	lang/py/src/avro/tether/__init__.py
+498	0	lang/py/src/avro/tether/tether_task.py
+227	0	lang/py/src/avro/tether/tether_task_runner.py
+34	0	lang/py/src/avro/tether/util.py
+95	0	lang/py/test/mock_tether_parent.py
+25	0	lang/py/test/set_avro_test_path.py
+3	0	lang/py/test/test_datafile.py
+3	0	lang/py/test/test_datafile_interop.py
+3	0	lang/py/test/test_io.py
+2	0	lang/py/test/test_ipc.py
+2	0	lang/py/test/test_schema.py
+116	0	lang/py/test/test_tether_task.py
+191	0	lang/py/test/test_tether_task_runner.py
+213	0	lang/py/test/test_tether_word_count.py
+96	0	lang/py/test/word_count_task.py
+
+commit f426a75e9c8dc48fdc4901224313edbb9c4739a1
+Author: Doug Cutting <cutting@apache.org>
+Date:   Sat Oct 4 00:01:02 2014 +0000
+
+    AVRO-1591. Java: Fix specific RPC so that proxies implement hashCode(), equals() and toString(). Contributed by Mark Spadoni.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1629342 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+56	25	lang/java/ipc/src/main/java/org/apache/avro/ipc/specific/SpecificRequestor.java
+72	0	lang/java/ipc/src/test/java/org/apache/avro/ipc/specific/TestSpecificRequestor.java
+
+commit f71e0cd28d1ebc039ec57cd303ba30e190e72dce
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 3 21:24:48 2014 +0000
+
+    AVRO-1502. Java: Generated classes now implement Serializable.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1629326 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+50	0	lang/java/avro/src/main/java/org/apache/avro/specific/ExternalizableInput.java
+44	0	lang/java/avro/src/main/java/org/apache/avro/specific/ExternalizableOutput.java
+18	1	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificData.java
+11	2	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificExceptionBase.java
+40	4	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificFixed.java
+11	2	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificRecordBase.java
+165	23	lang/java/avro/src/test/java/org/apache/avro/FooBarSpecificRecord.java
+2	0	lang/java/avro/src/test/java/org/apache/avro/TypeEnum.java
+7	0	lang/java/avro/src/test/java/org/apache/avro/specific/TestSpecificData.java
+6	0	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+19	0	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/fixed.vm
+18	0	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+24	0	lang/java/ipc/src/test/java/org/apache/avro/specific/TestSpecificData.java
+20	1	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+20	1	lang/java/tools/src/test/compiler/output/Player.java
+
+commit 4eec345521b9b7ec5a27e4f495a2e9a5b7d09efc
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Oct 3 20:33:39 2014 +0000
+
+    AVRO-997. Java: For enum values, no longer sometimes permit any Object whose toString() names an enum symbol, but rather always require use of distinct enum types.  Contributed by Sean Busbey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1629315 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+9	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+2	0	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumWriter.java
+3	3	lang/java/avro/src/test/java/org/apache/avro/TestSchemaCompatibility.java
+15	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericData.java
+46	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericDatumWriter.java
+6	2	lang/java/ipc/src/test/java/org/apache/avro/TestCompare.java
+
+commit fb28910e926f1c442b90e650c3bd9e6ecfb80a79
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 29 22:58:29 2014 +0000
+
+    AVRO-1590. Java: In resolving records in unions, permit structural and shortname matches when fullname matching fails.  Contributed by Ryan Blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1628335 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+45	5	lang/java/avro/src/main/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+43	0	lang/java/avro/src/test/java/org/apache/avro/TestSchemaValidation.java
+110	1	lang/java/avro/src/test/java/org/apache/avro/io/parsing/TestResolvingGrammarGenerator2.java
+
+commit fdb45a7968cc0ba7f57bc5fa97777995dc946820
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 23 16:25:27 2014 +0000
+
+    AVRO-1551. Java: Add an output encoding option to the compiler.  Contributed by Keegan Witt.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1627083 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+16	2	lang/java/tools/src/main/java/org/apache/avro/tool/SpecificCompilerTool.java
+1	1	lang/java/tools/src/test/compiler/input/player.avsc
+2	2	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+2	2	lang/java/tools/src/test/compiler/output/Player.java
+8	6	lang/java/tools/src/test/java/org/apache/avro/tool/TestSpecificCompilerTool.java
+
+commit 7c0f04e97f6b324ce2447afc4f05665bf83762a8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 22 22:13:38 2014 +0000
+
+    AVRO-1589. Java: Fix ReflectData.AllowNulls to not create unions for primitive types.  Contributed by Ryan Blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1626913 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	0	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+99	0	lang/java/avro/src/test/java/org/apache/avro/reflect/TestReflectAllowNulls.java
+
+commit 884c3fcbc57cc5d8afff87dccd4caf87ce478aed
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 22 22:07:34 2014 +0000
+
+    AVRO-1334. Java: Update versions of many dependencies.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1626912 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+6	0	lang/java/avro/pom.xml
+1	1	lang/java/ipc/src/test/java/org/apache/avro/ipc/TestNettyTransceiverWhenServerStops.java
+2	1	lang/java/mapred/pom.xml
+1	1	lang/java/mapred/src/test/java/org/apache/avro/hadoop/util/TestAvroCharSequenceComparator.java
+1	1	lang/java/maven-plugin/pom.xml
+6	6	lang/java/maven-plugin/src/main/java/org/apache/avro/mojo/AbstractAvroMojo.java
+27	26	lang/java/pom.xml
+1466	562	lang/java/protobuf/src/test/java/org/apache/avro/protobuf/Test.java
+2	1	lang/java/thrift/src/test/java/org/apache/avro/thrift/test/E.java
+108	39	lang/java/thrift/src/test/java/org/apache/avro/thrift/test/Error.java
+622	193	lang/java/thrift/src/test/java/org/apache/avro/thrift/test/Foo.java
+52	3	lang/java/thrift/src/test/java/org/apache/avro/thrift/test/FooOrBar.java
+112	45	lang/java/thrift/src/test/java/org/apache/avro/thrift/test/Nested.java
+590	338	lang/java/thrift/src/test/java/org/apache/avro/thrift/test/Test.java
+1	0	lang/java/tools/pom.xml
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/BinaryFragmentToJsonTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/CatTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/CreateRandomFileTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileGetMetaTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileReadTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileWriteTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/FromTextTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/JsonToBinaryFragmentTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/RecodecTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/RpcReceiveTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/RpcSendTool.java
+1	1	lang/java/tools/src/main/java/org/apache/avro/tool/ToTrevniTool.java
+0	6	lang/java/trevni/avro/pom.xml
+0	6	lang/java/trevni/core/pom.xml
+2	0	lang/java/trevni/pom.xml
+5	1	pom.xml
+
+commit 7aa6d34cf9f0bee928a2fcb69003fb579de67b25
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Sep 17 13:12:42 2014 +0000
+
+    AVRO-739. Add date, time, timestamp, and duration binary types to specification. Contributed by Dmitry Kovalev and Ryan Blue.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1625574 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+41	0	doc/src/content/xdocs/spec.xml
+
+commit aad41f750d1332d6a90ad52a70ba2791bd74969a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 9 22:06:00 2014 +0000
+
+    AVRO-1583. Java: Add stdin support to the tojson tool.  Contributed by Clément Mahtieu.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1623881 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+16	11	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileReadTool.java
+16	4	lang/java/tools/src/test/java/org/apache/avro/tool/TestDataFileTools.java
+
+commit d3e984ec25fb0c0a99cd080fa4320cbe3432ee6c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 2 22:24:35 2014 +0000
+
+    Set trunk version to 1.8.0-SNAPSHOT.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1622145 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/java/archetypes/avro-service-archetype/pom.xml
+1	1	lang/java/archetypes/pom.xml
+1	1	lang/java/avro/pom.xml
+1	1	lang/java/compiler/pom.xml
+1	1	lang/java/ipc/pom.xml
+1	1	lang/java/mapred/pom.xml
+1	1	lang/java/maven-plugin/pom.xml
+1	1	lang/java/pom.xml
+1	1	lang/java/protobuf/pom.xml
+1	1	lang/java/thrift/pom.xml
+1	1	lang/java/tools/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+1	1	lang/java/trevni/core/pom.xml
+2	2	lang/java/trevni/doc/pom.xml
+1	1	lang/java/trevni/pom.xml
+1	1	pom.xml
+1	1	share/VERSION.txt
+
+commit 919ace25804400a6b14d42dc60f5685578b5fcb9
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Aug 7 17:19:23 2014 +0000
+
+    AVRO-843. C#: Change Visual Studio project files to specify .NET 3.5.  Contributed by Dmitry Kovalev.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1616549 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/csharp/build.sh
+4	3	lang/csharp/src/apache/codegen/Avro.codegen.csproj
+1	1	lang/csharp/src/apache/codegen/app.config
+2	2	lang/csharp/src/apache/ipc/Avro.ipc.csproj
+3	1	lang/csharp/src/apache/perf/Avro.perf.csproj
+2	1	lang/csharp/src/apache/test/Avro.test.csproj
+
+commit 2a618069759cb7c68e3204edf3de28821721ffee
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Aug 5 17:52:53 2014 +0000
+
+    C#: Add support for RPC over HTTP.  Contributed by Dmitry Kovalev.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1615967 13f79535-47bb-0310-9956-ffa450edef68
+
+87	0	lang/csharp/src/apache/ipc/HttpListenerServer.cs
+156	0	lang/csharp/src/apache/ipc/HttpTransceiver.cs
+72	0	lang/csharp/src/apache/test/Ipc/HttpClientServerTest.cs
+
+commit 0781e9f27d2f92af283e2033e4284ea18b3794a2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Aug 4 20:12:16 2014 +0000
+
+    C#: Add support for RPC over HTTP.  Contributed by Dmitry Kovalev.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1615768 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	0	lang/csharp/src/apache/ipc/Avro.ipc.csproj
+1	0	lang/csharp/src/apache/test/Avro.test.csproj
+2	2	lang/csharp/src/apache/test/Ipc/SocketServerTest.cs
+
+commit b8dec14716b112a07ffba2df39cee9da1ee08725
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Aug 4 20:08:11 2014 +0000
+
+    AVRO-1544. Java: Fix GenericData#validate for unions with null.  Contributed by Matthew Hayes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1615764 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	0	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+36	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit 0d577247ca54ca9f180d2902c5ce6cf182b67904
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Jul 29 12:50:23 2014 +0000
+
+    AVRO-1553. Java: MapReduce never uses MapOutputValueSchema.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1614329 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+3	3	lang/java/mapred/src/main/java/org/apache/avro/hadoop/io/AvroDatumConverterFactory.java
+64	1	lang/java/mapred/src/test/java/org/apache/avro/mapreduce/TestKeyValueInput.java
+
+commit d9f748e1469e5a37f1369270722f8b0d12376264
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jul 24 20:20:04 2014 +0000
+
+    Prepare trunk for 1.7.8 development.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1613271 13f79535-47bb-0310-9956-ffa450edef68
+
+10	0	CHANGES.txt
+1	1	lang/java/archetypes/avro-service-archetype/pom.xml
+1	1	lang/java/archetypes/pom.xml
+1	1	lang/java/avro/pom.xml
+1	1	lang/java/compiler/pom.xml
+1	1	lang/java/ipc/pom.xml
+1	1	lang/java/mapred/pom.xml
+1	1	lang/java/maven-plugin/pom.xml
+1	1	lang/java/pom.xml
+1	1	lang/java/protobuf/pom.xml
+1	1	lang/java/thrift/pom.xml
+1	1	lang/java/tools/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+1	1	lang/java/trevni/core/pom.xml
+2	2	lang/java/trevni/doc/pom.xml
+1	1	lang/java/trevni/pom.xml
+1	1	lang/py3/setup.py
+1	1	pom.xml
+1	1	share/VERSION.txt
+
+commit b1e93f10a08ab95e79913580441f8a63c72dcc20
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jul 24 18:49:05 2014 +0000
+
+    Tag 1.7.7 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.7@1613244 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f457317854f7111a8209111a9f573dae46704660
+Merge: def5dab27 06d463b1a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 18 19:13:46 2014 +0000
+
+    Re-tag 1.7.7-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.7-rc0@1611774 13f79535-47bb-0310-9956-ffa450edef68
+
+commit def5dab27dbd1f17f9124df5845f469b5c7a8aa0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jul 18 18:39:09 2014 +0000
+
+    Create tag for 1.7.7-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.7-rc0@1611761 13f79535-47bb-0310-9956-ffa450edef68

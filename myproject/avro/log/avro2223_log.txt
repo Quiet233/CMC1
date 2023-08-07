@@ -1,0 +1,323 @@
+commit 7364df6e10977e5c36d2921b06064d1abe5832d4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 26 18:35:12 2013 +0000
+
+    Release 1.7.4.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.4@1450346 13f79535-47bb-0310-9956-ffa450edef68
+
+commit bce7288b1ec5bec012ef4d7252f0ebe714ee188b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Feb 21 21:13:58 2013 +0000
+
+    Tag 1.7.4-rc2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.4-rc2@1448806 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f7ce4ab5922dfe16c2b35bd21815c3180d7643ca
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Feb 21 21:08:30 2013 +0000
+
+    AVRO-1254. Fix Trevni mapreduce tests to not depend on order, which is no longer guaranteed under Java 7.  Committed to the right place this time.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1448804 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b99318cc3b18e60a051cb03699e592611a50919e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 19 23:49:21 2013 +0000
+
+    Preparing to create 1.7.4-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1447972 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1dc08581ba6ad5c17d20555818faef9da300478c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 19 23:28:10 2013 +0000
+
+    AVRO-1252. Update rat-excludes for newly added generated files.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1447962 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8e8de3360c93cca2b6e2877f96423cdf0b48e747
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 19 23:14:49 2013 +0000
+
+    AVRO-1258. Ruby: Fix handing of RPC errors.  Contributed by Martin Kleppmann.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1447958 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a78127b2356b9f6c2efab7e36cee442be5be90f4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 19 23:11:12 2013 +0000
+
+    AVRO-1257. Ruby: Fix UTF-8 encoding in Ruby 1.9.  Contributed by Martin Kleppmann.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1447957 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 9eae49165b55cc25f441b5d52eafe95367fe9441
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 19 17:15:22 2013 +0000
+
+    AVRO-1254. Java: Add support for new mapreduce APIs to Trevni.  Contributed by Ted Malaska.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1447823 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f5c61dab3264c77e5ec12d7b1ddb95bd2239b51f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Feb 18 18:27:49 2013 +0000
+
+    AVRO-1215. Java: Fix AvroMultipleOutputs when specifying baseOutputPath.  Contributed by Ashish Nagavaram.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1447419 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 267bda8996a1c8ae0d016b25486731ce122cf222
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Feb 14 22:26:18 2013 +0000
+
+    Java: Add TestNettyServerWithCompression, illustrating how one can add compression to Avro Netty-based RPC.  Contributed by Ted Malaska.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1446372 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 85b9c2c8c79c34b2ebbd6187da58f6b46652f440
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Feb 14 22:18:46 2013 +0000
+
+    AVRO-1255. Python: Make 'names' parameter optional in to_json methods.  Contributed by Jeremy Kahn.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1446366 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 21c239025f435bea117e11e61792b89d20a9110e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Feb 14 21:43:05 2013 +0000
+
+    AVRO-1252. Java: Add a '-string' option to compiler command line.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1446349 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e32e2198384ed0c887c8d96f30c791dc0cfd91dc
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Feb 14 21:29:25 2013 +0000
+
+    AVRO-1247. Java: Fix Requestor and Responder implementations to use correct ClassLoader.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1446338 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e044aadc7c2d7da7f5f50a651b219d3270494263
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Feb 14 20:47:49 2013 +0000
+
+    AVRO-1253. Java: Add support for bzip2 file compression to Trevni.  Contributed by Ted Malaska.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1446320 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c6d00c7462eaef15703f1b4ac635ac278263a6fe
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 12 23:28:10 2013 +0000
+
+    AVRO-1249. Java: Fix DataFileWriter#close() to not throw an exception when called twice.  Contributed by E. Sammer.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1445427 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 4d8a4dd7a2582ad4fa59b8ed3e0db27b91559334
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 12 23:22:54 2013 +0000
+
+    AVRO-1243. Java: Add support for bzip2 file compression and translate Hadoop job compression options.  Contributed by Ted Malaska.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1445426 13f79535-47bb-0310-9956-ffa450edef68
+
+commit cf495ef5736b6fc960196dda969fb1072ead324e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 12 22:27:25 2013 +0000
+
+    AVRO-1250. Add a command-line tool to concatenate data files.  Contributed by Nick White.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1445416 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 68bdc4317ef2c5e33ad23bbc78f0b0690350e459
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 12 19:42:36 2013 +0000
+
+    AVRO-1198. Java: Improve error message for malformed data.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1445325 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 448249366ff5ab9f5cfe4117b26ef0ab3bc7d047
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Sun Feb 10 19:01:48 2013 +0000
+
+    AVRO-1248. Avro Tool to dump protocol of a remote RPC Service
+    
+    Contributed by Gareth Davis
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1444584 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 57c9811a1695761d3e0f224b7e89e8174d927e43
+Author: Doug Cutting <cutting@apache.org>
+Date:   Sat Feb 9 00:22:05 2013 +0000
+
+    AVRO-1220. Java: Fix a deadlock when reading by replacing parser symbol constructors with factory methods.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1444297 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e73d18ddd3554dcaf36063ce7bc26f418155cff2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Feb 7 17:06:50 2013 +0000
+
+    AVRO-1242. Java: Fix AvroTrevniOutputFormat to correctly get file metadata from JobConf.  Contributed by Ted Malaska.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1443604 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d84d4df196746d00c85657672b64e20be3c0d2e8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 5 14:47:17 2013 +0000
+
+    AVRO-1240. Java: Fix SpecificDatumReader(Class) constructor to use correct ClassLoader.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1442612 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ed8c6144f8fd716203a933fab8b43a9cb79e71e2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Feb 4 22:13:38 2013 +0000
+
+    AVRO-1228. Java: Fix Trevni to use default values for missing Avro fields.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1442398 13f79535-47bb-0310-9956-ffa450edef68
+
+commit acf33453c71da6b92f9feface1a9e7c8d36456a0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Feb 4 21:58:45 2013 +0000
+
+    AVRO-1241. Java: Optimize Trevni string input.  Contributed by Joseph Adler.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1442391 13f79535-47bb-0310-9956-ffa450edef68
+
+commit dc0d13f9456637e26b4e977bc187453d584d87e8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jan 24 22:03:14 2013 +0000
+
+    AVRO-1227. Java: Large ByteBuffers can corrupt output.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1438219 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7666029b4a61c67530f24ee3bc109a520c296f95
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jan 18 21:39:06 2013 +0000
+
+    AVRO-1223. Re-generate test files to correspond to compiler changes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1435360 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fd4edf6088965a6edda1bfc17ce992b0e0e1c37c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jan 18 21:32:55 2013 +0000
+
+    AVRO-1232. Java: Add a toString() method to AvroWrapper so that it works with TextOutputFormat.  Contributed by Garrett Wu.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1435355 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 30e1a5222aba7f80e9609b020816931e857d35ef
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jan 18 21:22:04 2013 +0000
+
+    AVRO-1223. Java: Add a static method to generated classes that returns its schema, getClassSchema().
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1435349 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 350f09f3cefec53e20762e7862cb37f38c6251e6
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jan 18 21:15:13 2013 +0000
+
+    AVRO-970. Java: Make Codec API public.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1435347 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7e141b815cd05d75a210b00010a6cad8edbb84b7
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Jan 18 19:34:34 2013 +0000
+
+    AVRO-1229. Add support for booleans to Trevni.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1435314 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 77c48330740108e658cb3fcc94c4d8e04324e547
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Jan 17 21:11:45 2013 +0000
+
+    AVRO-1233. Java: Fix InputBuffer's constructor to use the specified initial position.  Contributed by Mark Wagner.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1434916 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 53fa2dcc0773985912ce5ced3c1dea1e5b2d0a45
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Jan 16 16:09:03 2013 +0000
+
+    AVRO-1230. avro-mapred-1.7.3-hadoop1.jar does not work with Hadoop 1.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1434008 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a4769d950af7074c060d7f962fada88352620dbe
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Jan 14 20:29:19 2013 +0000
+
+    AVRO-1231. Java: Fix Trevni shredder to work on non-recursive schemas with multiple references.  Contributed by Mark Wagner.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1433104 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 6774ee3b5f08666c6ba1e9ee6040283932d0f875
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Dec 20 20:52:49 2012 +0000
+
+    AVRO-1008. Java: Improve support for forcing connection handshakes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1424699 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 588288be89c3d8aeca79f6aa41d09f3efe5a0918
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Dec 19 23:38:07 2012 +0000
+
+    AVRO-1221. Java: Fix TestSaslDigestMd5 to pass on IBM JVM.  Contributed by Rodrigo Trujillo.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1424223 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 111c5c91507b943acfdb1370dd9401de4a63b5a8
+Author: Thomas White <tomwhite@apache.org>
+Date:   Wed Dec 19 18:32:12 2012 +0000
+
+    AVRO-1211. Add MR guide to documentation. Contributed by Skye Wanderman-Milne.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1424014 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a77d713671e7a53a3c7ebed1d3f5b843b224a6da
+Author: Miki Tebeka <tebeka@apache.org>
+Date:   Sat Dec 8 01:05:15 2012 +0000
+
+    AVRO-1217. Python: set_meta on DataFileWriter does not do anything
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1418584 13f79535-47bb-0310-9956-ffa450edef68
+
+commit bfc1bdc733da592fd665a56692a4f5c08e731f53
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Dec 7 21:49:12 2012 +0000
+
+    Prepare trunk for 1.7.4 development.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1418496 13f79535-47bb-0310-9956-ffa450edef68
+
+commit bffc3c6701a3fc7f0776dea6e61f5ae25c14c602
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Dec 7 19:20:59 2012 +0000
+
+    Tagging 1.7.3.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.3@1418448 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 37b4bb9745e7ea08c0bc76ad520d90d76f711ac7
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Dec 3 17:38:30 2012 +0000
+
+    Tag 1.7.3-rc2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.3-rc2@1416599 13f79535-47bb-0310-9956-ffa450edef68

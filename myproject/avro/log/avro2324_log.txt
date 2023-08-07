@@ -1,0 +1,949 @@
+commit de1904f0a6b9f2239d715c2a2e8ec71349071d8b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Aug 19 18:05:45 2013 +0000
+
+    Avro Release 1.7.5
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.5@1515538 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1b52ab8aee659aa8360d25ea444ed0dd771bb2d2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Aug 7 23:33:49 2013 +0000
+
+    Tagging 1.7.5-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.5-rc0@1511537 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 74811387064c8668aaf6c538a54284d394bb1d09
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Aug 7 23:32:39 2013 +0000
+
+    Updating versions, preparing for 1.7.5 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1511536 13f79535-47bb-0310-9956-ffa450edef68
+
+2	2	CHANGES.txt
+1	1	lang/java/archetypes/avro-service-archetype/pom.xml
+1	1	lang/java/archetypes/pom.xml
+1	1	lang/java/avro/pom.xml
+1	1	lang/java/compiler/pom.xml
+1	1	lang/java/ipc/pom.xml
+1	1	lang/java/mapred/pom.xml
+1	1	lang/java/maven-plugin/pom.xml
+1	1	lang/java/pom.xml
+1	1	lang/java/protobuf/pom.xml
+1	1	lang/java/thrift/pom.xml
+1	1	lang/java/tools/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+1	1	lang/java/trevni/core/pom.xml
+2	2	lang/java/trevni/doc/pom.xml
+1	1	lang/java/trevni/pom.xml
+1	1	pom.xml
+1	1	share/VERSION.txt
+
+commit 854daafa0d91b3e0da986841ba6ad023eddddeca
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Aug 7 23:27:06 2013 +0000
+
+    AVRO-1353. Java: Permit specification of data model (generic, specific, reflect, or other) in mapreduce job configuration.  Contributed by Marshall Bockrath-Vandegrift.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1511535 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+22	2	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+6	0	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+8	8	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificData.java
+14	0	lang/java/mapred/src/main/java/org/apache/avro/hadoop/io/AvroDeserializer.java
+6	3	lang/java/mapred/src/main/java/org/apache/avro/hadoop/io/AvroKeyComparator.java
+13	0	lang/java/mapred/src/main/java/org/apache/avro/hadoop/io/AvroKeyDeserializer.java
+72	9	lang/java/mapred/src/main/java/org/apache/avro/hadoop/io/AvroSerialization.java
+14	0	lang/java/mapred/src/main/java/org/apache/avro/hadoop/io/AvroSerializer.java
+13	0	lang/java/mapred/src/main/java/org/apache/avro/hadoop/io/AvroValueDeserializer.java
+60	1	lang/java/mapred/src/main/java/org/apache/avro/mapred/AvroJob.java
+3	2	lang/java/mapred/src/main/java/org/apache/avro/mapred/AvroOutputFormat.java
+2	5	lang/java/mapred/src/main/java/org/apache/avro/mapred/AvroRecordReader.java
+13	13	lang/java/mapred/src/main/java/org/apache/avro/mapred/AvroSerialization.java
+11	0	lang/java/mapred/src/main/java/org/apache/avro/mapreduce/AvroJob.java
+16	13	lang/java/mapred/src/main/java/org/apache/avro/mapreduce/AvroKeyOutputFormat.java
+4	4	lang/java/mapred/src/main/java/org/apache/avro/mapreduce/AvroKeyRecordWriter.java
+9	3	lang/java/mapred/src/main/java/org/apache/avro/mapreduce/AvroKeyValueOutputFormat.java
+3	4	lang/java/mapred/src/main/java/org/apache/avro/mapreduce/AvroKeyValueRecordWriter.java
+6	3	lang/java/mapred/src/main/java/org/apache/avro/mapreduce/AvroRecordReaderBase.java
+42	2	lang/java/mapred/src/test/java/org/apache/avro/hadoop/io/TestAvroSerialization.java
+6	4	lang/java/mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyOutputFormat.java
+4	1	lang/java/mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyRecordWriter.java
+4	3	lang/java/mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyValueRecordWriter.java
+
+commit 8af840b2cd1ad273e6417f58d359e9b113a1c927
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Aug 7 23:16:58 2013 +0000
+
+    AVRO-1341. Java: Add reflection annotations @AvroName, @AvroIgnore, @AvroMeta, @AvroAlias and @AvroEncode.  Contributed by Vincenz Priesnitz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1511531 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+11	1	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+1	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumReader.java
+37	0	lang/java/avro/src/main/java/org/apache/avro/reflect/AvroAlias.java
+35	0	lang/java/avro/src/main/java/org/apache/avro/reflect/AvroEncode.java
+33	0	lang/java/avro/src/main/java/org/apache/avro/reflect/AvroIgnore.java
+34	0	lang/java/avro/src/main/java/org/apache/avro/reflect/AvroMeta.java
+34	0	lang/java/avro/src/main/java/org/apache/avro/reflect/AvroName.java
+53	0	lang/java/avro/src/main/java/org/apache/avro/reflect/CustomEncoding.java
+53	0	lang/java/avro/src/main/java/org/apache/avro/reflect/DateAsLongEncoding.java
+19	0	lang/java/avro/src/main/java/org/apache/avro/reflect/FieldAccessReflect.java
+67	11	lang/java/avro/src/main/java/org/apache/avro/reflect/FieldAccessUnsafe.java
+12	0	lang/java/avro/src/main/java/org/apache/avro/reflect/FieldAccessor.java
+50	4	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+21	4	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumReader.java
+16	4	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumWriter.java
+2	2	lang/java/avro/src/main/java/org/apache/avro/reflect/Stringable.java
+17	0	lang/java/avro/src/main/java/org/apache/avro/reflect/package.html
+175	0	lang/java/avro/src/test/java/org/apache/avro/reflect/TestReflect.java
+
+commit d6b1d2cd0d1bb625f5fb73ef3931a63bbb622953
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Aug 7 22:25:06 2013 +0000
+
+    Add a couple of missing license headers.  Preparing for 1.7.5 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1511520 13f79535-47bb-0310-9956-ffa450edef68
+
+18	0	lang/c/FindSnappy.cmake
+19	1	lang/java/tools/src/test/idl/protocol.avdl
+
+commit fe114b90dff01f10d91055577e58c4325dd45a6e
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Aug 7 19:47:42 2013 +0000
+
+    AVRO-1356. Java: Fix AvroMultipleOutputs for map-only jobs.  Contributed by Alan Paulsen.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1511456 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+22	2	lang/java/mapred/src/main/java/org/apache/avro/hadoop/io/AvroDatumConverterFactory.java
+12	1	lang/java/mapred/src/main/java/org/apache/avro/mapreduce/AvroKeyOutputFormat.java
+1	0	lang/java/mapred/src/test/java/org/apache/avro/mapreduce/TestAvroKeyOutputFormat.java
+
+commit 00f36ae402b34d5b47ca5a6349ad5488e2ec5bcd
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Aug 7 19:22:57 2013 +0000
+
+    AVRO-1337. Java: Add a command line tool to generate schema files from a protocol.  Contributed by Bertrand Dechoux.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1511449 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+90	0	lang/java/tools/src/main/java/org/apache/avro/tool/IdlToSchemataTool.java
+1	0	lang/java/tools/src/main/java/org/apache/avro/tool/Main.java
+40	0	lang/java/tools/src/test/idl/protocol.avdl
+41	0	lang/java/tools/src/test/java/org/apache/avro/tool/TestIdlToSchemataTool.java
+
+commit b7897db6425377d3f0a6e6a9df169f65737b580b
+Author: Scott Carey <scottcarey@apache.org>
+Date:   Wed Jul 31 02:30:50 2013 +0000
+
+    AVRO-1144 Deadlock with FSInput and Hadoop NativeS3FileSystem
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1508713 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/java/mapred/src/main/java/org/apache/avro/mapred/FsInput.java
+
+commit e6549b48822e7491406344397c5fce8b1e1f091e
+Author: Scott Carey <scottcarey@apache.org>
+Date:   Sun Jul 28 22:10:12 2013 +0000
+
+    AVRO-1325 Enhanced Schema Builder API
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1507862 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2249	759	lang/java/avro/src/main/java/org/apache/avro/SchemaBuilder.java
+5	12	lang/java/avro/src/test/java/org/apache/avro/TestSchema.java
+568	187	lang/java/avro/src/test/java/org/apache/avro/TestSchemaBuilder.java
+16	8	lang/java/compiler/src/test/java/org/apache/avro/compiler/idl/TestIdl.java
+26	1	lang/java/pom.xml
+
+commit 05e9ff1711b968388c7cb54e5488e91c8be630af
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Fri Jul 26 14:03:06 2013 +0000
+
+    AVRO-896. C: Snappy is an optional dependency
+    
+    Buildbot doesn't have the snappy libraries installed, and it raised an error
+    trying to compile the C bindings with the previous AVRO-896 patch applied.
+    Turns out we weren't being careful enough when the Snappy library (and
+    presumably the other compression libraries) weren't installed.  Now this
+    correctly results in a good build, of a library with snappy support turned off,
+    as intended.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1507318 13f79535-47bb-0310-9956-ffa450edef68
+
+8	6	lang/c/CMakeLists.txt
+
+commit 9b0a633bca2f657e250ddd602468d1fccdc5c027
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Fri Jul 26 13:55:39 2013 +0000
+
+    AVRO-1279. C: Treat missing codec in data file as null codec.
+    
+    Contributed by Carl Steinbach.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1507317 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+6	4	lang/c/src/datafile.c
+4	0	lang/c/src/generic.c
+1	0	lang/c/tests/CMakeLists.txt
+-	-	lang/c/tests/avro-1279-codec.avro
+-	-	lang/c/tests/avro-1279-no-codec.avro
+47	0	lang/c/tests/test_avro_1279.c
+
+commit 4cd58297e1c30930d4cca53c10ff3cd99a33269c
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Fri Jul 26 13:40:47 2013 +0000
+
+    AVRO-896. C: Snappy compression codec.
+    
+    Like all other codecs, this is optional.  It will only be activated if the
+    snappy C library is installed at build time.  Contributed by Grisha Trubetskoy.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1507309 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+15	2	lang/c/CMakeLists.txt
+36	0	lang/c/FindSnappy.cmake
+128	0	lang/c/src/codec.c
+2	1	lang/c/src/codec.h
+
+commit 1579ab1ac95731630af58fc303a07c9bf28541d6
+Author: James Baldassari <jbaldassari@apache.org>
+Date:   Mon Jul 15 00:53:28 2013 +0000
+
+    AVRO-1297. NettyTransceiver: Provide overloaded close(boolean awaitCompletion)
+    
+    Submitted by:jbaldassari
+    Reviewed by:cutting
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1503095 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+16	1	lang/java/ipc/src/main/java/org/apache/avro/ipc/NettyTransceiver.java
+
+commit 6e79ea1e08f7ba0414934c7c65a3dad381a20562
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Jul 10 16:40:06 2013 +0000
+
+    AVRO-1261. Fix tests whose generated javadoc has changed.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1501842 13f79535-47bb-0310-9956-ffa450edef68
+
+3	1	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+3	1	lang/java/tools/src/test/compiler/output/Player.java
+
+commit b6c2905a5e28233f824147242e40a3c7df52f7da
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Jul 10 16:14:11 2013 +0000
+
+    AVRO-1261. Add missing escape that broke the build.  Oops.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1501821 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+
+commit 9d9ab81eead6ad75ef182de58f0c0c421fc52237
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jul 9 22:00:09 2013 +0000
+
+    AVRO-1261. Clarify in documentation that generated no-arg constructors do not use default values from schema.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1501581 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+3	1	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+
+commit ae6eede41c9fca1bc235f65fece131816bda3d9d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jul 9 21:57:43 2013 +0000
+
+    AVRO-1351. Extend SortedKeyValueFile to support data models besides generic.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1501579 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+16	6	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+6	0	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+6	0	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificData.java
+51	12	lang/java/mapred/src/main/java/org/apache/avro/hadoop/file/SortedKeyValueFile.java
+68	0	lang/java/mapred/src/test/java/org/apache/avro/hadoop/file/TestSortedKeyValueFile.java
+6	0	lang/java/protobuf/src/main/java/org/apache/avro/protobuf/ProtobufData.java
+6	0	lang/java/thrift/src/main/java/org/apache/avro/thrift/ThriftData.java
+
+commit c979ba8577fa3d29bd7ebbcf5d8f083c4033f4e2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jul 2 18:00:11 2013 +0000
+
+    AVRO-1292. Java: Fix potential client blocking in NettyTransceiver.  Contributed by James Baldassari.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1499040 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+73	10	lang/java/ipc/src/main/java/org/apache/avro/ipc/NettyTransceiver.java
+
+commit ecee999e3be6ea7ffec8f3c7bce267efe9395d4d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jul 2 17:45:37 2013 +0000
+
+    AVRO-1293. Java: Fix potential deadlock in NettyTransceiver. Contributed by James Baldassari.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1499035 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+7	1	lang/java/ipc/src/main/java/org/apache/avro/ipc/NettyTransceiver.java
+
+commit 1074bbd253c7275648ff8845c54e8f15e70e5428
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Jul 2 17:35:22 2013 +0000
+
+    reflow long lines
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1499031 13f79535-47bb-0310-9956-ffa450edef68
+
+8	4	CHANGES.txt
+
+commit a1796711e1470ba794f37ae74eb9a34101ff7daa
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Jul 1 18:04:37 2013 +0000
+
+    AVRO-823: C#: Add data file support.  Contributed by David McIntosh.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1498613 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	2	lang/csharp/src/apache/codegen/Avro.codegen.csproj
+12	2	lang/csharp/src/apache/main/Avro.main.csproj
+1	1	lang/csharp/src/apache/main/CodeGen/CodeGen.cs
+115	0	lang/csharp/src/apache/main/File/Codec.cs
+43	0	lang/csharp/src/apache/main/File/DataBlock.cs
+46	0	lang/csharp/src/apache/main/File/DataFileConstants.cs
+410	0	lang/csharp/src/apache/main/File/DataFileReader.cs
+315	0	lang/csharp/src/apache/main/File/DataFileWriter.cs
+83	0	lang/csharp/src/apache/main/File/DeflateCodec.cs
+40	0	lang/csharp/src/apache/main/File/Header.cs
+119	0	lang/csharp/src/apache/main/File/IFileReader.cs
+85	0	lang/csharp/src/apache/main/File/IFileWriter.cs
+56	0	lang/csharp/src/apache/main/File/NullCodec.cs
+2	1	lang/csharp/src/apache/main/Specific/SpecificReader.cs
+3	3	lang/csharp/src/apache/test/Avro.test.csproj
+3	3	lang/csharp/src/apache/test/CodGen/CodeGenTest.cs
+703	0	lang/csharp/src/apache/test/File/FileTests.cs
+50	4	lang/csharp/src/apache/test/Specific/SpecificTests.cs
+
+commit d2a8de16fcafeb94b381c38dbe4110b83a16872f
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Mon Jun 24 08:37:43 2013 +0000
+
+    AVRO-1172. Avro C++ Json Decoder: Double cannot be decoded
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1495955 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+33	7	lang/c++/impl/json/JsonIO.cc
+2	0	lang/c++/impl/json/JsonIO.hh
+25	0	lang/c++/test/CodecTests.cc
+
+commit 710684f733c19928f4e5132b25f0c858ea9dfa3f
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Jun 20 17:17:23 2013 +0000
+
+    AVRO-1346. C++: schema parser cannot parse verbose primitive types
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1495109 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	7	lang/c++/impl/Compiler.cc
+11	0	lang/c++/test/SchemaTests.cc
+
+commit 923b619a011733c9f0669556ab96322335568951
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Jun 13 19:02:46 2013 +0000
+
+    AVRO-1290. Handling NaN and positive and negative infinities in C++ Json
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1492821 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+23	2	lang/c++/impl/json/JsonIO.cc
+2	0	lang/c++/impl/json/JsonIO.hh
+20	9	lang/c++/impl/parsing/JsonCodec.cc
+69	14	lang/c++/test/CodecTests.cc
+
+commit b790897340eefc626c107c1578f26ee49a3de412
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Jun 13 18:48:49 2013 +0000
+
+    AVRO-1181 compileJsonSchemaFromString(std::string) declared in Compiler.hh but not defined
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1492812 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+6	0	lang/c++/impl/Compiler.cc
+7	0	lang/c++/test/SchemaTests.cc
+
+commit 0b9ac6561d279342f2eaf85985e2ebf5675691c5
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Fri May 24 13:49:20 2013 +0000
+
+    AVRO-1324. C: Handle namespaces when parsing schemas
+    
+    The schema parser can now handle fully-qualified schema references, and it
+    understands inherited namespaces.
+    
+    Contributed by Ben Walsh.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1486053 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+13	6	lang/c/src/allocation.c
+1	0	lang/c/src/avro/allocation.h
+3	0	lang/c/src/avro_private.h
+89	35	lang/c/src/schema.c
+10	7	lang/c/src/schema_equal.c
+28	0	lang/c/tests/schema_tests/pass/namespace_recursive
+5	0	lang/c/tests/schema_tests/pass/namespace_simple
+23	0	lang/c/tests/test_avro_schema.c
+
+commit 2fd8d25b142048ed159731b7e110aa9c3edba843
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Fri May 24 13:37:36 2013 +0000
+
+    AVRO-1238. C: EOF detection in avro_file_reader_read_value
+    
+    This function now returns the builtin `EOF` constant when end-of-file is
+    detected.  `0` still indicates a successful read, and other results indicate
+    errors.
+    
+    Contributed by Michael Cooper.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1486051 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	0	lang/c/src/avro/io.h
+6	2	lang/c/src/avrocat.c
+6	1	lang/c/src/avromod.c
+6	1	lang/c/src/avropipe.c
+10	5	lang/c/src/datafile.c
+14	6	lang/c/src/io.c
+1	0	lang/c/tests/CMakeLists.txt
+-	-	lang/c/tests/avro-1238-good.avro
+-	-	lang/c/tests/avro-1238-truncated.avro
+125	0	lang/c/tests/test_avro_1238.c
+
+commit 16c626006f3d29f65f4fb1b648e09531106405f5
+Author: Scott Carey <scottcarey@apache.org>
+Date:   Tue May 21 04:06:47 2013 +0000
+
+    AVRO-1334. Java: Upgrade snappy-java dependency to 1.0.5
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1484656 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/java/pom.xml
+
+commit 9199bac9f99f1d5ec8d8f4c396b030c2ae08cd79
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu May 16 17:33:53 2013 +0000
+
+    AVRO-1331. Java: Fix schema-parsing incompatibility introduced in AVRO-1295.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1483463 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	4	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+
+commit d32617f83f4b4b78c1a852127595e02d2ffb77f2
+Author: Scott Carey <scottcarey@apache.org>
+Date:   Wed May 15 21:00:11 2013 +0000
+
+    AVRO-1314. Java: add @threadSafe annotation to maven plugins.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1483078 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	0	lang/java/maven-plugin/src/main/java/org/apache/avro/mojo/IDLProtocolMojo.java
+1	0	lang/java/maven-plugin/src/main/java/org/apache/avro/mojo/ProtocolMojo.java
+1	0	lang/java/maven-plugin/src/main/java/org/apache/avro/mojo/SchemaMojo.java
+
+commit 711a4ed4230c0ba1627670e7b89db88472575e1f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu May 9 22:15:16 2013 +0000
+
+    AVRO-1316. Java: Fix compiler to split long schema string constants so javac can compile them.  Contributed by Jeremy Kahn.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1480808 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+8	0	lang/java/avro/src/main/java/org/apache/avro/Protocol.java
+8	0	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+25	1	lang/java/avro/src/test/java/org/apache/avro/TestProtocol.java
+53	0	lang/java/avro/src/test/java/org/apache/avro/TestSchema.java
+19	0	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+1	1	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/protocol.vm
+1	1	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+22	4	lang/java/ipc/src/test/java/org/apache/avro/compiler/specific/TestSpecificCompiler.java
+14	5	lang/java/tools/src/test/java/org/apache/avro/tool/TestSpecificCompilerTool.java
+
+commit e10bd69255549a854d1ef178ab9df4dbd99dd2ac
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu May 9 21:13:58 2013 +0000
+
+    AVRO-1322. Java: Add Hadoop version classifier to trevni-avro Maven artifacts.  Contributed by massie.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1480775 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+94	12	lang/java/trevni/avro/pom.xml
+
+commit 82441729dd69fc5d431cabc8b1ffa25e924b8bbe
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu May 9 21:04:47 2013 +0000
+
+    AVRO-1326. Java: Fix bug in BZip2 codec.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1480771 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+3	1	lang/java/avro/src/main/java/org/apache/avro/file/BZip2Codec.java
+2	1	lang/java/avro/src/test/java/org/apache/avro/file/TestBZip2Codec.java
+
+commit 23201deb6d468b4cd8be4db7f812f37285358f5b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu May 9 21:00:45 2013 +0000
+
+    AVRO-1327. Java: Make GenericEnumSymbol implement Comparable.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1480769 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+7	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+2	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericEnumSymbol.java
+10	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit 52fe3505338ceb51a2299d1303d0f0c7c8afac2d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu May 9 20:55:06 2013 +0000
+
+    AVRO-1319. Java: Add command line tools to generate random data files and to convert Avro to Trevni.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1480766 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+101	0	lang/java/tools/src/main/java/org/apache/avro/tool/CreateRandomFileTool.java
+2	0	lang/java/tools/src/main/java/org/apache/avro/tool/Main.java
+83	0	lang/java/tools/src/main/java/org/apache/avro/tool/ToTrevniTool.java
+82	0	lang/java/tools/src/test/java/org/apache/avro/tool/TestCreateRandomFileTool.java
+75	0	lang/java/tools/src/test/java/org/apache/avro/tool/TestToTrevniTool.java
+
+commit 258f800dce8433d0de3ced0916167df0446e9390
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed May 8 17:35:51 2013 +0000
+
+    Java: Fix Trevni to correctly read unions and specific enums.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1480374 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+6	0	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+1	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumReader.java
+7	0	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificData.java
+0	8	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificDatumReader.java
+3	3	lang/java/trevni/avro/src/main/java/org/apache/trevni/avro/AvroColumnReader.java
+17	0	lang/java/trevni/avro/src/test/cases/enum/input.avsc
+4	0	lang/java/trevni/avro/src/test/cases/enum/input.json
+
+commit 2e102f67b8ac4a29afba03b121b4f928ee27f09b
+Author: Scott Carey <scottcarey@apache.org>
+Date:   Thu May 2 01:01:47 2013 +0000
+
+    AVRO-1313. Java: Add system property avro.disable.unsafe for disabling
+        use of sun.misc.Unsafe.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1478244 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	0	lang/java/avro/src/main/java/org/apache/avro/reflect/FieldAccessReflect.java
+9	7	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectionUtil.java
+
+commit 40650540dcb8ca8a6b6235de5cdd36c0f6e2eb31
+Author: Scott Carey <scottcarey@apache.org>
+Date:   Tue Apr 30 16:18:26 2013 +0000
+
+    AVRO-1282. Java: Use sun.misc.Unsafe to improve Reflect API Performance.
+        (Leo Romanoff via scottcarey)
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1477712 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+13	3	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumReader.java
+13	6	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumWriter.java
+8	4	lang/java/avro/src/main/java/org/apache/avro/io/EncoderFactory.java
+228	0	lang/java/avro/src/main/java/org/apache/avro/reflect/ArrayAccessor.java
+26	0	lang/java/avro/src/main/java/org/apache/avro/reflect/FieldAccess.java
+54	0	lang/java/avro/src/main/java/org/apache/avro/reflect/FieldAccessReflect.java
+309	0	lang/java/avro/src/main/java/org/apache/avro/reflect/FieldAccessUnsafe.java
+43	0	lang/java/avro/src/main/java/org/apache/avro/reflect/FieldAccessor.java
+175	58	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+92	18	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumReader.java
+83	23	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumWriter.java
+121	0	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectionUtil.java
+98	21	lang/java/avro/src/test/java/org/apache/avro/reflect/TestReflect.java
+79	0	lang/java/avro/src/test/java/org/apache/avro/reflect/TestReflectionUtil.java
+382	44	lang/java/ipc/src/test/java/org/apache/avro/io/Perf.java
+
+commit 2d90087552098f008bc8d4b6d9ae60f84b345b90
+Author: Scott Carey <scottcarey@apache.org>
+Date:   Mon Apr 29 19:47:32 2013 +0000
+
+    add svn:ignore for eclipse project settings to trevni and base pom.xml projects
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1477299 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 866a68df261cc259074d864a2e584b077fa6b2bb
+Author: Thomas White <tomwhite@apache.org>
+Date:   Mon Apr 29 11:37:57 2013 +0000
+
+    AVRO-1274. Java: Add a schema builder API.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1476973 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	1	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+1107	0	lang/java/avro/src/main/java/org/apache/avro/SchemaBuilder.java
+26	0	lang/java/avro/src/main/java/org/apache/avro/SchemaBuilderException.java
+9	2	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+2	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericRecordBuilder.java
+348	0	lang/java/avro/src/test/java/org/apache/avro/TestSchemaBuilder.java
+284	0	lang/java/avro/src/test/resources/SchemaBuilder.avsc
+
+commit 3e35fd44125397c1a9d2313220e225c1059b04e0
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Apr 26 22:12:16 2013 +0000
+
+    AVRO-1307. Java: Add 'cat' tool to append and sample data files.  Contributed by Vincenz Priesnitz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1476418 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+216	0	lang/java/tools/src/main/java/org/apache/avro/tool/CatTool.java
+1	0	lang/java/tools/src/main/java/org/apache/avro/tool/Main.java
+64	0	lang/java/tools/src/main/java/org/apache/avro/tool/Util.java
+347	0	lang/java/tools/src/test/java/org/apache/avro/tool/TestCatTool.java
+
+commit 6983e7cf8fc86ae26d192cbeca779a57b3d75df5
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Thu Apr 25 13:51:01 2013 +0000
+
+    AVRO-1306. Java mapred: Fix incorrect documentation for combiners.  Contributed by Mina Naguib.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1475773 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+8	3	lang/java/mapred/src/main/java/org/apache/avro/mapred/package.html
+
+commit c880210c65d0289d96ca6472ad333fc8068f4e03
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 23 20:15:55 2013 +0000
+
+    AVRO-1308. Java: Fix repeated protobuf messages & enums.  Contributed by Steve Zesch.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1471128 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+10	20	lang/java/protobuf/src/main/java/org/apache/avro/protobuf/ProtobufData.java
+2	1	lang/java/protobuf/src/main/java/org/apache/avro/protobuf/ProtobufDatumReader.java
+4	2	lang/java/protobuf/src/main/java/org/apache/avro/protobuf/ProtobufDatumWriter.java
+425	14	lang/java/protobuf/src/test/java/org/apache/avro/protobuf/Test.java
+5	1	lang/java/protobuf/src/test/java/org/apache/avro/protobuf/TestProtobuf.java
+3	1	lang/java/protobuf/src/test/protobuf/test.proto
+
+commit 9a501d91b962ade5554e8ddeb8bbacde544fb9b8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 23 17:11:23 2013 +0000
+
+    AVRO-1299. Java: SpecificRecordBase implements GenericRecord.  Contributed by Christophe Taton.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1471047 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+12	1	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificRecordBase.java
+48	0	lang/java/avro/src/test/java/org/apache/avro/specific/TestSpecificData.java
+
+commit 3eb36b556128ddcc237489366996b8c237ecdcb8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 23 17:07:48 2013 +0000
+
+    AVRO-1309. Java: Fix nested protobuf enums.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1471043 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+26	11	lang/java/protobuf/src/main/java/org/apache/avro/protobuf/ProtobufData.java
+373	20	lang/java/protobuf/src/test/java/org/apache/avro/protobuf/Test.java
+9	0	lang/java/protobuf/src/test/java/org/apache/avro/protobuf/TestProtobuf.java
+7	0	lang/java/protobuf/src/test/protobuf/test.proto
+
+commit eb7a72136b48a827aae62296b1ba65d63ad0ead5
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Mon Apr 22 21:02:59 2013 +0000
+
+    AVRO-1296. Fixing build breakage for python2.6.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1470716 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/py/test/test_protocol.py
+
+commit 2985e27b367370c8c7176f52a26077044b0e77a1
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Apr 22 19:59:42 2013 +0000
+
+    AVRO-867. Java: Enable command-line tools to read data files from any Hadoop FileSystem implementation.  Contributed by Vincenz Priesnitz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1470691 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	14	lang/java/tools/src/main/java/org/apache/avro/tool/BinaryFragmentToJsonTool.java
+3	3	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileGetMetaTool.java
+1	2	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileGetSchemaTool.java
+1	2	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileReadTool.java
+4	26	lang/java/tools/src/main/java/org/apache/avro/tool/DataFileWriteTool.java
+3	15	lang/java/tools/src/main/java/org/apache/avro/tool/JsonToBinaryFragmentTool.java
+2	4	lang/java/tools/src/main/java/org/apache/avro/tool/RecodecTool.java
+7	7	lang/java/tools/src/main/java/org/apache/avro/tool/ToTextTool.java
+78	32	lang/java/tools/src/main/java/org/apache/avro/tool/Util.java
+
+commit ebe57473f9a64f540cd4f0dd977313f21de42f6f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Apr 22 19:50:19 2013 +0000
+
+    AVRO-1300. Java: Fix generated copy constructors to copy field values.  Contributed by taton.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1470682 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+6	0	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+16	0	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+16	0	lang/java/tools/src/test/compiler/output/Player.java
+
+commit c56c4366f80f95a095090e30c511ed0ad4acf2a5
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Mon Apr 22 17:50:57 2013 +0000
+
+    AVRO-1296. Python: Fix schemas retrieved from protocol types to not ignore namespaces. Contributed by Jeremy Kahn.
+    
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1470635 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/py/src/avro/protocol.py
+22	5	lang/py/src/avro/schema.py
+21	4	lang/py/test/test_protocol.py
+
+commit 0d22770de46e3aad404dff8901264067cdfdc714
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Apr 16 23:25:56 2013 +0000
+
+    AVRO-1295. Java: Fix printing of a non-null namespace within a null namespace.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1468677 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	0	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+9	0	lang/java/ipc/src/test/java/org/apache/avro/TestSchema.java
+
+commit 1e7a16eb1d624fd10b5b7676ade9a37b77234bb5
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Sat Apr 13 04:50:28 2013 +0000
+
+    AVRO-1288. Ruby: Add support for deflate codec in data files.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1467549 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	0	lang/ruby/Rakefile
+1	4	lang/ruby/interop/test_interop.rb
+1	0	lang/ruby/lib/avro.rb
+90	25	lang/ruby/lib/avro/data_file.rb
+31	0	lang/ruby/test/test_datafile.rb
+
+commit 3726dc2888b2b7d1c5e93f257563043fa9305b89
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Sat Apr 13 04:43:26 2013 +0000
+
+    AVRO-1287. Add data file with deflate codec to the interoperability test suite.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1467548 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	build.sh
+42	18	lang/java/avro/pom.xml
+6	4	lang/java/avro/src/test/java/org/apache/avro/RandomData.java
+6	1	lang/php/test/InterOpTest.php
+4	1	lang/ruby/interop/test_interop.rb
+
+commit 0820a9e0e2442730395da77ece1c6a550a86383d
+Author: Martin Kleppmann <martinkl@apache.org>
+Date:   Sat Apr 13 04:30:13 2013 +0000
+
+    AVRO-1266. Java: Fix mapred.AvroMultipleOutputs to support multiple different schemas.  Contributed by Ashish Nagavaram.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1467543 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+96	14	lang/java/mapred/src/main/java/org/apache/avro/mapred/AvroMultipleOutputs.java
+83	1	lang/java/mapred/src/test/java/org/apache/avro/mapred/TestAvroMultipleOutputs.java
+
+commit 253e96e9d84da192c9095210529a84def74f6ec6
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Mar 27 23:42:30 2013 +0000
+
+    AVRO-1259. Java: Improve Trevni's encoding of sparse columns.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1461896 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+40	4	lang/java/trevni/core/src/main/java/org/apache/trevni/ArrayColumnOutputBuffer.java
+1	0	lang/java/trevni/core/src/main/java/org/apache/trevni/ColumnFileReader.java
+2	1	lang/java/trevni/core/src/main/java/org/apache/trevni/ColumnFileWriter.java
+1	1	lang/java/trevni/core/src/main/java/org/apache/trevni/ColumnOutputBuffer.java
+16	1	lang/java/trevni/core/src/main/java/org/apache/trevni/InputBuffer.java
+4	2	lang/java/trevni/doc/apt/spec.apt
+
+commit a3b38ebfdaf93eb77860fe80540bbc788e9589df
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Mar 27 21:33:18 2013 +0000
+
+    AVRO-1268. Java: Extend support for stringables from reflect to specific.  Contributed by Alexandre Normand and cutting.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1461856 13f79535-47bb-0310-9956-ffa450edef68
+
+6	0	CHANGES.txt
+11	0	doc/src/content/xdocs/idl.xml
+59	2	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumReader.java
+8	29	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectData.java
+0	34	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumReader.java
+0	8	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumWriter.java
+11	0	lang/java/avro/src/main/java/org/apache/avro/reflect/package.html
+36	0	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificData.java
+26	0	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificDatumReader.java
+8	0	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificDatumWriter.java
+0	19	lang/java/avro/src/test/java/org/apache/avro/reflect/TestReflectDatumReader.java
+0	23	lang/java/avro/src/test/java/org/apache/avro/specific/TestSpecificData.java
+9	4	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+5	0	lang/java/compiler/src/main/javacc/org/apache/avro/compiler/idl/idl.jj
+126	8	lang/java/{avro => ipc}/src/test/java/org/apache/avro/io/Perf.java
+25	0	lang/java/ipc/src/test/java/org/apache/avro/specific/TestSpecificData.java
+41	1	lang/java/{avro => ipc}/src/test/java/org/apache/avro/specific/TestSpecificDatumReader.java
+3	0	{lang/java/avro/src/test/resources => share/test/schemas}/FooBarSpecificRecord.avsc
+32	0	share/test/schemas/stringables.avdl
+
+commit 48c7b54ccf006935df64853f5c6443b8430b3c75
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Mar 19 15:44:37 2013 +0000
+
+    AVRO-1272. Ruby: Improve schema namespace handling.  Contributed by Martin Kleppmann.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1458349 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+22	27	lang/ruby/lib/avro/protocol.rb
+59	97	lang/ruby/lib/avro/schema.rb
+7	0	lang/ruby/test/test_protocol.rb
+134	0	lang/ruby/test/test_schema.rb
+
+commit 1788948bc9b1bbc36449e5039c8a5b8bf4626963
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Mar 4 21:08:59 2013 +0000
+
+    AVRO-1267. Java: Permit dashes in IDL property names.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1452526 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	doc/src/content/xdocs/idl.xml
+15	1	lang/java/compiler/src/main/javacc/org/apache/avro/compiler/idl/idl.jj
+1	1	lang/java/compiler/src/test/idl/input/simple.avdl
+1	1	lang/java/compiler/src/test/idl/output/simple.avpr
+
+commit 84ad7a72bbf42ae7f1e22fceddc9edf48b81655d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Mar 1 19:02:18 2013 +0000
+
+    AVRO-1260. Ruby: Improve read performance.  Contributed by Martin Kleppmann.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1451689 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+78	86	lang/ruby/lib/avro/io.rb
+3	2	lang/ruby/lib/avro/protocol.rb
+73	54	lang/ruby/lib/avro/schema.rb
+16	16	lang/ruby/test/random_data.rb
+
+commit 882b0b32e1b0e01aee5d5ed6aeff8207f43919ed
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Feb 27 00:57:36 2013 +0000
+
+    Preparing trunk for development of next release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1450558 13f79535-47bb-0310-9956-ffa450edef68
+
+8	0	CHANGES.txt
+1	1	lang/java/archetypes/avro-service-archetype/pom.xml
+1	1	lang/java/archetypes/pom.xml
+1	1	lang/java/avro/pom.xml
+1	1	lang/java/compiler/pom.xml
+1	1	lang/java/ipc/pom.xml
+1	1	lang/java/mapred/pom.xml
+1	1	lang/java/maven-plugin/pom.xml
+1	1	lang/java/pom.xml
+1	1	lang/java/protobuf/pom.xml
+1	1	lang/java/thrift/pom.xml
+1	1	lang/java/tools/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+1	1	lang/java/trevni/core/pom.xml
+2	2	lang/java/trevni/doc/pom.xml
+1	1	lang/java/trevni/pom.xml
+1	1	pom.xml
+1	1	share/VERSION.txt
+
+commit 7364df6e10977e5c36d2921b06064d1abe5832d4
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Feb 26 18:35:12 2013 +0000
+
+    Release 1.7.4.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.4@1450346 13f79535-47bb-0310-9956-ffa450edef68
+
+commit bce7288b1ec5bec012ef4d7252f0ebe714ee188b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Feb 21 21:13:58 2013 +0000
+
+    Tag 1.7.4-rc2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.4-rc2@1448806 13f79535-47bb-0310-9956-ffa450edef68

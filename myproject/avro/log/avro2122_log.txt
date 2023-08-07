@@ -1,0 +1,304 @@
+commit bffc3c6701a3fc7f0776dea6e61f5ae25c14c602
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Dec 7 19:20:59 2012 +0000
+
+    Tagging 1.7.3.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.3@1418448 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 37b4bb9745e7ea08c0bc76ad520d90d76f711ac7
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Dec 3 17:38:30 2012 +0000
+
+    Tag 1.7.3-rc2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.3-rc2@1416599 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 785523bf05b62b0681e5c81ed210843262b59546
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Dec 3 17:37:26 2012 +0000
+
+    Prepare for 1.7.3-rc2: updated projected release date.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1416598 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f0e4e90568d40992c78e0b2e5e2367d33b1d05e1
+Author: Douglas Adam Creager <dcreager@apache.org>
+Date:   Sat Dec 1 17:04:07 2012 +0000
+
+    AVRO-1089. C: Remove performance penalty with resolved writer arrays
+    
+    The problem was that an internal array wasn't being cleared, and was growing not
+    just with the size of each test case, but with the number of test cases.
+    Iterating through that array was causing the slowdown.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1416022 13f79535-47bb-0310-9956-ffa450edef68
+
+commit d160f17357c241a2c925a182e064f4068db22fe6
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Nov 30 18:12:24 2012 +0000
+
+    fix projected release date
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1415772 13f79535-47bb-0310-9956-ffa450edef68
+
+commit dc1eadb8806821000412fa77963e86a60f78267b
+Author: Bruce Mitchener Jr <brucem@apache.org>
+Date:   Fri Nov 30 09:52:33 2012 +0000
+
+    AVRO-1174. Fix Windows build. Contributed by Stefan Langer.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1415563 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8e33d6c26000e31ee22e1f32e73324582f669ebc
+Author: Bruce Mitchener Jr <brucem@apache.org>
+Date:   Fri Nov 30 09:39:40 2012 +0000
+
+    AVRO-1163: Fix memory leak in avro_fixed_private(). Contributed by Maxim Pugachev.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1415558 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2eb0672964db2f8a0b047c62f0f50a4c8222cdc5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Nov 30 00:42:28 2012 +0000
+
+    Preparing to create 1.7.3 RC0: Updated versions and fixed licensing.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1415465 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 47308d10309622d3e04912485b1c951f67d4ca73
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Nov 29 22:07:56 2012 +0000
+
+    AVRO-988, AVRO-1209: Add options to make fields in generated classes private and to make generated classes immutable, without setters.  Contributed by Jeff Kolesky.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1415407 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 23c2acf93231095ae5f7eb58c08748b62c83d9b5
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 28 22:56:05 2012 +0000
+
+    AVRO-1175. Java: Clear thread local reference in BinaryData#compare().
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1414980 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fb165e6ec812d4d03ea89de09ca1b758a7cdab6c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 28 22:47:05 2012 +0000
+
+    AVRO-1177. Ruby: Fix RPC to only send handshake for first request over a connection.  Contributed by Georg Franz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1414979 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2efa6cee3abd81f2816cff9631606647ed5998fb
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 28 22:42:34 2012 +0000
+
+    AVRO-1178. Java: Fix typos in parsing document. Contributed by Martin Kleppmann.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1414978 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 0c5813b70f38952cbac69f5217bbf13e0e0b1a4c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 28 22:38:28 2012 +0000
+
+    AVRO-1210. Java: Fix mistakes in AvroMultipleOutputs error messages.  Contributed by Dave Beech.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1414974 13f79535-47bb-0310-9956-ffa450edef68
+
+commit fab6363adf4cf07db4004017c8e1dc5968850475
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 28 22:33:57 2012 +0000
+
+    AVRO-1206. Ruby: Fix UTF-8 handling in Ruby 1.9.  Contributed by Nicolas Fouché.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1414972 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a8a905895a6a8a71617158bf4059f15905b3dd71
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 21 22:57:28 2012 +0000
+
+    AVRO-1205. Java: Add stereotype annotation to generated classes.  Contributed by Sharmarke Aden.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1412352 13f79535-47bb-0310-9956-ffa450edef68
+
+commit a2a7aeae62aa0eb9f3225ce0befde7a7bedfbad2
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 21 22:29:42 2012 +0000
+
+    AVRO-1201. Java: Fix GenericData#toString() to generate valid JSON for enum values. Contributed by Sharmarke Aden.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1412334 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 88736f8d389c17584508a105d608bca2b3281084
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Nov 19 20:57:09 2012 +0000
+
+    AVRO-1207. Java: Add tests for Maven plugins.  Contributed by Sharmarke Aden.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1411406 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 22d55ddf3e6ff8021da1743c8bb989111391b32a
+Author: Doug Cutting <cutting@apache.org>
+Date:   Fri Nov 16 23:16:13 2012 +0000
+
+    AVRO-1202. Java & Python: Add Getting Started guides.  Contributed by Skye Wanderman-Milne.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1410619 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c8fe3e085e7afb5ee7de69561f0578a8ca2f046c
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 14 23:21:29 2012 +0000
+
+    AVRO-1199. Java: Fix SortedKeyValueFile to copy the key used to compare against next.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1409542 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1638ebb5ea88f277fe065babd90551fbf74439df
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Nov 14 21:00:03 2012 +0000
+
+    AVRO-1183. Java: Provide a better error message when the schema for a Pair cannot be inferred.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1409395 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 957ccf706a1d124c7fb74caf31862b9c03a99a1b
+Author: Thomas White <tomwhite@apache.org>
+Date:   Tue Nov 13 09:55:28 2012 +0000
+
+    AVRO-1188. Java: Permit external schema imports for schemas in Maven plugin. Contributed by Sharmarke Aden.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1408658 13f79535-47bb-0310-9956-ffa450edef68
+
+commit b81a91a57a111650245aa803a3c2233995b3bf56
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Nov 9 11:25:30 2012 +0000
+
+    Reverting AVRO-983 since it broke the build.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1407424 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 121b98ddc5a9db44040260bf5a6ec7bb106ad3de
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Nov 9 10:56:27 2012 +0000
+
+    AVRO-1200. DatumWriter can write malformed data if collection is modified during write.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1407419 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f261733c575fbb57ced1f11e8af69ec88b573b8a
+Author: Thomas White <tomwhite@apache.org>
+Date:   Fri Nov 9 10:46:21 2012 +0000
+
+    AVRO-983. maven-avro-plugin: Allow maven schema compiler to support external reference in an another avro schema file.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1407418 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 9e5e0462b1957c372bd7351b7f5e6c68d4a41b5d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Nov 8 21:14:23 2012 +0000
+
+    AVRO-1197. Java: Expose mapreduce tests so that 'maven install' works correctly.  Contributed by Mike Percy.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1407267 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 9b9068a00a3a1fac2525fe245365238b58370120
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Nov 5 18:22:05 2012 +0000
+
+    AVRO-1186. Java: Extend specific compiler to emit Java annotations.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1405903 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 3c15fc6183d1df06abc2eb1904f9c4514ef4f665
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Nov 1 17:42:12 2012 +0000
+
+    AVRO-1157. Java: Extend schema and protocol property support from string-only to full JSON.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1404687 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1dbb07ac2f068dbc6b0bea963bf2abacab7cc434
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Oct 8 23:26:07 2012 +0000
+
+    AVRO-485.  JavaScript: Add validator.  Contributed by Quinn Slack.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1395811 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 01f774f28153d220f59bff026ade4982d20ace2d
+Author: Miki Tebeka <tebeka@apache.org>
+Date:   Sat Oct 6 15:37:19 2012 +0000
+
+    AVRO-981. Python. Make snappy optional package
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1395098 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f920d4e1067e5951b5ea7b38b6cb5d925d60b99b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Sep 27 17:20:39 2012 +0000
+
+    Update copyright year.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1391111 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c3577650285efd083a22a86670e33137d0fc6cdf
+Author: Thomas White <tomwhite@apache.org>
+Date:   Thu Sep 27 13:25:47 2012 +0000
+
+    AVRO-1170. Java: Avro's new mapreduce APIs don't work with Hadoop 2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1391001 13f79535-47bb-0310-9956-ffa450edef68
+
+commit c1aca86bf8ab2715e0ba732ed48d18fb3becf54d
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 25 17:21:46 2012 +0000
+
+    Tag 1.7.2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.2@1390001 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 1b896e1a8456c2320f3dba8eef43beffd15d2d91
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 24 21:22:59 2012 +0000
+
+    AVRO-1171. Java: Don't call configure() twice on mappers & reducers.  Contributed by Dave Beech.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1389598 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 79323b0bd6a3e77469f9b4c23f33783460324e09
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 24 21:12:40 2012 +0000
+
+    AVRO-1169. Java: Reduce memory footprint of resolver.  Contributed by Hernan Otero.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1389592 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ba55d815ea63d923fea504d1da8baa1e5920701f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 24 21:05:11 2012 +0000
+
+    Prepare trunk for 1.7.3 changes.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/trunk@1389591 13f79535-47bb-0310-9956-ffa450edef68
+
+commit e9ec68ed9fc5186e7156202327ee9d9e02ef05c4
+Merge: f061d70ad 7b78665d8
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 18 00:33:37 2012 +0000
+
+    Tagging 1.7.2-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.2-rc0@1386932 13f79535-47bb-0310-9956-ffa450edef68
+
+commit f061d70ad4d0ca1d2ae4f6b4c9757bbc7a874a80
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 18 00:03:40 2012 +0000
+
+    Tagging 1.7.2-rc0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.7.2-rc0@1386918 13f79535-47bb-0310-9956-ffa450edef68

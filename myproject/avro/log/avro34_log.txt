@@ -1,0 +1,4573 @@
+commit 8e900b4a1450bc64057a257efa7682daf5da1c8b
+Author: Joe Schaefer <joes@apache.org>
+Date:   Mon May 10 21:58:52 2010 +0000
+
+    avro goes tlp
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.2.0@942927 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 54c7c5e90a77e298f09fb884520b00b1496cde90
+Author: Joe Schaefer <joes@apache.org>
+Date:   Mon May 10 21:58:52 2010 +0000
+
+    avro goes tlp
+    
+    git-svn-id: https://svn.apache.org/repos/asf/avro/tags/release-1.3.0@942927 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ec7215a1ea56ae66567f536d76ab45cf86d446fd
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Sat Feb 27 00:33:08 2010 +0000
+
+    Tag 1.3.0 release.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/tags/release-1.3.0@916884 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 06031e96d66961f1ab0f88adc8b143972890b4fa
+Merge: 80703c0d8 e2c272282
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Feb 25 00:37:26 2010 +0000
+
+    Add tag for 1.3.0-rc2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/tags/release-1.3.0-rc2@916064 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 80703c0d8501452c9e1853c1057f9a8158a93b97
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Feb 25 00:34:00 2010 +0000
+
+    Add a tag for 1.3.0-rc2.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/tags/release-1.3.0-rc2@916062 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2b1580376f7ad813683a981657e9a88615397568
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Feb 25 00:31:31 2010 +0000
+
+    AVRO-424. Fix the specification of the deflate codec.  Contributed by Scott Carey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@916061 13f79535-47bb-0310-9956-ffa450edef68
+
+8	0	CHANGES.txt
+1	2	doc/src/content/xdocs/spec.xml
+
+commit e2c272282eb8911e286eb16c98dc2cd844eeae56
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 23 21:50:05 2010 +0000
+
+    AVRO-430.  Fix for C++ too.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@915534 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	lang/c++/Makefile.am
+
+commit e5479e7b975bfc7c0251c49ba0bd40a0e1c46edd
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Feb 23 18:48:03 2010 +0000
+
+    AVRO-430. Remove subversion directories from Avro C tarball
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@915475 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	0	lang/c/Makefile.am
+
+commit d5526daad1db62eec60e793b7278a47413a9e634
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Feb 23 18:25:43 2010 +0000
+
+    AVRO-428. Improve file read performance by buffering data
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@915468 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+62	6	lang/c/src/io.c
+
+commit c3a37aae3698172059b0f863d3d9fbdef21f140d
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 23 00:21:44 2010 +0000
+
+    AVRO-427.  Add a README.txt to the dist directory.  Also restructure dist, fix a typo, etc.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@915118 13f79535-47bb-0310-9956-ffa450edef68
+
+2	6	README.txt => BUILD.txt
+14	0	DIST_README.txt
+2	0	build.sh
+1	1	lang/c++/build.sh
+1	1	lang/c/build.sh
+1	1	lang/py/build.xml
+
+commit af00ca67a7726c88f9e875f242cb09ea5a72f56f
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sun Feb 21 00:54:29 2010 +0000
+
+    A local setting got leaked into the trunk as part of AVRO-392. Fixed
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@912268 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/java/src/test/java/org/apache/avro/TestDataFile.java
+
+commit 728362023bc6fbef9130e979818aa358c9152635
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Sat Feb 20 00:08:00 2010 +0000
+
+    Preparing for 1.3.0 release.  Fixing some broken links, updating the version.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@912045 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	CHANGES.txt
+2	6	doc/src/content/xdocs/site.xml
+1	1	share/VERSION.txt
+
+commit 1e9fe807f93282fe8c98cab35642ca160ec1e368
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Feb 19 23:16:57 2010 +0000
+
+    AVRO-414.  Add Java support for concatenating and appending data files.  Contributed by Scott Carey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@912030 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+20	7	lang/java/src/java/org/apache/avro/file/Codec.java
+6	0	lang/java/src/java/org/apache/avro/file/CodecFactory.java
+7	5	lang/java/src/java/org/apache/avro/file/DataFileReader.java
+66	16	lang/java/src/java/org/apache/avro/file/DataFileStream.java
+76	8	lang/java/src/java/org/apache/avro/file/DataFileWriter.java
+63	17	lang/java/src/java/org/apache/avro/file/DeflateCodec.java
+18	13	lang/java/src/java/org/apache/avro/file/NullCodec.java
+154	0	lang/java/src/test/java/org/apache/avro/TestDataFileConcat.java
+
+commit 2789bebdba3125304cf69747c95e80ba1e98fc67
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Feb 19 22:01:56 2010 +0000
+
+    AVRO-392. Overhaul of Java binary decoder.  Contributed by Scott Carey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@912002 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+
+commit 03e67154953150c38fbf92e079ada74aec75398d
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Feb 19 21:45:10 2010 +0000
+
+    AVRO-392. Overhaul of Java binary decoder.  Contributed by Scott Carey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@911995 13f79535-47bb-0310-9956-ffa450edef68
+
+2	2	lang/java/src/java/org/apache/avro/file/Codec.java
+66	48	lang/java/src/java/org/apache/avro/file/DataFileReader.java
+32	22	lang/java/src/java/org/apache/avro/file/DataFileStream.java
+5	4	lang/java/src/java/org/apache/avro/file/DeflateCodec.java
+7	5	lang/java/src/java/org/apache/avro/file/NullCodec.java
+27	30	lang/java/src/java/org/apache/avro/io/BinaryData.java
+813	140	lang/java/src/java/org/apache/avro/io/BinaryDecoder.java
+8	1	lang/java/src/java/org/apache/avro/io/Decoder.java
+232	0	lang/java/src/java/org/apache/avro/io/DecoderFactory.java
+203	0	lang/java/src/java/org/apache/avro/io/DirectBinaryDecoder.java
+2	1	lang/java/src/java/org/apache/avro/io/JsonDecoder.java
+4	3	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+4	3	lang/java/src/java/org/apache/avro/ipc/Requestor.java
+3	2	lang/java/src/java/org/apache/avro/ipc/Responder.java
+3	2	lang/java/src/java/org/apache/avro/tool/BinaryFragmentToJsonTool.java
+2	3	lang/java/src/test/java/org/apache/avro/TestDataFile.java
+23	16	lang/java/src/test/java/org/apache/avro/TestReflect.java
+9	5	lang/java/src/test/java/org/apache/avro/TestSchema.java
+110	43	lang/java/src/test/java/org/apache/avro/io/Perf.java
+336	12	lang/java/src/test/java/org/apache/avro/io/TestBinaryDecoder.java
+1	1	lang/java/src/test/java/org/apache/avro/io/TestBlockingIO.java
+1	4	lang/java/src/test/java/org/apache/avro/io/TestBlockingIO2.java
+2	2	lang/java/src/test/java/org/apache/avro/io/TestResolvingIO.java
+2	2	lang/java/src/test/java/org/apache/avro/io/TestValidatingIO.java
+
+commit be98c2990d9d557e77424c0ea5d7b4b5a279a463
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Fri Feb 19 19:21:01 2010 +0000
+
+    AVRO-422. Build c++ docs in correct location.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@911945 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/c++/Makefile.am
+1	1	lang/c++/build.sh
+1	1	lang/c++/impl/Validator.cc
+5	0	lang/c++/parser/AvroLex.ll
+0	1	lang/c++/parser/AvroYacc.yy
+
+commit 5d523b4d7f0f99cb0d231c05f847cda331d0fb4f
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Feb 19 18:39:25 2010 +0000
+
+    AVRO-421.  Fix some dist target issues.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@911903 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	README.txt
+3	3	build.sh
+
+commit 674deee1e61c6ef21041951ad8db0771b4547a75
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Feb 19 01:56:28 2010 +0000
+
+    AVRO-417.  Produce Java documentation archive.  Contributed by Scott Carey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@911673 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+13	2	lang/java/build.xml
+
+commit fcb06cfeebb753332463b4f0ed2b404e2ed3b5f4
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Feb 19 01:19:35 2010 +0000
+
+    AVRO-349. Ignore some generated C++ files.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@911670 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 281f46ff26ed61d76d65cdfbd6e79382a804d236
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Feb 19 01:16:53 2010 +0000
+
+    AVRO-416.  Add missing note to CHANGES.txt.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@911669 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+
+commit 6595bb6610b4a43060471b4d54d53c1b874fa851
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 16 23:06:48 2010 +0000
+
+    AVRO-318.  Clarify some build requirements.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@910748 13f79535-47bb-0310-9956-ffa450edef68
+
+3	2	README.txt
+
+commit c221b63f52afd4d2b2c75b45360eb41bb9e55b7b
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 16 22:00:40 2010 +0000
+
+    AVRO-416. Produce a Java source archive.  Contributed by Ryan Rawson.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@910718 13f79535-47bb-0310-9956-ffa450edef68
+
+24	10	lang/java/build.xml
+
+commit dff585bd6876f20b5148ee2848e42e95d6ae94c2
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 16 21:24:06 2010 +0000
+
+    AVRO-415.  Fix Ruby to work with Ruby 1.8.6.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@910701 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	README.txt
+4	3	lang/ruby/lib/avro/io.rb
+1	1	lang/ruby/lib/avro/schema.rb
+
+commit 89d56e9e23bee4db4c19a8f22d755a191e6cf0e5
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 16 21:13:16 2010 +0000
+
+    AVRO-136. Ignore some files.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@910692 13f79535-47bb-0310-9956-ffa450edef68
+
+commit ac2a19f791bfe80ce526139fcc3043f1972b0c34
+Author: Jeffrey Evan Hammerbacher <hammer@apache.org>
+Date:   Tue Feb 16 21:00:02 2010 +0000
+
+    AVRO-136. Add support for building/releasing python eggs (hammer)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@910690 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	README.txt
+7	13	lang/py/build.xml
+42	0	lang/py/setup.py
+17	0	lang/py/test/gen_interop_data.py
+17	0	lang/ruby/interop/test_interop.rb
+17	0	lang/ruby/test/random_data.rb
+1	0	share/rat-excludes.txt
+
+commit f24c33c97cacbab60f6f3f0f5a26cb350c5cce28
+Author: Jeffrey Evan Hammerbacher <hammer@apache.org>
+Date:   Mon Feb 15 22:18:10 2010 +0000
+
+    AVRO-287. Make RPC interop tests work with new Python implementation
+    (hammer) (cleaning up the setting of PYTHONPATH to be as Doug did it)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@910351 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	share/test/interop/bin/test_rpc_interop.sh
+
+commit c39ca5896e0d6c665c601666d2a9abf6aa0cd61a
+Author: Jeffrey Evan Hammerbacher <hammer@apache.org>
+Date:   Mon Feb 15 22:13:08 2010 +0000
+
+    AVRO-287. Make RPC interop tests work with new Python implementation (hammer)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@910347 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+21	7	lang/py/src/avro/ipc.py
+128	10	lang/py/src/avro/tool.py
+7	2	share/test/interop/bin/test_rpc_interop.sh
+
+commit a2a731f3f58e82d58e6359c32d8c423eee63a3c8
+Author: Jeffrey Evan Hammerbacher <hammer@apache.org>
+Date:   Thu Feb 11 00:07:31 2010 +0000
+
+    AVRO-399: Make data file interop tests work with
+              the Python implementation (hammer)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@908770 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	build.sh
+23	0	lang/py/build.xml
+30	0	lang/py/test/gen_interop_data.py
+41	0	lang/py/test/test_datafile_interop.py
+
+commit 1d6b6c5549fd0086e0682d519527d879b1efda33
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Feb 10 06:49:14 2010 +0000
+
+    AVRO-295. JsonEncoder is not flushed after writing using ReflectDatumWriter
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@908366 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+52	0	lang/java/src/test/java/org/apache/avro/generic/TestGenericDatumWriter.java
+
+commit 02b9415b1d31f0c4a5d8c52ca9821e18dd060d31
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 9 22:37:52 2010 +0000
+
+    AVRO-413.  Finish adding Ruby data file interop tests.  Contributed by Jeff Hodges.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@908260 13f79535-47bb-0310-9956-ffa450edef68
+
+2	1	CHANGES.txt
+24	0	lang/ruby/interop/test_interop.rb
+
+commit 5fa06695d45c1ae7afc6e7f7ad4716e0ff32886d
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Feb 9 20:42:02 2010 +0000
+
+    AVRO-412. Allow schema validation to be optional
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@908209 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+45	4	lang/c/docs/index.txt
+2	0	lang/c/examples/Makefile.am
+3	3	lang/c/src/avro.h
+1	1	lang/c/src/datafile.c
+50	14	lang/c/src/datum.c
+10	2	lang/c/src/datum.h
+15	8	lang/c/src/datum_equal.c
+11	43	lang/c/src/datum_read.c
+19	22	lang/c/src/datum_validate.c
+135	140	lang/c/src/datum_write.c
+21	4	lang/c/tests/generate_interop_data.c
+42	19	lang/c/tests/test_avro_data.c
+1	1	lang/c/version.sh
+
+commit 3e3f0fbe27d319893393f34a887b2ab427a038c0
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 9 19:36:42 2010 +0000
+
+    AVRO-411. Add Ruby data file interop tests.  Contributed by Jeff Hodges.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@908170 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+6	2	build.sh
+29	0	lang/ruby/Rakefile
+12	12	lang/ruby/lib/avro/data_file.rb
+73	0	lang/ruby/test/random_data.rb
+2	74	lang/ruby/test/test_help.rb
+
+commit 835e48610941ae55f70c71c7542482f30500e961
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Feb 9 03:34:43 2010 +0000
+
+    AVRO-261. Allow Schemas to be immutable
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@907913 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	3	lang/java/src/java/org/apache/avro/Protocol.java
+196	50	lang/java/src/java/org/apache/avro/Schema.java
+7	7	lang/java/src/java/org/apache/avro/genavro/genavro.jj
+8	12	lang/java/src/java/org/apache/avro/generic/GenericData.java
+2	2	lang/java/src/java/org/apache/avro/generic/GenericDatumReader.java
+2	3	lang/java/src/java/org/apache/avro/generic/GenericDatumWriter.java
+1	3	lang/java/src/java/org/apache/avro/io/BinaryData.java
+3	3	lang/java/src/java/org/apache/avro/io/parsing/JsonGrammarGenerator.java
+17	20	lang/java/src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+1	1	lang/java/src/java/org/apache/avro/io/parsing/ValidatingGrammarGenerator.java
+12	14	lang/java/src/java/org/apache/avro/reflect/ReflectData.java
+14	14	lang/java/src/java/org/apache/avro/specific/SpecificCompiler.java
+2	3	lang/java/src/java/org/apache/avro/specific/SpecificRequestor.java
+4	5	lang/java/src/java/org/apache/avro/specific/SpecificResponder.java
+2	2	lang/java/src/test/java/org/apache/avro/RandomData.java
+4	6	lang/java/src/test/java/org/apache/avro/TestProtocolGeneric.java
+1	1	lang/java/src/test/java/org/apache/avro/TestReflect.java
+90	10	lang/java/src/test/java/org/apache/avro/TestSchema.java
+3	2	lang/java/src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit c8ee72a75cf26b5c364a8ec032e7d9235af8f469
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Feb 9 02:06:38 2010 +0000
+
+    AVRO-410. Add namespace support to C implementation
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@907882 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	lang/c/examples/quickstop.c
+2	2	lang/c/src/avro.h
+13	3	lang/c/src/datum.c
+1	0	lang/c/src/datum.h
+14	0	lang/c/src/datum_equal.c
+2	1	lang/c/src/datum_read.c
+34	4	lang/c/src/schema.c
+1	0	lang/c/src/schema.h
+9	0	lang/c/src/schema_equal.c
+2	2	lang/c/tests/generate_interop_data.c
+2	2	lang/c/tests/test_avro_data.c
+2	2	lang/c/version.sh
+
+commit f4e4771f13fc9bc7921f71c1b9e094d5a4309134
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Mon Feb 8 23:37:55 2010 +0000
+
+    AVRO-407.  Fix a bug in the Java data file reader.  Contributed by Scott Carey.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@907845 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	6	lang/java/src/java/org/apache/avro/file/DataFileStream.java
+
+commit c06063a88b9956fab43db106157d5ea1c640fa37
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Sat Feb 6 03:39:08 2010 +0000
+
+    AVRO-409. Update contact database example to use a file object container for C implementation
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@907169 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+30	26	lang/c/examples/quickstop.c
+
+commit 258d4191bf1c8030686d65e38db74534eb7f0a71
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Sat Feb 6 01:15:40 2010 +0000
+
+    AVRO-400. Adding warning for unused parameters (contributed by Eli Collins)
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@907153 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/c/Makefile.am
+1	1	lang/c/examples/Makefile.am
+1	1	lang/c/examples/quickstop.c
+1	1	lang/c/src/Makefile.am
+1	1	lang/c/src/schema.h
+1	1	lang/c/tests/Makefile.am
+
+commit e1c17e745462a8ac3d93ddef0bdaba3cdfac0a71
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Sat Feb 6 01:08:13 2010 +0000
+
+    AVRO-408. lang/c/build.sh 'dist' broken (now fixed)
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@907150 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/c/src/Makefile.am
+
+commit fc1935c78e8b885708edaa05adb790da9b63a4c8
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Sat Feb 6 00:56:51 2010 +0000
+
+    AVRO-403. Add file object container support to C implementation
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@907144 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	1	build.sh
+13	1	lang/c/build.sh
+1	1	lang/c/src/Makefile.am
+18	0	lang/c/src/avro.h
+4	0	lang/c/src/avro_private.h
+365	0	lang/c/src/datafile.c
+24	0	lang/c/src/io.c
+8	0	lang/c/tests/Makefile.am
+79	0	lang/c/tests/generate_interop_data.c
+9	0	lang/c/tests/test_interop_data.c
+2	2	lang/c/version.sh
+
+commit 340c58f3c11c90d1b678bd0ceea8dd4fdc90ff94
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Fri Feb 5 23:49:26 2010 +0000
+
+    AVRO-398. avro_read_file doesn't detect eof (contributed by Eli Collins)
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@907131 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/c/src/io.c
+
+commit b57e524fc1c9477515bb5ca9523b86f66461494c
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Thu Feb 4 21:41:02 2010 +0000
+
+    AVRO-402. Add method for writing avro_schema_t structure to an avro_writer_t
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906668 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	lang/c/src/Makefile.am
+4	5	lang/c/src/avro.h
+6	2	lang/c/src/{container_of.h => avro_private.h}
+1	1	lang/c/src/datum.h
+1	1	lang/c/src/io.c
+184	0	lang/c/src/schema.c
+1	1	lang/c/src/schema.h
+0	181	lang/c/src/schema_printf.c
+7	1	lang/c/tests/test_avro_schema.c
+
+commit 79c0980088a4e97c114e75c4f251db3f95b72618
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Feb 4 20:47:25 2010 +0000
+
+    AVRO-410.  Fix a typo in the specification.  Contributed by Tom White.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906644 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	doc/src/content/xdocs/spec.xml
+
+commit 62cba7ee3c6f0b73f1d195934b940b5061757a84
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Feb 4 20:10:26 2010 +0000
+
+    AVRO-321.  Restore java RPC interop tests.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906635 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+3	0	build.sh
+3	1	lang/java/build.xml
+46	10	lang/java/src/java/org/apache/avro/tool/RpcReceiveTool.java
+38	13	lang/java/src/java/org/apache/avro/tool/RpcSendTool.java
+14	0	lang/java/src/java/org/apache/avro/tool/Util.java
+76	0	lang/java/src/test/bin/gen_rpc_interop.sh
+12	13	lang/java/src/test/java/org/apache/avro/tool/TestRpcReceiveAndSendTools.java
+64	0	share/test/interop/bin/test_rpc_interop.sh
+-	-	share/test/interop/rpc/add/onePlusOne/request.avro
+-	-	share/test/interop/rpc/add/onePlusOne/response.avro
+-	-	share/test/interop/rpc/echo/foo/request.avro
+-	-	share/test/interop/rpc/echo/foo/response.avro
+-	-	share/test/interop/rpc/hello/world/request.avro
+-	-	share/test/interop/rpc/hello/world/response.avro
+
+commit 8c3259ba2089f1af607e60296a8de56292ea91b9
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Feb 4 20:00:36 2010 +0000
+
+    AVRO-208.  Clarify that enum symbols must be unique.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906628 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	1	doc/src/content/xdocs/spec.xml
+2	1	lang/java/src/java/org/apache/avro/Schema.java
+1	0	lang/java/src/test/java/org/apache/avro/TestSchema.java
+
+commit cd1e3ed623a6edc0dba743dfc327ce5a4092d159
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Feb 4 18:58:29 2010 +0000
+
+    AVRO-340, AVRO-342: Define usage of HTTP as RPC transport in spec, and document that Java's socket and datagram transports are non-standard.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906610 13f79535-47bb-0310-9956-ffa450edef68
+
+7	1	CHANGES.txt
+18	5	doc/src/content/xdocs/spec.xml
+2	1	lang/java/src/java/org/apache/avro/ipc/DatagramServer.java
+2	1	lang/java/src/java/org/apache/avro/ipc/DatagramTransceiver.java
+4	3	lang/java/src/java/org/apache/avro/ipc/HttpTransceiver.java
+2	1	lang/java/src/java/org/apache/avro/ipc/SocketServer.java
+2	1	lang/java/src/java/org/apache/avro/ipc/SocketTransceiver.java
+
+commit 441e55023dbb9774ac2fd6b6543968d63a0c1d42
+Author: Jeffrey Evan Hammerbacher <hammer@apache.org>
+Date:   Thu Feb 4 08:16:29 2010 +0000
+
+    AVRO-322: Add a working client and server to Python implementation
+    using HTTP as a transport (hammer)
+    
+    NB: This is a second commit: last patch didn't remove old files for some reason
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906397 13f79535-47bb-0310-9956-ffa450edef68
+
+0	0	lang/py/test/sample_ipc_client.py
+0	0	lang/py/test/sample_ipc_server.py
+
+commit 05b3442fbf6f20ede5212cbc8ce3c9b709341af2
+Author: Jeffrey Evan Hammerbacher <hammer@apache.org>
+Date:   Thu Feb 4 08:15:02 2010 +0000
+
+    AVRO-322: Add a working client and server to Python implementation
+    using HTTP as a transport (hammer)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906394 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+72	43	lang/py/src/avro/ipc.py
+96	0	lang/py/test/sample_http_client.py
+80	0	lang/py/test/sample_http_server.py
+0	95	lang/py/test/sample_ipc_client.py
+0	74	lang/py/test/sample_ipc_server.py
+
+commit 710f365be8bc4b94b690f3a669976c7675d54704
+Author: Jeffrey Evan Hammerbacher <hammer@apache.org>
+Date:   Thu Feb 4 08:11:43 2010 +0000
+
+    AVRO-397: Whitespace change and comment clarification in datafile.py
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906393 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	1	lang/py/src/avro/datafile.py
+
+commit 00df8fbcb882af2c5f02e44483c07d2fe0c91a20
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Thu Feb 4 05:02:34 2010 +0000
+
+    AVRO-395. Add a cscope Makefile target
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906362 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	0	lang/c/.gitignore
+5	0	lang/c/Makefile.am
+
+commit a27490c186343bce568e64075f4e4dbfe13945ea
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Feb 4 00:30:17 2010 +0000
+
+    AVRO-393.  Oops.  Accidentally tagged this as AVRO-340 in revision 906299.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906302 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	CHANGES.txt
+
+commit e1e7220560d799b380d79c257dfc0aaac949a623
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Feb 4 00:24:31 2010 +0000
+
+    AVRO-340.  Add a constructor for Utf8 that accepts byte[].  Contributed by Jeff Hodges.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906299 13f79535-47bb-0310-9956-ffa450edef68
+
+5	1	CHANGES.txt
+5	0	lang/java/src/java/org/apache/avro/util/Utf8.java
+32	0	lang/java/src/test/java/org/apache/avro/util/TestUtf8.java
+
+commit 1c5dc778b032b9b4bf5605e883b79fe36ce62363
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Wed Feb 3 23:59:40 2010 +0000
+
+    AVRO-394. Simplify and consolidate all data structures into hash tables
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@906293 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/c/src/Makefile.am
+33	19	lang/c/src/datum.c
+1	8	lang/c/src/datum.h
+11	10	lang/c/src/datum_equal.c
+38	37	lang/c/src/datum_read.c
+16	14	lang/c/src/datum_skip.c
+51	48	lang/c/src/datum_validate.c
+44	36	lang/c/src/datum_write.c
+0	552	lang/c/src/queue.h
+125	82	lang/c/src/schema.c
+6	16	lang/c/src/schema.h
+31	31	lang/c/src/schema_equal.c
+8	4	lang/c/src/schema_printf.c
+
+commit a861b870bd09f49ecea1a56146a9edf8fc173cb1
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Wed Feb 3 06:58:46 2010 +0000
+
+    AVRO-386. Python implementation of compression (philz)
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@905913 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+54	20	lang/py/src/avro/datafile.py
+45	0	lang/py/src/avro/tool.py
+65	60	lang/py/test/test_datafile.py
+
+commit 7e4037de2a891fa738aaf8a4fc56f424d6c6833a
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Feb 3 01:50:50 2010 +0000
+
+    AVRO-388. Using ResolvingDecoder in GenericDatumReader
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@905865 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+3	2	lang/java/src/java/org/apache/avro/Protocol.java
+10	5	lang/java/src/java/org/apache/avro/Schema.java
+1	1	lang/java/src/java/org/apache/avro/genavro/genavro.jj
+63	189	lang/java/src/java/org/apache/avro/generic/GenericDatumReader.java
+31	1	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+4	3	lang/java/src/java/org/apache/avro/reflect/ReflectData.java
+2	2	lang/java/src/java/org/apache/avro/reflect/ReflectDatumReader.java
+4	2	lang/java/src/test/java/org/apache/avro/TestProtocolGeneric.java
+220	68	lang/java/src/test/java/org/apache/avro/io/Perf.java
+
+commit 1b9263f5e8587f147c7d2920552c639f1bbf9759
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 2 22:51:57 2010 +0000
+
+    AVRO-350.  Fix GenericData.Record#get(String) to return null rather than throw NPE when passed a field name not in the record.  Contributed by Kevin Oliver.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@905827 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+3	1	lang/java/src/java/org/apache/avro/generic/GenericData.java
+11	0	lang/java/src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit f86e0305115fdf9aaa90b19e3bb8ee58324a1406
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Feb 2 21:51:49 2010 +0000
+
+    AVRO-387.  Add IndexedRecord interface, so that specific & generic may share #toString(), #hashCode(), #compare(), etc.  Also fix toString() and hashCode() to not throw NPE for uninitialized records.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@905807 13f79535-47bb-0310-9956-ffa450edef68
+
+5	0	CHANGES.txt
+16	14	lang/java/src/java/org/apache/avro/generic/GenericData.java
+6	6	lang/java/src/java/org/apache/avro/generic/GenericDatumReader.java
+2	2	lang/java/src/java/org/apache/avro/generic/GenericDatumWriter.java
+3	6	lang/java/src/java/org/apache/avro/generic/GenericRecord.java
+26	0	lang/java/src/java/org/apache/avro/generic/IndexedRecord.java
+1	1	lang/java/src/java/org/apache/avro/specific/SpecificCompiler.java
+0	43	lang/java/src/java/org/apache/avro/specific/SpecificData.java
+1	1	lang/java/src/java/org/apache/avro/specific/SpecificDatumReader.java
+1	1	lang/java/src/java/org/apache/avro/specific/SpecificExceptionBase.java
+2	4	lang/java/src/java/org/apache/avro/specific/SpecificRecord.java
+6	1	lang/java/src/java/org/apache/avro/specific/SpecificRecordBase.java
+11	0	lang/java/src/test/java/org/apache/avro/generic/TestGenericData.java
+41	0	lang/java/src/test/java/org/apache/avro/specific/TestSpecificData.java
+
+commit 6c7b0e1396e9e6326f80a82515f4de44d4f0ebf9
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Tue Feb 2 06:52:02 2010 +0000
+
+    AVRO-361. Specific Compiler fails to handle union with two fixed branches
+    (Scott Carey via philz)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@905531 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+13	2	lang/java/src/java/org/apache/avro/Schema.java
+73	0	lang/java/src/test/java/org/apache/avro/TestSchema.java
+
+commit bf7db0c2ecb2104fb087f0eea560a7d36935929c
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Feb 2 05:34:17 2010 +0000
+
+    AVRO-390. ResolvingDecoder does not handle default values for records well
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@905520 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/java/src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+16	4	lang/java/src/test/java/org/apache/avro/io/TestResolvingIOResolving.java
+3	0	lang/java/src/test/java/org/apache/avro/io/TestValidatingIO.java
+
+commit 1167caf735140964f5dcba441b76d99e7c9ceed1
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Feb 2 05:19:08 2010 +0000
+
+    AVRO-389. ResolvingDecoder does not resolve enum well
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@905518 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	lang/java/src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+24	0	lang/java/src/test/java/org/apache/avro/io/TestResolvingIOResolving.java
+
+commit 6e4ae0b6566b795e14dadf6d1902cfbd69bbe2b7
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Feb 2 05:04:56 2010 +0000
+
+    AVRO-383. Optimizing ResolvingDecoder for default values ("skipping default values", which was't handled correctly in the previous commit)
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@905516 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	CHANGES.txt
+2	2	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+1	2	lang/java/src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+1	3	lang/java/src/java/org/apache/avro/io/parsing/Symbol.java
+14	0	lang/java/src/test/java/org/apache/avro/io/TestResolvingIOResolving.java
+
+commit 2e4f32687d9c6b669bcda7b8a0b42d71daf97a2c
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Fri Jan 29 19:29:17 2010 +0000
+
+    AVRO-380.  Avro Container File format change: add block size to block descriptor.  Contributed by Scott Carey.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@904604 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	1	doc/src/content/xdocs/spec.xml
+4	6	lang/java/src/java/org/apache/avro/file/Codec.java
+23	2	lang/java/src/java/org/apache/avro/file/DataFileStream.java
+23	5	lang/java/src/java/org/apache/avro/file/DataFileWriter.java
+11	17	lang/java/src/java/org/apache/avro/file/DeflateCodec.java
+6	6	lang/java/src/java/org/apache/avro/file/NullCodec.java
+2	1	lang/java/src/test/java/org/apache/avro/TestDataFile.java
+15	1	lang/java/src/test/java/org/apache/avro/TestDataFileMeta.java
+5	1	lang/java/src/test/java/org/apache/avro/tool/TestDataFileTools.java
+
+commit 7a0078b786f0e3575fef5d98a8242c13530ceccd
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Jan 29 19:11:45 2010 +0000
+
+    AVRO-383. Optiminzing ResolvingDecoder for default values
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@904596 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+113	3	lang/java/src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+2	15	lang/java/src/java/org/apache/avro/io/parsing/Symbol.java
+46	0	lang/java/src/test/java/org/apache/avro/io/Perf.java
+93	0	lang/java/src/test/java/org/apache/avro/io/parsing/TestResolvingGrammarGenerator.java
+
+commit 3dfd487bf2a7b4f83b33f5ef9a9ed3e101bfe369
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Jan 29 10:12:35 2010 +0000
+
+    AVRO-385. Initializing uninizialized BlockingBinaryEncoder fails
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@904448 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+10	8	lang/java/src/java/org/apache/avro/io/BlockingBinaryEncoder.java
+6	0	lang/java/src/test/java/org/apache/avro/io/TestEncoders.java
+
+commit b73d4499cb85dda67ba432ce156a22a74e78f142
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Fri Jan 29 05:59:09 2010 +0000
+
+    AVRO-374. Remove and ignore files that are created by autoreconf.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@904389 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+5	0	lang/c++/.gitignore
+0	234	lang/c++/INSTALL
+0	1148	lang/c++/Makefile.in
+0	7241	lang/c++/aclocal.m4
+19	5	lang/c++/build.sh
+0	142	lang/c++/config/compile
+0	1500	lang/c++/config/config.guess
+0	1616	lang/c++/config/config.sub
+0	584	lang/c++/config/depcomp
+0	507	lang/c++/config/install-sh
+0	6863	lang/c++/config/ltmain.sh
+0	367	lang/c++/config/missing
+0	223	lang/c++/config/ylwrap
+0	23864	lang/c++/configure
+
+commit 6915f0c35380fc41ba0af682ba0dc2c21f6cd5f3
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Thu Jan 28 02:06:31 2010 +0000
+
+    AVRO-384. Add schema projection to the C implementation
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903941 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+17	8	lang/c/docs/index.txt
+66	36	lang/c/examples/quickstop.c
+1	1	lang/c/src/Makefile.am
+1	0	lang/c/src/avro.h
+4	2	lang/c/src/datum_read.c
+221	0	lang/c/src/datum_skip.c
+38	10	lang/c/src/io.c
+0	3	lang/c/tests/Makefile.am
+1	2	lang/c/tests/test_valgrind
+1	1	lang/c/version.sh
+
+commit 8f3ad160ce8c452bfbafc4ca09ab263a2e6aa06a
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Wed Jan 27 17:27:38 2010 +0000
+
+    AVRO-382. Avro hashCode throws a NullPointerException when fields are uninitialized.  Contributed by Michael Armbrust.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903745 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/java/src/java/org/apache/avro/generic/GenericData.java
+6	0	lang/java/src/test/java/org/apache/avro/TestProtocolSpecific.java
+
+commit 0319db2a8fe241b364968693afbb9bd741ee148d
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Wed Jan 27 02:13:24 2010 +0000
+
+    AVRO-381. Update documentation to talk about reference counting and memory management
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903529 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+85	5	lang/c/docs/index.txt
+
+commit e790f4837a3ee242a6e8b523ee4b10cb45d59bbc
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Jan 26 23:58:49 2010 +0000
+
+    AVRO-379. Changed record getter/setter API to match other datatypes
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903505 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+10	10	lang/c/examples/quickstop.c
+6	4	lang/c/src/avro.h
+44	31	lang/c/src/datum.c
+1	2	lang/c/src/datum_read.c
+7	4	lang/c/src/datum_validate.c
+7	3	lang/c/src/datum_write.c
+14	8	lang/c/src/io.c
+2	2	lang/c/tests/test_avro_data.c
+0	76	lang/c/tests/test_avro_interop.c
+3	3	lang/c/version.sh
+
+commit 2be9e693c4d68e1afac5a0c75d9e2de4d910c5df
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Jan 26 19:07:07 2010 +0000
+
+    AVRO-378.  Add example code to the C implementation and update documentation
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903369 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	2	lang/c/Makefile.am
+1	0	lang/c/configure.in
+64	5	lang/c/docs/index.txt
+12	0	lang/c/examples/Makefile.am
+164	0	lang/c/examples/quickstop.c
+6	0	lang/c/jansson/.gitignore
+0	1561	lang/c/jansson/config.guess
+0	1686	lang/c/jansson/config.sub
+0	630	lang/c/jansson/depcomp
+0	520	lang/c/jansson/install-sh
+0	8406	lang/c/jansson/ltmain.sh
+0	376	lang/c/jansson/missing
+3	1	lang/c/src/datum.c
+3	0	lang/c/src/datum_read.c
+8	1	lang/c/src/schema.c
+1	1	lang/c/tests/Makefile.am
+16	6	lang/c/tests/test_avro_data.c
+3	3	lang/c/version.sh
+
+commit c635452b1d8ce1f26364bfd18b118595bfed3945
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Tue Jan 26 18:59:32 2010 +0000
+
+    AVRO-343. Minor fixes to Eclipse config after build re-org
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903367 13f79535-47bb-0310-9956-ffa450edef68
+
+0	3	.gitignore
+2	0	CHANGES.txt
+7	4	lang/java/.eclipse_launchers/AllTests.launch
+3	0	lang/java/.gitignore
+
+commit c85ab4b4f9a40f760fe781542d50a414cf1393e4
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Tue Jan 26 18:51:54 2010 +0000
+
+    AVRO-368. Reserve avro.* in object container files, and
+    rename existing reserved words.
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903362 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	3	doc/src/content/xdocs/spec.xml
+4	3	lang/java/src/java/org/apache/avro/file/DataFileConstants.java
+7	10	lang/java/src/java/org/apache/avro/file/DataFileWriter.java
+1	1	lang/java/src/java/org/apache/avro/file/DeflateCodec.java
+1	1	lang/java/src/java/org/apache/avro/file/NullCodec.java
+61	0	lang/java/src/test/java/org/apache/avro/TestDataFileMeta.java
+3	2	lang/java/src/test/java/org/apache/avro/tool/TestDataFileTools.java
+
+commit 8a4ddb52579070a3744a2bb9a0baf42d5da6b0a5
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Jan 26 18:36:10 2010 +0000
+
+    AVRO-373. EOF detection broken in JsonDecoder
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903354 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	0	lang/java/src/java/org/apache/avro/io/JsonDecoder.java
+
+commit 8cbe31ef59354a9eff47aa82b13fd72650874b89
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Jan 26 18:28:43 2010 +0000
+
+    AVRO-375. Initializing uninizialized encoders fail
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903351 13f79535-47bb-0310-9956-ffa450edef68
+
+49	0	lang/java/src/test/java/org/apache/avro/io/TestEncoders.java
+
+commit 26f53a11450952dc17b2248d6d08d18cb106acf7
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Jan 26 17:36:47 2010 +0000
+
+    AVRO-375. Initializing uninizialized encoders fail
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903335 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+3	1	lang/java/src/java/org/apache/avro/io/BinaryEncoder.java
+12	6	lang/java/src/java/org/apache/avro/io/JsonEncoder.java
+1	1	lang/java/src/java/org/apache/avro/io/ValidatingEncoder.java
+
+commit 27c7ad120beb6a432e3afa67acc9a532140cf6fd
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Jan 26 15:27:07 2010 +0000
+
+    AVRO-354. Performance improvement to BinaryDecoder.readInt()
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903266 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+12	5	lang/java/src/java/org/apache/avro/io/BinaryDecoder.java
+
+commit ceba79182df36c355ad56298bdf33dc23d913264
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Jan 26 00:31:08 2010 +0000
+
+    AVRO-377.  Add getters and setters for all Avro datum types
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@903028 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+52	20	lang/c/src/avro.h
+279	16	lang/c/src/datum.c
+6	6	lang/c/src/datum.h
+6	4	lang/c/src/datum_equal.c
+9	9	lang/c/src/datum_read.c
+9	9	lang/c/src/datum_validate.c
+15	15	lang/c/src/datum_write.c
+10	10	lang/c/src/schema.c
+2	2	lang/c/src/schema_printf.c
+34	12	lang/c/tests/test_avro_data.c
+1	1	lang/c/version.sh
+
+commit fbc0ac7c6c17e991e1dd6c3079df84efcbf3c0e7
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Mon Jan 25 09:04:21 2010 +0000
+
+    AVRO-355. io.Perf test harness uses different random number seeds for each run
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@902737 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+
+commit 61aad5477d396fcb9dfa27ae660e05fcac0b2dc8
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Mon Jan 25 08:58:53 2010 +0000
+
+    AVRO-355. io.Perf test harness uses different random number seeds for each run
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@902735 13f79535-47bb-0310-9956-ffa450edef68
+
+15	6	lang/java/src/test/java/org/apache/avro/io/Perf.java
+
+commit 520b9b4f09dd9bec743be83722530133a7f1e3de
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Sat Jan 23 00:07:16 2010 +0000
+
+    AVRO-371.  Add support for encoding/decoding unions
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@902315 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	2	lang/c/src/avro.h
+1	3	lang/c/src/datum.c
+1	0	lang/c/src/datum_equal.c
+22	5	lang/c/src/datum_read.c
+26	3	lang/c/src/datum_write.c
+14	4	lang/c/tests/test_avro_data.c
+1	1	lang/c/version.sh
+
+commit d5f3181c9bd0dae7597349302c4d9d0a822bdb6d
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Jan 22 23:09:51 2010 +0000
+
+    AVRO-135.  Add a missing Ivy configuration dependency.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@902305 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/java/ivy.xml
+
+commit f24e3146f5515d4be9841bffd8840de492274d69
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Fri Jan 22 22:44:39 2010 +0000
+
+    AVRO-349. Fix C++ build for post-AVRO-163.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@902301 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+5	7	build.sh
+3	6	lang/c++/MainPage.dox
+132	0	lang/c++/build.sh
+0	0	lang/c++/config/install-sh
+14	14	lang/c++/configure
+1	1	lang/c++/configure.in
+
+commit 8590c10521e043f068999d182d616c80cd8b34e2
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Fri Jan 22 22:41:02 2010 +0000
+
+    AVRO-47. Use void* for byte sequences.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@902299 13f79535-47bb-0310-9956-ffa450edef68
+
+3	1	CHANGES.txt
+2	2	lang/c++/api/InputStreamer.hh
+7	6	lang/c++/api/OutputStreamer.hh
+1	1	lang/c++/api/Serializer.hh
+1	2	lang/c++/api/ValidatingWriter.hh
+2	2	lang/c++/api/Writer.hh
+1	1	lang/c++/impl/ValidatingWriter.cc
+
+commit 005f0a6a6d474f7e80b308a1cddbe73c5d061895
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Fri Jan 22 22:38:09 2010 +0000
+
+    AVRO-370.  Add support for encoding/decoding fixed data
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@902297 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+6	1	lang/c/src/avro.h
+31	8	lang/c/src/datum.c
+1	0	lang/c/src/datum.h
+9	0	lang/c/src/datum_equal.c
+40	20	lang/c/src/datum_read.c
+5	12	lang/c/src/datum_write.c
+6	3	lang/c/tests/test_avro_data.c
+2	2	lang/c/version.sh
+
+commit 01193b5705a8a36d0df95dd1e35ebfce3fc6c318
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Fri Jan 22 20:55:51 2010 +0000
+
+    AVRO-369.  Add support for encoding/decoding enum values
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@902264 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+8	0	lang/c/src/datum_equal.c
+23	5	lang/c/src/datum_read.c
+16	6	lang/c/src/datum_write.c
+12	3	lang/c/tests/test_avro_data.c
+2	2	lang/c/version.sh
+
+commit 7679cb3ca82f36c56238845e7c71b6139c34e8a0
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Fri Jan 22 19:02:59 2010 +0000
+
+    AVRO-367.  Complete memory management for the C implementation
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@902221 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+7	0	lang/c/src/avro.h
+215	21	lang/c/src/datum.c
+2	0	lang/c/src/datum.h
+0	3	lang/c/src/datum_equal.c
+5	2	lang/c/src/datum_read.c
+112	6	lang/c/src/schema.c
+0	18	lang/c/src/schema.h
+2	2	lang/c/tests/Makefile.am
+22	9	lang/c/tests/test_avro_data.c
+2	0	lang/c/tests/test_avro_schema.c
+34	0	lang/c/tests/test_valgrind
+2	2	lang/c/version.sh
+
+commit 56f6af364fa4d8d20e1bf7ed138e8445586b1ac6
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Fri Jan 22 01:28:00 2010 +0000
+
+    AVRO-135. Add compression to data files. (philz)
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@901959 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+24	4	doc/src/content/xdocs/spec.xml
+1	1	lang/java/build.xml
+2	0	lang/java/ivy.xml
+39	0	lang/java/src/java/org/apache/avro/file/Codec.java
+70	0	lang/java/src/java/org/apache/avro/file/CodecFactory.java
+26	12	lang/java/src/java/org/apache/avro/file/DataFileStream.java
+59	14	lang/java/src/java/org/apache/avro/file/DataFileWriter.java
+104	0	lang/java/src/java/org/apache/avro/file/DeflateCodec.java
+85	0	lang/java/src/java/org/apache/avro/file/LengthLimitedInputStream.java
+57	0	lang/java/src/java/org/apache/avro/file/NullCodec.java
+21	5	lang/java/src/java/org/apache/avro/tool/DataFileWriteTool.java
+55	18	lang/java/src/test/java/org/apache/avro/TestDataFile.java
+64	0	lang/java/src/test/java/org/apache/avro/TestDataFileDeflate.java
+58	0	lang/java/src/test/java/org/apache/avro/file/TestLengthLimitedInputStream.java
+21	3	lang/java/src/test/java/org/apache/avro/tool/TestDataFileTools.java
+
+commit 9de8a8d9f7c13dca27df22fcd1ee4ffe696cd144
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Fri Jan 22 00:38:01 2010 +0000
+
+    AVRO-364.  Add support for encoding/decoding records
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@901950 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	2	lang/c/src/Makefile.am
+3	0	lang/c/src/avro.h
+9	848	lang/c/src/datum.c
+140	0	lang/c/src/datum_equal.c
+409	0	lang/c/src/datum_read.c
+186	0	lang/c/src/datum_validate.c
+255	0	lang/c/src/datum_write.c
+17	0	lang/c/src/io.c
+6	3	lang/c/src/schema.c
+1	0	lang/c/src/schema.h
+21	16	lang/c/tests/test_avro_data.c
+2	2	lang/c/version.sh
+
+commit 77bb1e976a00ce949f5ca61421d43b08108e28e1
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Thu Jan 21 23:19:19 2010 +0000
+
+    AVRO-363. estSchema had two tests disabled; new test for named schemas named
+    after primitives. (philz)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@901919 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+11	0	lang/java/src/java/org/apache/avro/Schema.java
+6	1	lang/java/src/java/org/apache/avro/generic/GenericDatumReader.java
+19	16	lang/java/src/test/java/org/apache/avro/TestSchema.java
+
+commit 06896f8e3a96f125d099c1b5311eb3e6238a31f9
+Author: Jeffrey Evan Hammerbacher <hammer@apache.org>
+Date:   Thu Jan 21 04:12:58 2010 +0000
+
+    AVRO-362. Add test to ensure Python implementation handles Union schema
+    with two fixed types of different names (hammer)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@901522 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+7	0	lang/py/test/test_schema.py
+
+commit 89593506cd9e34fc28bfe2d0be546ab7c9915ebe
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Wed Jan 20 22:58:22 2010 +0000
+
+    AVRO-360.  Standardize on Linux coding style instead of GNU
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@901421 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+6	1	lang/c/Makefile.am
+144	149	lang/c/src/avro.h
+15	17	lang/c/src/container_of.h
+950	1022	lang/c/src/datum.c
+60	75	lang/c/src/datum.h
+42	56	lang/c/src/dump.c
+16	18	lang/c/src/dump.h
+72	55	lang/c/src/encoding.h
+245	263	lang/c/src/encoding_binary.c
+151	184	lang/c/src/io.c
+3	8	lang/c/src/queue.h
+721	810	lang/c/src/schema.c
+63	77	lang/c/src/schema.h
+139	158	lang/c/src/schema_equal.c
+121	166	lang/c/src/schema_printf.c
+203	221	lang/c/src/schema_specific.c
+389	434	lang/c/src/st.c
+18	16	lang/c/src/st.h
+193	230	lang/c/tests/test_avro_data.c
+60	65	lang/c/tests/test_avro_interop.c
+99	110	lang/c/tests/test_avro_schema.c
+
+commit 25009db0b89af97cc8d863a7bd355a55cb6c89c8
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Wed Jan 20 21:52:35 2010 +0000
+
+    AVRO-359.  Add support for encoding/decoding arrays and maps
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@901392 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+9	0	lang/c/docs/index.txt
+9	4	lang/c/src/avro.h
+365	84	lang/c/src/datum.c
+1	0	lang/c/src/datum.h
+96	161	lang/c/tests/test_avro_data.c
+2	2	lang/c/version.sh
+
+commit 015b9bc7c86d8eba331ebc2dc1aea05325444151
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Wed Jan 20 01:52:29 2010 +0000
+
+    AVRO-356.  RAT fails with "Unknown license" error
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@901032 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+6	0	share/rat-excludes.txt
+
+commit 558af6be61eaa44c36a7c45caaf184d9eae0ab33
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Jan 20 01:05:06 2010 +0000
+
+    AVRO-306.  Add ruby implementation.  Contributed by Jeff Hodges.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@901024 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	0	README.txt
+1	0	build.sh
+1	0	lang/ruby/.gitignore
+1	0	lang/ruby/CHANGELOG
+15	0	lang/ruby/Manifest
+24	0	lang/ruby/Rakefile
+39	0	lang/ruby/lib/avro.rb
+25	0	lang/ruby/lib/avro/collect_hash.rb
+243	0	lang/ruby/lib/avro/data_file.rb
+571	0	lang/ruby/lib/avro/io.rb
+443	0	lang/ruby/lib/avro/ipc.rb
+160	0	lang/ruby/lib/avro/protocol.rb
+431	0	lang/ruby/lib/avro/schema.rb
+86	0	lang/ruby/test/sample_ipc_client.rb
+91	0	lang/ruby/test/sample_ipc_server.rb
+95	0	lang/ruby/test/test_help.rb
+361	0	lang/ruby/test/test_io.rb
+192	0	lang/ruby/test/test_protocol.rb
+1	0	share/rat-excludes.txt
+
+commit 904a5a7b36db75afa7f6471c005e67ef50fee665
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Jan 19 21:38:40 2010 +0000
+
+    AVRO-353.  Publish the C API to avro-doc package when 'dist' target run
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900970 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+5	0	lang/c/build.sh
+
+commit e3ddec6f5a87984a5d5358734f8ee5e26a6682df
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Jan 19 21:13:05 2010 +0000
+
+    AVRO-352.  Incorrect binary encoding for strings and bytes
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900960 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	2	lang/c/src/avro.h
+366	135	lang/c/src/datum.c
+14	14	lang/c/src/datum.h
+11	5	lang/c/src/encoding_binary.c
+7	7	lang/c/src/schema.h
+1	1	lang/c/tests/Makefile.am
+136	80	lang/c/tests/test_avro_data.c
+2	2	lang/c/version.sh
+
+commit abd816c13c3e1af987e8a7b88face7f06288bde9
+Author: Philip Zeyliger <philz@apache.org>
+Date:   Tue Jan 19 19:56:56 2010 +0000
+
+    AVRO-351. Shorten induce tool description; add check to avoid overly verbose descriptions. (philz)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900932 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	2	lang/java/src/java/org/apache/avro/reflect/InduceSchemaTool.java
+2	2	lang/java/src/java/org/apache/avro/tool/Main.java
+35	0	lang/java/src/test/java/org/apache/avro/tool/TestMain.java
+
+commit b25e6a3de8adbc0a88c920e7d18ca96292835b1b
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Tue Jan 19 14:25:06 2010 +0000
+
+    AVRO-345. Optimization for ResolvingDecoder
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900790 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+49	61	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+14	8	lang/java/src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+8	0	lang/java/src/java/org/apache/avro/io/parsing/Symbol.java
+37	3	lang/java/src/test/java/org/apache/avro/io/Perf.java
+
+commit ca085246f097b19ba44b84768568fc56e8dfbb87
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 19 00:49:33 2010 +0000
+
+    AVRO-336. Check that appropriate schemas are passed to GenericRecord#Array and #Record.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900628 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	2	lang/java/src/java/org/apache/avro/generic/GenericData.java
+15	2	lang/java/src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit 93e81f7ce6480d3a18b7921e0263686a237bf0f6
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Mon Jan 18 21:42:45 2010 +0000
+
+    AVRO-339.  Fix build.sh to show usage if invoked without arguments.  Contributed by philz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900582 13f79535-47bb-0310-9956-ffa450edef68
+
+12	2	build.sh
+
+commit c11181848af28d91162a4f87647400eacaafcff5
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Mon Jan 18 21:17:56 2010 +0000
+
+    AVRO-198. Fix error in specification of protocol name, also clarify which properties are required.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900565 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+9	7	doc/src/content/xdocs/spec.xml
+
+commit 771a96e26cab64a37d8dbbbcc898a2f0132db1c3
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Mon Jan 18 05:49:48 2010 +0000
+
+    AVRO-347.  Add the --unsafe flag to asciidoc in order to include source/header files
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900281 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/c/docs/Makefile.am
+
+commit b844f7e03bbe8dd1b787d0c077c18a4a07330a01
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Mon Jan 18 05:31:11 2010 +0000
+
+    AVRO-346.  Add function to validate a datum against a schema
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900280 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+
+commit 7ddcfd485ee59e909a107cf85b7af927f422c8c9
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Mon Jan 18 05:30:24 2010 +0000
+
+    AVRO-346.  Add function to validate a datum against a schema
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@900279 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	lang/c/docs/Makefile.am
+7	11	lang/c/docs/index.txt
+3	2	lang/c/jansson/install-sh
+17	24	lang/c/jansson/ltmain.sh
+30	27	lang/c/src/avro.h
+271	109	lang/c/src/datum.c
+40	1	lang/c/src/datum.h
+2	2	lang/c/src/io.c
+52	44	lang/c/src/schema.c
+24	25	lang/c/src/schema.h
+29	25	lang/c/src/schema_equal.c
+12	13	lang/c/src/schema_printf.c
+0	1	lang/c/tests/test_avro_schema.c
+2	2	lang/c/version.sh
+
+commit 4a0d5ae8a855c9f1b1260cd5eba802fcfc18dcf1
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sat Jan 16 05:59:46 2010 +0000
+
+    AVRO-328. Performance improvements Validating encoder/decoder for nested records
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899888 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+166	2	lang/java/src/java/org/apache/avro/io/parsing/Symbol.java
+25	2	lang/java/src/test/java/org/apache/avro/io/Perf.java
+
+commit 76315b92e96ff9ed61183d81124fc3acf6998249
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sat Jan 16 05:11:07 2010 +0000
+
+    AVRO-337. ant test-java fails in Cygwin due to CRLF v LF problem
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899885 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/java/src/test/java/org/apache/avro/genavro/TestGenAvro.java
+4	2	lang/java/src/test/java/org/apache/avro/tool/TestDataFileTools.java
+1	1	lang/java/src/test/java/org/apache/avro/tool/TestJsonToFromBinaryFragmentTools.java
+3	2	lang/java/src/test/java/org/apache/avro/tool/TestRpcReceiveAndSendTools.java
+
+commit bbf437e11f1b6ccd16f3bc79cd09af077dc0f638
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Sat Jan 16 01:52:24 2010 +0000
+
+    AVRO-344.  Complete rewrite of C implementation
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899870 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+22	0	LICENSE.txt
+4	0	NOTICE.txt
+1	1	README.txt
+3	1	build.sh
+6	88	lang/c/Makefile.am
+0	6	lang/c/README
+0	48	lang/c/avro.c
+0	107	lang/c/avro.h
+0	300	lang/c/avro_private.c
+0	229	lang/c/avro_private.h
+60	0	lang/c/build.sh
+10	43	lang/c/configure.in
+0	263	lang/c/datatypes/array.c
+0	146	lang/c/datatypes/boolean.c
+0	160	lang/c/datatypes/bytes.c
+0	111	lang/c/datatypes/decorator.c
+0	118	lang/c/datatypes/double.c
+0	182	lang/c/datatypes/enum.c
+0	165	lang/c/datatypes/fixed.c
+0	118	lang/c/datatypes/float.c
+0	126	lang/c/datatypes/int.c
+0	126	lang/c/datatypes/long.c
+0	265	lang/c/datatypes/map.c
+0	72	lang/c/datatypes/null.c
+0	371	lang/c/datatypes/primitives.c
+0	312	lang/c/datatypes/record.c
+0	150	lang/c/datatypes/string.c
+0	195	lang/c/datatypes/union.c
+6	0	lang/c/docs/Makefile.am
+0	24	lang/c/docs/doxygen.conf
+47	0	lang/c/docs/index.txt
+0	119	lang/c/io/file.c
+0	215	lang/c/io/file_container.c
+0	130	lang/c/io/memory.c
+0	137	lang/c/io/socket.c
+71	0	lang/c/jansson/CHANGES
+19	0	lang/c/jansson/LICENSE
+7	0	lang/c/jansson/Makefile.am
+63	0	lang/c/jansson/README.rst
+1561	0	lang/c/jansson/config.guess
+1686	0	lang/c/jansson/config.sub
+29	0	lang/c/jansson/configure.ac
+630	0	lang/c/jansson/depcomp
+7	0	lang/c/jansson/doc/Makefile.am
+5	0	lang/c/jansson/doc/README
+610	0	lang/c/jansson/doc/apiref.rst
+191	0	lang/c/jansson/doc/conf.py
+59	0	lang/c/jansson/doc/ext/refcounting.py
+104	0	lang/c/jansson/doc/gettingstarted.rst
+171	0	lang/c/jansson/doc/github_commits.c
+44	0	lang/c/jansson/doc/index.rst
+275	0	lang/c/jansson/doc/tutorial.rst
+519	0	lang/c/jansson/install-sh
+8413	0	lang/c/jansson/ltmain.sh
+376	0	lang/c/jansson/missing
+20	0	lang/c/jansson/src/Makefile.am
+321	0	lang/c/jansson/src/dump.c
+339	0	lang/c/jansson/src/hashtable.c
+188	0	lang/c/jansson/src/hashtable.h
+154	0	lang/c/jansson/src/jansson.h
+55	0	lang/c/jansson/src/jansson_private.h
+885	0	lang/c/jansson/src/load.c
+95	0	lang/c/jansson/src/strbuffer.c
+31	0	lang/c/jansson/src/strbuffer.h
+159	0	lang/c/jansson/src/utf.c
+18	0	lang/c/jansson/src/utf.h
+13	0	lang/c/jansson/src/util.h
+676	0	lang/c/jansson/src/value.c
+22	0	lang/c/jansson/test/Makefile.am
+45	0	lang/c/jansson/test/json-compare.py
+31	0	lang/c/jansson/test/load_file_dump_file.c
+33	0	lang/c/jansson/test/loadf_dumpf.c
+47	0	lang/c/jansson/test/loads_dumps.c
+57	0	lang/c/jansson/test/run-test
+68	0	lang/c/jansson/test/split-testfile.py
+46	0	lang/c/jansson/test/test-api
+27	0	lang/c/jansson/test/test-invalid
+34	0	lang/c/jansson/test/test-valid
+1	0	lang/c/jansson/test/testdata/Makefile.am
+235	0	lang/c/jansson/test/testdata/invalid
+235	0	lang/c/jansson/test/testdata/invalid-strip
+90	0	lang/c/jansson/test/testdata/invalid-unicode
+68	0	lang/c/jansson/test/testdata/valid
+68	0	lang/c/jansson/test/testdata/valid-strip
+12	0	lang/c/jansson/test/testprogs/Makefile.am
+400	0	lang/c/jansson/test/testprogs/test_array.c
+24	0	lang/c/jansson/test/testprogs/test_load.c
+44	0	lang/c/jansson/test/testprogs/test_number.c
+298	0	lang/c/jansson/test/testprogs/test_object.c
+127	0	lang/c/jansson/test/testprogs/test_simple.c
+20	0	lang/c/jansson/test/testprogs/util.h
+0	293	lang/c/json/json.c
+0	80	lang/c/json/json.h
+0	1041	lang/c/json/json_parser.c
+0	11	lang/c/json/json_parser.h
+0	121	lang/c/json/json_parser.y
+0	194	lang/c/json/json_tokenizer.c
+0	4889	lang/c/json/lemon.c
+0	842	lang/c/json/lempar.c
+15	0	lang/c/src/Makefile.am
+209	0	lang/c/src/avro.h
+4	23	lang/c/{json/json_tokenizer.h => src/container_of.h}
+533	0	lang/c/src/datum.c
+84	0	lang/c/src/datum.h
+0	0	lang/c/{util => src}/dump.c
+0	0	lang/c/{util => src}/dump.h
+72	0	lang/c/src/encoding.h
+363	0	lang/c/src/encoding_binary.c
+267	0	lang/c/src/io.c
+557	0	lang/c/src/queue.h
+907	0	lang/c/src/schema.c
+122	0	lang/c/src/schema.h
+196	0	lang/c/src/schema_equal.c
+223	0	lang/c/src/schema_printf.c
+248	0	lang/c/src/schema_specific.c
+616	0	lang/c/src/st.c
+73	0	lang/c/src/st.h
+21	0	lang/c/tests/Makefile.am
+0	7	lang/c/tests/json_tests/README
+0	1	lang/c/tests/json_tests/fail/array_not_closed
+0	1	lang/c/tests/json_tests/fail/array_not_opened
+0	1	lang/c/tests/json_tests/fail/bad_value
+0	1	lang/c/tests/json_tests/fail/colon_instead_of_comma
+0	1	lang/c/tests/json_tests/fail/comma_after_close
+0	1	lang/c/tests/json_tests/fail/comma_instead_of_colon
+0	1	lang/c/tests/json_tests/fail/double_colon
+0	1	lang/c/tests/json_tests/fail/extra_close
+0	1	lang/c/tests/json_tests/fail/extra_data_after_object
+0	1	lang/c/tests/json_tests/fail/illegal_expression
+0	1	lang/c/tests/json_tests/fail/illegal_invocation
+0	1	lang/c/tests/json_tests/fail/invalid_number
+0	1	lang/c/tests/json_tests/fail/invalid_number2
+0	1	lang/c/tests/json_tests/fail/invalid_number3
+0	1	lang/c/tests/json_tests/fail/invalid_number4
+0	1	lang/c/tests/json_tests/fail/json_text_not_array_or_object
+0	2	lang/c/tests/json_tests/fail/line_break_in_string
+0	2	lang/c/tests/json_tests/fail/line_break_in_string2
+0	1	lang/c/tests/json_tests/fail/missing_colon
+0	1	lang/c/tests/json_tests/fail/naked_array_value
+0	1	lang/c/tests/json_tests/fail/object_array_mismatch
+0	1	lang/c/tests/json_tests/fail/object_malformed
+0	1	lang/c/tests/json_tests/fail/object_not_closed
+0	1	lang/c/tests/json_tests/fail/object_not_opened
+0	1	lang/c/tests/json_tests/fail/object_with_string
+0	1	lang/c/tests/json_tests/fail/object_without_one_value
+0	1	lang/c/tests/json_tests/fail/single_quote
+0	2	lang/c/tests/json_tests/fail/string_bad_u1_value
+0	2	lang/c/tests/json_tests/fail/string_bad_u2_value
+0	2	lang/c/tests/json_tests/fail/string_bad_u3_value
+0	2	lang/c/tests/json_tests/fail/string_bad_u4_value
+0	1	lang/c/tests/json_tests/fail/string_illegal_escape
+0	1	lang/c/tests/json_tests/fail/tab_char_in_string
+0	1	lang/c/tests/json_tests/fail/tab_character_in_string
+0	1	lang/c/tests/json_tests/fail/unquoted_object_key
+0	1	lang/c/tests/json_tests/pass/array_multidimensional
+0	1	lang/c/tests/json_tests/pass/array_with_false
+0	1	lang/c/tests/json_tests/pass/array_with_ints
+0	1	lang/c/tests/json_tests/pass/array_with_null
+0	2	lang/c/tests/json_tests/pass/array_with_objects
+0	1	lang/c/tests/json_tests/pass/array_with_string
+0	1	lang/c/tests/json_tests/pass/array_with_true
+0	1	lang/c/tests/json_tests/pass/deep
+0	1	lang/c/tests/json_tests/pass/empty_array
+0	1	lang/c/tests/json_tests/pass/empty_object
+0	88	lang/c/tests/json_tests/pass/json_org_example1
+0	26	lang/c/tests/json_tests/pass/json_org_example2
+0	23	lang/c/tests/json_tests/pass/json_org_example3
+0	58	lang/c/tests/json_tests/pass/json_org_test1
+0	3	lang/c/tests/json_tests/pass/object_with_duplicate_keys
+0	1	lang/c/tests/json_tests/pass/object_with_false
+0	4	lang/c/tests/json_tests/pass/object_with_multiple_members
+0	1	lang/c/tests/json_tests/pass/object_with_null
+0	1	lang/c/tests/json_tests/pass/object_with_object_member
+0	1	lang/c/tests/json_tests/pass/object_with_one_member
+0	1	lang/c/tests/json_tests/pass/object_with_true
+0	22	lang/c/tests/json_tests/pass/rfc_example
+0	13	lang/c/tests/json_tests/pass/rfc_example2
+0	1	lang/c/tests/json_tests/pass/string_u_value
+3	0	lang/c/tests/schema_tests/fail/invalid_avro_id
+7	0	lang/c/tests/schema_tests/fail/record_with_invalid_reference
+1	1	lang/c/tests/schema_tests/pass/enum
+28	0	lang/c/tests/schema_tests/pass/interop.avsc
+1	0	lang/c/tests/schema_tests/pass/string_extra_attributes
+90	259	lang/c/tests/test_avro_data.c
+58	28	lang/c/tests/test_avro_schema.c
+0	125	lang/c/tests/test_json_parser.c
+0	19	lang/c/util/avro_type.gperf
+0	51	lang/c/util/container_of.h
+0	180	lang/c/util/endian.c
+0	130	lang/c/util/error.c
+0	48	lang/c/util/error.h
+5	5	lang/c/version.sh
+
+commit 91afe7721577c98ceef926842a2a1faf4b806f39
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Jan 15 17:19:45 2010 +0000
+
+    AVRO-316. Optiminzing inner loop functions of Avro io
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899720 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	lang/java/src/java/org/apache/avro/io/JsonDecoder.java
+1	1	lang/java/src/java/org/apache/avro/io/JsonEncoder.java
+2	2	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+1	1	lang/java/src/java/org/apache/avro/io/ValidatingDecoder.java
+1	1	lang/java/src/java/org/apache/avro/io/ValidatingEncoder.java
+2	4	lang/java/src/java/org/apache/avro/io/parsing/JsonGrammarGenerator.java
+34	24	lang/java/src/java/org/apache/avro/io/parsing/Parser.java
+2	4	lang/java/src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+2	2	lang/java/src/java/org/apache/avro/io/parsing/SkipParser.java
+0	1	lang/java/src/java/org/apache/avro/io/parsing/Symbol.java
+2	4	lang/java/src/java/org/apache/avro/io/parsing/ValidatingGrammarGenerator.java
+87	33	lang/java/src/test/java/org/apache/avro/io/Perf.java
+
+commit 516ad11ed8f9c3d2f7830a9b8624fc82cc2346ab
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Jan 15 03:27:45 2010 +0000
+
+    Fixed AVRO-313. Reinroduced Parser.processImplicitActions() as it is still required.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899520 13f79535-47bb-0310-9956-ffa450edef68
+
+6	0	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+2	0	lang/java/src/java/org/apache/avro/io/ValidatingDecoder.java
+16	0	lang/java/src/java/org/apache/avro/io/parsing/Parser.java
+2	1	lang/java/src/java/org/apache/avro/io/parsing/SkipParser.java
+17	5	lang/java/src/java/org/apache/avro/io/parsing/Symbol.java
+
+commit 55e42a83f141d22d2c69b27167def8380e89683c
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Fri Jan 15 00:19:40 2010 +0000
+
+    AVRO-243. Use automake generated Makefile.in
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899495 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	0	lang/c++/AUTHORS
+202	0	lang/c++/COPYING
+1	0	lang/c++/ChangeLog
+234	0	lang/c++/INSTALL
+153	0	lang/c++/Makefile.am
+1108	96	lang/c++/Makefile.in
+5	0	lang/c++/NEWS
+0	0	lang/c++/{README.txt => README}
+7226	0	lang/c++/aclocal.m4
+1	1	lang/c++/api/Compiler.hh
+1	0	lang/c++/config/.gitignore
+142	0	lang/c++/config/compile
+1500	0	lang/c++/config/config.guess
+1616	0	lang/c++/config/config.sub
+584	0	lang/c++/config/depcomp
+507	0	lang/c++/config/install-sh
+6863	0	lang/c++/config/ltmain.sh
+367	0	lang/c++/config/missing
+223	0	lang/c++/config/ylwrap
+16999	1291	lang/c++/configure
+4	3	lang/c++/configure.in
+1	1	lang/c++/parser/{avro.l => AvroLex.ll}
+0	0	lang/c++/parser/{avro.y => AvroYacc.yy}
+16	6	lang/c++/test/testgen.cc
+1	2	lang/c++/test/unittest.cc
+
+commit eeb127e7edec95b9663f416cee4bebab9581e0e3
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Jan 14 23:32:24 2010 +0000
+
+    Reverting AVRO-313 and AVRO-316, since they cause the test-java target to fail.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899471 13f79535-47bb-0310-9956-ffa450edef68
+
+0	2	CHANGES.txt
+2	2	lang/java/src/java/org/apache/avro/io/JsonDecoder.java
+2	2	lang/java/src/java/org/apache/avro/io/JsonEncoder.java
+2	8	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+1	3	lang/java/src/java/org/apache/avro/io/ValidatingDecoder.java
+1	1	lang/java/src/java/org/apache/avro/io/ValidatingEncoder.java
+4	2	lang/java/src/java/org/apache/avro/io/parsing/JsonGrammarGenerator.java
+32	39	lang/java/src/java/org/apache/avro/io/parsing/Parser.java
+4	2	lang/java/src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+3	4	lang/java/src/java/org/apache/avro/io/parsing/SkipParser.java
+6	17	lang/java/src/java/org/apache/avro/io/parsing/Symbol.java
+4	2	lang/java/src/java/org/apache/avro/io/parsing/ValidatingGrammarGenerator.java
+24	61	lang/java/src/test/java/org/apache/avro/io/Perf.java
+7	32	lang/java/src/test/java/org/apache/avro/io/TestResolvingIOResolving.java
+
+commit aaa7f4764b7396fd2d1cb63058fbdf6209e829cb
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Jan 14 23:03:26 2010 +0000
+
+    AVRO-335. Update RAT task, run it from top-level build, add a few missing licenses, update copyright year.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899455 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	NOTICE.txt
+18	0	build.sh
+17	0	{.eclipse_launchers => lang/java/.eclipse_launchers}/AllTests.launch
+6	5	lang/java/build.xml
+9	9	share/rat-excludes.txt
+
+commit b6bd22843bec5f28b5c44af91c4e5fb2b1187f2b
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Jan 14 19:55:19 2010 +0000
+
+    AVRO-308, AVRO-330.  Two clarifications to the spec.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899382 13f79535-47bb-0310-9956-ffa450edef68
+
+12	11	doc/src/content/xdocs/spec.xml
+
+commit e2619a8330a83f8a4f88a5dc055fa9cc2c606873
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Jan 14 18:47:52 2010 +0000
+
+    AVRO-329. Fix Python handshake schema.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899352 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/py/src/avro/ipc.py
+
+commit 115547c97f36bd8cb8d95a85878eaed5d1074507
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Jan 14 13:40:25 2010 +0000
+
+    AVRO-316. Optiminzing inner loop functions of Avro io
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899195 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	lang/java/src/java/org/apache/avro/io/JsonDecoder.java
+1	1	lang/java/src/java/org/apache/avro/io/JsonEncoder.java
+2	2	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+1	1	lang/java/src/java/org/apache/avro/io/ValidatingDecoder.java
+1	1	lang/java/src/java/org/apache/avro/io/ValidatingEncoder.java
+2	4	lang/java/src/java/org/apache/avro/io/parsing/JsonGrammarGenerator.java
+33	22	lang/java/src/java/org/apache/avro/io/parsing/Parser.java
+2	4	lang/java/src/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+2	2	lang/java/src/java/org/apache/avro/io/parsing/SkipParser.java
+0	1	lang/java/src/java/org/apache/avro/io/parsing/Symbol.java
+2	4	lang/java/src/java/org/apache/avro/io/parsing/ValidatingGrammarGenerator.java
+61	24	lang/java/src/test/java/org/apache/avro/io/Perf.java
+
+commit e10a0be31a2495dcc9205a681e8401003e2a5bea
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Jan 14 12:53:32 2010 +0000
+
+    AVRO-313. Default values for fields or records and array (or map) don't work with ResolvingDecoder
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899185 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/java/src/java/org/apache/avro/io/JsonEncoder.java
+6	0	lang/java/src/java/org/apache/avro/io/ResolvingDecoder.java
+2	0	lang/java/src/java/org/apache/avro/io/ValidatingDecoder.java
+6	10	lang/java/src/java/org/apache/avro/io/parsing/Parser.java
+2	1	lang/java/src/java/org/apache/avro/io/parsing/SkipParser.java
+17	5	lang/java/src/java/org/apache/avro/io/parsing/Symbol.java
+32	7	lang/java/src/test/java/org/apache/avro/io/TestResolvingIOResolving.java
+
+commit e72ac6c69b0e3e06c22a6a84394b4f64dafd7b3e
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Thu Jan 14 12:47:30 2010 +0000
+
+    AVRO-315. Performance improvements to BinaryDecoder
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@899182 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+22	20	lang/java/src/java/org/apache/avro/io/BinaryDecoder.java
+189	0	lang/java/src/test/java/org/apache/avro/io/Perf.java
+
+commit 7e5266955d8c92e7c6f1b2f4de3f04d57759cc29
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Jan 13 23:26:56 2010 +0000
+
+    AVRO-314.  Add mvn-install ant task to publish jar to local Maven repository.  Contributed by Aaron Kimball.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898997 13f79535-47bb-0310-9956-ffa450edef68
+
+1	0	.gitignore
+3	0	CHANGES.txt
+16	0	lang/java/.gitignore
+23	9	lang/java/build.xml
+2	0	lang/java/ivy.xml
+16	0	lang/java/lib/.gitignore
+
+commit 1b0d92f9f1a06faafc698b8d170999cfd582dcfd
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Jan 13 23:08:14 2010 +0000
+
+    AVRO-320. Rename avroj to be avro-tools.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898991 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+25	16	lang/java/build.xml
+2	2	lang/java/ivy.xml
+1	2	lang/java/src/java/org/apache/avro/specific/SpecificCompiler.java
+1	1	lang/java/src/java/org/apache/avro/tool/GenAvroTool.java
+16	0	lang/java/src/java/org/apache/avro/tool/Main.java
+1	1	lang/java/src/java/org/apache/avro/tool/Tool.java
+4	4	lang/java/src/test/bin/{test_avroj.sh => test_tools.sh}
+2	2	lang/java/src/test/java/org/apache/avro/ipc/stats/TestStatsPluginAndServlet.java
+
+commit 801eb60caf59f2af13fcc7edceb00787840716f6
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Jan 13 22:15:57 2010 +0000
+
+    AVRO-206.  Improved checks for schema parsing.  Contributed by Pat Hunt.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898971 13f79535-47bb-0310-9956-ffa450edef68
+
+22	0	lang/java/src/test/java/org/apache/avro/TestSchema.java
+
+commit e634f34b9abc17de550d37b249b5bc750e1e9f59
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Jan 13 22:06:56 2010 +0000
+
+    AVRO-274.  Make Java's data file sync interval configurable.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898966 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	lang/java/src/java/org/apache/avro/file/DataFileConstants.java
+12	4	lang/java/src/java/org/apache/avro/file/DataFileWriter.java
+1	0	lang/java/src/test/java/org/apache/avro/TestDataFile.java
+
+commit 63a4e8c60a5aa8d269968e984b668c476ea18c36
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Jan 13 20:19:30 2010 +0000
+
+    AVRO-317.  Restore Java data interop tests.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898925 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+14	1	build.sh
+16	19	lang/java/build.xml
+4	4	lang/java/src/test/java/org/apache/avro/TestDataFile.java
+
+commit f3820c4131858ee2c0781dfed445b239569e61cc
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 12 23:06:56 2010 +0000
+
+    AVRO-310.  Improve top-level build.sh.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898567 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+8	1	build.sh
+
+commit 56794b99650ef9343e7e7fd5b518391cfeaff032
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 12 22:38:28 2010 +0000
+
+    AVRO-309.  Fix Python build, post-AVRO-163.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898556 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+3	3	build.sh
+28	761	lang/py/build.xml
+0	0	lang/{java => py}/lib/pyAntTasks-1.3-LICENSE.txt
+-	-	lang/{java => py}/lib/pyAntTasks-1.3.jar
+
+commit 6b57b501c1c93efc5c6b42c511c4d3c19974a71a
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 12 22:30:29 2010 +0000
+
+    AVRO-297.  Remove deprecated call to Jackson.  Contributed by philz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898554 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	lang/java/src/java/org/apache/avro/Schema.java
+
+commit 820d85de389914cd414a0dac60ca4e9cca359b02
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 12 22:26:55 2010 +0000
+
+    AVRO-282.  Improve avroj build to better specify dependencies.  Contributed by philz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898553 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+16	3	lang/java/build.xml
+6	3	lang/java/ivy.xml
+
+commit 107cb5e18a20a09f19fb97e4e0f4a2652574ac09
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 12 19:41:18 2010 +0000
+
+    AVRO-163.  Fix top-level 'dist' target to 'mkdir build'.  Also moved VERSION.txt to share/ to reduce its visibility.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898482 13f79535-47bb-0310-9956-ffa450edef68
+
+2	1	build.sh
+1	1	doc/build.xml
+1	1	lang/java/build.xml
+0	0	VERSION.txt => share/VERSION.txt
+
+commit 198bdac00482ea898b6035e9cd6c96f00ea3f026
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 12 01:05:05 2010 +0000
+
+    AVRO-163.  Remove empty src/ tree.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898143 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 2b43cbdc5d51752325dd9f29a669dcc532a1c6b0
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 12 01:03:43 2010 +0000
+
+    AVRO-163.  Re-organized source tree into separate directories for each language.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898142 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	20	README.txt
+1	0	VERSION.txt
+59	0	build.sh
+38	0	doc/build.xml
+0	0	{src/doc => doc/src}/content/xdocs/genavro.xml
+0	0	{src/doc => doc/src}/content/xdocs/index.xml
+0	0	{src/doc => doc/src}/content/xdocs/site.xml
+0	0	{src/doc => doc/src}/content/xdocs/spec.xml
+0	0	{src/doc => doc/src}/content/xdocs/tabs.xml
+-	-	{src/doc => doc/src}/resources/images/avro-logo.png
+-	-	{src/doc => doc/src}/resources/images/favicon.ico
+-	-	{src/doc => doc/src}/resources/images/hadoop-logo.jpg
+0	0	{src/doc => doc/src}/skinconf.xml
+0	0	{src => lang}/c++/Doxyfile
+0	0	{src => lang}/c++/MainPage.dox
+0	0	{src => lang}/c++/Makefile.in
+0	0	{src => lang}/c++/README.txt
+0	0	{src => lang}/c++/aclocal.m4
+0	0	{src => lang}/c++/api/AvroParse.hh
+0	0	{src => lang}/c++/api/AvroSerialize.hh
+0	0	{src => lang}/c++/api/AvroTraits.hh
+0	0	{src => lang}/c++/api/Boost.hh
+0	0	{src => lang}/c++/api/Compiler.hh
+0	0	{src => lang}/c++/api/CompilerNode.hh
+0	0	{src => lang}/c++/api/Exception.hh
+0	0	{src => lang}/c++/api/InputStreamer.hh
+0	0	{src => lang}/c++/api/Layout.hh
+0	0	{src => lang}/c++/api/Node.hh
+0	0	{src => lang}/c++/api/NodeConcepts.hh
+0	0	{src => lang}/c++/api/NodeImpl.hh
+0	0	{src => lang}/c++/api/OutputStreamer.hh
+0	0	{src => lang}/c++/api/Parser.hh
+0	0	{src => lang}/c++/api/Reader.hh
+0	0	{src => lang}/c++/api/Resolver.hh
+0	0	{src => lang}/c++/api/ResolverSchema.hh
+0	0	{src => lang}/c++/api/ResolvingReader.hh
+0	0	{src => lang}/c++/api/Schema.hh
+0	0	{src => lang}/c++/api/SchemaResolution.hh
+0	0	{src => lang}/c++/api/Serializer.hh
+0	0	{src => lang}/c++/api/SymbolMap.hh
+0	0	{src => lang}/c++/api/Types.hh
+0	0	{src => lang}/c++/api/ValidSchema.hh
+0	0	{src => lang}/c++/api/ValidatingReader.hh
+0	0	{src => lang}/c++/api/ValidatingWriter.hh
+0	0	{src => lang}/c++/api/Validator.hh
+0	0	{src => lang}/c++/api/Writer.hh
+0	0	{src => lang}/c++/api/Zigzag.hh
+0	0	{src => lang}/c++/configure
+0	0	{src => lang}/c++/configure.in
+0	0	{src => lang}/c++/impl/Compiler.cc
+0	0	{src => lang}/c++/impl/CompilerNode.cc
+0	0	{src => lang}/c++/impl/Node.cc
+0	0	{src => lang}/c++/impl/NodeImpl.cc
+0	0	{src => lang}/c++/impl/Resolver.cc
+0	0	{src => lang}/c++/impl/ResolverSchema.cc
+0	0	{src => lang}/c++/impl/Schema.cc
+0	0	{src => lang}/c++/impl/Types.cc
+0	0	{src => lang}/c++/impl/ValidSchema.cc
+0	0	{src => lang}/c++/impl/ValidatingReader.cc
+0	0	{src => lang}/c++/impl/ValidatingWriter.cc
+0	0	{src => lang}/c++/impl/Validator.cc
+0	0	{src => lang}/c++/impl/Zigzag.cc
+0	0	{src => lang}/c++/jsonschemas/array
+0	0	{src => lang}/c++/jsonschemas/bigrecord
+0	0	{src => lang}/c++/jsonschemas/bigrecord2
+0	0	{src => lang}/c++/jsonschemas/enum
+0	0	{src => lang}/c++/jsonschemas/fixed
+0	0	{src => lang}/c++/jsonschemas/int
+0	0	{src => lang}/c++/jsonschemas/map
+0	0	{src => lang}/c++/jsonschemas/nested
+0	0	{src => lang}/c++/jsonschemas/nested.error
+0	0	{src => lang}/c++/jsonschemas/recinrec
+0	0	{src => lang}/c++/jsonschemas/record
+0	0	{src => lang}/c++/jsonschemas/record2
+0	0	{src => lang}/c++/jsonschemas/union
+0	0	{src => lang}/c++/jsonschemas/unionwithmap
+0	0	{src => lang}/c++/jsonschemas/verboseint
+0	0	{src => lang}/c++/m4/README
+0	0	{src => lang}/c++/m4/m4_ax_boost_base.m4
+0	0	{src => lang}/c++/m4/m4_ax_boost_regex.m4
+0	0	{src => lang}/c++/parser/avro.l
+0	0	{src => lang}/c++/parser/avro.y
+0	0	{src => lang}/c++/scripts/gen-cppcode.py
+0	0	{src => lang}/c++/test/precompile.cc
+0	0	{src => lang}/c++/test/testgen.cc
+0	0	{src => lang}/c++/test/testparser.cc
+0	0	{src => lang}/c++/test/unittest.cc
+0	0	{src => lang}/c/.gitignore
+0	0	{src => lang}/c/AUTHORS
+0	0	{src => lang}/c/COPYING
+0	0	{src => lang}/c/ChangeLog
+0	0	{src => lang}/c/Makefile.am
+0	0	{src => lang}/c/NEWS
+0	0	{src => lang}/c/README
+0	0	{src => lang}/c/avro.c
+0	0	{src => lang}/c/avro.h
+0	0	{src => lang}/c/avro_private.c
+0	0	{src => lang}/c/avro_private.h
+0	0	{src => lang}/c/config/.gitignore
+0	0	{src => lang}/c/configure.in
+0	0	{src => lang}/c/datatypes/array.c
+0	0	{src => lang}/c/datatypes/boolean.c
+0	0	{src => lang}/c/datatypes/bytes.c
+0	0	{src => lang}/c/datatypes/decorator.c
+0	0	{src => lang}/c/datatypes/double.c
+0	0	{src => lang}/c/datatypes/enum.c
+0	0	{src => lang}/c/datatypes/fixed.c
+0	0	{src => lang}/c/datatypes/float.c
+0	0	{src => lang}/c/datatypes/int.c
+0	0	{src => lang}/c/datatypes/long.c
+0	0	{src => lang}/c/datatypes/map.c
+0	0	{src => lang}/c/datatypes/null.c
+0	0	{src => lang}/c/datatypes/primitives.c
+0	0	{src => lang}/c/datatypes/record.c
+0	0	{src => lang}/c/datatypes/string.c
+0	0	{src => lang}/c/datatypes/union.c
+0	0	{src => lang}/c/docs/doxygen.conf
+0	0	{src => lang}/c/io/file.c
+0	0	{src => lang}/c/io/file_container.c
+0	0	{src => lang}/c/io/memory.c
+0	0	{src => lang}/c/io/socket.c
+0	0	{src => lang}/c/json/json.c
+0	0	{src => lang}/c/json/json.h
+0	0	{src => lang}/c/json/json_parser.c
+0	0	{src => lang}/c/json/json_parser.h
+0	0	{src => lang}/c/json/json_parser.y
+0	0	{src => lang}/c/json/json_tokenizer.c
+0	0	{src => lang}/c/json/json_tokenizer.h
+0	0	{src => lang}/c/json/lemon.c
+0	0	{src => lang}/c/json/lempar.c
+0	0	{src => lang}/c/m4/.gitignore
+0	0	{src => lang}/c/tests/json_tests/README
+0	0	{src => lang}/c/tests/json_tests/fail/array_not_closed
+0	0	{src => lang}/c/tests/json_tests/fail/array_not_opened
+0	0	{src => lang}/c/tests/json_tests/fail/bad_value
+0	0	{src => lang}/c/tests/json_tests/fail/colon_instead_of_comma
+0	0	{src => lang}/c/tests/json_tests/fail/comma_after_close
+0	0	{src => lang}/c/tests/json_tests/fail/comma_instead_of_colon
+0	0	{src => lang}/c/tests/json_tests/fail/double_colon
+0	0	{src => lang}/c/tests/json_tests/fail/extra_close
+0	0	{src => lang}/c/tests/json_tests/fail/extra_data_after_object
+0	0	{src => lang}/c/tests/json_tests/fail/illegal_expression
+0	0	{src => lang}/c/tests/json_tests/fail/illegal_invocation
+0	0	{src => lang}/c/tests/json_tests/fail/invalid_number
+0	0	{src => lang}/c/tests/json_tests/fail/invalid_number2
+0	0	{src => lang}/c/tests/json_tests/fail/invalid_number3
+0	0	{src => lang}/c/tests/json_tests/fail/invalid_number4
+0	0	{src => lang}/c/tests/json_tests/fail/json_text_not_array_or_object
+0	0	{src => lang}/c/tests/json_tests/fail/line_break_in_string
+0	0	{src => lang}/c/tests/json_tests/fail/line_break_in_string2
+0	0	{src => lang}/c/tests/json_tests/fail/missing_colon
+0	0	{src => lang}/c/tests/json_tests/fail/naked_array_value
+0	0	{src => lang}/c/tests/json_tests/fail/object_array_mismatch
+0	0	{src => lang}/c/tests/json_tests/fail/object_malformed
+0	0	{src => lang}/c/tests/json_tests/fail/object_not_closed
+0	0	{src => lang}/c/tests/json_tests/fail/object_not_opened
+0	0	{src => lang}/c/tests/json_tests/fail/object_with_string
+0	0	{src => lang}/c/tests/json_tests/fail/object_without_one_value
+0	0	{src => lang}/c/tests/json_tests/fail/single_quote
+0	0	{src => lang}/c/tests/json_tests/fail/string_bad_u1_value
+0	0	{src => lang}/c/tests/json_tests/fail/string_bad_u2_value
+0	0	{src => lang}/c/tests/json_tests/fail/string_bad_u3_value
+0	0	{src => lang}/c/tests/json_tests/fail/string_bad_u4_value
+0	0	{src => lang}/c/tests/json_tests/fail/string_illegal_escape
+0	0	{src => lang}/c/tests/json_tests/fail/tab_char_in_string
+0	0	{src => lang}/c/tests/json_tests/fail/tab_character_in_string
+0	0	{src => lang}/c/tests/json_tests/fail/unquoted_object_key
+0	0	{src => lang}/c/tests/json_tests/pass/array_multidimensional
+0	0	{src => lang}/c/tests/json_tests/pass/array_with_false
+0	0	{src => lang}/c/tests/json_tests/pass/array_with_ints
+0	0	{src => lang}/c/tests/json_tests/pass/array_with_null
+0	0	{src => lang}/c/tests/json_tests/pass/array_with_objects
+0	0	{src => lang}/c/tests/json_tests/pass/array_with_string
+0	0	{src => lang}/c/tests/json_tests/pass/array_with_true
+0	0	{src => lang}/c/tests/json_tests/pass/deep
+0	0	{src => lang}/c/tests/json_tests/pass/empty_array
+0	0	{src => lang}/c/tests/json_tests/pass/empty_object
+0	0	{src => lang}/c/tests/json_tests/pass/json_org_example1
+0	0	{src => lang}/c/tests/json_tests/pass/json_org_example2
+0	0	{src => lang}/c/tests/json_tests/pass/json_org_example3
+0	0	{src => lang}/c/tests/json_tests/pass/json_org_test1
+0	0	{src => lang}/c/tests/json_tests/pass/object_with_duplicate_keys
+0	0	{src => lang}/c/tests/json_tests/pass/object_with_false
+0	0	{src => lang}/c/tests/json_tests/pass/object_with_multiple_members
+0	0	{src => lang}/c/tests/json_tests/pass/object_with_null
+0	0	{src => lang}/c/tests/json_tests/pass/object_with_object_member
+0	0	{src => lang}/c/tests/json_tests/pass/object_with_one_member
+0	0	{src => lang}/c/tests/json_tests/pass/object_with_true
+0	0	{src => lang}/c/tests/json_tests/pass/rfc_example
+0	0	{src => lang}/c/tests/json_tests/pass/rfc_example2
+0	0	{src => lang}/c/tests/json_tests/pass/string_u_value
+0	0	{src => lang}/c/tests/schema_tests/fail/enum_nonarray_symbols
+0	0	{src => lang}/c/tests/schema_tests/fail/enum_nonstring_name
+0	0	{src => lang}/c/tests/schema_tests/fail/enum_without_name
+0	0	{src => lang}/c/tests/schema_tests/fail/fixed_without_name
+0	0	{src => lang}/c/tests/schema_tests/fail/fixed_without_size
+0	0	{src => lang}/c/tests/schema_tests/fail/illegal_type
+0	0	{src => lang}/c/tests/schema_tests/fail/record_with_field_missing_name
+0	0	{src => lang}/c/tests/schema_tests/fail/record_with_field_missing_type
+0	0	{src => lang}/c/tests/schema_tests/fail/record_with_nonarray_fields
+0	0	{src => lang}/c/tests/schema_tests/fail/record_with_nonstring_name
+0	0	{src => lang}/c/tests/schema_tests/pass/array
+0	0	{src => lang}/c/tests/schema_tests/pass/boolean_full
+0	0	{src => lang}/c/tests/schema_tests/pass/bytes_full
+0	0	{src => lang}/c/tests/schema_tests/pass/double_full
+0	0	{src => lang}/c/tests/schema_tests/pass/enum
+0	0	{src => lang}/c/tests/schema_tests/pass/extra_attributes
+0	0	{src => lang}/c/tests/schema_tests/pass/fixed
+0	0	{src => lang}/c/tests/schema_tests/pass/float_full
+0	0	{src => lang}/c/tests/schema_tests/pass/int_full
+0	0	{src => lang}/c/tests/schema_tests/pass/long_full
+0	0	{src => lang}/c/tests/schema_tests/pass/map
+0	0	{src => lang}/c/tests/schema_tests/pass/null_full
+0	0	{src => lang}/c/tests/schema_tests/pass/record
+0	0	{src => lang}/c/tests/schema_tests/pass/record_fields_with_defaults
+0	0	{src => lang}/c/tests/schema_tests/pass/recursive_record
+0	0	{src => lang}/c/tests/schema_tests/pass/string_full
+0	0	{src => lang}/c/tests/schema_tests/pass/union
+0	0	{src => lang}/c/tests/test_avro_data.c
+0	0	{src => lang}/c/tests/test_avro_interop.c
+0	0	{src => lang}/c/tests/test_avro_schema.c
+0	0	{src => lang}/c/tests/test_json_parser.c
+0	0	{src => lang}/c/util/avro_type.gperf
+0	0	{src => lang}/c/util/container_of.h
+0	0	{src => lang}/c/util/dump.c
+0	0	{src => lang}/c/util/dump.h
+0	0	{src => lang}/c/util/endian.c
+0	0	{src => lang}/c/util/error.c
+0	0	{src => lang}/c/util/error.h
+0	0	{src => lang}/c/version.sh
+553	0	lang/java/build.xml
+0	0	ivy.xml => lang/java/ivy.xml
+0	0	ivysettings-ant-eclipse.xml => lang/java/ivysettings-ant-eclipse.xml
+0	0	{lib => lang/java/lib}/ant-1.6.5-LICENSE.txt
+0	0	{lib => lang/java/lib}/asm-3.0-LICENSE.txt
+0	0	{lib => lang/java/lib}/jackson-1.0.1-LICENSE.txt
+0	0	{lib => lang/java/lib}/paranamer-1.5-LICENSE.txt
+0	0	{lib => lang/java/lib}/pyAntTasks-1.3-LICENSE.txt
+-	-	{lib => lang/java/lib}/pyAntTasks-1.3.jar
+0	0	{lib => lang/java/lib}/qdox-1.9.1-LICENSE.txt
+0	0	{lib => lang/java/lib}/slf4j-1.5.8-LICENSE.txt
+0	0	{src => lang/java/src}/java/checkstyle.xml
+0	0	{src => lang/java/src}/java/org/apache/avro/AvroRuntimeException.java
+0	0	{src => lang/java/src}/java/org/apache/avro/AvroTypeException.java
+0	0	{src => lang/java/src}/java/org/apache/avro/Protocol.java
+0	0	{src => lang/java/src}/java/org/apache/avro/Schema.java
+0	0	{src => lang/java/src}/java/org/apache/avro/SchemaParseException.java
+0	0	{src => lang/java/src}/java/org/apache/avro/file/DataFileConstants.java
+0	0	{src => lang/java/src}/java/org/apache/avro/file/DataFileReader.java
+0	0	{src => lang/java/src}/java/org/apache/avro/file/DataFileStream.java
+0	0	{src => lang/java/src}/java/org/apache/avro/file/DataFileWriter.java
+0	0	{src => lang/java/src}/java/org/apache/avro/file/SeekableFileInput.java
+0	0	{src => lang/java/src}/java/org/apache/avro/file/SeekableInput.java
+0	0	{src => lang/java/src}/java/org/apache/avro/file/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/genavro/genavro.jj
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/GenericArray.java
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/GenericContainer.java
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/GenericData.java
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/GenericDatumReader.java
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/GenericDatumWriter.java
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/GenericFixed.java
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/GenericRecord.java
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/GenericRequestor.java
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/GenericResponder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/generic/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/io/BinaryData.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/BinaryDecoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/BinaryEncoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/BlockingBinaryEncoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/DatumReader.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/DatumWriter.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/Decoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/Encoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/JsonDecoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/JsonEncoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/ParsingDecoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/ParsingEncoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/ResolvingDecoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/ValidatingDecoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/ValidatingEncoder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/io/parsing/JsonGrammarGenerator.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/parsing/Parser.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/parsing/ResolvingGrammarGenerator.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/parsing/SkipParser.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/parsing/Symbol.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/parsing/ValidatingGrammarGenerator.java
+0	0	{src => lang/java/src}/java/org/apache/avro/io/parsing/doc-files/parsing.html
+0	0	{src => lang/java/src}/java/org/apache/avro/io/parsing/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/AvroRemoteException.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/ByteBufferInputStream.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/ByteBufferOutputStream.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/DatagramServer.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/DatagramTransceiver.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/HttpServer.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/HttpTransceiver.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/LocalTransceiver.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/RPCContext.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/RPCPlugin.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/Requestor.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/Responder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/ResponderServlet.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/Server.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/SocketServer.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/SocketTransceiver.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/Transceiver.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/stats/FloatHistogram.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/stats/Histogram.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/stats/StatsPlugin.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/stats/StatsServlet.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/stats/Stopwatch.java
+0	0	{src => lang/java/src}/java/org/apache/avro/ipc/stats/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/reflect/InduceSchemaTool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/reflect/ReflectData.java
+0	0	{src => lang/java/src}/java/org/apache/avro/reflect/ReflectDatumReader.java
+0	0	{src => lang/java/src}/java/org/apache/avro/reflect/ReflectDatumWriter.java
+0	0	{src => lang/java/src}/java/org/apache/avro/reflect/ReflectRequestor.java
+0	0	{src => lang/java/src}/java/org/apache/avro/reflect/ReflectResponder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/reflect/Stringable.java
+0	0	{src => lang/java/src}/java/org/apache/avro/reflect/Union.java
+0	0	{src => lang/java/src}/java/org/apache/avro/reflect/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/FixedSize.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/ProtocolTask.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SchemaTask.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificCompiler.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificData.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificDatumReader.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificDatumWriter.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificExceptionBase.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificFixed.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificRecord.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificRecordBase.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificRequestor.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/SpecificResponder.java
+0	0	{src => lang/java/src}/java/org/apache/avro/specific/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/BinaryFragmentToJsonTool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/DataFileGetSchemaTool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/DataFileReadTool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/DataFileWriteTool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/GenAvroTool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/JsonToBinaryFragmentTool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/Main.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/RpcReceiveTool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/RpcSendTool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/Tool.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/Util.java
+0	0	{src => lang/java/src}/java/org/apache/avro/tool/package.html
+0	0	{src => lang/java/src}/java/org/apache/avro/util/Utf8.java
+0	0	{src => lang/java/src}/java/org/apache/avro/util/package.html
+0	0	{src => lang/java/src}/java/overview.html
+3	3	{src => lang/java/src}/test/bin/test_avroj.sh
+0	0	{src => lang/java/src}/test/genavro/input/interop.genavro
+0	0	{src => lang/java/src}/test/genavro/input/mr_events.genavro
+0	0	{src => lang/java/src}/test/genavro/input/namespaces.genavro
+0	0	{src => lang/java/src}/test/genavro/input/reservedwords.genavro
+0	0	{src => lang/java/src}/test/genavro/input/simple.genavro
+0	0	{src => lang/java/src}/test/genavro/input/unicode.genavro
+0	0	{src => lang/java/src}/test/genavro/output/interop.avpr
+0	0	{src => lang/java/src}/test/genavro/output/mr_events.avpr
+0	0	{src => lang/java/src}/test/genavro/output/namespaces.avpr
+0	0	{src => lang/java/src}/test/genavro/output/reservedwords.avpr
+0	0	{src => lang/java/src}/test/genavro/output/simple.avpr
+0	0	{src => lang/java/src}/test/genavro/output/unicode.avpr
+0	0	{src => lang/java/src}/test/java/org/apache/avro/AvroTestUtil.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/BarRecord.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/FooRecord.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/GenerateBlockingData.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/RPCMetaTestPlugin.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/RandomData.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestBulkData.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestCompare.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestDataFile.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestDataFileReflect.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestNamespaceReflect.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestNamespaceSpecific.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestProtocolDatagram.java
+1	1	{src => lang/java/src}/test/java/org/apache/avro/TestProtocolGeneric.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestProtocolGenericMeta.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestProtocolHttp.java
+1	1	{src => lang/java/src}/test/java/org/apache/avro/TestProtocolParsing.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestProtocolReflect.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestProtocolReflectMeta.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestProtocolSpecific.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestProtocolSpecificMeta.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestReflect.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/TestSchema.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/genavro/TestGenAvro.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/generic/TestGenericData.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/io/TestBinaryDecoder.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/io/TestBlockingIO.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/io/TestBlockingIO2.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/io/TestResolvingIO.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/io/TestResolvingIOResolving.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/io/TestValidatingIO.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/ipc/TestLocalTransceiver.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/ipc/stats/FakeTicks.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/ipc/stats/StatsPluginOverhead.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/ipc/stats/TestHistogram.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/ipc/stats/TestStatsPluginAndServlet.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/ipc/stats/TestStopwatch.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/specific/TestSpecificCompiler.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/tool/TestDataFileTools.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/tool/TestJsonToFromBinaryFragmentTools.java
+0	0	{src => lang/java/src}/test/java/org/apache/avro/tool/TestRpcReceiveAndSendTools.java
+0	0	build.xml => lang/py/build.xml
+0	0	{lib/py => lang/py/lib}/simplejson/LICENSE.txt
+0	0	{lib/py => lang/py/lib}/simplejson/__init__.py
+0	0	{lib/py => lang/py/lib}/simplejson/_speedups.c
+0	0	{lib/py => lang/py/lib}/simplejson/decoder.py
+0	0	{lib/py => lang/py/lib}/simplejson/encoder.py
+0	0	{lib/py => lang/py/lib}/simplejson/scanner.py
+0	0	{lib/py => lang/py/lib}/simplejson/tool.py
+0	0	{src/py => lang/py/src}/avro/__init__.py
+0	0	{src/py => lang/py/src}/avro/datafile.py
+0	0	{src/py => lang/py/src}/avro/io.py
+0	0	{src/py => lang/py/src}/avro/ipc.py
+0	0	{src/py => lang/py/src}/avro/protocol.py
+0	0	{src/py => lang/py/src}/avro/schema.py
+0	0	{src/test/py => lang/py/test}/sample_ipc_client.py
+0	0	{src/test/py => lang/py/test}/sample_ipc_server.py
+0	0	{src/test/py => lang/py/test}/test_datafile.py
+0	0	{src/test/py => lang/py/test}/test_io.py
+0	0	{src/test/py => lang/py/test}/test_protocol.py
+0	0	{src/test/py => lang/py/test}/test_schema.py
+0	0	{src => share}/rat-excludes.txt
+1	1	src/schemata/org/apache/avro/ipc/HandshakeRequest.m4 => share/schemas/org/apache/avro/ipc/HandshakeRequest.avsc
+1	1	src/schemata/org/apache/avro/ipc/HandshakeResponse.m4 => share/schemas/org/apache/avro/ipc/HandshakeResponse.avsc
+0	0	{src/test/schemata => share/test/schemas}/BulkData.avpr
+0	0	{src/test/schemata => share/test/schemas}/interop.avsc
+0	0	{src/test/schemata => share/test/schemas}/namespace.avpr
+0	0	{src/test/schemata => share/test/schemas}/simple.avpr
+0	1	src/schemata/org/apache/avro/ipc/MD5.js
+
+commit 666ef349f0d5700803cc24ac38b1216e926d1519
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 12 00:50:29 2010 +0000
+
+    AVRO-288. Implement schema resolution for Python parameters.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898139 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+12	6	src/py/avro/io.py
+14	21	src/py/avro/ipc.py
+3	4	src/py/avro/protocol.py
+10	6	src/py/avro/schema.py
+2	1	src/test/py/sample_ipc_server.py
+
+commit 5979ad309e117fed1d59c3610255fe16852d8d60
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Mon Jan 11 19:13:17 2010 +0000
+
+    AVRO-298.  Fix Java's DatumReader and DatumWriter APIs to better use generics.  Contributed by philz.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@898014 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	7	src/java/org/apache/avro/ipc/Requestor.java
+4	5	src/java/org/apache/avro/ipc/Responder.java
+4	4	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+3	3	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+2	2	src/java/org/apache/avro/reflect/ReflectRequestor.java
+2	2	src/java/org/apache/avro/reflect/ReflectResponder.java
+2	2	src/java/org/apache/avro/specific/SpecificDatumReader.java
+2	2	src/java/org/apache/avro/specific/SpecificDatumWriter.java
+2	2	src/java/org/apache/avro/specific/SpecificRequestor.java
+2	2	src/java/org/apache/avro/specific/SpecificResponder.java
+9	9	src/test/java/org/apache/avro/TestCompare.java
+1	1	src/test/java/org/apache/avro/TestDataFile.java
+18	18	src/test/java/org/apache/avro/TestDataFileReflect.java
+12	8	src/test/java/org/apache/avro/TestReflect.java
+
+commit 3765440645e1dd8a585a11fb14476334ed54f1e8
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Sun Jan 10 17:30:48 2010 +0000
+
+    AVRO-294.  Clarify that bytes and fixed are unsigned and how their JSON default values are interpreted.  Contributed by Jeff Hammerbacher and cutting.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897665 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+10	6	src/doc/content/xdocs/spec.xml
+
+commit 7c85a78d59b838852273934706bd394df56c23ee
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Sun Jan 10 17:25:30 2010 +0000
+
+    AVRO-207.  Fix Python to detect duplicate enum symbols.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897663 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+3	1	src/py/avro/schema.py
+55	26	src/test/py/test_schema.py
+
+commit 5d6bcad33de3aec97c4de7a2ff143a728837b5c1
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Sun Jan 10 17:09:44 2010 +0000
+
+    AVRO-299.  Fix Python numeric promotion.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897660 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	1	src/py/avro/io.py
+18	0	src/test/py/test_io.py
+
+commit 8697acfffac7f9d677793ea65ad3d66143b6963d
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Sun Jan 10 14:38:18 2010 +0000
+
+    AVRO-281. Symlink in build.xml does not work well with Cygwin
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897642 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	build.xml
+
+commit 8fc362ad49300d2aa145c0e0e118851fbcc563b6
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Sat Jan 9 00:03:46 2010 +0000
+
+    AVRO-259. Add null schema check in GenericData.Record and GenericData.Array constructors.  Contributed by Kevin Oliver.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897352 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+3	2	src/java/org/apache/avro/generic/GenericData.java
+36	0	src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit 6a9539134694a73e1dd5bdded697461ac88b4744
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Jan 8 20:36:04 2010 +0000
+
+    AVRO-278. Change GenericRecord's API and implementation to be array-based rather than Map-based.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897319 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+31	26	src/java/org/apache/avro/generic/GenericData.java
+7	7	src/java/org/apache/avro/generic/GenericDatumReader.java
+1	1	src/java/org/apache/avro/generic/GenericDatumWriter.java
+10	4	src/java/org/apache/avro/generic/GenericRecord.java
+1	1	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+1	1	src/java/org/apache/avro/specific/SpecificDatumReader.java
+1	2	src/test/java/org/apache/avro/TestProtocolGeneric.java
+
+commit 853d0a7c72fbecb76748ea0ff7f4bf31f6529e6a
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Jan 8 20:16:21 2010 +0000
+
+    AVRO-75.  Clarify that missing values with no default value are errors, and fix Java implementation.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897316 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	3	src/doc/content/xdocs/spec.xml
+8	18	src/java/org/apache/avro/generic/GenericDatumReader.java
+0	5	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+0	4	src/java/org/apache/avro/specific/SpecificDatumReader.java
+38	0	src/test/java/org/apache/avro/TestSchema.java
+
+commit 7b13b5dda2f7014ed15d86887a963299232ca1d2
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Jan 8 19:49:51 2010 +0000
+
+    AVRO-152.  Add support for documentation strings to schemas, protocols and messages.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897311 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+15	1	src/doc/content/xdocs/spec.xml
+27	4	src/java/org/apache/avro/Protocol.java
+40	25	src/java/org/apache/avro/Schema.java
+5	5	src/java/org/apache/avro/genavro/genavro.jj
+2	2	src/java/org/apache/avro/generic/GenericData.java
+7	6	src/java/org/apache/avro/reflect/ReflectData.java
+21	1	src/java/org/apache/avro/specific/SpecificCompiler.java
+3	2	src/test/java/org/apache/avro/TestProtocolGeneric.java
+42	0	src/test/java/org/apache/avro/TestProtocolParsing.java
+35	0	src/test/java/org/apache/avro/TestSchema.java
+45	0	src/test/java/org/apache/avro/specific/TestSpecificCompiler.java
+4	0	src/test/schemata/simple.avpr
+
+commit d933c26e39b707dcfeeff28a089a085506cba5e2
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Jan 8 19:06:53 2010 +0000
+
+    AVRO-289.  Fix Python schema resolution.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897302 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+37	34	src/py/avro/io.py
+15	7	src/py/avro/schema.py
+207	193	src/test/py/test_io.py
+
+commit e5d6f00462a43a94edd3ad1e4266443c63ecf51c
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Jan 8 18:53:18 2010 +0000
+
+    AVRO-273, AVRO-275, & AVRO-279. Add Java RPC statistics collection and display.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@897299 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+54	0	src/java/org/apache/avro/ipc/stats/FloatHistogram.java
+205	0	src/java/org/apache/avro/ipc/stats/Histogram.java
+121	0	src/java/org/apache/avro/ipc/stats/StatsPlugin.java
+107	0	src/java/org/apache/avro/ipc/stats/StatsServlet.java
+74	0	src/java/org/apache/avro/ipc/stats/Stopwatch.java
+23	0	src/java/org/apache/avro/ipc/stats/package.html
+35	0	src/test/java/org/apache/avro/ipc/stats/FakeTicks.java
+103	0	src/test/java/org/apache/avro/ipc/stats/StatsPluginOverhead.java
+94	0	src/test/java/org/apache/avro/ipc/stats/TestHistogram.java
+180	0	src/test/java/org/apache/avro/ipc/stats/TestStatsPluginAndServlet.java
+80	0	src/test/java/org/apache/avro/ipc/stats/TestStopwatch.java
+
+commit 0def48146dd7e2590a41f9da2c025d4024865ccc
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Jan 7 19:51:49 2010 +0000
+
+    AVRO-292.  Fix Python skipping of ints and longs.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@896985 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+25	25	src/py/avro/io.py
+139	0	src/test/py/test_io.py
+
+commit fee963d618d493bf630fc0afdfbc1eb8d74b5362
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Jan 7 19:21:17 2010 +0000
+
+    AVRO-280.  Fix file header schema in specfication.  Also fix forrestdoc build target to work on clean checkout.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@896972 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	build.xml
+3	3	src/doc/content/xdocs/spec.xml
+
+commit 8911c848b1625d911a99ab846c4000985c74758c
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Jan 6 23:26:30 2010 +0000
+
+    AVRO-291.  Set NODELAY in Java's SocketTransceiver.  Contributed by Eric Evans.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@896714 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	src/java/org/apache/avro/ipc/SocketServer.java
+2	1	src/java/org/apache/avro/ipc/SocketTransceiver.java
+
+commit b0e42bf54f6575ffadd2766582cf01633d6061d7
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 5 18:55:19 2010 +0000
+
+    Add a Java local RPC transceiver.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@896178 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+52	0	src/java/org/apache/avro/ipc/LocalTransceiver.java
+64	0	src/test/java/org/apache/avro/ipc/TestLocalTransceiver.java
+
+commit 2faea630242fa636cbb123597f47d2216e159136
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Jan 5 18:48:04 2010 +0000
+
+    Rework Python RPC.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@896176 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	src/py/avro/__init__.py
+461	0	src/py/avro/ipc.py
+219	0	src/py/avro/protocol.py
+95	0	src/test/py/sample_ipc_client.py
+73	0	src/test/py/sample_ipc_server.py
+257	0	src/test/py/test_protocol.py
+
+commit 3b522378847be1e45c11024f153dbac7f83c9c67
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Mon Jan 4 18:09:42 2010 +0000
+
+    Rework Python API.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@895732 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	46	build.xml
+0	31	lib/py/odict-LICENSE.txt
+0	1399	lib/py/odict.py
+2	2	src/py/avro/__init__.py
+238	142	src/py/avro/datafile.py
+0	436	src/py/avro/genericio.py
+0	57	src/py/avro/genericipc.py
+781	147	src/py/avro/io.py
+0	403	src/py/avro/ipc.py
+0	194	src/py/avro/protocol.py
+0	134	src/py/avro/reflectio.py
+0	107	src/py/avro/reflectipc.py
+511	457	src/py/avro/schema.py
+0	1	src/rat-excludes.txt
+0	107	src/test/py/interoptests.py
+144	0	src/test/py/test_datafile.py
+154	0	src/test/py/test_io.py
+338	0	src/test/py/test_schema.py
+0	31	src/test/py/testimport.py
+0	283	src/test/py/testio.py
+0	53	src/test/py/testioreflect.py
+0	110	src/test/py/testipc.py
+0	81	src/test/py/testipcreflect.py
+
+commit e5631c1b774681f92de43f9f7d6ec64ae15d5c9b
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Dec 31 21:52:35 2009 +0000
+
+    AVRO-267.  Add two new avroj commands: rpcsend and rpcreceive.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894946 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	1	build.xml
+18	0	src/java/org/apache/avro/io/JsonDecoder.java
+3	1	src/java/org/apache/avro/tool/Main.java
+140	0	src/java/org/apache/avro/tool/RpcReceiveTool.java
+98	0	src/java/org/apache/avro/tool/RpcSendTool.java
+18	0	src/java/org/apache/avro/tool/Util.java
+58	0	src/test/java/org/apache/avro/tool/TestRpcReceiveAndSendTools.java
+
+commit 939eb8a8a6f5fb7239432eb0bc42730153d46c92
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Dec 31 21:29:44 2009 +0000
+
+    AVRO-276.  Gix GenAvro to specify file encoding as UTF-8.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894941 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	.eclipse_launchers/AllTests.launch
+3	0	CHANGES.txt
+4	2	src/test/java/org/apache/avro/genavro/TestGenAvro.java
+
+commit 09077d848518150782f9a44c08d25699fbd680a1
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Dec 31 21:18:43 2009 +0000
+
+    AVRO-258.  Don't make Schema.Names public.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894940 13f79535-47bb-0310-9956-ffa450edef68
+
+1	1	src/java/org/apache/avro/Schema.java
+19	15	src/java/org/apache/avro/genavro/genavro.jj
+
+commit 162726205705d4130e4090e4c4aa24d9e7ef34a6
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Dec 31 20:23:22 2009 +0000
+
+    AVRO-258.  Add GenAvro language tool.  Contributed by Todd Lipcon.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894933 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+38	13	build.xml
+2	0	ivy.xml
+362	0	src/doc/content/xdocs/genavro.xml
+3	2	src/doc/content/xdocs/site.xml
+1	1	src/java/org/apache/avro/Schema.java
+1370	0	src/java/org/apache/avro/genavro/genavro.jj
+78	0	src/java/org/apache/avro/tool/GenAvroTool.java
+1	0	src/java/org/apache/avro/tool/Main.java
+50	0	src/test/genavro/input/interop.genavro
+72	0	src/test/genavro/input/mr_events.genavro
+42	0	src/test/genavro/input/namespaces.genavro
+22	0	src/test/genavro/input/reservedwords.genavro
+53	0	src/test/genavro/input/simple.genavro
+29	0	src/test/genavro/input/unicode.genavro
+87	0	src/test/genavro/output/interop.avpr
+118	0	src/test/genavro/output/mr_events.avpr
+50	0	src/test/genavro/output/namespaces.avpr
+15	0	src/test/genavro/output/reservedwords.avpr
+78	0	src/test/genavro/output/simple.avpr
+17	0	src/test/genavro/output/unicode.avpr
+155	0	src/test/java/org/apache/avro/genavro/TestGenAvro.java
+
+commit d0b76375fb71ea127d0d0f2ef38b9712efce36da
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Dec 31 19:23:02 2009 +0000
+
+    AVRO-269.  Use java compielr to validate specific compiler's output.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894929 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	0	build.xml
+10	12	src/java/org/apache/avro/specific/SpecificCompiler.java
+2	3	src/test/java/org/apache/avro/TestSchema.java
+73	19	src/test/java/org/apache/avro/specific/TestSpecificCompiler.java
+
+commit 2310971c1ca6e632a938266f68921b0221a80d61
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Dec 31 18:41:15 2009 +0000
+
+    AVRO-272.  Extend RPCContext to include message.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894922 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+8	0	src/java/org/apache/avro/ipc/RPCContext.java
+1	0	src/java/org/apache/avro/ipc/Requestor.java
+2	0	src/java/org/apache/avro/ipc/Responder.java
+3	0	src/test/java/org/apache/avro/RPCMetaTestPlugin.java
+
+commit 1d125b4a4fdabf0bf55f27d092226a53d70427ac
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Dec 31 17:01:58 2009 +0000
+
+    Revised data file format and Java API.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894889 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+23	36	src/doc/content/xdocs/spec.xml
+1	2	src/java/org/apache/avro/file/DataFileConstants.java
+45	135	src/java/org/apache/avro/file/DataFileReader.java
+177	0	src/java/org/apache/avro/file/DataFileStream.java
+84	89	src/java/org/apache/avro/file/DataFileWriter.java
+1	2	src/java/org/apache/avro/tool/DataFileReadTool.java
+2	2	src/java/org/apache/avro/tool/DataFileWriteTool.java
+2	4	src/test/java/org/apache/avro/RandomData.java
+40	16	src/test/java/org/apache/avro/TestDataFile.java
+21	71	src/test/java/org/apache/avro/TestDataFileReflect.java
+5	6	src/test/java/org/apache/avro/tool/TestDataFileTools.java
+
+commit 4471c7079a4e7cc62ff6d67cfe22b078a6bbe4af
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Dec 30 23:43:28 2009 +0000
+
+    Add four new avroj commands for converting data between JSON and binary encodings.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894740 13f79535-47bb-0310-9956-ffa450edef68
+
+6	0	CHANGES.txt
+30	23	src/java/org/apache/avro/io/JsonDecoder.java
+84	0	src/java/org/apache/avro/tool/BinaryFragmentToJsonTool.java
+54	0	src/java/org/apache/avro/tool/DataFileGetSchemaTool.java
+79	0	src/java/org/apache/avro/tool/DataFileReadTool.java
+82	0	src/java/org/apache/avro/tool/DataFileWriteTool.java
+77	0	src/java/org/apache/avro/tool/JsonToBinaryFragmentTool.java
+6	1	src/java/org/apache/avro/tool/Main.java
+39	0	src/java/org/apache/avro/tool/Util.java
+19	0	src/test/bin/test_avroj.sh
+32	0	src/test/java/org/apache/avro/AvroTestUtil.java
+181	0	src/test/java/org/apache/avro/tool/TestDataFileTools.java
+66	0	src/test/java/org/apache/avro/tool/TestJsonToFromBinaryFragmentTools.java
+
+commit 1acc9913afd9bee7ad319ffd789a6e47a2e7baa8
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 29 23:10:37 2009 +0000
+
+    Fix two typos in the spec.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894506 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	src/doc/content/xdocs/spec.xml
+
+commit e2b5b07fea44c4400386da565e880900fadfa7ea
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 29 22:41:32 2009 +0000
+
+    AVRO-260.  Upgrade to Jackson 1.4.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894503 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	ivy.xml
+
+commit c5df78537022403f7725b273c1d9371e345cf905
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 29 22:32:04 2009 +0000
+
+    AVRO-263.  Change avroj command line tools to return exit codes.  Contributed by Todd Lipcon.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@894499 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+3	2	src/java/org/apache/avro/reflect/InduceSchemaTool.java
+4	3	src/java/org/apache/avro/specific/SpecificCompiler.java
+6	4	src/java/org/apache/avro/tool/Main.java
+2	1	src/java/org/apache/avro/tool/Tool.java
+2	0	src/test/bin/test_avroj.sh
+
+commit 39c4b9c04f2232e71cca1e2f29dbc4e3319c9edf
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 15 23:05:45 2009 +0000
+
+    AVRO-257.  Remove some dead Java code and un-needed casts.  Contributed by Kevin Oliver.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@891063 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+7	7	src/java/org/apache/avro/reflect/ReflectData.java
+3	1	src/java/org/apache/avro/specific/SpecificRecordBase.java
+
+commit 3fde11fc9af39832b871b098f18a90b15c079e82
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 15 22:34:48 2009 +0000
+
+    AVRO-253.  Improve documentation of schema names in specification.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@891047 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+40	4	src/doc/content/xdocs/spec.xml
+
+commit a87b0c1be09e0449a2c941ea542ce0f22639fdb1
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 15 21:29:39 2009 +0000
+
+    AVRO-255.  Fix java implementation so that, when parsing schemas, unspecified namespaces are defaulted to nearest enclosing namespace.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@891000 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+25	19	src/java/org/apache/avro/Schema.java
+15	0	src/test/java/org/apache/avro/TestSchema.java
+
+commit cfd4b63a8bb9244e3c1cdd48fffe2dd429f8e48d
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 15 21:23:37 2009 +0000
+
+    AVRO-256. Use fully-qualified class names in generated Java code to eliminate name conflicts.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@890997 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+30	49	src/java/org/apache/avro/specific/SpecificCompiler.java
+4	4	src/test/java/org/apache/avro/specific/TestSpecificCompiler.java
+
+commit 4e4ef4f8834a17e879113bf9f6fc465859d2f548
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Dec 10 22:07:10 2009 +0000
+
+    AVRO-250.  Make reflect's Union annotation applicable to message paramters and return types.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@889442 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+21	6	src/java/org/apache/avro/reflect/ReflectData.java
+8	1	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+6	4	src/java/org/apache/avro/reflect/Union.java
+8	1	src/java/org/apache/avro/specific/SpecificData.java
+27	2	src/test/java/org/apache/avro/TestReflect.java
+
+commit 2bf92732789f7cb1ec25be368fe76f6ad8007848
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Wed Dec 9 07:43:01 2009 +0000
+
+    AVRO-246 Java schema parser should take schema from InputStream in addition to file
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@888720 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+26	0	src/java/org/apache/avro/Schema.java
+7	0	src/test/java/org/apache/avro/TestSchema.java
+
+commit 47646602d304105ec8edac22be3ac8dd9b0bbe38
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 8 19:39:12 2009 +0000
+
+    AVRO-247.  In Java reflection, add Stringable annotation to indicate classes that can be represented by an Avro string schema.  Also fix failing interop test.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@888540 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+8	1	src/java/org/apache/avro/generic/GenericDatumReader.java
+7	1	src/java/org/apache/avro/generic/GenericDatumWriter.java
+4	0	src/java/org/apache/avro/reflect/ReflectData.java
+22	0	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+8	0	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+34	0	src/java/org/apache/avro/reflect/Stringable.java
+9	5	src/test/java/org/apache/avro/TestDataFile.java
+19	0	src/test/java/org/apache/avro/TestReflect.java
+
+commit 3abbd30b6ea58ef7916699d5715ebc343e49cf8e
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Sat Dec 5 00:05:25 2009 +0000
+
+    AVRO-249. In reflection, implement Java short as an Avro int whose java-class property is set to java.lang.Short.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@887459 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+9	1	src/java/org/apache/avro/generic/GenericDatumReader.java
+7	0	src/java/org/apache/avro/reflect/ReflectData.java
+10	6	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+8	6	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+1	2	src/java/org/apache/avro/specific/SpecificData.java
+5	1	src/test/java/org/apache/avro/TestReflect.java
+
+commit 8fca9cd353d16aa7396fb91c4b9a7cb4660d23fd
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Dec 4 23:13:09 2009 +0000
+
+    AVRO-241.  In Java, add a union annotation for reflection.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@887439 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	2	src/java/org/apache/avro/generic/package.html
+37	28	src/java/org/apache/avro/reflect/ReflectData.java
+5	2	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+37	0	src/java/org/apache/avro/reflect/Union.java
+48	1	src/java/org/apache/avro/reflect/package.html
+18	1	src/java/org/apache/avro/specific/package.html
+0	169	src/java/org/apache/avro/util/WeakIdentityHashMap.java
+51	2	src/test/java/org/apache/avro/TestReflect.java
+
+commit 7c655949f7bd1bc0896181545204665ff0a8ed87
+Author: Thiruvalluvan M. G <thiru@apache.org>
+Date:   Fri Dec 4 14:35:24 2009 +0000
+
+    AVRO-184. Better eclipse configuration support
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@887210 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+40	22	build.xml
+13	8	ivy.xml
+26	0	ivysettings-ant-eclipse.xml
+
+commit a976791d656760a9d724276d31bed869f6396fde
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Dec 3 21:32:37 2009 +0000
+
+    AVRO-242.  In Java, add support for extensible, string-valued properties.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@886927 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+111	55	src/java/org/apache/avro/Schema.java
+22	2	src/test/java/org/apache/avro/TestSchema.java
+
+commit e0839ab5642e57853443d7388565c5acd6311ee3
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 1 23:51:03 2009 +0000
+
+    AVRO-238.  Fix so that slf4j-simple is only required by tests.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@886011 13f79535-47bb-0310-9956-ffa450edef68
+
+1	0	CHANGES.txt
+3	2	ivy.xml
+
+commit 21b3430f67fd55dbdd508e9593e522705247680f
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Dec 1 21:41:49 2009 +0000
+
+    AVRO-240. In Python, try to use json module if simplejson is not available.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@885948 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+11	5	src/py/avro/protocol.py
+8	2	src/py/avro/schema.py
+
+commit c7fe3355d2c8d966179aa8ff3189f354bc252ceb
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Nov 25 20:22:09 2009 +0000
+
+    AVRO-237.  More improvements to Java reflection.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@884249 13f79535-47bb-0310-9956-ffa450edef68
+
+5	0	CHANGES.txt
+3	0	src/java/org/apache/avro/AvroRuntimeException.java
+3	0	src/java/org/apache/avro/AvroTypeException.java
+2	1	src/java/org/apache/avro/ipc/Responder.java
+92	46	src/java/org/apache/avro/reflect/ReflectData.java
+14	10	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+9	6	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+2	1	src/java/org/apache/avro/specific/SpecificData.java
+22	4	src/test/java/org/apache/avro/TestReflect.java
+
+commit 913074da585f2737160b962aca0b905bb283012a
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Wed Nov 25 05:08:20 2009 +0000
+
+    AVRO-234. C++ code cleanup.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@883978 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+9	10	src/c++/MainPage.dox
+2	3	src/c++/README.txt
+20	1	src/c++/api/AvroParse.hh
+3	0	src/c++/api/Boost.hh
+26	36	src/c++/api/{Instruction.hh => Layout.hh}
+55	0	src/c++/api/Resolver.hh
+56	0	src/c++/api/ResolverSchema.hh
+56	0	src/c++/api/ResolvingReader.hh
+2	2	src/c++/impl/NodeImpl.cc
+201	202	src/c++/impl/{Instruction.cc => Resolver.cc}
+39	0	src/c++/impl/ResolverSchema.cc
+40	40	src/c++/scripts/gen-cppcode.py
+9	7	src/c++/test/testgen.cc
+
+commit ba55ccc8e773ecbb0e71b13997c628b82f40eeac
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Nov 24 21:25:15 2009 +0000
+
+    AVRO-236.  Add protocol support to avroj induce tool.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@883884 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+9	1	src/java/org/apache/avro/Protocol.java
+8	1	src/java/org/apache/avro/Schema.java
+8	4	src/java/org/apache/avro/reflect/InduceSchemaTool.java
+1	2	src/java/org/apache/avro/tool/Tool.java
+7	3	src/test/bin/test_avroj.sh
+
+commit f1b61e8f9d5ae1c5e0f155ff1ebeb40e4e2295eb
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Nov 24 19:13:30 2009 +0000
+
+    AVRO-233.  Elaborate Java tool API.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@883819 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+14	1	src/java/org/apache/avro/reflect/InduceSchemaTool.java
+14	1	src/java/org/apache/avro/specific/SpecificCompiler.java
+17	6	src/java/org/apache/avro/tool/Main.java
+20	3	src/java/org/apache/avro/tool/Tool.java
+3	3	src/test/bin/test_avroj.sh
+
+commit 6dcb9a03a1d161425cf722d9b5dea06ffe56e675
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Nov 24 19:07:01 2009 +0000
+
+    Add Apache RAT to tests, to validate licenses.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@883817 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+19	1	build.xml
+2	0	ivy.xml
+17	0	src/c++/MainPage.dox
+19	0	src/c/io/file_container.c
+25	0	src/rat-excludes.txt
+
+commit 91856e0e927a07b4e6940cdb48d99261b1dbaa18
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Sat Nov 21 02:11:02 2009 +0000
+
+    AVRO-232. Fix C++ build in cygwin.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882824 13f79535-47bb-0310-9956-ffa450edef68
+
+4	1	CHANGES.txt
+1	1	src/c++/Makefile.in
+
+commit 6bf016960332ba751f3e1124e11b5993fc75e070
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Sat Nov 21 01:44:29 2009 +0000
+
+    AVRO-220. Dynamic schema resolution from writer to reader.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882821 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+10	6	src/c++/Makefile.in
+12	3	src/c++/api/AvroTraits.hh
+9	0	src/c++/api/Boost.hh
+94	0	src/c++/api/Instruction.hh
+9	7	src/c++/api/Reader.hh
+3	1	src/c++/api/Types.hh
+9	8	src/c++/api/ValidatingReader.hh
+868	0	src/c++/impl/Instruction.cc
+100	0	src/c++/jsonschemas/bigrecord2
+143	11	src/c++/scripts/gen-cppcode.py
+454	149	src/c++/test/testgen.cc
+7	8	src/c++/test/unittest.cc
+
+commit 6b3399f6ea202f570ad92deb26652a5480da2717
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Sat Nov 21 01:31:14 2009 +0000
+
+    AVRO-231. Tutorial added to C++ docs. (part 2, forgot to add new file in first commit)
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882820 13f79535-47bb-0310-9956-ffa450edef68
+
+363	0	src/c++/MainPage.dox
+
+commit 6d882a3832cd9ecf2d15568dd74ff30c9c2cfe83
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Sat Nov 21 01:30:35 2009 +0000
+
+    AVRO-231. Tutorial added to C++ docs.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882819 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	src/c++/Doxyfile
+3	1	src/c++/Makefile.in
+20	0	src/c++/test/unittest.cc
+
+commit 56d154f53715a3234a7cafd5fca4bbeb15999f6c
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 23:11:44 2009 +0000
+
+    AVRO-227.  Fix a typo in the spec document.  Contributed by Todd Lipcon.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882764 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	src/doc/content/xdocs/spec.xml
+
+commit 234893c3d0ff9c18fd2b90e5c7ea0b0a9a0b2762
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 22:58:18 2009 +0000
+
+    AVRO-80.  Java reflect API no longer uses Avro-specific classes for string and array.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882753 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+2	2	src/java/org/apache/avro/generic/GenericData.java
+8	3	src/java/org/apache/avro/generic/GenericDatumReader.java
+1	1	src/java/org/apache/avro/generic/GenericDatumWriter.java
+160	40	src/java/org/apache/avro/reflect/ReflectData.java
+55	0	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+42	0	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+2	2	src/java/org/apache/avro/reflect/ReflectResponder.java
+7	12	src/java/org/apache/avro/specific/SpecificData.java
+2	1	src/java/org/apache/avro/specific/SpecificDatumReader.java
+8	1	src/java/org/apache/avro/specific/SpecificResponder.java
+169	0	src/java/org/apache/avro/util/WeakIdentityHashMap.java
+2	4	src/test/java/org/apache/avro/BarRecord.java
+74	2	src/test/java/org/apache/avro/TestProtocolReflect.java
+147	19	src/test/java/org/apache/avro/TestReflect.java
+
+commit c854cd83e69bc220cd472e4006086c043efb4cc8
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 22:14:44 2009 +0000
+
+    AVRO-229. Change Java to implement Flushable and Closeable interfaces where appropriate.  Contributed by tomwhite.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882736 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+3	1	src/java/org/apache/avro/file/DataFileWriter.java
+2	6	src/java/org/apache/avro/io/Encoder.java
+2	1	src/java/org/apache/avro/ipc/Transceiver.java
+
+commit e0c709a3b29bdd335a9b604fb94580003f54c6af
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 20:54:42 2009 +0000
+
+    AVRO-225.  In generated Java, use dollar-sign, not underscore, to prevent name conflicts.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882707 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+10	11	src/java/org/apache/avro/specific/SpecificCompiler.java
+2	2	src/java/org/apache/avro/specific/SpecificData.java
+
+commit fd1d9077277695e8f5668c062289f9d17bb9981a
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 19:22:34 2009 +0000
+
+    AVRO-221.  Mangle Java reserved words in generated code to avoid name conflicts.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882689 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+37	10	src/java/org/apache/avro/specific/SpecificCompiler.java
+70	0	src/test/java/org/apache/avro/specific/TestSpecificCompiler.java
+
+commit d0d4e91341d00075cc46eb3ced62761644ce2c6e
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Fri Nov 20 04:57:17 2009 +0000
+
+    AVRO-224. Code cleanup: cleaner distinction between public and private methods
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882414 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	2	src/c/Makefile.am
+7	82	src/c/avro.c
+2	0	src/c/avro.h
+82	6	src/c/{avro_value.c => avro_private.c}
+0	0	src/c/{avro_primitives.c => datatypes/primitives.c}
+
+commit 43bcac65cdd6cd43f73714eb3d72a51c406d8feb
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 04:39:28 2009 +0000
+
+    AVRO-154. Add 'induce' sub-command to avroj command line tool.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882410 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+1	1	build.xml
+59	0	src/java/org/apache/avro/reflect/InduceSchemaTool.java
+2	0	src/java/org/apache/avro/tool/Main.java
+4	1	src/test/bin/test_avroj.sh
+
+commit 148436898364857155f03278e3eff328403f7226
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 04:26:52 2009 +0000
+
+    AVRO-223.  Fix test-avroj on Mac OS X.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882408 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+11	4	src/test/bin/test_avroj.sh
+
+commit e2d1051e95de6628da5758bb91f2511e588d3eb1
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 03:04:07 2009 +0000
+
+    AVRO-222.  Fix Python interop tests broken by AVRO-201.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882393 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	1	src/test/py/interoptests.py
+
+commit 19684abe028c3362ca80884fd737a1ff6a44aad3
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 02:56:37 2009 +0000
+
+    AVRO-202. Add __all__ listing to Python module to ease import.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882392 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	1	src/py/avro/__init__.py
+31	0	src/test/py/testimport.py
+
+commit 1aa6a71c292d95f4f591713e4f8e51cf49822d8e
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 20 02:49:42 2009 +0000
+
+    AVRO-216.  Formatting cleanups to schema.py.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882390 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+58	54	src/py/avro/schema.py
+
+commit d9600ed0b2e237cc7fd0cb89319c724d3251ff00
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Nov 19 19:09:20 2009 +0000
+
+    AVRO-199.  Make Python test schemas more readable.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882253 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+93	53	src/test/py/testio.py
+
+commit dd75906e473d7df696bb73ebfea4207992444629
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Thu Nov 19 19:07:39 2009 +0000
+
+    AVRO-210. Memory leak with recursive schemas when constructed by hand.
+    AVRO-211. Nested schema does not get parsed in C++.
+    (same patch fixed both problems due to related code overlap)
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882251 13f79535-47bb-0310-9956-ffa450edef68
+
+5	0	CHANGES.txt
+0	2	src/c++/api/Compiler.hh
+1	8	src/c++/api/CompilerNode.hh
+59	11	src/c++/api/NodeImpl.hh
+2	17	src/c++/impl/Compiler.cc
+2	2	src/c++/impl/CompilerNode.cc
+6	1	src/c++/impl/ValidSchema.cc
+4	3	src/c++/impl/Validator.cc
+21	0	src/c++/test/testgen.cc
+
+commit c4e01e1353f25e5acc40cacba02b753430b84a31
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Nov 19 00:49:26 2009 +0000
+
+    AVRO-203.  Reformat license in Python sources.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882018 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+15	15	src/py/avro/__init__.py
+15	15	src/py/avro/genericio.py
+15	15	src/py/avro/genericipc.py
+15	15	src/py/avro/io.py
+15	15	src/py/avro/ipc.py
+15	15	src/py/avro/protocol.py
+15	15	src/py/avro/reflectio.py
+15	15	src/py/avro/reflectipc.py
+15	15	src/py/avro/schema.py
+15	15	src/test/py/interoptests.py
+15	15	src/test/py/testio.py
+15	15	src/test/py/testioreflect.py
+15	15	src/test/py/testipc.py
+15	15	src/test/py/testipcreflect.py
+
+commit 60ad460b6fd8d8cdd2ba3cf6b533bc0a94d7a521
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Nov 19 00:45:26 2009 +0000
+
+    AVRO-201.  Move Python data file code into its own module.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@882015 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+190	0	src/py/avro/datafile.py
+1	169	src/py/avro/io.py
+4	3	src/test/py/testio.py
+
+commit 9c9b79b536b55d252da46863e067705f52572ac5
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Tue Nov 17 22:34:15 2009 +0000
+
+    AVRO-205. APIs for checking schema resolution.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@881579 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	src/c++/api/Exception.hh
+3	2	src/c++/api/Node.hh
+18	0	src/c++/api/NodeImpl.hh
+1	0	src/c++/api/Reader.hh
+53	0	src/c++/api/SchemaResolution.hh
+2	1	src/c++/api/SymbolMap.hh
+166	1	src/c++/impl/NodeImpl.cc
+6	0	src/c++/impl/Types.cc
+120	0	src/c++/test/unittest.cc
+
+commit 2bf0a95abdec4a7b49f2ec75200c7354b6df9564
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Tue Nov 17 01:11:51 2009 +0000
+
+     AVRO-204. Change the way symbolic references are tracked.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@881076 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	2	src/c++/api/Compiler.hh
+9	2	src/c++/api/CompilerNode.hh
+1	1	src/c++/api/Node.hh
+12	8	src/c++/api/NodeImpl.hh
+3	0	src/c++/api/SymbolMap.hh
+11	3	src/c++/api/Types.hh
+2	7	src/c++/api/ValidSchema.hh
+1	1	src/c++/api/Validator.hh
+17	2	src/c++/impl/Compiler.cc
+1	1	src/c++/impl/CompilerNode.cc
+7	4	src/c++/impl/Types.cc
+18	7	src/c++/impl/ValidSchema.cc
+4	6	src/c++/impl/Validator.cc
+3	4	src/c++/scripts/gen-cppcode.py
+3	3	src/c++/test/unittest.cc
+
+commit 57d8f4535d9321d47dccd2148c4d0df40d011612
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Mon Nov 16 18:20:58 2009 +0000
+
+    AVRO-197.  Add mapping of name to index for records and enums
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@880888 13f79535-47bb-0310-9956-ffa450edef68
+
+10	8	CHANGES.txt
+1	0	src/c++/api/Node.hh
+44	0	src/c++/api/NodeConcepts.hh
+8	0	src/c++/api/NodeImpl.hh
+4	1	src/c++/impl/Schema.cc
+57	1	src/c++/test/unittest.cc
+
+commit ff753de85e2216415f8fda01c814af11da13c90f
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Sat Nov 14 07:09:01 2009 +0000
+
+    AVRO-195. Complex type support for write streams
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@836133 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	0	src/c/Makefile.am
+5	5	src/c/avro.h
+9	3	src/c/avro_private.h
+46	128	src/c/avro_value.c
+48	10	src/c/datatypes/array.c
+1	1	src/c/datatypes/boolean.c
+25	5	src/c/datatypes/bytes.c
+111	0	src/c/datatypes/decorator.c
+1	1	src/c/datatypes/double.c
+18	4	src/c/datatypes/enum.c
+16	4	src/c/datatypes/fixed.c
+1	1	src/c/datatypes/float.c
+1	1	src/c/datatypes/int.c
+1	1	src/c/datatypes/long.c
+56	8	src/c/datatypes/map.c
+1	1	src/c/datatypes/null.c
+4	4	src/c/datatypes/record.c
+1	1	src/c/datatypes/string.c
+39	8	src/c/datatypes/union.c
+3	3	src/c/version.sh
+
+commit 43884c872df6d638d67a4584391bd79802dbbaa2
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 13 00:35:10 2009 +0000
+
+    AVRO-193.  Move change notice to correct section.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@835671 13f79535-47bb-0310-9956-ffa450edef68
+
+2	2	CHANGES.txt
+
+commit 8fa1312a50ec65a250de8df72794c061654cd9c9
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Fri Nov 13 00:34:15 2009 +0000
+
+    AVRO-171.  Fix Java's Protocol#toString() to correctly handle forward-references.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@835670 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	0	build.xml
+3	1	src/java/org/apache/avro/Protocol.java
+3	10	src/java/org/apache/avro/Schema.java
+19	0	src/test/java/org/apache/avro/TestReflect.java
+
+commit 21bb13cd6122a926b670945bb11cde8bc0d973a3
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Nov 12 23:30:59 2009 +0000
+
+    AVRO-193.  Fix 'ant test-avroj' on Ubuntu 9.10.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@835640 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+4	1	build.xml
+11	12	src/test/bin/test_avroj.sh
+
+commit 7ae507b40fd3493e02438165f1d0c982e6e79914
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Thu Nov 12 19:19:02 2009 +0000
+
+    AVRO-194. C++ varint encoding buffer too small.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@835508 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	1	src/c++/api/Reader.hh
+1	1	src/c++/api/Writer.hh
+1	1	src/c++/api/Zigzag.hh
+1	1	src/c++/impl/Zigzag.cc
+9	0	src/c++/test/unittest.cc
+
+commit f353002184959c18354700b5b5f14e9c4a5269be
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Thu Nov 12 18:16:44 2009 +0000
+
+    AVRO-190. Use fixed size C++ types for Avro fixed types.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@835480 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+6	4	src/c++/api/Parser.hh
+8	12	src/c++/api/Reader.hh
+8	2	src/c++/api/Serializer.hh
+2	6	src/c++/api/ValidSchema.hh
+8	7	src/c++/api/ValidatingReader.hh
+13	3	src/c++/api/ValidatingWriter.hh
+8	2	src/c++/api/Writer.hh
+7	7	src/c++/impl/ValidSchema.cc
+43	5	src/c++/scripts/gen-cppcode.py
+3	3	src/c++/test/unittest.cc
+
+commit 2185314c78c943fa3e5369e747c6807bc3b9d960
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Thu Nov 12 02:17:08 2009 +0000
+
+    AVRO-191. Explicitly include stdint.h for C++. (Contributed by cutting).
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@835194 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+1	0	src/c++/api/InputStreamer.hh
+1	0	src/c++/api/OutputStreamer.hh
+1	0	src/c++/api/Validator.hh
+
+commit 6b33f0278abc9a1d81f925d39673d9fccefc5370
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Nov 11 23:53:00 2009 +0000
+
+    AVRO-185. Java's specific API no longer depends on reflection.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@835165 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+7	6	build.xml
+3	0	src/java/org/apache/avro/generic/GenericRequestor.java
+3	3	src/java/org/apache/avro/generic/GenericResponder.java
+49	187	src/java/org/apache/avro/reflect/ReflectData.java
+6	44	src/java/org/apache/avro/reflect/ReflectDatumReader.java
+5	16	src/java/org/apache/avro/reflect/ReflectDatumWriter.java
+6	42	src/java/org/apache/avro/reflect/ReflectRequestor.java
+9	61	src/java/org/apache/avro/reflect/ReflectResponder.java
+1	1	src/java/org/apache/avro/{reflect => specific}/FixedSize.java
+3	3	src/java/org/apache/avro/specific/SpecificCompiler.java
+162	23	src/java/org/apache/avro/specific/SpecificData.java
+48	2	src/java/org/apache/avro/specific/SpecificDatumReader.java
+20	2	src/java/org/apache/avro/specific/SpecificDatumWriter.java
+0	1	src/java/org/apache/avro/specific/SpecificFixed.java
+37	11	src/java/org/apache/avro/specific/SpecificRequestor.java
+64	3	src/java/org/apache/avro/specific/SpecificResponder.java
+1	1	src/test/java/org/apache/avro/TestDataFileReflect.java
+
+commit 8ab3b6db708dfd187159fb2785bad2cacfc3a2b6
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Nov 11 22:04:05 2009 +0000
+
+    AVRO-192.  Improved errors for Java schema parsing problems.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@835094 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+8	2	src/java/org/apache/avro/Schema.java
+21	0	src/test/java/org/apache/avro/TestSchema.java
+
+commit 76c6762906b4802dd9e41b647a7a5146a08e180b
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Nov 11 21:11:50 2009 +0000
+
+    AVRO-182.  Fix Java's generic and specfic implementations of equals() and hashCode() to be consistent with compareTo().
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@835070 13f79535-47bb-0310-9956-ffa450edef68
+
+4	0	CHANGES.txt
+21	13	src/java/org/apache/avro/Schema.java
+58	17	src/java/org/apache/avro/generic/GenericData.java
+4	11	src/java/org/apache/avro/reflect/ReflectData.java
+19	0	src/java/org/apache/avro/specific/SpecificData.java
+6	3	src/java/org/apache/avro/specific/SpecificExceptionBase.java
+6	31	src/java/org/apache/avro/specific/SpecificRecordBase.java
+21	1	src/test/java/org/apache/avro/TestCompare.java
+
+commit 39e6d507642777ab6ac2db0903775fbf094257a9
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Nov 10 23:31:34 2009 +0000
+
+    AVRO-189. test-c target fails
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@834708 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+16	1	build.xml
+2	2	src/c/Makefile.am
+
+commit 8d27b88ec0c3ff374952f56519896f0c932f2967
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Nov 10 22:05:48 2009 +0000
+
+    AVRO-188. Need to update svn ignores
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@834695 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+
+commit a45e938a1c59fb4f1fdc66252bdafac6aa9f2069
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Nov 10 20:00:58 2009 +0000
+
+    AVRO-188. Need to update svn ignores
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@834636 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 8d1df9769947050afa23ae3b6371ac4a74dd4928
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Nov 10 08:39:49 2009 +0000
+
+    AVRO-187. Move top-level source files into separate directories for easier maintenance
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@834386 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+19	16	src/c/Makefile.am
+2	3	src/c/avro_private.h
+1	0	src/c/configure.in
+0	0	src/c/{avro_array.c => datatypes/array.c}
+0	0	src/c/{avro_boolean.c => datatypes/boolean.c}
+1	1	src/c/{avro_bytes.c => datatypes/bytes.c}
+0	0	src/c/{avro_double.c => datatypes/double.c}
+0	0	src/c/{avro_enum.c => datatypes/enum.c}
+1	1	src/c/{avro_fixed.c => datatypes/fixed.c}
+0	0	src/c/{avro_float.c => datatypes/float.c}
+0	0	src/c/{avro_int.c => datatypes/int.c}
+0	0	src/c/{avro_long.c => datatypes/long.c}
+0	0	src/c/{avro_map.c => datatypes/map.c}
+0	0	src/c/{avro_null.c => datatypes/null.c}
+0	0	src/c/{avro_record.c => datatypes/record.c}
+0	0	src/c/{avro_string.c => datatypes/string.c}
+0	0	src/c/{avro_union.c => datatypes/union.c}
+0	0	src/c/{avro_io_file.c => io/file.c}
+1	2	src/c/{avro_file_container.c => io/file_container.c}
+1	2	src/c/{avro_io_memory.c => io/memory.c}
+0	0	src/c/{avro_io_socket.c => io/socket.c}
+0	0	src/c/{ => json}/json.c
+0	0	src/c/{ => json}/json.h
+0	0	src/c/{ => json}/json_parser.c
+0	0	src/c/{ => json}/json_parser.h
+0	0	src/c/{ => json}/json_parser.y
+0	0	src/c/{ => json}/json_tokenizer.c
+0	0	src/c/{ => json}/json_tokenizer.h
+0	0	src/c/{ => json}/lemon.c
+0	0	src/c/{ => json}/lempar.c
+0	0	src/c/{ => tests}/json_tests/README
+0	0	src/c/{ => tests}/json_tests/fail/array_not_closed
+0	0	src/c/{ => tests}/json_tests/fail/array_not_opened
+0	0	src/c/{ => tests}/json_tests/fail/bad_value
+0	0	src/c/{ => tests}/json_tests/fail/colon_instead_of_comma
+0	0	src/c/{ => tests}/json_tests/fail/comma_after_close
+0	0	src/c/{ => tests}/json_tests/fail/comma_instead_of_colon
+0	0	src/c/{ => tests}/json_tests/fail/double_colon
+0	0	src/c/{ => tests}/json_tests/fail/extra_close
+0	0	src/c/{ => tests}/json_tests/fail/extra_data_after_object
+0	0	src/c/{ => tests}/json_tests/fail/illegal_expression
+0	0	src/c/{ => tests}/json_tests/fail/illegal_invocation
+0	0	src/c/{ => tests}/json_tests/fail/invalid_number
+0	0	src/c/{ => tests}/json_tests/fail/invalid_number2
+0	0	src/c/{ => tests}/json_tests/fail/invalid_number3
+0	0	src/c/{ => tests}/json_tests/fail/invalid_number4
+0	0	src/c/{ => tests}/json_tests/fail/json_text_not_array_or_object
+0	0	src/c/{ => tests}/json_tests/fail/line_break_in_string
+0	0	src/c/{ => tests}/json_tests/fail/line_break_in_string2
+0	0	src/c/{ => tests}/json_tests/fail/missing_colon
+0	0	src/c/{ => tests}/json_tests/fail/naked_array_value
+0	0	src/c/{ => tests}/json_tests/fail/object_array_mismatch
+0	0	src/c/{ => tests}/json_tests/fail/object_malformed
+0	0	src/c/{ => tests}/json_tests/fail/object_not_closed
+0	0	src/c/{ => tests}/json_tests/fail/object_not_opened
+0	0	src/c/{ => tests}/json_tests/fail/object_with_string
+0	0	src/c/{ => tests}/json_tests/fail/object_without_one_value
+0	0	src/c/{ => tests}/json_tests/fail/single_quote
+0	0	src/c/{ => tests}/json_tests/fail/string_bad_u1_value
+0	0	src/c/{ => tests}/json_tests/fail/string_bad_u2_value
+0	0	src/c/{ => tests}/json_tests/fail/string_bad_u3_value
+0	0	src/c/{ => tests}/json_tests/fail/string_bad_u4_value
+0	0	src/c/{ => tests}/json_tests/fail/string_illegal_escape
+0	0	src/c/{ => tests}/json_tests/fail/tab_char_in_string
+0	0	src/c/{ => tests}/json_tests/fail/tab_character_in_string
+0	0	src/c/{ => tests}/json_tests/fail/unquoted_object_key
+0	0	src/c/{ => tests}/json_tests/pass/array_multidimensional
+0	0	src/c/{ => tests}/json_tests/pass/array_with_false
+0	0	src/c/{ => tests}/json_tests/pass/array_with_ints
+0	0	src/c/{ => tests}/json_tests/pass/array_with_null
+0	0	src/c/{ => tests}/json_tests/pass/array_with_objects
+0	0	src/c/{ => tests}/json_tests/pass/array_with_string
+0	0	src/c/{ => tests}/json_tests/pass/array_with_true
+0	0	src/c/{ => tests}/json_tests/pass/deep
+0	0	src/c/{ => tests}/json_tests/pass/empty_array
+0	0	src/c/{ => tests}/json_tests/pass/empty_object
+0	0	src/c/{ => tests}/json_tests/pass/json_org_example1
+0	0	src/c/{ => tests}/json_tests/pass/json_org_example2
+0	0	src/c/{ => tests}/json_tests/pass/json_org_example3
+0	0	src/c/{ => tests}/json_tests/pass/json_org_test1
+0	0	src/c/{ => tests}/json_tests/pass/object_with_duplicate_keys
+0	0	src/c/{ => tests}/json_tests/pass/object_with_false
+0	0	src/c/{ => tests}/json_tests/pass/object_with_multiple_members
+0	0	src/c/{ => tests}/json_tests/pass/object_with_null
+0	0	src/c/{ => tests}/json_tests/pass/object_with_object_member
+0	0	src/c/{ => tests}/json_tests/pass/object_with_one_member
+0	0	src/c/{ => tests}/json_tests/pass/object_with_true
+0	0	src/c/{ => tests}/json_tests/pass/rfc_example
+0	0	src/c/{ => tests}/json_tests/pass/rfc_example2
+0	0	src/c/{ => tests}/json_tests/pass/string_u_value
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/enum_nonarray_symbols
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/enum_nonstring_name
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/enum_without_name
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/fixed_without_name
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/fixed_without_size
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/illegal_type
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/record_with_field_missing_name
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/record_with_field_missing_type
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/record_with_nonarray_fields
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/fail/record_with_nonstring_name
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/array
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/boolean_full
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/bytes_full
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/double_full
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/enum
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/extra_attributes
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/fixed
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/float_full
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/int_full
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/long_full
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/map
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/null_full
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/record
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/record_fields_with_defaults
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/recursive_record
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/string_full
+0	0	src/c/{avro_schema_tests => tests/schema_tests}/pass/union
+1	1	src/c/{ => tests}/test_avro_data.c
+0	0	src/c/{ => tests}/test_avro_interop.c
+2	2	src/c/{ => tests}/test_avro_schema.c
+3	3	src/c/{ => tests}/test_json_parser.c
+0	0	src/c/{ => util}/avro_type.gperf
+0	0	src/c/{ => util}/container_of.h
+0	0	src/c/{ => util}/dump.c
+0	0	src/c/{ => util}/dump.h
+4	0	src/c/{avro_endian.c => util/endian.c}
+0	0	src/c/{ => util}/error.c
+0	0	src/c/{ => util}/error.h
+
+commit e0940cb77cd3029fd90efc6952783754a619dd8e
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Mon Nov 9 23:08:32 2009 +0000
+
+    AVRO-186. Full read-path interoperability test
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@834276 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+7	7	src/c/Makefile.am
+9	15	src/c/README
+80	15	src/c/avro_array.c
+1	1	src/c/avro_boolean.c
+3	4	src/c/avro_bytes.c
+1	1	src/c/avro_double.c
+2	2	src/c/avro_enum.c
+38	11	src/c/avro_fixed.c
+1	1	src/c/avro_float.c
+1	1	src/c/avro_int.c
+2	1	src/c/avro_io_memory.c
+1	1	src/c/avro_long.c
+120	33	src/c/avro_map.c
+1	1	src/c/avro_null.c
+11	5	src/c/avro_record.c
+1	1	src/c/avro_string.c
+74	9	src/c/avro_union.c
+42	34	src/c/avro_value.c
+1	0	src/c/config/.gitignore
+7	6	src/c/configure.in
+2	2	src/c/json.c
+1	1	src/c/json.h
+58	5	src/c/{test_avro_primitives.c => test_avro_data.c}
+28	22	src/c/test_avro_interop.c
+1	1	src/test/schemata/interop.avsc
+
+commit ea05a9146f0edb64e76a25ab30230e9b35c98092
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Sat Nov 7 00:56:12 2009 +0000
+
+    AVRO-158.  Permit appending to a data file from Java.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@833621 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+13	10	src/java/org/apache/avro/file/DataFileReader.java
+58	17	src/java/org/apache/avro/file/DataFileWriter.java
+2	0	src/java/org/apache/avro/file/SeekableFileInput.java
+37	5	src/test/java/org/apache/avro/TestDataFile.java
+
+commit 6c6a0cb898b7b4182ebe6ee9ee41ae5c83206075
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Nov 5 22:48:56 2009 +0000
+
+    AVRO-169.  Fix a typo in the spec.  Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@833224 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	src/doc/content/xdocs/spec.xml
+
+commit e0871c82beaced35e4b1ea2e1d7a9023ec7e4e4a
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Nov 5 21:39:56 2009 +0000
+
+    Upgrade Java dependencies to more recent versions.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@833190 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+5	5	ivy.xml
+
+commit e4a937b229b3c8d77ac10a38bd05ce8ca1f86cee
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Nov 3 18:59:32 2009 +0000
+
+    AVRO-179. Add unit tests for all Avro C primitives
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@832510 13f79535-47bb-0310-9956-ffa450edef68
+
+4	1	CHANGES.txt
+1	0	src/c/.gitignore
+0	236	src/c/INSTALL
+9	2	src/c/Makefile.am
+3	3	src/c/avro_double.c
+4	4	src/c/avro_endian.c
+3	3	src/c/avro_float.c
+14	6	src/c/avro_io_memory.c
+87	14	src/c/avro_primitives.c
+7	0	src/c/avro_private.h
+2	0	src/c/configure.in
+1	0	src/c/m4/.gitignore
+413	0	src/c/test_avro_primitives.c
+
+commit a4b6df067b9e320919b8997612c922863fc6a911
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Tue Nov 3 18:25:24 2009 +0000
+
+    AVRO-180. Enhance code generator script and unit tests.
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@832499 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+9	8	src/c++/Makefile.in
+1	1	src/c++/api/NodeImpl.hh
+4	0	src/c++/api/ValidSchema.hh
+1	1	src/c++/impl/NodeImpl.cc
+6	1	src/c++/impl/Validator.cc
+25	0	src/c++/jsonschemas/bigrecord
+109	27	src/c++/scripts/gen-cppcode.py
+40	22	src/c++/test/testgen.cc
+23	0	src/c++/test/unittest.cc
+
+commit 8be88359e7685ffba7d71b6710c2b0d9e1a02212
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Sat Oct 31 23:19:10 2009 +0000
+
+    AVRO-175. Split the avro_io interface into two interfaces: avro_reader and avro_writer
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@831615 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+19	20	src/c/Makefile.am
+10	10	src/c/avro_array.c
+12	12	src/c/avro_boolean.c
+13	13	src/c/avro_bytes.c
+9	9	src/c/avro_double.c
+12	12	src/c/avro_endian.c
+10	10	src/c/avro_enum.c
+19	20	src/c/avro_file_container.c
+3	3	src/c/avro_fixed.c
+9	9	src/c/avro_float.c
+14	14	src/c/avro_int.c
+57	17	src/c/avro_io_file.c
+48	19	src/c/avro_io_memory.c
+45	12	src/c/avro_io_socket.c
+14	14	src/c/avro_long.c
+3	3	src/c/avro_map.c
+13	7	src/c/avro_null.c
+19	18	src/c/avro_primitives.c
+80	46	src/c/avro_private.h
+14	14	src/c/avro_record.c
+15	15	src/c/avro_string.c
+3	3	src/c/avro_union.c
+19	22	src/c/avro_value.c
+6	6	src/c/test_avro_interop.c
+
+commit de86bbe9b92fda06368889a9554cb71fbb03bace
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Fri Oct 30 02:42:31 2009 +0000
+
+    AVRO-176. Safeguard against bad istreams before reading.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@831187 13f79535-47bb-0310-9956-ffa450edef68
+
+3	1	CHANGES.txt
+12	1	src/c++/api/Compiler.hh
+1	1	src/c++/api/Exception.hh
+1	1	src/c++/api/Schema.hh
+27	6	src/c++/impl/Compiler.cc
+2	1	src/c++/test/testgen.cc
+50	14	src/c++/test/unittest.cc
+
+commit f1b834377fc2f4f7ba5436e2cc0945c4fd7a9652
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Wed Oct 28 20:23:47 2009 +0000
+
+    AVRO-157. Changes from code review comments.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@830750 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+2	2	src/c++/api/AvroParse.hh
+2	2	src/c++/api/AvroSerialize.hh
+3	1	src/c++/api/CompilerNode.hh
+8	8	src/c++/api/InputStreamer.hh
+11	15	src/c++/api/NodeConcepts.hh
+24	80	src/c++/api/NodeImpl.hh
+15	15	src/c++/api/OutputStreamer.hh
+36	36	src/c++/api/Parser.hh
+34	34	src/c++/api/Reader.hh
+33	33	src/c++/api/Serializer.hh
+16	16	src/c++/api/ValidatingReader.hh
+15	15	src/c++/api/ValidatingWriter.hh
+31	31	src/c++/api/Writer.hh
+73	0	src/c++/impl/CompilerNode.cc
+1	1	src/c++/impl/Node.cc
+0	48	src/c++/impl/NodeImpl.cc
+11	11	src/c++/impl/ValidatingReader.cc
+17	17	src/c++/impl/ValidatingWriter.cc
+14	14	src/c++/scripts/gen-cppcode.py
+63	63	src/c++/test/unittest.cc
+
+commit 4fadaaba38d555cd869a10ac6c8e305f4b59ec61
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Oct 27 23:57:53 2009 +0000
+
+    AVRO-149.  Add Java command-line executable 'avroj'.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@830407 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+22	3	build.xml
+26	0	src/java/org/apache/avro/specific/SpecificCompiler.java
+58	0	src/java/org/apache/avro/tool/Main.java
+34	0	src/java/org/apache/avro/tool/Tool.java
+23	0	src/java/org/apache/avro/tool/package.html
+53	0	src/test/bin/test_avroj.sh
+
+commit 3623bbcaf7c0f889fa0973b4b9d4e38fdfddb863
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Tue Oct 27 17:47:55 2009 +0000
+
+    AVRO-172. Don't include value class data/methods in each instance of a value when processing schemas.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@830265 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+0	90	src/c/avro.c
+7	2	src/c/avro.h
+20	7	src/c/avro_array.c
+18	5	src/c/avro_boolean.c
+18	5	src/c/avro_bytes.c
+18	5	src/c/avro_double.c
+18	5	src/c/avro_enum.c
+22	9	src/c/avro_fixed.c
+18	5	src/c/avro_float.c
+18	5	src/c/avro_int.c
+18	5	src/c/avro_long.c
+24	9	src/c/avro_map.c
+18	5	src/c/avro_null.c
+37	70	src/c/avro_private.h
+64	30	src/c/avro_record.c
+18	5	src/c/avro_string.c
+20	9	src/c/avro_union.c
+168	64	src/c/avro_value.c
+1	1	src/c/test_avro_schema.c
+
+commit 5f7cb7d6d00a284364c629ba85d4b3114c677cc2
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Fri Oct 23 18:57:24 2009 +0000
+
+    AVRO-168. Correct shared library versioning for C implementation
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@829178 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+6	1	src/c/Makefile.am
+7	2	src/c/configure.in
+58	0	src/c/version.sh
+
+commit e83268ede627871932e5de46d3bc69be500715b2
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Oct 22 22:24:28 2009 +0000
+
+    AVRO-146.  Add support for using Eclipse to develop Avro's Java.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@828875 13f79535-47bb-0310-9956-ffa450edef68
+
+16	0	.eclipse_launchers/AllTests.launch
+4	1	.gitignore
+3	0	CHANGES.txt
+12	0	README.txt
+70	2	build.xml
+
+commit 4d2c4381dc5019ec721b525dafec3e6197b7e972
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Thu Oct 22 16:16:00 2009 +0000
+
+    AVRO-162. Ensure that 'make distcheck' target works correctly
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@828771 13f79535-47bb-0310-9956-ffa450edef68
+
+20	11	src/c/Makefile.am
+1041	0	src/c/json_parser.c
+11	0	src/c/json_parser.h
+
+commit edbb3feac1bb12c0b00934b1fa58ba7c4b094b40
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Oct 21 17:45:57 2009 +0000
+
+    AVRO-167.  Refactor Java SpecificCompiler to simplify testing, and add some tests.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@828117 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+181	132	src/java/org/apache/avro/specific/SpecificCompiler.java
+9	3	src/test/java/org/apache/avro/TestSchema.java
+72	0	src/test/java/org/apache/avro/specific/TestSpecificCompiler.java
+
+commit d086fd7aaa4906cf4c50600744ed30fac9544269
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Oct 21 17:10:06 2009 +0000
+
+    AVRO-166.  Improve error checking in Java schema parser.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@828110 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+34	12	src/java/org/apache/avro/Schema.java
+1	1	src/test/java/org/apache/avro/io/TestValidatingIO.java
+
+commit 62e4e5bc62c1716224f60e61813103ec54704459
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Oct 21 16:47:27 2009 +0000
+
+    AVRO-165.  Fix an equals implementation in TestReflect.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@828100 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+9	6	src/test/java/org/apache/avro/TestReflect.java
+
+commit 21ba02b631c068abd4f295b8b903bdc392fa4573
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Tue Oct 20 22:31:35 2009 +0000
+
+     AVRO-148. Add ant target to build c++ project.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@827822 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+56	4	build.xml
+29	16	src/c++/Makefile.in
+40	2	src/c++/configure
+1	1	src/c++/configure.in
+0	0	src/c++/scripts/{gen.py => gen-cppcode.py}
+4	0	src/doc/content/xdocs/site.xml
+
+commit fac2b0477cba4cd01a56c635459a949f81680a84
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Tue Oct 20 18:01:38 2009 +0000
+
+    AVRO-156.  Fix broken links to Wiki in documentation.  Jeff Hammerbacher via cutting.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@827750 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+2	2	src/doc/content/xdocs/site.xml
+
+commit 1ecc7b63fbb0b13181ea16b38055729536c0225e
+Author: Sharad Agarwal <sharad@apache.org>
+Date:   Tue Oct 20 06:25:37 2009 +0000
+
+    AVRO-155. Make python avro.io.DataFileReader iterable. Contributed by Jeff Hammerbacher.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@826972 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+4	1	src/py/avro/io.py
+5	3	src/test/py/testio.py
+
+commit 5690cd025ce5c1bcb21b69e4f17bbb65e3db80fb
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Thu Oct 15 23:41:26 2009 +0000
+
+    AVRO-151. Validating Avro schema parser for C (code committed r825593)
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@825702 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+
+commit b57431769b7b42f8561ef4625ecf80e0d4bd019b
+Author: Matthew Lee Massie <massie@apache.org>
+Date:   Thu Oct 15 18:00:21 2009 +0000
+
+    Added a validating Avro schema parser in C
+    
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@825593 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	src/c/.gitignore
+44	99	src/c/INSTALL
+25	29	src/c/Makefile.am
+167	26	src/c/avro.c
+37	185	src/c/avro.h
+123	4	src/c/avro_array.c
+133	0	src/c/avro_boolean.c
+128	0	src/c/avro_bytes.c
+69	22	src/c/avro_double.c
+176	0	src/c/avro_endian.c
+155	0	src/c/avro_enum.c
+0	85	src/c/avro_file.c
+198	0	src/c/avro_file_container.c
+113	0	src/c/avro_fixed.c
+105	0	src/c/avro_float.c
+113	0	src/c/avro_int.c
+79	0	src/c/avro_io_file.c
+93	0	src/c/avro_io_memory.c
+104	0	src/c/avro_io_socket.c
+113	0	src/c/avro_long.c
+115	0	src/c/avro_map.c
+0	80	src/c/avro_memory.c
+53	0	src/c/avro_null.c
+297	0	src/c/avro_primitives.c
+216	0	src/c/avro_private.h
+0	76	src/c/avro_raw.c
+272	0	src/c/avro_record.c
+3	0	src/c/avro_schema_tests/fail/enum_nonarray_symbols
+3	0	src/c/avro_schema_tests/fail/enum_nonstring_name
+3	0	src/c/avro_schema_tests/fail/enum_without_name
+2	0	src/c/avro_schema_tests/fail/fixed_without_name
+2	0	src/c/avro_schema_tests/fail/fixed_without_size
+1	0	src/c/avro_schema_tests/fail/illegal_type
+5	0	src/c/avro_schema_tests/fail/record_with_field_missing_name
+5	0	src/c/avro_schema_tests/fail/record_with_field_missing_type
+3	0	src/c/avro_schema_tests/fail/record_with_nonarray_fields
+3	0	src/c/avro_schema_tests/fail/record_with_nonstring_name
+1	0	src/c/avro_schema_tests/pass/array
+1	0	src/c/avro_schema_tests/pass/boolean_full
+1	0	src/c/avro_schema_tests/pass/bytes_full
+1	0	src/c/avro_schema_tests/pass/double_full
+4	0	src/c/avro_schema_tests/pass/enum
+1	0	src/c/avro_schema_tests/pass/extra_attributes
+1	0	src/c/avro_schema_tests/pass/fixed
+1	0	src/c/avro_schema_tests/pass/float_full
+1	0	src/c/avro_schema_tests/pass/int_full
+1	0	src/c/avro_schema_tests/pass/long_full
+1	0	src/c/avro_schema_tests/pass/map
+1	0	src/c/avro_schema_tests/pass/null_full
+5	0	src/c/avro_schema_tests/pass/record
+6	0	src/c/avro_schema_tests/pass/record_fields_with_defaults
+7	0	src/c/avro_schema_tests/pass/recursive_record
+1	0	src/c/avro_schema_tests/pass/string_full
+1	0	src/c/avro_schema_tests/pass/union
+0	102	src/c/avro_socket.c
+86	46	src/c/avro_string.c
+19	0	src/c/avro_type.gperf
+88	0	src/c/avro_union.c
+197	0	src/c/avro_value.c
+0	91	src/c/avro_zigzag.c
+51	0	src/c/container_of.h
+10	10	src/c/json.c
+6	6	src/c/json.h
+3	3	src/c/{json_schema.y => json_parser.y}
+0	0	src/c/{json => json_tests}/README
+0	0	src/c/{json => json_tests}/fail/array_not_closed
+0	0	src/c/{json => json_tests}/fail/array_not_opened
+0	0	src/c/{json => json_tests}/fail/bad_value
+0	0	src/c/{json => json_tests}/fail/colon_instead_of_comma
+0	0	src/c/{json => json_tests}/fail/comma_after_close
+0	0	src/c/{json => json_tests}/fail/comma_instead_of_colon
+0	0	src/c/{json => json_tests}/fail/double_colon
+0	0	src/c/{json => json_tests}/fail/extra_close
+0	0	src/c/{json => json_tests}/fail/extra_data_after_object
+0	0	src/c/{json => json_tests}/fail/illegal_expression
+0	0	src/c/{json => json_tests}/fail/illegal_invocation
+0	0	src/c/{json => json_tests}/fail/invalid_number
+0	0	src/c/{json => json_tests}/fail/invalid_number2
+0	0	src/c/{json => json_tests}/fail/invalid_number3
+0	0	src/c/{json => json_tests}/fail/invalid_number4
+0	0	src/c/{json => json_tests}/fail/json_text_not_array_or_object
+0	0	src/c/{json => json_tests}/fail/line_break_in_string
+0	0	src/c/{json => json_tests}/fail/line_break_in_string2
+0	0	src/c/{json => json_tests}/fail/missing_colon
+0	0	src/c/{json => json_tests}/fail/naked_array_value
+0	0	src/c/{json => json_tests}/fail/object_array_mismatch
+0	0	src/c/{json => json_tests}/fail/object_malformed
+0	0	src/c/{json => json_tests}/fail/object_not_closed
+0	0	src/c/{json => json_tests}/fail/object_not_opened
+0	0	src/c/{json => json_tests}/fail/object_with_string
+0	0	src/c/{json => json_tests}/fail/object_without_one_value
+0	0	src/c/{json => json_tests}/fail/single_quote
+0	0	src/c/{json => json_tests}/fail/string_bad_u1_value
+0	0	src/c/{json => json_tests}/fail/string_bad_u2_value
+0	0	src/c/{json => json_tests}/fail/string_bad_u3_value
+0	0	src/c/{json => json_tests}/fail/string_bad_u4_value
+0	0	src/c/{json => json_tests}/fail/string_illegal_escape
+0	0	src/c/{json => json_tests}/fail/tab_char_in_string
+0	0	src/c/{json => json_tests}/fail/tab_character_in_string
+0	0	src/c/{json => json_tests}/fail/unquoted_object_key
+0	0	src/c/{json => json_tests}/pass/array_multidimensional
+0	0	src/c/{json => json_tests}/pass/array_with_false
+0	0	src/c/{json => json_tests}/pass/array_with_ints
+0	0	src/c/{json => json_tests}/pass/array_with_null
+0	0	src/c/{json => json_tests}/pass/array_with_objects
+0	0	src/c/{json => json_tests}/pass/array_with_string
+0	0	src/c/{json => json_tests}/pass/array_with_true
+0	0	src/c/{json => json_tests}/pass/deep
+0	0	src/c/{json => json_tests}/pass/empty_array
+0	0	src/c/{json => json_tests}/pass/empty_object
+0	0	src/c/{json => json_tests}/pass/json_org_example1
+0	0	src/c/{json => json_tests}/pass/json_org_example2
+0	0	src/c/{json => json_tests}/pass/json_org_example3
+0	0	src/c/{json => json_tests}/pass/json_org_test1
+0	0	src/c/{json => json_tests}/pass/object_with_duplicate_keys
+0	0	src/c/{json => json_tests}/pass/object_with_false
+0	0	src/c/{json => json_tests}/pass/object_with_multiple_members
+0	0	src/c/{json => json_tests}/pass/object_with_null
+0	0	src/c/{json => json_tests}/pass/object_with_object_member
+0	0	src/c/{json => json_tests}/pass/object_with_one_member
+0	0	src/c/{json => json_tests}/pass/object_with_true
+0	0	src/c/{json => json_tests}/pass/rfc_example
+0	0	src/c/{json => json_tests}/pass/rfc_example2
+0	0	src/c/{json => json_tests}/pass/string_u_value
+1	1	src/c/json_tokenizer.h
+0	101	src/c/test_avro_bytes.c
+0	102	src/c/test_avro_float_double.c
+75	0	src/c/test_avro_interop.c
+0	104	src/c/test_avro_raw.c
+103	0	src/c/test_avro_schema.c
+0	92	src/c/test_avro_string.c
+0	115	src/c/test_avro_zigzag.c
+70	84	src/c/test_json_parser.c
+
+commit 1999497b9115b71d325e87f66f05dc006a9d0e9b
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Thu Oct 15 16:08:55 2009 +0000
+
+    AVRO-147.  Ignore some generated files.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@825544 13f79535-47bb-0310-9956-ffa450edef68
+
+commit 7ddc6d64b2f81cc4022ae36aa233f7ce7e191314
+Author: Scott Banachowski <sbanacho@apache.org>
+Date:   Thu Oct 15 15:39:08 2009 +0000
+
+    AVRO-147. Use configure to create makefile for C++ builds.
+    
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@825526 13f79535-47bb-0310-9956-ffa450edef68
+
+2	0	CHANGES.txt
+0	79	src/c++/Makefile
+116	0	src/c++/Makefile.in
+16	10	src/c++/README.txt
+0	12	src/c++/System.Darwin.mk
+0	11	src/c++/System.Linux.mk
+15	0	src/c++/aclocal.m4
+8118	0	src/c++/configure
+48	0	src/c++/configure.in
+3	0	src/c++/m4/README
+219	0	src/c++/m4/m4_ax_boost_base.m4
+105	0	src/c++/m4/m4_ax_boost_regex.m4
+10	1	src/c++/test/testgen.cc
+
+commit bc9491c9dcea4035f3fd4733a2c0b649d08398ed
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Oct 14 20:46:55 2009 +0000
+
+    AVRO-142.  Remove some Java unused fields and imports.  Contributed by Philip Zeyliger.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@825270 13f79535-47bb-0310-9956-ffa450edef68
+
+3	0	CHANGES.txt
+5	2	build.xml
+0	1	src/java/org/apache/avro/Schema.java
+10	1	src/java/org/apache/avro/file/DataFileReader.java
+0	5	src/java/org/apache/avro/generic/GenericRequestor.java
+0	9	src/java/org/apache/avro/io/BlockingBinaryEncoder.java
+0	6	src/java/org/apache/avro/ipc/HttpTransceiver.java
+1	1	src/test/java/org/apache/avro/BarRecord.java
+1	1	src/test/java/org/apache/avro/FooRecord.java
+2	2	src/test/java/org/apache/avro/GenerateBlockingData.java
+9	5	src/test/java/org/apache/avro/RandomData.java
+9	4	src/test/java/org/apache/avro/TestBulkData.java
+0	5	src/test/java/org/apache/avro/TestCompare.java
+1	0	src/test/java/org/apache/avro/TestDataFile.java
+1	0	src/test/java/org/apache/avro/TestDataFileReflect.java
+1	8	src/test/java/org/apache/avro/TestNamespaceSpecific.java
+5	1	src/test/java/org/apache/avro/TestProtocolGeneric.java
+0	1	src/test/java/org/apache/avro/TestProtocolHttp.java
+5	5	src/test/java/org/apache/avro/TestProtocolSpecific.java
+0	4	src/test/java/org/apache/avro/TestReflect.java
+0	3	src/test/java/org/apache/avro/TestSchema.java
+9	9	src/test/java/org/apache/avro/io/TestBinaryDecoder.java
+12	20	src/test/java/org/apache/avro/io/TestBlockingIO.java
+3	5	src/test/java/org/apache/avro/io/TestResolvingIO.java
+7	7	src/test/java/org/apache/avro/io/{TestResolvingIO_resolving.java => TestResolvingIOResolving.java}
+13	8	src/test/java/org/apache/avro/io/TestValidatingIO.java
+
+commit a7bfbd4b56d99655062c069e26ab6d476f5f06a0
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Oct 14 18:50:49 2009 +0000
+
+    AVRO-141.  Fix a NullPointerException in ReflectData#isRecord().  Contributed by Isabel Drost.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/trunk@825217 13f79535-47bb-0310-9956-ffa450edef68
+
+15	0	CHANGES.txt
+1	0	src/java/org/apache/avro/reflect/ReflectData.java
+14	5	src/test/java/org/apache/avro/TestReflect.java
+
+commit 1e5e8c2a8ed193f94a0c34216efee7fc83c48ed9
+Author: Douglass Cutting <cutting@apache.org>
+Date:   Wed Oct 14 18:38:00 2009 +0000
+
+    Tagging release 1.2.0.
+    
+    git-svn-id: https://svn.apache.org/repos/asf/hadoop/avro/tags/release-1.2.0@825213 13f79535-47bb-0310-9956-ffa450edef68

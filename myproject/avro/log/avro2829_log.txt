@@ -1,0 +1,692 @@
+commit 7f2b8dda4be515a3d1f0b60d5175ee500dbe16e2
+Author: sacharya <suraj@apache.org>
+Date:   Fri Apr 14 12:06:53 2017 -0700
+
+    AVRO-2025 Bump version in JS
+    
+    root@95b4c18065bf:/home/avro# tree dist
+    dist
+    ├── avro-src-1.8.2.tar.gz
+    └── js
+        └── avro-js-1.8.2.tgz
+    
+    1 directory, 2 files
+    
+    Signed-off-by: Ryan Blue <blue@apache.org>
+    Signed-off-by: Sean Busbey <busbey@apache.org>
+    
+    This closes #216
+
+1	1	lang/js/package.json
+
+commit e38f7074d7c8f9156b39c8310302486ced93767a
+Author: sacharya <suraj@apache.org>
+Date:   Fri Apr 7 14:12:47 2017 -0500
+
+    AVRO-2018 Add license to file TestFixed.java
+    
+    Signed-off-by: Sean Busbey <busbey@apache.org>
+
+17	0	lang/java/avro/src/test/java/org/apache/avro/TestFixed.java
+
+commit 6bbcf7658e31cd7e92c459300fd70263b9b89de6
+Author: sacharya <suraj@apache.org>
+Date:   Tue Apr 4 17:39:36 2017 -0500
+
+    Preparing for release 1.8.2
+
+1	1	CHANGES.txt
+
+commit bd457af368e4de281607835e196e78800278b94e
+Author: Zoltan Farkas <zolyfarkas@yahoo.com>
+Date:   Tue Feb 7 13:52:08 2017 -0500
+
+    AVRO-1997 [java] get/set defaults for fixed.
+    
+    closes #194.
+    
+    Signed-off-by: Thiruvalluvan M G <thiru@startsmartlabs.com>
+
+4	0	lang/java/avro/src/main/java/org/apache/avro/SchemaBuilder.java
+2	1	lang/java/avro/src/main/java/org/apache/avro/util/internal/JacksonUtils.java
+19	0	lang/java/avro/src/test/java/org/apache/avro/TestFixed.java
+
+commit 9ae13913c9de6dbc6b6ca05cdfb82f5564a1f5b6
+Author: Pietro F. Menna <pietromenna@yahoo.com>
+Date:   Fri Feb 10 12:22:12 2017 +0100
+
+    AVRO-1813: Incorrect link to build instructions in Java Getting Started
+    
+    Closes #161
+    
+    Signed-off-by: Gabor Szadovszky <gabor@apache.org>
+    (cherry picked from commit 29129abeecd58d387fd8f8986fba052a4868fc7c)
+
+2	0	CHANGES.txt
+1	1	doc/src/content/xdocs/gettingstartedjava.xml
+
+commit b2e1627632227d8de32c1ad5631e06e3bb124c14
+Author: sacharya <suraj.spa@gmail.com>
+Date:   Fri Feb 3 22:41:10 2017 -0600
+
+    AVRO-1987: Add @deprecated tag to getConverion method
+    
+    Added function getConvertion with the correct naming.
+    A @Deprecated tag has been added to the incorrect function name.
+
+3	0	CHANGES.txt
+9	0	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificRecordBase.java
+
+commit 7ec35ea24ff0270586a26afbc6f6f530d272d1f7
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun Nov 6 13:00:52 2016 -0800
+
+    AVRO-1897 ADDENDUM: Install all Java artifacts during test build.
+    
+    The interop tests need the root POM installed to pass, so install all
+    build artifacts since other modules and tests depend on Java.
+
+2	1	build.sh
+
+commit bec6349f46b40fe0a4674062179966696e3026b1
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Nov 5 15:32:03 2016 -0700
+
+    Revert "AVRO-1626: C#: Fix Avro.pref build error. Contributed by Naruto Takahashi."
+    
+    This reverts commit 338b443f0d1452b9b1ac4a00eaef162e5a644be7.
+
+0	2	CHANGES.txt
+1	1	lang/csharp/build.sh
+0	19	lang/csharp/src/apache/perf/app.config
+
+commit edf6a7e6c38f1a5e941fbc79fd8c7d37d04344cf
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Nov 5 15:01:52 2016 -0700
+
+    AVRO-1951: Python: Fix ipc_test.py with a valid DNS name.
+
+2	0	CHANGES.txt
+2	2	lang/py/test/test_ipc.py
+
+commit 695efafb45f96c9d9ae0f905ef3c33fe75751612
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Nov 5 14:56:35 2016 -0700
+
+    AVRO-1907 ADDENDUM: Do not warn when logical type name is null.
+
+3	1	lang/java/avro/src/main/java/org/apache/avro/LogicalTypes.java
+
+commit 620b2807eb2cee03baa146503454a1cb0054c7f0
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Nov 5 13:54:44 2016 -0700
+
+    AVRO-1897: Fix build issues due to VERSION.txt newline, avro-tools. Contributed by Suraj Acharya.
+
+3	0	CHANGES.txt
+2	1	build.sh
+1	0	lang/c++/CMakeLists.txt
+1	0	lang/perl/Makefile.PL
+5	1	lang/py/build.xml
+
+commit d9017ce768891815ef8a48c7390a5ac40af713a3
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Nov 5 13:35:50 2016 -0700
+
+    Preparing to build 1.8.2
+
+1	1	lang/java/archetypes/avro-service-archetype/pom.xml
+1	1	lang/java/archetypes/pom.xml
+1	1	lang/java/avro/pom.xml
+1	1	lang/java/compiler/pom.xml
+1	1	lang/java/guava/pom.xml
+1	1	lang/java/ipc/pom.xml
+1	1	lang/java/mapred/pom.xml
+1	1	lang/java/maven-plugin/pom.xml
+1	1	lang/java/pom.xml
+1	1	lang/java/protobuf/pom.xml
+1	1	lang/java/thrift/pom.xml
+1	1	lang/java/tools/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+1	1	lang/java/trevni/core/pom.xml
+2	2	lang/java/trevni/doc/pom.xml
+1	1	lang/java/trevni/pom.xml
+1	1	pom.xml
+1	1	share/VERSION.txt
+
+commit c693f54f185c5b3f4a7314f1749693da4ce3b299
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Nov 5 13:31:36 2016 -0700
+
+    AVRO-1885: Update CHANGES.txt for 1.8.2 release.
+
+4	1	CHANGES.txt
+
+commit 338b443f0d1452b9b1ac4a00eaef162e5a644be7
+Author: Naruto TAKAHASHI <naruto.takahashi@drecom.co.jp>
+Date:   Fri Sep 30 10:55:33 2016 +0900
+
+    AVRO-1626: C#: Fix Avro.pref build error. Contributed by Naruto Takahashi.
+    
+    Also removes '-framework' parameter from nunit-console
+    
+    Closes #136.
+
+2	0	CHANGES.txt
+1	1	lang/csharp/build.sh
+19	0	lang/csharp/src/apache/perf/app.config
+
+commit 16870af3aa3abe5e2cdc8ccc48ba4ecf20f10f9c
+Author: Gabor Szadovszky <gabor.szadovszky@cloudera.com>
+Date:   Mon Sep 26 13:44:25 2016 +0200
+
+    AVRO-1907: Java: Add debug logging for invalid logical types.
+    
+    Contributed by Gabor Szadovszky.
+
+3	0	CHANGES.txt
+7	0	lang/java/avro/src/main/java/org/apache/avro/LogicalTypes.java
+
+commit b28f0d5f8dd5c99d3fff87527627a44be5fd44c4
+Author: Gabor Szadovszky <gabor.szadovszky@cloudera.com>
+Date:   Thu Nov 3 17:45:07 2016 +0100
+
+    AVRO-1947 - Inconsistent maven profile activation
+
+3	0	CHANGES.txt
+2	1	lang/java/mapred/pom.xml
+2	1	lang/java/trevni/avro/pom.xml
+
+commit 92ed81fd2eade11f5352fb0b9395b167f3153d47
+Author: Niels Basjes <nbasjes@bol.com>
+Date:   Wed Oct 26 15:36:02 2016 +0200
+
+    AVRO-1944: Fixed invalid toString in records with duplicate values
+
+1	1	CHANGES.txt
+29	6	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+100	1	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit 30f90d1237060171f9909d0696bd0bb0d0b8c719
+Author: Gabor Szadovszky <gabor.szadovszky@cloudera.com>
+Date:   Wed Oct 26 14:42:39 2016 +0200
+
+    AVRO-1943 - Flaky test: TestNettyServerWithCompression.testConnectionsCount
+
+4	0	CHANGES.txt
+11	3	lang/java/ipc/src/test/java/org/apache/avro/ipc/TestNettyServer.java
+
+commit b2a2256775b56eb21c7b3599dc9a766067cd6c27
+Author: Sachin Goyal <sgoyal6@L-SB8M1HEG8W-M.local>
+Date:   Mon Jul 25 14:32:46 2016 -0700
+
+    AVRO-1882: ConcurrentHashMap with non-string keys fails in Java 1.8
+
+3	0	CHANGES.txt
+60	0	lang/java/avro/src/main/java/org/apache/avro/reflect/MapEntry.java
+14	5	lang/java/avro/src/main/java/org/apache/avro/reflect/ReflectDatumWriter.java
+34	8	lang/java/avro/src/test/java/org/apache/avro/reflect/TestNonStringMapKeys.java
+1	1	lang/java/pom.xml
+
+commit 69a343b9c37a5410e4f20fd6cf870a68ebf023ce
+Author: Niels Basjes <nbasjes@bol.com>
+Date:   Mon Oct 10 13:04:06 2016 +0200
+
+    AVRO-1932: Java: Allow setting the SchemaStore on generated classes.
+
+3	0	CHANGES.txt
+1	1	lang/java/avro/src/main/java/org/apache/avro/message/BinaryMessageDecoder.java
+16	0	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+79	0	lang/java/ipc/src/test/java/org/apache/avro/message/TestCustomSchemaStore.java
+16	0	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+16	0	lang/java/tools/src/test/compiler/output/Player.java
+55	0	share/test/schemas/schemaevolution.avdl
+
+commit 1b91c06e92c4b5dd8e3a3e936b36e54fb9c9e023
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Oct 6 15:07:12 2016 -0700
+
+    AVRO-1929: Java: SchemaCompatibility fails to recognize string<->bytes promotion.  Contributed by Anders Sundelin.
+
+3	0	CHANGES.txt
+11	2	lang/java/avro/src/main/java/org/apache/avro/SchemaCompatibility.java
+5	3	lang/java/avro/src/test/java/org/apache/avro/TestSchemaCompatibility.java
+
+commit f02db39114cd3b1bd02e87b86812f2c0cafdba86
+Author: Doug Cutting <cutting@apache.org>
+Date:   Thu Oct 6 14:43:29 2016 -0700
+
+    AVRO-1860: Java: Field#DefaultVal() returns Ints for Long fields.  Contributed by Gabor Szadovszky.
+
+3	0	CHANGES.txt
+1	1	lang/java/avro/src/main/java/org/apache/avro/Schema.java
+20	0	lang/java/avro/src/test/java/org/apache/avro/TestSchemaBuilder.java
+
+commit aa0ee44822a62fd087fa8cca169dfef4e182af0f
+Author: Niels Basjes <nbasjes@bol.com>
+Date:   Thu Sep 22 14:42:47 2016 +0200
+
+    AVRO-1923: Stop infinite recursion in GenericData.toString
+
+2	0	CHANGES.txt
+14	7	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+60	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericData.java
+
+commit a62613adfd7aac53efd19b07ca30bcda5c0093b2
+Author: Zoltan Ivanfi <zi@cloudera.com>
+Date:   Tue Sep 20 19:11:18 2016 +0200
+
+    AVRO-1853: Compiler::toBin crashes on empty string. Contributed by Zoltan Ivanfi.
+    
+    Added a unit test triggering the bug then fixed the bug. Modified build
+    process to use debug builds for tests to allow catching bugs of this
+    type.
+
+3	0	CHANGES.txt
+6	0	lang/c++/CMakeLists.txt
+5	3	lang/c++/build.sh
+4	3	lang/c++/impl/Compiler.cc
+70	0	lang/c++/test/CompilerTests.cc
+
+commit 58c0aac536e2ffbf1d1a0ff2f7855f34b036eedb
+Author: Doug Cutting <cutting@apache.org>
+Date:   Tue Sep 27 07:56:42 2016 -0700
+
+    AVRO-1918: Improve logical type documentation. Contributed by Gabor Szadovszky.
+
+2	0	CHANGES.txt
+24	0	doc/src/content/xdocs/idl.xml
+6	0	lang/java/avro/src/main/java/org/apache/avro/specific/package.html
+
+commit 97e442c83ab4e4547aaeb2df51d79c9b29fe2e3d
+Author: Tom White <tom@cloudera.com>
+Date:   Tue Sep 27 15:50:56 2016 +0100
+
+    AVRO-1849: C++: printJson fails on record with no fields. Contributed by Simon Woodford.
+
+3	0	CHANGES.txt
+2	1	lang/c++/build.sh
+5	6	lang/c++/impl/NodeImpl.cc
+66	2	lang/c++/test/SchemaTests.cc
+
+commit 322a0731337b27f45a40b5f28d7afa2b1b844e4b
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 26 14:21:58 2016 -0700
+
+    AVRO-1919: Formalize the presence of build.sh.  Contributed by Suraj Acharya.
+
+2	0	CHANGES.txt
+9	16	build.sh
+66	0	lang/java/build.sh
+65	0	lang/perl/build.sh
+60	0	lang/py/build.sh
+65	0	lang/py3/build.sh
+
+commit 651decfc442179f72064b35ee6a75b14bf6b2194
+Author: Doug Cutting <cutting@apache.org>
+Date:   Mon Sep 19 16:11:44 2016 -0700
+
+    AVRO-1921. Fix slow build due to unreachable codehaus website.  Contributed by Gabor Szadovszky.
+
+0	1	lang/java/pom.xml
+
+commit 06f4a1220af45bbd1e428450cf278bf6795fb402
+Author: radai-rosenblatt <radai.rosenblatt@gmail.com>
+Date:   Tue Sep 6 09:16:42 2016 -0700
+
+    AVRO-1901: Record named Exception generated bad code
+
+3	0	CHANGES.txt
+1	0	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+1	1	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+18	3	lang/java/compiler/src/test/java/org/apache/avro/compiler/specific/TestSpecificCompiler.java
+1	1	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+1	1	lang/java/tools/src/test/compiler/output/Player.java
+3	0	share/test/schemas/specialtypes.avdl
+
+commit 7a15dcdf5252b3b8fc1d1ad440f6080afc06d242
+Author: Niels Basjes <nbasjes@bol.com>
+Date:   Thu Sep 15 10:19:52 2016 +0200
+
+    AVRO-1914: Fix licencing errors reported by rat.
+
+2	0	CHANGES.txt
+17	0	lang/java/avro/src/test/java/org/apache/avro/specific/TestSpecificLogicalTypes.java
+17	0	lang/java/avro/src/test/java/org/apache/avro/specific/TestSpecificToFromByteArray.java
+3	1	pom.xml
+
+commit d5c65e95827ce32ff63e53972787b3f3df7a0788
+Author: Niels Basjes <nbasjes@bol.com>
+Date:   Thu Sep 15 10:18:05 2016 +0200
+
+    AVRO-1913: No warnings in the generated Java code.
+
+2	0	CHANGES.txt
+2	2	lang/java/avro/src/test/java/org/apache/avro/FooBarSpecificRecord.java
+2	2	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/fixed.vm
+9	4	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+7	4	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+7	4	lang/java/tools/src/test/compiler/output/Player.java
+
+commit b5d67d41fc6d64558d482f0e6d5b7a699dc62c91
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Sep 10 16:41:58 2016 -0700
+
+    AVRO-1900: Remove dev-tools to fix Java build.
+    
+    The dev-tools module has to be built before working in lang/java. This
+    breaks the build.sh script and is a confusing failure for new Java
+    contributors. This commit fixes the problem by moving the checkstyle
+    config back into the lang/java/pom.xml. It is applied to all Java
+    modules under lang/java.
+
+2	0	CHANGES.txt
+39	28	lang/java/checkstyle.xml
+22	0	lang/java/pom.xml
+26	0	lang/java/suppressions.xml
+
+commit ba848e21ab275d81b7f33bbcf124efe7f67822bc
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Sep 10 15:57:30 2016 -0700
+
+    AVRO-1873: Add CRC32 checksum to Snappy-compressed blocks.
+    
+    Java and other implementations require this CRC32 checksum of the
+    uncompressed content in order to read the data. This implements the
+    checksum, with backward-compatibility for files written by old versions
+    of avro-ruby. If the checksum doesn't match or if decompression fails
+    with the last 4 bytes removed as the checksum, avro-ruby will decompress
+    the incoming bytes and pass them on assuming that the file is from an
+    old reader.
+    
+    Closes #121.
+
+3	0	CHANGES.txt
+18	1	lang/ruby/lib/avro/data_file.rb
+11	0	lang/ruby/test/test_io.rb
+
+commit 79a6d8d81517d45544dba215432f786a9523f76f
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun Sep 4 14:54:40 2016 -0700
+
+    AVRO-1908: Fix TestSpecificCompiler reference to private method.
+    
+    AVRO-1884 changed makePath to a private method from a package-private
+    static method. This broke the test that references the method in IPC.
+    The fix is to make the instance method package-private and update the
+    test to use an instance of SpecificCompiler.
+
+3	0	CHANGES.txt
+1	1	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+3	2	lang/java/ipc/src/test/java/org/apache/avro/compiler/specific/TestSpecificCompiler.java
+
+commit 968550da18708c76fd04c13722d996461aa23cb7
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun Sep 4 15:15:24 2016 -0700
+
+    AVRO-1883: Java: Fix incompatible schema detection nested in unions. Contributed by Yibing Shi.
+
+3	0	CHANGES.txt
+9	1	lang/java/avro/src/main/java/org/apache/avro/io/parsing/Symbol.java
+17	0	lang/java/avro/src/test/java/org/apache/avro/TestSchemaValidation.java
+
+commit e1c52301082680a0a729d3aaeb8b3b6bbd96e624
+Author: Torgeir Boerresen <torgeir.borresen@sigmagroup.no>
+Date:   Tue Jul 5 10:28:23 2016 +0200
+
+    AVRO-1874: Py3: Use recommended module-level logging.
+    
+    The previous use of the logging library, using logging as logger
+    handler, unsets logging level set by host application.
+    
+    Closes #105.
+
+3	0	CHANGES.txt
+5	3	lang/py3/avro/datafile.py
+2	1	lang/py3/avro/io.py
+11	9	lang/py3/avro/ipc.py
+2	1	lang/py3/avro/schema.py
+
+commit d60d26639a176494c133b5ef45eb77e5737e002b
+Author: shijinkui <shijinkui666@163.com>
+Date:   Thu May 5 18:43:39 2016 +0800
+
+    AVRO-1884: Java: Add method to set the compiler output suffix.
+    
+    Use when generating non-Java files with custom templates. For example:
+    
+    ```
+    compiler.setSuffix(".scala")
+    compiler.setTemplateDir(scalaTemplatePath)
+    compiler.compileToDestination(file, new File("src/main/scala/"))
+    ```
+    
+    Closes #90.
+
+3	0	CHANGES.txt
+9	3	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+
+commit 988a3790eef104642546fb9bef8a4cae5a148558
+Author: Michael Wong <mwong38@gmail.com>
+Date:   Mon Jul 11 23:56:23 2016 +0100
+
+    AVRO-1879: Make conversions field static.
+
+2	0	CHANGES.txt
+1	1	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+
+commit 1c9ef72b4b7f3b34d16748c7161ec26b193e7299
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun Jul 24 15:47:36 2016 -0700
+
+    AVRO-1704: Add single-record encoding spec. (Contributed by Niels Basjes)
+
+2	0	CHANGES.txt
+32	4	doc/src/content/xdocs/spec.xml
+
+commit b55036724d220082f54cdb0060b3926314565da4
+Author: Brian McKelvey <theturtle32@gmail.com>
+Date:   Thu May 19 15:43:58 2016 -0700
+
+    AVRO-1848: Ruby: Fix handling of falsey default values.
+
+3	0	CHANGES.txt
+4	0	lang/ruby/lib/avro/io.rb
+3	3	lang/ruby/lib/avro/schema.rb
+21	0	lang/ruby/test/test_io.rb
+17	0	lang/ruby/test/test_schema.rb
+
+commit fa46c9794767d512522824948f3c792dd634b828
+Author: Ryan Blue <blue@apache.org>
+Date:   Sat Sep 3 17:25:48 2016 -0700
+
+    AVRO-1888: Java: Fix single-record encoding marker check.
+
+2	0	CHANGES.txt
+2	2	lang/java/avro/src/main/java/org/apache/avro/message/BinaryMessageDecoder.java
+38	0	lang/java/avro/src/test/java/org/apache/avro/message/TestBinaryMessageEncoding.java
+
+commit cd760da972d3eb6f9b083f28bab5bd4921509f16
+Author: Andrius Druzinis-Vitkus <andrius.druzinis@gmail.com>
+Date:   Thu Jul 28 10:44:06 2016 +0200
+
+    AVRO-607: Java: Make SpecificData schema cache thread-safe.
+    
+    Changed SpecificData.getSchema to use a thread-safe Cache class from
+    Google Guava.
+
+3	0	CHANGES.txt
+17	8	lang/java/avro/src/main/java/org/apache/avro/specific/SpecificData.java
+6	0	lang/java/guava/src/main/java/org/apache/avro/GuavaClasses.java
+
+commit 391dc158b76ca509c40fce262bfc8377eee6d2bf
+Author: Romain Geissler <romain.geissler@amadeus.com>
+Date:   Mon Aug 31 22:27:17 2015 +0200
+
+    AVRO-1719: C++: Fix tests with Boost >= 1.59.
+    
+    BOOST_CHECKPOINT and BOOST_MESSAGE have been deprecated for years,
+    BOOST_TEST_CHECKPOINT and BOOST_TEST_MESSAGE should be used instead.
+
+2	0	CHANGES.txt
+3	3	lang/c++/test/SchemaTests.cc
+21	21	lang/c++/test/buffertest.cc
+
+commit 40388e5c9c9cb7b3dd567eff97b28e1278c7fcdb
+Author: Sachin Goyal <sgoyal6@L-SB8M1HEG8W-M.local>
+Date:   Mon Jul 25 15:15:10 2016 -0700
+
+    AVRO-1889: Upgrade maven-shade plugin
+
+3	0	CHANGES.txt
+1	1	lang/java/pom.xml
+
+commit c80d1eec0229ea733e0ed0f4e7c0c4b90d81f841
+Author: Ryan Blue <blue@apache.org>
+Date:   Mon Jun 27 20:41:40 2016 -0700
+
+    AVRO-1704: Java: Add toByteArray and fromByteArray to specific.
+
+24	3	lang/java/avro/src/test/java/org/apache/avro/specific/TestRecordWithLogicalTypes.java
+22	0	lang/java/avro/src/test/java/org/apache/avro/specific/TestRecordWithoutLogicalTypes.java
+102	0	lang/java/avro/src/test/java/org/apache/avro/specific/TestSpecificToFromByteArray.java
+26	2	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+4	0	lang/java/compiler/src/test/java/org/apache/avro/compiler/specific/TestSpecificCompiler.java
+25	2	lang/java/tools/src/test/compiler/output-string/avro/examples/baseball/Player.java
+25	2	lang/java/tools/src/test/compiler/output/Player.java
+
+commit 9d9d5e76c64f168b3d8c91e0afbdbf6dd87b9a7d
+Author: Ryan Blue <blue@apache.org>
+Date:   Sun Jul 24 15:20:37 2016 -0700
+
+    AVRO-1704: Java: Add support for single-message encoding.
+
+2	0	CHANGES.txt
+34	0	lang/java/avro/src/main/java/org/apache/avro/message/BadHeaderException.java
+190	0	lang/java/avro/src/main/java/org/apache/avro/message/BinaryMessageDecoder.java
+122	0	lang/java/avro/src/main/java/org/apache/avro/message/BinaryMessageEncoder.java
+159	0	lang/java/avro/src/main/java/org/apache/avro/message/MessageDecoder.java
+50	0	lang/java/avro/src/main/java/org/apache/avro/message/MessageEncoder.java
+35	0	lang/java/avro/src/main/java/org/apache/avro/message/MissingSchemaException.java
+101	0	lang/java/avro/src/main/java/org/apache/avro/message/RawMessageDecoder.java
+129	0	lang/java/avro/src/main/java/org/apache/avro/message/RawMessageEncoder.java
+63	0	lang/java/avro/src/main/java/org/apache/avro/message/SchemaStore.java
+35	0	lang/java/avro/src/main/java/org/apache/avro/util/ReusableByteArrayInputStream.java
+89	0	lang/java/avro/src/main/java/org/apache/avro/util/ReusableByteBufferInputStream.java
+241	0	lang/java/avro/src/test/java/org/apache/avro/message/TestBinaryMessageEncoding.java
+2	0	lang/java/guava/src/main/java/org/apache/avro/GuavaClasses.java
+
+commit 1fbf64bf84750b8b768f8bcf2800889f9d590588
+Author: Ryan Blue <blue@apache.org>
+Date:   Mon Jun 27 20:37:56 2016 -0700
+
+    AVRO-1869: Java: Fix Decimal conversion from ByteBuffer.
+
+2	0	CHANGES.txt
+2	1	lang/java/avro/src/main/java/org/apache/avro/Conversions.java
+
+commit fb7f023daf40c6373dc60db436fe302c70805493
+Author: Ryan Blue <blue@apache.org>
+Date:   Thu Jun 2 08:36:17 2016 -0700
+
+    AVRO-1741: Py3: Fix error when codec is not in the header. Contributed by Matthew Hayes.
+    
+    This happens when the compression codec is None, meaning the
+    "null"/uncompressed codec.
+
+15	0	CHANGES.txt
+4	2	lang/py3/avro/datafile.py
+
+commit 628457545e441b888a597b9ea3a283445c738233
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Aug 31 16:45:21 2016 -0700
+
+    AVRO-1895. Fix deepCopy() to get correct logical type conversion.
+    
+    (cherry picked from commit 9456db01859dd3619fb09a6d4205ab433b357b02)
+
+1	1	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+
+commit 39481e665620fec527085552c4c71571f5aeb68f
+Author: Doug Cutting <cutting@apache.org>
+Date:   Wed Aug 31 16:20:47 2016 -0700
+
+    AVRO-1895. Java: Fix GenericData#deepCopy() to support logical types.
+    
+    (cherry picked from commit be1639c44b16ddec8c54ecfca050364048daf896)
+
+26	9	lang/java/avro/src/main/java/org/apache/avro/generic/GenericData.java
+61	0	lang/java/avro/src/test/java/org/apache/avro/generic/TestGenericLogicalTypes.java
+
+commit 941187a2295197d9da2d9a865fda41e621813f4e
+Author: Yibing Shi <shi.yibing@gmail.com>
+Date:   Thu Jul 21 10:55:14 2016 -0500
+
+    AVRO-1877 restore correct javaUnbox in Specific Compiler.
+    
+    Time logical types were broken by the patch for AVRO-1847, this
+    patch restores correct behavior with some minor refactoring to
+    clean up duplicate code.
+    
+    Signed-off-by: Sean Busbey <busbey@cloudera.com>
+
+31	12	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+90	0	lang/java/compiler/src/test/java/org/apache/avro/compiler/specific/TestSpecificCompiler.java
+
+commit ff5bb456e751e9128606c6bbffe638e256ee2c1c
+Author: Yibing Shi <shi.yibing@gmail.com>
+Date:   Wed Jun 22 14:31:06 2016 -0500
+
+    AVRO-1847 IDL compiler should use BigDecimal to represent decimal logical type.
+    
+    Allows opt-in for the specific compiler to use BigDecimal when generating Java
+    classes for a Schema with decimal types.
+    
+    Signed-off-by: Sean Busbey <busbey@cloudera.com>
+
+113	0	lang/java/avro/src/main/java/org/apache/avro/Conversions.java
+1	0	lang/java/avro/src/main/java/org/apache/avro/LogicalTypes.java
+26	0	lang/java/avro/src/main/java/org/apache/avro/data/RecordBuilderBase.java
+12	20	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumReader.java
+31	18	lang/java/avro/src/main/java/org/apache/avro/generic/GenericDatumWriter.java
+81	3	lang/java/avro/src/test/java/org/apache/avro/specific/TestRecordWithLogicalTypes.java
+51	3	lang/java/avro/src/test/java/org/apache/avro/specific/TestRecordWithoutLogicalTypes.java
+19	6	lang/java/avro/src/test/java/org/apache/avro/specific/TestSpecificLogicalTypes.java
+25	10	lang/java/compiler/src/main/java/org/apache/avro/compiler/specific/SpecificCompiler.java
+15	0	lang/java/compiler/src/main/javacc/org/apache/avro/compiler/idl/idl.jj
+9	0	lang/java/compiler/src/main/velocity/org/apache/avro/compiler/specific/templates/java/classic/record.vm
+1	0	lang/java/compiler/src/test/idl/input/mr_events.avdl
+3	0	lang/java/compiler/src/test/idl/output/mr_events.avpr
+100	3	lang/java/compiler/src/test/java/org/apache/avro/compiler/specific/TestSpecificCompiler.java
+7	0	lang/java/maven-plugin/src/main/java/org/apache/avro/mojo/AbstractAvroMojo.java
+1	0	lang/java/maven-plugin/src/main/java/org/apache/avro/mojo/IDLProtocolMojo.java
+1	0	lang/java/maven-plugin/src/main/java/org/apache/avro/mojo/ProtocolMojo.java
+1	0	lang/java/maven-plugin/src/main/java/org/apache/avro/mojo/SchemaMojo.java
+28	11	lang/java/tools/src/main/java/org/apache/avro/tool/SpecificCompilerTool.java
+
+commit b26d194c974f2b29aeb4ba13054adcb339310dfa
+Author: Sean Busbey <busbey@cloudera.com>
+Date:   Wed Jun 22 16:57:44 2016 -0500
+
+    AVRO-1867 prepare for development of 1.8.2-SNAPSHOT.
+    
+    Signed-off-by: Ryan Blue <blue@apache.org>
+
+1	1	lang/java/archetypes/avro-service-archetype/pom.xml
+1	1	lang/java/archetypes/pom.xml
+1	1	lang/java/avro/pom.xml
+1	1	lang/java/compiler/pom.xml
+1	1	lang/java/guava/pom.xml
+1	1	lang/java/ipc/pom.xml
+1	1	lang/java/mapred/pom.xml
+1	1	lang/java/maven-plugin/pom.xml
+1	1	lang/java/pom.xml
+1	1	lang/java/protobuf/pom.xml
+1	1	lang/java/thrift/pom.xml
+1	1	lang/java/tools/pom.xml
+1	1	lang/java/trevni/avro/pom.xml
+1	1	lang/java/trevni/core/pom.xml
+2	2	lang/java/trevni/doc/pom.xml
+1	1	lang/java/trevni/pom.xml
+1	1	pom.xml
+1	1	share/VERSION.txt
