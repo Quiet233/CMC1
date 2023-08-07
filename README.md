@@ -37,7 +37,10 @@ IssueType.java: calculate Issue-relate metrics
 ComplexityTest.py:calculate NCC NMC CFC  
 ModifyInfo.java: remaining metrics  
 
-Notice：The operation of the ComplexityTest.py file is based on two other java files
+Notice：  
+1）The operation of the ComplexityTest.py file is based on two other java files  
+2）Clone the required program before running the program 
+
 
 # Other Files
 1) _Predict：The main.java file under this folder is the program used for prediction when building the prediction model
