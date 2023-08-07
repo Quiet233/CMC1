@@ -3,25 +3,25 @@ Architecture Change Metrics Calculator
 
 # Metrics
 The metrics calculated by this tool are as follows：
-|     Type                 |     Feature        |     Definition                                                                                                |   |   |   |   |   |   |   |
-|--------------------------|--------------------|---------------------------------------------------------------------------------------------------------------|---|---|---|---|---|---|---|
-|     Volume-related       |     NCC            |     Number of characters   changed                                                                            |   |   |   |   |   |   |   |
-|                          |     LC             |     Lines of code changes                                                                                     |   |   |   |   |   |   |   |
-|                          |     NMC            |     Number of methods   changed                                                                               |   |   |   |   |   |   |   |
-|     File-related         |     NMS            |     Number of modified subsystems                                                                             |   |   |   |   |   |   |   |
-|                          |     NMD            |     Number of modified directories                                                                            |   |   |   |   |   |   |   |
-|                          |     NMF            |     Number of modified files                                                                                  |   |   |   |   |   |   |   |
-|                          |     Entropy        |     Distribution of modified code across each file                                                            |   |   |   |   |   |   |   |
-|                          |     NAD            |     Number of added or deleted files                                                                          |   |   |   |   |   |   |   |
-|                          |     MLMF           |     Max lines of code in a modified file before the change                                                    |   |   |   |   |   |   |   |
-|                          |     CFC            |     Cyclomatic complexity   of file changes                                                                   |   |   |   |   |   |   |   |
-|                          |     NUC            |     The max number of changes to the modified files                                                           |   |   |   |   |   |   |   |
-|                          |     AGE            |     The average time interval between the last and   current change                                           |   |   |   |   |   |   |   |
-|     Developer-related    |     NDVE           |     Number of developers                                                                                      |   |   |   |   |   |   |   |
-|                          |     REXP           |     Recent developer experience                                                                               |   |   |   |   |   |   |   |
-|                          |     EXP            |     Developer experience                                                                                      |   |   |   |   |   |   |   |
-|     Issue-related        |     Issue-Type     |     Most of commits are assigned a type to indicate   its purpose (e.g., Bug, Improvement and New Feature)    |   |   |   |   |   |   |   |
-|                          |     NIR            |     Number of issue reports                                                                                   |   |   |   |   |   |   |   |
+|     Type                 |     Feature        |     Definition                                                                                                |   
+|--------------------------|--------------------|---------------------------------------------------------------------------------------------------------------|
+|     Volume-related       |     NCC            |     Number of characters   changed                                                                            |   
+|                          |     LC             |     Lines of code changes                                                                                     |   
+|                          |     NMC            |     Number of methods   changed                                                                               |   
+|     File-related         |     NMS            |     Number of modified subsystems                                                                             |   
+|                          |     NMD            |     Number of modified directories                                                                            |   
+|                          |     NMF            |     Number of modified files                                                                                  |   
+|                          |     Entropy        |     Distribution of modified code across each file                                                            |   
+|                          |     NAD            |     Number of added or deleted files                                                                          |   
+|                          |     MLMF           |     Max lines of code in a modified file before the change                                                    |   
+|                          |     CFC            |     Cyclomatic complexity   of file changes                                                                   |   
+|                          |     NUC            |     The max number of changes to the modified files                                                           |   
+|                          |     AGE            |     The average time interval between the last and   current change                                           |   
+|     Developer-related    |     NDVE           |     Number of developers                                                                                      |   
+|                          |     REXP           |     Recent developer experience                                                                               |   
+|                          |     EXP            |     Developer experience                                                                                      |   
+|     Issue-related        |     Issue-Type     |     Most of commits are assigned a type to indicate   its purpose (e.g., Bug, Improvement and New Feature)    |   
+|                          |     NIR            |     Number of issue reports                                                                                   |   
 
 # Usage
 1) environment:  you should set up Java environment.(jdk1.8) you should set up Python3.10 environment.
