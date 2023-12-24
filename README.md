@@ -1,5 +1,5 @@
-# ACMC
-Architecture Change Metrics Calculator
+# CMC
+Commit-level Metrics Calculator
 
 # Metrics
 The metrics calculated by this tool are as follows：
@@ -21,7 +21,8 @@ The metrics calculated by this tool are as follows：
 |                          |     REXP           |     Recent developer experience                                                                               |   
 |                          |     EXP            |     Developer experience                                                                                      |   
 |     Issue-related        |     Issue-Type     |     Most of commits are assigned a type to indicate   its purpose (e.g., Bug, Improvement and New Feature)    |   
-|                          |     NIR            |     Number of issue reports                                                                                   |   
+
+
 
 # Usage
 1) environment:  you should set up Java environment.(jdk1.8) you should set up Python3.10 environment.
